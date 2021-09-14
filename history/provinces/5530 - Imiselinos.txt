@@ -1,0 +1,41 @@
+owner = A20
+controller = A20
+culture = argolian
+trade_goods = wheat
+religion = sunni
+is_city = yes
+set_variable = { 
+	which = gcj
+	value = 3
+}
+set_variable = { 
+	which = gci
+	value = 2
+}
+set_variable = { 
+	which = gch
+	value = 1
+}
+set_variable = { 
+	which = gcn
+	value = 1
+}
+fort_14th = yes
+set_province_flag = small_university
+450.1.1 = { 
+	set_variable = { 
+		which = ami
+		value = 135.400
+	}
+	set_variable = { 
+		which = acp
+		value = 6
+	}
+	set_province_flag = olive
+	set_province_flag = coal
+	set_province_flag = TN_Important
+	set_province_flag = TN_Port
+	set_province_flag = TN_Harbour_Major
+	set_province_flag = TN_Natural_Important
+	set_province_flag = TN_Estuary
+}

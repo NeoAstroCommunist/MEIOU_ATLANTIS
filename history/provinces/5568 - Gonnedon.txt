@@ -1,0 +1,24 @@
+owner = A11
+controller = A11
+culture = cartagean
+trade_goods = cheese
+religion = chalcedonism
+is_city = yes
+set_variable = { 
+	which = gch
+	value = 2
+}
+set_variable = { 
+	which = gcn
+	value = 1
+}
+450.1.1 = { 
+	set_variable = { 
+		which = ami
+		value = 8.000
+	}
+	set_variable = { 
+		which = acp
+		value = 4
+	}
+}

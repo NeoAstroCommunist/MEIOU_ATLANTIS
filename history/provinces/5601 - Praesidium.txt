@@ -1,0 +1,21 @@
+owner = A28
+controller = A28
+culture = thynian
+trade_goods = fish
+religion = fraticelli
+is_city = yes
+450.1.1 = { 
+	set_variable = { 
+		which = ami
+		value = 4.000
+	}
+	set_variable = { 
+		which = acp
+		value = 2.5
+	}
+	set_variable = { 
+		which = amm
+		value = 25
+	}
+	set_province_flag = coal
+}

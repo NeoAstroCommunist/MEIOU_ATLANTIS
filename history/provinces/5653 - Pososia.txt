@@ -1,0 +1,21 @@
+owner = A18
+controller = A18
+culture = locrisian
+trade_goods = livestock
+religion = catholic
+is_city = yes
+set_variable = { 
+	which = gch
+	value = 1
+}
+450.1.1 = { 
+	set_variable = { 
+		which = acp
+		value = 2
+	}
+	set_variable = { 
+		which = amm
+		value = 30
+	}
+	set_province_flag = copper
+}

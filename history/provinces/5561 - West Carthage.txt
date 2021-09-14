@@ -1,0 +1,57 @@
+owner = AT1
+controller = AT1
+culture = cartagean
+trade_goods = olive
+religion = chalcedonism
+is_city = yes
+set_province_flag = medium_university
+set_variable = { 
+	which = gch
+	value = 2
+}
+set_variable = { 
+	which = gcj
+	value = 4
+}
+set_variable = { 
+	which = gcl
+	value = 1
+}
+set_variable = { 
+	which = gci
+	value = 3
+}
+fort_14th = yes
+set_variable = { 
+	which = gck
+	value = 2
+}
+discovered_by = eastern
+discovered_by = byzantine
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+450.1.1 = { 
+	set_variable = { 
+		which = ami
+		value = 260.420
+	}
+	set_variable = { 
+		which = acp
+		value = 6
+	}
+	set_province_flag = olive
+	set_province_flag = TN_Major
+	set_province_flag = TN_Port
+	set_province_flag = TN_Harbour_Major
+	set_province_flag = TN_Natural_Major
+	set_province_flag = TN_Estuary
+	add_permanent_province_modifier = { 
+		name = urban_goods_carpet
+		duration = -1
+	}
+	add_permanent_province_modifier = { 
+		name = urban_goods_metalwork
+		duration = -1
+	}
+}

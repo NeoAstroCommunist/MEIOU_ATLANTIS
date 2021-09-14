@@ -1,0 +1,28 @@
+owner = A40
+controller = A40
+culture = westmali
+trade_goods = hemp
+religion = sunni
+is_city = yes
+set_variable = { 
+	which = gcn
+	value = 1
+}
+set_variable = { 
+	which = gci
+	value = 1
+}
+450.1.1 = { 
+	set_variable = { 
+		which = ami
+		value = 9.000
+	}
+	set_variable = { 
+		which = acp
+		value = 4
+	}
+	set_variable = { 
+		which = amm
+		value = 40
+	}
+}

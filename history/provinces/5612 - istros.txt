@@ -1,0 +1,28 @@
+owner = A27
+controller = A27
+culture = odomantian
+trade_goods = livestock
+religion = fraticelli
+is_city = yes
+set_variable = { 
+	which = gcj
+	value = 1
+}
+set_variable = { 
+	which = gci
+	value = 1
+}
+450.1.1 = { 
+	set_variable = { 
+		which = ami
+		value = 30.000
+	}
+	set_variable = { 
+		which = acp
+		value = 4
+	}
+	set_variable = { 
+		which = amm
+		value = 25
+	}
+}

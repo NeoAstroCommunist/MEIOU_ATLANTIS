@@ -1,0 +1,16 @@
+owner = A36
+controller = A36
+culture = thesrotian
+trade_goods = lumber
+religion = catholic
+is_city = yes
+450.1.1 = { 
+	set_variable = { 
+		which = acp
+		value = 2
+	}
+	set_variable = { 
+		which = amm
+		value = 25
+	}
+}

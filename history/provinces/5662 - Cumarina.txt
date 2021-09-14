@@ -1,0 +1,16 @@
+owner = A27
+controller = A27
+culture = locrisian
+trade_goods = wool
+religion = catholic
+is_city = yes
+450.1.1 = { 
+	set_variable = { 
+		which = acp
+		value = 2
+	}
+	set_variable = { 
+		which = amm
+		value = 30
+	}
+}

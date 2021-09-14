@@ -1,0 +1,21 @@
+owner = A18
+controller = A18
+culture = romanphocisian
+trade_goods = livestock
+religion = catholic
+is_city = yes
+set_variable = { 
+	which = gch
+	value = 1
+}
+450.1.1 = { 
+	set_variable = { 
+		which = ami
+		value = 10.000
+	}
+	set_variable = { 
+		which = acp
+		value = 4
+	}
+	set_province_flag = tin
+}

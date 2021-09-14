@@ -1,0 +1,24 @@
+owner = A14
+controller = A14
+culture = artichian
+trade_goods = lumber
+religion = chalcedonism
+is_city = yes
+set_variable = { 
+	which = gch
+	value = 1
+}
+set_variable = { 
+	which = gcn
+	value = 1
+}
+450.1.1 = { 
+	set_variable = { 
+		which = ami
+		value = 3.000
+	}
+	set_variable = { 
+		which = acp
+		value = 2.5
+	}
+}

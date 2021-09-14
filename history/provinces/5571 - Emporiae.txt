@@ -1,0 +1,22 @@
+owner = AT7
+controller = AT7
+culture = romaneuphemian
+trade_goods = fish
+religion = catholic
+is_city = yes
+set_variable = { 
+	which = gcn
+	value = 1
+}
+450.1.1 = { 
+	set_variable = { 
+		which = ami
+		value = 12.000
+	}
+	set_variable = { 
+		which = acp
+		value = 3.5
+	}
+	set_province_flag = mined_goods
+	set_province_flag = tin
+}

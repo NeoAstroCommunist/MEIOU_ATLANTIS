@@ -1,0 +1,516 @@
+# culture count: 9 
+
+southatlantean = {
+	graphical_culture = westerngfx
+	argolian = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	thesrotian = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	aroanian = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	cidonian = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	phalusian = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	icarian = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	astypalean = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	yazidi = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	socotran = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	hormuzian = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	al_atlantean = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	mozatlantean = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	siculian = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	maltlantean = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	cretlantean = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	baleatlantean = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	ausonian = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+}
+
+westatlantean = {
+	graphical_culture = westerngfx
+	hestian = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	thaumacian = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	brygian = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	saioan = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	dardanian = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	locrisian = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	phocisian = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	dorian = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+}
+
+nativeatlantean = {
+	graphical_culture = westerngfx
+	jendean = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	satraean = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	thynian = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	odomantian = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+}
+
+atlantopunic = {
+	graphical_culture = westerngfx
+	cartagean = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+		athamanean = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	tsakonian = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	bassanian = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	cyphean = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	artichian = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	alyzeian = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	numidian = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	atlantoberber = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+}
+
+romanatlantean = {
+	graphical_culture = westerngfx
+	romansithon = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	romancalydnian = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	romanmagnet = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	romanoean = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	romanphocisian = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	romanemerita = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	romaneuphemian = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+}

@@ -1,0 +1,17 @@
+owner = A29
+controller = A29
+culture = dardanian
+trade_goods = wool
+religion = catholic
+is_city = yes
+450.1.1 = { 
+	set_variable = { 
+		which = acp
+		value = 2
+	}
+	set_variable = { 
+		which = amm
+		value = 30
+	}
+	set_province_flag = iron
+}

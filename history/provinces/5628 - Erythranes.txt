@@ -1,0 +1,20 @@
+owner = A20
+controller = A20
+culture = thesrotian
+trade_goods = wool
+religion = sunni
+is_city = yes
+set_variable = { 
+	which = gch
+	value = 1
+}
+450.1.1 = { 
+	set_variable = { 
+		which = ami
+		value = 4.000
+	}
+	set_variable = { 
+		which = acp
+		value = 3
+	}
+}

@@ -1,0 +1,17 @@
+owner = A31
+controller = A31
+culture = hestian
+trade_goods = wheat
+religion = catholic
+is_city = yes
+450.1.1 = { 
+	set_variable = { 
+		which = acp
+		value = 2
+	}
+	set_variable = { 
+		which = amm
+		value = 25
+	}
+	set_province_flag = iron
+}

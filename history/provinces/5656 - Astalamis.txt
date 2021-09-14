@@ -1,0 +1,26 @@
+owner = A27
+controller = A27
+culture = dorian
+trade_goods = wool
+religion = catholic
+is_city = yes
+set_variable = { 
+	which = gci
+	value = 1
+}
+450.1.1 = { 
+	set_variable = { 
+		which = ami
+		value = 5.000
+	}
+	set_variable = { 
+		which = acp
+		value = 2
+	}
+	set_variable = { 
+		which = amm
+		value = 25
+	}
+	set_province_flag = TN_Harbour_Major
+	set_province_flag = TN_Natural_Minor
+}

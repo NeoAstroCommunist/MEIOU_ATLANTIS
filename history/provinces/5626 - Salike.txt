@@ -1,0 +1,26 @@
+owner = A20
+controller = A20
+culture = thesrotian
+trade_goods = wheat
+religion = sunni
+is_city = yes
+set_variable = { 
+	which = gcj
+	value = 1
+}
+set_variable = { 
+	which = gci
+	value = 1
+}
+450.1.1 = { 
+	set_variable = { 
+		which = ami
+		value = 16.000
+	}
+	set_variable = { 
+		which = acp
+		value = 4
+	}
+	set_province_flag = TN_Minor
+	set_province_flag = TN_Port
+}

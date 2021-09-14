@@ -1,0 +1,16 @@
+owner = A18
+controller = A18
+culture = romanphocisian
+trade_goods = livestock
+religion = catholic
+is_city = yes
+450.1.1 = { 
+	set_variable = { 
+		which = ami
+		value = 3.000
+	}
+	set_variable = { 
+		which = acp
+		value = 2.5
+	}
+}

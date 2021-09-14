@@ -1,0 +1,20 @@
+# ORO - Oromo
+
+government = tribal
+add_government_reform = Pol_Identity1
+add_government_reform = Pol_Leadership2
+add_government_reform = Pol_Tradition2
+add_government_reform = Pol_Nobility1
+government_rank = 1
+mercantilism = 10
+technology_group = east_african unit_type = soudantech
+religion = animism
+primary_culture = oromo_c
+capital = 4091
+
+1000.1.1 = {
+	add_country_modifier = { name = title_3 duration = -1 }
+	set_country_flag = title_3
+	add_absolutism = -100
+	add_absolutism = 0
+}

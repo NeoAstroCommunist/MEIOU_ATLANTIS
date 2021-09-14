@@ -1,0 +1,30 @@
+owner = A36
+controller = A36
+culture = thesrotian
+trade_goods = fish
+religion = sunni
+is_city = yes
+set_variable = { 
+	which = gcj
+	value = 1
+}
+set_variable = { 
+	which = gci
+	value = 1
+}
+450.1.1 = { 
+	set_variable = { 
+		which = ami
+		value = 12.000
+	}
+	set_variable = { 
+		which = acp
+		value = 3.5
+	}
+	set_province_flag = coal
+	set_province_flag = TN_Minor
+	set_province_flag = TN_Port
+	set_province_flag = TN_Estuary
+	set_province_flag = TN_Natural_Minor
+	set_province_flag = TN_Estuary
+}

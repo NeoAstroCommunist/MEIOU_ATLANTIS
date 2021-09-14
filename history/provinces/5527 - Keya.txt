@@ -1,0 +1,17 @@
+owner = A20
+controller = A20
+culture = baleatlantean
+trade_goods = wheat
+religion = sunni
+is_city = yes
+450.1.1 = { 
+	set_variable = { 
+		which = ami
+		value = 10.000
+	}
+	set_variable = { 
+		which = acp
+		value = 3.5
+	}
+	set_province_flag = coal
+}

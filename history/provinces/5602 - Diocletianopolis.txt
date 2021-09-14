@@ -1,0 +1,39 @@
+owner = A39
+controller = A39
+culture = romanmagnet
+trade_goods = wheat
+religion = catholic
+is_city = yes
+set_variable = { 
+	which = gci
+	value = 2
+}
+set_variable = { 
+	which = gcj
+	value = 2
+}
+set_variable = { 
+	which = gck
+	value = 2
+}
+450.1.1 = { 
+	set_variable = { 
+		which = ami
+		value = 72.000
+	}
+	set_variable = { 
+		which = acp
+		value = 5
+	}
+	set_province_flag = TN_Harbour_Minor
+	set_province_flag = TN_Natural_Minor
+	add_permanent_province_modifier = { 
+		name = urban_goods_linen
+		duration = -1
+	}
+	set_province_flag = iron
+	add_permanent_province_modifier = { 
+		name = urban_goods_naval_supplies
+		duration = -1
+	}
+}

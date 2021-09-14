@@ -1,0 +1,74 @@
+# SRR - Despotate of Serres
+# Knezevina Srbija (Principality of Serbia)
+
+government = monarchy
+add_government_reform = Pol_Succession1 #feel free to revise
+add_government_reform = Pol_Assembly1
+add_government_reform = Pol_Nobility1
+government_rank = 1
+mercantilism = 0.0
+primary_culture = serbian
+add_accepted_culture = greek
+religion = orthodox
+technology_group = eastern
+capital = 155 # Serres
+historical_rival = TSL
+historical_rival = BUL
+historical_friend = BYZ
+historical_rival = OTT
+historical_neutral = VID
+historical_neutral = DOB
+historical_rival = HUN
+
+1000.1.1 = {
+	add_country_modifier = { name = title_2 duration = -1 }
+	set_country_flag = title_2
+	set_country_flag = p_of_ser
+	#set_key = { lhs = centralization_decentralization value = 2 }
+	add_absolutism = -100
+	add_absolutism = 30
+	#set_country_flag = native_greek_state
+	add_war_exhaustion = 4 # wars to form the empire
+}	
+
+1345.5.12 = {
+	monarch = {
+		name = "Jovan Uglješa"
+		dynasty = "Mrnjavcevic"
+		birth_date = 1320.5.12
+		ADM = 2
+		MIL = 2
+		DIP = 2
+	}
+	define_consort = {
+		name = "Jelena"
+		dynasty = "od Drame"
+		birth_date = 1349.1.2
+		ADM = 1
+		DIP = 5
+		MIL = 1
+		female = yes
+	}
+	heir = {
+		name = "Vojihna"
+		monarch_name = "Vojin"
+		dynasty = "od Drame"
+		claim = 95
+		mil = 3
+		adm = 2
+		dip = 1
+		birth_date = 1298.1.1
+	}
+	define_heir_to_general = {
+		fire = 3
+		shock = 4
+		manuever = 2
+		siege = 2
+	}
+	add_opinion = {
+		who = OTT
+		modifier = anti_otto_leanings
+	}
+}
+
+	

@@ -1,0 +1,18 @@
+owner = A17
+controller = A17
+culture = romanemerita
+trade_goods = lumber
+religion = catholic
+is_city = yes
+450.1.1 = { 
+	set_variable = { 
+		which = ami
+		value = 8.000
+	}
+	set_variable = { 
+		which = acp
+		value = 3
+	}
+	set_province_flag = mined_goods
+	set_province_flag = silver
+}

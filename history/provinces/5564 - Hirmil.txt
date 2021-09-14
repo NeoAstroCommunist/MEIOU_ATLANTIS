@@ -1,0 +1,25 @@
+owner = AT3
+controller = AT3
+culture = cartagean
+trade_goods = wheat
+religion = chalcedonism
+is_city = yes
+fort_14th = yes
+set_variable = { 
+	which = gci
+	value = 2
+}
+set_variable = { 
+	which = gcj
+	value = 1
+}
+set_variable = { 
+	which = gck
+	value = 1
+}
+450.1.1 = { 
+	set_variable = { 
+		which = acp
+		value = 4.5
+	}
+}

@@ -1,0 +1,16 @@
+owner = AT6
+controller = AT6
+culture = thynian
+trade_goods = fish
+religion = catholic
+is_city = yes
+450.1.1 = { 
+	set_variable = { 
+		which = acp
+		value = 2
+	}
+	set_variable = { 
+		which = amm
+		value = 40
+	}
+}

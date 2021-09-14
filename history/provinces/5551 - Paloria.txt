@@ -1,0 +1,20 @@
+owner = AT8
+controller = AT8
+culture = bassanian
+trade_goods = wool
+religion = chalcedonism
+is_city = yes
+set_variable = { 
+	which = gcn
+	value = 1
+}
+450.1.1 = { 
+	set_variable = { 
+		which = ami
+		value = 3.000
+	}
+	set_variable = { 
+		which = acp
+		value = 2.5
+	}
+}

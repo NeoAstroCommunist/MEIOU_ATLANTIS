@@ -1,0 +1,27 @@
+owner = AT2
+controller = AT2
+culture = cartagean
+trade_goods = wheat
+religion = chalcedonism
+is_city = yes
+450.1.1 = { 
+	set_variable = { 
+		which = ami
+		value = 203.600
+	}
+	set_variable = { 
+		which = acp
+		value = 5.5
+	}
+	set_province_flag = TN_Harbour_Major
+	set_province_flag = TN_Natural_Minor
+	add_permanent_province_modifier = { 
+		name = urban_goods_naval_supplies
+		duration = -1
+	}
+	add_permanent_province_modifier = { 
+		name = urban_goods_metalwork
+		duration = -1
+	}
+	set_province_flag = wine
+}

@@ -1,0 +1,22 @@
+owner = A20
+controller = A20
+culture = siculian
+trade_goods = carmine
+religion = sunni
+is_city = yes
+450.1.1 = { 
+	set_variable = { 
+		which = ami
+		value = 8.000
+	}
+	set_variable = { 
+		which = acp
+		value = 3.5
+	}
+	set_province_flag = olive
+	set_province_flag = seasalt
+	add_permanent_province_modifier = { 
+		name = urban_goods_naval_supplies
+		duration = -1
+	}
+}

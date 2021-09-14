@@ -1,0 +1,21 @@
+owner = AT1
+controller = AT1
+culture = ausonian
+trade_goods = fish
+religion = chalcedonism
+is_city = yes
+set_variable = { 
+	which = gci
+	value = 1
+}
+450.1.1 = { 
+	set_variable = { 
+		which = ami
+		value = 18.000
+	}
+	set_variable = { 
+		which = acp
+		value = 4
+	}
+	set_province_flag = sugar
+}

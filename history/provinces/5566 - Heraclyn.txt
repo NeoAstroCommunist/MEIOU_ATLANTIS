@@ -1,0 +1,20 @@
+owner = AT2
+controller = AT2
+culture = cartagean
+trade_goods = wheat
+religion = chalcedonism
+is_city = yes
+set_variable = { 
+	which = gcj
+	value = 1
+}
+450.1.1 = { 
+	set_variable = { 
+		which = ami
+		value = 8.000
+	}
+	set_variable = { 
+		which = acp
+		value = 4
+	}
+}

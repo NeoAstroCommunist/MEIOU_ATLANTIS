@@ -1,0 +1,16 @@
+owner = A23
+controller = A23
+culture = romanoean
+trade_goods = fish
+religion = catholic
+is_city = yes
+450.1.1 = { 
+	set_variable = { 
+		which = ami
+		value = 3.000
+	}
+	set_variable = { 
+		which = acp
+		value = 3
+	}
+}
