@@ -6,7 +6,7 @@ add_government_reform = Pol_Nobility2
 government_rank = 1
 technology_group = western
 primary_culture = odomantian
-religion = fraticelli
+religion = arianism
 capital = 5612
 
 1000.1.1 = {

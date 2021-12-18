@@ -6,7 +6,7 @@ add_government_reform = Pol_Nobility1
 government_rank = 1
 mercantilism = 10
 primary_culture = thynian
-religion = fraticelli
+religion = arianism
 technology_group = western
 capital = 5613	
 
