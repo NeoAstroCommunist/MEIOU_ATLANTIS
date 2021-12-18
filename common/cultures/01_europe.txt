@@ -436,7 +436,7 @@ low_germanic = {
 high_germanic = {
 	graphical_culture = westerngfx
 	eastfranconian = {
-		primary = WBG
+		primary = FKN
 		
 	}
 	bavarian = {
@@ -1884,92 +1884,6 @@ scandinavian = {
 			Ulfeldt Ulfstand
 		}
 	}
-	fjernoyeran = {
-		
-		male_names = {
-			Aksel Ale Alf Alfgeir Alfr Anders Andrew Anlaufr Ansgard Anund Anundr Arnbjörn Arne Arnfast Arngrimr Arni Arvid Asbjörn
-			Åke
-			Bagge Balder Baldr Barid Benedict Bengt Beorn Bernt Bersi Bertil Birger Björn Bjørn Bo Borkvard Botulfr Brage Bragi Buðli
-			Charles Christoffer
-			Dag Dan Daniel Dyre
-			Edvard Edward Egil Egill Eilert Eilif Einar Einarr Eirikr Elias Emund Erik Esben Eskild Eysteinn
-			Falki Faste Filip Folke Folki Frederick Fredrik Frej Freyr Frirek Frode
-			Gandalfr Geirr Georg George Gnupa Godfrey Gorm Greger Gregory Grim Grimr Guðmundr Gudmund Gudröd Gunnar Gunnarr
-			Håkon Hæsteinn Hakon Halsten Harald Haraldr Harold Haukr Helge Helgi Hemming Hjalmar Holmger Hrafn Hrane Hrolfr Hysing
-			Ingólfr Inge Ingemar Ingjald Ingolf Ingvar Ivar
-			Jedvard John Jon
-			Karl Kasper Kennet Kettil Kettilmund Kjartan Klas Knut Kol Kolbjörn
-			Ludvig
-			Magnus Marcus Markus Mats Matthew Mikael
-			Nicholas Niklas Nils Njåld Njord
-			Odd Oddmund Oddr Ofeig Olaf Olafr Olav Orm Ormr Orvar Ottar Ottarr
-			Örvar Öysteinn
-			Peder Philip
-			Rögnvaldr Ragnar Ragnarr Ragnvald Refil Refr Rikard Rikulfr Rolf
-			Sämund Sæmundr Sölve Sölvi Sörkver Søren Sigbjörn Sigtrygg Sigurðr Sigurd Simon Skule Skuli Snorri Somerled Starkad Steinn Sten Sturla Styrbjörn Styrkar Sune Suni Sveinn Sven Sverker
-			Thorolf Tjudmund Toke Tolir Tollak Torbjörn Torbrand Tord Torfinn Torkel Torsten Toste Totil Tryggve Tyke
-			Ulf Ulfr
-			Vagn Valdemar Vladimir
-			Yngvar
-			Þorbjörn Þorbrandr Þordr Þorfinn Þorgil Þorolfr Þorsteinn
-		}
-		female_names = {
-			Aleta Alfhild Alfhildr Alfridh Alvör Anna Asa Aslaug Asta Astrid
-			Åsa
-			Beata Birgitta Björg Bodil Bothild Bothildr Brigid
-			Catherine Cecilia Christina
-			Edla Elin Elisabet Elizabeth
-			Freja Freyja
-			Grima Gudrun Gunhild Gunnhildr Gurli Gyla Gytha
-			Hafrid Halla Helen Helena Holmfrid
-			Iliana Inga Ingeborg Ingegerd Ingfrid Ingibjörg Ingjerðr Ingrid
-			Karin Katarina Kraka Kristina
-			Linda
-			Maer Malmfrið Malmfrid Margaret Margareta Maria
-			Rögnfrid Rögnhildr Ragnfrid Ragnhild Rikissa
-			Saga Sara Sarah Sif Sigrid Skuld Sofia Sophia Svanhild Svanhildr
-			Thora Thordis Thyra Torhild
-			Ulfhildr Ulvhilde
-			Vigdis
-			Ylva Yrsa
-			Þora Þordis Þyra
-		}
-		dynasty_names = {
-			Adeler Alfr
-			Benkestok Bielke Bildt Bille Blixenskiold Bonde
-			Drake
-			Falsen Flod
-			Galte Galtung Gyldenpalm
-			Hårfagreætta Handingmann Herja Heubsch Holberg Hylling
-			Iuel
-			Kaas Kane Kløcker Knagenhjelm Koss Kruckow
-			Løvenskiold
-			Mowat
-			Paus
-			Rømer Roos Rosenheim Rosenkrantz Rosenvinge
-			Schouboe Skaktavl Smør
-			Tordenskiold Tordenstierne
-			Urne
-			Vansö Vidfamne
-			Werenskiold Wessel Westervick
-			Ytra
-			"af Åland"
-			"af Vendel"
-			"av Alfheim" "av Askø"
-			"av Hafrsfjord"
-			"av Nordland"
-			"av Røra"
-			
-			# CKII
-			Adelswärd
-			Balke Bjelke Blixen Bolt Brockenhuus
-			Galle Giske Griis
-			Kane
-			Løvendal
-			Skanke
-			Vedel
-		}
-	}
 	norwegian = {
 		primary = NOR
 		
@@ -2229,6 +2143,92 @@ scandinavian = {
 	}
 	norse = {
 		primary = ICE
+		
+		male_names = {
+			Aksel Ale Alf Alfgeir Alfr Anders Andrew Anlaufr Ansgard Anund Anundr Arnbjörn Arne Arnfast Arngrimr Arni Arvid Asbjörn
+			Åke
+			Bagge Balder Baldr Barid Benedict Bengt Beorn Bernt Bersi Bertil Birger Björn Bjørn Bo Borkvard Botulfr Brage Bragi Buðli
+			Charles Christoffer
+			Dag Dan Daniel Dyre
+			Edvard Edward Egil Egill Eilert Eilif Einar Einarr Eirikr Elias Emund Erik Esben Eskild Eysteinn
+			Falki Faste Filip Folke Folki Frederick Fredrik Frej Freyr Frirek Frode
+			Gandalfr Geirr Georg George Gnupa Godfrey Gorm Greger Gregory Grim Grimr Guðmundr Gudmund Gudröd Gunnar Gunnarr
+			Håkon Hæsteinn Hakon Halsten Harald Haraldr Harold Haukr Helge Helgi Hemming Hjalmar Holmger Hrafn Hrane Hrolfr Hysing
+			Ingólfr Inge Ingemar Ingjald Ingolf Ingvar Ivar
+			Jedvard John Jon
+			Karl Kasper Kennet Kettil Kettilmund Kjartan Klas Knut Kol Kolbjörn
+			Ludvig
+			Magnus Marcus Markus Mats Matthew Mikael
+			Nicholas Niklas Nils Njåld Njord
+			Odd Oddmund Oddr Ofeig Olaf Olafr Olav Orm Ormr Orvar Ottar Ottarr
+			Örvar Öysteinn
+			Peder Philip
+			Rögnvaldr Ragnar Ragnarr Ragnvald Refil Refr Rikard Rikulfr Rolf
+			Sämund Sæmundr Sölve Sölvi Sörkver Søren Sigbjörn Sigtrygg Sigurðr Sigurd Simon Skule Skuli Snorri Somerled Starkad Steinn Sten Sturla Styrbjörn Styrkar Sune Suni Sveinn Sven Sverker
+			Thorolf Tjudmund Toke Tolir Tollak Torbjörn Torbrand Tord Torfinn Torkel Torsten Toste Totil Tryggve Tyke
+			Ulf Ulfr
+			Vagn Valdemar Vladimir
+			Yngvar
+			Þorbjörn Þorbrandr Þordr Þorfinn Þorgil Þorolfr Þorsteinn
+		}
+		female_names = {
+			Aleta Alfhild Alfhildr Alfridh Alvör Anna Asa Aslaug Asta Astrid
+			Åsa
+			Beata Birgitta Björg Bodil Bothild Bothildr Brigid
+			Catherine Cecilia Christina
+			Edla Elin Elisabet Elizabeth
+			Freja Freyja
+			Grima Gudrun Gunhild Gunnhildr Gurli Gyla Gytha
+			Hafrid Halla Helen Helena Holmfrid
+			Iliana Inga Ingeborg Ingegerd Ingfrid Ingibjörg Ingjerðr Ingrid
+			Karin Katarina Kraka Kristina
+			Linda
+			Maer Malmfrið Malmfrid Margaret Margareta Maria
+			Rögnfrid Rögnhildr Ragnfrid Ragnhild Rikissa
+			Saga Sara Sarah Sif Sigrid Skuld Sofia Sophia Svanhild Svanhildr
+			Thora Thordis Thyra Torhild
+			Ulfhildr Ulvhilde
+			Vigdis
+			Ylva Yrsa
+			Þora Þordis Þyra
+		}
+		dynasty_names = {
+			Adeler Alfr
+			Benkestok Bielke Bildt Bille Blixenskiold Bonde
+			Drake
+			Falsen Flod
+			Galte Galtung Gyldenpalm
+			Hårfagreætta Handingmann Herja Heubsch Holberg Hylling
+			Iuel
+			Kaas Kane Kløcker Knagenhjelm Koss Kruckow
+			Løvenskiold
+			Mowat
+			Paus
+			Rømer Roos Rosenheim Rosenkrantz Rosenvinge
+			Schouboe Skaktavl Smør
+			Tordenskiold Tordenstierne
+			Urne
+			Vansö Vidfamne
+			Werenskiold Wessel Westervick
+			Ytra
+			"af Åland"
+			"af Vendel"
+			"av Alfheim" "av Askø"
+			"av Hafrsfjord"
+			"av Nordland"
+			"av Røra"
+			
+			# CKII
+			Adelswärd
+			Balke Bjelke Blixen Bolt Brockenhuus
+			Galle Giske Griis
+			Kane
+			Løvendal
+			Skanke
+			Vedel
+		}
+	}
+	fjernoyeran = {
 		
 		male_names = {
 			Aksel Ale Alf Alfgeir Alfr Anders Andrew Anlaufr Ansgard Anund Anundr Arnbjörn Arne Arnfast Arngrimr Arni Arvid Asbjörn
@@ -4270,7 +4270,7 @@ iberian = {
 		}
 	}
 	andalucian = {
-#		primary = TOL
+		primary = GRA
 		
 		dynasty_names = {
 			Nasrid
@@ -5638,10 +5638,6 @@ romanian = {
 		primary = WAL
 		
 	}
-	moldovian = {
-		primary = MOL
-		
-	}
 	transylvanian = {
 		primary = TRA
 		
@@ -5970,39 +5966,6 @@ east_slavic = {
 	}
 	ruthenian = {
 		primary = KIE
-		
-		male_names = {
-			Afanasiy Akim Aleksandr Alexei Anatoliy Andrei Arkadiy
-			Boris
-			Daniil Dmitriy Dorofey
-			Feodosiy Feofilakt Fyodor
-			Gavriil Gleb
-			Igor Ingvar Innokentiy Iosif Ivan Izyaslav
-			Lavrentiy
-			Makariy Matveiy Mikhail Mstislav
-			Nazariy Nikifor
-			Oleg Onisim
-			Pavel Prokopiy Pyotr
-			Radomir Roman Rostislav Ryurik
-			Saveliy Semen Sergei Stanislav Svyatoslav
-			Terentiy
-			Valeriy Vladimir Vsevolod Vyacheslav
-			Yakim Yaropolk Yaroslav Yevgeniy Yuriy
-		}
-		female_names = {
-			Aleksandra Alla
-			Bronislava
-			Gavriila
-			Larisa Lyudmila
-			Nadejda
-			Rostislava
-			Svetlana
-			Vladislava
-			Yaroslava Yuliya
-		}
-	}
-	cossack = {
-		primary = ZAZ
 		
 		male_names = {
 			Afanasiy Akim Aleksandr Alexei Anatoliy Andrei Arkadiy
@@ -6443,7 +6406,6 @@ greek_group = {
 		}
 	}
 	aromanian = {
-		primary = GRE
 		dynasty_names = {
 			Basarab
 			Callimachi Cantacuzino Cantemiresti Caradja Conachi Craiovesti
@@ -6724,71 +6686,6 @@ georgian_group = {
 # culture count: 8
 caucasus_group = {
 	graphical_culture = easterngfx
-	modern_georgian = {
-		primary = GEO
-		
-		dynasty_names = {
-			Bagrationi
-			Mukhrani
-			# CKII
-			Abazasdze Abuladze Agiashvili Amirejibi Anchabadze Andronikashvili
-			Chavchavadze Chkhetidze Cholokashvili
-			Dadiani Diasamidze
-			Gelovani Gurieli
-			Iashvili
-			Japaridze Jaqeli Javakhishvili Jorjadze
-			Kakhaberisdze Kherkheulidze Khimshiashvili Kobulashvili
-			Lortkipanidze
-			Machabeli Machutadze Mikeladze Mkhetsidze
-			Orbeliani
-			Palavandishvili Panaskerteli
-			Shervashidze Shildisani Sologashvili
-			Tavdgiridze
-			Vakhvakhishvili
-			Zevdginidze
-		}
-		male_names = {
-			Adarnase Aghsartan Aleksandre Andronik Anzori Archil Archili Ashot Atrnerseh
-			Bagour Bagrat Bakar Bakur Bebur Birtveli
-			Davit Demetre Demna Djavakhi Djurkha
-			Erekle
-			Gabriel Gabrieli Gagik Gagiki Giorgi Grigoli Guaram Gubaz Gulikho Gurgen
-			Iese Iesse Ioane Ishkhan Ishkhanik Iveri
-			Jarji
-			Kaihosro Kaikhosro Kakhi Kartlos Keykhosrau Koba Koki Konstantine Kvarkvare Kviria Kvirike
-			Leo Levan Luarsab Lukhum Lupo
-			Malkhas Malkhazi Mamia Merab Mikheil Mukhran Mushni
-			Narses Nerse Nicholas Nikoloz
-			Okhropir Orbeli
-			Padla
-			Revaz Rostom-Mirza
-			Samoeli Shahanshah Shanshe Shota Simon Smbat Stefanoz Stepanoz Sumbat
-			Takha Teimuraz Torgva Tornik Tornike Tsotne
-			Ushisha
-			Vache Vakhtang Vakhtank
-			Xareba
-			Zurab Zviadi
-		}
-		female_names = {
-			Ana Anna
-			Baia Bedisa Borena
-			Catherine Chiora Chito
-			Dali Dedika Duda Dzabuli
-			Elene Eliso Endzela
-			Gogutsa Gorandukht Gulchara Guliko Gulisa Gulvardi Guranduht Gvantsa
-			Helen
-			Ia
-			Judjuna
-			Kekela Ketevan
-			Lamara Lamzira Lela
-			Mariam Mariami Mathiko Mthvarisa Mzekhar
-			Natia Nino
-			Rusudan
-			Sanatha Shorena Shukhia Suliko
-			Tamar Tamari Taplo Thamar Tinatini Tsiala
-			Vardo
-		}
-	}
 	dagestani = {
 		primary = GAZ
 		
@@ -7090,6 +6987,30 @@ caucasus_group = {
 		}
 	}
 	lezgian = {
+		
+		male_names = {
+			Petrezok Verzacht Belzebuk Parsabok Smbat Stepanos Stephen Tachat Taniel Daniel Tatoul Tigran 
+			Tornik Tovmas Thomas Thoros Theodore Trdat Vache Vachagan Vagharshak Vahag Vahan Vahram Vakhtank Varazdat
+			Vartan Vassak Vesd Vrtanes Zakare Zarmihr
+			
+			Bougatchik Tanachouk Sibok Atsymtchouk Toutaryk Ezgbold Koudadik Kavklytch Kanoukov 
+			Temriouk Tazriout Tchiourak Baachik Machik Boulgairouk Namstriouk Chopchouk 
+			Mait Kanboulat Koudenet Khoudenet Otchikan Damaniouk Domaniouk Isbouldoug Anzarouk 
+			Chimgalei Kanglytchev Bitemriouk Cholokh Tachbsaroukov Papchouk Oslonbek 
+			Kaitouk Nastriouk Nartchov Pchimakha Iansokh Ademir Kazanalp Boudatcheis Sountchelei 
+			Olegouk Khotokiouki Ildar Tchapolov Saltankoul Saouslan Tazryt Okhlov Moudar 
+			Kounmourza Kanchov Slanbek inarmas Klytch Sataltanmagnout Kazy
+		}
+		female_names = {
+			Zuliyzhan Susane Babishe Zmroukhd Adrine Elsapet Sarine Khazbiika Kheeda Kurbiika Laila Laliita Lamaara Liiza Looli 
+			Lulii Maali Maaret Madiina Makka Maliika Malkan Marjam Marzhan Milaana Nurbiika Nurishat Nuura Peet'mat Qoqa
+		}
+		dynasty_names = {
+			Guaye Adamiy Abzakh Zhaney Mamkhegh Mokhosh Natukhai Temirgoy
+			Hatuqwai Khegaik Khetuk Cöbein Shapsug Beslenei Ubykh Tazryt Okhlov
+		}
+	}
+	udi = {
 		
 		male_names = {
 			Petrezok Verzacht Belzebuk Parsabok Smbat Stepanos Stephen Tachat Taniel Daniel Tatoul Tigran 
