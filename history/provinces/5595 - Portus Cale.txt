@@ -4,26 +4,15 @@ culture = romancalydnian
 trade_goods = indigo
 religion = catholic
 is_city = yes
-set_variable = { 
-	which = gci
-	value = 2
+set_key = { lhs = Infra_Harbourage value = 2
 }
-set_variable = { 
-	which = gcj
-	value = 1
+set_key = { lhs = Infra_Amenities value = 1
 }
-set_variable = { 
-	which = gcn
-	value = 1
+set_key = { lhs = Infra_Garrison value = 1
 }
 450.1.1 = { 
-	set_variable = { 
-		which = ami
-		value = 7.000
+set_key = { lhs = starting_urban_pop_1350 value = 7.000
 	}
-	set_variable = { 
-		which = acp
-		value = 3
-	}
+
 	set_province_flag = TN_Island
 }

@@ -5,13 +5,8 @@ trade_goods = wool
 religion = catholic
 is_city = yes
 450.1.1 = { 
-	set_variable = { 
-		which = acp
-		value = 2
-	}
-	set_variable = { 
-		which = amm
-		value = 30
+
+	set_key = { lhs = tribals_ratio value = 30
 	}
 	set_province_flag = iron
 }

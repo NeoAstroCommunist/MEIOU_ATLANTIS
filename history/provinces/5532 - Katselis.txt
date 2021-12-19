@@ -4,22 +4,14 @@ culture = argolian
 trade_goods = wheat
 religion = sunni
 is_city = yes
-set_variable = { 
-	which = gcj
-	value = 1
+set_key = { lhs = Infra_Amenities value = 1
 }
-set_variable = { 
-	which = gch
-	value = 1
+set_key = { lhs = Infra_Pathing value = 1
 }
-set_variable = { 
-	which = gci
-	value = 1
+set_key = { lhs = Infra_Harbourage value = 1
 }
 450.1.1 = { 
-	set_variable = { 
-		which = ami
-		value = 26.000
+set_key = { lhs = starting_urban_pop_1350 value = 26.000
 	}
 	set_variable = { 
 		which = acp

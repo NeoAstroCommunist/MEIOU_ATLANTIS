@@ -5,16 +5,12 @@ trade_goods = fish
 religion = sunni
 is_city = yes
 450.1.1 = { 
-	set_variable = { 
-		which = ami
-		value = 9.000
+set_key = { lhs = starting_urban_pop_1350 value = 9.000
 	}
 	set_variable = { 
 		which = acp
 		value = 3.5
 	}
-	set_variable = { 
-		which = amm
-		value = 20
+	set_key = { lhs = tribals_ratio value = 20
 	}
 }

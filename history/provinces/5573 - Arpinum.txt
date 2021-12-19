@@ -4,27 +4,16 @@ culture = romansithon
 trade_goods = carmine
 religion = catholic
 is_city = yes
-set_variable = { 
-	which = gcn
-	value = 1
+set_key = { lhs = Infra_Garrison value = 1
 }
-set_variable = { 
-	which = gci
-	value = 1
+set_key = { lhs = Infra_Harbourage value = 1
 }
-set_variable = { 
-	which = gcj
-	value = 1
+set_key = { lhs = Infra_Amenities value = 1
 }
 450.1.1 = { 
-	set_variable = { 
-		which = ami
-		value = 32.000
+set_key = { lhs = starting_urban_pop_1350 value = 32.000
 	}
-	set_variable = { 
-		which = acp
-		value = 4
-	}
+
 	set_province_flag = TN_Harbour_Minor
 	set_province_flag = TN_Natural_Minor
 }

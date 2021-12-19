@@ -4,14 +4,10 @@ culture = bassanian
 trade_goods = wool
 religion = chalcedonism
 is_city = yes
-set_variable = { 
-	which = gcn
-	value = 1
+set_key = { lhs = Infra_Garrison value = 1
 }
 450.1.1 = { 
-	set_variable = { 
-		which = ami
-		value = 3.000
+set_key = { lhs = starting_urban_pop_1350 value = 3.000
 	}
 	set_variable = { 
 		which = acp

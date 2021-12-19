@@ -4,18 +4,12 @@ culture = romanphocisian
 trade_goods = wool
 religion = catholic
 is_city = yes
-set_variable = { 
-	which = gch
-	value = 1
+set_key = { lhs = Infra_Pathing value = 1
 }
-set_variable = { 
-	which = gcn
-	value = 1
+set_key = { lhs = Infra_Garrison value = 1
 }
 450.1.1 = { 
-	set_variable = { 
-		which = ami
-		value = 12.000
+set_key = { lhs = starting_urban_pop_1350 value = 12.000
 	}
 	set_variable = { 
 		which = acp

@@ -4,27 +4,16 @@ culture = numidian
 trade_goods = hemp
 religion = chalcedonism
 is_city = yes
-set_variable = { 
-	which = gch
-	value = 1
+set_key = { lhs = Infra_Pathing value = 1
 }
-set_variable = { 
-	which = gcj
-	value = 1
+set_key = { lhs = Infra_Amenities value = 1
 }
-set_variable = { 
-	which = gcn
-	value = 1
+set_key = { lhs = Infra_Garrison value = 1
 }
-set_variable = { 
-	which = gck
-	value = 1
+set_key = { lhs = Infra_Irrigation value = 1
 }
 450.1.1 = { 
-	set_variable = { 
-		which = acp
-		value = 5
-	}
+
 	add_permanent_province_modifier = { 
 		name = urban_goods_leather
 		duration = -1

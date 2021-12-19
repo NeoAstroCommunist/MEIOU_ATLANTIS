@@ -4,21 +4,12 @@ culture = romanmagnet
 trade_goods = wheat
 religion = catholic
 is_city = yes
-set_variable = { 
-	which = gci
-	value = 1
+set_key = { lhs = Infra_Harbourage value = 1
 }
-set_variable = { 
-	which = gcn
-	value = 1
+set_key = { lhs = Infra_Garrison value = 1
 }
 450.1.1 = { 
-	set_variable = { 
-		which = ami
-		value = 16.000
+set_key = { lhs = starting_urban_pop_1350 value = 16.000
 	}
-	set_variable = { 
-		which = acp
-		value = 4
-	}
+
 }

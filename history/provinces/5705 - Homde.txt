@@ -5,9 +5,7 @@ trade_goods = wheat
 religion = catholic
 is_city = yes
 450.1.1 = { 
-	set_variable = { 
-		which = ami
-		value = 12.000
+set_key = { lhs = starting_urban_pop_1350 value = 12.000
 	}
 	set_variable = { 
 		which = acp

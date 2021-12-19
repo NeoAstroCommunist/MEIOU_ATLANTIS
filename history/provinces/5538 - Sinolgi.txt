@@ -4,27 +4,16 @@ culture = alyzeian
 trade_goods = sugar
 religion = chalcedonism
 is_city = yes
-set_variable = { 
-	which = gcn
-	value = 1
+set_key = { lhs = Infra_Garrison value = 1
 }
-set_variable = { 
-	which = gci
-	value = 1
+set_key = { lhs = Infra_Harbourage value = 1
 }
-set_variable = { 
-	which = gck
-	value = 2
+set_key = { lhs = Infra_Irrigation value = 2
 }
 450.1.1 = { 
-	set_variable = { 
-		which = ami
-		value = 52.420
+set_key = { lhs = starting_urban_pop_1350 value = 52.420
 	}
-	set_variable = { 
-		which = acp
-		value = 5
-	}
+
 	set_province_flag = TN_Important
 	set_province_flag = TN_Port
 	set_province_flag = TN_Estuary

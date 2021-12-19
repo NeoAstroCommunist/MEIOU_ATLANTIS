@@ -5,9 +5,7 @@ trade_goods = livestock
 religion = chalcedonism
 is_city = yes
 450.1.1 = { 
-	set_variable = { 
-		which = ami
-		value = 6.000
+set_key = { lhs = starting_urban_pop_1350 value = 6.000
 	}
 	set_variable = { 
 		which = acp

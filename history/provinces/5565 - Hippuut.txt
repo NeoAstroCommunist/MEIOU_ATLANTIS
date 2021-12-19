@@ -4,24 +4,16 @@ culture = cartagean
 trade_goods = fish
 religion = chalcedonism
 is_city = yes
-set_variable = { 
-	which = gci
-	value = 2
+set_key = { lhs = Infra_Harbourage value = 2
 }
-set_variable = { 
-	which = gcj
-	value = 2
+set_key = { lhs = Infra_Amenities value = 2
 }
-set_variable = { 
-	which = gch
-	value = 2
+set_key = { lhs = Infra_Pathing value = 2
 }
 set_province_flag = small_university
 fort_14th = yes
 450.1.1 = { 
-	set_variable = { 
-		which = ami
-		value = 160.120
+set_key = { lhs = starting_urban_pop_1350 value = 160.120
 	}
 	set_variable = { 
 		which = acp

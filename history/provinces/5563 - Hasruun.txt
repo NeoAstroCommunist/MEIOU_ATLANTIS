@@ -4,15 +4,10 @@ culture = cartagean
 trade_goods = wax
 religion = chalcedonism
 is_city = yes
-set_variable = { 
-	which = gcn
-	value = 1
+set_key = { lhs = Infra_Garrison value = 1
 }
 450.1.1 = { 
-	set_variable = { 
-		which = acp
-		value = 5
-	}
+
 	set_province_flag = mined_goods
 	set_province_flag = iron
 }

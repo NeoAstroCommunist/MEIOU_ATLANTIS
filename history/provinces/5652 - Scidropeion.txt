@@ -9,9 +9,7 @@ is_city = yes
 		which = acp
 		value = 2.5
 	}
-	set_variable = { 
-		which = amm
-		value = 20
+	set_key = { lhs = tribals_ratio value = 20
 	}
 	set_province_flag = iron
 }

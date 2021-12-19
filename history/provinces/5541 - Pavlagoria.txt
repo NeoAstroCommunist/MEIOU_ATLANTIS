@@ -4,21 +4,13 @@ culture = alyzeian
 trade_goods = cotton
 religion = chalcedonism
 is_city = yes
-set_variable = { 
-	which = gcj
-	value = 1
+set_key = { lhs = Infra_Amenities value = 1
 }
-set_variable = { 
-	which = gch
-	value = 1
+set_key = { lhs = Infra_Pathing value = 1
 }
-set_variable = { 
-	which = gci
-	value = 1
+set_key = { lhs = Infra_Harbourage value = 1
 }
-set_variable = { 
-	which = gcn
-	value = 1
+set_key = { lhs = Infra_Garrison value = 1
 }
 450.1.1 = { 
 	set_variable = { 

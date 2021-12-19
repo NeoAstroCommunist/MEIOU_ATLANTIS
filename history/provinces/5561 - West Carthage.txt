@@ -5,26 +5,16 @@ trade_goods = olive
 religion = chalcedonism
 is_city = yes
 set_province_flag = medium_university
-set_variable = { 
-	which = gch
-	value = 2
+set_key = { lhs = Infra_Pathing value = 2
 }
-set_variable = { 
-	which = gcj
-	value = 4
+set_key = { lhs = Infra_Amenities value = 4
 }
-set_variable = { 
-	which = gcl
-	value = 1
+set_key = { lhs = Infra_Capitol value = 1
 }
-set_variable = { 
-	which = gci
-	value = 3
+set_key = { lhs = Infra_Harbourage value = 3
 }
 fort_14th = yes
-set_variable = { 
-	which = gck
-	value = 2
+set_key = { lhs = Infra_Irrigation value = 2
 }
 discovered_by = eastern
 discovered_by = byzantine
@@ -32,14 +22,9 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 450.1.1 = { 
-	set_variable = { 
-		which = ami
-		value = 260.420
+set_key = { lhs = starting_urban_pop_1350 value = 260.420
 	}
-	set_variable = { 
-		which = acp
-		value = 6
-	}
+
 	set_province_flag = olive
 	set_province_flag = TN_Major
 	set_province_flag = TN_Port

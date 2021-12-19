@@ -5,14 +5,9 @@ trade_goods = lumber
 religion = catholic
 is_city = yes
 450.1.1 = { 
-	set_variable = { 
-		which = ami
-		value = 8.000
+set_key = { lhs = starting_urban_pop_1350 value = 8.000
 	}
-	set_variable = { 
-		which = acp
-		value = 3
-	}
+
 	set_province_flag = mined_goods
 	set_province_flag = silver
 }
