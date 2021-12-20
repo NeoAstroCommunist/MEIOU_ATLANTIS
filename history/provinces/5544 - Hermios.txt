@@ -9,11 +9,32 @@ set_key = { lhs = Infra_Pathing value = 2
 set_key = { lhs = Infra_Garrison value = 1
 }
 450.1.1 = { 
-set_key = { lhs = starting_urban_pop_1350 value = 3.000
-	}
-	set_variable = { 
-		which = acp
-		value = 3.5
-	}
 	set_province_flag = olive
+}
+
+100.1.1 = {
+	set_key = { lhs = starting_rural_pop_1300 value = 76.717 }
+	set_key = { lhs = starting_urban_pop_1300 value = 4.880 }
+	set_key = { lhs = starting_rural_pop_1350 value = 85.241 }
+	set_key = { lhs = starting_urban_pop_1350 value = 5.422 }
+	set_key = { lhs = starting_rural_pop_1400 value = 93.765 }
+	set_key = { lhs = starting_urban_pop_1400 value = 5.964 }
+	set_key = { lhs = starting_rural_pop_1450 value = 103.142 }
+	set_key = { lhs = starting_urban_pop_1450 value = 6.561 }
+	set_key = { lhs = starting_rural_pop_1500 value = 113.456 }
+	set_key = { lhs = starting_urban_pop_1500 value = 7.217 }
+	set_key = { lhs = starting_rural_pop_1550 value = 124.801 }
+	set_key = { lhs = starting_urban_pop_1550 value = 7.938 }
+	set_key = { lhs = starting_rural_pop_1600 value = 137.281 }
+	set_key = { lhs = starting_urban_pop_1600 value = 8.732 }
+	set_key = { lhs = starting_rural_pop_1650 value = 151.010 }
+	set_key = { lhs = starting_urban_pop_1650 value = 9.605 }
+	set_key = { lhs = starting_rural_pop_1700 value = 166.111 }
+	set_key = { lhs = starting_urban_pop_1700 value = 10.566 }
+	set_key = { lhs = starting_rural_pop_1750 value = 182.722 }
+	set_key = { lhs = starting_urban_pop_1750 value = 11.623 }
+	set_key = { lhs = starting_rural_pop_1800 value = 200.994 }
+	set_key = { lhs = starting_urban_pop_1800 value = 12.785 }
+	set_key = { lhs = starting_rural_pop_1850 value = 241.193 }
+	set_key = { lhs = starting_urban_pop_1850 value = 13.555 }
 }

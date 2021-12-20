@@ -17,3 +17,30 @@ set_key = { lhs = Infra_Irrigation value = 1
 		value = 4.5
 	}
 }
+
+100.1.1 = {
+	set_key = { lhs = starting_rural_pop_1300 value = 68.774 }
+	set_key = { lhs = starting_urban_pop_1300 value = 8.437 }
+	set_key = { lhs = starting_rural_pop_1350 value = 76.416 }
+	set_key = { lhs = starting_urban_pop_1350 value = 9.374 }
+	set_key = { lhs = starting_rural_pop_1400 value = 84.058 }
+	set_key = { lhs = starting_urban_pop_1400 value = 10.311 }
+	set_key = { lhs = starting_rural_pop_1450 value = 92.463 }
+	set_key = { lhs = starting_urban_pop_1450 value = 11.343 }
+	set_key = { lhs = starting_rural_pop_1500 value = 101.710 }
+	set_key = { lhs = starting_urban_pop_1500 value = 12.477 }
+	set_key = { lhs = starting_rural_pop_1550 value = 111.881 }
+	set_key = { lhs = starting_urban_pop_1550 value = 13.724 }
+	set_key = { lhs = starting_rural_pop_1600 value = 123.069 }
+	set_key = { lhs = starting_urban_pop_1600 value = 15.097 }
+	set_key = { lhs = starting_rural_pop_1650 value = 135.376 }
+	set_key = { lhs = starting_urban_pop_1650 value = 16.607 }
+	set_key = { lhs = starting_rural_pop_1700 value = 148.913 }
+	set_key = { lhs = starting_urban_pop_1700 value = 18.267 }
+	set_key = { lhs = starting_rural_pop_1750 value = 163.804 }
+	set_key = { lhs = starting_urban_pop_1750 value = 20.094 }
+	set_key = { lhs = starting_rural_pop_1800 value = 180.185 }
+	set_key = { lhs = starting_urban_pop_1800 value = 22.103 }
+	set_key = { lhs = starting_rural_pop_1850 value = 216.222 }
+	set_key = { lhs = starting_urban_pop_1850 value = 23.435 }
+}

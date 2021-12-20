@@ -7,7 +7,32 @@ is_city = yes
 set_key = { lhs = Infra_Harbourage value = 1
 }
 450.1.1 = { 
-set_key = { lhs = starting_urban_pop_1350 value = 9.000
-	}
+        set_province_flag = TN_Island
+}
 
+100.1.1 = {
+	set_key = { lhs = starting_rural_pop_1300 value = 33.454 }
+	set_key = { lhs = starting_urban_pop_1300 value = 8.100 }
+	set_key = { lhs = starting_rural_pop_1350 value = 37.171 }
+	set_key = { lhs = starting_urban_pop_1350 value = 9.000 }
+	set_key = { lhs = starting_rural_pop_1400 value = 40.888 }
+	set_key = { lhs = starting_urban_pop_1400 value = 9.900 }
+	set_key = { lhs = starting_rural_pop_1450 value = 44.977 }
+	set_key = { lhs = starting_urban_pop_1450 value = 10.890 }
+	set_key = { lhs = starting_rural_pop_1500 value = 49.475 }
+	set_key = { lhs = starting_urban_pop_1500 value = 11.979 }
+	set_key = { lhs = starting_rural_pop_1550 value = 54.422 }
+	set_key = { lhs = starting_urban_pop_1550 value = 13.177 }
+	set_key = { lhs = starting_rural_pop_1600 value = 59.864 }
+	set_key = { lhs = starting_urban_pop_1600 value = 14.495 }
+	set_key = { lhs = starting_rural_pop_1650 value = 65.851 }
+	set_key = { lhs = starting_urban_pop_1650 value = 15.944 }
+	set_key = { lhs = starting_rural_pop_1700 value = 72.436 }
+	set_key = { lhs = starting_urban_pop_1700 value = 17.538 }
+	set_key = { lhs = starting_rural_pop_1750 value = 79.679 }
+	set_key = { lhs = starting_urban_pop_1750 value = 19.292 }
+	set_key = { lhs = starting_rural_pop_1800 value = 87.647 }
+	set_key = { lhs = starting_urban_pop_1800 value = 21.222 }
+	set_key = { lhs = starting_rural_pop_1850 value = 105.177 }
+	set_key = { lhs = starting_urban_pop_1850 value = 22.500 }
 }

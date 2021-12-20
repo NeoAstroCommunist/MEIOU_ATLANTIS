@@ -1895,6 +1895,10 @@ north_atlantic_region = {
 		sargasso_sea_area
 		sea_of_labrador_area
 		west_african_coast_sea_area
+		atlantean_sea4_area
+		atlantean_sea3_area
+		atlantean_sea2_area
+		atlantean_sea1_area
 	}
 }
 

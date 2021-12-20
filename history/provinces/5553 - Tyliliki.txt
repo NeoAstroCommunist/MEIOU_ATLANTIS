@@ -6,11 +6,30 @@ religion = chalcedonism
 is_city = yes
 set_key = { lhs = Infra_Garrison value = 1
 }
-450.1.1 = { 
-set_key = { lhs = starting_urban_pop_1350 value = 2.000
-	}
-	set_variable = { 
-		which = acp
-		value = 2.5
-	}
+
+100.1.1 = {
+	set_key = { lhs = starting_rural_pop_1300 value = 60.642 }
+	set_key = { lhs = starting_urban_pop_1300 value = 3.359 }
+	set_key = { lhs = starting_rural_pop_1350 value = 67.380 }
+	set_key = { lhs = starting_urban_pop_1350 value = 3.732 }
+	set_key = { lhs = starting_rural_pop_1400 value = 74.118 }
+	set_key = { lhs = starting_urban_pop_1400 value = 4.105 }
+	set_key = { lhs = starting_rural_pop_1450 value = 81.530 }
+	set_key = { lhs = starting_urban_pop_1450 value = 4.516 }
+	set_key = { lhs = starting_rural_pop_1500 value = 89.683 }
+	set_key = { lhs = starting_urban_pop_1500 value = 4.967 }
+	set_key = { lhs = starting_rural_pop_1550 value = 98.651 }
+	set_key = { lhs = starting_urban_pop_1550 value = 5.464 }
+	set_key = { lhs = starting_rural_pop_1600 value = 108.516 }
+	set_key = { lhs = starting_urban_pop_1600 value = 6.010 }
+	set_key = { lhs = starting_rural_pop_1650 value = 119.368 }
+	set_key = { lhs = starting_urban_pop_1650 value = 6.611 }
+	set_key = { lhs = starting_rural_pop_1700 value = 131.305 }
+	set_key = { lhs = starting_urban_pop_1700 value = 7.273 }
+	set_key = { lhs = starting_rural_pop_1750 value = 144.435 }
+	set_key = { lhs = starting_urban_pop_1750 value = 8.000 }
+	set_key = { lhs = starting_rural_pop_1800 value = 158.879 }
+	set_key = { lhs = starting_urban_pop_1800 value = 8.800 }
+	set_key = { lhs = starting_rural_pop_1850 value = 190.654 }
+	set_key = { lhs = starting_urban_pop_1850 value = 9.330 }
 }

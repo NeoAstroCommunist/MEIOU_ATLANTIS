@@ -5,7 +5,33 @@ trade_goods = wool
 religion = catholic
 is_city = yes
 450.1.1 = { 
-
 	set_key = { lhs = tribals_ratio value = 30
 	}
+}
+
+100.1.1 = {
+	set_key = { lhs = starting_rural_pop_1300 value = 35.173 }
+	set_key = { lhs = starting_urban_pop_1300 value = 0.000 }
+	set_key = { lhs = starting_rural_pop_1350 value = 39.081 }
+	set_key = { lhs = starting_urban_pop_1350 value = 0.000 }
+	set_key = { lhs = starting_rural_pop_1400 value = 42.989 }
+	set_key = { lhs = starting_urban_pop_1400 value = 0.000 }
+	set_key = { lhs = starting_rural_pop_1450 value = 47.288 }
+	set_key = { lhs = starting_urban_pop_1450 value = 0.000 }
+	set_key = { lhs = starting_rural_pop_1500 value = 52.017 }
+	set_key = { lhs = starting_urban_pop_1500 value = 0.000 }
+	set_key = { lhs = starting_rural_pop_1550 value = 57.218 }
+	set_key = { lhs = starting_urban_pop_1550 value = 0.000 }
+	set_key = { lhs = starting_rural_pop_1600 value = 62.940 }
+	set_key = { lhs = starting_urban_pop_1600 value = 0.000 }
+	set_key = { lhs = starting_rural_pop_1650 value = 69.234 }
+	set_key = { lhs = starting_urban_pop_1650 value = 0.000 }
+	set_key = { lhs = starting_rural_pop_1700 value = 76.158 }
+	set_key = { lhs = starting_urban_pop_1700 value = 0.000 }
+	set_key = { lhs = starting_rural_pop_1750 value = 83.774 }
+	set_key = { lhs = starting_urban_pop_1750 value = 0.000 }
+	set_key = { lhs = starting_rural_pop_1800 value = 92.151 }
+	set_key = { lhs = starting_urban_pop_1800 value = 0.000 }
+	set_key = { lhs = starting_rural_pop_1850 value = 110.581 }
+	set_key = { lhs = starting_urban_pop_1850 value = 0.000 }
 }

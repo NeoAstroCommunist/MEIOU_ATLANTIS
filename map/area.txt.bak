@@ -189,7 +189,7 @@ irminger_sea_area = {
 }
 
 north_african_coast_sea_area = {
- 1757 1871 2049 2050
+	1669 1757 1871 2049 2050
 }
 
 north_atlantic_area = {
