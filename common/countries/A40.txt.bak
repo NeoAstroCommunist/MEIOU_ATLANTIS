@@ -1,0 +1,104 @@
+#Country Name: Please see filename.
+
+graphical_culture = africangfx
+
+color = { 43 130 63 }
+
+historical_idea_groups = {
+	aristocracy_ideas
+	administrative_ideas
+	leadership_ideas
+}
+
+historical_units = { #French group
+	western_halberd_infantry
+	western_knight_cavalry
+	unique_FRA_chevalier_cavalry
+	western_manatarms_infantry
+	western_runner_cavalry
+	western_lance_infantry
+	western_gendarme_cavalry
+	western_pikeandshot_infantry
+	western_earlytercio_infantry
+	western_caracole_cavalry
+	western_tercio_infantry
+	western_musketeersquare_infantry
+	western_dragoon_cavalry
+	western_countermarch_infantry
+	western_volley_infantry
+	unique_FRA_musketeer_of_the_guard_infantry
+	western_line_infantry
+	western_carabinier_cavalry
+	western_drill_infantry
+	western_hunter_cavalry
+	unique_FRA_grognard_infantry
+	western_lancer_cavalry
+	western_jominian_infantry
+}
+
+monarch_names = {
+	"Abubakari #0" = 100
+	"Gao #0" = 100
+	"Kassa #0" = 100
+	"Khalifa #0" = 100
+	"Maghan #0" = 100
+	"Mahmud #0" = 100
+	"Mohammed #0" = 100
+	"Musa #0" = 100
+	"Ouati #0" = 100
+	"Sakoura #0" = 100
+	"Souleyman #0" = 100
+	"Sundiata #0" = 100
+	"Uli #0" = 100
+	"Wali #0" = 100
+	"Mari Diata #0" = 100
+
+	"Aba #0" = -1
+	"Abi #0" = -1
+	"Aisa #0" = -1
+	"Ajamboon #0" = -1
+	"Alanso #0" = -1
+	"Alimatou #0" = -1
+	"Anti #0" = -1
+	"Aramata #0" = -1
+	"Attha #0" = -1
+	"Bassin #0" = -1
+	"Binta #0" = -1
+	"Bintou #0" = -1
+	"Dene #0" = -1
+	"Fanta #0" = -1
+	"Fatimatou #0" = -1
+	"Fatoumatta #0" = -1
+	"Hadang #0" = -1
+	"Haddy #0" = -1
+	"Inari #0" = -1
+	"Isatou #0" = -1
+	"Jabou #0" = -1
+	"Jahou #0" = -1
+	"Jainaba #0" = -1
+	"Jankeh #0" = -1
+	"Jatou #0" = -1
+	"Jojo #0" = -1
+	"Joma #0" = -1
+	"Juka #0" = -1
+	"Kati #0" = -1
+	"Keyah #0" = -1
+	"Kinti #0" = -1
+	"Kolonkan #0" = -1
+	"Kumba #0" = -1
+	"Kuta #0" = -1
+	"Kutu #0" = -1
+	"Makuto #0" = -1
+	"Maram #0" = -1
+	"Marang #0" = -1
+	"Mbasi #0" = -1
+	"Mboose #0" = -1
+	"Namandje #0" = -1
+	"Nyima #0" = -1
+	"Nyonkoling #0" = -1
+	"Sanji #0" = -1
+	"Sara #0" = -1
+	"Sogolon #0" = -1
+	"Sunkarr #0" = -1
+	"Tomaring #0" = -1
+}

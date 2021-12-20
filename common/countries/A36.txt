@@ -6,164 +6,106 @@ color = { 104 86 65 }
 
 historical_idea_groups = {
 	trade_ideas
-	innovativeness_ideas
-	naval_ideas
-	administrative_ideas
-	economic_ideas
-	leadership_ideas
-	diplomacy_ideas
-	quality_ideas
+	fortification_ideas
+	culture_ideas
 }
 
-historical_units = { #French group
-	western_halberd_infantry
-	western_knight_cavalry
-	unique_FRA_chevalier_cavalry
-	western_manatarms_infantry
-	western_runner_cavalry
-	western_lance_infantry
-	western_gendarme_cavalry
-	western_pikeandshot_infantry
-	western_earlytercio_infantry
-	western_caracole_cavalry
-	western_tercio_infantry
-	western_musketeersquare_infantry
-	western_dragoon_cavalry
-	western_countermarch_infantry
-	western_volley_infantry
-	unique_FRA_musketeer_of_the_guard_infantry
-	western_line_infantry
-	western_carabinier_cavalry
-	western_drill_infantry
-	western_hunter_cavalry
-	unique_FRA_grognard_infantry
-	western_lancer_cavalry
-	western_jominian_infantry
+historical_units = { #Iberian Muslim group
+	muslim_armored_infantry
+	muslim_faris_cavalry
+	muslim_ghuzat_infantry
+	muslim_jinete_cavalry
+	muslim_rammaha_lancer_cavalry
+	muslim_elchee_infantry
+	muslim_arquebusier
+	muslim_qoorchilar_cavalry
+	muslim_reformed_qizilbash_cavalry
+	muslim_tofangchi_musketeer_infantry
+	muslim_jazayerchi_musketeer_infantry
+	muslim_zanbourak_camel_cavalry
+	muslim_piyadegan_infantry
+	muslim_savaran_saltani_cavalry
+	muslim_taifat_al_rusa_infantry
+	muslim_hunter_cavalry
+	muslim_drill_infantry
+	muslim_columnar_infantry
+	muslim_lancer_cavalry
+	muslim_breech_infantry
 }
 
 monarch_names = {
-	"Charles #2" = 40
-	"Louis #1" = 40
-	"René #1" = 20
-	"Nicolas #0" = 10
-	"Jean #0" = 5
-	"Raymond Berengar #3" = 1
-	"Alphonse #2" = 1
-	"Robert #1" = 1
-	"Adhémar #0" = 1
-	"Aymeric #0" = 1
-	"Bartomiu #0" = 1
-	"Benedit #0" = 1
-	"Bernat #0" = 1
-	"Bertran #0" = 1
-	"Damián #0" = 1
-	"Emeric #0" = 1
-	"Enric #0" = 1
-	"Estève #0" = 1
-	"Ferrán #0" = 1
-	"Folquet #0" = 1
-	"Frances #0" = 1
-	"Gastó #0" = 1
-	"Guilhem #0" = 1
-	"Huc #0" = 1
-	"Jacme #0" = 1
-	"Jaufre #0" = 1
-	"Jordan #0" = 1
-	"Loys #0" = 1
-	"Lucas #0" = 1
-	"Martí #0" = 1
-	"Matheu #0" = 1
-	"Miqueu #0" = 1
-	"Per #0" = 1
-	"Pol #0" = 1
-	"Pons #0" = 1
-	"Sanc #0" = 1
-	"Thibaud #0" = 1
-	"Vicentz #0" = 1
-	"Victor #0" = 1
-	"Xavier #0" = 1
+	"Muhammad #6" = 140
+	"Yûsuf #2" = 60
+	"'Alî #0" = 20
+	"Sa'd #0" = 20
+	"Isma'îl #2" = 10
+	"Nasr #1" = 5
+	"'Abd al-Karim #0" = 1
+	"Ayman #0" = 1
+	"Barakat #0" = 1
+	"Basir #0" = 1
+	"Dawud #0" = 1
+	"Fahd #0" = 1
+	"Faris #0" = 1
+	"Faruq #0" = 1
+	"Firdaus #0" = 1
+	"Fuad #0" = 1
+	"Haidar #0" = 1
+	"Hashim #0" = 1
+	"Husam #0" = 1
+	"Iqbal #0" = 1
+	"Jabbar #0" = 1
+	"Ja'far #0" = 1
+	"Jamal #0" = 1
+	"Junayd #0" = 1
+	"Khaliq #0" = 1
+	"Malik #0" = 1
+	"Mansur #0" = 1
+	"Mustafa #0" = 1
+	"Najib #0" = 1
+	"Qasim #0" = 1
+	"Qusay #0" = 1
+	"Rahim #0" = 1
+	"Rashîd #0" = 1
+	"Safi #0" = 1
+	"Sakhr #0" = 1
+	"Samir #0" = 1
+	"Tariq #0" = 1
+	"Umar #0" = 1
+	"Wahid #0" = 1
+	"Zahir #0" = 1
 	
-	"Blanche #0" = -1
-	"Aliénor #0" = -1
-	"Berthe #0" = -1
-	"Constance #0" = -1
-	"Mathilde #0" = -1
-	"Isabeau #0" = -1
-	"Jeanne #0" = -1
-	"Marie #0" = -1
-	"Charlotte #0" = -1
-	"Anne #0" = -1
-	"Marguerite #0" = -1
-	"Adélaïde #0" = -1
-	"Claude #0" = -1
+	"Aida #0" = -1
+	"Zia #0" = -1
+	"Saleh #0" = -1
+	"Fatima #0" = -1
+	"Samira #0" = -1
+	"Aicha #0" = -1
+	"Chrifa #0" = -1
+	"Djihane #0" = -1
+	"Esra #0" = -1
+	"Leila #0" = -1
+	"Safia #1" = -1
 }
 
 leader_names = {
-	Coquerel
-	Esparron
-	Grimaldi
-	d'Abeille d'Adhémar d'Agoult d'Aiglun d'Aiguières d'Allemagne d'Amalric d'Audiffredi d'Entrecasteaux d'Espagnet d'Espinouze
-	"Fauque de Jonquières"
-	"Ferré de la Grange"
-	"Pene de la Borde"
-	"de Bagnols" "de Barberin" "de Barcillon" "de Baschi" "de Bermond" "de Bionneau" "de Brunet"
-	"de Cadenet" "de Cascaris-Castellet" "de Castaing" "de Castellane" "de Castillon" "de Cordes" "de Cormis" "de Crillon"
-	"de Fargis"
-	"de Gévaudan" "de Gassendi" "de Gombert" "de Gordes" "de Grignan" "de Grimaud" "de Guast"
-	"de Lauris" "de Libertat" "de Loménie"
-	"de Monteil" "de Montpezat"
-	"de Paule" "de Pena" "de Pontevès"
-	"de Raimondis" "de Revest" "de Riquetti"
-	"de Séguiran" "de Sabran" "de Sade" "de Saint Victoret" "de Simiane"
-	"de Valbelle"
-	"de la Pérusse"
-	"des Baux"
-	"des Isnards"
+	"Ibn Abbad" "Ibn Abd Allah" "Ibn Abd al-Rahman" "Ibn Abi Hafs" "Ibn Ali"
+	"Ibn Hakan" "Ibn Hammud" "Ibn Hisam" "Ibn Husayn"
+	"Ibn Idris" "Ibn Ishaq" "Ibn Isma'il"
+	"Ibn Marwan" "Ibn Muhammad"
+	"Ibn Nasr"
+	"Ibn Qasim"
+	"Ibn Sa'd" "Ibn Sulayman"
+	"Ibn Umar" "Ibn Ummay" "Ibn Utman"
+	"Ibn Ya'far" "Ibn Yahyà" "Ibn Yusuf"
+	"Ibn al-Azafi"
 }
 
 ship_names = {
-	Achille Agréable Alcyon Alouette Altier Aquilon Ardente Assuré Avenant Aventurier
-	Baleine Bienvenu Bizarre Borée Brillant Bucentaure Bécasse
-	Caché Caille Capable Centaure Coche Conquérant Constant Content Croissant César
-	Dauphine Diamant Dieppoise Dromadaire Dur
-	Eclatant Eole Espérance
-	Fantasque Ferme Fidèle Fier Florissant Formidable Fort Foudroyant
-	Gaillard
-	Heureux Héros
-	Jason
-	Lion
-	Mignon Minerve
-	Océan Orphée
-	Parfait Phénix Poli Pompeux Portefaix Protecteur Provence Provençal Prudent Puissant
-	Redoutable Requin Réale
-	Sage Sagittaire Sardine Sceptre Seine Solide Souverain Suffisant Séduisant Sérieux
-	Terrible Tigre Tonnant Toulon Toulouse Trident Triomphant Triton Téméraire
-	Union
-	Vaillant Vigilant Volontaire
-	Zélé
-	"Aigle Volant"
-	"Branche d'Olivier"
-	"Cheval Marin"
-	"Commerce de Marseille" "Commerce de Montpellier"
-	"Comte de Provence"
-	"Royal Louis"
-	"Royal Thérèse"
-	"Saint Esprit"
-	"Saint Joseph"
-	"Saint Philippe"
-}
-
-army_names = {
-	"Armée d'Orange"
-	"Armée de $PROVINCE$"
-	"Armée de Basse Provence"
-	"Armée de Haute Provence"
-	"Armée de Marseille"
-	"Armée de Provence-Forcalquier"
-	"Armée de la Durance"
-	"Armée des Alpes"
-	"Armée des Baux"
-	"Armée du Pays d'Arles"
-	"Armée du Rhône"
-	"Armée du Vivarais"
+	Nasr
+	"Ismail I" "Ismail II"
+	"Muhammed III" "Muhammed IV" "Muhammed V" "Muhammed VI" "Muhammed VII" "Muhammed VIII" "Muhammed IX" "Muhammed X"
+	"Muhammed al-Faqih"
+	"Muhammed ibn Nasr"
+	"Yusuf I" "Yusuf II" "Yusuf III" "Yusuf IV" "Yusuf V"
 }

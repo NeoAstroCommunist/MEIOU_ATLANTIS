@@ -7,6 +7,7 @@ is_city = yes
 set_key = { lhs = Infra_Harbourage value = 1
 }
 450.1.1 = { 
+discovered_by = western
 
 	set_province_flag = tribals_control_province
 	set_province_flag = TN_Important
