@@ -1,4 +1,4 @@
-owner = A31
+owner = A31 add_core = A31
 controller = A31
 culture = hestian
 trade_goods = fish

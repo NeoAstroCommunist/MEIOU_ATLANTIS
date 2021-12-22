@@ -1,4 +1,4 @@
-owner = A20
+owner = A20 add_core = A20
 controller = A20
 culture = hormuzian
 trade_goods = fish

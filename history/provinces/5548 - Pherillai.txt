@@ -1,4 +1,4 @@
-owner = A14
+owner = A14 add_core = A14
 controller = A14
 culture = numidian
 trade_goods = hemp

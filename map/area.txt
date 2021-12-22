@@ -3851,7 +3851,7 @@ atlantean_vikings_islands_area = {
 }
 
 atlantean_sea1_area = {
-    5709 5711 5712 1669
+    5709 5711 5712 1669 5716
 }
 
 atlantean_sea2_area = {

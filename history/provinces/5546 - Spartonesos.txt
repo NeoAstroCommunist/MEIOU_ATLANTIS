@@ -1,4 +1,4 @@
-owner = A16
+owner = A16 add_core = A16
 controller = A16
 culture = tsakonian
 trade_goods = livestock

@@ -1,4 +1,4 @@
-owner = A20
+owner = A20 add_core = A20
 controller = A20
 culture = cretlantean
 trade_goods = fish

@@ -1,4 +1,4 @@
-owner = AT6
+owner = AT6 add_core = AT6
 controller = AT6
 culture = thynian
 trade_goods = fish

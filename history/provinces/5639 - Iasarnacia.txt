@@ -1,4 +1,4 @@
-owner = A30
+owner = A30 add_core = A30
 controller = A30
 culture = brygian
 trade_goods = wheat

@@ -1,4 +1,4 @@
-owner = A12
+owner = A12 add_core = A12
 controller = A12
 culture = alyzeian
 trade_goods = wax

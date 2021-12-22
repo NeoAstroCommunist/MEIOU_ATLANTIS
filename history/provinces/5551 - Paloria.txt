@@ -1,4 +1,4 @@
-owner = AT8
+owner = AT8 add_core = AT8
 controller = AT8
 culture = bassanian
 trade_goods = wool

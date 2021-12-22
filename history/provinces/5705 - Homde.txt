@@ -1,4 +1,4 @@
-owner = AT7
+owner = AT7 add_core = AT7
 controller = AT7
 culture = cyphean
 trade_goods = wheat

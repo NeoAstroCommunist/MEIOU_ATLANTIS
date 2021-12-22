@@ -1,4 +1,4 @@
-owner = A40
+owner = A40 add_core = A40
 controller = A40
 culture = westmali
 trade_goods = millet

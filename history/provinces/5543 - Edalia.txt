@@ -1,4 +1,4 @@
-owner = A13
+owner = A13 add_core = A13
 controller = A13
 culture = athamanean
 trade_goods = lumber

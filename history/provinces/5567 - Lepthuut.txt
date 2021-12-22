@@ -1,4 +1,4 @@
-owner = AT2
+owner = AT2 add_core = AT2
 controller = AT2
 culture = cartagean
 trade_goods = wheat
