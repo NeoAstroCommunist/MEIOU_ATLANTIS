@@ -1,0 +1,21 @@
+
+government = republic
+add_government_reform = Pol_Mandate4
+add_government_reform = Pol_Stylings2
+add_government_reform = Pol_ExtraPowers1
+add_government_reform = Pol_Assembly2
+add_government_reform = Pol_TermOfOffice2
+add_government_reform = Pol_Nobility2
+government_rank = 1
+mercantilism = 0.10
+primary_culture = cartagean
+religion = chalcedonism
+technology_group = western
+capital = 5565
+
+1000.1.1  = {
+	#set_key = { lhs = centralization_decentralization value = 4 }
+	add_absolutism = -100
+	add_absolutism = 10
+}
+
