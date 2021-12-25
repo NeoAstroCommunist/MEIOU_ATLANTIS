@@ -8,7 +8,7 @@ mercantilism = 0.0
 # isolationist_expansionist = -1
 technology_group = western
 primary_culture = satraean
-religion = fraticelli
+religion = arianism
 capital = 5604	
 
 1000.1.1 = {

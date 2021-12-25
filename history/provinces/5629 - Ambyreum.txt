@@ -1,19 +1,41 @@
-owner = A20
+owner = A20 add_core = A20
 controller = A20
 culture = thesrotian
 trade_goods = wool
 religion = sunni
 is_city = yes
 450.1.1 = { 
-	set_variable = { 
-		which = ami
-		value = 4.000
-	}
-	set_variable = { 
-		which = acp
-		value = 3
-	}
 	set_province_flag = mined_goods
 	set_province_flag = gold
 	set_province_flag = copper
+discovered_by = muslim
+discovered_by = western
+
+}
+
+100.1.1 = {
+	set_key = { lhs = starting_rural_pop_1300 value = 24.278 }
+	set_key = { lhs = starting_urban_pop_1300 value = 3.713 }
+	set_key = { lhs = starting_rural_pop_1350 value = 26.976 }
+	set_key = { lhs = starting_urban_pop_1350 value = 4.125 }
+	set_key = { lhs = starting_rural_pop_1400 value = 29.674 }
+	set_key = { lhs = starting_urban_pop_1400 value = 4.538 }
+	set_key = { lhs = starting_rural_pop_1450 value = 32.641 }
+	set_key = { lhs = starting_urban_pop_1450 value = 4.991 }
+	set_key = { lhs = starting_rural_pop_1500 value = 35.905 }
+	set_key = { lhs = starting_urban_pop_1500 value = 5.490 }
+	set_key = { lhs = starting_rural_pop_1550 value = 39.496 }
+	set_key = { lhs = starting_urban_pop_1550 value = 6.039 }
+	set_key = { lhs = starting_rural_pop_1600 value = 43.445 }
+	set_key = { lhs = starting_urban_pop_1600 value = 6.643 }
+	set_key = { lhs = starting_rural_pop_1650 value = 47.790 }
+	set_key = { lhs = starting_urban_pop_1650 value = 7.308 }
+	set_key = { lhs = starting_rural_pop_1700 value = 52.569 }
+	set_key = { lhs = starting_urban_pop_1700 value = 8.038 }
+	set_key = { lhs = starting_rural_pop_1750 value = 57.825 }
+	set_key = { lhs = starting_urban_pop_1750 value = 8.842 }
+	set_key = { lhs = starting_rural_pop_1800 value = 63.608 }
+	set_key = { lhs = starting_urban_pop_1800 value = 9.727 }
+	set_key = { lhs = starting_rural_pop_1850 value = 76.330 }
+	set_key = { lhs = starting_urban_pop_1850 value = 10.313 }
 }

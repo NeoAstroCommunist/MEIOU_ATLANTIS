@@ -304,6 +304,7 @@ swabia_bavarian_region = {
 	areas = {
 		lower_bavaria_area
 		upper_bavaria_area
+		palatinate_bavaria_area
 		upper_franconia_area
 		lower_swabia_area
 		upper_swabia_area
@@ -454,6 +455,7 @@ crimea_region = {
 		sloboda_ukraine_area
 		crimea_area
 		zaporizhia_area
+		cherson_area
 		azov_area
 	}
 }
@@ -472,51 +474,39 @@ steppes_region = {
 # MIDDLE EAST            #
 ##########################
 
-al_sham_region = {
-	areas = {
-		aleppo_area
-		syria_area
-		palestine_area
-	}
-}
-
-al_iraq_region = {
-	areas = {
-		iraq_arabi_area
-		lower_iraq_area
-		basra_area
-		mosul_area
-	}
-}
-
-persia_region = {
+iran_region = {
 	areas = {
 		south_kurdistan_area
 		luristan_area
-		farsistan_area
-		larestan_area
 		iraq_e_ajam_area
 		azerbaijan_area
 		isfahan_area
+		tabarestan_area
+		tehran_area
 	}
 }
-
-khorasan_region = {
+fars_region = {
 	areas = {
-		merv_area
-		khorasan_area
-		nishapur_area
-		tabarestan_area
+		farsistan_area
+		larestan_area
 		kerman_area
 		hormuz_area
 	}
 }
 
-afghanistan_region = {
+khorasani_region = {
 	areas = {
+		khorasan_area
+		nishapur_area
+		ahel_area
 		herat_area
-		balkh_area
 		kabulistan_area
+		merv_area
+	}
+}
+
+sistan_region = {
+	areas = {
 		zahedan_area
 		baluchi_area
 		quetta_area
@@ -541,48 +531,85 @@ south_anatolia_region = {
 		teke_area
 		karaman_area
 		kutahya_area
-	}
-}
-
-armenia_region = {
-	areas = {
 		cilicia_area
-		erzurum_area
-		north_kurdistan_area
-		tur_abdin_area
-		dulkadir_area
-		east_armenia_area
-		west_armenia_area
-	}
-}
-
-caucasia_region = {
-	areas = {
-		east_circassia_area
-		west_circassia_area
-		east_georgia_area
-		west_georgia_area
-		shemakha_area
-		shirvan_area
-		meskheti_area
+		cyprus_area
 	}
 }
 
 arabia_region = {
 	areas = {
 		hejaz_area
-		east_najd_area
-		west_najd_area
+		tabuk_area
+		yamamah_area
+		shammar_area
+		nejd_area
 		bahrain_area
+		qatif_area
+		asir_area
+	}
+}
+
+hadhramaut_region = {
+	areas = {
+		hadramut_area
+		dhufar_area
+		yemen_area
+		sanaa_area
+		jizzan_area
 		oman_area
 	}
 }
 
-aden_region = {
+syria_region = {
 	areas = {
-		hadramut_area
-		yemen_area
-		sanaa_area
+		dimashq_area
+		lebanon_area
+		aleppo_area
+		palestine_area
+		jordan_area
+		badia_area
+	}
+}
+
+upper_mesopotamia_region = {
+	areas = {
+		diyar_bakir_area
+		malatya_area
+		sophene_area
+		hakkari_area
+		diyar_mudar_area
+		diyar_rabia_area
+	}
+}
+
+lower_mesopotamia_region = {
+	areas = {
+		radhan_area
+		tairahan_area
+		sawad_area
+		khuzestan_area
+	}
+}
+
+south_caucasus_region = {
+	areas = {
+		east_georgia_area
+		west_georgia_area
+		meskheti_area
+		shirvan_area
+		shemakha_area
+		east_armenia_area
+		west_armenia_area
+		van_area
+		upper_armenia_area
+	}
+}
+
+north_caucasus_region = {
+	areas = {
+		east_circassia_area
+		west_circassia_area
+		derbant_area
 	}
 }
 
@@ -631,6 +658,7 @@ west_maghreb_region = {
 
 central_maghreb_region = {
 	areas = {
+		aures_area
 		kabylia_area
 		algiers_area
 		tlemcen_area
@@ -749,7 +777,6 @@ darfur_region = {
 sudan_region = {
 	areas = {
 		lower_nubia_area
-		middle_nubia_area
 		upper_nubia_area
 		white_nile_area
 		kurdufan_area
@@ -876,19 +903,28 @@ kazakh_region = {
 	areas = {
 		kazakhstan_area
 		balchasj_area
-		syrdarya_area
 		ishim_area
 		altai_krai_area
+		transcaspia_area
+		torghay_area
 	}
 }
 
-uzbek_region = {
+syrdarya_region = {
 	areas = {
 		ferghana_area
 		arys_area
+		syrdarya_area
+		tashkent_area
+	}
+}
+
+amodarya_region = {
+	areas = {
+		balkh_area
 		transoxiana_area
 		kish_area
-		transcaspia_area
+		vaxsh_area
 		khiva_area
 	}
 }
@@ -906,6 +942,7 @@ west_siberia_region = {
 		central_siberia_area
 		iskier_area
 		yrtesh_area
+		irkutsk_area
 	}
 }
 
@@ -933,7 +970,6 @@ outer_mongolia_region = {
 		altai_sayan_area
 		buryatia_area
 		nercha_area
-		irkutsk_area
 	}
 }
 
@@ -969,6 +1005,8 @@ zungaria_region = {
 		tarim_basin_area
 		yarkand_area
 		jetysuu_area
+		issykkol_area
+		hami_area
 	}
 }
 
@@ -1127,7 +1165,8 @@ east_japan_region = {
 	areas = {
 		hokkaido_area
 		tohoku_area
-		kanto_area
+		east_kanto_area
+		west_kanto_area
 		tokai_area
 		koshinetsu_area
 	}
@@ -1565,7 +1604,6 @@ colombia_region = {
 		coquivacoa_area
 		bogota_area
 		popayan_area
-		panama_area
 	}
 }
 
@@ -1605,11 +1643,9 @@ bolivia_region = {
 
 canada_region = {
 	areas = {
-		labrador_area
 		cote_nord_area
+		hudson_bay_area
 		lower_canada_area
-		upper_canada_area
-		laurentian_area
 		huronia_area
 		odaawaa_area
 		upper_ontario_area
@@ -1669,35 +1705,34 @@ mississippi_region = {
 
 great_plains_region = {
 	areas = {
-		lower_plains_area
-		high_plains_area
+		u_high_plains_area
+		l_high_plains_area
 		dakota_area
 		upper_missouri_area
 		lower_missouri_area
-		badlands_area
-		omaha_area
-	}
-}
-
-california_region = {
-	areas = {
-		california_area
-		baja_california_area
-		central_valley_area
-		wintoon_area
-		maidu_area
-		oregon_area
+		saskatchewan_area
+		winnipeg_area
 	}
 }
 
 cascadia_region = {
 	areas = {
-		columbia_river_area
-		snake_river_area
 		salish_sea_area
 		hecate_strait_area
 		alaska_area
-		unalaska_area
+	}
+}
+
+california_region = {
+	areas = {
+		baja_california_area
+		mojave_area
+		california_area
+		s_central_valley_area
+		n_central_valley_area
+		wintoon_area
+		maidu_area
+		oregon_area
 	}
 }
 
@@ -1708,17 +1743,15 @@ texas_region = {
 		matagorda_area
 		rio_grande_area
 		llano_estacado_area
-		new_mexico_area
 	}
 }
 
-hudson_bay_region = {
+rockies_region = {
 	areas = {
-		james_bay_area
-		hudson_bay_area
-		red_river_area
-		cree_area
-		saskatchewan_area
+		snake_river_area
+		nevada_area
+		arizona_area
+		new_mexico_area
 	}
 }
 
@@ -1773,6 +1806,7 @@ central_america_region = {
 		yucatan_area
 		belize_area
 		campeche_area
+		panama_area
 	}
 }
 
@@ -1861,10 +1895,10 @@ north_atlantic_region = {
 		sargasso_sea_area
 		sea_of_labrador_area
 		west_african_coast_sea_area
+		atlantean_sea4_area
+		atlantean_sea3_area
+		atlantean_sea2_area
 		atlantean_sea1_area
-	    atlantean_sea2_area
-	    atlantean_sea3_area
-	    atlantean_sea4_area
 	}
 }
 
@@ -2001,4 +2035,3 @@ march_atlantis_region = {
 	atlantean_real_northwest_area
 	}
 }
-

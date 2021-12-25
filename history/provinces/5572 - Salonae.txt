@@ -5,14 +5,6 @@ trade_goods = wine
 religion = catholic
 is_city = yes
 450.1.1 = { 
-	set_variable = { 
-		which = ami
-		value = 60.000
-	}
-	set_variable = { 
-		which = acp
-		value = 3.5
-	}
 	set_province_flag = TN_Important
 	set_province_flag = TN_Port
 	set_province_flag = TN_Island
@@ -26,4 +18,34 @@ is_city = yes
 		name = urban_goods_naval_supplies
 		duration = -1
 	}
+discovered_by = muslim
+discovered_by = western
+
+}
+
+100.1.1 = {
+	set_key = { lhs = starting_rural_pop_1300 value = 72.382 }
+	set_key = { lhs = starting_urban_pop_1300 value = 69.131 }
+	set_key = { lhs = starting_rural_pop_1350 value = 80.424 }
+	set_key = { lhs = starting_urban_pop_1350 value = 76.812 }
+	set_key = { lhs = starting_rural_pop_1400 value = 88.466 }
+	set_key = { lhs = starting_urban_pop_1400 value = 84.493 }
+	set_key = { lhs = starting_rural_pop_1450 value = 97.313 }
+	set_key = { lhs = starting_urban_pop_1450 value = 92.943 }
+	set_key = { lhs = starting_rural_pop_1500 value = 107.044 }
+	set_key = { lhs = starting_urban_pop_1500 value = 102.237 }
+	set_key = { lhs = starting_rural_pop_1550 value = 117.749 }
+	set_key = { lhs = starting_urban_pop_1550 value = 112.460 }
+	set_key = { lhs = starting_rural_pop_1600 value = 129.524 }
+	set_key = { lhs = starting_urban_pop_1600 value = 123.706 }
+	set_key = { lhs = starting_rural_pop_1650 value = 142.476 }
+	set_key = { lhs = starting_urban_pop_1650 value = 136.077 }
+	set_key = { lhs = starting_rural_pop_1700 value = 156.724 }
+	set_key = { lhs = starting_urban_pop_1700 value = 149.685 }
+	set_key = { lhs = starting_rural_pop_1750 value = 172.396 }
+	set_key = { lhs = starting_urban_pop_1750 value = 164.653 }
+	set_key = { lhs = starting_rural_pop_1800 value = 189.636 }
+	set_key = { lhs = starting_urban_pop_1800 value = 181.119 }
+	set_key = { lhs = starting_rural_pop_1850 value = 227.563 }
+	set_key = { lhs = starting_urban_pop_1850 value = 192.030 }
 }

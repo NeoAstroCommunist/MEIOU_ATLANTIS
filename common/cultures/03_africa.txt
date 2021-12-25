@@ -306,7 +306,64 @@ mashreqi = {
 		}
 	}
 	bedouin = {
+	}
+	shawi = {
+	}
+	chadic = {
+		primary = WAD
 		
+		dynasty_names = {
+			Chad
+			Wadai
+		}
+		male_names = {
+			Abasama Abdu Abdullah Abdullahi Abu Akali Ali Aliyu Arkal Ashakuka Atuma
+			Baba Babari Baciri Bagauda Bako Bawa Bawan Bugaya Burema Burja
+			Cikkoku
+			Dadi Dakauta Dango Daud
+			Gambai Gida Gijimasu Guguwa Gwamki
+			Hazo Hodi
+			Ibrahim Ishaq Isma
+			Jatau Jibon Jirro
+			Kabe Kabiya Kado Kanejeji Karari Khalifa Kisoki Kukuna Kumbari Kutumbi
+			Makau Malam Mayaki Muhammad Muhammadu Muhamman Musa
+			Naguji Nawata Nazaki
+			Rumfa
+			Salihu Sharif Shashere Shekarau Sidiqu Soba Soyaki Sulemana
+			Tomo Tsagarana Tsamiya Tsoho
+			Uban Umaru
+			Wari Warisi
+			Yahaya Yaji Yakubu Yaquled Yero Yunfa Yunusa Yusa
+			Zaki
+			"Abd Allahi"
+			"Abu Bakr"
+			"Al Hajj" "Al Walid"
+			"Baba Jan"
+			"Bunu Nafata"
+			"Karya Giwa"
+			"Mai Gamo"
+			"Mare Mawa"
+			"Ta Gandu"
+			"Toya Rero"
+			"Usmanu Zamnagawa"
+			"Ya Qub" "Ya Quba"
+		}
+		female_names = {
+			A'isha Adia Aishatu Alheri Amina Aminah Arria Asma'u Atikah Auta
+			Danuwa Daurama
+			Fa'idah Fa'izah Fadimatu Faraa Farih
+			Gerda Gimbya
+			Habibah Hadiza Halimah Hanna Hazika
+			Ijaba Iman Ina
+			Jamilah
+			Kubra
+			Latifah Lina Lisha Lubabah
+			Maimuna Mansurah Maryamu
+			Na'imah Nabilah Nafisah
+			Rabi'ah Rahmah Rashidah
+			Safiyah Sakinah Salimah Samirah Shukriyah Sumayyah
+			Zabaydah Zahrah Zakiyyah Zaytun
+		}
 	}
 	mashreqi_colonial = {
 		
@@ -461,7 +518,7 @@ berber_group = {
 maghreb = {
 	graphical_culture = muslimgfx
 	maure = {
-		primary = GRA
+		#primary = GRA
 		
 		dynasty_names = {
 			Nasrid
@@ -1589,60 +1646,6 @@ sahelian_group = {
 			Zabaydah Zahrah Zakiyyah Zaytun
 		}
 	}
-	songhai = {
-		primary = SON
-		
-		dynasty_names = {
-			Askia
-			Sunni
-			Za
-		}
-		male_names = {
-			Ali
-			Bumi
-			Daoud Dawud
-			Gao
-			Hanga Hargani
-			Ishaq Isma'il Ismail
-			Karbifu
-			Muhammad Musa
-			Nuh
-			Tomo
-			"Abu Bakry Baro"
-			"Al Amin" "Al Barak" "Al Hajj" "Al Mustafa"
-			"Ali Kolon"
-			"Bakr Dala Buyunbu" "Bakr Zanku"
-			"Bar Kayna Ankabi"
-			"Bassaru Missi Ize"
-			"Fodi Mayrumfa"
-			"Harun Dancette"
-			"Ibrahim Kabyao"
-			"Koyze Baba"
-			"Mar Arandan" "Mar Arkana" "Mar Fay Kuli Jimu" "Mar Kiray" "Mar Shindin"
-			"Mohammad Benkan"
-			"Mohammed Ture" "Mohommed Bana"
-			"Muhammad Bari" "Muhammad Da'u" "Muhammad Fari" "Muhammad Kukiya" "Muhammad Surku Ilji"
-			"Salman Nari"
-			"Samsu Beri" "Samsu Keyna"
-			"Silman Dandi"
-			"Sulayman Dama Dandi"
-			"Uthman Gifo Kanafa"
-		}
-		female_names = {
-			Aba Abi Aisa Ajamboon Alanso Alimatou Anti Aramata Attha
-			Bassin Binta Bintou
-			Dene
-			Fanta Fatimatou Fatoumatta
-			Hadang Haddy
-			Inari Isatou
-			Jabou Jahou Jainaba Jankeh Jatou Jojo Joma Juka
-			Kati Keyah Kinti Kolonkan Kumba Kuta Kutu
-			Makuto Maram Marang Mbasi Mboose
-			Namandje Nyima Nyonkoling
-			Sanji Sara Sogolon Sunkarr
-			Tomaring
-		}
-	}
 	gwari = {
 		primary = GWR
 		
@@ -1721,6 +1724,68 @@ sahelian_group = {
 			Iganya Inikpi Itabo Iye Iyoma
 			Laluba
 			Ojamalia Otigbele
+		}
+	}
+	sokoto = {
+		primary = KOT
+		
+		dynasty_names = {
+			Afade
+			Bodo
+			Gawi Goulfeil
+			Houlouf
+			Kousseri
+			Makari
+			Ndoufou
+			Rann
+			Woulki
+			Zoulbou
+			"Kala Kafra"
+			"Logone Birni"
+		}
+		male_names = {
+			Abasama Abdu Akali Aliyu Arkal Ashakuka Atuma
+			Baba Babari Baciri Bagauda Bako Bawa Bawan Bugaya Burema Burja
+			Cikkoku
+			Dadi Dakauta Dango Daud
+			Gambai Gida Gijimasu Guguwa Gwamki
+			Hazo Hodi
+			Ibrahim Ishaq Isma
+			Jatau Jibon Jirro
+			Kabe Kabiya Kado Kanejeji Karari Khalifa Kisoki Kukuna Kumbari Kutumbi
+			Makau Malam Mayaki Musa
+			Naguji Nawata Nazaki
+			Rumfa
+			Salihu Sharif Shashere Shekarau Sidiqu Soba Soyaki
+			Tomo Tsagarana Tsamiya Tsoho
+			Uban Umaru
+			Wari Warisi
+			Yahaya Yaji Yakubu Yaquled Yero Yunfa Yunusa Yusa
+			Zaki
+			"Baba Jan"
+			"Bunu Nafata"
+			"Karya Giwa"
+			"Mai Gamo"
+			"Mare Mawa"
+			"Ta Gandu"
+			"Toya Rero"
+			"Ya Qub" "Ya Quba"
+		}
+		female_names = {
+			A'isha Adia Aishatu Alheri Amina Aminah Arria Asma'u Atikah Auta
+			Danuwa Daurama
+			Fa'idah Fa'izah Fadimatu Faraa Farih
+			Gerda Gimbya
+			Habibah Hadiza Halimah Hanna Hazika
+			Ijaba Iman Ina
+			Jamilah
+			Kubra
+			Latifah Lina Lisha Lubabah
+			Maimuna Mansurah Maryamu
+			Na'imah Nabilah Nafisah
+			Rabi'ah Rahmah Rashidah
+			Safiyah Sakinah Salimah Samirah Shukriyah Sumayyah
+			Zabaydah Zahrah Zakiyyah Zaytun
 		}
 	}
 }
@@ -2711,6 +2776,60 @@ mande_group = {
 			Tomaring
 		}
 	}
+	songhai = {
+		primary = SON
+		
+		dynasty_names = {
+			Askia
+			Sunni
+			Za
+		}
+		male_names = {
+			Ali
+			Bumi
+			Daoud Dawud
+			Gao
+			Hanga Hargani
+			Ishaq Isma'il Ismail
+			Karbifu
+			Muhammad Musa
+			Nuh
+			Tomo
+			"Abu Bakry Baro"
+			"Al Amin" "Al Barak" "Al Hajj" "Al Mustafa"
+			"Ali Kolon"
+			"Bakr Dala Buyunbu" "Bakr Zanku"
+			"Bar Kayna Ankabi"
+			"Bassaru Missi Ize"
+			"Fodi Mayrumfa"
+			"Harun Dancette"
+			"Ibrahim Kabyao"
+			"Koyze Baba"
+			"Mar Arandan" "Mar Arkana" "Mar Fay Kuli Jimu" "Mar Kiray" "Mar Shindin"
+			"Mohammad Benkan"
+			"Mohammed Ture" "Mohommed Bana"
+			"Muhammad Bari" "Muhammad Da'u" "Muhammad Fari" "Muhammad Kukiya" "Muhammad Surku Ilji"
+			"Salman Nari"
+			"Samsu Beri" "Samsu Keyna"
+			"Silman Dandi"
+			"Sulayman Dama Dandi"
+			"Uthman Gifo Kanafa"
+		}
+		female_names = {
+			Aba Abi Aisa Ajamboon Alanso Alimatou Anti Aramata Attha
+			Bassin Binta Bintou
+			Dene
+			Fanta Fatimatou Fatoumatta
+			Hadang Haddy
+			Inari Isatou
+			Jabou Jahou Jainaba Jankeh Jatou Jojo Joma Juka
+			Kati Keyah Kinti Kolonkan Kumba Kuta Kutu
+			Makuto Maram Marang Mbasi Mboose
+			Namandje Nyima Nyonkoling
+			Sanji Sara Sogolon Sunkarr
+			Tomaring
+		}
+	}
 	mande_colonial = {
 		
 		dynasty_names = {
@@ -3035,187 +3154,6 @@ nilotic = {
 	}
 }
 
-chadic_group = {
-	graphical_culture = africangfx
-	sokoto = {
-		primary = KOT
-		
-		dynasty_names = {
-			Afade
-			Bodo
-			Gawi Goulfeil
-			Houlouf
-			Kousseri
-			Makari
-			Ndoufou
-			Rann
-			Woulki
-			Zoulbou
-			"Kala Kafra"
-			"Logone Birni"
-		}
-		male_names = {
-			Abasama Abdu Akali Aliyu Arkal Ashakuka Atuma
-			Baba Babari Baciri Bagauda Bako Bawa Bawan Bugaya Burema Burja
-			Cikkoku
-			Dadi Dakauta Dango Daud
-			Gambai Gida Gijimasu Guguwa Gwamki
-			Hazo Hodi
-			Ibrahim Ishaq Isma
-			Jatau Jibon Jirro
-			Kabe Kabiya Kado Kanejeji Karari Khalifa Kisoki Kukuna Kumbari Kutumbi
-			Makau Malam Mayaki Musa
-			Naguji Nawata Nazaki
-			Rumfa
-			Salihu Sharif Shashere Shekarau Sidiqu Soba Soyaki
-			Tomo Tsagarana Tsamiya Tsoho
-			Uban Umaru
-			Wari Warisi
-			Yahaya Yaji Yakubu Yaquled Yero Yunfa Yunusa Yusa
-			Zaki
-			"Baba Jan"
-			"Bunu Nafata"
-			"Karya Giwa"
-			"Mai Gamo"
-			"Mare Mawa"
-			"Ta Gandu"
-			"Toya Rero"
-			"Ya Qub" "Ya Quba"
-		}
-		female_names = {
-			A'isha Adia Aishatu Alheri Amina Aminah Arria Asma'u Atikah Auta
-			Danuwa Daurama
-			Fa'idah Fa'izah Fadimatu Faraa Farih
-			Gerda Gimbya
-			Habibah Hadiza Halimah Hanna Hazika
-			Ijaba Iman Ina
-			Jamilah
-			Kubra
-			Latifah Lina Lisha Lubabah
-			Maimuna Mansurah Maryamu
-			Na'imah Nabilah Nafisah
-			Rabi'ah Rahmah Rashidah
-			Safiyah Sakinah Salimah Samirah Shukriyah Sumayyah
-			Zabaydah Zahrah Zakiyyah Zaytun
-		}
-	}
-	chadic = {
-		primary = WAD
-		
-		dynasty_names = {
-			Chad
-			Wadai
-		}
-		male_names = {
-			Abasama Abdu Abdullah Abdullahi Abu Akali Ali Aliyu Arkal Ashakuka Atuma
-			Baba Babari Baciri Bagauda Bako Bawa Bawan Bugaya Burema Burja
-			Cikkoku
-			Dadi Dakauta Dango Daud
-			Gambai Gida Gijimasu Guguwa Gwamki
-			Hazo Hodi
-			Ibrahim Ishaq Isma
-			Jatau Jibon Jirro
-			Kabe Kabiya Kado Kanejeji Karari Khalifa Kisoki Kukuna Kumbari Kutumbi
-			Makau Malam Mayaki Muhammad Muhammadu Muhamman Musa
-			Naguji Nawata Nazaki
-			Rumfa
-			Salihu Sharif Shashere Shekarau Sidiqu Soba Soyaki Sulemana
-			Tomo Tsagarana Tsamiya Tsoho
-			Uban Umaru
-			Wari Warisi
-			Yahaya Yaji Yakubu Yaquled Yero Yunfa Yunusa Yusa
-			Zaki
-			"Abd Allahi"
-			"Abu Bakr"
-			"Al Hajj" "Al Walid"
-			"Baba Jan"
-			"Bunu Nafata"
-			"Karya Giwa"
-			"Mai Gamo"
-			"Mare Mawa"
-			"Ta Gandu"
-			"Toya Rero"
-			"Usmanu Zamnagawa"
-			"Ya Qub" "Ya Quba"
-		}
-		female_names = {
-			A'isha Adia Aishatu Alheri Amina Aminah Arria Asma'u Atikah Auta
-			Danuwa Daurama
-			Fa'idah Fa'izah Fadimatu Faraa Farih
-			Gerda Gimbya
-			Habibah Hadiza Halimah Hanna Hazika
-			Ijaba Iman Ina
-			Jamilah
-			Kubra
-			Latifah Lina Lisha Lubabah
-			Maimuna Mansurah Maryamu
-			Na'imah Nabilah Nafisah
-			Rabi'ah Rahmah Rashidah
-			Safiyah Sakinah Salimah Samirah Shukriyah Sumayyah
-			Zabaydah Zahrah Zakiyyah Zaytun
-		}
-	}
-	chadic_colonial = {
-		
-		dynasty_names = {
-			Biram
-			Daura
-			Gobir
-			Kano Katsina Kebbi
-			Rano
-			Zamfara Zazzau
-		}
-		male_names = {
-			Abasama Abdu Abdullah Abdullahi Abu Akali Ali Aliyu Arkal Ashakuka Atuma
-			Baba Babari Baciri Bagauda Bako Bawa Bawan Bugaya Burema Burja
-			Cikkoku
-			Dadi Dakauta Dango Daud
-			Gambai Gida Gijimasu Guguwa Gwamki
-			Hazo Hodi
-			Ibrahim Ishaq Isma
-			Jatau Jibon Jirro
-			Kabe Kabiya Kado Kanejeji Karari Khalifa Kisoki Kukuna Kumbari Kutumbi
-			Makau Malam Mayaki Muhammad Muhammadu Muhamman Musa
-			Naguji Nawata Nazaki
-			Rumfa
-			Salihu Sharif Shashere Shekarau Sidiqu Soba Soyaki Sulemana
-			Tomo Tsagarana Tsamiya Tsoho
-			Uban Umaru
-			Wari Warisi
-			Yahaya Yaji Yakubu Yaquled Yero Yunfa Yunusa Yusa
-			Zaki
-			"Abd Allahi"
-			"Abu Bakr"
-			"Al Hajj" "Al Walid"
-			"Baba Jan"
-			"Bunu Nafata"
-			"Karya Giwa"
-			"Mai Gamo"
-			"Mare Mawa"
-			"Ta Gandu"
-			"Toya Rero"
-			"Usmanu Zamnagawa"
-			"Ya Qub" "Ya Quba"
-		}
-		female_names = {
-			A'isha Adia Aishatu Alheri Amina Aminah Arria Asma'u Atikah Auta
-			Danuwa Daurama
-			Fa'idah Fa'izah Fadimatu Faraa Farih
-			Gerda Gimbya
-			Habibah Hadiza Halimah Hanna Hazika
-			Ijaba Iman Ina
-			Jamilah
-			Kubra
-			Latifah Lina Lisha Lubabah
-			Maimuna Mansurah Maryamu
-			Na'imah Nabilah Nafisah
-			Rabi'ah Rahmah Rashidah
-			Safiyah Sakinah Salimah Samirah Shukriyah Sumayyah
-			Zabaydah Zahrah Zakiyyah Zaytun
-		}
-	}
-}
-
 southern_african = {
 	graphical_culture = africangfx
 	xhosa = {
@@ -3422,7 +3360,81 @@ southern_african = {
 	}
 }
 
-bantu_group = {
+upemba_group = {
+	graphical_culture = africangfx
+	luba = {
+		primary = LUB
+		
+	}
+	lunda = {
+		primary = LND
+		
+	}
+	chokwe = {
+		primary = CKW
+		
+	}
+	dynasty_names = {
+		Loanga Lukeni
+		Mutopa Mvita Mwenemutapa
+		Nabahani
+		Rozwi
+		Zanzibari
+		al-Malindi al-Mawahib
+	}
+	male_names = {
+		Abidemi Abimbola Abiodun Abioye Aboubacar Abubakar Ade Adebayo Adebola Adebowale Adedayo Adegoke Adetokunbo Adisa Afolabi Akachi Akpofure Akuchi Alemayehu Alinafe Amadi Ameqran Anan Andile Awotwi Ayo Ayodele Ayokunle Ayomide Ayotunde Azubuike
+		Baako Babajide Babatunde Bamidele Berhanu Berko Boipelo Boitumelo Bongani
+		Chi Chibueze Chibuike Chibuzo Chidi Chidiebere Chidiebube Chidiegwu Chidike Chidubem Chiemeka Chifundo Chifuniro Chijindum Chike Chikelu Chikere Chikondi Chikumbutso Chima Chimwemwe Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chioma Chisomo Chiumbo Chiyembekezo Chizoba Chuks Chukwudi Chukwuemeka Chukwuma
+		Dakarai Dalitso Dayo Dejen Desta Dubaku Dumisani
+		Efemena Ejiro Ejiroghene Ekene Ekenedilichukwu Ekundayo Ekwueme Emeka Emem Eniola Enitan Enu Enyinnaya Eseoghene
+		Farai Faraji Fatsani Femi Folami Fungai
+		Ganizani Gwandoya
+		Idir Idowu Ikenna Imamu Imani Ime Isingoma Itri Itumeleng Izem
+		Jelani Jengo Jumaane
+		Katlego Kato Kayin Kayode Kefilwe Kgosi Khamisi Kibwe Kirabo Kobina Kofi Kojo Kondwani Kumbukani Kwabena Kwadwo Kwaku Kwame Kwasi Kweku Kwesi
+		Lanre Lekan Limbani Limbikani
+		Madalitso Makena Mamadou Masamba Masozi Mavuto Mayamiko Mayeso Melisizwe Mosi Mphatso Mtendere Mudiwa Munashe Mwenye
+		Ndidi Neo Ngozi Nkemdilim Nkosana Nkruma Nnamdi Nsia Nsonowa Nthanda
+		Obi Ochieng Odhiambo Oghenekaro Oghenekevwe Oghenero Okoro Olabode Olamilekan Olanrewaju Oluchi Olufemi Olufunke Olufunmilayo Olufunmilola Olujimi Olukayode Olumide Oluwafemi Oluwafunmilayo Oluwakanyinsola Oluwasegun Oluwaseun Oluwaseyi Oluwatoyin Oluwayemisi Omobolanle Onyekachi Onyekachukwu Opeyemi Otieno Oyibo
+		Paki Pemphero Pilirani
+		Refilwe Rudo Rutendo
+		Sefu Simba Sipho Sithembile Sizwe
+		Tadala Tafadzwa Tafari Takondwa Tamandani Tamrat Taonga Tatenda Tau Temitope Tendai Tendaji Tewodros Thabo Themba Thoko Thokozani Thulani Tichaona Tinashe Tiyamike Tumelo
+		Udo Uduak Ufuoma Umukoro Unathi Uzochi Uzoma
+		Vabena Vadwo
+		Wasswa Wekesa
+		Xolani
+		Yamikani Yared Yaw
+		Zephania Zuberi
+	}
+	female_names = {
+		Abena Abeni Aberash Abimbola Abiodun Achieng Adaeze Adanna Adannaya Ade Adebola Adebowale Adedayo Adetokunbo Adhiambo Adjoa Adwoa Afia Afua Aisha Akachi Akinyi Akosua Akpofure Akua Akuchi Alaba Alemayehu Alinafe Ama Amaka Amara Amarachi Anan Asha Atieno Awiti Awotwi Ayo Ayodele Ayomide Ayotunde Añuli
+		Baako Babirye Boipelo Boitumelo Bolanle Bosede
+		Chausiku Chi Chiamaka Chibueze Chibuike Chibuzo Chichi Chidi Chidiebere Chidiebube Chidiegwu Chidimma Chifundo Chifuniro Chijindum Chika Chike Chikelu Chikere Chikondi Chikumbutso Chimwemwe Chinasa Chinedu Chinonso Chinwe Chinweike Chinwendu Chinweuba Chinyelu Chinyere Chioma Chipo Chisomo Chiyembekezo Chizoba
+		Dada Dalitso Dayo Desta Dikeledi Dubaku Dumisani
+		Ebele Efe Efemena Efua Ejiro Ejiroghene Ekene Ekenedilichukwu Ekua Ekundayo Emem Eniola Enitan Enu Eseoghene Eshe Esi
+		Farai Fatsani Folami Fumnanya Funanya Fungai Furaha
+		Ganizani Gbemisola
+		Hiwot Hlengiwe
+		Idowu Ife Ige Imani Ime Itumeleng
+		Kagiso Kahina Kamaria Katlego Kayin Kefilwe Kirabo Kondwani Kumbukani Kunto
+		Lerato Lesedi Limbani Limbikani Lindiwe Lumusi Lungile
+		Madalitso Makena Manyara Marjani Masego Masozi Mavuto Mayamiko Mayeso Mbali Mchumba Meklit Mirembe Mojisola Monifa Mphatso Mtendere Mudiwa Munashe Mwanajuma
+		Nakato Ndidi Neo Ngozi Nia Nkechi Nkechinyere Nkemdilim Nkiru Nkiruka Nkosazana Nkruma Nneka Nnenna Nnenne Nomusa Nontle Nosipho Nosizwe Nsia Nsonowa Nthanda Ntombi Nuru Nwanneka Nyah Nyarai
+		Ogechi Ogechukwukama Oghenekaro Oghenekevwe Oghenero Olamide Olayinka Olubunmi Oluchi Olufunke Olufunmilayo Olufunmilola Oluwafunmilayo Oluwakanyinsola Oluwasegun Oluwaseun Oluwaseyi Oluwatoyin Oluwayemisi Omobolanle Omolara Oni Onyeka Onyekachi Onyekachukwu Opeyemi Oyibo
+		Pemphero Pilirani
+		Refilwe Rudo Rufaro Rumbidzai Rutendo
+		Sanaa Sauda Seble Sekai Sethunya Sibonakaliso Simisola Sithembile Ssanyu Subira
+		Tadala Tafadzwa Tajeddigt Takondwa Tamandani Taonga Tapiwa Tariro Tatenda Temitope Tendai Thandiwe Thema Themba Thoko Thokozani Thulile Tidir Tifawt Tinashe Titilayo Titrit Tiyamike Tsholofelo Tumelo
+		Udo Uduak Ufuoma Unathi Uzoma
+		Werknesh Worknesh
+		Yaa Yamikani Yejide Yewande
+		Zola Zuri
+	}
+}
+
+kongo_group = {
 	graphical_culture = africangfx
 	yaka = {
 		primary = YAK
@@ -4355,6 +4367,51 @@ somali_group = {
 			"Mwana Mwema"
 		}
 	}
+	oromo_c = {
+		primary = ORO
+		
+		male_names = {
+			'Endreyâs
+			Antenatewos
+			Demetros Dâwît
+			Fiqtor Fâsîl Fâsîladas
+			Galâwdêwôs Gusho Gîyôrgîs
+			Haile Hamalmal Hezqeyâs
+			Iyâsû
+			Marqos Menas Mika'el Minjo Mînâs
+			Nâ'ôd
+			Quastantînôs
+			Salômôn Sûsenyôs
+			Têwôflôs
+			Yeshaq Yâ'qob Yôhannes Yônas Yôstôs
+			"'Amda Seyôn"
+			"'Amsa Gîyôrgîs"
+			"Amda Seyon"
+			"Ba'eda Mâryâm"
+			"Lebna Dengel"
+			"Malta Krestos"
+			"Mika'el Sehul"
+			"Saga Krestos"
+			"Sarsa Dengel"
+			"Taqla Hâymânôt"
+			"Tuqla Gîyôrgîs"
+			"Wand Bewossen"
+			"Welde Giyorgis"
+			"Wolda Gabrael"
+			"Zar'a Yâqob"
+		}
+		female_names = {
+			Abeba Abrihet Adanech Adina Alaworld Alitash Amhara Ayana
+			Bathsheba Bekele Belkis Berhane Berta
+			Desta Dilla
+			Falasha Falashina Fana Fannah
+			Genat
+			Habesha Hagos
+			Jahzara Jazarah
+			Kayla Kelile Kelyle Keren Kess Kifle
+			Tenagne
+		}
+	}
 	somali_colonial = {
 		
 		dynasty_names = {
@@ -4667,51 +4724,6 @@ abyssinian_group = {
 		dynasty_names = {
 			"Saud" "Rasulid" "Tahiride" "Jabrid" "al-Qasimi" "Qasimid"
 			"Nabhani" "Yaruba" "al-Said" "Usfurid" "Jarwanid" "Hashim"
-		}
-	}
-	oromo_c = {
-		primary = ORO
-		
-		male_names = {
-			'Endreyâs
-			Antenatewos
-			Demetros Dâwît
-			Fiqtor Fâsîl Fâsîladas
-			Galâwdêwôs Gusho Gîyôrgîs
-			Haile Hamalmal Hezqeyâs
-			Iyâsû
-			Marqos Menas Mika'el Minjo Mînâs
-			Nâ'ôd
-			Quastantînôs
-			Salômôn Sûsenyôs
-			Têwôflôs
-			Yeshaq Yâ'qob Yôhannes Yônas Yôstôs
-			"'Amda Seyôn"
-			"'Amsa Gîyôrgîs"
-			"Amda Seyon"
-			"Ba'eda Mâryâm"
-			"Lebna Dengel"
-			"Malta Krestos"
-			"Mika'el Sehul"
-			"Saga Krestos"
-			"Sarsa Dengel"
-			"Taqla Hâymânôt"
-			"Tuqla Gîyôrgîs"
-			"Wand Bewossen"
-			"Welde Giyorgis"
-			"Wolda Gabrael"
-			"Zar'a Yâqob"
-		}
-		female_names = {
-			Abeba Abrihet Adanech Adina Alaworld Alitash Amhara Ayana
-			Bathsheba Bekele Belkis Berhane Berta
-			Desta Dilla
-			Falasha Falashina Fana Fannah
-			Genat
-			Habesha Hagos
-			Jahzara Jazarah
-			Kayla Kelile Kelyle Keren Kess Kifle
-			Tenagne
 		}
 	}
 	cushitic_colonial = {

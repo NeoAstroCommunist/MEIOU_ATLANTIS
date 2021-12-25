@@ -2,20 +2,40 @@ owner = A28
 controller = A28
 culture = thynian
 trade_goods = fish
-religion = fraticelli
+religion = arianism
 is_city = yes
 450.1.1 = { 
-	set_variable = { 
-		which = ami
-		value = 4.000
-	}
-	set_variable = { 
-		which = acp
-		value = 2.5
-	}
-	set_variable = { 
-		which = amm
-		value = 25
+	set_key = { lhs = tribals_ratio value = 25
 	}
 	set_province_flag = coal
+discovered_by = muslim
+discovered_by = western
+
+}
+
+100.1.1 = {
+	set_key = { lhs = starting_rural_pop_1300 value = 28.510 }
+	set_key = { lhs = starting_urban_pop_1300 value = 4.871 }
+	set_key = { lhs = starting_rural_pop_1350 value = 31.678 }
+	set_key = { lhs = starting_urban_pop_1350 value = 5.412 }
+	set_key = { lhs = starting_rural_pop_1400 value = 34.846 }
+	set_key = { lhs = starting_urban_pop_1400 value = 5.953 }
+	set_key = { lhs = starting_rural_pop_1450 value = 38.330 }
+	set_key = { lhs = starting_urban_pop_1450 value = 6.549 }
+	set_key = { lhs = starting_rural_pop_1500 value = 42.163 }
+	set_key = { lhs = starting_urban_pop_1500 value = 7.203 }
+	set_key = { lhs = starting_rural_pop_1550 value = 46.380 }
+	set_key = { lhs = starting_urban_pop_1550 value = 7.924 }
+	set_key = { lhs = starting_rural_pop_1600 value = 51.018 }
+	set_key = { lhs = starting_urban_pop_1600 value = 8.716 }
+	set_key = { lhs = starting_rural_pop_1650 value = 56.120 }
+	set_key = { lhs = starting_urban_pop_1650 value = 9.588 }
+	set_key = { lhs = starting_rural_pop_1700 value = 61.731 }
+	set_key = { lhs = starting_urban_pop_1700 value = 10.546 }
+	set_key = { lhs = starting_rural_pop_1750 value = 67.905 }
+	set_key = { lhs = starting_urban_pop_1750 value = 11.601 }
+	set_key = { lhs = starting_rural_pop_1800 value = 74.695 }
+	set_key = { lhs = starting_urban_pop_1800 value = 12.761 }
+	set_key = { lhs = starting_rural_pop_1850 value = 89.634 }
+	set_key = { lhs = starting_urban_pop_1850 value = 13.530 }
 }

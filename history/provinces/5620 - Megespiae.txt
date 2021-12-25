@@ -1,25 +1,45 @@
-owner = A20
+owner = A20 add_core = A20
 controller = A20
 culture = argolian
 trade_goods = wheat
 religion = sunni
 is_city = yes
-set_variable = { 
-	which = gci
-	value = 1
+set_key = { lhs = Infra_Harbourage value = 1
 }
 450.1.1 = { 
-	set_variable = { 
-		which = ami
-		value = 12.000
-	}
-	set_variable = { 
-		which = acp
-		value = 4.5
-	}
 	set_province_flag = olive
 	set_province_flag = TN_Minor
 	set_province_flag = TN_Port
 	set_province_flag = TN_Harbour_Minor
 	set_province_flag = TN_Natural_Minor
+discovered_by = muslim
+discovered_by = western
+
+}
+
+100.1.1 = {
+	set_key = { lhs = starting_rural_pop_1300 value = 38.676 }
+	set_key = { lhs = starting_urban_pop_1300 value = 11.264 }
+	set_key = { lhs = starting_rural_pop_1350 value = 42.973 }
+	set_key = { lhs = starting_urban_pop_1350 value = 12.515 }
+	set_key = { lhs = starting_rural_pop_1400 value = 47.270 }
+	set_key = { lhs = starting_urban_pop_1400 value = 13.767 }
+	set_key = { lhs = starting_rural_pop_1450 value = 51.997 }
+	set_key = { lhs = starting_urban_pop_1450 value = 15.143 }
+	set_key = { lhs = starting_rural_pop_1500 value = 57.197 }
+	set_key = { lhs = starting_urban_pop_1500 value = 16.657 }
+	set_key = { lhs = starting_rural_pop_1550 value = 62.917 }
+	set_key = { lhs = starting_urban_pop_1550 value = 18.323 }
+	set_key = { lhs = starting_rural_pop_1600 value = 69.208 }
+	set_key = { lhs = starting_urban_pop_1600 value = 20.156 }
+	set_key = { lhs = starting_rural_pop_1650 value = 76.129 }
+	set_key = { lhs = starting_urban_pop_1650 value = 22.171 }
+	set_key = { lhs = starting_rural_pop_1700 value = 83.742 }
+	set_key = { lhs = starting_urban_pop_1700 value = 24.388 }
+	set_key = { lhs = starting_rural_pop_1750 value = 92.116 }
+	set_key = { lhs = starting_urban_pop_1750 value = 26.827 }
+	set_key = { lhs = starting_rural_pop_1800 value = 101.328 }
+	set_key = { lhs = starting_urban_pop_1800 value = 29.510 }
+	set_key = { lhs = starting_rural_pop_1850 value = 121.594 }
+	set_key = { lhs = starting_urban_pop_1850 value = 31.288 }
 }

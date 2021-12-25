@@ -1,25 +1,45 @@
-owner = A20
+owner = A20 add_core = A20
 controller = A20
 culture = ausonian
 trade_goods = fish
 religion = sunni
 is_city = yes
-set_variable = { 
-	which = gci
-	value = 1
+set_key = { lhs = Infra_Harbourage value = 1
 }
 450.1.1 = { 
-	set_variable = { 
-		which = ami
-		value = 3.000
-	}
-	set_variable = { 
-		which = acp
-		value = 2
-	}
 	set_province_flag = TN_Minor
 	set_province_flag = TN_Port
 	set_province_flag = TN_Island
 	set_province_flag = TN_Harbour_Minor
 	set_province_flag = TN_Natural_Minor
+discovered_by = muslim
+discovered_by = western
+
+}
+
+100.1.1 = {
+	set_key = { lhs = starting_rural_pop_1300 value = 3.106 }
+	set_key = { lhs = starting_urban_pop_1300 value = 2.588 }
+	set_key = { lhs = starting_rural_pop_1350 value = 3.451 }
+	set_key = { lhs = starting_urban_pop_1350 value = 2.875 }
+	set_key = { lhs = starting_rural_pop_1400 value = 3.796 }
+	set_key = { lhs = starting_urban_pop_1400 value = 3.163 }
+	set_key = { lhs = starting_rural_pop_1450 value = 4.176 }
+	set_key = { lhs = starting_urban_pop_1450 value = 3.479 }
+	set_key = { lhs = starting_rural_pop_1500 value = 4.593 }
+	set_key = { lhs = starting_urban_pop_1500 value = 3.827 }
+	set_key = { lhs = starting_rural_pop_1550 value = 5.053 }
+	set_key = { lhs = starting_urban_pop_1550 value = 4.209 }
+	set_key = { lhs = starting_rural_pop_1600 value = 5.558 }
+	set_key = { lhs = starting_urban_pop_1600 value = 4.630 }
+	set_key = { lhs = starting_rural_pop_1650 value = 6.114 }
+	set_key = { lhs = starting_urban_pop_1650 value = 5.093 }
+	set_key = { lhs = starting_rural_pop_1700 value = 6.725 }
+	set_key = { lhs = starting_urban_pop_1700 value = 5.603 }
+	set_key = { lhs = starting_rural_pop_1750 value = 7.398 }
+	set_key = { lhs = starting_urban_pop_1750 value = 6.163 }
+	set_key = { lhs = starting_rural_pop_1800 value = 8.137 }
+	set_key = { lhs = starting_urban_pop_1800 value = 6.779 }
+	set_key = { lhs = starting_rural_pop_1850 value = 9.765 }
+	set_key = { lhs = starting_urban_pop_1850 value = 7.188 }
 }

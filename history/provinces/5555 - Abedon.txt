@@ -1,16 +1,38 @@
-owner = A14
+owner = A14 add_core = A14
 controller = A14
 culture = artichian
 trade_goods = wool
 religion = chalcedonism
 is_city = yes
 450.1.1 = { 
-	set_variable = { 
-		which = ami
-		value = 3.000
-	}
-	set_variable = { 
-		which = acp
-		value = 3
-	}
+discovered_by = muslim
+discovered_by = western
+
+}
+
+100.1.1 = {
+	set_key = { lhs = starting_rural_pop_1300 value = 50.342 }
+	set_key = { lhs = starting_urban_pop_1300 value = 4.765 }
+	set_key = { lhs = starting_rural_pop_1350 value = 55.935 }
+	set_key = { lhs = starting_urban_pop_1350 value = 5.294 }
+	set_key = { lhs = starting_rural_pop_1400 value = 61.529 }
+	set_key = { lhs = starting_urban_pop_1400 value = 5.823 }
+	set_key = { lhs = starting_rural_pop_1450 value = 67.681 }
+	set_key = { lhs = starting_urban_pop_1450 value = 6.406 }
+	set_key = { lhs = starting_rural_pop_1500 value = 74.449 }
+	set_key = { lhs = starting_urban_pop_1500 value = 7.046 }
+	set_key = { lhs = starting_rural_pop_1550 value = 81.894 }
+	set_key = { lhs = starting_urban_pop_1550 value = 7.751 }
+	set_key = { lhs = starting_rural_pop_1600 value = 90.084 }
+	set_key = { lhs = starting_urban_pop_1600 value = 8.526 }
+	set_key = { lhs = starting_rural_pop_1650 value = 99.092 }
+	set_key = { lhs = starting_urban_pop_1650 value = 9.379 }
+	set_key = { lhs = starting_rural_pop_1700 value = 109.001 }
+	set_key = { lhs = starting_urban_pop_1700 value = 10.317 }
+	set_key = { lhs = starting_rural_pop_1750 value = 119.902 }
+	set_key = { lhs = starting_urban_pop_1750 value = 11.348 }
+	set_key = { lhs = starting_rural_pop_1800 value = 131.892 }
+	set_key = { lhs = starting_urban_pop_1800 value = 12.483 }
+	set_key = { lhs = starting_rural_pop_1850 value = 158.270 }
+	set_key = { lhs = starting_urban_pop_1850 value = 13.235 }
 }

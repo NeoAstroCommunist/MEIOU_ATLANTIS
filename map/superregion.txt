@@ -81,6 +81,7 @@ greater_russia_superregion = {
 	east_russia_region
 	crimea_region
 	steppes_region
+	north_caucasus_region
 }
 ##########################
 
@@ -138,7 +139,8 @@ southeast_asia_superregion = {
 
 central_asia_superregion = {
 	kazakh_region
-	uzbek_region
+	syrdarya_region
+	amodarya_region
 	zungaria_region
 }
 
@@ -223,14 +225,13 @@ eastern_south_america_superregion = {
 	guyana_region
 }
 north_america_superregion = {
-	hudson_bay_region
 	canada_region
 	maritimes_region
+	great_lakes_region
 }
 
 east_america_superregion = {
 	great_plains_region
-	great_lakes_region
 	mississippi_region
 	southeast_america_region
 	northeast_america_region
@@ -240,6 +241,7 @@ east_america_superregion = {
 west_america_superregion = {
 	cascadia_region
 	california_region
+	rockies_region
 }
 
 central_america_superregion = {
@@ -252,16 +254,18 @@ central_america_superregion = {
 
 near_east_superregion = {
 	egypt_region
-	al_sham_region
-	al_iraq_region
+	syria_region
+	lower_mesopotamia_region
+	upper_mesopotamia_region
 	arabia_region
-	aden_region
+	hadhramaut_region
 }
 
 persia_superregion = {
-	khorasan_region
-	persia_region
-	afghanistan_region
+	iran_region
+	fars_region
+	khorasani_region
+	sistan_region
 }
 
 east_indies_superregion = {
@@ -289,8 +293,7 @@ eastern_steppe_superregion = {
 anatolia_superregion = {
 	north_anatolia_region
 	south_anatolia_region
-	caucasia_region
-	armenia_region
+	south_caucasus_region
 }
 
 tibet_superregion = {

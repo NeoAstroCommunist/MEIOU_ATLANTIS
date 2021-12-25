@@ -1,25 +1,43 @@
-owner = A12
+owner = A12 add_core = A12
 controller = A12
 culture = alyzeian
 trade_goods = wax
 religion = chalcedonism
 is_city = yes
-set_variable = { 
-	which = gch
-	value = 1
+set_key = { lhs = Infra_Pathing value = 1
 }
-set_variable = { 
-	which = gcn
-	value = 1
+set_key = { lhs = Infra_Garrison value = 1
 }
 450.1.1 = { 
-	set_variable = { 
-		which = ami
-		value = 3.000
-	}
-	set_variable = { 
-		which = acp
-		value = 3.5
-	}
 	set_province_flag = olive
+discovered_by = muslim
+discovered_by = western
+
+}
+
+100.1.1 = {
+	set_key = { lhs = starting_rural_pop_1300 value = 49.947 }
+	set_key = { lhs = starting_urban_pop_1300 value = 4.087 }
+	set_key = { lhs = starting_rural_pop_1350 value = 55.497 }
+	set_key = { lhs = starting_urban_pop_1350 value = 4.541 }
+	set_key = { lhs = starting_rural_pop_1400 value = 61.047 }
+	set_key = { lhs = starting_urban_pop_1400 value = 4.995 }
+	set_key = { lhs = starting_rural_pop_1450 value = 67.151 }
+	set_key = { lhs = starting_urban_pop_1450 value = 5.495 }
+	set_key = { lhs = starting_rural_pop_1500 value = 73.867 }
+	set_key = { lhs = starting_urban_pop_1500 value = 6.044 }
+	set_key = { lhs = starting_rural_pop_1550 value = 81.253 }
+	set_key = { lhs = starting_urban_pop_1550 value = 6.648 }
+	set_key = { lhs = starting_rural_pop_1600 value = 89.378 }
+	set_key = { lhs = starting_urban_pop_1600 value = 7.313 }
+	set_key = { lhs = starting_rural_pop_1650 value = 98.316 }
+	set_key = { lhs = starting_urban_pop_1650 value = 8.045 }
+	set_key = { lhs = starting_rural_pop_1700 value = 108.148 }
+	set_key = { lhs = starting_urban_pop_1700 value = 8.849 }
+	set_key = { lhs = starting_rural_pop_1750 value = 118.963 }
+	set_key = { lhs = starting_urban_pop_1750 value = 9.734 }
+	set_key = { lhs = starting_rural_pop_1800 value = 130.859 }
+	set_key = { lhs = starting_urban_pop_1800 value = 10.707 }
+	set_key = { lhs = starting_rural_pop_1850 value = 157.031 }
+	set_key = { lhs = starting_urban_pop_1850 value = 11.353 }
 }

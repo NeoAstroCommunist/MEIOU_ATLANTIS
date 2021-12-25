@@ -1,30 +1,16 @@
-owner = A12
+owner = A12 add_core = A12
 controller = A12
 culture = alyzeian
 trade_goods = sugar
 religion = chalcedonism
 is_city = yes
-set_variable = { 
-	which = gcn
-	value = 1
+set_key = { lhs = Infra_Garrison value = 1
 }
-set_variable = { 
-	which = gci
-	value = 1
+set_key = { lhs = Infra_Harbourage value = 1
 }
-set_variable = { 
-	which = gck
-	value = 2
+set_key = { lhs = Infra_Irrigation value = 2
 }
 450.1.1 = { 
-	set_variable = { 
-		which = ami
-		value = 52.420
-	}
-	set_variable = { 
-		which = acp
-		value = 5
-	}
 	set_province_flag = TN_Important
 	set_province_flag = TN_Port
 	set_province_flag = TN_Estuary
@@ -38,4 +24,34 @@ set_variable = {
 		duration = -1
 	}
 	set_province_flag = sugar
+discovered_by = muslim
+discovered_by = western
+
+}
+
+100.1.1 = {
+	set_key = { lhs = starting_rural_pop_1300 value = 106.574 }
+	set_key = { lhs = starting_urban_pop_1300 value = 56.824 }
+	set_key = { lhs = starting_rural_pop_1350 value = 118.416 }
+	set_key = { lhs = starting_urban_pop_1350 value = 63.138 }
+	set_key = { lhs = starting_rural_pop_1400 value = 130.258 }
+	set_key = { lhs = starting_urban_pop_1400 value = 69.452 }
+	set_key = { lhs = starting_rural_pop_1450 value = 143.283 }
+	set_key = { lhs = starting_urban_pop_1450 value = 76.397 }
+	set_key = { lhs = starting_rural_pop_1500 value = 157.612 }
+	set_key = { lhs = starting_urban_pop_1500 value = 84.037 }
+	set_key = { lhs = starting_rural_pop_1550 value = 173.373 }
+	set_key = { lhs = starting_urban_pop_1550 value = 92.440 }
+	set_key = { lhs = starting_rural_pop_1600 value = 190.710 }
+	set_key = { lhs = starting_urban_pop_1600 value = 101.684 }
+	set_key = { lhs = starting_rural_pop_1650 value = 209.781 }
+	set_key = { lhs = starting_urban_pop_1650 value = 111.853 }
+	set_key = { lhs = starting_rural_pop_1700 value = 230.759 }
+	set_key = { lhs = starting_urban_pop_1700 value = 123.038 }
+	set_key = { lhs = starting_rural_pop_1750 value = 253.835 }
+	set_key = { lhs = starting_urban_pop_1750 value = 135.342 }
+	set_key = { lhs = starting_rural_pop_1800 value = 279.219 }
+	set_key = { lhs = starting_urban_pop_1800 value = 148.876 }
+	set_key = { lhs = starting_rural_pop_1850 value = 335.062 }
+	set_key = { lhs = starting_urban_pop_1850 value = 157.845 }
 }

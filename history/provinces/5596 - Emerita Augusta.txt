@@ -1,17 +1,39 @@
-owner = A17
+owner = A17 add_core = A17
 controller = A17
 culture = romanemerita
 trade_goods = wine
 religion = catholic
 is_city = yes
 450.1.1 = { 
-	set_variable = { 
-		which = ami
-		value = 14.000
-	}
-	set_variable = { 
-		which = acp
-		value = 3.5
-	}
 	set_province_flag = wine
+discovered_by = muslim
+discovered_by = western
+
+}
+
+100.1.1 = {
+	set_key = { lhs = starting_rural_pop_1300 value = 11.309 }
+	set_key = { lhs = starting_urban_pop_1300 value = 11.404 }
+	set_key = { lhs = starting_rural_pop_1350 value = 12.566 }
+	set_key = { lhs = starting_urban_pop_1350 value = 12.671 }
+	set_key = { lhs = starting_rural_pop_1400 value = 13.823 }
+	set_key = { lhs = starting_urban_pop_1400 value = 13.938 }
+	set_key = { lhs = starting_rural_pop_1450 value = 15.205 }
+	set_key = { lhs = starting_urban_pop_1450 value = 15.332 }
+	set_key = { lhs = starting_rural_pop_1500 value = 16.725 }
+	set_key = { lhs = starting_urban_pop_1500 value = 16.865 }
+	set_key = { lhs = starting_rural_pop_1550 value = 18.398 }
+	set_key = { lhs = starting_urban_pop_1550 value = 18.552 }
+	set_key = { lhs = starting_rural_pop_1600 value = 20.238 }
+	set_key = { lhs = starting_urban_pop_1600 value = 20.407 }
+	set_key = { lhs = starting_rural_pop_1650 value = 22.261 }
+	set_key = { lhs = starting_urban_pop_1650 value = 22.447 }
+	set_key = { lhs = starting_rural_pop_1700 value = 24.488 }
+	set_key = { lhs = starting_urban_pop_1700 value = 24.692 }
+	set_key = { lhs = starting_rural_pop_1750 value = 26.936 }
+	set_key = { lhs = starting_urban_pop_1750 value = 27.161 }
+	set_key = { lhs = starting_rural_pop_1800 value = 29.630 }
+	set_key = { lhs = starting_urban_pop_1800 value = 29.878 }
+	set_key = { lhs = starting_rural_pop_1850 value = 35.556 }
+	set_key = { lhs = starting_urban_pop_1850 value = 31.678 }
 }

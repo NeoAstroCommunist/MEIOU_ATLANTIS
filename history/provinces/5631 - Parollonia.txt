@@ -4,13 +4,33 @@ culture = thesrotian
 trade_goods = lumber
 religion = catholic
 is_city = yes
-450.1.1 = { 
-	set_variable = { 
-		which = ami
-		value = 4.000
-	}
-	set_variable = { 
-		which = acp
-		value = 3
-	}
+discovered_by = muslim
+discovered_by = western
+
+
+100.1.1 = {
+	set_key = { lhs = starting_rural_pop_1300 value = 31.991 }
+	set_key = { lhs = starting_urban_pop_1300 value = 4.871 }
+	set_key = { lhs = starting_rural_pop_1350 value = 35.546 }
+	set_key = { lhs = starting_urban_pop_1350 value = 5.412 }
+	set_key = { lhs = starting_rural_pop_1400 value = 39.101 }
+	set_key = { lhs = starting_urban_pop_1400 value = 5.953 }
+	set_key = { lhs = starting_rural_pop_1450 value = 43.011 }
+	set_key = { lhs = starting_urban_pop_1450 value = 6.549 }
+	set_key = { lhs = starting_rural_pop_1500 value = 47.312 }
+	set_key = { lhs = starting_urban_pop_1500 value = 7.203 }
+	set_key = { lhs = starting_rural_pop_1550 value = 52.043 }
+	set_key = { lhs = starting_urban_pop_1550 value = 7.924 }
+	set_key = { lhs = starting_rural_pop_1600 value = 57.247 }
+	set_key = { lhs = starting_urban_pop_1600 value = 8.716 }
+	set_key = { lhs = starting_rural_pop_1650 value = 62.972 }
+	set_key = { lhs = starting_urban_pop_1650 value = 9.588 }
+	set_key = { lhs = starting_rural_pop_1700 value = 69.269 }
+	set_key = { lhs = starting_urban_pop_1700 value = 10.546 }
+	set_key = { lhs = starting_rural_pop_1750 value = 76.196 }
+	set_key = { lhs = starting_urban_pop_1750 value = 11.601 }
+	set_key = { lhs = starting_rural_pop_1800 value = 83.816 }
+	set_key = { lhs = starting_urban_pop_1800 value = 12.761 }
+	set_key = { lhs = starting_rural_pop_1850 value = 100.579 }
+	set_key = { lhs = starting_urban_pop_1850 value = 13.530 }
 }
