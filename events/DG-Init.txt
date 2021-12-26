@@ -1125,6 +1125,7 @@ country_event = {
 									}
 								}
 							}
+						}
 						#Atlantis	
 						else_if = {
 							limit = { superregion = atlantis_superregion }
@@ -1166,7 +1167,6 @@ country_event = {
 									religion1 = 42 rural1 = 0.00 urban1 = 0.02 notables1 = 0.05
 								}
 							}
-						}
 						}
 						#Steppes
 						else_if = {
