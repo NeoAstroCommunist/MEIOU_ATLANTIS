@@ -1,4 +1,4 @@
-owner = A35
+owner = A35 add_core = A35
 controller = A35
 culture = saioan
 trade_goods = fish
