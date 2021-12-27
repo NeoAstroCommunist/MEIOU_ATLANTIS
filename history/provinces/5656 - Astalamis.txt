@@ -1,4 +1,4 @@
-owner = A27
+owner = A27 add_core = A27
 controller = A27
 culture = dorian
 trade_goods = wool

@@ -1,4 +1,4 @@
-owner = A29
+owner = A29 add_core = A29
 controller = A29
 culture = dardanian
 trade_goods = lumber

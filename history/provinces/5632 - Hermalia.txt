@@ -1,4 +1,4 @@
-owner = A36
+owner = A36 add_core = A36
 controller = A36
 culture = thesrotian
 trade_goods = lumber

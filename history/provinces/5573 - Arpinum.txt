@@ -1,4 +1,4 @@
-owner = A21
+owner = A21 add_core = A21
 controller = A21
 culture = romansithon
 trade_goods = carmine
