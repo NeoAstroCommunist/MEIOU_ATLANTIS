@@ -1,0 +1,36 @@
+
+# High phoenician confederation
+    alliance = {
+	first = A14
+	second = A15
+	start_date = 1295.1.1
+	end_date = 1560.7.5
+
+guarantee = {
+	first = A14
+	second = A13
+	start_date = 1295.1.1
+	end_date = 1560.7.5
+}
+
+guarantee = {
+	first = A14
+	second = A16
+	start_date = 1295.1.1
+	end_date = 1560.7.5
+}
+
+guarantee = {
+	first = A20
+	second = A12
+	start_date = 1322.1.1
+	end_date = 1560.7.5
+}
+
+dependency = {
+	subject_type = "appanage_subject"
+	first = A20
+	second = A36
+	start_date = 1349.1.1
+	end_date = 1419.8.16
+}

@@ -1,4 +1,4 @@
-owner = A20 add_core = A20
+owner = A20 add_core = A20 add_claim = AT8
 controller = A20
 culture = argolian
 trade_goods = olive
