@@ -189,6 +189,51 @@ southatlantean = {
 			dynasty
 		}
 	}
+	westmali = {
+		
+		dynasty_names = {
+			Bambara Banka Beng Bissa Bobo Bozo
+			Cisse
+			Duun Dyara Dyula
+			Gban Gbandi Gio Goo Guro
+			Imraguen
+			Jakhanke Jeri Jowulu
+			Kakabe Keita Kono Kpee Kpelle Kulubali Kuranko
+			Lele Ligbi Loko Loma
+			Malinke Mandingo Mandinka Mano Mende Mogofin Mwan
+			Samo Seenku Soninke Sosso Susu
+			Tura
+			Vai
+			Wan
+			Yalunka Yaure
+			Zialo
+		}
+		male_names = {
+			Abubakari
+			Gao
+			Kassa Khalifa
+			Maghan Mahmud Mohammed Musa
+			Ouati
+			Sakoura Souleyman Sundiata
+			Uli
+			Wali
+			"Mari Diata"
+		}
+		female_names = {
+			Aba Abi Aisa Ajamboon Alanso Alimatou Anti Aramata Attha
+			Bassin Binta Bintou
+			Dene
+			Fanta Fatimatou Fatoumatta
+			Hadang Haddy
+			Inari Isatou
+			Jabou Jahou Jainaba Jankeh Jatou Jojo Joma Juka
+			Kati Keyah Kinti Kolonkan Kumba Kuta Kutu
+			Makuto Maram Marang Mbasi Mboose
+			Namandje Nyima Nyonkoling
+			Sanji Sara Sogolon Sunkarr
+			Tomaring
+		}
+	}
 }
 
 westatlantean = {

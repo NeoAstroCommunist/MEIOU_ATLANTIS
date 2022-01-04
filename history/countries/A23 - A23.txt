@@ -12,6 +12,7 @@ religion = catholic
 primary_culture = romancalydnian
 technology_group = western
 capital = 5589	
+historical_neutral = A39
 
 1000.1.1 = {
 	add_country_modifier = { name = title_2 duration = -1 }

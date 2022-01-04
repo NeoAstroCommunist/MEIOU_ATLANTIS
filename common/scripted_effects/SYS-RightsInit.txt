@@ -2314,7 +2314,17 @@ Rights_RegionInit = {
 					Rights_BGCom9Apply = yes
 					Rights_BGGov6Apply = yes
 				}
-					
+				if = {
+					limit = {
+						tag = A18
+					}
+					Rights_NOSer2Apply = yes
+					Rights_BUSer2Apply = yes # Order
+					Privilege_NOAutonomy3Apply = yes
+					Privilege_NODiplomacy0Apply = yes
+					Privilege_NODynastic0Apply = yes
+					Privilege_NOServiceE1Apply = yes
+				}	
 				Privilege_RaiseBGTax = yes
 				Privilege_RaiseBGTax = yes
 				Privilege_RaiseBGService = yes

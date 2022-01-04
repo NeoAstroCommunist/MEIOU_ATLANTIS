@@ -1,5 +1,5 @@
-owner = A18 add_core = A18
-controller = A18
+owner = AT7 add_core = AT7 add_core = A21
+controller = AT7
 culture = romanphocisian
 trade_goods = wine
 religion = catholic

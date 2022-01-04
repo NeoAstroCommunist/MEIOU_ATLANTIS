@@ -9,7 +9,8 @@ technology_group = western
 religion = chalcedonism
 primary_culture = alyzeian
 capital = 5538	
-
+historical_neutral = AT1
+historical_friend = A20
 
 1000.1.1 = {
 	add_country_modifier = { name = title_4 duration = -1 }

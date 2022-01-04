@@ -1,5 +1,5 @@
-owner = A21 add_core = A21
-controller = A21
+owner = AT7 add_core = AT7 add_core = A21
+controller = AT7
 culture = romansithon
 trade_goods = fish
 religion = catholic

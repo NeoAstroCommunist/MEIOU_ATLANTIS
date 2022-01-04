@@ -10,6 +10,9 @@ religion = catholic
 technology_group = western
 capital = 5596	
 add_army_professionalism = 0.05
+historical_neutral = A21
+historical_neutral = A27
+historical_rival = A39
 
 1000.1.1 = {
 	add_country_modifier = { name = title_4 duration = -1 }
