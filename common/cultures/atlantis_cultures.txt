@@ -24,17 +24,6 @@ southatlantean = {
 			dynasty
 		}
 	}
-	aroanian = {
-		male_names = {
-			male
-		}
-		female_names = {
-			female
-		}
-		dynasty_names = {
-			dynasty
-		}
-	}
 	cidonian = {
 		male_names = {
 			male
@@ -364,6 +353,17 @@ nativeatlantean = {
 		}
 	}
 	odomantian = {
+		male_names = {
+			male
+		}
+		female_names = {
+			female
+		}
+		dynasty_names = {
+			dynasty
+		}
+	}
+	aroanian = {
 		male_names = {
 			male
 		}

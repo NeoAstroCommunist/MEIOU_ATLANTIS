@@ -15,155 +15,119 @@ historical_idea_groups = {
 	quality_ideas
 }
 
-historical_units = { #French group
-	western_halberd_infantry
-	western_knight_cavalry
-	unique_FRA_chevalier_cavalry
-	western_manatarms_infantry
-	western_runner_cavalry
-	western_lance_infantry
+historical_units = { #Celtic group
+	western_spearman_infantry
+	western_hobelar_cavalry
+	western_longbow_infantry
+	unique_ENG_yeoman_infantry
+	western_mountedarcher_cavalry
+	western_pike_infantry
 	western_gendarme_cavalry
-	western_pikeandshot_infantry
-	western_earlytercio_infantry
-	western_caracole_cavalry
+	western_charge_infantry
+	unique_SCO_galloglaigh_infantry
+	western_freeshooter_infantry
+	western_cuirassier_cavalry
 	western_tercio_infantry
-	western_musketeersquare_infantry
-	western_dragoon_cavalry
+	western_irregular_infantry
+	western_gallop_cavalry
 	western_countermarch_infantry
 	western_volley_infantry
-	unique_FRA_musketeer_of_the_guard_infantry
-	western_line_infantry
+	western_platoon_infantry
+	western_bayonet_infantry
 	western_carabinier_cavalry
-	western_drill_infantry
+	western_rifled_infantry
 	western_hunter_cavalry
-	unique_FRA_grognard_infantry
+	western_impulse_infantry
 	western_lancer_cavalry
-	western_jominian_infantry
-}
-
-monarch_names = {
-	"Charles #2" = 40
-	"Louis #1" = 40
-	"René #1" = 20
-	"Nicolas #0" = 10
-	"Jean #0" = 5
-	"Raymond Berengar #3" = 1
-	"Alphonse #2" = 1
-	"Robert #1" = 1
-	"Adhémar #0" = 1
-	"Aymeric #0" = 1
-	"Bartomiu #0" = 1
-	"Benedit #0" = 1
-	"Bernat #0" = 1
-	"Bertran #0" = 1
-	"Damián #0" = 1
-	"Emeric #0" = 1
-	"Enric #0" = 1
-	"Estève #0" = 1
-	"Ferrán #0" = 1
-	"Folquet #0" = 1
-	"Frances #0" = 1
-	"Gastó #0" = 1
-	"Guilhem #0" = 1
-	"Huc #0" = 1
-	"Jacme #0" = 1
-	"Jaufre #0" = 1
-	"Jordan #0" = 1
-	"Loys #0" = 1
-	"Lucas #0" = 1
-	"Martí #0" = 1
-	"Matheu #0" = 1
-	"Miqueu #0" = 1
-	"Per #0" = 1
-	"Pol #0" = 1
-	"Pons #0" = 1
-	"Sanc #0" = 1
-	"Thibaud #0" = 1
-	"Vicentz #0" = 1
-	"Victor #0" = 1
-	"Xavier #0" = 1
-	
-	"Blanche #0" = -1
-	"Aliénor #0" = -1
-	"Berthe #0" = -1
-	"Constance #0" = -1
-	"Mathilde #0" = -1
-	"Isabeau #0" = -1
-	"Jeanne #0" = -1
-	"Marie #0" = -1
-	"Charlotte #0" = -1
-	"Anne #0" = -1
-	"Marguerite #0" = -1
-	"Adélaïde #0" = -1
-	"Claude #0" = -1
+	western_breech_infantry
 }
 
 leader_names = {
-	Coquerel
-	Esparron
-	Grimaldi
-	d'Abeille d'Adhémar d'Agoult d'Aiglun d'Aiguières d'Allemagne d'Amalric d'Audiffredi d'Entrecasteaux d'Espagnet d'Espinouze
-	"Fauque de Jonquières"
-	"Ferré de la Grange"
-	"Pene de la Borde"
-	"de Bagnols" "de Barberin" "de Barcillon" "de Baschi" "de Bermond" "de Bionneau" "de Brunet"
-	"de Cadenet" "de Cascaris-Castellet" "de Castaing" "de Castellane" "de Castillon" "de Cordes" "de Cormis" "de Crillon"
-	"de Fargis"
-	"de Gévaudan" "de Gassendi" "de Gombert" "de Gordes" "de Grignan" "de Grimaud" "de Guast"
-	"de Lauris" "de Libertat" "de Loménie"
-	"de Monteil" "de Montpezat"
-	"de Paule" "de Pena" "de Pontevès"
-	"de Raimondis" "de Revest" "de Riquetti"
-	"de Séguiran" "de Sabran" "de Sade" "de Saint Victoret" "de Simiane"
-	"de Valbelle"
-	"de la Pérusse"
-	"des Baux"
-	"des Isnards"
+	Bennett Bevan Bowen
+	Cadell Cadwallader
+	Daniels Davis Davies
+	Edwards Ellis Evans
+	Griffiths Gough Gwyn
+	Harris Hopkins Howells Hughes Humphries
+	James Jenkins John Jones
+	Lewis Llewellyn Lloyd
+	Madog Matthews Meredith Merrick Morgan Morris Mostyn
+	Owen
+	Parry Phillips Powell Prees Price Pritchard Protheroe Pugh
+	Rees Richards Roberts Rogers
+	Thomas
+	Vaughan
+	Watkins Williams
+}
+
+monarch_names = {
+	"Owain #3" = 20
+	"Dafydd #3" = 10
+	"Gruffydd #3" = 10
+	"Llewelyn #3" = 10
+	"Rhodri #3" = 10
+	"Maredudd #2" = 10
+	"Cynan #1" = 10
+	"Cadwaladr #3" = 5
+	"Iago #3" = 5
+	"Idwal #2" = 5
+	"Maelgwyn #2" = 5
+	"Einion #1" = 5
+	"Iorwerth #1" = 5
+	"Trahaearn #1" = 5
+	"Aeron #0" = 1
+	"Aled #0" = 1
+	"Aneirin #0" = 1
+	"Arvel #0" = 1
+	"Berwyn #0" = 1
+	"Brynmor #0" = 1
+	"Cadfael #0" = 1
+	"Cadoc #0" = 1
+	"Cadwgawn #0" = 1
+	"Celyn #0" = 1
+	"Cledwyn #0" = 1
+	"Colwyn #0" = 1
+	"Dai #0" = 1
+	"Dilwyn #0" = 1
+	"Emyr #0" = 1
+	"Gawain #0" = 1
+	"Glynn #0" = 1
+	"Gwyn #0" = 1
+	"Heddwyn #0" = 1
+	"Heilyn #0" = 1
+	"Hywel #0" = 1
+	"Rhian #0" = 1
+	"Tristan #0" = 1
+	"Tudor #0" = 1
+	"Urien #0" = 1
+	"Vaughan #0" = 11
+	
+	"Aifric #0" = -1
+	"Fionola #0" = -1
+	"Raghnailt #0" = -1
+	"Saraid #0" = -1
+	"Órfhlaith #0" = -1
+	"Fedelma #0" = -1
+	"Neassa #0" = -1
+	"Rosheen #0" = -1
+	"Siofra #0" = -1
+	"Ceridwen #0" = -1
+	"Elain #0" = -1
+	"Gwenyth #0" = -1
+	"Megan #0" = -1
 }
 
 ship_names = {
-	Achille Agréable Alcyon Alouette Altier Aquilon Ardente Assuré Avenant Aventurier
-	Baleine Bienvenu Bizarre Borée Brillant Bucentaure Bécasse
-	Caché Caille Capable Centaure Coche Conquérant Constant Content Croissant César
-	Dauphine Diamant Dieppoise Dromadaire Dur
-	Eclatant Eole Espérance
-	Fantasque Ferme Fidèle Fier Florissant Formidable Fort Foudroyant
-	Gaillard
-	Heureux Héros
-	Jason
-	Lion
-	Mignon Minerve
-	Océan Orphée
-	Parfait Phénix Poli Pompeux Portefaix Protecteur Provence Provençal Prudent Puissant
-	Redoutable Requin Réale
-	Sage Sagittaire Sardine Sceptre Seine Solide Souverain Suffisant Séduisant Sérieux
-	Terrible Tigre Tonnant Toulon Toulouse Trident Triomphant Triton Téméraire
-	Union
-	Vaillant Vigilant Volontaire
-	Zélé
-	"Aigle Volant"
-	"Branche d'Olivier"
-	"Cheval Marin"
-	"Commerce de Marseille" "Commerce de Montpellier"
-	"Comte de Provence"
-	"Royal Louis"
-	"Royal Thérèse"
-	"Saint Esprit"
-	"Saint Joseph"
-	"Saint Philippe"
-}
-
-army_names = {
-	"Armée d'Orange"
-	"Armée de $PROVINCE$"
-	"Armée de Basse Provence"
-	"Armée de Haute Provence"
-	"Armée de Marseille"
-	"Armée de Provence-Forcalquier"
-	"Armée de la Durance"
-	"Armée des Alpes"
-	"Armée des Baux"
-	"Armée du Pays d'Arles"
-	"Armée du Rhône"
-	"Armée du Vivarais"
+	Bedwyr Brycheiniog
+	Cadwaladr Caerdydd Caernarfon Caradoc Ceredigion Conwy Culhwch
+	Deheubarth "Dewi Sant" Dolbadarn Dolwyddelan Dyfed
+	Eryri
+	Glywysing Gwalchmei "Gwenan Gorn" Gwydion Gwyn Gwynedd
+	Lleu "Llewellyn Fawr"
+	Mabinogi Math Meirionydd Morgannwg
+	Olwen "Owain Glyndwr"
+	Penfro Powys "Preiddeu Annwn" Pryderi Pwyll
+	Rhiannon
+	Taff Teifi Teirnon Tywi
+	"Ynys Môn"
 }
