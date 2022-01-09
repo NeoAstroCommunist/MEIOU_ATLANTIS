@@ -18,6 +18,9 @@ religion = chalcedonism
 technology_group = western
 capital = 5567
 fixed_capital = 5567
+historical_neutral = AT1
+historical_rival = AT3
+historical_friend = A11
 
 add_army_professionalism = 0.05
 

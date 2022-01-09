@@ -11,6 +11,9 @@ religion = chalcedonism
 technology_group = western
 capital = 5561
 fixed_capital = 5561
+historical_neutral = AT2
+historical_rival = AT3
+historical_neutral = A12
 
 1000.1.1 = {
 	add_country_modifier = { name = title_5 duration = -1 }

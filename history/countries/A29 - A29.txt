@@ -10,6 +10,7 @@ technology_group = western
 primary_culture = dardanian
 religion = catholic
 capital = 5652
+historical_rival = A27
 
 1000.1.1 = {
 	add_country_modifier = { name = title_3 duration = -1 }

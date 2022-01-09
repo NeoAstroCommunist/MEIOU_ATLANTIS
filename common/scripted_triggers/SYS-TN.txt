@@ -1,0 +1,461 @@
+Prod_Can_1 = { # Wheat
+	AND = {
+		check_key = { lhs = Land_CropOutput value = 1 }
+	}
+}
+Prod_Can_2 = { # Rice
+	AND = {
+		check_key = { lhs = Land_Soil value = 30 }
+		OR = {
+			check_key = { lhs = Land_MinTemp value = 10 }
+			NOT = { check_key = { lhs = Land_MaxTemp value = 46 } }
+		}
+		OR = {
+			NOT = { is_city = yes }
+			AND = {
+				owner = { capital_scope = { NOT = { continent = north_america } } }
+				owner = { capital_scope = { NOT = { continent = south_america } } }
+			}
+			Columbian_Exchange = 100
+		}
+	}
+}
+Prod_Can_3 = { # Maize
+	AND = {
+		check_key = { lhs = Land_Soil value = 30 }
+		OR = {
+			check_key = { lhs = Land_MinTemp value = 7 }
+			NOT = { check_key = { lhs = Land_MaxTemp value = 42 } }
+		}
+		OR = {
+			NOT = { is_city = yes }
+			owner = { capital_scope = { continent = north_america } }
+			owner = { capital_scope = { continent = south_america } }
+			Columbian_Exchange = 100
+		}
+	}
+}
+Prod_Can_4 = { # Millet
+	AND = {
+		check_key = { lhs = Land_Soil value = 20 }
+		OR = {
+			check_key = { lhs = Land_MinTemp value = 9 }
+			NOT = { check_key = { lhs = Land_MaxTemp value = 46 } }
+		}
+		OR = {
+			NOT = { is_city = yes }
+			AND = {
+				owner = { capital_scope = { NOT = { continent = north_america } } }
+				owner = { capital_scope = { NOT = { continent = south_america } } }
+			}
+			Columbian_Exchange = 100
+		}
+	}
+}
+Prod_Can_5 = { # Potato
+	AND = {
+		check_key = { lhs = Land_Soil value = 15 }
+		OR = {
+			check_key = { lhs = Land_MinTemp value = 0 }
+			NOT = { check_key = { lhs = Land_MaxTemp value = 31 } }
+		}
+		OR = {
+			NOT = { is_city = yes }
+			owner = { capital_scope = { continent = north_america } }
+			owner = { capital_scope = { continent = south_america } }
+			Columbian_Exchange = 100
+		}
+	}
+}
+
+Can_Fishery_Infra = { # Fishery
+	OR = {
+		has_port = yes
+		# Great Lakes (africa)
+		area = great_lakes_area
+		area = kitari_area
+		area = malawi_area
+		# Lake Mexico
+		province_id = 1471
+		province_id = 2200
+		province_id = 2410
+		# Finland/Karelia
+		area = karelia_area
+		area = finland_inland_area
+		province_id = 3994
+		# Siberia
+		region = east_siberia_region
+		AND = {
+			area = lower_ob_area
+			NOT = { province_id = 1529 }
+		}
+		province_id = 2446
+		province_id = 4021
+		# Caspian
+		is_key_equal = { lhs = TN_River value = 109 }
+		# Great Lakes (americas)
+		is_key_equal = { lhs = TN_River value = 61 }
+		is_key_equal = { lhs = TN_River value = 60 }
+		is_key_equal = { lhs = TN_River value = 62 }
+		province_id = 3436
+		province_id = 3437
+		province_id = 3438
+		province_id = 3435
+		province_id = 3439
+		province_id = 3442
+		province_id = 3440
+	}
+}
+Prod_Can_6 = { # Fishery
+    check_key = { lhs = Land_Fish value = 1 }
+	AND = {
+		Can_Fishery_Infra = yes
+		check_key = { lhs = SF_Total value = 0.1 }
+	}
+}
+
+Prod_Can_7 = { # Livestock
+    always = yes
+}
+
+Prod_Can_8 = { # Nomadic Subsistence
+    check_key = { lhs = NM_Total value = 0.1 }
+}
+
+Prod_Can_9 = { # Sea Salt
+    has_port = yes
+}
+
+Prod_Can_10 = { # Rock salt
+    has_province_flag = salt
+}
+
+Prod_Can_11 = { # Plant Fiber
+	always = yes
+}
+
+Prod_Can_12 = { # Dye
+    has_province_flag = dye
+}
+
+Prod_Can_13 = { # Timber
+    check_key = { lhs = Land_Forest value = 1 }
+}
+
+Prod_Can_14 = { # Coal
+	AND = {
+		has_province_flag = coal
+		
+		owner = {
+			has_institution = Banking
+		}
+	}
+}
+
+Prod_Can_15 = { # Metal
+    has_province_flag = m
+}
+
+Prod_Can_16 = { # Precious Metal
+	AND = {
+		has_province_flag = pm
+		
+		NOT = {
+			has_province_flag = marble
+			has_province_flag = silver
+			has_province_flag = gold
+		}
+	}
+}
+
+Prod_Can_17 = { # Gold
+    has_province_flag = gold
+}
+
+Prod_Can_18 = { # Silver
+    has_province_flag = silver
+}
+
+Prod_Can_19 = { # Cashcrop
+	AND = {
+		check_key = { lhs = SF_Total value = 0.1 }
+		OR = {
+			has_province_flag = tea
+			has_province_flag = sugar
+			has_province_flag = coffee
+			has_province_flag = cacao
+			has_province_flag = coca
+			has_province_flag = beer
+			has_province_flag = honey
+			has_province_flag = wine
+			has_province_flag = olive
+			has_province_flag = fruits
+			has_province_flag = incense
+			has_province_flag = dates
+			has_province_flag = kola
+			check_key = { lhs = Land_AvgTemp value = 15 }
+		}
+	}
+}
+
+Prod_Can_20 = { # Spices
+	AND = {
+		check_key = { lhs = SF_Total value = 0.1 }
+		OR = {
+			has_province_flag = spices
+			has_province_flag = nutmeg
+			has_province_flag = saffron
+		}
+	}
+}
+
+Prod_Can_21 = { # Game/Furs
+    check_key = { lhs = Land_Forest value = 1 }
+}
+
+Prod_Can_22 = { # Pearl
+    has_province_flag = pearls
+}
+
+Prod_Can_23 = { # Ivory
+    has_province_flag = ivory
+}
+
+Prod_Can_24 = { # Houseware
+    always = yes
+}
+
+Prod_Can_25 = { # Textile
+    always = yes
+}
+
+Prod_Can_26 = { # Armament
+    always = yes
+}
+
+Prod_Can_27 = { # Ship
+	AND = {
+		OR = {
+			has_port = yes
+			
+			check_key = { lhs = TN_River value = 1 }
+		}
+	}
+}
+
+Prod_Can_28 = { # Processed Material
+    always = yes
+}
+
+Prod_Can_29 = { # Religious Knowledge
+    check_key = { lhs = CL_Total value = 0.5 }
+}
+
+Prod_Can_30 = { # Higher Learning
+    check_key = { lhs = Class_Urban value = 10 }
+}
+
+Prod_Can_31 = { # Rural Commerce
+    check_key = { lhs = NO_Total value = 0.5 }
+}
+Prod_Can_32 = { # Urban Commerce
+    check_key = { lhs = Class_Urban value = 1 }
+}
+Prod_Can_33 = { # Silk
+	AND = {
+		# Can only be added by an event later
+		base_production = 5
+		OR = {
+			continent = asia
+			superregion = japan_superregion
+			superregion = central_asia_superregion
+			region = assam_region
+			region = vietnam_region
+			region = cochinchina_region
+		}
+	}
+}
+Prod_Can_34 = { # Chinaware
+	AND = {
+		# Can only be added by an event later
+		base_production = 5
+		OR = {
+			continent = asia
+			superregion = japan_superregion
+			region = vietnam_region
+		}
+	}
+}
+Prod_Can_35 = { # Carpet
+	AND = {
+		# Can only be added by an event later
+		base_production = 5
+		OR = {
+			continent = mena
+			continent = central_asia
+		}
+	}
+}
+Prod_Can_36 = { # Glass
+    # Can only be added by an event
+    always = no
+}
+Prod_Can_37 = { # Gadget
+    # Can only be added by an event
+    always = no
+}
+Prod_Can_38 = { # Cottage Industry
+    always = yes
+}
+Prod_Can_39 = { # Luxury Cloth
+    # Can only be added by an event
+    base_production = 5
+}
+Prod_Can_40 = { # Steel
+    # Can only be added by an event
+    always = no
+}
+Prod_Can_41 = { # Marble
+	has_province_flag = marble
+}
+Prod_Can_42 = { # Sericulture
+	AND = {
+		# Can only be added by an event
+		OR = {
+			continent = asia
+			superregion = japan_superregion
+			superregion = central_asia_superregion
+			region = assam_region
+			region = vietnam_region
+			region = cochinchina_region
+		}
+	}
+}
+Prod_Wheat = {
+	AND = {
+		OR = {
+			continent = asia
+			continent = indian_continent
+			continent = north_asia
+			continent = europe
+			continent = mena
+			continent = central_asia
+			superregion = southeast_asia_superregion
+			superregion = japan_superregion
+			superregion = atlantis_superregion
+		}
+	}
+}
+Prod_Barley = {
+	AND = {
+		OR = {
+			continent = asia
+			continent = indian_continent
+			continent = north_asia
+			continent = europe
+			continent = mena
+			continent = central_asia
+			superregion = southeast_asia_superregion
+			superregion = japan_superregion
+			superregion = atlantis_superregion
+		}
+	}
+}
+
+Prod_Rice = {
+	AND = {
+		OR = {
+			continent = asia
+			continent = indian_continent
+			continent = southeast_asia
+			continent = central_asia
+			region = papua_region
+			region = madagascar_region
+			superregion = west_africa_superregion
+			superregion = japan_superregion
+		}
+		NOT = { region = kazakh_region }
+		NOT = { area = transcaspia_area }
+		NOT = { superregion = persia_superregion }
+		NOT = { region = darfur_region }
+		NOT = { region = chad_region }
+		NOT = { area = saharan_bend_area }
+		NOT = { area = daura_area }
+	}
+}
+Prod_Maize = {
+	AND = {
+		OR = {
+			superregion = central_america_superregion
+			superregion = east_america_superregion
+			superregion = west_america_superregion
+			continent = south_america
+			area = upper_ontario_area
+			area = huronia_area
+			area = lower_canada_area
+			area = notre_dame_mountains_area
+			area = odaawaa_area
+			area = upper_acadia_area
+			area = lower_acadia_area
+		}
+	}
+}
+Prod_Millet = {
+	AND = {
+		OR = {
+			continent = africa
+			continent = indian_continent
+			continent = asia
+			continent = mena
+			continent = europe
+			continent = central_asia
+			superregion = southeast_asia_superregion
+			superregion = japan_superregion
+			superregion = atlantis_superregion
+		}
+	}
+}
+Prod_Potato = {
+	AND = {
+		continent = south_america
+	}
+}
+Prod_IsPrecious = {
+	AND = {
+		OR = {
+			AND = {
+				check_key = { lhs = Prod_S$slot$ value = 16 }
+				NOT = { check_key = { lhs = Prod_S$slot$ value = 19 } }
+			}
+			is_key_equal = { lhs = Prod_S$slot$ value = 41 }
+		}
+	}
+}
+Prod_HasProdOld = {
+	AND = {
+		OR = {
+			is_key_equal = { lhs = Prod_S0 value = $Prod$ }
+			is_key_equal = { lhs = Prod_S1 value = $Prod$ }
+			is_key_equal = { lhs = Prod_S2 value = $Prod$ }
+			is_key_equal = { lhs = Prod_S3 value = $Prod$ }
+			is_key_equal = { lhs = Prod_S4 value = $Prod$ }
+			is_key_equal = { lhs = Prod_S5 value = $Prod$ }
+			is_key_equal = { lhs = Prod_S6 value = $Prod$ }
+			is_key_equal = { lhs = Prod_S7 value = $Prod$ }
+			is_key_equal = { lhs = Prod_S8 value = $Prod$ }
+			is_key_equal = { lhs = Prod_S9 value = $Prod$ }
+			is_key_equal = { lhs = Prod_S10 value = $Prod$ }
+			is_key_equal = { lhs = Prod_S11 value = $Prod$ }
+			is_key_equal = { lhs = Prod_S12 value = $Prod$ }
+			is_key_equal = { lhs = Prod_S13 value = $Prod$ }
+			is_key_equal = { lhs = Prod_S14 value = $Prod$ }
+			is_key_equal = { lhs = Prod_S15 value = $Prod$ }
+		}
+	}
+}
+Prod_HasProd = {
+	has_province_flag = Industry_$Prod$Present
+}
+Prod_NotHasProd = {
+	NOT = { has_province_flag = Industry_$Prod$Present }
+}

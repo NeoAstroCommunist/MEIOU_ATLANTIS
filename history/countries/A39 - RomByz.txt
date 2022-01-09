@@ -8,6 +8,11 @@ add_government_reform = Pol_Structure5
 add_government_reform = Pol_Centralisation4
 add_government_reform = Pol_Provincial3
 add_government_reform = Pol_Autonomy1
+historical_rival = A21
+historical_rival = A17
+historical_rival = A27
+historical_rival = A28
+historical_neutral = A23
 	
 government_rank = 1 
 mercantilism = 0.0

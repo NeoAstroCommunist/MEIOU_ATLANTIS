@@ -1,4 +1,4 @@
-owner = A39
+owner = A39 add_core = A39
 controller = A39
 culture = romanmagnet
 trade_goods = wheat

@@ -743,7 +743,7 @@ country_event = {
 						else_if = {
 							limit = { superregion = atlantis_superregion }
 							if = {
-								limit = { any_neighbor_province = { religion = sunni } }
+								limit = { religion = chalcedonism  any_neighbor_province = { religion = sunni } }
 								MN_StartUpProv = {
 									rural0 = 0.74 urban0 = 0.66 notables0 = 0.51
 									religion1 = 22 rural1 = 0.23 urban1 = 0.20 notables1 = 0.44
@@ -751,7 +751,7 @@ country_event = {
 								}
 							}
 							else_if = {
-								limit = { any_neighbor_province = { religion = arianism } }
+								limit = { religion = catholic any_neighbor_province = { religion = arianism } }
 								MN_StartUpProv = {
 									rural0 = 0.70 urban0 = 0.85 notables0 = 0.95
 									religion1 = 13 rural1 = 0.20 urban1 = 0.04 notables1 = 0.03
@@ -759,7 +759,7 @@ country_event = {
 								}
 							}
 							else_if = {
-								limit = { any_neighbor_province = { religion = catholic } }
+								limit = { religion = arianism any_neighbor_province = { religion = catholic } }
 								MN_StartUpProv = {
 									rural0 = 0.85 urban0 = 0.85 notables0 = 0.95
 									religion1 = 01 rural1 = 0.15 urban1 = 0.10 notables1 = 0.03
@@ -767,7 +767,7 @@ country_event = {
 								}
 							}
 							else_if = {
-								limit = { any_neighbor_province = { religion = chalcedonism } }
+								limit = { religion = catholic any_neighbor_province = { religion = chalcedonism } }
 								MN_StartUpProv = {
 									rural0 = 0.85 urban0 = 0.85 notables0 = 0.95
 									religion1 = 10 rural1 = 0.15 urban1 = 0.10 notables1 = 0.03
@@ -1125,11 +1125,12 @@ country_event = {
 									}
 								}
 							}
+						}
 						#Atlantis	
 						else_if = {
 							limit = { superregion = atlantis_superregion }
 							if = {
-								limit = { any_neighbor_province = { religion = catholic } }
+								limit = { religion = sunni any_neighbor_province = { religion = catholic } }
 								MN_StartUpProv = {
 									rural0 = 0.74 urban0 = 0.66 notables0 = 0.51
 									religion1 = 01 rural1 = 0.23 urban1 = 0.20 notables1 = 0.44
@@ -1137,7 +1138,7 @@ country_event = {
 								}
 							}
 							else_if = {
-								limit = { any_neighbor_province = { religion = chalcedonism } }
+								limit = { religion = sunni any_neighbor_province = { religion = chalcedonism } }
 								MN_StartUpProv = {
 									rural0 = 0.85 urban0 = 0.85 notables0 = 0.95
 									religion1 = 10 rural1 = 0.15 urban1 = 0.10 notables1 = 0.03
@@ -1153,7 +1154,7 @@ country_event = {
 								}
 							}
 							else_if = {
-								limit = { any_neighbor_province = { religion = animism } }
+								limit = { religion = sunni any_neighbor_province = { religion = animism } }
 								MN_StartUpProv = {
 									rural0 = 0.60 urban0 = 0.80 notables0 = 1
 									religion1 = 61 rural1 = 0.35 urban1 = 0.05 notables1 = 0.0
@@ -1166,7 +1167,6 @@ country_event = {
 									religion1 = 42 rural1 = 0.00 urban1 = 0.02 notables1 = 0.05
 								}
 							}
-						}
 						}
 						#Steppes
 						else_if = {

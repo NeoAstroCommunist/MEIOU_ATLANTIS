@@ -1,4 +1,4 @@
-owner = A23
+owner = A23 add_core = A23
 controller = A23
 culture = romanoean
 trade_goods = fish

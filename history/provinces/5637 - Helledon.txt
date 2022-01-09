@@ -1,4 +1,4 @@
-owner = A32
+owner = A32 add_core = A32
 controller = A32
 culture = thaumacian
 trade_goods = wheat

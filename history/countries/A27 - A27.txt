@@ -8,6 +8,14 @@ technology_group = western
 primary_culture = odomantian
 religion = arianism
 capital = 5612
+historical_rival = A18
+historical_rival = A21
+historical_rival = A39
+historical_rival = A29
+historical_rival = A30
+historical_rival = A32
+historical_neutral = A17
+historical_friend = A28
 
 1000.1.1 = {
 	add_country_modifier = { name = title_5 duration = -1 }

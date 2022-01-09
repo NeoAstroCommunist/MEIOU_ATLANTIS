@@ -19,6 +19,11 @@ religion = catholic
 technology_group = western
 capital = 5572	# Venezia
 fixed_capital = 5572
+historical_neutral = A17
+historical_friend = A18
+historical_rival = A39
+historical_rival = AT7
+historical_rival = A27
 
 add_army_professionalism = 0.05
 

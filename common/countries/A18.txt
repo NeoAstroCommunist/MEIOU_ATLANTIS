@@ -41,129 +41,129 @@ historical_units = { #French group
 	western_jominian_infantry
 }
 
+
 monarch_names = {
-	"Charles #2" = 40
-	"Louis #1" = 40
-	"René #1" = 20
-	"Nicolas #0" = 10
-	"Jean #0" = 5
-	"Raymond Berengar #3" = 1
-	"Alphonse #2" = 1
-	"Robert #1" = 1
-	"Adhémar #0" = 1
-	"Aymeric #0" = 1
-	"Bartomiu #0" = 1
-	"Benedit #0" = 1
-	"Bernat #0" = 1
-	"Bertran #0" = 1
-	"Damián #0" = 1
-	"Emeric #0" = 1
-	"Enric #0" = 1
-	"Estève #0" = 1
-	"Ferrán #0" = 1
-	"Folquet #0" = 1
-	"Frances #0" = 1
-	"Gastó #0" = 1
-	"Guilhem #0" = 1
-	"Huc #0" = 1
-	"Jacme #0" = 1
-	"Jaufre #0" = 1
-	"Jordan #0" = 1
-	"Loys #0" = 1
-	"Lucas #0" = 1
-	"Martí #0" = 1
-	"Matheu #0" = 1
-	"Miqueu #0" = 1
-	"Per #0" = 1
-	"Pol #0" = 1
-	"Pons #0" = 1
-	"Sanc #0" = 1
-	"Thibaud #0" = 1
-	"Vicentz #0" = 1
-	"Victor #0" = 1
-	"Xavier #0" = 1
+	"Clemens #6" = 160
+	"Innocentius #6" = 140
+	"Pius #1" = 120
+	"Gregorius #11" = 80
+	"Paulus #1" = 80
+	"Alexander #5" = 60
+	"Benedictus #12" = 40
+	"Leo #9" = 40
+	"Urbanus #6" = 40
+	"Xystus #3" = 40
+	"Iulius #1" = 40
+	"Bonifacius #8" = 20
+	"Hadrianus #5" = 20
+	"Martinus #4" = 20
+	"Nicolaus #4" = 20
+	"Eugenius #3" = 20
+	"Callistus #2" = 20
+	"Marcellus #1" = 20
+	"Iohannes #22" = 15
+	"Celestinus #5" = 15
+	"Honorius #4" = 10
+	"Aldo #0" = 1
+	"Alfonso #0" = 1
+	"Baldovino #0" = 1
+	"Cirillo #0" = 1
+	"Cosimo #0" = 1
+	"Damiano #0" = 1
+	"Egidio #0" = 1
+	"Franco #0" = 1
+	"Giambattista #0" = 1
+	"Ippolito #0" = 1
+	"Leandro #0" = 1
+	"Marzio #0" = 1
+	"Ovidio #0" = 1
+	"Pietro #0" = 1
+	"Prospero #0" = 1
+	"Rafaello #0" = 1
+	"Scipione #0" = 1
+	"Teodosio #0" = 1
+	"Vittorio #0" = 1
 	
-	"Blanche #0" = -1
-	"Aliénor #0" = -1
-	"Berthe #0" = -1
-	"Constance #0" = -1
-	"Mathilde #0" = -1
-	"Isabeau #0" = -1
-	"Jeanne #0" = -1
-	"Marie #0" = -1
-	"Charlotte #0" = -1
-	"Anne #0" = -1
-	"Marguerite #0" = -1
-	"Adélaïde #0" = -1
-	"Claude #0" = -1
+	"Alba #0" = -1
+	"Brunella #0" = -1
+	"Lauretta #0" = -1
+	"Magdalena #0" = -1
+	"Maria #0" = -1
+	"Eva #0" = -1
+	"Antonia #0" = -1
+	"Ludovica #0" = -1
+	"Mariangela #0" = -1
+	"Petronilla #0" = -1
+	"Filippa #0" = -1
+	"Giosetta #0" = -1
+	"Mafalda #0" = -1
+	"Cornelia #0" = -1
+	"Emma #0" = -1
+	"Fioralba #0" = -1
+	"Caterina #0" = -1
+	"Giulia #0" = -1
+	"Lucrezia #0" = -1
+	"Pierina #0" = -1
+	"Santuzza #0" = -1
+	"Eulalia #0" = -1
+	"Luisella #0" = -1
+	"Milena #0" = -1
+	"Paolina #0" = -1
 }
 
 leader_names = {
-	Coquerel
-	Esparron
-	Grimaldi
-	d'Abeille d'Adhémar d'Agoult d'Aiglun d'Aiguières d'Allemagne d'Amalric d'Audiffredi d'Entrecasteaux d'Espagnet d'Espinouze
-	"Fauque de Jonquières"
-	"Ferré de la Grange"
-	"Pene de la Borde"
-	"de Bagnols" "de Barberin" "de Barcillon" "de Baschi" "de Bermond" "de Bionneau" "de Brunet"
-	"de Cadenet" "de Cascaris-Castellet" "de Castaing" "de Castellane" "de Castillon" "de Cordes" "de Cormis" "de Crillon"
-	"de Fargis"
-	"de Gévaudan" "de Gassendi" "de Gombert" "de Gordes" "de Grignan" "de Grimaud" "de Guast"
-	"de Lauris" "de Libertat" "de Loménie"
-	"de Monteil" "de Montpezat"
-	"de Paule" "de Pena" "de Pontevès"
-	"de Raimondis" "de Revest" "de Riquetti"
-	"de Séguiran" "de Sabran" "de Sade" "de Saint Victoret" "de Simiane"
-	"de Valbelle"
-	"de la Pérusse"
-	"des Baux"
-	"des Isnards"
+	Akropolites Angelos Aoinos Apokaukos Argyros
+	Basileous Batatzes Botaneiates Boumbalis
+	Choniates Choumnos
+	Diasorenos Diogenes Doukas
+	Gabras
+	Iagaris
+	Kantakuzenos Kaukadenos Komnenos
+	Laskaris
+	Melissinos Melisurgos Mikrulakes Monomakos Mouzalon
+	Nestongos
+	Palaiologos Paraspondylos Phocas Phouskarnaki Phrangopoulos Psellos
+	Rhadinos Rhangabe Rhodocanakis Romanos
+	Syropoulos
+	Tornikes
+	Zarides Zimisces
 }
 
 ship_names = {
-	Achille Agréable Alcyon Alouette Altier Aquilon Ardente Assuré Avenant Aventurier
-	Baleine Bienvenu Bizarre Borée Brillant Bucentaure Bécasse
-	Caché Caille Capable Centaure Coche Conquérant Constant Content Croissant César
-	Dauphine Diamant Dieppoise Dromadaire Dur
-	Eclatant Eole Espérance
-	Fantasque Ferme Fidèle Fier Florissant Formidable Fort Foudroyant
-	Gaillard
-	Heureux Héros
+	Adrianopolis "Aetos Autokratiki" "Aghia Ioylia" "Aghia Irini" "Aghia Magdalini" "Aghia Sophia" "Aghia Thekla"
+	"Aghios Angelos" "Aghios Eusebios" "Aghios Ioakeim" "Aghios Ioannes" "Aghios Loukas"
+	"Aghios Markos" "Aghios Matthaios" "Aghios Maximos" "Aghios Nikolaos" "Aghios Pavlos"
+	"Aghios Petros" "Aghios Philimon" "Aghios Sergios" "Aghios Stephanos" "Aghios Thimoteos"
+	Aiakos Aineas Akhilleus Amphitrion Aphrodita Apollo Arakhne Ares Asia Athena
+	"Basileous Alexandros" "Basileous Alexeios" "Basileous Andronikos" "Basileous Basileos"
+	"Basileous Demetrios" "Basileous Ioannes" "Basileous Isaak" "Basileous Leon"
+	"Basileous Manuel" "Basileous Michael" "Basileous Rhomaion" "Basileous Romanos"
+	"Basileous Theodoros" "Basileous Theophilos" "Basileisa Theodora" "Basileisa Zoe"
+	Belisarios Byzantion
+	Cassandra Castor "Christos Soter" Chronos
+	Demeter "Despotes Demetrios" "Despotes Moreas" Diana "Drakon Ouranos" Dyonisos
+	Ellade Endymion Eros Europa
+	Gea "Gorgona Poseidonos"
+	Hades Hektor Hephaistos Hera Herakles Hermes Hestia Hydra Hypnos
 	Jason
-	Lion
-	Mignon Minerve
-	Océan Orphée
-	Parfait Phénix Poli Pompeux Portefaix Protecteur Provence Provençal Prudent Puissant
-	Redoutable Requin Réale
-	Sage Sagittaire Sardine Sceptre Seine Solide Souverain Suffisant Séduisant Sérieux
-	Terrible Tigre Tonnant Toulon Toulouse Trident Triomphant Triton Téméraire
-	Union
-	Vaillant Vigilant Volontaire
-	Zélé
-	"Aigle Volant"
-	"Branche d'Olivier"
-	"Cheval Marin"
-	"Commerce de Marseille" "Commerce de Montpellier"
-	"Comte de Provence"
-	"Royal Louis"
-	"Royal Thérèse"
-	"Saint Esprit"
-	"Saint Joseph"
-	"Saint Philippe"
+	"Kaisar Konstantinos" Konstantinopolis "Konstantinos Dragases"
+	"Liontari Skliros" "Lussa ton Theon" "Lykos Thalasses"
+	Makedonia "Margaritari Aspra" Minos
+	Nestor
+	Odysseos Orestes Okeanasthraustis Ouranos
+	Panselenos Pegasos Perseos "Pontikos Thalasses" Poseidon
+	Rhadamanthys
+	Sebastokrator
+	Thanatos Theseos
+	Zeous
 }
 
 army_names = {
-	"Armée d'Orange"
-	"Armée de $PROVINCE$"
-	"Armée de Basse Provence"
-	"Armée de Haute Provence"
-	"Armée de Marseille"
-	"Armée de Provence-Forcalquier"
-	"Armée de la Durance"
-	"Armée des Alpes"
-	"Armée des Baux"
-	"Armée du Pays d'Arles"
-	"Armée du Rhône"
-	"Armée du Vivarais"
+	"Thema Thrakes" "Thema Makedonikon" "Thema Thessalonikes" "Thema Helladikon" "Thema Opsikion" "Thema Optimaton"
+	"Thema Paphlagonia" "Thema $PROVINCE$"
+}
+
+
+fleet_names = {
+	"Thema Cibyrraeoton" "Thema Cypriakon" "Thema Aigaeou Pelagous" "Thema Sicelias"
 }

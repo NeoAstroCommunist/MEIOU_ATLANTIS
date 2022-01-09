@@ -23,9 +23,9 @@ discovered_by = western
 
 100.1.1 = {
 	set_key = { lhs = starting_rural_pop_1300 value = 109.399 }
-	set_key = { lhs = starting_urban_pop_1300 value = 219.971 }
+	set_key = { lhs = starting_urban_pop_1300 value = 126.971 }
 	set_key = { lhs = starting_rural_pop_1350 value = 121.554 }
-	set_key = { lhs = starting_urban_pop_1350 value = 244.412 }
+	set_key = { lhs = starting_urban_pop_1350 value = 167.412 }
 	set_key = { lhs = starting_rural_pop_1400 value = 133.709 }
 	set_key = { lhs = starting_urban_pop_1400 value = 268.853 }
 	set_key = { lhs = starting_rural_pop_1450 value = 147.080 }

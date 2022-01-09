@@ -1,4 +1,4 @@
-owner = A33
+owner = A33 add_core = A33
 controller = A33
 culture = jendean
 trade_goods = livestock
