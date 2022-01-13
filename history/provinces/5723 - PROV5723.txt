@@ -1,2 +1,2 @@
-
+discovered_by = FEZ discovered_by = GRA discovered_by = HAF
 discovered_by = western

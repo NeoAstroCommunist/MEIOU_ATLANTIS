@@ -42,128 +42,100 @@ historical_units = { #French group
 }
 
 monarch_names = {
-	"Charles #2" = 40
-	"Louis #1" = 40
-	"René #1" = 20
-	"Nicolas #0" = 10
-	"Jean #0" = 5
-	"Raymond Berengar #3" = 1
-	"Alphonse #2" = 1
-	"Robert #1" = 1
-	"Adhémar #0" = 1
-	"Aymeric #0" = 1
-	"Bartomiu #0" = 1
-	"Benedit #0" = 1
-	"Bernat #0" = 1
-	"Bertran #0" = 1
-	"Damián #0" = 1
-	"Emeric #0" = 1
-	"Enric #0" = 1
-	"Estève #0" = 1
-	"Ferrán #0" = 1
-	"Folquet #0" = 1
-	"Frances #0" = 1
-	"Gastó #0" = 1
-	"Guilhem #0" = 1
-	"Huc #0" = 1
-	"Jacme #0" = 1
-	"Jaufre #0" = 1
-	"Jordan #0" = 1
-	"Loys #0" = 1
-	"Lucas #0" = 1
-	"Martí #0" = 1
-	"Matheu #0" = 1
-	"Miqueu #0" = 1
-	"Per #0" = 1
-	"Pol #0" = 1
-	"Pons #0" = 1
-	"Sanc #0" = 1
-	"Thibaud #0" = 1
-	"Vicentz #0" = 1
-	"Victor #0" = 1
-	"Xavier #0" = 1
+	"Simon" = 1
+	"Joseph " = 1
+	"Judah " = 1
+	"Eleazar " = 1
+	"Yohanan " = 1
+	"Joshua " = 1
+	"Hananiah " = 1
+	"Jonathan " = 1
+	"Mattathias " = 1
+	"Menahem " = 1
+	"Jacob " = 1
+	"Hanan " = 1
+	"Dositheus " = 1
+	"Zachariah " = 1
+	"Ishmael " = 1
+	"Levi " = 1
+	"Saul" = 1
+	"Onias" = 1
+	"Samuel" = 1
+	"Ezekiah" = 1
+	"Gadish" = 1
+	"Gani" = 1
+	"Hagai" = 1
+	"Hanilai" = 1
+	"Harsom" = 1
+	"Harqaq" = 1
+	"Maro" = 1
+	"Nathanel" = 1 
+	"Nathan" = 1
+	"Nebalta" = 1
+	"Nicandus" = 1
+	"Jason" = 1
+	"Jeremiah" = 1
+	"Kasaias"= 1
 	
-	"Blanche #0" = -1
-	"Aliénor #0" = -1
-	"Berthe #0" = -1
-	"Constance #0" = -1
-	"Mathilde #0" = -1
-	"Isabeau #0" = -1
-	"Jeanne #0" = -1
-	"Marie #0" = -1
-	"Charlotte #0" = -1
-	"Anne #0" = -1
-	"Marguerite #0" = -1
-	"Adélaïde #0" = -1
-	"Claude #0" = -1
+	"Hannah " = -1
+	"Mariam " = -1
+	"Salome " = -1
+	"Shelamzion " = -1
+	"Martha " = -1
+	"Joanna " = -1
+	"Shiphra " = -1
+	"Berenice " = -1
+	"Sarah " = -1
+	"Imma " = -1
+	"Hermione " = -1
+	"Helene " = -1
+	"Grapte " = -1
+	"Elisheba" = -1
+	"Esther" = -1
+	"Lysia" = -1
+	"Judith" = -1
+	"Julia " = -1
+	"Mara" = -1
 }
 
 leader_names = {
-	Coquerel
-	Esparron
-	Grimaldi
-	d'Abeille d'Adhémar d'Agoult d'Aiglun d'Aiguières d'Allemagne d'Amalric d'Audiffredi d'Entrecasteaux d'Espagnet d'Espinouze
-	"Fauque de Jonquières"
-	"Ferré de la Grange"
-	"Pene de la Borde"
-	"de Bagnols" "de Barberin" "de Barcillon" "de Baschi" "de Bermond" "de Bionneau" "de Brunet"
-	"de Cadenet" "de Cascaris-Castellet" "de Castaing" "de Castellane" "de Castillon" "de Cordes" "de Cormis" "de Crillon"
-	"de Fargis"
-	"de Gévaudan" "de Gassendi" "de Gombert" "de Gordes" "de Grignan" "de Grimaud" "de Guast"
-	"de Lauris" "de Libertat" "de Loménie"
-	"de Monteil" "de Montpezat"
-	"de Paule" "de Pena" "de Pontevès"
-	"de Raimondis" "de Revest" "de Riquetti"
-	"de Séguiran" "de Sabran" "de Sade" "de Saint Victoret" "de Simiane"
-	"de Valbelle"
-	"de la Pérusse"
-	"des Baux"
-	"des Isnards"
+	Hyrcanus
+	Iscariot
+	Laganiat
+	Braham
+	Gedide
+	Kohan
+	Yochanan
+	Maiman
+	Megiston
+	Likhluket
+	Marsyam
+    Neron
+	Nicoliat
+	Nisat
+	Nuri
+	Mahana
+	Manale
+	Josephus
+	Kalatha
+	Karkema
 }
 
 ship_names = {
-	Achille Agréable Alcyon Alouette Altier Aquilon Ardente Assuré Avenant Aventurier
-	Baleine Bienvenu Bizarre Borée Brillant Bucentaure Bécasse
-	Caché Caille Capable Centaure Coche Conquérant Constant Content Croissant César
-	Dauphine Diamant Dieppoise Dromadaire Dur
-	Eclatant Eole Espérance
-	Fantasque Ferme Fidèle Fier Florissant Formidable Fort Foudroyant
-	Gaillard
-	Heureux Héros
-	Jason
-	Lion
-	Mignon Minerve
-	Océan Orphée
-	Parfait Phénix Poli Pompeux Portefaix Protecteur Provence Provençal Prudent Puissant
-	Redoutable Requin Réale
-	Sage Sagittaire Sardine Sceptre Seine Solide Souverain Suffisant Séduisant Sérieux
-	Terrible Tigre Tonnant Toulon Toulouse Trident Triomphant Triton Téméraire
-	Union
-	Vaillant Vigilant Volontaire
-	Zélé
-	"Aigle Volant"
-	"Branche d'Olivier"
-	"Cheval Marin"
-	"Commerce de Marseille" "Commerce de Montpellier"
-	"Comte de Provence"
-	"Royal Louis"
-	"Royal Thérèse"
-	"Saint Esprit"
-	"Saint Joseph"
-	"Saint Philippe"
+	Adonis Anath Asherah Astarte
+	Baal "Baal-Hammon" "Baalat Asclepius"
+	Kathirat Kothar
+	Melqarth Mot
+	Resheph
+	Shahar Shalim Shapash
+	Tanit
+	Yamm Yarikh
 }
 
 army_names = {
-	"Armée d'Orange"
-	"Armée de $PROVINCE$"
-	"Armée de Basse Provence"
-	"Armée de Haute Provence"
-	"Armée de Marseille"
-	"Armée de Provence-Forcalquier"
-	"Armée de la Durance"
-	"Armée des Alpes"
-	"Armée des Baux"
-	"Armée du Pays d'Arles"
-	"Armée du Rhône"
-	"Armée du Vivarais"
+	"Tsva Knaan"
+	"Tsva Meerev-Peynikya"
+	"Tsva Hishmadta Hadrorim"
+	"Tsva Haahava"
+	"Tsva Hakuna Matata"
 }

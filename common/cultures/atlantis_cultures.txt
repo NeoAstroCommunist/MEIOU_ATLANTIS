@@ -3,179 +3,771 @@
 southatlantean = {
 	graphical_culture = westerngfx
 	argolian = {
+		dynasty_names = {
+			Abaza
+			Hassanid
+			Katkhuda
+			Maanid Mirdasid
+			Qasimiyya Qitas
+			Yakubid
+			al-Qazdughli al-Shihab
+		}
 		male_names = {
-			male
+			'Abbas 'Abd
+			Anwar Atuf
+			Bakr
+			Djamal
+			Fahd
+			Hakim Harun Hikmat Hisham Husayn
+			Isma'il
+			Jafar Jamaal
+			Karim
+			Malоk Mirza Muhammad Mujir
+			Rashоd Rusul
+			Saif Shams Shihab Shimun
+			Tadj Tarоq
+			Usama
+			Yasir Yusuf
+			Zaid Zоyad
+			al-'Adil al-Afdal al-Ashraf al-Kamil al-Mu'azzam al-Nasr al-Rahman al-Salih
+			ud-Din
 		}
 		female_names = {
-			female
-		}
-		dynasty_names = {
-			dynasty
+			Aisha Aziza
+			Duha
+			Farida
+			Golbahar Gulnar Gulnaz Gulpari
+			Hafsa Hasti Huma
+			Ibtisam Ihsan
+			Jalila
+			Kamala Karima Khandan Khaterah Khatira Kinah
+			Lala
+			Madiha Mahdokht Mahsa Mahwash Marwa Mastana Mehri Mina Minoo Munawwar Muzhdah
+			Nahal Najela Nasiba Nastaran Nazaneen Nazy Neelab Negar Niki Nikoo Noushin
+			Rabiya Rajiya
+			Sadiya Salma Sitara
+			Thana
+			Zahra Zuhayra
 		}
 	}
 	thesrotian = {
+		dynasty_names = {
+			Abaza
+			Hassanid
+			Katkhuda
+			Maanid Mirdasid
+			Qasimiyya Qitas
+			Yakubid
+			al-Qazdughli al-Shihab
+		}
 		male_names = {
-			male
+			'Abbas 'Abd
+			Anwar Atuf
+			Bakr
+			Djamal
+			Fahd
+			Hakim Harun Hikmat Hisham Husayn
+			Isma'il
+			Jafar Jamaal
+			Karim
+			Malоk Mirza Muhammad Mujir
+			Rashоd Rusul
+			Saif Shams Shihab Shimun
+			Tadj Tarоq
+			Usama
+			Yasir Yusuf
+			Zaid Zоyad
+			al-'Adil al-Afdal al-Ashraf al-Kamil al-Mu'azzam al-Nasr al-Rahman al-Salih
+			ud-Din
 		}
 		female_names = {
-			female
-		}
-		dynasty_names = {
-			dynasty
+			Aisha Aziza
+			Duha
+			Farida
+			Golbahar Gulnar Gulnaz Gulpari
+			Hafsa Hasti Huma
+			Ibtisam Ihsan
+			Jalila
+			Kamala Karima Khandan Khaterah Khatira Kinah
+			Lala
+			Madiha Mahdokht Mahsa Mahwash Marwa Mastana Mehri Mina Minoo Munawwar Muzhdah
+			Nahal Najela Nasiba Nastaran Nazaneen Nazy Neelab Negar Niki Nikoo Noushin
+			Rabiya Rajiya
+			Sadiya Salma Sitara
+			Thana
+			Zahra Zuhayra
 		}
 	}
 	cidonian = {
+		dynasty_names = {
+			Abaza
+			Hassanid
+			Katkhuda
+			Maanid Mirdasid
+			Qasimiyya Qitas
+			Yakubid
+			al-Qazdughli al-Shihab
+		}
 		male_names = {
-			male
+			'Abbas 'Abd
+			Anwar Atuf
+			Bakr
+			Djamal
+			Fahd
+			Hakim Harun Hikmat Hisham Husayn
+			Isma'il
+			Jafar Jamaal
+			Karim
+			Malоk Mirza Muhammad Mujir
+			Rashоd Rusul
+			Saif Shams Shihab Shimun
+			Tadj Tarоq
+			Usama
+			Yasir Yusuf
+			Zaid Zоyad
+			al-'Adil al-Afdal al-Ashraf al-Kamil al-Mu'azzam al-Nasr al-Rahman al-Salih
+			ud-Din
 		}
 		female_names = {
-			female
-		}
-		dynasty_names = {
-			dynasty
+			Aisha Aziza
+			Duha
+			Farida
+			Golbahar Gulnar Gulnaz Gulpari
+			Hafsa Hasti Huma
+			Ibtisam Ihsan
+			Jalila
+			Kamala Karima Khandan Khaterah Khatira Kinah
+			Lala
+			Madiha Mahdokht Mahsa Mahwash Marwa Mastana Mehri Mina Minoo Munawwar Muzhdah
+			Nahal Najela Nasiba Nastaran Nazaneen Nazy Neelab Negar Niki Nikoo Noushin
+			Rabiya Rajiya
+			Sadiya Salma Sitara
+			Thana
+			Zahra Zuhayra
 		}
 	}
 	phalusian = {
+		dynasty_names = {
+			Abaza
+			Hassanid
+			Katkhuda
+			Maanid Mirdasid
+			Qasimiyya Qitas
+			Yakubid
+			al-Qazdughli al-Shihab
+		}
 		male_names = {
-			male
+			'Abbas 'Abd
+			Anwar Atuf
+			Bakr
+			Djamal
+			Fahd
+			Hakim Harun Hikmat Hisham Husayn
+			Isma'il
+			Jafar Jamaal
+			Karim
+			Malоk Mirza Muhammad Mujir
+			Rashоd Rusul
+			Saif Shams Shihab Shimun
+			Tadj Tarоq
+			Usama
+			Yasir Yusuf
+			Zaid Zоyad
+			al-'Adil al-Afdal al-Ashraf al-Kamil al-Mu'azzam al-Nasr al-Rahman al-Salih
+			ud-Din
 		}
 		female_names = {
-			female
-		}
-		dynasty_names = {
-			dynasty
+			Aisha Aziza
+			Duha
+			Farida
+			Golbahar Gulnar Gulnaz Gulpari
+			Hafsa Hasti Huma
+			Ibtisam Ihsan
+			Jalila
+			Kamala Karima Khandan Khaterah Khatira Kinah
+			Lala
+			Madiha Mahdokht Mahsa Mahwash Marwa Mastana Mehri Mina Minoo Munawwar Muzhdah
+			Nahal Najela Nasiba Nastaran Nazaneen Nazy Neelab Negar Niki Nikoo Noushin
+			Rabiya Rajiya
+			Sadiya Salma Sitara
+			Thana
+			Zahra Zuhayra
 		}
 	}
 	icarian = {
+		dynasty_names = {
+			Abaza
+			Hassanid
+			Katkhuda
+			Maanid Mirdasid
+			Qasimiyya Qitas
+			Yakubid
+			al-Qazdughli al-Shihab
+		}
 		male_names = {
-			male
+			'Abbas 'Abd
+			Anwar Atuf
+			Bakr
+			Djamal
+			Fahd
+			Hakim Harun Hikmat Hisham Husayn
+			Isma'il
+			Jafar Jamaal
+			Karim
+			Malоk Mirza Muhammad Mujir
+			Rashоd Rusul
+			Saif Shams Shihab Shimun
+			Tadj Tarоq
+			Usama
+			Yasir Yusuf
+			Zaid Zоyad
+			al-'Adil al-Afdal al-Ashraf al-Kamil al-Mu'azzam al-Nasr al-Rahman al-Salih
+			ud-Din
 		}
 		female_names = {
-			female
-		}
-		dynasty_names = {
-			dynasty
+			Aisha Aziza
+			Duha
+			Farida
+			Golbahar Gulnar Gulnaz Gulpari
+			Hafsa Hasti Huma
+			Ibtisam Ihsan
+			Jalila
+			Kamala Karima Khandan Khaterah Khatira Kinah
+			Lala
+			Madiha Mahdokht Mahsa Mahwash Marwa Mastana Mehri Mina Minoo Munawwar Muzhdah
+			Nahal Najela Nasiba Nastaran Nazaneen Nazy Neelab Negar Niki Nikoo Noushin
+			Rabiya Rajiya
+			Sadiya Salma Sitara
+			Thana
+			Zahra Zuhayra
 		}
 	}
 	astypalean = {
+		dynasty_names = {
+			Abaza
+			Hassanid
+			Katkhuda
+			Maanid Mirdasid
+			Qasimiyya Qitas
+			Yakubid
+			al-Qazdughli al-Shihab
+		}
 		male_names = {
-			male
+			'Abbas 'Abd
+			Anwar Atuf
+			Bakr
+			Djamal
+			Fahd
+			Hakim Harun Hikmat Hisham Husayn
+			Isma'il
+			Jafar Jamaal
+			Karim
+			Malоk Mirza Muhammad Mujir
+			Rashоd Rusul
+			Saif Shams Shihab Shimun
+			Tadj Tarоq
+			Usama
+			Yasir Yusuf
+			Zaid Zоyad
+			al-'Adil al-Afdal al-Ashraf al-Kamil al-Mu'azzam al-Nasr al-Rahman al-Salih
+			ud-Din
 		}
 		female_names = {
-			female
-		}
-		dynasty_names = {
-			dynasty
+			Aisha Aziza
+			Duha
+			Farida
+			Golbahar Gulnar Gulnaz Gulpari
+			Hafsa Hasti Huma
+			Ibtisam Ihsan
+			Jalila
+			Kamala Karima Khandan Khaterah Khatira Kinah
+			Lala
+			Madiha Mahdokht Mahsa Mahwash Marwa Mastana Mehri Mina Minoo Munawwar Muzhdah
+			Nahal Najela Nasiba Nastaran Nazaneen Nazy Neelab Negar Niki Nikoo Noushin
+			Rabiya Rajiya
+			Sadiya Salma Sitara
+			Thana
+			Zahra Zuhayra
 		}
 	}
 	yazidi = {
+		dynasty_names = {
+			Abaza
+			Hassanid
+			Katkhuda
+			Maanid Mirdasid
+			Qasimiyya Qitas
+			Yakubid
+			al-Qazdughli al-Shihab
+		}
 		male_names = {
-			male
+			'Abbas 'Abd
+			Anwar Atuf
+			Bakr
+			Djamal
+			Fahd
+			Hakim Harun Hikmat Hisham Husayn
+			Isma'il
+			Jafar Jamaal
+			Karim
+			Malоk Mirza Muhammad Mujir
+			Rashоd Rusul
+			Saif Shams Shihab Shimun
+			Tadj Tarоq
+			Usama
+			Yasir Yusuf
+			Zaid Zоyad
+			al-'Adil al-Afdal al-Ashraf al-Kamil al-Mu'azzam al-Nasr al-Rahman al-Salih
+			ud-Din
 		}
 		female_names = {
-			female
-		}
-		dynasty_names = {
-			dynasty
+			Aisha Aziza
+			Duha
+			Farida
+			Golbahar Gulnar Gulnaz Gulpari
+			Hafsa Hasti Huma
+			Ibtisam Ihsan
+			Jalila
+			Kamala Karima Khandan Khaterah Khatira Kinah
+			Lala
+			Madiha Mahdokht Mahsa Mahwash Marwa Mastana Mehri Mina Minoo Munawwar Muzhdah
+			Nahal Najela Nasiba Nastaran Nazaneen Nazy Neelab Negar Niki Nikoo Noushin
+			Rabiya Rajiya
+			Sadiya Salma Sitara
+			Thana
+			Zahra Zuhayra
 		}
 	}
 	socotran = {
+		dynasty_names = {
+			Abaza
+			Hassanid
+			Katkhuda
+			Maanid Mirdasid
+			Qasimiyya Qitas
+			Yakubid
+			al-Qazdughli al-Shihab
+		}
 		male_names = {
-			male
+			'Abbas 'Abd
+			Anwar Atuf
+			Bakr
+			Djamal
+			Fahd
+			Hakim Harun Hikmat Hisham Husayn
+			Isma'il
+			Jafar Jamaal
+			Karim
+			Malоk Mirza Muhammad Mujir
+			Rashоd Rusul
+			Saif Shams Shihab Shimun
+			Tadj Tarоq
+			Usama
+			Yasir Yusuf
+			Zaid Zоyad
+			al-'Adil al-Afdal al-Ashraf al-Kamil al-Mu'azzam al-Nasr al-Rahman al-Salih
+			ud-Din
 		}
 		female_names = {
-			female
-		}
-		dynasty_names = {
-			dynasty
+			Aisha Aziza
+			Duha
+			Farida
+			Golbahar Gulnar Gulnaz Gulpari
+			Hafsa Hasti Huma
+			Ibtisam Ihsan
+			Jalila
+			Kamala Karima Khandan Khaterah Khatira Kinah
+			Lala
+			Madiha Mahdokht Mahsa Mahwash Marwa Mastana Mehri Mina Minoo Munawwar Muzhdah
+			Nahal Najela Nasiba Nastaran Nazaneen Nazy Neelab Negar Niki Nikoo Noushin
+			Rabiya Rajiya
+			Sadiya Salma Sitara
+			Thana
+			Zahra Zuhayra
 		}
 	}
 	hormuzian = {
+		dynasty_names = {
+			Abaza
+			Hassanid
+			Katkhuda
+			Maanid Mirdasid
+			Qasimiyya Qitas
+			Yakubid
+			al-Qazdughli al-Shihab
+		}
 		male_names = {
-			male
+			'Abbas 'Abd
+			Anwar Atuf
+			Bakr
+			Djamal
+			Fahd
+			Hakim Harun Hikmat Hisham Husayn
+			Isma'il
+			Jafar Jamaal
+			Karim
+			Malоk Mirza Muhammad Mujir
+			Rashоd Rusul
+			Saif Shams Shihab Shimun
+			Tadj Tarоq
+			Usama
+			Yasir Yusuf
+			Zaid Zоyad
+			al-'Adil al-Afdal al-Ashraf al-Kamil al-Mu'azzam al-Nasr al-Rahman al-Salih
+			ud-Din
 		}
 		female_names = {
-			female
-		}
-		dynasty_names = {
-			dynasty
+			Aisha Aziza
+			Duha
+			Farida
+			Golbahar Gulnar Gulnaz Gulpari
+			Hafsa Hasti Huma
+			Ibtisam Ihsan
+			Jalila
+			Kamala Karima Khandan Khaterah Khatira Kinah
+			Lala
+			Madiha Mahdokht Mahsa Mahwash Marwa Mastana Mehri Mina Minoo Munawwar Muzhdah
+			Nahal Najela Nasiba Nastaran Nazaneen Nazy Neelab Negar Niki Nikoo Noushin
+			Rabiya Rajiya
+			Sadiya Salma Sitara
+			Thana
+			Zahra Zuhayra
 		}
 	}
 	al_atlantean = {
+		dynasty_names = {
+			Abaza
+			Hassanid
+			Katkhuda
+			Maanid Mirdasid
+			Qasimiyya Qitas
+			Yakubid
+			al-Qazdughli al-Shihab
+		}
 		male_names = {
-			male
+			'Abbas 'Abd
+			Anwar Atuf
+			Bakr
+			Djamal
+			Fahd
+			Hakim Harun Hikmat Hisham Husayn
+			Isma'il
+			Jafar Jamaal
+			Karim
+			Malоk Mirza Muhammad Mujir
+			Rashоd Rusul
+			Saif Shams Shihab Shimun
+			Tadj Tarоq
+			Usama
+			Yasir Yusuf
+			Zaid Zоyad
+			al-'Adil al-Afdal al-Ashraf al-Kamil al-Mu'azzam al-Nasr al-Rahman al-Salih
+			ud-Din
 		}
 		female_names = {
-			female
-		}
-		dynasty_names = {
-			dynasty
+			Aisha Aziza
+			Duha
+			Farida
+			Golbahar Gulnar Gulnaz Gulpari
+			Hafsa Hasti Huma
+			Ibtisam Ihsan
+			Jalila
+			Kamala Karima Khandan Khaterah Khatira Kinah
+			Lala
+			Madiha Mahdokht Mahsa Mahwash Marwa Mastana Mehri Mina Minoo Munawwar Muzhdah
+			Nahal Najela Nasiba Nastaran Nazaneen Nazy Neelab Negar Niki Nikoo Noushin
+			Rabiya Rajiya
+			Sadiya Salma Sitara
+			Thana
+			Zahra Zuhayra
 		}
 	}
 	mozatlantean = {
+		dynasty_names = {
+			Abaza
+			Hassanid
+			Katkhuda
+			Maanid Mirdasid
+			Qasimiyya Qitas
+			Yakubid
+			al-Qazdughli al-Shihab
+		}
 		male_names = {
-			male
+			'Abbas 'Abd
+			Anwar Atuf
+			Bakr
+			Djamal
+			Fahd
+			Hakim Harun Hikmat Hisham Husayn
+			Isma'il
+			Jafar Jamaal
+			Karim
+			Malоk Mirza Muhammad Mujir
+			Rashоd Rusul
+			Saif Shams Shihab Shimun
+			Tadj Tarоq
+			Usama
+			Yasir Yusuf
+			Zaid Zоyad
+			al-'Adil al-Afdal al-Ashraf al-Kamil al-Mu'azzam al-Nasr al-Rahman al-Salih
+			ud-Din
 		}
 		female_names = {
-			female
-		}
-		dynasty_names = {
-			dynasty
+			Aisha Aziza
+			Duha
+			Farida
+			Golbahar Gulnar Gulnaz Gulpari
+			Hafsa Hasti Huma
+			Ibtisam Ihsan
+			Jalila
+			Kamala Karima Khandan Khaterah Khatira Kinah
+			Lala
+			Madiha Mahdokht Mahsa Mahwash Marwa Mastana Mehri Mina Minoo Munawwar Muzhdah
+			Nahal Najela Nasiba Nastaran Nazaneen Nazy Neelab Negar Niki Nikoo Noushin
+			Rabiya Rajiya
+			Sadiya Salma Sitara
+			Thana
+			Zahra Zuhayra
 		}
 	}
 	siculian = {
+		dynasty_names = {
+			Abaza
+			Hassanid
+			Katkhuda
+			Maanid Mirdasid
+			Qasimiyya Qitas
+			Yakubid
+			al-Qazdughli al-Shihab
+		}
 		male_names = {
-			male
+			'Abbas 'Abd
+			Anwar Atuf
+			Bakr
+			Djamal
+			Fahd
+			Hakim Harun Hikmat Hisham Husayn
+			Isma'il
+			Jafar Jamaal
+			Karim
+			Malоk Mirza Muhammad Mujir
+			Rashоd Rusul
+			Saif Shams Shihab Shimun
+			Tadj Tarоq
+			Usama
+			Yasir Yusuf
+			Zaid Zоyad
+			al-'Adil al-Afdal al-Ashraf al-Kamil al-Mu'azzam al-Nasr al-Rahman al-Salih
+			ud-Din
 		}
 		female_names = {
-			female
-		}
-		dynasty_names = {
-			dynasty
+			Aisha Aziza
+			Duha
+			Farida
+			Golbahar Gulnar Gulnaz Gulpari
+			Hafsa Hasti Huma
+			Ibtisam Ihsan
+			Jalila
+			Kamala Karima Khandan Khaterah Khatira Kinah
+			Lala
+			Madiha Mahdokht Mahsa Mahwash Marwa Mastana Mehri Mina Minoo Munawwar Muzhdah
+			Nahal Najela Nasiba Nastaran Nazaneen Nazy Neelab Negar Niki Nikoo Noushin
+			Rabiya Rajiya
+			Sadiya Salma Sitara
+			Thana
+			Zahra Zuhayra
 		}
 	}
 	maltlantean = {
+		dynasty_names = {
+			Abaza
+			Hassanid
+			Katkhuda
+			Maanid Mirdasid
+			Qasimiyya Qitas
+			Yakubid
+			al-Qazdughli al-Shihab
+		}
 		male_names = {
-			male
+			'Abbas 'Abd
+			Anwar Atuf
+			Bakr
+			Djamal
+			Fahd
+			Hakim Harun Hikmat Hisham Husayn
+			Isma'il
+			Jafar Jamaal
+			Karim
+			Malоk Mirza Muhammad Mujir
+			Rashоd Rusul
+			Saif Shams Shihab Shimun
+			Tadj Tarоq
+			Usama
+			Yasir Yusuf
+			Zaid Zоyad
+			al-'Adil al-Afdal al-Ashraf al-Kamil al-Mu'azzam al-Nasr al-Rahman al-Salih
+			ud-Din
 		}
 		female_names = {
-			female
-		}
-		dynasty_names = {
-			dynasty
+			Aisha Aziza
+			Duha
+			Farida
+			Golbahar Gulnar Gulnaz Gulpari
+			Hafsa Hasti Huma
+			Ibtisam Ihsan
+			Jalila
+			Kamala Karima Khandan Khaterah Khatira Kinah
+			Lala
+			Madiha Mahdokht Mahsa Mahwash Marwa Mastana Mehri Mina Minoo Munawwar Muzhdah
+			Nahal Najela Nasiba Nastaran Nazaneen Nazy Neelab Negar Niki Nikoo Noushin
+			Rabiya Rajiya
+			Sadiya Salma Sitara
+			Thana
+			Zahra Zuhayra
 		}
 	}
 	cretlantean = {
+		dynasty_names = {
+			Abaza
+			Hassanid
+			Katkhuda
+			Maanid Mirdasid
+			Qasimiyya Qitas
+			Yakubid
+			al-Qazdughli al-Shihab
+		}
 		male_names = {
-			male
+			'Abbas 'Abd
+			Anwar Atuf
+			Bakr
+			Djamal
+			Fahd
+			Hakim Harun Hikmat Hisham Husayn
+			Isma'il
+			Jafar Jamaal
+			Karim
+			Malоk Mirza Muhammad Mujir
+			Rashоd Rusul
+			Saif Shams Shihab Shimun
+			Tadj Tarоq
+			Usama
+			Yasir Yusuf
+			Zaid Zоyad
+			al-'Adil al-Afdal al-Ashraf al-Kamil al-Mu'azzam al-Nasr al-Rahman al-Salih
+			ud-Din
 		}
 		female_names = {
-			female
-		}
-		dynasty_names = {
-			dynasty
+			Aisha Aziza
+			Duha
+			Farida
+			Golbahar Gulnar Gulnaz Gulpari
+			Hafsa Hasti Huma
+			Ibtisam Ihsan
+			Jalila
+			Kamala Karima Khandan Khaterah Khatira Kinah
+			Lala
+			Madiha Mahdokht Mahsa Mahwash Marwa Mastana Mehri Mina Minoo Munawwar Muzhdah
+			Nahal Najela Nasiba Nastaran Nazaneen Nazy Neelab Negar Niki Nikoo Noushin
+			Rabiya Rajiya
+			Sadiya Salma Sitara
+			Thana
+			Zahra Zuhayra
 		}
 	}
 	baleatlantean = {
+		dynasty_names = {
+			Abaza
+			Hassanid
+			Katkhuda
+			Maanid Mirdasid
+			Qasimiyya Qitas
+			Yakubid
+			al-Qazdughli al-Shihab
+		}
 		male_names = {
-			male
+			'Abbas 'Abd
+			Anwar Atuf
+			Bakr
+			Djamal
+			Fahd
+			Hakim Harun Hikmat Hisham Husayn
+			Isma'il
+			Jafar Jamaal
+			Karim
+			Malоk Mirza Muhammad Mujir
+			Rashоd Rusul
+			Saif Shams Shihab Shimun
+			Tadj Tarоq
+			Usama
+			Yasir Yusuf
+			Zaid Zоyad
+			al-'Adil al-Afdal al-Ashraf al-Kamil al-Mu'azzam al-Nasr al-Rahman al-Salih
+			ud-Din
 		}
 		female_names = {
-			female
-		}
-		dynasty_names = {
-			dynasty
+			Aisha Aziza
+			Duha
+			Farida
+			Golbahar Gulnar Gulnaz Gulpari
+			Hafsa Hasti Huma
+			Ibtisam Ihsan
+			Jalila
+			Kamala Karima Khandan Khaterah Khatira Kinah
+			Lala
+			Madiha Mahdokht Mahsa Mahwash Marwa Mastana Mehri Mina Minoo Munawwar Muzhdah
+			Nahal Najela Nasiba Nastaran Nazaneen Nazy Neelab Negar Niki Nikoo Noushin
+			Rabiya Rajiya
+			Sadiya Salma Sitara
+			Thana
+			Zahra Zuhayra
 		}
 	}
 	ausonian = {
+		dynasty_names = {
+			Abaza
+			Hassanid
+			Katkhuda
+			Maanid Mirdasid
+			Qasimiyya Qitas
+			Yakubid
+			al-Qazdughli al-Shihab
+		}
 		male_names = {
-			male
+			'Abbas 'Abd
+			Anwar Atuf
+			Bakr
+			Djamal
+			Fahd
+			Hakim Harun Hikmat Hisham Husayn
+			Isma'il
+			Jafar Jamaal
+			Karim
+			Malоk Mirza Muhammad Mujir
+			Rashоd Rusul
+			Saif Shams Shihab Shimun
+			Tadj Tarоq
+			Usama
+			Yasir Yusuf
+			Zaid Zоyad
+			al-'Adil al-Afdal al-Ashraf al-Kamil al-Mu'azzam al-Nasr al-Rahman al-Salih
+			ud-Din
 		}
 		female_names = {
-			female
-		}
-		dynasty_names = {
-			dynasty
+			Aisha Aziza
+			Duha
+			Farida
+			Golbahar Gulnar Gulnaz Gulpari
+			Hafsa Hasti Huma
+			Ibtisam Ihsan
+			Jalila
+			Kamala Karima Khandan Khaterah Khatira Kinah
+			Lala
+			Madiha Mahdokht Mahsa Mahwash Marwa Mastana Mehri Mina Minoo Munawwar Muzhdah
+			Nahal Najela Nasiba Nastaran Nazaneen Nazy Neelab Negar Niki Nikoo Noushin
+			Rabiya Rajiya
+			Sadiya Salma Sitara
+			Thana
+			Zahra Zuhayra
 		}
 	}
 	westmali = {
@@ -229,90 +821,386 @@ westatlantean = {
 	graphical_culture = westerngfx
 	hestian = {
 		male_names = {
-			male
+		Acco Addedomarus Adiatuanus Adminius Aiorix Ambicatos Andecombogius Aneroestes Ariovistus Arverus Arvirargus Atis Avitus 
+		Bellicianus Bellovesus Boduognatus Boio Boiorix Bolgios Brennus Bricussa Britomaris Brucetius Buite Cailtram Caractacus 
+		Carvilius Cassivellaunus Cattulanus Cartorites Catugnatus Cavarinus Cavarus Celatus Cingetorix Coilus Commios Comux Concolitanus Correus Cottius Crixus
+		Cunobelinus Diviciacus Divico Donnus Drappes Dubnovellaunus Dumnacus Ducarius Duratios Dumnocoveros Dumnorix Elitovius Etitovius Epatticus
+		Galan Galba Guiderius Iacus Iccius Immanuentius Inamarcus Inammicus Indutiomarus Kimarcus Lucterius Lugotorix Lutarius Mallaius Mandubracius Marganus Mascelio
+		Orgetorix Prasutagus Segovax Sinatus Sinorix Sisillius Talorc Tasciovanus Tasgetius Taximagulus Teutomalius Tincomarus Togodumnus Vertiscus
+		Venutius Viridorix Vosenius Vodenos
 		}
 		female_names = {
-			female
+		Aife Airmed Ancasta Banna Billica Boudica Bricta Cata Cartimandua Chiomara Damona Diseta Gwendolen Litavis Iamcilla Maeve Verica
+		Cingetessa Conna Catia Carssouna Cunovinna Illica Lovernisca Magunna Lucilia Oconea Ria Rosula Senica Sentica Sulicena
+		Vassura Vinoma Vorvena Urca Veloriga Velibia Totia Titocuna Velbutena Seniciana Senila Vrocata Exuperata Deiana Cunolava Cunsa Aucissa
+		Allauna Alatucca Aessicunia Bodicacia Britivenda Catissena Cantisena 
 		}
 		dynasty_names = {
-			dynasty
+		Ambonus
+		Auaroses
+		Audaxus
+		Carosus
+		Culchus
+		Leukus
+		Mandonus
+		Punicus
+		Tautalus
+		Correius
+		Divicus
+		Duratus
+		Elitovus
+		Galbus
+		Iacus
+		Marganus
+		Sinatus
+		Vodenosus
+		Indutius
+		Dumnus
+		Epatticus
+		Teutomalus
+		Viridorrius
+		Magunnus
+		Brennus
+		Boius
+		Tannus
+		Iccuius
+		Galanus
 		}
 	}
 	thaumacian = {
 		male_names = {
-			male
+		Acco Addedomarus Adiatuanus Adminius Aiorix Ambicatos Andecombogius Aneroestes Ariovistus Arverus Arvirargus Atis Avitus 
+		Bellicianus Bellovesus Boduognatus Boio Boiorix Bolgios Brennus Bricussa Britomaris Brucetius Buite Cailtram Caractacus 
+		Carvilius Cassivellaunus Cattulanus Cartorites Catugnatus Cavarinus Cavarus Celatus Cingetorix Coilus Commios Comux Concolitanus Correus Cottius Crixus
+		Cunobelinus Diviciacus Divico Donnus Drappes Dubnovellaunus Dumnacus Ducarius Duratios Dumnocoveros Dumnorix Elitovius Etitovius Epatticus
+		Galan Galba Guiderius Iacus Iccius Immanuentius Inamarcus Inammicus Indutiomarus Kimarcus Lucterius Lugotorix Lutarius Mallaius Mandubracius Marganus Mascelio
+		Orgetorix Prasutagus Segovax Sinatus Sinorix Sisillius Talorc Tasciovanus Tasgetius Taximagulus Teutomalius Tincomarus Togodumnus Vertiscus
+		Venutius Viridorix Vosenius Vodenos
 		}
 		female_names = {
-			female
+		Aife Airmed Ancasta Banna Billica Boudica Bricta Cata Cartimandua Chiomara Damona Diseta Gwendolen Litavis Iamcilla Maeve Verica
+		Cingetessa Conna Catia Carssouna Cunovinna Illica Lovernisca Magunna Lucilia Oconea Ria Rosula Senica Sentica Sulicena
+		Vassura Vinoma Vorvena Urca Veloriga Velibia Totia Titocuna Velbutena Seniciana Senila Vrocata Exuperata Deiana Cunolava Cunsa Aucissa
+		Allauna Alatucca Aessicunia Bodicacia Britivenda Catissena Cantisena 
 		}
 		dynasty_names = {
-			dynasty
+		Ambonus
+		Auaroses
+		Audaxus
+		Carosus
+		Culchus
+		Leukus
+		Mandonus
+		Punicus
+		Tautalus
+		Correius
+		Divicus
+		Duratus
+		Elitovus
+		Galbus
+		Iacus
+		Marganus
+		Sinatus
+		Vodenosus
+		Indutius
+		Dumnus
+		Epatticus
+		Teutomalus
+		Viridorrius
+		Magunnus
+		Brennus
+		Boius
+		Tannus
+		Iccuius
+		Galanus
 		}
 	}
 	brygian = {
 		male_names = {
-			male
+		Acco Addedomarus Adiatuanus Adminius Aiorix Ambicatos Andecombogius Aneroestes Ariovistus Arverus Arvirargus Atis Avitus 
+		Bellicianus Bellovesus Boduognatus Boio Boiorix Bolgios Brennus Bricussa Britomaris Brucetius Buite Cailtram Caractacus 
+		Carvilius Cassivellaunus Cattulanus Cartorites Catugnatus Cavarinus Cavarus Celatus Cingetorix Coilus Commios Comux Concolitanus Correus Cottius Crixus
+		Cunobelinus Diviciacus Divico Donnus Drappes Dubnovellaunus Dumnacus Ducarius Duratios Dumnocoveros Dumnorix Elitovius Etitovius Epatticus
+		Galan Galba Guiderius Iacus Iccius Immanuentius Inamarcus Inammicus Indutiomarus Kimarcus Lucterius Lugotorix Lutarius Mallaius Mandubracius Marganus Mascelio
+		Orgetorix Prasutagus Segovax Sinatus Sinorix Sisillius Talorc Tasciovanus Tasgetius Taximagulus Teutomalius Tincomarus Togodumnus Vertiscus
+		Venutius Viridorix Vosenius Vodenos
 		}
 		female_names = {
-			female
+		Aife Airmed Ancasta Banna Billica Boudica Bricta Cata Cartimandua Chiomara Damona Diseta Gwendolen Litavis Iamcilla Maeve Verica
+		Cingetessa Conna Catia Carssouna Cunovinna Illica Lovernisca Magunna Lucilia Oconea Ria Rosula Senica Sentica Sulicena
+		Vassura Vinoma Vorvena Urca Veloriga Velibia Totia Titocuna Velbutena Seniciana Senila Vrocata Exuperata Deiana Cunolava Cunsa Aucissa
+		Allauna Alatucca Aessicunia Bodicacia Britivenda Catissena Cantisena 
 		}
 		dynasty_names = {
-			dynasty
+		Ambonus
+		Auaroses
+		Audaxus
+		Carosus
+		Culchus
+		Leukus
+		Mandonus
+		Punicus
+		Tautalus
+		Correius
+		Divicus
+		Duratus
+		Elitovus
+		Galbus
+		Iacus
+		Marganus
+		Sinatus
+		Vodenosus
+		Indutius
+		Dumnus
+		Epatticus
+		Teutomalus
+		Viridorrius
+		Magunnus
+		Brennus
+		Boius
+		Tannus
+		Iccuius
+		Galanus
 		}
 	}
 	saioan = {
 		male_names = {
-			male
+		Acco Addedomarus Adiatuanus Adminius Aiorix Ambicatos Andecombogius Aneroestes Ariovistus Arverus Arvirargus Atis Avitus 
+		Bellicianus Bellovesus Boduognatus Boio Boiorix Bolgios Brennus Bricussa Britomaris Brucetius Buite Cailtram Caractacus 
+		Carvilius Cassivellaunus Cattulanus Cartorites Catugnatus Cavarinus Cavarus Celatus Cingetorix Coilus Commios Comux Concolitanus Correus Cottius Crixus
+		Cunobelinus Diviciacus Divico Donnus Drappes Dubnovellaunus Dumnacus Ducarius Duratios Dumnocoveros Dumnorix Elitovius Etitovius Epatticus
+		Galan Galba Guiderius Iacus Iccius Immanuentius Inamarcus Inammicus Indutiomarus Kimarcus Lucterius Lugotorix Lutarius Mallaius Mandubracius Marganus Mascelio
+		Orgetorix Prasutagus Segovax Sinatus Sinorix Sisillius Talorc Tasciovanus Tasgetius Taximagulus Teutomalius Tincomarus Togodumnus Vertiscus
+		Venutius Viridorix Vosenius Vodenos
 		}
 		female_names = {
-			female
+		Aife Airmed Ancasta Banna Billica Boudica Bricta Cata Cartimandua Chiomara Damona Diseta Gwendolen Litavis Iamcilla Maeve Verica
+		Cingetessa Conna Catia Carssouna Cunovinna Illica Lovernisca Magunna Lucilia Oconea Ria Rosula Senica Sentica Sulicena
+		Vassura Vinoma Vorvena Urca Veloriga Velibia Totia Titocuna Velbutena Seniciana Senila Vrocata Exuperata Deiana Cunolava Cunsa Aucissa
+		Allauna Alatucca Aessicunia Bodicacia Britivenda Catissena Cantisena 
 		}
 		dynasty_names = {
-			dynasty
+		Ambonus
+		Auaroses
+		Audaxus
+		Carosus
+		Culchus
+		Leukus
+		Mandonus
+		Punicus
+		Tautalus
+		Correius
+		Divicus
+		Duratus
+		Elitovus
+		Galbus
+		Iacus
+		Marganus
+		Sinatus
+		Vodenosus
+		Indutius
+		Dumnus
+		Epatticus
+		Teutomalus
+		Viridorrius
+		Magunnus
+		Brennus
+		Boius
+		Tannus
+		Iccuius
+		Galanus
 		}
 	}
 	dardanian = {
 		male_names = {
-			male
+		Acco Addedomarus Adiatuanus Adminius Aiorix Ambicatos Andecombogius Aneroestes Ariovistus Arverus Arvirargus Atis Avitus 
+		Bellicianus Bellovesus Boduognatus Boio Boiorix Bolgios Brennus Bricussa Britomaris Brucetius Buite Cailtram Caractacus 
+		Carvilius Cassivellaunus Cattulanus Cartorites Catugnatus Cavarinus Cavarus Celatus Cingetorix Coilus Commios Comux Concolitanus Correus Cottius Crixus
+		Cunobelinus Diviciacus Divico Donnus Drappes Dubnovellaunus Dumnacus Ducarius Duratios Dumnocoveros Dumnorix Elitovius Etitovius Epatticus
+		Galan Galba Guiderius Iacus Iccius Immanuentius Inamarcus Inammicus Indutiomarus Kimarcus Lucterius Lugotorix Lutarius Mallaius Mandubracius Marganus Mascelio
+		Orgetorix Prasutagus Segovax Sinatus Sinorix Sisillius Talorc Tasciovanus Tasgetius Taximagulus Teutomalius Tincomarus Togodumnus Vertiscus
+		Venutius Viridorix Vosenius Vodenos
 		}
 		female_names = {
-			female
+		Aife Airmed Ancasta Banna Billica Boudica Bricta Cata Cartimandua Chiomara Damona Diseta Gwendolen Litavis Iamcilla Maeve Verica
+		Cingetessa Conna Catia Carssouna Cunovinna Illica Lovernisca Magunna Lucilia Oconea Ria Rosula Senica Sentica Sulicena
+		Vassura Vinoma Vorvena Urca Veloriga Velibia Totia Titocuna Velbutena Seniciana Senila Vrocata Exuperata Deiana Cunolava Cunsa Aucissa
+		Allauna Alatucca Aessicunia Bodicacia Britivenda Catissena Cantisena 
 		}
 		dynasty_names = {
-			dynasty
+		Ambonus
+		Auaroses
+		Audaxus
+		Carosus
+		Culchus
+		Leukus
+		Mandonus
+		Punicus
+		Tautalus
+		Correius
+		Divicus
+		Duratus
+		Elitovus
+		Galbus
+		Iacus
+		Marganus
+		Sinatus
+		Vodenosus
+		Indutius
+		Dumnus
+		Epatticus
+		Teutomalus
+		Viridorrius
+		Magunnus
+		Brennus
+		Boius
+		Tannus
+		Iccuius
+		Galanus
 		}
 	}
 	locrisian = {
 		male_names = {
-			male
+		Acco Addedomarus Adiatuanus Adminius Aiorix Ambicatos Andecombogius Aneroestes Ariovistus Arverus Arvirargus Atis Avitus 
+		Bellicianus Bellovesus Boduognatus Boio Boiorix Bolgios Brennus Bricussa Britomaris Brucetius Buite Cailtram Caractacus 
+		Carvilius Cassivellaunus Cattulanus Cartorites Catugnatus Cavarinus Cavarus Celatus Cingetorix Coilus Commios Comux Concolitanus Correus Cottius Crixus
+		Cunobelinus Diviciacus Divico Donnus Drappes Dubnovellaunus Dumnacus Ducarius Duratios Dumnocoveros Dumnorix Elitovius Etitovius Epatticus
+		Galan Galba Guiderius Iacus Iccius Immanuentius Inamarcus Inammicus Indutiomarus Kimarcus Lucterius Lugotorix Lutarius Mallaius Mandubracius Marganus Mascelio
+		Orgetorix Prasutagus Segovax Sinatus Sinorix Sisillius Talorc Tasciovanus Tasgetius Taximagulus Teutomalius Tincomarus Togodumnus Vertiscus
+		Venutius Viridorix Vosenius Vodenos
 		}
 		female_names = {
-			female
+		Aife Airmed Ancasta Banna Billica Boudica Bricta Cata Cartimandua Chiomara Damona Diseta Gwendolen Litavis Iamcilla Maeve Verica
+		Cingetessa Conna Catia Carssouna Cunovinna Illica Lovernisca Magunna Lucilia Oconea Ria Rosula Senica Sentica Sulicena
+		Vassura Vinoma Vorvena Urca Veloriga Velibia Totia Titocuna Velbutena Seniciana Senila Vrocata Exuperata Deiana Cunolava Cunsa Aucissa
+		Allauna Alatucca Aessicunia Bodicacia Britivenda Catissena Cantisena 
 		}
 		dynasty_names = {
-			dynasty
+		Ambonus
+		Auaroses
+		Audaxus
+		Carosus
+		Culchus
+		Leukus
+		Mandonus
+		Punicus
+		Tautalus
+		Correius
+		Divicus
+		Duratus
+		Elitovus
+		Galbus
+		Iacus
+		Marganus
+		Sinatus
+		Vodenosus
+		Indutius
+		Dumnus
+		Epatticus
+		Teutomalus
+		Viridorrius
+		Magunnus
+		Brennus
+		Boius
+		Tannus
+		Iccuius
+		Galanus
 		}
 	}
 	phocisian = {
 		male_names = {
-			male
+		Acco Addedomarus Adiatuanus Adminius Aiorix Ambicatos Andecombogius Aneroestes Ariovistus Arverus Arvirargus Atis Avitus 
+		Bellicianus Bellovesus Boduognatus Boio Boiorix Bolgios Brennus Bricussa Britomaris Brucetius Buite Cailtram Caractacus 
+		Carvilius Cassivellaunus Cattulanus Cartorites Catugnatus Cavarinus Cavarus Celatus Cingetorix Coilus Commios Comux Concolitanus Correus Cottius Crixus
+		Cunobelinus Diviciacus Divico Donnus Drappes Dubnovellaunus Dumnacus Ducarius Duratios Dumnocoveros Dumnorix Elitovius Etitovius Epatticus
+		Galan Galba Guiderius Iacus Iccius Immanuentius Inamarcus Inammicus Indutiomarus Kimarcus Lucterius Lugotorix Lutarius Mallaius Mandubracius Marganus Mascelio
+		Orgetorix Prasutagus Segovax Sinatus Sinorix Sisillius Talorc Tasciovanus Tasgetius Taximagulus Teutomalius Tincomarus Togodumnus Vertiscus
+		Venutius Viridorix Vosenius Vodenos
 		}
 		female_names = {
-			female
+		Aife Airmed Ancasta Banna Billica Boudica Bricta Cata Cartimandua Chiomara Damona Diseta Gwendolen Litavis Iamcilla Maeve Verica
+		Cingetessa Conna Catia Carssouna Cunovinna Illica Lovernisca Magunna Lucilia Oconea Ria Rosula Senica Sentica Sulicena
+		Vassura Vinoma Vorvena Urca Veloriga Velibia Totia Titocuna Velbutena Seniciana Senila Vrocata Exuperata Deiana Cunolava Cunsa Aucissa
+		Allauna Alatucca Aessicunia Bodicacia Britivenda Catissena Cantisena 
 		}
 		dynasty_names = {
-			dynasty
+		Ambonus
+		Auaroses
+		Audaxus
+		Carosus
+		Culchus
+		Leukus
+		Mandonus
+		Punicus
+		Tautalus
+		Correius
+		Divicus
+		Duratus
+		Elitovus
+		Galbus
+		Iacus
+		Marganus
+		Sinatus
+		Vodenosus
+		Indutius
+		Dumnus
+		Epatticus
+		Teutomalus
+		Viridorrius
+		Magunnus
+		Brennus
+		Boius
+		Tannus
+		Iccuius
+		Galanus
 		}
 	}
 	dorian = {
 		male_names = {
-			male
+		Acco Addedomarus Adiatuanus Adminius Aiorix Ambicatos Andecombogius Aneroestes Ariovistus Arverus Arvirargus Atis Avitus 
+		Bellicianus Bellovesus Boduognatus Boio Boiorix Bolgios Brennus Bricussa Britomaris Brucetius Buite Cailtram Caractacus 
+		Carvilius Cassivellaunus Cattulanus Cartorites Catugnatus Cavarinus Cavarus Celatus Cingetorix Coilus Commios Comux Concolitanus Correus Cottius Crixus
+		Cunobelinus Diviciacus Divico Donnus Drappes Dubnovellaunus Dumnacus Ducarius Duratios Dumnocoveros Dumnorix Elitovius Etitovius Epatticus
+		Galan Galba Guiderius Iacus Iccius Immanuentius Inamarcus Inammicus Indutiomarus Kimarcus Lucterius Lugotorix Lutarius Mallaius Mandubracius Marganus Mascelio
+		Orgetorix Prasutagus Segovax Sinatus Sinorix Sisillius Talorc Tasciovanus Tasgetius Taximagulus Teutomalius Tincomarus Togodumnus Vertiscus
+		Venutius Viridorix Vosenius Vodenos
 		}
 		female_names = {
-			female
+		Aife Airmed Ancasta Banna Billica Boudica Bricta Cata Cartimandua Chiomara Damona Diseta Gwendolen Litavis Iamcilla Maeve Verica
+		Cingetessa Conna Catia Carssouna Cunovinna Illica Lovernisca Magunna Lucilia Oconea Ria Rosula Senica Sentica Sulicena
+		Vassura Vinoma Vorvena Urca Veloriga Velibia Totia Titocuna Velbutena Seniciana Senila Vrocata Exuperata Deiana Cunolava Cunsa Aucissa
+		Allauna Alatucca Aessicunia Bodicacia Britivenda Catissena Cantisena 
 		}
 		dynasty_names = {
-			dynasty
+		Ambonus
+		Auaroses
+		Audaxus
+		Carosus
+		Culchus
+		Leukus
+		Mandonus
+		Punicus
+		Tautalus
+		Correius
+		Divicus
+		Duratus
+		Elitovus
+		Galbus
+		Iacus
+		Marganus
+		Sinatus
+		Vodenosus
+		Indutius
+		Dumnus
+		Epatticus
+		Teutomalus
+		Viridorrius
+		Magunnus
+		Brennus
+		Boius
+		Tannus
+		Iccuius
+		Galanus
 		}
 	}
 }
@@ -321,57 +1209,152 @@ nativeatlantean = {
 	graphical_culture = westerngfx
 	jendean = {
 		male_names = {
-			male
+		Abadutiker Punicus Ambon Abaraban Andobales Balkar Babpo Biurtetel Bosilkas Budar Caro Culcas Gargoris Indo Iscerbeles Kara Korbis Korribilo Mandonio Magavarico
+		Lagunas Orisos Otirgeter Nisunin Nereildun Tiresio Otigirteker Redukeno Sakarbik Sosintaucer Sosian Seihar Skarisker Sacarisker Tureno Turibas Unibelos Urcetices Uxentio Umarilo Talskubilos
 		}
 		female_names = {
-			female
+		Ana Ama Aretaunin Aunia Auruningica Canine Daleninar Similce Sicounin Stena Aife Thurinninar Secetaunin Teite Tettingica Nerseada
 		}
 		dynasty_names = {
-			dynasty
+		Punicus
+		Orisus
+		Amidus
+		Nisunus
+		Tiresidus
+		Budidus
+		Gargoridus
+		Culcidus
+		Indicidus
+		Iscerbelus
+		Karidus
+		Korbidus
+		Lagunus
+		Mandonus
+		Magavaricus
+		Uxentus
+		Umarilus
+		Turenus
+		Urceticus	
 		}
 	}
 	satraean = {
 		male_names = {
-			male
+		Abadutiker Punicus Ambon Abaraban Andobales Balkar Babpo Biurtetel Bosilkas Budar Caro Culcas Gargoris Indo Iscerbeles Kara Korbis Korribilo Mandonio Magavarico
+		Lagunas Orisos Otirgeter Nisunin Nereildun Tiresio Otigirteker Redukeno Sakarbik Sosintaucer Sosian Seihar Skarisker Sacarisker Tureno Turibas Unibelos Urcetices Uxentio Umarilo Talskubilos
 		}
 		female_names = {
-			female
+		Ana Ama Aretaunin Aunia Auruningica Canine Daleninar Similce Sicounin Stena Aife Thurinninar Secetaunin Teite Tettingica Nerseada
 		}
 		dynasty_names = {
-			dynasty
+		Punicus
+		Orisus
+		Amidus
+		Nisunus
+		Tiresidus
+		Budidus
+		Gargoridus
+		Culcidus
+		Indicidus
+		Iscerbelus
+		Karidus
+		Korbidus
+		Lagunus
+		Mandonus
+		Magavaricus
+		Uxentus
+		Umarilus
+		Turenus
+		Urceticus	
 		}
 	}
 	thynian = {
 		male_names = {
-			male
+		Abadutiker Punicus Ambon Abaraban Andobales Balkar Babpo Biurtetel Bosilkas Budar Caro Culcas Gargoris Indo Iscerbeles Kara Korbis Korribilo Mandonio Magavarico
+		Lagunas Orisos Otirgeter Nisunin Nereildun Tiresio Otigirteker Redukeno Sakarbik Sosintaucer Sosian Seihar Skarisker Sacarisker Tureno Turibas Unibelos Urcetices Uxentio Umarilo Talskubilos
 		}
 		female_names = {
-			female
+		Ana Ama Aretaunin Aunia Auruningica Canine Daleninar Similce Sicounin Stena Aife Thurinninar Secetaunin Teite Tettingica Nerseada
 		}
 		dynasty_names = {
-			dynasty
+		Punicus
+		Orisus
+		Amidus
+		Nisunus
+		Tiresidus
+		Budidus
+		Gargoridus
+		Culcidus
+		Indicidus
+		Iscerbelus
+		Karidus
+		Korbidus
+		Lagunus
+		Mandonus
+		Magavaricus
+		Uxentus
+		Umarilus
+		Turenus
+		Urceticus	
 		}
 	}
 	odomantian = {
 		male_names = {
-			male
+		Abadutiker Punicus Ambon Abaraban Andobales Balkar Babpo Biurtetel Bosilkas Budar Caro Culcas Gargoris Indo Iscerbeles Kara Korbis Korribilo Mandonio Magavarico
+		Lagunas Orisos Otirgeter Nisunin Nereildun Tiresio Otigirteker Redukeno Sakarbik Sosintaucer Sosian Seihar Skarisker Sacarisker Tureno Turibas Unibelos Urcetices Uxentio Umarilo Talskubilos
 		}
 		female_names = {
-			female
+		Ana Ama Aretaunin Aunia Auruningica Canine Daleninar Similce Sicounin Stena Aife Thurinninar Secetaunin Teite Tettingica Nerseada
 		}
 		dynasty_names = {
-			dynasty
+		Punicus
+		Orisus
+		Amidus
+		Nisunus
+		Tiresidus
+		Budidus
+		Gargoridus
+		Culcidus
+		Indicidus
+		Iscerbelus
+		Karidus
+		Korbidus
+		Lagunus
+		Mandonus
+		Magavaricus
+		Uxentus
+		Umarilus
+		Turenus
+		Urceticus	
 		}
 	}
 	aroanian = {
 		male_names = {
-			male
+		Abadutiker Punicus Ambon Abaraban Andobales Balkar Babpo Biurtetel Bosilkas Budar Caro Culcas Gargoris Indo Iscerbeles Kara Korbis Korribilo Mandonio Magavarico
+		Lagunas Orisos Otirgeter Nisunin Nereildun Tiresio Otigirteker Redukeno Sakarbik Sosintaucer Sosian Seihar Skarisker Sacarisker Tureno Turibas Unibelos Urcetices Uxentio Umarilo Talskubilos
 		}
 		female_names = {
-			female
+		Ana Ama Aretaunin Aunia Auruningica Canine Daleninar Similce Sicounin Stena Aife Thurinninar Secetaunin Teite Tettingica Nerseada
 		}
 		dynasty_names = {
-			dynasty
+		Punicus
+		Orisus
+		Amidus
+		Nisunus
+		Tiresidus
+		Budidus
+		Gargoridus
+		Culcidus
+		Indicidus
+		Iscerbelus
+		Karidus
+		Korbidus
+		Lagunus
+		Mandonus
+		Magavaricus
+		Uxentus
+		Umarilus
+		Turenus
+		Urceticus	
 		}
 	}
 }
@@ -380,101 +1363,272 @@ atlantopunic = {
 	graphical_culture = westerngfx
 	cartagean = {
 		male_names = {
-			male
+			Simon Joseph Judah Eleazar Yohanan Joshua Hananiah Jonathan Mattathias Menahem Jacob Hanan Dositheus Zachariah Ishmael Levi Saul Onias Samuel Ezekiah Gadish Gani Hagai Hanilai Harsom Harqaq Maro Nathanel Nathan Nebalta Nicandus Jason Jeremiah Kasaias
 		}
 		female_names = {
-			female
+			Hannah Mariam Salome Shelamzion Martha Joanna Shiphra Berenice Sarah Imma Hermione Helene Grapte Elisheba Esther Lysia Judith Julia Mara 
 		}
 		dynasty_names = {
-			dynasty
+			Hyrcanus 						
+			Iscariot								
+			Laganiat							
+			Braham						
+			Gedide 						
+			Kohan 							
+			Yochanan 							
+			Maiman 						
+			Megiston							
+			Likhluket							
+			Marsyam 							
+			Neron 							
+			Nicoliat 								
+			Nisat 								
+			Nuri					
+			Mahana 				
+			Manale			
+			Josephus		
+			Kalatha			
+			Karkema
 		}
 	}
 		athamanean = {
 		male_names = {
-			male
+			Simon Joseph Judah Eleazar Yohanan Joshua Hananiah Jonathan Mattathias Menahem Jacob Hanan Dositheus Zachariah Ishmael Levi Saul Onias Samuel Ezekiah Gadish Gani Hagai Hanilai Harsom Harqaq Maro Nathanel Nathan Nebalta Nicandus Jason Jeremiah Kasaias
 		}
 		female_names = {
-			female
+			Hannah Mariam Salome Shelamzion Martha Joanna Shiphra Berenice Sarah Imma Hermione Helene Grapte Elisheba Esther Lysia Judith Julia Mara 
 		}
 		dynasty_names = {
-			dynasty
+			Hyrcanus 						
+			Iscariot								
+			Laganiat							
+			Braham						
+			Gedide 						
+			Kohan 							
+			Yochanan 							
+			Maiman 						
+			Megiston							
+			Likhluket							
+			Marsyam 							
+			Neron 							
+			Nicoliat 								
+			Nisat 								
+			Nuri					
+			Mahana 				
+			Manale			
+			Josephus		
+			Kalatha			
+			Karkema
 		}
 	}
 	tsakonian = {
 		male_names = {
-			male
+			Simon Joseph Judah Eleazar Yohanan Joshua Hananiah Jonathan Mattathias Menahem Jacob Hanan Dositheus Zachariah Ishmael Levi Saul Onias Samuel Ezekiah Gadish Gani Hagai Hanilai Harsom Harqaq Maro Nathanel Nathan Nebalta Nicandus Jason Jeremiah Kasaias
 		}
 		female_names = {
-			female
+			Hannah Mariam Salome Shelamzion Martha Joanna Shiphra Berenice Sarah Imma Hermione Helene Grapte Elisheba Esther Lysia Judith Julia Mara 
 		}
 		dynasty_names = {
-			dynasty
+			Hyrcanus 						
+			Iscariot								
+			Laganiat							
+			Braham						
+			Gedide 						
+			Kohan 							
+			Yochanan 							
+			Maiman 						
+			Megiston							
+			Likhluket							
+			Marsyam 							
+			Neron 							
+			Nicoliat 								
+			Nisat 								
+			Nuri					
+			Mahana 				
+			Manale			
+			Josephus		
+			Kalatha			
+			Karkema
 		}
 	}
 	bassanian = {
 		male_names = {
-			male
+			Simon Joseph Judah Eleazar Yohanan Joshua Hananiah Jonathan Mattathias Menahem Jacob Hanan Dositheus Zachariah Ishmael Levi Saul Onias Samuel Ezekiah Gadish Gani Hagai Hanilai Harsom Harqaq Maro Nathanel Nathan Nebalta Nicandus Jason Jeremiah Kasaias
 		}
 		female_names = {
-			female
+			Hannah Mariam Salome Shelamzion Martha Joanna Shiphra Berenice Sarah Imma Hermione Helene Grapte Elisheba Esther Lysia Judith Julia Mara 
 		}
 		dynasty_names = {
-			dynasty
+			Hyrcanus 						
+			Iscariot								
+			Laganiat							
+			Braham						
+			Gedide 						
+			Kohan 							
+			Yochanan 							
+			Maiman 						
+			Megiston							
+			Likhluket							
+			Marsyam 							
+			Neron 							
+			Nicoliat 								
+			Nisat 								
+			Nuri					
+			Mahana 				
+			Manale			
+			Josephus		
+			Kalatha			
+			Karkema
 		}
 	}
 	cyphean = {
 		male_names = {
-			male
+			Simon Joseph Judah Eleazar Yohanan Joshua Hananiah Jonathan Mattathias Menahem Jacob Hanan Dositheus Zachariah Ishmael Levi Saul Onias Samuel Ezekiah Gadish Gani Hagai Hanilai Harsom Harqaq Maro Nathanel Nathan Nebalta Nicandus Jason Jeremiah Kasaias
 		}
 		female_names = {
-			female
+			Hannah Mariam Salome Shelamzion Martha Joanna Shiphra Berenice Sarah Imma Hermione Helene Grapte Elisheba Esther Lysia Judith Julia Mara 
 		}
 		dynasty_names = {
-			dynasty
+			Hyrcanus 						
+			Iscariot								
+			Laganiat							
+			Braham						
+			Gedide 						
+			Kohan 							
+			Yochanan 							
+			Maiman 						
+			Megiston							
+			Likhluket							
+			Marsyam 							
+			Neron 							
+			Nicoliat 								
+			Nisat 								
+			Nuri					
+			Mahana 				
+			Manale			
+			Josephus		
+			Kalatha			
+			Karkema
 		}
 	}
 	artichian = {
 		male_names = {
-			male
+			Simon Joseph Judah Eleazar Yohanan Joshua Hananiah Jonathan Mattathias Menahem Jacob Hanan Dositheus Zachariah Ishmael Levi Saul Onias Samuel Ezekiah Gadish Gani Hagai Hanilai Harsom Harqaq Maro Nathanel Nathan Nebalta Nicandus Jason Jeremiah Kasaias
 		}
 		female_names = {
-			female
+			Hannah Mariam Salome Shelamzion Martha Joanna Shiphra Berenice Sarah Imma Hermione Helene Grapte Elisheba Esther Lysia Judith Julia Mara 
 		}
 		dynasty_names = {
-			dynasty
+			Hyrcanus 						
+			Iscariot								
+			Laganiat							
+			Braham						
+			Gedide 						
+			Kohan 							
+			Yochanan 							
+			Maiman 						
+			Megiston							
+			Likhluket							
+			Marsyam 							
+			Neron 							
+			Nicoliat 								
+			Nisat 								
+			Nuri					
+			Mahana 				
+			Manale			
+			Josephus		
+			Kalatha			
+			Karkema
 		}
 	}
 	alyzeian = {
 		male_names = {
-			male
+			Simon Joseph Judah Eleazar Yohanan Joshua Hananiah Jonathan Mattathias Menahem Jacob Hanan Dositheus Zachariah Ishmael Levi Saul Onias Samuel Ezekiah Gadish Gani Hagai Hanilai Harsom Harqaq Maro Nathanel Nathan Nebalta Nicandus Jason Jeremiah Kasaias
 		}
 		female_names = {
-			female
+			Hannah Mariam Salome Shelamzion Martha Joanna Shiphra Berenice Sarah Imma Hermione Helene Grapte Elisheba Esther Lysia Judith Julia Mara 
 		}
 		dynasty_names = {
-			dynasty
+			Hyrcanus 						
+			Iscariot								
+			Laganiat							
+			Braham						
+			Gedide 						
+			Kohan 							
+			Yochanan 							
+			Maiman 						
+			Megiston							
+			Likhluket							
+			Marsyam 							
+			Neron 							
+			Nicoliat 								
+			Nisat 								
+			Nuri					
+			Mahana 				
+			Manale			
+			Josephus		
+			Kalatha			
+			Karkema
 		}
 	}
 	numidian = {
 		male_names = {
-			male
+			Simon Joseph Judah Eleazar Yohanan Joshua Hananiah Jonathan Mattathias Menahem Jacob Hanan Dositheus Zachariah Ishmael Levi Saul Onias Samuel Ezekiah Gadish Gani Hagai Hanilai Harsom Harqaq Maro Nathanel Nathan Nebalta Nicandus Jason Jeremiah Kasaias
 		}
 		female_names = {
-			female
+			Hannah Mariam Salome Shelamzion Martha Joanna Shiphra Berenice Sarah Imma Hermione Helene Grapte Elisheba Esther Lysia Judith Julia Mara 
 		}
 		dynasty_names = {
-			dynasty
+			Hyrcanus 						
+			Iscariot								
+			Laganiat							
+			Braham						
+			Gedide 						
+			Kohan 							
+			Yochanan 							
+			Maiman 						
+			Megiston							
+			Likhluket							
+			Marsyam 							
+			Neron 							
+			Nicoliat 								
+			Nisat 								
+			Nuri					
+			Mahana 				
+			Manale			
+			Josephus		
+			Kalatha			
+			Karkema
 		}
 	}
 	atlantoberber = {
 		male_names = {
-			male
+			Simon Joseph Judah Eleazar Yohanan Joshua Hananiah Jonathan Mattathias Menahem Jacob Hanan Dositheus Zachariah Ishmael Levi Saul Onias Samuel Ezekiah Gadish Gani Hagai Hanilai Harsom Harqaq Maro Nathanel Nathan Nebalta Nicandus Jason Jeremiah Kasaias
 		}
 		female_names = {
-			female
+			Hannah Mariam Salome Shelamzion Martha Joanna Shiphra Berenice Sarah Imma Hermione Helene Grapte Elisheba Esther Lysia Judith Julia Mara 
 		}
 		dynasty_names = {
-			dynasty
+			Hyrcanus 						
+			Iscariot								
+			Laganiat							
+			Braham						
+			Gedide 						
+			Kohan 							
+			Yochanan 							
+			Maiman 						
+			Megiston							
+			Likhluket							
+			Marsyam 							
+			Neron 							
+			Nicoliat 								
+			Nisat 								
+			Nuri					
+			Mahana 				
+			Manale			
+			Josephus		
+			Kalatha			
+			Karkema
 		}
 	}
 }
@@ -483,79 +1637,1997 @@ romanatlantean = {
 	graphical_culture = westerngfx
 	romansithon = {
 		male_names = {
-			male
+			Amtnie Amuni Anche Anthai Aninas Arunth Araz Arzni Arnth Autu Aule Cei Ceile Ceisi
+			Cire Cnaive Clate Cruthni Cuinte Cursni Fapi Felce Felsnas Fulu Hapre Hirumina Husi
+			Carcuna Carthasie Ceisie Cavie Larce Laris Larth Larthuza Laucie Lauche Lethei
+			Licine Lucer Mamurce Marce Murila Numna Pesna Petru Plikasnas Plute Presnte
+			Pumpu Puplie Cupe Ranazu Rasce Ruvfe Ruifre Sanchuna Scarpe Sethre Spitus Spurie Squrie
+			Tarchi Teitur Thefri Thucer Ticusna Tite Tlesna Tursikina Tusnute Uchsie Uchulni Usele
+			Vel Velchaie Velthur Venel Vetus Vipie
 		}
 		female_names = {
-			female
+			Anina Aprthni Apunei Arunthia Arzna Arntha Ati Aula Ceia Culni Cursi Cusua Fasthi
+			Hasthi Hercnei Kanuta Larthi Lethi Luci Matun Metli Numni Pulia Racu Ramtha Ranthu
+			Ravnthu Satlnei Sela Semni Sethri Squria Squlina Tanchuil Tarcha Teituri Thanchvil
+			Thana Thefrina Thestia Thuceru Ticusnei Titi Veli Velchina Venela Vesi Vipi
 		}
 		dynasty_names = {
-			dynasty
+				Uclina
+				Acnatru
+				Acriena
+				Acvilnas
+				Afunas
+				Aisina
+				Alethnas
+				Alfi
+				Alfni
+				Alsinas
+				Alvethna
+				Amuni
+				Anani
+				Aneithur
+				Anes
+				Aninas
+				Anthiaia
+				Apatru
+				Apianas
+				Apries
+				Aprthnas
+				Apunas
+				Apvcuia
+				Araziia
+				Arnthna
+				Aremsnas
+				Arnies
+				Arthunas
+				Arunzina
+				Arznas
+				Ateina
+				Atelinas
+				Aties
+				Atnas
+				Ufle
+				Aucana
+				Auclina
+				Aves
+				Aznie
+				Cafates
+				Cahate
+				Ceie
+				Cale
+				Caliathe
+				Calisna
+				Camitlnas
+				Camnas
+				Campanes
+				Canatnes
+				Carpnate
+				Carsu
+				Catne
+				Cazi
+				Ceisinies
+				Celatina
+				Cheiras
+				Churcles
+				Churinas
+				Cicunias
+				Cilnii
+				Cisvite
+				Clute
+				Clavtiethur
+				Clevsinas
+				Cneuna
+				Cravzathura
+				Creicese
+				Crepus
+				Cuclni
+				Cucrinathur
+				Curunas
+				Cusinas
+				Cusuthur
+				Cvinte
+				Cuthnas
+				Cutu
+				Ecnate
+				Einana
+				Eucle
+				Ezpus
+				Fapi
+				Felces
+				Felsnas
+				Felsni
+				Felusce
+				Fisis
+				Fulni
+				Fulu
+				Fulvena
+				Hanu
+				Hapisna
+				Hapre
+				Hepni
+				Havrnas
+				Hele
+				Hercnas
+				Herma
+				Hermenas
+				Hirsuneie
+				Hulchnie
+				Hupni
+				Ceicna
+				Cansinei
+				Culeniie
+				Curtinas
+				Lapicane
+				Larani
+				Larecena
+				Larna
+				Lucina
+				Larecena
+				Lartle
+				Latherna
+				Latni
+				Leinies
+				Lethe
+				Luisna
+				Macre
+				Malamena
+				Marcna
+				Marcnithur
+				Matulna
+				Mutunas
+				Meclas
+				Mefanates
+				Melacina
+				Meluta
+				Metle
+				Minie
+				Murias
+				Murinas
+				Nerinei
+				Ninie
+				Nuiclnas
+				Numclanie
+				Numnas
+				Nuni
+				Nufre
+				Pachie
+				Peithunas
+				Palazus
+				Paprsina
+				Papathnas
+				Papni
+				Parmne
+				Partunus
+				Paziathe
+				Percumsna
+				Petrnii
+				Phersnalas
+				Phursethna
+				Pinies
+				Pithe
+				Platia
+				Plute
+				Plecus
+				Plinia
+				Prastna
+				Precuthur
+				Presnte
+				Puince
+				Pulenas
+				Pumpli
+				Pumpna
+				Pumpus
+				Pupena
+				Puplina
+				Purni
+				Purzena
+				Puslina
+				Pustmina
+				Rufi
+				Ramnuna
+				Ranazu
+				Rasunies
+				Remzna
+				Riertu
+				Rufres
+				Rusci
+				Santu
+				Safice
+				Salini
+				Saties
+				Satlna
+				Savpunias
+				Scevas
+				Scurfiu
+				Sefre
+				Seiante
+				Seitithe
+				Semne
+				Sentinate
+				Sepu
+				Sethre
+				Silgatana
+				Sinu
+				Siprisni
+				Slanzu
+				Spantu
+				Spite
+				Spurinas
+				Srutzna
+				Statlanes
+				Supelnas
+				Suthrina
+				Sveitus
+				Svelthienas
+				Tarchunies
+				Tarcnas
+				Tarna
+				Teithurna
+				Teitur
+				Telathur
+				Telicles
+				Tetnies
+				Thactra
+				Thansina
+				Thefri
+				Thucerna
+				Thusatur
+				Tiphile
+				Titie
+				Tlesna
+				Tularia
+				Tulumnes
+				Turmna
+				Thursethna
+				Trepe
+				Tutna
+				Tutes
+				Ucrine
+				Uftave
+				Ulthes
+				Ultimne
+				Ulzna
+				Ursmna
+				Uslna
+				Vania
+				Varati
+				Velara
+				Velcheina
+				Velchas
+				Velcii
+				Vlesi
+				Velie
+				Velna
+				Velethna
+				Velimnas
+				Velthina
+				Velthinathur
+				Velthurna
+				Venala
+				Venete
+				Verate
+				Vestarenies
+				Vestirci
+				Vete
+				Vilasnas
+				Visnas
+				Vipena
+				Vipinans
+				Vipithur
+				Zalthu
+				Zane
+				Zertnei
+				Zili
 		}
 	}
 	romancalydnian = {
 		male_names = {
-			male
+			Amtnie Amuni Anche Anthai Aninas Arunth Araz Arzni Arnth Autu Aule Cei Ceile Ceisi
+			Cire Cnaive Clate Cruthni Cuinte Cursni Fapi Felce Felsnas Fulu Hapre Hirumina Husi
+			Carcuna Carthasie Ceisie Cavie Larce Laris Larth Larthuza Laucie Lauche Lethei
+			Licine Lucer Mamurce Marce Murila Numna Pesna Petru Plikasnas Plute Presnte
+			Pumpu Puplie Cupe Ranazu Rasce Ruvfe Ruifre Sanchuna Scarpe Sethre Spitus Spurie Squrie
+			Tarchi Teitur Thefri Thucer Ticusna Tite Tlesna Tursikina Tusnute Uchsie Uchulni Usele
+			Vel Velchaie Velthur Venel Vetus Vipie
 		}
 		female_names = {
-			female
+			Anina Aprthni Apunei Arunthia Arzna Arntha Ati Aula Ceia Culni Cursi Cusua Fasthi
+			Hasthi Hercnei Kanuta Larthi Lethi Luci Matun Metli Numni Pulia Racu Ramtha Ranthu
+			Ravnthu Satlnei Sela Semni Sethri Squria Squlina Tanchuil Tarcha Teituri Thanchvil
+			Thana Thefrina Thestia Thuceru Ticusnei Titi Veli Velchina Venela Vesi Vipi
 		}
 		dynasty_names = {
-			dynasty
+				Uclina
+				Acnatru
+				Acriena
+				Acvilnas
+				Afunas
+				Aisina
+				Alethnas
+				Alfi
+				Alfni
+				Alsinas
+				Alvethna
+				Amuni
+				Anani
+				Aneithur
+				Anes
+				Aninas
+				Anthiaia
+				Apatru
+				Apianas
+				Apries
+				Aprthnas
+				Apunas
+				Apvcuia
+				Araziia
+				Arnthna
+				Aremsnas
+				Arnies
+				Arthunas
+				Arunzina
+				Arznas
+				Ateina
+				Atelinas
+				Aties
+				Atnas
+				Ufle
+				Aucana
+				Auclina
+				Aves
+				Aznie
+				Cafates
+				Cahate
+				Ceie
+				Cale
+				Caliathe
+				Calisna
+				Camitlnas
+				Camnas
+				Campanes
+				Canatnes
+				Carpnate
+				Carsu
+				Catne
+				Cazi
+				Ceisinies
+				Celatina
+				Cheiras
+				Churcles
+				Churinas
+				Cicunias
+				Cilnii
+				Cisvite
+				Clute
+				Clavtiethur
+				Clevsinas
+				Cneuna
+				Cravzathura
+				Creicese
+				Crepus
+				Cuclni
+				Cucrinathur
+				Curunas
+				Cusinas
+				Cusuthur
+				Cvinte
+				Cuthnas
+				Cutu
+				Ecnate
+				Einana
+				Eucle
+				Ezpus
+				Fapi
+				Felces
+				Felsnas
+				Felsni
+				Felusce
+				Fisis
+				Fulni
+				Fulu
+				Fulvena
+				Hanu
+				Hapisna
+				Hapre
+				Hepni
+				Havrnas
+				Hele
+				Hercnas
+				Herma
+				Hermenas
+				Hirsuneie
+				Hulchnie
+				Hupni
+				Ceicna
+				Cansinei
+				Culeniie
+				Curtinas
+				Lapicane
+				Larani
+				Larecena
+				Larna
+				Lucina
+				Larecena
+				Lartle
+				Latherna
+				Latni
+				Leinies
+				Lethe
+				Luisna
+				Macre
+				Malamena
+				Marcna
+				Marcnithur
+				Matulna
+				Mutunas
+				Meclas
+				Mefanates
+				Melacina
+				Meluta
+				Metle
+				Minie
+				Murias
+				Murinas
+				Nerinei
+				Ninie
+				Nuiclnas
+				Numclanie
+				Numnas
+				Nuni
+				Nufre
+				Pachie
+				Peithunas
+				Palazus
+				Paprsina
+				Papathnas
+				Papni
+				Parmne
+				Partunus
+				Paziathe
+				Percumsna
+				Petrnii
+				Phersnalas
+				Phursethna
+				Pinies
+				Pithe
+				Platia
+				Plute
+				Plecus
+				Plinia
+				Prastna
+				Precuthur
+				Presnte
+				Puince
+				Pulenas
+				Pumpli
+				Pumpna
+				Pumpus
+				Pupena
+				Puplina
+				Purni
+				Purzena
+				Puslina
+				Pustmina
+				Rufi
+				Ramnuna
+				Ranazu
+				Rasunies
+				Remzna
+				Riertu
+				Rufres
+				Rusci
+				Santu
+				Safice
+				Salini
+				Saties
+				Satlna
+				Savpunias
+				Scevas
+				Scurfiu
+				Sefre
+				Seiante
+				Seitithe
+				Semne
+				Sentinate
+				Sepu
+				Sethre
+				Silgatana
+				Sinu
+				Siprisni
+				Slanzu
+				Spantu
+				Spite
+				Spurinas
+				Srutzna
+				Statlanes
+				Supelnas
+				Suthrina
+				Sveitus
+				Svelthienas
+				Tarchunies
+				Tarcnas
+				Tarna
+				Teithurna
+				Teitur
+				Telathur
+				Telicles
+				Tetnies
+				Thactra
+				Thansina
+				Thefri
+				Thucerna
+				Thusatur
+				Tiphile
+				Titie
+				Tlesna
+				Tularia
+				Tulumnes
+				Turmna
+				Thursethna
+				Trepe
+				Tutna
+				Tutes
+				Ucrine
+				Uftave
+				Ulthes
+				Ultimne
+				Ulzna
+				Ursmna
+				Uslna
+				Vania
+				Varati
+				Velara
+				Velcheina
+				Velchas
+				Velcii
+				Vlesi
+				Velie
+				Velna
+				Velethna
+				Velimnas
+				Velthina
+				Velthinathur
+				Velthurna
+				Venala
+				Venete
+				Verate
+				Vestarenies
+				Vestirci
+				Vete
+				Vilasnas
+				Visnas
+				Vipena
+				Vipinans
+				Vipithur
+				Zalthu
+				Zane
+				Zertnei
+				Zili
 		}
 	}
 	romanmagnet = {
 		male_names = {
-			male
+			Amtnie Amuni Anche Anthai Aninas Arunth Araz Arzni Arnth Autu Aule Cei Ceile Ceisi
+			Cire Cnaive Clate Cruthni Cuinte Cursni Fapi Felce Felsnas Fulu Hapre Hirumina Husi
+			Carcuna Carthasie Ceisie Cavie Larce Laris Larth Larthuza Laucie Lauche Lethei
+			Licine Lucer Mamurce Marce Murila Numna Pesna Petru Plikasnas Plute Presnte
+			Pumpu Puplie Cupe Ranazu Rasce Ruvfe Ruifre Sanchuna Scarpe Sethre Spitus Spurie Squrie
+			Tarchi Teitur Thefri Thucer Ticusna Tite Tlesna Tursikina Tusnute Uchsie Uchulni Usele
+			Vel Velchaie Velthur Venel Vetus Vipie
 		}
 		female_names = {
-			female
+			Anina Aprthni Apunei Arunthia Arzna Arntha Ati Aula Ceia Culni Cursi Cusua Fasthi
+			Hasthi Hercnei Kanuta Larthi Lethi Luci Matun Metli Numni Pulia Racu Ramtha Ranthu
+			Ravnthu Satlnei Sela Semni Sethri Squria Squlina Tanchuil Tarcha Teituri Thanchvil
+			Thana Thefrina Thestia Thuceru Ticusnei Titi Veli Velchina Venela Vesi Vipi
 		}
 		dynasty_names = {
-			dynasty
+				Uclina
+				Acnatru
+				Acriena
+				Acvilnas
+				Afunas
+				Aisina
+				Alethnas
+				Alfi
+				Alfni
+				Alsinas
+				Alvethna
+				Amuni
+				Anani
+				Aneithur
+				Anes
+				Aninas
+				Anthiaia
+				Apatru
+				Apianas
+				Apries
+				Aprthnas
+				Apunas
+				Apvcuia
+				Araziia
+				Arnthna
+				Aremsnas
+				Arnies
+				Arthunas
+				Arunzina
+				Arznas
+				Ateina
+				Atelinas
+				Aties
+				Atnas
+				Ufle
+				Aucana
+				Auclina
+				Aves
+				Aznie
+				Cafates
+				Cahate
+				Ceie
+				Cale
+				Caliathe
+				Calisna
+				Camitlnas
+				Camnas
+				Campanes
+				Canatnes
+				Carpnate
+				Carsu
+				Catne
+				Cazi
+				Ceisinies
+				Celatina
+				Cheiras
+				Churcles
+				Churinas
+				Cicunias
+				Cilnii
+				Cisvite
+				Clute
+				Clavtiethur
+				Clevsinas
+				Cneuna
+				Cravzathura
+				Creicese
+				Crepus
+				Cuclni
+				Cucrinathur
+				Curunas
+				Cusinas
+				Cusuthur
+				Cvinte
+				Cuthnas
+				Cutu
+				Ecnate
+				Einana
+				Eucle
+				Ezpus
+				Fapi
+				Felces
+				Felsnas
+				Felsni
+				Felusce
+				Fisis
+				Fulni
+				Fulu
+				Fulvena
+				Hanu
+				Hapisna
+				Hapre
+				Hepni
+				Havrnas
+				Hele
+				Hercnas
+				Herma
+				Hermenas
+				Hirsuneie
+				Hulchnie
+				Hupni
+				Ceicna
+				Cansinei
+				Culeniie
+				Curtinas
+				Lapicane
+				Larani
+				Larecena
+				Larna
+				Lucina
+				Larecena
+				Lartle
+				Latherna
+				Latni
+				Leinies
+				Lethe
+				Luisna
+				Macre
+				Malamena
+				Marcna
+				Marcnithur
+				Matulna
+				Mutunas
+				Meclas
+				Mefanates
+				Melacina
+				Meluta
+				Metle
+				Minie
+				Murias
+				Murinas
+				Nerinei
+				Ninie
+				Nuiclnas
+				Numclanie
+				Numnas
+				Nuni
+				Nufre
+				Pachie
+				Peithunas
+				Palazus
+				Paprsina
+				Papathnas
+				Papni
+				Parmne
+				Partunus
+				Paziathe
+				Percumsna
+				Petrnii
+				Phersnalas
+				Phursethna
+				Pinies
+				Pithe
+				Platia
+				Plute
+				Plecus
+				Plinia
+				Prastna
+				Precuthur
+				Presnte
+				Puince
+				Pulenas
+				Pumpli
+				Pumpna
+				Pumpus
+				Pupena
+				Puplina
+				Purni
+				Purzena
+				Puslina
+				Pustmina
+				Rufi
+				Ramnuna
+				Ranazu
+				Rasunies
+				Remzna
+				Riertu
+				Rufres
+				Rusci
+				Santu
+				Safice
+				Salini
+				Saties
+				Satlna
+				Savpunias
+				Scevas
+				Scurfiu
+				Sefre
+				Seiante
+				Seitithe
+				Semne
+				Sentinate
+				Sepu
+				Sethre
+				Silgatana
+				Sinu
+				Siprisni
+				Slanzu
+				Spantu
+				Spite
+				Spurinas
+				Srutzna
+				Statlanes
+				Supelnas
+				Suthrina
+				Sveitus
+				Svelthienas
+				Tarchunies
+				Tarcnas
+				Tarna
+				Teithurna
+				Teitur
+				Telathur
+				Telicles
+				Tetnies
+				Thactra
+				Thansina
+				Thefri
+				Thucerna
+				Thusatur
+				Tiphile
+				Titie
+				Tlesna
+				Tularia
+				Tulumnes
+				Turmna
+				Thursethna
+				Trepe
+				Tutna
+				Tutes
+				Ucrine
+				Uftave
+				Ulthes
+				Ultimne
+				Ulzna
+				Ursmna
+				Uslna
+				Vania
+				Varati
+				Velara
+				Velcheina
+				Velchas
+				Velcii
+				Vlesi
+				Velie
+				Velna
+				Velethna
+				Velimnas
+				Velthina
+				Velthinathur
+				Velthurna
+				Venala
+				Venete
+				Verate
+				Vestarenies
+				Vestirci
+				Vete
+				Vilasnas
+				Visnas
+				Vipena
+				Vipinans
+				Vipithur
+				Zalthu
+				Zane
+				Zertnei
+				Zili
 		}
 	}
 	romanoean = {
 		male_names = {
-			male
+			Amtnie Amuni Anche Anthai Aninas Arunth Araz Arzni Arnth Autu Aule Cei Ceile Ceisi
+			Cire Cnaive Clate Cruthni Cuinte Cursni Fapi Felce Felsnas Fulu Hapre Hirumina Husi
+			Carcuna Carthasie Ceisie Cavie Larce Laris Larth Larthuza Laucie Lauche Lethei
+			Licine Lucer Mamurce Marce Murila Numna Pesna Petru Plikasnas Plute Presnte
+			Pumpu Puplie Cupe Ranazu Rasce Ruvfe Ruifre Sanchuna Scarpe Sethre Spitus Spurie Squrie
+			Tarchi Teitur Thefri Thucer Ticusna Tite Tlesna Tursikina Tusnute Uchsie Uchulni Usele
+			Vel Velchaie Velthur Venel Vetus Vipie
 		}
 		female_names = {
-			female
+			Anina Aprthni Apunei Arunthia Arzna Arntha Ati Aula Ceia Culni Cursi Cusua Fasthi
+			Hasthi Hercnei Kanuta Larthi Lethi Luci Matun Metli Numni Pulia Racu Ramtha Ranthu
+			Ravnthu Satlnei Sela Semni Sethri Squria Squlina Tanchuil Tarcha Teituri Thanchvil
+			Thana Thefrina Thestia Thuceru Ticusnei Titi Veli Velchina Venela Vesi Vipi
 		}
 		dynasty_names = {
-			dynasty
+				Uclina
+				Acnatru
+				Acriena
+				Acvilnas
+				Afunas
+				Aisina
+				Alethnas
+				Alfi
+				Alfni
+				Alsinas
+				Alvethna
+				Amuni
+				Anani
+				Aneithur
+				Anes
+				Aninas
+				Anthiaia
+				Apatru
+				Apianas
+				Apries
+				Aprthnas
+				Apunas
+				Apvcuia
+				Araziia
+				Arnthna
+				Aremsnas
+				Arnies
+				Arthunas
+				Arunzina
+				Arznas
+				Ateina
+				Atelinas
+				Aties
+				Atnas
+				Ufle
+				Aucana
+				Auclina
+				Aves
+				Aznie
+				Cafates
+				Cahate
+				Ceie
+				Cale
+				Caliathe
+				Calisna
+				Camitlnas
+				Camnas
+				Campanes
+				Canatnes
+				Carpnate
+				Carsu
+				Catne
+				Cazi
+				Ceisinies
+				Celatina
+				Cheiras
+				Churcles
+				Churinas
+				Cicunias
+				Cilnii
+				Cisvite
+				Clute
+				Clavtiethur
+				Clevsinas
+				Cneuna
+				Cravzathura
+				Creicese
+				Crepus
+				Cuclni
+				Cucrinathur
+				Curunas
+				Cusinas
+				Cusuthur
+				Cvinte
+				Cuthnas
+				Cutu
+				Ecnate
+				Einana
+				Eucle
+				Ezpus
+				Fapi
+				Felces
+				Felsnas
+				Felsni
+				Felusce
+				Fisis
+				Fulni
+				Fulu
+				Fulvena
+				Hanu
+				Hapisna
+				Hapre
+				Hepni
+				Havrnas
+				Hele
+				Hercnas
+				Herma
+				Hermenas
+				Hirsuneie
+				Hulchnie
+				Hupni
+				Ceicna
+				Cansinei
+				Culeniie
+				Curtinas
+				Lapicane
+				Larani
+				Larecena
+				Larna
+				Lucina
+				Larecena
+				Lartle
+				Latherna
+				Latni
+				Leinies
+				Lethe
+				Luisna
+				Macre
+				Malamena
+				Marcna
+				Marcnithur
+				Matulna
+				Mutunas
+				Meclas
+				Mefanates
+				Melacina
+				Meluta
+				Metle
+				Minie
+				Murias
+				Murinas
+				Nerinei
+				Ninie
+				Nuiclnas
+				Numclanie
+				Numnas
+				Nuni
+				Nufre
+				Pachie
+				Peithunas
+				Palazus
+				Paprsina
+				Papathnas
+				Papni
+				Parmne
+				Partunus
+				Paziathe
+				Percumsna
+				Petrnii
+				Phersnalas
+				Phursethna
+				Pinies
+				Pithe
+				Platia
+				Plute
+				Plecus
+				Plinia
+				Prastna
+				Precuthur
+				Presnte
+				Puince
+				Pulenas
+				Pumpli
+				Pumpna
+				Pumpus
+				Pupena
+				Puplina
+				Purni
+				Purzena
+				Puslina
+				Pustmina
+				Rufi
+				Ramnuna
+				Ranazu
+				Rasunies
+				Remzna
+				Riertu
+				Rufres
+				Rusci
+				Santu
+				Safice
+				Salini
+				Saties
+				Satlna
+				Savpunias
+				Scevas
+				Scurfiu
+				Sefre
+				Seiante
+				Seitithe
+				Semne
+				Sentinate
+				Sepu
+				Sethre
+				Silgatana
+				Sinu
+				Siprisni
+				Slanzu
+				Spantu
+				Spite
+				Spurinas
+				Srutzna
+				Statlanes
+				Supelnas
+				Suthrina
+				Sveitus
+				Svelthienas
+				Tarchunies
+				Tarcnas
+				Tarna
+				Teithurna
+				Teitur
+				Telathur
+				Telicles
+				Tetnies
+				Thactra
+				Thansina
+				Thefri
+				Thucerna
+				Thusatur
+				Tiphile
+				Titie
+				Tlesna
+				Tularia
+				Tulumnes
+				Turmna
+				Thursethna
+				Trepe
+				Tutna
+				Tutes
+				Ucrine
+				Uftave
+				Ulthes
+				Ultimne
+				Ulzna
+				Ursmna
+				Uslna
+				Vania
+				Varati
+				Velara
+				Velcheina
+				Velchas
+				Velcii
+				Vlesi
+				Velie
+				Velna
+				Velethna
+				Velimnas
+				Velthina
+				Velthinathur
+				Velthurna
+				Venala
+				Venete
+				Verate
+				Vestarenies
+				Vestirci
+				Vete
+				Vilasnas
+				Visnas
+				Vipena
+				Vipinans
+				Vipithur
+				Zalthu
+				Zane
+				Zertnei
+				Zili
 		}
 	}
 	romanphocisian = {
 		male_names = {
-			male
+			Amtnie Amuni Anche Anthai Aninas Arunth Araz Arzni Arnth Autu Aule Cei Ceile Ceisi
+			Cire Cnaive Clate Cruthni Cuinte Cursni Fapi Felce Felsnas Fulu Hapre Hirumina Husi
+			Carcuna Carthasie Ceisie Cavie Larce Laris Larth Larthuza Laucie Lauche Lethei
+			Licine Lucer Mamurce Marce Murila Numna Pesna Petru Plikasnas Plute Presnte
+			Pumpu Puplie Cupe Ranazu Rasce Ruvfe Ruifre Sanchuna Scarpe Sethre Spitus Spurie Squrie
+			Tarchi Teitur Thefri Thucer Ticusna Tite Tlesna Tursikina Tusnute Uchsie Uchulni Usele
+			Vel Velchaie Velthur Venel Vetus Vipie
 		}
 		female_names = {
-			female
+			Anina Aprthni Apunei Arunthia Arzna Arntha Ati Aula Ceia Culni Cursi Cusua Fasthi
+			Hasthi Hercnei Kanuta Larthi Lethi Luci Matun Metli Numni Pulia Racu Ramtha Ranthu
+			Ravnthu Satlnei Sela Semni Sethri Squria Squlina Tanchuil Tarcha Teituri Thanchvil
+			Thana Thefrina Thestia Thuceru Ticusnei Titi Veli Velchina Venela Vesi Vipi
 		}
 		dynasty_names = {
-			dynasty
+				Uclina
+				Acnatru
+				Acriena
+				Acvilnas
+				Afunas
+				Aisina
+				Alethnas
+				Alfi
+				Alfni
+				Alsinas
+				Alvethna
+				Amuni
+				Anani
+				Aneithur
+				Anes
+				Aninas
+				Anthiaia
+				Apatru
+				Apianas
+				Apries
+				Aprthnas
+				Apunas
+				Apvcuia
+				Araziia
+				Arnthna
+				Aremsnas
+				Arnies
+				Arthunas
+				Arunzina
+				Arznas
+				Ateina
+				Atelinas
+				Aties
+				Atnas
+				Ufle
+				Aucana
+				Auclina
+				Aves
+				Aznie
+				Cafates
+				Cahate
+				Ceie
+				Cale
+				Caliathe
+				Calisna
+				Camitlnas
+				Camnas
+				Campanes
+				Canatnes
+				Carpnate
+				Carsu
+				Catne
+				Cazi
+				Ceisinies
+				Celatina
+				Cheiras
+				Churcles
+				Churinas
+				Cicunias
+				Cilnii
+				Cisvite
+				Clute
+				Clavtiethur
+				Clevsinas
+				Cneuna
+				Cravzathura
+				Creicese
+				Crepus
+				Cuclni
+				Cucrinathur
+				Curunas
+				Cusinas
+				Cusuthur
+				Cvinte
+				Cuthnas
+				Cutu
+				Ecnate
+				Einana
+				Eucle
+				Ezpus
+				Fapi
+				Felces
+				Felsnas
+				Felsni
+				Felusce
+				Fisis
+				Fulni
+				Fulu
+				Fulvena
+				Hanu
+				Hapisna
+				Hapre
+				Hepni
+				Havrnas
+				Hele
+				Hercnas
+				Herma
+				Hermenas
+				Hirsuneie
+				Hulchnie
+				Hupni
+				Ceicna
+				Cansinei
+				Culeniie
+				Curtinas
+				Lapicane
+				Larani
+				Larecena
+				Larna
+				Lucina
+				Larecena
+				Lartle
+				Latherna
+				Latni
+				Leinies
+				Lethe
+				Luisna
+				Macre
+				Malamena
+				Marcna
+				Marcnithur
+				Matulna
+				Mutunas
+				Meclas
+				Mefanates
+				Melacina
+				Meluta
+				Metle
+				Minie
+				Murias
+				Murinas
+				Nerinei
+				Ninie
+				Nuiclnas
+				Numclanie
+				Numnas
+				Nuni
+				Nufre
+				Pachie
+				Peithunas
+				Palazus
+				Paprsina
+				Papathnas
+				Papni
+				Parmne
+				Partunus
+				Paziathe
+				Percumsna
+				Petrnii
+				Phersnalas
+				Phursethna
+				Pinies
+				Pithe
+				Platia
+				Plute
+				Plecus
+				Plinia
+				Prastna
+				Precuthur
+				Presnte
+				Puince
+				Pulenas
+				Pumpli
+				Pumpna
+				Pumpus
+				Pupena
+				Puplina
+				Purni
+				Purzena
+				Puslina
+				Pustmina
+				Rufi
+				Ramnuna
+				Ranazu
+				Rasunies
+				Remzna
+				Riertu
+				Rufres
+				Rusci
+				Santu
+				Safice
+				Salini
+				Saties
+				Satlna
+				Savpunias
+				Scevas
+				Scurfiu
+				Sefre
+				Seiante
+				Seitithe
+				Semne
+				Sentinate
+				Sepu
+				Sethre
+				Silgatana
+				Sinu
+				Siprisni
+				Slanzu
+				Spantu
+				Spite
+				Spurinas
+				Srutzna
+				Statlanes
+				Supelnas
+				Suthrina
+				Sveitus
+				Svelthienas
+				Tarchunies
+				Tarcnas
+				Tarna
+				Teithurna
+				Teitur
+				Telathur
+				Telicles
+				Tetnies
+				Thactra
+				Thansina
+				Thefri
+				Thucerna
+				Thusatur
+				Tiphile
+				Titie
+				Tlesna
+				Tularia
+				Tulumnes
+				Turmna
+				Thursethna
+				Trepe
+				Tutna
+				Tutes
+				Ucrine
+				Uftave
+				Ulthes
+				Ultimne
+				Ulzna
+				Ursmna
+				Uslna
+				Vania
+				Varati
+				Velara
+				Velcheina
+				Velchas
+				Velcii
+				Vlesi
+				Velie
+				Velna
+				Velethna
+				Velimnas
+				Velthina
+				Velthinathur
+				Velthurna
+				Venala
+				Venete
+				Verate
+				Vestarenies
+				Vestirci
+				Vete
+				Vilasnas
+				Visnas
+				Vipena
+				Vipinans
+				Vipithur
+				Zalthu
+				Zane
+				Zertnei
+				Zili
 		}
 	}
 	romanemerita = {
 		male_names = {
-			male
+			Amtnie Amuni Anche Anthai Aninas Arunth Araz Arzni Arnth Autu Aule Cei Ceile Ceisi
+			Cire Cnaive Clate Cruthni Cuinte Cursni Fapi Felce Felsnas Fulu Hapre Hirumina Husi
+			Carcuna Carthasie Ceisie Cavie Larce Laris Larth Larthuza Laucie Lauche Lethei
+			Licine Lucer Mamurce Marce Murila Numna Pesna Petru Plikasnas Plute Presnte
+			Pumpu Puplie Cupe Ranazu Rasce Ruvfe Ruifre Sanchuna Scarpe Sethre Spitus Spurie Squrie
+			Tarchi Teitur Thefri Thucer Ticusna Tite Tlesna Tursikina Tusnute Uchsie Uchulni Usele
+			Vel Velchaie Velthur Venel Vetus Vipie
 		}
 		female_names = {
-			female
+			Anina Aprthni Apunei Arunthia Arzna Arntha Ati Aula Ceia Culni Cursi Cusua Fasthi
+			Hasthi Hercnei Kanuta Larthi Lethi Luci Matun Metli Numni Pulia Racu Ramtha Ranthu
+			Ravnthu Satlnei Sela Semni Sethri Squria Squlina Tanchuil Tarcha Teituri Thanchvil
+			Thana Thefrina Thestia Thuceru Ticusnei Titi Veli Velchina Venela Vesi Vipi
 		}
 		dynasty_names = {
-			dynasty
+				Uclina
+				Acnatru
+				Acriena
+				Acvilnas
+				Afunas
+				Aisina
+				Alethnas
+				Alfi
+				Alfni
+				Alsinas
+				Alvethna
+				Amuni
+				Anani
+				Aneithur
+				Anes
+				Aninas
+				Anthiaia
+				Apatru
+				Apianas
+				Apries
+				Aprthnas
+				Apunas
+				Apvcuia
+				Araziia
+				Arnthna
+				Aremsnas
+				Arnies
+				Arthunas
+				Arunzina
+				Arznas
+				Ateina
+				Atelinas
+				Aties
+				Atnas
+				Ufle
+				Aucana
+				Auclina
+				Aves
+				Aznie
+				Cafates
+				Cahate
+				Ceie
+				Cale
+				Caliathe
+				Calisna
+				Camitlnas
+				Camnas
+				Campanes
+				Canatnes
+				Carpnate
+				Carsu
+				Catne
+				Cazi
+				Ceisinies
+				Celatina
+				Cheiras
+				Churcles
+				Churinas
+				Cicunias
+				Cilnii
+				Cisvite
+				Clute
+				Clavtiethur
+				Clevsinas
+				Cneuna
+				Cravzathura
+				Creicese
+				Crepus
+				Cuclni
+				Cucrinathur
+				Curunas
+				Cusinas
+				Cusuthur
+				Cvinte
+				Cuthnas
+				Cutu
+				Ecnate
+				Einana
+				Eucle
+				Ezpus
+				Fapi
+				Felces
+				Felsnas
+				Felsni
+				Felusce
+				Fisis
+				Fulni
+				Fulu
+				Fulvena
+				Hanu
+				Hapisna
+				Hapre
+				Hepni
+				Havrnas
+				Hele
+				Hercnas
+				Herma
+				Hermenas
+				Hirsuneie
+				Hulchnie
+				Hupni
+				Ceicna
+				Cansinei
+				Culeniie
+				Curtinas
+				Lapicane
+				Larani
+				Larecena
+				Larna
+				Lucina
+				Larecena
+				Lartle
+				Latherna
+				Latni
+				Leinies
+				Lethe
+				Luisna
+				Macre
+				Malamena
+				Marcna
+				Marcnithur
+				Matulna
+				Mutunas
+				Meclas
+				Mefanates
+				Melacina
+				Meluta
+				Metle
+				Minie
+				Murias
+				Murinas
+				Nerinei
+				Ninie
+				Nuiclnas
+				Numclanie
+				Numnas
+				Nuni
+				Nufre
+				Pachie
+				Peithunas
+				Palazus
+				Paprsina
+				Papathnas
+				Papni
+				Parmne
+				Partunus
+				Paziathe
+				Percumsna
+				Petrnii
+				Phersnalas
+				Phursethna
+				Pinies
+				Pithe
+				Platia
+				Plute
+				Plecus
+				Plinia
+				Prastna
+				Precuthur
+				Presnte
+				Puince
+				Pulenas
+				Pumpli
+				Pumpna
+				Pumpus
+				Pupena
+				Puplina
+				Purni
+				Purzena
+				Puslina
+				Pustmina
+				Rufi
+				Ramnuna
+				Ranazu
+				Rasunies
+				Remzna
+				Riertu
+				Rufres
+				Rusci
+				Santu
+				Safice
+				Salini
+				Saties
+				Satlna
+				Savpunias
+				Scevas
+				Scurfiu
+				Sefre
+				Seiante
+				Seitithe
+				Semne
+				Sentinate
+				Sepu
+				Sethre
+				Silgatana
+				Sinu
+				Siprisni
+				Slanzu
+				Spantu
+				Spite
+				Spurinas
+				Srutzna
+				Statlanes
+				Supelnas
+				Suthrina
+				Sveitus
+				Svelthienas
+				Tarchunies
+				Tarcnas
+				Tarna
+				Teithurna
+				Teitur
+				Telathur
+				Telicles
+				Tetnies
+				Thactra
+				Thansina
+				Thefri
+				Thucerna
+				Thusatur
+				Tiphile
+				Titie
+				Tlesna
+				Tularia
+				Tulumnes
+				Turmna
+				Thursethna
+				Trepe
+				Tutna
+				Tutes
+				Ucrine
+				Uftave
+				Ulthes
+				Ultimne
+				Ulzna
+				Ursmna
+				Uslna
+				Vania
+				Varati
+				Velara
+				Velcheina
+				Velchas
+				Velcii
+				Vlesi
+				Velie
+				Velna
+				Velethna
+				Velimnas
+				Velthina
+				Velthinathur
+				Velthurna
+				Venala
+				Venete
+				Verate
+				Vestarenies
+				Vestirci
+				Vete
+				Vilasnas
+				Visnas
+				Vipena
+				Vipinans
+				Vipithur
+				Zalthu
+				Zane
+				Zertnei
+				Zili
 		}
 	}
 	romaneuphemian = {
 		male_names = {
-			male
+			Amtnie Amuni Anche Anthai Aninas Arunth Araz Arzni Arnth Autu Aule Cei Ceile Ceisi
+			Cire Cnaive Clate Cruthni Cuinte Cursni Fapi Felce Felsnas Fulu Hapre Hirumina Husi
+			Carcuna Carthasie Ceisie Cavie Larce Laris Larth Larthuza Laucie Lauche Lethei
+			Licine Lucer Mamurce Marce Murila Numna Pesna Petru Plikasnas Plute Presnte
+			Pumpu Puplie Cupe Ranazu Rasce Ruvfe Ruifre Sanchuna Scarpe Sethre Spitus Spurie Squrie
+			Tarchi Teitur Thefri Thucer Ticusna Tite Tlesna Tursikina Tusnute Uchsie Uchulni Usele
+			Vel Velchaie Velthur Venel Vetus Vipie
 		}
 		female_names = {
-			female
+			Anina Aprthni Apunei Arunthia Arzna Arntha Ati Aula Ceia Culni Cursi Cusua Fasthi
+			Hasthi Hercnei Kanuta Larthi Lethi Luci Matun Metli Numni Pulia Racu Ramtha Ranthu
+			Ravnthu Satlnei Sela Semni Sethri Squria Squlina Tanchuil Tarcha Teituri Thanchvil
+			Thana Thefrina Thestia Thuceru Ticusnei Titi Veli Velchina Venela Vesi Vipi
 		}
 		dynasty_names = {
-			dynasty
+				Uclina
+				Acnatru
+				Acriena
+				Acvilnas
+				Afunas
+				Aisina
+				Alethnas
+				Alfi
+				Alfni
+				Alsinas
+				Alvethna
+				Amuni
+				Anani
+				Aneithur
+				Anes
+				Aninas
+				Anthiaia
+				Apatru
+				Apianas
+				Apries
+				Aprthnas
+				Apunas
+				Apvcuia
+				Araziia
+				Arnthna
+				Aremsnas
+				Arnies
+				Arthunas
+				Arunzina
+				Arznas
+				Ateina
+				Atelinas
+				Aties
+				Atnas
+				Ufle
+				Aucana
+				Auclina
+				Aves
+				Aznie
+				Cafates
+				Cahate
+				Ceie
+				Cale
+				Caliathe
+				Calisna
+				Camitlnas
+				Camnas
+				Campanes
+				Canatnes
+				Carpnate
+				Carsu
+				Catne
+				Cazi
+				Ceisinies
+				Celatina
+				Cheiras
+				Churcles
+				Churinas
+				Cicunias
+				Cilnii
+				Cisvite
+				Clute
+				Clavtiethur
+				Clevsinas
+				Cneuna
+				Cravzathura
+				Creicese
+				Crepus
+				Cuclni
+				Cucrinathur
+				Curunas
+				Cusinas
+				Cusuthur
+				Cvinte
+				Cuthnas
+				Cutu
+				Ecnate
+				Einana
+				Eucle
+				Ezpus
+				Fapi
+				Felces
+				Felsnas
+				Felsni
+				Felusce
+				Fisis
+				Fulni
+				Fulu
+				Fulvena
+				Hanu
+				Hapisna
+				Hapre
+				Hepni
+				Havrnas
+				Hele
+				Hercnas
+				Herma
+				Hermenas
+				Hirsuneie
+				Hulchnie
+				Hupni
+				Ceicna
+				Cansinei
+				Culeniie
+				Curtinas
+				Lapicane
+				Larani
+				Larecena
+				Larna
+				Lucina
+				Larecena
+				Lartle
+				Latherna
+				Latni
+				Leinies
+				Lethe
+				Luisna
+				Macre
+				Malamena
+				Marcna
+				Marcnithur
+				Matulna
+				Mutunas
+				Meclas
+				Mefanates
+				Melacina
+				Meluta
+				Metle
+				Minie
+				Murias
+				Murinas
+				Nerinei
+				Ninie
+				Nuiclnas
+				Numclanie
+				Numnas
+				Nuni
+				Nufre
+				Pachie
+				Peithunas
+				Palazus
+				Paprsina
+				Papathnas
+				Papni
+				Parmne
+				Partunus
+				Paziathe
+				Percumsna
+				Petrnii
+				Phersnalas
+				Phursethna
+				Pinies
+				Pithe
+				Platia
+				Plute
+				Plecus
+				Plinia
+				Prastna
+				Precuthur
+				Presnte
+				Puince
+				Pulenas
+				Pumpli
+				Pumpna
+				Pumpus
+				Pupena
+				Puplina
+				Purni
+				Purzena
+				Puslina
+				Pustmina
+				Rufi
+				Ramnuna
+				Ranazu
+				Rasunies
+				Remzna
+				Riertu
+				Rufres
+				Rusci
+				Santu
+				Safice
+				Salini
+				Saties
+				Satlna
+				Savpunias
+				Scevas
+				Scurfiu
+				Sefre
+				Seiante
+				Seitithe
+				Semne
+				Sentinate
+				Sepu
+				Sethre
+				Silgatana
+				Sinu
+				Siprisni
+				Slanzu
+				Spantu
+				Spite
+				Spurinas
+				Srutzna
+				Statlanes
+				Supelnas
+				Suthrina
+				Sveitus
+				Svelthienas
+				Tarchunies
+				Tarcnas
+				Tarna
+				Teithurna
+				Teitur
+				Telathur
+				Telicles
+				Tetnies
+				Thactra
+				Thansina
+				Thefri
+				Thucerna
+				Thusatur
+				Tiphile
+				Titie
+				Tlesna
+				Tularia
+				Tulumnes
+				Turmna
+				Thursethna
+				Trepe
+				Tutna
+				Tutes
+				Ucrine
+				Uftave
+				Ulthes
+				Ultimne
+				Ulzna
+				Ursmna
+				Uslna
+				Vania
+				Varati
+				Velara
+				Velcheina
+				Velchas
+				Velcii
+				Vlesi
+				Velie
+				Velna
+				Velethna
+				Velimnas
+				Velthina
+				Velthinathur
+				Velthurna
+				Venala
+				Venete
+				Verate
+				Vestarenies
+				Vestirci
+				Vete
+				Vilasnas
+				Visnas
+				Vipena
+				Vipinans
+				Vipithur
+				Zalthu
+				Zane
+				Zertnei
+				Zili
 		}
 	}
 }

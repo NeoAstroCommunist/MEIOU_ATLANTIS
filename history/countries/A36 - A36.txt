@@ -17,4 +17,5 @@ capital = 5627
 	#set_key = { lhs = centralization_decentralization value = -3 }
 	add_absolutism = -100
 	add_absolutism = 35
+	set_country_flag = atlantis_thesrut
 }

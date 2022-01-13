@@ -1,6 +1,6 @@
 owner = A20 add_core = A20
 controller = A20
-culture = hormuzian
+culture = astypalean
 trade_goods = fish
 religion = sunni
 is_city = yes
@@ -16,7 +16,7 @@ set_key = { lhs = Infra_Harbourage value = 1
 	set_province_flag = TN_Island
 	set_province_flag = TN_Harbour_Minor
 	set_province_flag = TN_Natural_Minor
-discovered_by = muslim
+discovered_by = FEZ discovered_by = GRA discovered_by = HAF
 discovered_by = western
 
 }

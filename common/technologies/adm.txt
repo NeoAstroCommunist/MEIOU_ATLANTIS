@@ -1,0 +1,368 @@
+monarch_power = ADM
+ahead_of_time = { 
+	global_trade_goods_size_modifier = 0.01
+	production_efficiency = 0.01
+	yearly_corruption = -0.05
+}
+technology = { 
+	year = 1300
+	levy_draft_no = yes
+	levy_draft_low = yes
+	levy_draft_med = yes
+	levy_draft_high = yes
+	levy_volunt_no = yes
+	levy_volunt_low = yes
+	levy_volunt_med = yes
+	levy_volunt_high = yes
+	levy_feudal_no = yes
+	levy_feudal_low = yes
+	levy_feudal_med = yes
+	levy_feudal_high = yes
+	levy_noble_no = yes
+	levy_noble_low = yes
+	levy_noble_med = yes
+	levy_noble_high = yes
+	levy_urban_no = yes
+	levy_urban_low = yes
+	levy_urban_med = yes
+	levy_urban_high = yes
+	levy_horde_no = yes
+	levy_horde_low = yes
+	levy_horde_med = yes
+	levy_horde_high = yes
+	obli_feudal_no = yes
+	obli_feudal_low = yes
+	obli_feudal_med = yes
+	obli_feudal_high = yes
+	obli_noble_no = yes
+	obli_noble_low = yes
+	obli_noble_med = yes
+	obli_noble_high = yes
+	obli_charter_no = yes
+	obli_charter_low = yes
+	obli_charter_med = yes
+	obli_charter_high = yes
+	obli_tribute_no = yes
+	obli_tribute_low = yes
+	obli_tribute_med = yes
+	obli_tribute_high = yes
+	tax_land_no = yes
+	tax_land_low = yes
+	tax_land_med = yes
+	tax_land_high = yes
+	tax_prop_no = yes
+	tax_prop_low = yes
+	tax_prop_med = yes
+	tax_prop_high = yes
+	tax_poll_no = yes
+	tax_poll_low = yes
+	tax_poll_med = yes
+	tax_poll_high = yes
+	tax_toll_no = yes
+	tax_toll_low = yes
+	tax_toll_med = yes
+	tax_toll_high = yes
+	tax_chattels_no = yes
+	tax_chattels_low = yes
+	tax_chattels_med = yes
+	tax_chattels_high = yes
+	tax_inherit_no = yes
+	tax_inherit_low = yes
+	tax_inherit_med = yes
+	tax_inherit_high = yes
+	tax_salt_no = yes
+	tax_salt_low = yes
+	tax_salt_med = yes
+	tax_salt_high = yes
+	tax_alcohol_no = yes
+	tax_alcohol_low = yes
+	tax_alcohol_med = yes
+	tax_alcohol_high = yes
+	tax_timber_no = yes
+	tax_timber_low = yes
+	tax_timber_med = yes
+	tax_timber_high = yes
+	tax_subst_no = yes
+	tax_subst_low = yes
+	tax_subst_med = yes
+	tax_subst_high = yes
+	give_Agriculture_10 = yes
+	give_Agriculture_100 = yes
+	give_Agriculture_50 = yes
+	give_Forestry_10 = yes
+	give_Forestry_100 = yes
+	give_Forestry_50 = yes
+	give_Extraction_10 = yes
+	give_Extraction_100 = yes
+	give_Extraction_50 = yes
+	give_Fishery_10 = yes
+	give_Fishery_100 = yes
+	give_Fishery_50 = yes
+	give_Commercial_10 = yes
+	give_Commercial_100 = yes
+	give_Commercial_50 = yes
+	give_Academic_10 = yes
+	give_Academic_100 = yes
+	give_Academic_50 = yes
+	give_Industrial_10 = yes
+	give_Industrial_100 = yes
+	give_Industrial_50 = yes
+	maint_Agriculture_no = yes
+	maint_Agriculture_low = yes
+	maint_Agriculture_med = yes
+	maint_Agriculture_high = yes
+	maint_Forestry_no = yes
+	maint_Forestry_low = yes
+	maint_Forestry_med = yes
+	maint_Forestry_high = yes
+	maint_Extraction_no = yes
+	maint_Extraction_low = yes
+	maint_Extraction_med = yes
+	maint_Extraction_high = yes
+	maint_Fishery_no = yes
+	maint_Fishery_low = yes
+	maint_Fishery_med = yes
+	maint_Fishery_high = yes
+	maint_Commercial_no = yes
+	maint_Commercial_low = yes
+	maint_Commercial_med = yes
+	maint_Commercial_high = yes
+	maint_Industrial_no = yes
+	maint_Industrial_low = yes
+	maint_Industrial_med = yes
+	maint_Industrial_high = yes
+	maint_Academic_no = yes
+	maint_Academic_low = yes
+	maint_Academic_med = yes
+	maint_Academic_high = yes
+}
+technology = { 
+	year = 1310
+	allowed_idea_groups = 1
+}
+technology = { 
+	year = 1320
+	allowed_idea_groups = 2
+	production_efficiency = 0.01
+}
+technology = { 
+	year = 1330
+}
+technology = { 
+	year = 1340
+}
+technology = { 
+	year = 1350
+}
+technology = { 
+	year = 1360
+	administrative_efficiency = 0.05
+}
+technology = { 
+	year = 1370
+}
+technology = { 
+	year = 1380
+	allowed_idea_groups = 3
+}
+technology = { 
+	year = 1390
+	administrative_efficiency = 0.025
+}
+technology = { 
+	year = 1400
+	production_efficiency = 0.01
+	development_efficiency = 0.025
+}
+technology = { 
+	year = 1410
+	administrative_efficiency = 0.05
+}
+technology = { 
+	year = 1420
+	allowed_idea_groups = 4
+}
+technology = { 
+	year = 1430
+}
+technology = { 
+	year = 1440
+	production_efficiency = 0.02
+}
+technology = { 
+	year = 1450
+	development_efficiency = 0.025
+}
+technology = { 
+	year = 1460
+	allowed_idea_groups = 5
+}
+technology = { 
+	year = 1470
+	may_support_rebels = yes
+}
+technology = { 
+	year = 1480
+}
+technology = { 
+	year = 1490
+	may_force_march = yes
+}
+technology = { 
+	year = 1500
+	allowed_idea_groups = 6
+	development_efficiency = 0.025
+}
+technology = { 
+	year = 1510
+}
+technology = { 
+	year = 1520
+	administrative_efficiency = 0.025
+}
+technology = { 
+	year = 1530
+}
+technology = { 
+	year = 1540
+	allowed_idea_groups = 7
+}
+technology = { 
+	year = 1550
+	development_efficiency = 0.025
+}
+technology = { 
+	year = 1560
+}
+technology = { 
+	year = 1570
+}
+technology = { 
+	year = 1580
+	allowed_idea_groups = 8
+}
+technology = { 
+	year = 1590
+	production_efficiency = 0.01
+}
+technology = { 
+	year = 1600
+	administrative_efficiency = 0.05
+	development_efficiency = 0.025
+}
+technology = { 
+	year = 1610
+}
+technology = { 
+	year = 1620
+	allowed_idea_groups = 9
+}
+technology = { 
+	year = 1630
+}
+technology = { 
+	year = 1640
+	production_efficiency = 0.01
+}
+technology = { 
+	year = 1650
+	development_efficiency = 0.025
+}
+technology = { 
+	year = 1660
+	allowed_idea_groups = 10
+	development_efficiency = 0.05
+}
+technology = { 
+	year = 1670
+}
+technology = { 
+	year = 1680
+}
+technology = { 
+	year = 1690
+	administrative_efficiency = 0.025
+}
+technology = { 
+	year = 1700
+	allowed_idea_groups = 11
+	development_efficiency = 0.025
+}
+technology = { 
+	year = 1710
+	production_efficiency = 0.02
+}
+technology = { 
+	year = 1720
+	administrative_efficiency = 0.05
+}
+technology = { 
+	year = 1730
+}
+technology = { 
+	year = 1740
+	allowed_idea_groups = 12
+}
+technology = { 
+	year = 1750
+	administrative_efficiency = 0.025
+	development_efficiency = 0.025
+}
+technology = { 
+	year = 1760
+}
+technology = { 
+	year = 1770
+	production_efficiency = 0.01
+}
+technology = { 
+	year = 1780
+	allowed_idea_groups = 13
+}
+technology = { 
+	year = 1790
+	administrative_efficiency = 0.025
+}
+technology = { 
+	year = 1800
+	development_efficiency = 0.025
+}
+technology = { 
+	year = 1810
+	administrative_efficiency = 0.05
+}
+technology = { 
+	year = 1820
+	production_efficiency = 0.05
+}
+technology = { 
+	year = 1830
+}
+technology = { 
+	year = 1840
+}
+technology = { 
+	year = 1850
+	administrative_efficiency = 0.05
+	development_efficiency = 0.025
+}
+technology = { 
+	year = 1860
+	allowed_idea_groups = 14
+}
+technology = { 
+	year = 1870
+	administrative_efficiency = 0.05
+}
+technology = { 
+	year = 1880
+}
+technology = { 
+	year = 1890
+	administrative_efficiency = 0.05
+	development_efficiency = 0.025
+}
+technology = { 
+	year = 1900
+	production_efficiency = 0.01
+}
