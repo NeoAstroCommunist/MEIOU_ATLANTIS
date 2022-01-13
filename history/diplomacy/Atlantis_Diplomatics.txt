@@ -1,17 +1,4 @@
 
-    alliance = {
-	first = A14
-	second = A15
-	start_date = 1295.1.1
-	end_date = 1560.7.5
-
-guarantee = {
-	first = A14
-	second = A13
-	start_date = 1356.1.1
-	end_date = 1560.7.5
-}
-
 guarantee = {
 	first = A14
 	second = A11
@@ -19,32 +6,51 @@ guarantee = {
 	end_date = 1560.7.5
 }
 
-guarantee = {
+dependency = { 
+	subject_type = "decentralized_vassal"
+	first = A14
+	second = A15
+	start_date = 1353.1.1
+	end_date = 1378.1.1
+}
+
+dependency = { 
+	subject_type = "decentralized_vassal"
+	first = A14
+	second = A13
+	start_date = 1353.1.1
+	end_date = 1378.1.1
+}
+
+dependency = { 
+	subject_type = "decentralized_vassal"
 	first = A14
 	second = A16
-	start_date = 1256.1.1
-	end_date = 1560.7.5
+	start_date = 1353.1.1
+	end_date = 1378.1.1
 }
 
-guarantee = {
-	first = A20
-	second = A12
-	start_date = 1356.1.1
-	end_date = 1560.7.5
-}
-
-dependency = {
+dependency = { 
 	subject_type = "decentralized_vassal"
 	first = A20
 	second = A36
-	start_date = 1356.1.1
-	end_date = 1380.1.1
+	start_date = 1353.1.1
+	end_date = 1378.1.1
 }
 
-dependency = {
-	subject_type = "decentralized_vassal"
+dependency = { 
+	subject_type = "close_tributary_state"
 	first = A20
-	second = A31
-	start_date = 1356.1.1
-	end_date = 1380.1.1
+	second = A12
+	start_date = 1274.1.1
+	end_date = 1392.1.1
 }
+
+dependency = { 
+	subject_type = "muscovite_tributary_state"
+	first = A20
+	second = A36
+	start_date = 1246.1.1
+	end_date = 1491.1.1
+}
+

@@ -42,128 +42,63 @@ historical_units = { #French group
 }
 
 monarch_names = {
-	"Charles #2" = 40
-	"Louis #1" = 40
-	"René #1" = 20
-	"Nicolas #0" = 10
-	"Jean #0" = 5
-	"Raymond Berengar #3" = 1
-	"Alphonse #2" = 1
-	"Robert #1" = 1
-	"Adhémar #0" = 1
-	"Aymeric #0" = 1
-	"Bartomiu #0" = 1
-	"Benedit #0" = 1
-	"Bernat #0" = 1
-	"Bertran #0" = 1
-	"Damián #0" = 1
-	"Emeric #0" = 1
-	"Enric #0" = 1
-	"Estève #0" = 1
-	"Ferrán #0" = 1
-	"Folquet #0" = 1
-	"Frances #0" = 1
-	"Gastó #0" = 1
-	"Guilhem #0" = 1
-	"Huc #0" = 1
-	"Jacme #0" = 1
-	"Jaufre #0" = 1
-	"Jordan #0" = 1
-	"Loys #0" = 1
-	"Lucas #0" = 1
-	"Martí #0" = 1
-	"Matheu #0" = 1
-	"Miqueu #0" = 1
-	"Per #0" = 1
-	"Pol #0" = 1
-	"Pons #0" = 1
-	"Sanc #0" = 1
-	"Thibaud #0" = 1
-	"Vicentz #0" = 1
-	"Victor #0" = 1
-	"Xavier #0" = 1
+	"Indo " = 1
+	"Lagunas " = 1
+	"Tureno " = 1
+	"Unibelos " = 1
+	"Talskubilos " = 1
+	"Seihar " = 1
+	"Skarisker " = 1
+	"Sacarisker " = 1
+	"Turibas " = 1
+	"Urcetices " = 1
+	"Uxentio " = 1
+	"Umarilo " = 1
+	"Talskubilos " = 1
+	"Abadutiker " = 1
+	"Punicus " = 1
+	"Ambon " = 1
+	"Abaraban " = 1
+	"Andobales " = 1
+	"Balkar " = 1
+	"Babpo " = 1
+	"Biurtetel " = 1
+	"Bosilkas " = 1
+	"Budar " = 1
+	"Caro " = 1
+	"Culcas " = 1
+	"Gargoris " = 1
+	"Iscerbeles " = 1
+	"Kara " = 1
+	"Korbis " = 1
+	"Korribilo " = 1
+	"Mandonio " = 1
+	"Magavarico " = 1
 	
-	"Blanche #0" = -1
-	"Aliénor #0" = -1
-	"Berthe #0" = -1
-	"Constance #0" = -1
-	"Mathilde #0" = -1
-	"Isabeau #0" = -1
-	"Jeanne #0" = -1
-	"Marie #0" = -1
-	"Charlotte #0" = -1
-	"Anne #0" = -1
-	"Marguerite #0" = -1
-	"Adélaïde #0" = -1
-	"Claude #0" = -1
+	"Ana " = -1
+	"Ama " = -1
+	"Aretaunin " = -1
+	"Aunia " = -1
+	"Canine " = -1
+	"Daleninar " = -1
+	"Similce " = -1
+	"Sicounin " = -1
+	"Thurinninar " = -1
+	"Secetaunin " = -1
+	"Teite " = -1
+	"Tettingica " = -1
+	"Nerseada " = -1
 }
 
 leader_names = {
-	Coquerel
-	Esparron
-	Grimaldi
-	d'Abeille d'Adhémar d'Agoult d'Aiglun d'Aiguières d'Allemagne d'Amalric d'Audiffredi d'Entrecasteaux d'Espagnet d'Espinouze
-	"Fauque de Jonquières"
-	"Ferré de la Grange"
-	"Pene de la Borde"
-	"de Bagnols" "de Barberin" "de Barcillon" "de Baschi" "de Bermond" "de Bionneau" "de Brunet"
-	"de Cadenet" "de Cascaris-Castellet" "de Castaing" "de Castellane" "de Castillon" "de Cordes" "de Cormis" "de Crillon"
-	"de Fargis"
-	"de Gévaudan" "de Gassendi" "de Gombert" "de Gordes" "de Grignan" "de Grimaud" "de Guast"
-	"de Lauris" "de Libertat" "de Loménie"
-	"de Monteil" "de Montpezat"
-	"de Paule" "de Pena" "de Pontevès"
-	"de Raimondis" "de Revest" "de Riquetti"
-	"de Séguiran" "de Sabran" "de Sade" "de Saint Victoret" "de Simiane"
-	"de Valbelle"
-	"de la Pérusse"
-	"des Baux"
-	"des Isnards"
+	Abadutiker Punicus Ambon Abaraban Andobales Balkar Babpo Biurtetel Bosilkas Budar Caro Culcas Gargoris Indo Iscerbeles Kara Korbis Korribilo Mandonio Magavarico
+	Lagunas Orisos Otirgeter Nisunin Nereildun Tiresio Otigirteker Redukeno Sakarbik Sosintaucer Sosian Seihar Skarisker Sacarisker Tureno Turibas Unibelos Urcetices Uxentio Umarilo Talskubilos
 }
 
 ship_names = {
-	Achille Agréable Alcyon Alouette Altier Aquilon Ardente Assuré Avenant Aventurier
-	Baleine Bienvenu Bizarre Borée Brillant Bucentaure Bécasse
-	Caché Caille Capable Centaure Coche Conquérant Constant Content Croissant César
-	Dauphine Diamant Dieppoise Dromadaire Dur
-	Eclatant Eole Espérance
-	Fantasque Ferme Fidèle Fier Florissant Formidable Fort Foudroyant
-	Gaillard
-	Heureux Héros
-	Jason
-	Lion
-	Mignon Minerve
-	Océan Orphée
-	Parfait Phénix Poli Pompeux Portefaix Protecteur Provence Provençal Prudent Puissant
-	Redoutable Requin Réale
-	Sage Sagittaire Sardine Sceptre Seine Solide Souverain Suffisant Séduisant Sérieux
-	Terrible Tigre Tonnant Toulon Toulouse Trident Triomphant Triton Téméraire
-	Union
-	Vaillant Vigilant Volontaire
-	Zélé
-	"Aigle Volant"
-	"Branche d'Olivier"
-	"Cheval Marin"
-	"Commerce de Marseille" "Commerce de Montpellier"
-	"Comte de Provence"
-	"Royal Louis"
-	"Royal Thérèse"
-	"Saint Esprit"
-	"Saint Joseph"
-	"Saint Philippe"
+	
 }
 
 army_names = {
-	"Armée d'Orange"
-	"Armée de $PROVINCE$"
-	"Armée de Basse Provence"
-	"Armée de Haute Provence"
-	"Armée de Marseille"
-	"Armée de Provence-Forcalquier"
-	"Armée de la Durance"
-	"Armée des Alpes"
-	"Armée des Baux"
-	"Armée du Pays d'Arles"
-	"Armée du Rhône"
-	"Armée du Vivarais"
+
 }

@@ -11,7 +11,7 @@ set_key = { lhs = Infra_Capitol value = 1 }
 set_key = { lhs = Infra_Harbourage value = 3 }
 fort_14th = yes
 set_key = { lhs = Infra_Irrigation value = 2 }
-discovered_by = muslim
+discovered_by = FEZ discovered_by = GRA discovered_by = HAF
 discovered_by = western
 
 450.1.1 = { 
@@ -35,17 +35,17 @@ discovered_by = western
 	set_key = { lhs = starting_rural_pop_1300 value = 210.308 }
 	set_key = { lhs = starting_urban_pop_1300 value = 203.788 }
 	set_key = { lhs = starting_rural_pop_1350 value = 188.120 }
-	set_key = { lhs = starting_urban_pop_1350 value = 314.209 }
+	set_key = { lhs = starting_urban_pop_1350 value = 220.209 }
 	set_key = { lhs = starting_rural_pop_1400 value = 206.932 }
-	set_key = { lhs = starting_urban_pop_1400 value = 345.630 }
+	set_key = { lhs = starting_urban_pop_1400 value = 234.630 }
 	set_key = { lhs = starting_rural_pop_1450 value = 227.625 }
-	set_key = { lhs = starting_urban_pop_1450 value = 380.193 }
+	set_key = { lhs = starting_urban_pop_1450 value = 250.193 }
 	set_key = { lhs = starting_rural_pop_1500 value = 250.388 }
-	set_key = { lhs = starting_urban_pop_1500 value = 418.212 }
+	set_key = { lhs = starting_urban_pop_1500 value = 280.212 }
 	set_key = { lhs = starting_rural_pop_1550 value = 275.426 }
-	set_key = { lhs = starting_urban_pop_1550 value = 460.033 }
+	set_key = { lhs = starting_urban_pop_1550 value = 320.033 }
 	set_key = { lhs = starting_rural_pop_1600 value = 302.969 }
-	set_key = { lhs = starting_urban_pop_1600 value = 506.037 }
+	set_key = { lhs = starting_urban_pop_1600 value = 450.037 }
 	set_key = { lhs = starting_rural_pop_1650 value = 333.266 }
 	set_key = { lhs = starting_urban_pop_1650 value = 556.640 }
 	set_key = { lhs = starting_rural_pop_1700 value = 366.593 }

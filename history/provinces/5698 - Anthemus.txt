@@ -10,7 +10,7 @@ is_city = yes
 	}
 	set_province_flag = mined_goods
 	set_province_flag = gold
-discovered_by = muslim
+discovered_by = FEZ discovered_by = GRA discovered_by = HAF
 discovered_by = western
 
 }

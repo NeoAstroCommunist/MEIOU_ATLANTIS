@@ -2046,6 +2046,76 @@ Rights_RegionInit = {
 	}
 	#Atlantis
 	north_atlantis_region = {
+	    if = {
+			limit = {
+				owned_by = A17
+			}
+			set_key = { lhs = Prov_NOPow value = 25 }
+			set_key = { lhs = Prov_BUPow value = 5 }
+			set_key = { lhs = SF_Freedom value = 30 }
+			set_key = { lhs = SF_PrpResources value = 0.50 }
+			set_key = { lhs = NO_PrpResources value = 0.10 }
+			set_key = { lhs = BG_PrpResources value = 0.10 }
+			set_key = { lhs = CL_PrpResources value = 0.20 }
+			set_key = { lhs = BU_PrpResources value = 0.10 }
+
+			set_key = { lhs = RE_PrpBuilding value = 0.35 }
+			set_key = { lhs = NO_PrpBuilding value = 0.10 }
+			set_key = { lhs = BG_PrpBuilding value = 0.35 }
+			set_key = { lhs = CL_PrpBuilding value = 0.15 }
+			set_key = { lhs = BU_PrpBuilding value = 0.05 }
+			owner = {
+				if = {
+					limit = {
+						PREV = { is_capital = yes }
+					}
+					Rights_NOGov5Apply = yes
+					Rights_NOObl3Apply = yes
+					Rights_NOTen1Apply = yes
+					Rights_NOSer2Apply = yes
+					Rights_BGCom7Apply = yes
+					Rights_BGGov5Apply = yes
+					Rights_CLHie1Apply = yes
+					Rights_CLObl1Apply = yes
+					Rights_CLTax3Apply = yes
+					Rights_BUTax2Apply = yes
+					Rights_BUSer2Apply = yes
+				
+					Privilege_NOProcessing0Apply = yes
+					Privilege_NOGame0Apply = yes
+					Privilege_NOForestry0Apply = yes
+					Privilege_NOSeigneurial0Apply = yes
+					Privilege_NOTitles3Apply = yes
+					Privilege_NOAutonomy3Apply = yes
+					Privilege_NODiplomacy0Apply = yes
+					Privilege_NODynastic0Apply = yes
+					Privilege_NOHierarchy1Apply = yes
+					Privilege_NOTaxE3Apply = yes
+					Privilege_NOServiceE2Apply = yes
+				
+					Privilege_BUOffice1Apply = yes
+					Privilege_BUFarm1Apply = yes
+					Privilege_BUTenure0Apply = yes
+					Privilege_BUWages1Apply = yes
+					Privilege_BUHierarchy0Apply = yes
+					Privilege_BUHire0Apply = yes
+					Privilege_BUExams1Apply = yes
+					Privilege_BUOversight0Apply = yes
+					Privilege_BUEnlist0Apply = yes
+					Privilege_BUStructure1Apply = yes
+					Privilege_BUCourts0Apply = yes
+					Privilege_BUPolitics0Apply = yes
+					Privilege_BURotate0Apply = yes
+				
+					add_government_reform = Pol_Structure2
+					add_government_reform = Pol_Centralisation2
+					add_government_reform = Pol_Autonomy1
+					add_government_reform = Pol_Provincial1
+					add_government_reform = Pol_Military1
+				}
+			}
+		}
+		else = {
 		set_key = { lhs = Prov_NOPow value = 70 }
 		set_key = { lhs = Prov_BUPow value = 5 }
 		set_key = { lhs = SF_Freedom value = 85 }
@@ -2135,6 +2205,7 @@ Rights_RegionInit = {
 				Privilege_RaiseBGService = yes
 				Privilege_RaiseBGGuilds = yes
 			}
+		}
 		}
 	}
 	#
@@ -2954,7 +3025,7 @@ Rights_RegionInit = {
 				
 				if = {
 					limit = {
-						primary_culture = hiberno_norman
+						primary_culture = odomantian
 					}
 					Privilege_NOProcessing1Apply = yes
 					Privilege_NOGame1Apply = yes
@@ -4721,11 +4792,11 @@ Rights_RegionInit = {
 		set_key = { lhs = SF_Freedom value = 50 }
 		if = {
 			limit = {
-				religion = orthodox
+				religion = chalcedonism
 			}
 			if = {
 				limit = {
-					culture = albanian
+					culture = atlantoberber
 				}
 				set_key = { lhs = Prov_BUPow value = 35 }
 			}
@@ -4733,9 +4804,8 @@ Rights_RegionInit = {
 				limit = {
 					owner = {
 						OR = {
-							primary_culture = greek
-							primary_culture = turkish
-							primary_culture = pontic
+							primary_culture = cartagean
+							primary_culture = alyzeian
 						}
 					}
 				}
@@ -4759,8 +4829,8 @@ Rights_RegionInit = {
 				limit = {
 					owner = {
 						OR = {
-							tag = GEN
-							tag = VEN
+							tag = AT1
+							tag = AT2
 						}
 					}
 				}
@@ -4771,8 +4841,8 @@ Rights_RegionInit = {
 				limit = {
 					owner = {
 						OR = {
-							tag = EPI
-							tag = MOE
+							tag = AT3
+							tag = A12
 						}
 					}
 				}
@@ -4797,8 +4867,8 @@ Rights_RegionInit = {
 				limit = {
 					owner = {
 						OR = {
-							tag = GEN
-							tag = VEN
+							tag = AT1
+							tag = At3
 						}
 					}
 				}
@@ -4884,7 +4954,7 @@ Rights_RegionInit = {
 				}
 				else_if = {
 					limit = {
-						primary_culture = serbian
+						primary_culture = athamanean
 					}
 					Rights_NOGov2Apply = yes
 					Rights_NOObl1Apply = yes
@@ -4938,7 +5008,7 @@ Rights_RegionInit = {
 					
 					if = {
 						limit = {
-							tag = BYZ
+							tag = AT1
 						}
 						Rights_NOSer3Apply = yes
 						Rights_BUSer2Apply = yes
@@ -4977,7 +5047,7 @@ Rights_RegionInit = {
 					}
 					else_if = {
 						limit = {
-							tag = EPI
+							tag = A12
 						}
 						Rights_NOGov4Apply = yes
 						Rights_NOObl2Apply = yes
@@ -5557,12 +5627,6 @@ Rights_RegionInit = {
 		set_province_flag = Infra_Courthouse50
 		#set_province_flag = Infra_Garrison25
 		
-		if = {
-			limit = {
-				culture = greek
-			}
-			set_key = { lhs = Prov_BUPow value = 35 }
-		}
 		owner = {
 			if = {
 				limit = {
@@ -5620,7 +5684,7 @@ Rights_RegionInit = {
 				add_government_reform = Pol_Military1
 				if = {
 					limit = {
-						tag = SER
+						tag = A14
 					}
 					Privilege_NOServiceE3Apply = yes
 					add_government_reform = Pol_Structure2
@@ -9987,42 +10051,40 @@ Rights_RegionInit = {
 	}
 	#Atlantis
 	south_atlantis_region = {
-		set_key = { lhs = Prov_NOPow value = 80 }
 		set_key = { lhs = Prov_BUPow value = 30 }
 		set_key = { lhs = SF_Freedom value = 80 }
 		set_key = { lhs = SF_PrpResources value = 0.25 }
-		set_key = { lhs = NO_PrpResources value = 0.40 }
+		set_key = { lhs = NO_PrpResources value = 0.45 }
 		set_key = { lhs = BG_PrpResources value = 0.05 }
 		set_key = { lhs = CL_PrpResources value = 0.15 }
-		set_key = { lhs = BU_PrpResources value = 0.15 }
+		set_key = { lhs = BU_PrpResources value = 0.10 }
 
 		set_key = { lhs = RE_PrpBuilding value = 0.30 }
-		set_key = { lhs = NO_PrpBuilding value = 0.15 }
+		set_key = { lhs = NO_PrpBuilding value = 0.20 }
 		set_key = { lhs = BG_PrpBuilding value = 0.30 }
 		set_key = { lhs = CL_PrpBuilding value = 0.15 }
-		set_key = { lhs = BU_PrpBuilding value = 0.10 }
+		set_key = { lhs = BU_PrpBuilding value = 0.05 }
 		#Tax_EnableLand = yes
 		#Tax_EnableToll = yes
 		#Tax_EnableStateServiceDues = yes
 		#Tax_EnableServiceVolunteer = yes
 		set_province_flag = Infra_Capitol100
-		set_province_flag = Infra_Harbourage50
+		set_province_flag = Infra_Harbourage25
 		#set_province_flag = Infra_Amenities25
-		set_province_flag = Infra_Pathing50
+		set_province_flag = Infra_Pathing25
 		#set_province_flag = Infra_Irrigation25
 		set_province_flag = Infra_Courthouse50
-		set_province_flag = Infra_Garrison25
-		
+		#set_province_flag = Infra_Garrison25
 		owner = {
 			if = {
 				limit = {
 					PREV = { is_capital = yes }
 				}
-				Rights_NOGov3Apply = yes
+				Rights_NOGov2Apply = yes
 				Rights_NOObl2Apply = yes
 				Rights_NOTen2Apply = yes
 				Rights_NOSer2Apply = yes
-				Rights_BGCom4Apply = yes
+				Rights_BGCom5Apply = yes
 				Rights_BGGov3Apply = yes
 				Rights_CLHie2Apply = yes
 				Rights_CLObl2Apply = yes
@@ -10030,14 +10092,15 @@ Rights_RegionInit = {
 				Rights_BUTax2Apply = yes
 				Rights_BUDir1Apply = yes
 				Rights_BUInd1Apply = yes
-
+				Rights_BUSer2Apply = yes
+					
 				Privilege_NOProcessing1Apply = yes
 				Privilege_NOGame1Apply = yes
 				Privilege_NOForestry1Apply = yes
 				Privilege_NOSeigneurial1Apply = yes
 				Privilege_NOTitles4Apply = yes
 				Privilege_NOAutonomy4Apply = yes
-				Privilege_NODiplomacy2Apply = yes
+				Privilege_NODiplomacy1Apply = yes
 				Privilege_NODynastic1Apply = yes
 				Privilege_NOHierarchy2Apply = yes
 				Privilege_NOTaxE4Apply = yes
@@ -10052,58 +10115,54 @@ Rights_RegionInit = {
 				Privilege_BUExams1Apply = yes
 				Privilege_BUOversight0Apply = yes
 				Privilege_BUEnlist1Apply = yes
-				Privilege_BUStructure2Apply = yes
+				Privilege_BUStructure1Apply = yes
 				Privilege_BUCourts1Apply = yes
 				Privilege_BUPolitics0Apply = yes
 				Privilege_BURotate0Apply = yes
 				
 				add_government_reform = Pol_Structure4
-				add_government_reform = Pol_Centralisation3
+				add_government_reform = Pol_Centralisation2
 				add_government_reform = Pol_Autonomy1
 				add_government_reform = Pol_Provincial2
 				add_government_reform = Pol_Military2
-
-				Privilege_RaiseBGTax = yes
 			}
 		}
 	}
 	south_atlantis_islands_region = {
-		set_key = { lhs = Prov_NOPow value = 80 }
-		set_key = { lhs = Prov_BUPow value = 30 }
-		set_key = { lhs = SF_Freedom value = 80 }
+		set_key = { lhs = Prov_BUPow value = 10 }
+		set_key = { lhs = SF_Freedom value = 90 }
 		set_key = { lhs = SF_PrpResources value = 0.25 }
-		set_key = { lhs = NO_PrpResources value = 0.40 }
+		set_key = { lhs = NO_PrpResources value = 0.45 }
 		set_key = { lhs = BG_PrpResources value = 0.05 }
 		set_key = { lhs = CL_PrpResources value = 0.15 }
-		set_key = { lhs = BU_PrpResources value = 0.15 }
+		set_key = { lhs = BU_PrpResources value = 0.10 }
 
 		set_key = { lhs = RE_PrpBuilding value = 0.30 }
-		set_key = { lhs = NO_PrpBuilding value = 0.15 }
+		set_key = { lhs = NO_PrpBuilding value = 0.20 }
 		set_key = { lhs = BG_PrpBuilding value = 0.30 }
 		set_key = { lhs = CL_PrpBuilding value = 0.15 }
-		set_key = { lhs = BU_PrpBuilding value = 0.10 }
+		set_key = { lhs = BU_PrpBuilding value = 0.05 }
 		#Tax_EnableLand = yes
 		#Tax_EnableToll = yes
 		#Tax_EnableStateServiceDues = yes
 		#Tax_EnableServiceVolunteer = yes
 		set_province_flag = Infra_Capitol100
-		set_province_flag = Infra_Harbourage50
+		set_province_flag = Infra_Harbourage25
 		#set_province_flag = Infra_Amenities25
-		set_province_flag = Infra_Pathing50
+		set_province_flag = Infra_Pathing25
 		#set_province_flag = Infra_Irrigation25
 		set_province_flag = Infra_Courthouse50
-		set_province_flag = Infra_Garrison25
-		
+		#set_province_flag = Infra_Garrison25
 		owner = {
 			if = {
 				limit = {
 					PREV = { is_capital = yes }
 				}
-				Rights_NOGov3Apply = yes
+				Rights_NOGov2Apply = yes
 				Rights_NOObl2Apply = yes
 				Rights_NOTen2Apply = yes
 				Rights_NOSer2Apply = yes
-				Rights_BGCom4Apply = yes
+				Rights_BGCom5Apply = yes
 				Rights_BGGov3Apply = yes
 				Rights_CLHie2Apply = yes
 				Rights_CLObl2Apply = yes
@@ -10111,18 +10170,19 @@ Rights_RegionInit = {
 				Rights_BUTax2Apply = yes
 				Rights_BUDir1Apply = yes
 				Rights_BUInd1Apply = yes
-
+				Rights_BUSer2Apply = yes
+					
 				Privilege_NOProcessing1Apply = yes
 				Privilege_NOGame1Apply = yes
 				Privilege_NOForestry1Apply = yes
 				Privilege_NOSeigneurial1Apply = yes
-				Privilege_NOTitles4Apply = yes
-				Privilege_NOAutonomy4Apply = yes
-				Privilege_NODiplomacy2Apply = yes
+				Privilege_NOTitles3Apply = yes
+				Privilege_NOAutonomy3Apply = yes
+				Privilege_NODiplomacy1Apply = yes
 				Privilege_NODynastic1Apply = yes
 				Privilege_NOHierarchy2Apply = yes
-				Privilege_NOTaxE4Apply = yes
-				Privilege_NOServiceE4Apply = yes
+				Privilege_NOTaxE3Apply = yes
+				Privilege_NOServiceE3Apply = yes
 				
 				Privilege_BUOffice1Apply = yes
 				Privilege_BUFarm2Apply = yes
@@ -10133,18 +10193,16 @@ Rights_RegionInit = {
 				Privilege_BUExams1Apply = yes
 				Privilege_BUOversight0Apply = yes
 				Privilege_BUEnlist1Apply = yes
-				Privilege_BUStructure2Apply = yes
+				Privilege_BUStructure1Apply = yes
 				Privilege_BUCourts1Apply = yes
 				Privilege_BUPolitics0Apply = yes
 				Privilege_BURotate0Apply = yes
 				
-				add_government_reform = Pol_Structure4
-				add_government_reform = Pol_Centralisation3
+				add_government_reform = Pol_Structure2
+				add_government_reform = Pol_Centralisation2
 				add_government_reform = Pol_Autonomy1
 				add_government_reform = Pol_Provincial2
 				add_government_reform = Pol_Military2
-
-				Privilege_RaiseBGTax = yes
 			}
 		}
 	}
@@ -10676,7 +10734,6 @@ Rights_RegionInit = {
 				add_government_reform = Pol_Military2
 			}
 		}
-
 	}
 
 	east_maghreb_region = {

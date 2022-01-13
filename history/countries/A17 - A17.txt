@@ -1,8 +1,12 @@
 
-government = monarchy
-add_government_reform = Pol_Succession1 #feel free to revise
-add_government_reform = Pol_Assembly1
-add_government_reform = Pol_Nobility1
+government = republic
+add_government_reform = Pol_Mandate2
+add_government_reform = Pol_Stylings1
+add_government_reform = Pol_ExtraPowers1
+add_government_reform = Pol_Assembly3
+add_government_reform = Pol_TermOfOffice3
+add_government_reform = Pol_Structure1
+add_government_reform = Pol_Nobility4
 government_rank = 1
 mercantilism = 0.0
 primary_culture = romanemerita
@@ -20,4 +24,14 @@ historical_rival = A39
 	#set_key = { lhs = centralization_decentralization value = -1 }
 	add_absolutism = -100
 	add_absolutism = 20
+}
+
+1356.1.1 = {
+	monarch = {
+		name = "Spartacus Council"
+		ADM = 0
+		DIP = 0
+		MIL = 6
+		regent = yes
+	}
 }

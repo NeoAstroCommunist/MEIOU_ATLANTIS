@@ -1,6 +1,6 @@
 owner = AT1 add_core = AT1
 controller = AT1
-culture = ausonian
+culture = siculian
 trade_goods = fish
 religion = chalcedonism
 is_city = yes
@@ -9,7 +9,7 @@ set_key = { lhs = Infra_Harbourage value = 1
 450.1.1 = {
         set_province_flag = TN_Island
 	set_province_flag = sugar
-discovered_by = muslim
+discovered_by = FEZ discovered_by = GRA discovered_by = HAF
 discovered_by = western
 
 }

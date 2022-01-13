@@ -42,92 +42,64 @@ historical_units = { #Celtic group
 	western_breech_infantry
 }
 
-leader_names = {
-	Annesley Alexander
-	Butler "de Burgh" Burke Boyle Browne Bourke Barry Balfour Blayney
-	Cholmondeley Chichester Coote Caulfeild
-	Dillon Dongan Duff Digby
-	FitzGerald FitzWilliam FitzOliver Feilding FitzMaurice FitzPatrick Fortescue
-	Guelph Gardiner Grimston
-	Hamilton Hare Hervey
-	Keating Keane Kavanagh
-	Lambart
-	Martyn McCarthy Moore Meade Macartney
-	Nugent
-	O'Neill O'Brien O'Connell O'Hara O'Malley O'Donnell O'Carroll
-	Parsons Pakenham Plunkett Preston
-	Ridgeway
-	Sterne
-	Touchet Taaffe
-	Vaughan Villiers
-	Wentworth Wesley
+monarch_names = {
+	"Indo " = 1
+	"Lagunas " = 1
+	"Tureno " = 1
+	"Unibelos " = 1
+	"Talskubilos " = 1
+	"Seihar " = 1
+	"Skarisker " = 1
+	"Sacarisker " = 1
+	"Turibas " = 1
+	"Urcetices " = 1
+	"Uxentio " = 1
+	"Umarilo " = 1
+	"Talskubilos " = 1
+	"Abadutiker " = 1
+	"Punicus " = 1
+	"Ambon " = 1
+	"Abaraban " = 1
+	"Andobales " = 1
+	"Balkar " = 1
+	"Babpo " = 1
+	"Biurtetel " = 1
+	"Bosilkas " = 1
+	"Budar " = 1
+	"Caro " = 1
+	"Culcas " = 1
+	"Gargoris " = 1
+	"Iscerbeles " = 1
+	"Kara " = 1
+	"Korbis " = 1
+	"Korribilo " = 1
+	"Mandonio " = 1
+	"Magavarico " = 1
+	
+	"Ana " = -1
+	"Ama " = -1
+	"Aretaunin " = -1
+	"Aunia " = -1
+	"Canine " = -1
+	"Daleninar " = -1
+	"Similce " = -1
+	"Sicounin " = -1
+	"Thurinninar " = -1
+	"Secetaunin " = -1
+	"Teite " = -1
+	"Tettingica " = -1
+	"Nerseada " = -1
 }
 
-monarch_names = {
-	"Turlough #2" = 80
-	"Conchobhar #2" = 60
-	"Tadhg #2" = 40
-	"Donnchad #7" = 20
-	"Muireadhach #1" = 20
-	"Diarmaid #3" = 1
-	"Mathghamhain #0" = 20
-	"Ádhamh #0" = 1
-	"Ailill #0" = 1
-	"Brígh #0" = 1
-	"Brónach #0" = 1
-	"Cadwgwan #0" = 1
-	"Caoimhín #0" = 1
-	"Cinnéidigh #0" = 1
-	"Deaglán #0" = 1
-	"Dougal #0" = 1
-	"Fionnlagh #0" = 1
-	"Garbhán #0" = 1
-	"Lachtna #0" = 1
-	"Lorccán #0" = 1
-	"Mainchín #0" = 1
-	"Mathúin #0" = 1
-	"Meallán #0" = 1
-	"Naomhán #0" = 1
-	"Niall #0" = 1
-	"Odhrán #0" = 1
-	"Pádraig #0" = 1
-	"Quinn #0" = 1
-	"Riain #0" = 1
-	"Ríoghnán #0" = 1
-	"Rórdan #0" = 1
-	"Ruaidhrí #0" = 1
-	"Ruarc #0" = 1
-	"Séaghdhá #0" = 1
-	"Seanán #0" = 1
-	"Sechnall #0" = 1
-	"Tighearnach #0" = 1
-	"Tuathal #0" = 1
-	"Uilliam #0" = 1
-	"Uinseann #0" = 1
-	
-	"Aifric #0" = -1
-	"Fionola #0" = -1
-	"Raghnailt #0" = -1
-	"Saraid #0" = -1
-	"Órfhlaith #0" = -1
-	"Fedelma #0" = -1
-	"Neassa #0" = -1
-	"Rosheen #0" = -1
-	"Siofra #0" = -1
-	"Ceridwen #0" = -1
-	"Elain #0" = -1
-	"Gwenyth #0" = -1
-	"Megan #0" = -1
+leader_names = {
+	Abadutiker Punicus Ambon Abaraban Andobales Balkar Babpo Biurtetel Bosilkas Budar Caro Culcas Gargoris Indo Iscerbeles Kara Korbis Korribilo Mandonio Magavarico
+	Lagunas Orisos Otirgeter Nisunin Nereildun Tiresio Otigirteker Redukeno Sakarbik Sosintaucer Sosian Seihar Skarisker Sacarisker Tureno Turibas Unibelos Urcetices Uxentio Umarilo Talskubilos
 }
 
 ship_names = {
-	Aoife
-	Ciara Connacht
-	Eithne Emer
-	Leinster
-	Munster
-	Niamh
-	Orla
-	Roisin
-	Ulster
+	
+}
+
+army_names = {
+
 }
