@@ -1,5 +1,5 @@
-owner = A15 add_core = A15
-controller = A15
+owner = A14 add_core = A14
+controller = A14
 culture = bassanian
 trade_goods = livestock
 religion = chalcedonism

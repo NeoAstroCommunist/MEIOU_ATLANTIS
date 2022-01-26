@@ -1,5 +1,5 @@
-owner = A23 add_core = A23
-controller = A23
+owner = A39 add_core = A39 add_core = A23
+controller = A39
 culture = romancalydnian
 trade_goods = indigo
 religion = catholic

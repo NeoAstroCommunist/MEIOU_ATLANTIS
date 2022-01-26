@@ -2,7 +2,7 @@ owner = A27 add_core = A27
 controller = A27
 culture = odomantian
 trade_goods = fish
-religion = arianism
+religion = gnostic
 is_city = yes
 set_key = { lhs = Infra_Harbourage value = 1
 }

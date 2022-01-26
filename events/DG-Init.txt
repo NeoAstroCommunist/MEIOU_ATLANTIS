@@ -19,8 +19,9 @@ country_event = {
 				}
 				add_permanent_province_modifier = { name = DG_RelGrp duration = -1 desc = DG_RelGrp_tooltip hidden = no }
 				#add_permanent_province_modifier = { name = DG_RelInf duration = -1 desc = DG_RelInf_tooltip hidden = no }
+				MN_CleanStartup = yes
 				MN_StartUpProv = {
-					rural0 = 1 urban0 = 1 notables0 = 1
+									rural0 = 1 urban0 = 1 notables0 = 1
 				}
 				trigger_switch = {
 					on_trigger = religion_group
@@ -31,23 +32,23 @@ country_event = {
 							if = {
 								limit = { OR = { province_id = 31 province_id = 32 } }
 								MN_StartUpProv = {
-									rural0 = 0.70 urban0 = 0.85 notables0 = 0.99
-									religion1 = 67 rural1 = 0.20 urban1 = 0.10 notables1 = 0.01
+													rural0 = 0.70 urban0 = 0.85 notables0 = 0.99
+									religion1 = 77 rural1 = 0.20 urban1 = 0.10 notables1 = 0.01
 									religion2 = 9  rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
 								}
 							}
 							else_if = {
 								limit = { OR = { province_id = 1261 province_id = 1262 } }
 								MN_StartUpProv = {
-									rural0 = 0.70 urban0 = 0.85 notables0 = 0.99
-									religion1 = 67 rural1 = 0.20 urban1 = 0.10 notables1 = 0.01
+													rural0 = 0.70 urban0 = 0.85 notables0 = 0.99
+									religion1 = 77 rural1 = 0.20 urban1 = 0.10 notables1 = 0.01
 									religion2 = 1  rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
 								}
 							}
 							else = {
 								MN_StartUpProv = {
-									rural0 = 0.80 urban0 = 0.90 notables0 = 0.99
-									religion1 = 67 rural1 = 0.20 urban1 = 0.10 notables1 = 0.01
+													rural0 = 0.80 urban0 = 0.90 notables0 = 0.99
+									religion1 = 77 rural1 = 0.20 urban1 = 0.10 notables1 = 0.01
 								}
 							}
 						}
@@ -59,18 +60,18 @@ country_event = {
 								if = {
 									limit = { religion = catholic }
 									MN_StartUpProv = {
-										rural0 = 0.59 urban0 = 0.75 notables0 = 0.95
+														rural0 = 0.59 urban0 = 0.75 notables0 = 0.95
 										religion1 = 9  rural1 = 0.25 urban1 = 0.15 notables1 = 0.00
-										religion2 = 17 rural2 = 0.15 urban2 = 0.05 notables2 = 0.00
-										religion3 = 42 rural3 = 0.01 urban3 = 0.05 notables3 = 0.05
+										religion2 = 15 rural2 = 0.15 urban2 = 0.05 notables2 = 0.00
+										religion3 = 38 rural3 = 0.01 urban3 = 0.05 notables3 = 0.05
 									}
 								}
 								else = {
 									MN_StartUpProv = {
-										rural0 = 0.44 urban0 = 0.45 notables0 = 0.70
+														rural0 = 0.44 urban0 = 0.45 notables0 = 0.70
 										religion1 = 1  rural1 = 0.35 urban1 = 0.40 notables1 = 0.25
 										religion2 = 9  rural2 = 0.20 urban2 = 0.10 notables2 = 0.00
-										religion3 = 42 rural3 = 0.01 urban3 = 0.05 notables3 = 0.05
+										religion3 = 38 rural3 = 0.01 urban3 = 0.05 notables3 = 0.05
 									}
 								}
 							}
@@ -79,35 +80,35 @@ country_event = {
 								if = {
 									limit = { religion = orthodox }
 									MN_StartUpProv = {
-										rural0 = 0.59 urban0 = 0.75 notables0 = 0.95
+														rural0 = 0.59 urban0 = 0.75 notables0 = 0.95
 										religion1 = 1  rural1 = 0.25 urban1 = 0.15 notables1 = 0.00
-										religion2 = 17 rural2 = 0.15 urban2 = 0.05 notables2 = 0.00
-										religion3 = 42 rural3 = 0.01 urban3 = 0.05 notables3 = 0.05
+										religion2 = 15 rural2 = 0.15 urban2 = 0.05 notables2 = 0.00
+										religion3 = 38 rural3 = 0.01 urban3 = 0.05 notables3 = 0.05
 									}
 								}
 								else = {
 									MN_StartUpProv = {
-										rural0 = 0.44 urban0 = 0.45 notables0 = 0.70
+														rural0 = 0.44 urban0 = 0.45 notables0 = 0.70
 										religion1 = 9  rural1 = 0.35 urban1 = 0.40 notables1 = 0.25
 										religion2 = 1  rural2 = 0.20 urban2 = 0.10 notables2 = 0.00
-										religion3 = 42 rural3 = 0.01 urban3 = 0.05 notables3 = 0.05
+										religion3 = 38 rural3 = 0.01 urban3 = 0.05 notables3 = 0.05
 									}
 								}
 							}
 							else_if = {
 								limit = { culture = albanian }
 								MN_StartUpProv = {
-									rural0 = 0.84 urban0 = 0.90 notables0 = 0.95
+													rural0 = 0.84 urban0 = 0.90 notables0 = 0.95
 									religion1 = 1  rural1 = 0.15 urban1 = 0.05 notables1 = 0.00
-									religion2 = 42 rural2 = 0.01 urban2 = 0.05 notables2 = 0.05
+									religion2 = 38 rural2 = 0.01 urban2 = 0.05 notables2 = 0.05
 								}
 							}
 							else_if = {
 								limit = { culture = bulgarian }
 								MN_StartUpProv = {
-									rural0 = 0.85 urban0 = 0.93 notables0 = 0.95
-									religion1 = 17 rural1 = 0.15 urban1 = 0.05 notables1 = 0.00
-									religion2 = 42 rural2 = 0.00 urban2 = 0.02 notables2 = 0.05
+													rural0 = 0.85 urban0 = 0.93 notables0 = 0.95
+									religion1 = 15 rural1 = 0.15 urban1 = 0.05 notables1 = 0.00
+									religion2 = 38 rural2 = 0.00 urban2 = 0.02 notables2 = 0.05
 								}
 							}
 							else_if = {
@@ -115,34 +116,34 @@ country_event = {
 								if = {
 									limit = { religion = catholic }
 									MN_StartUpProv = {
-										rural0 = 0.53 urban0 = 0.55 notables0 = 0.95
+														rural0 = 0.53 urban0 = 0.55 notables0 = 0.95
 										religion1 = 9  rural1 = 0.45 urban1 = 0.35 notables1 = 0.00
-										religion2 = 42 rural2 = 0.02 urban2 = 0.10 notables2 = 0.05
+										religion2 = 38 rural2 = 0.02 urban2 = 0.10 notables2 = 0.05
 									}
 								}
 								else = {
 									MN_StartUpProv = {
-										rural0 = 0.73 urban0 = 0.45 notables0 = 0.35
+														rural0 = 0.73 urban0 = 0.45 notables0 = 0.35
 										religion1 = 1  rural1 = 0.25 urban1 = 0.45 notables1 = 0.60
-										religion2 = 42 rural2 = 0.02 urban2 = 0.10 notables2 = 0.05
+										religion2 = 38 rural2 = 0.02 urban2 = 0.10 notables2 = 0.05
 									}
 								}
 							}
 							else_if = {
 								limit = { culture = szaszok }
 								MN_StartUpProv = {
-									rural0 = 0.85 urban0 = 0.95 notables0 = 0.94
+													rural0 = 0.85 urban0 = 0.95 notables0 = 0.94
 									religion1 = 9  rural1 = 0.15 urban1 = 0.05 notables1 = 0.01
-									religion2 = 42 rural2 = 0.02 urban2 = 0.10 notables2 = 0.05
+									religion2 = 38 rural2 = 0.02 urban2 = 0.10 notables2 = 0.05
 								}
 							}
 							else_if = {
 								limit = { area = thrace_area }
 								MN_StartUpProv = {
-									rural0 = 0.85 urban0 = 0.92 notables0 = 0.94
-									religion1 = 22 rural1 = 0.10 urban1 = 0.05 notables1 = 0.01
-									religion2 = 17 rural2 = 0.05 urban2 = 0.01 notables2 = 0.00
-									religion3 = 42 rural3 = 0.00 urban3 = 0.02 notables3 = 0.05
+													rural0 = 0.85 urban0 = 0.92 notables0 = 0.94
+									religion1 = 18 rural1 = 0.10 urban1 = 0.05 notables1 = 0.01
+									religion2 = 15 rural2 = 0.05 urban2 = 0.01 notables2 = 0.00
+									religion3 = 38 rural3 = 0.00 urban3 = 0.02 notables3 = 0.05
 								}
 							}
 							else_if = {
@@ -150,30 +151,30 @@ country_event = {
 								if = {
 									limit = { any_neighbor_province = { culture = bulgarian } }
 									MN_StartUpProv = {
-										rural0 = 0.90 urban0 = 0.93 notables0 = 0.94
-										religion1 = 17 rural1 = 0.10 urban1 = 0.05 notables1 = 0.01
-										religion2 = 42 rural2 = 0.00 urban2 = 0.02 notables2 = 0.05
+														rural0 = 0.90 urban0 = 0.93 notables0 = 0.94
+										religion1 = 15 rural1 = 0.10 urban1 = 0.05 notables1 = 0.01
+										religion2 = 38 rural2 = 0.00 urban2 = 0.02 notables2 = 0.05
 									}
 								}
 							}
 							else_if = {
 								limit = { OR = { culture = vlach culture = moldovian culture = tartar } }
 								MN_StartUpProv = {
-									rural0 = 0.97 urban0 = 0.85 notables0 = 0.95
-									religion1 = 42 rural1 = 0.03 urban1 = 0.15 notables1 = 0.05
+													rural0 = 0.97 urban0 = 0.85 notables0 = 0.95
+									religion1 = 38 rural1 = 0.03 urban1 = 0.15 notables1 = 0.05
 								}
 							}
 							else_if = {
 								limit = { OR = { culture = hungarian culture = slovak culture = ruthenian } }
 								MN_StartUpProv = {
-									rural0 = 0.98 urban0 = 0.90 notables0 = 0.95
-									religion1 = 42 rural1 = 0.02 urban1 = 0.10 notables1 = 0.05
+													rural0 = 0.98 urban0 = 0.90 notables0 = 0.95
+									religion1 = 38 rural1 = 0.02 urban1 = 0.10 notables1 = 0.05
 								}
 							}
 							else = {
 								MN_StartUpProv = {
-									rural0 = 1.00 urban0 = 0.98 notables0 = 0.95
-									religion1 = 42 rural1 = 0.00 urban1 = 0.02 notables1 = 0.05
+													rural0 = 1.00 urban0 = 0.98 notables0 = 0.95
+									religion1 = 38 rural1 = 0.00 urban1 = 0.02 notables1 = 0.05
 								}
 							}
 						}
@@ -181,18 +182,18 @@ country_event = {
 						if = {
 							limit = { owner = { has_country_flag = teu_crusader } }
 							MN_StartUpProv = {
-								rural0 = 0.54 urban0 = 0.80 notables0 = 0.95
-								religion1 = 52 rural1 = 0.45 urban1 = 0.15 notables1 = 0.00
-								religion2 = 42 rural2 = 0.01 urban2 = 0.05 notables2 = 0.05
+												rural0 = 0.54 urban0 = 0.80 notables0 = 0.95
+								religion1 = 59 rural1 = 0.45 urban1 = 0.15 notables1 = 0.00
+								religion2 = 38 rural2 = 0.01 urban2 = 0.05 notables2 = 0.05
 							}
 						}
 						else_if = {
 							limit = { owner = { has_country_flag = lvo_crusader } }
 							MN_StartUpProv = {
-								rural0 = 0.49 urban0 = 0.60 notables0 = 0.95
-								religion1 = 52 rural1 = 0.35 urban1 = 0.25 notables1 = 0.00
+												rural0 = 0.49 urban0 = 0.60 notables0 = 0.95
+								religion1 = 59 rural1 = 0.35 urban1 = 0.25 notables1 = 0.00
 								religion2 = 9  rural2 = 0.15 urban2 = 0.10 notables2 = 0.00
-								religion3 = 42 rural3 = 0.01 urban3 = 0.05 notables3 = 0.05
+								religion3 = 38 rural3 = 0.01 urban3 = 0.05 notables3 = 0.05
 							}
 						}
 						else_if = {
@@ -200,27 +201,27 @@ country_event = {
 							if = {
 								limit = { region = bohemia_region }
 								MN_StartUpProv = {
-									rural0 = 0.98 urban0 = 0.85 notables0 = 0.85
-									religion1 = 42 rural1 = 0.02 urban1 = 0.15 notables1 = 0.15
+													rural0 = 0.98 urban0 = 0.85 notables0 = 0.85
+									religion1 = 38 rural1 = 0.02 urban1 = 0.15 notables1 = 0.15
 								}
 							}
 							else_if = {
-								limit = { religion = catholic any_neighbor_province = { religion = baltic_pagan_reformed } }
+								limit = { religion = catholic any_neighbor_province = { religion = baltic_pagan } }
 								if = {
 									limit = { OR = { area = mazovia_area area = podlasie_area area = sandomierskie_area } }
 									MN_StartUpProv = {
-										rural0 = 0.56 urban0 = 0.65 notables0 = 0.90
-										religion1 = 52 rural1 = 0.30 urban1 = 0.09 notables1 = 0.00
+														rural0 = 0.56 urban0 = 0.65 notables0 = 0.90
+										religion1 = 59 rural1 = 0.30 urban1 = 0.09 notables1 = 0.00
 										religion2 = 9  rural2 = 0.10 urban2 = 0.06 notables2 = 0.00
-										religion3 = 42 rural3 = 0.04 urban3 = 0.20 notables3 = 0.10
+										religion3 = 38 rural3 = 0.04 urban3 = 0.20 notables3 = 0.10
 									}
 								}
 								else = {
 									MN_StartUpProv = {
-										rural0 = 0.67 urban0 = 0.70 notables0 = 0.90
-										religion1 = 52 rural1 = 0.30 urban1 = 0.09 notables1 = 0.00
+														rural0 = 0.67 urban0 = 0.70 notables0 = 0.90
+										religion1 = 59 rural1 = 0.30 urban1 = 0.09 notables1 = 0.00
 										religion2 = 9  rural2 = 0.10 urban2 = 0.06 notables2 = 0.00
-										religion3 = 42 rural3 = 0.03 urban3 = 0.15 notables3 = 0.10
+										religion3 = 38 rural3 = 0.03 urban3 = 0.15 notables3 = 0.10
 									}
 								}
 							}
@@ -229,16 +230,16 @@ country_event = {
 								if = {
 									limit = { OR = { area = mazovia_area area = podlasie_area area = sandomierskie_area } }
 									MN_StartUpProv = {
-										rural0 = 0.76 urban0 = 0.75 notables0 = 0.90
+														rural0 = 0.76 urban0 = 0.75 notables0 = 0.90
 										religion1 = 9  rural1 = 0.20 urban1 = 0.05 notables1 = 0.00
-										religion2 = 42 rural2 = 0.04 urban2 = 0.20 notables2 = 0.10
+										religion2 = 38 rural2 = 0.04 urban2 = 0.20 notables2 = 0.10
 									}
 								}
 								else = {
 									MN_StartUpProv = {
-										rural0 = 0.77 urban0 = 0.80 notables0 = 0.90
+														rural0 = 0.77 urban0 = 0.80 notables0 = 0.90
 										religion1 = 9  rural1 = 0.20 urban1 = 0.05 notables1 = 0.00
-										religion2 = 42 rural2 = 0.03 urban2 = 0.15 notables2 = 0.10
+										religion2 = 38 rural2 = 0.03 urban2 = 0.15 notables2 = 0.10
 									}
 								}
 							}
@@ -247,15 +248,15 @@ country_event = {
 								if = {
 									limit = { region = polonia_major_region }
 									MN_StartUpProv = {
-										rural0 = 0.98 urban0 = 0.90 notables0 = 0.90
-										religion1 = 42 rural1 = 0.02 urban1 = 0.10 notables1 = 0.10
+														rural0 = 0.98 urban0 = 0.90 notables0 = 0.90
+										religion1 = 38 rural1 = 0.02 urban1 = 0.10 notables1 = 0.10
 									}
 								}
 								else_if = {
 									limit = { OR = { area = mazovia_area area = podlasie_area area = sandomierskie_area } }
 									MN_StartUpProv = {
-										rural0 = 0.96 urban0 = 0.80 notables0 = 0.80
-										religion1 = 42 rural1 = 0.04 urban1 = 0.20 notables1 = 0.20
+														rural0 = 0.96 urban0 = 0.80 notables0 = 0.80
+										religion1 = 38 rural1 = 0.04 urban1 = 0.20 notables1 = 0.20
 									}
 								}
 							}
@@ -264,23 +265,23 @@ country_event = {
 								if = {
 									limit = { OR = { area = mazovia_area area = podlasie_area area = sandomierskie_area } }
 									MN_StartUpProv = {
-										rural0 = 0.61 urban0 = 0.15 notables0 = 0.15
+														rural0 = 0.61 urban0 = 0.15 notables0 = 0.15
 										religion1 = 1  rural1 = 0.35 urban1 = 0.65 notables1 = 0.75
-										religion2 = 42 rural2 = 0.04 urban2 = 0.20 notables2 = 0.10
+										religion2 = 38 rural2 = 0.04 urban2 = 0.20 notables2 = 0.10
 									}
 								}
 								else = {
 									MN_StartUpProv = {
-										rural0 = 0.62 urban0 = 0.20 notables0 = 0.15
+														rural0 = 0.62 urban0 = 0.20 notables0 = 0.15
 										religion1 = 1  rural1 = 0.35 urban1 = 0.65 notables1 = 0.75
-										religion2 = 42 rural2 = 0.03 urban2 = 0.15 notables2 = 0.10
+										religion2 = 38 rural2 = 0.03 urban2 = 0.15 notables2 = 0.10
 									}
 								}
 							}
 							else = {
 								MN_StartUpProv = {
-									rural0 = 0.98 urban0 = 0.90 notables0 = 0.90
-									religion1 = 42 rural1 = 0.02 urban1 = 0.10 notables1 = 0.10
+													rural0 = 0.98 urban0 = 0.90 notables0 = 0.90
+									religion1 = 38 rural1 = 0.02 urban1 = 0.10 notables1 = 0.10
 								}
 							}
 						}
@@ -290,46 +291,46 @@ country_event = {
 							if = {
 								limit = { religion = catholic }
 								MN_StartUpProv = {
-									rural0 = 0.58 urban0 = 0.05 notables0 = 0.00
-									religion1 = 52 rural1 = 0.30 urban1 = 0.15 notables1 = 0.00
+													rural0 = 0.58 urban0 = 0.05 notables0 = 0.00
+									religion1 = 59 rural1 = 0.30 urban1 = 0.15 notables1 = 0.00
 									religion2 = 1  rural2 = 0.10 urban2 = 0.70 notables2 = 0.90
-									religion3 = 42 rural3 = 0.02 urban3 = 0.10 notables3 = 0.10
+									religion3 = 38 rural3 = 0.02 urban3 = 0.10 notables3 = 0.10
 								}
 							}
 							else_if = {
 								limit = { religion = orthodox }
 								if = {
-									limit = { owner = { religion = baltic_pagan_reformed } }
+									limit = { owner = { religion = baltic_pagan } }
 									MN_StartUpProv = {
-										rural0 = 0.48 urban0 = 0.65 notables0 = 0.15
-										religion1 = 52 rural1 = 0.35 urban1 = 0.05 notables1 = 0.70
-										religion2 = 1 rural2 = 0.10 urban2 = 0.25 notables2 = 0.05
-										religion3 = 42 rural3 = 0.02 urban3 = 0.10 notables3 = 0.10
+														rural0 = 0.48 urban0 = 0.65 notables0 = 0.15
+										religion1 = 59 rural1 = 0.35 urban1 = 0.05 notables1 = 0.70
+										religion2 = 1  rural2 = 0.10 urban2 = 0.25 notables2 = 0.05
+										religion3 = 38 rural3 = 0.02 urban3 = 0.10 notables3 = 0.10
 									}
 								}
 								else_if = {
 									limit = { any_neighbor_province = { religion = catholic } }
 									MN_StartUpProv = {
-										rural0 = 0.74 urban0 = 0.20 notables0 = 0.25
+														rural0 = 0.74 urban0 = 0.20 notables0 = 0.25
 										religion1 = 1  rural1 = 0.25 urban1 = 0.75 notables1 = 0.65
-										religion2 = 42 rural2 = 0.01 urban2 = 0.05 notables2 = 0.10
+										religion2 = 38 rural2 = 0.01 urban2 = 0.05 notables2 = 0.10
 									}
 								}
 								else_if = {
-									limit = { OR = { province_id = 306 province_id = 1292 } }
+									limit = { OR = { province_id = 306 province_id = 1292 province_id = 1291 } }
 									MN_StartUpProv = {
-										rural0 = 0.94 urban0 = 0.80 notables0 = 0.90
-										religion1 = 67 rural1 = 0.15 urban1 = 0.10 notables1 = 0.00
-										religion2 = 22 rural2 = 0.05 urban2 = 0.05 notables2 = 0.00
-										religion3 = 42 rural3 = 0.01 urban3 = 0.05 notables3 = 0.10
+														rural0 = 0.94 urban0 = 0.80 notables0 = 0.90
+										religion1 = 72 rural1 = 0.15 urban1 = 0.10 notables1 = 0.00
+										religion2 = 18 rural2 = 0.05 urban2 = 0.05 notables2 = 0.00
+										religion3 = 38 rural3 = 0.01 urban3 = 0.05 notables3 = 0.10
 									}
 								}
 								else_if = {
-									limit = { any_neighbor_province = { religion = tengri_pagan_reformed } }
+									limit = { any_neighbor_province = { religion = tengri_pagan } }
 									MN_StartUpProv = {
-										rural0 = 0.84 urban0 = 0.85 notables0 = 0.95
-										religion1 = 67 rural1 = 0.15 urban1 = 0.10 notables1 = 0.00
-										religion2 = 42 rural2 = 0.01 urban2 = 0.05 notables2= 0.05
+														rural0 = 0.84 urban0 = 0.85 notables0 = 0.95
+										religion1 = 77 rural1 = 0.15 urban1 = 0.10 notables1 = 0.00
+										religion2 = 38 rural2 = 0.01 urban2 = 0.05 notables2= 0.05
 									}
 								}
 								else_if = {
@@ -337,45 +338,45 @@ country_event = {
 									if = {
 										limit = { OR = { area = zaporizhia_area area = crimea_area area = sloboda_ukraine_area } }
 										MN_StartUpProv = {
-											rural0 = 0.88 urban0 = 0.85 notables0 = 0.90
-											religion1 = 22 rural1 = 0.10 urban1 = 0.05 notables1 = 0.00
-											religion2 = 42 rural2 = 0.02 urban2 = 0.10 notables2 = 0.10
+															rural0 = 0.88 urban0 = 0.85 notables0 = 0.90
+											religion1 = 18 rural1 = 0.10 urban1 = 0.05 notables1 = 0.00
+											religion2 = 38 rural2 = 0.02 urban2 = 0.10 notables2 = 0.10
 										}
 									}
 									else = {
 										MN_StartUpProv = {
-											rural0 = 0.89 urban0 = 0.90 notables0 = 0.95
-											religion1 = 22 rural1 = 0.10 urban1 = 0.05 notables1 = 0.00
-											religion2 = 42 rural2 = 0.01 urban2 = 0.05 notables2 = 0.05
+															rural0 = 0.89 urban0 = 0.90 notables0 = 0.95
+											religion1 = 18 rural1 = 0.10 urban1 = 0.05 notables1 = 0.00
+											religion2 = 38 rural2 = 0.01 urban2 = 0.05 notables2 = 0.05
 										}
 									}
 								}
 								else_if = {
 									limit = { area = east_dniepr_area }
 									MN_StartUpProv = {
-										rural0 = 0.96 urban0 = 0.80 notables0 = 0.90
-										religion1 = 42 rural1 = 0.04 urban1 = 0.20 notables1 = 0.10
+														rural0 = 0.96 urban0 = 0.80 notables0 = 0.90
+										religion1 = 38 rural1 = 0.04 urban1 = 0.20 notables1 = 0.10
 									}
 								}
 								else_if = {
 									limit = { OR = { area = moscow_area region = north_russia_region } }
 									MN_StartUpProv = {
-										rural0 = 0.99 urban0 = 0.95 notables0 = 0.95
-										religion1 = 42 rural1 = 0.01 urban1 = 0.05 notables1 = 0.05
+														rural0 = 0.99 urban0 = 0.95 notables0 = 0.95
+										religion1 = 38 rural1 = 0.01 urban1 = 0.05 notables1 = 0.05
 									}
 								}
 								else_if = {
 									limit = { culture = ruthenian }
 									MN_StartUpProv = {
-										rural0 = 0.98 urban0 = 0.90 notables0 = 0.90
-										religion1 = 42 rural1 = 0.02 urban1 = 0.10 notables1 = 0.10
+														rural0 = 0.98 urban0 = 0.90 notables0 = 0.90
+										religion1 = 38 rural1 = 0.02 urban1 = 0.10 notables1 = 0.10
 									}
 								}
 							}
 							else = {
 								MN_StartUpProv = {
-									rural0 = 1.00 urban0 = 0.98 notables0 = 0.99
-									religion1 = 42 rural1 = 0.00 urban1 = 0.02 notables1 = 0.01
+													rural0 = 1.00 urban0 = 0.98 notables0 = 0.99
+									religion1 = 38 rural1 = 0.00 urban1 = 0.02 notables1 = 0.01
 								}
 							}
 						}
@@ -383,11 +384,11 @@ country_event = {
 						else_if = {
 							limit = { owner = { tag = CYP } }
 							MN_StartUpProv = {
-								rural0 = 0.49 urban0 = 0.30 notables0 = 0.1
+												rural0 = 0.49 urban0 = 0.30 notables0 = 0.10
 								religion1 = 1  rural1 = 0.10 urban1 = 0.50 notables1 = 0.80
 								religion2 = 11 rural2 = 0.30 urban2 = 0.15 notables2 = 0.05
-								religion3 = 22 rural3 = 0.10 urban3 = 0.02 notables3 = 0.00
-								religion4 = 42 rural4 = 0.01 urban4 = 0.05 notables4 = 0.05
+								religion3 = 18 rural3 = 0.10 urban3 = 0.02 notables3 = 0.00
+								religion4 = 38 rural4 = 0.01 urban4 = 0.05 notables4 = 0.05
 							}
 						}
 						else_if = {
@@ -395,20 +396,20 @@ country_event = {
 							if = {
 								limit = { religion = coptic }
 								MN_StartUpProv = {
-									rural0 = 0.55 urban0 = 0.63 notables0 = 0.70
+													rural0 = 0.55 urban0 = 0.63 notables0 = 0.70
 									religion1 = 9  rural1 = 0.25 urban1 = 0.25 notables1 = 0.25
-									religion2 = 22 rural2 = 0.10 urban2 = 0.02 notables2 = 0.00
+									religion2 = 18 rural2 = 0.10 urban2 = 0.02 notables2 = 0.00
 									religion3 = 23 rural3 = 0.05 urban3 = 0.01 notables3 = 0.00
-									religion4 = 42 rural4 = 0.05 urban4 = 0.10 notables4 = 0.05
+									religion4 = 38 rural4 = 0.05 urban4 = 0.10 notables4 = 0.05
 								}
 							}
 							else = {
 								MN_StartUpProv = {
-									rural0 = 0.55 urban0 = 0.63 notables0 = 0.70
+													rural0 = 0.55 urban0 = 0.63 notables0 = 0.70
 									religion1 = 11 rural1 = 0.25 urban1 = 0.25 notables1 = 0.25
-									religion2 = 22 rural2 = 0.10 urban2 = 0.02 notables2 = 0.00
+									religion2 = 18 rural2 = 0.10 urban2 = 0.02 notables2 = 0.00
 									religion3 = 23 rural3 = 0.05 urban3 = 0.01 notables3 = 0.00
-									religion4 = 42 rural4 = 0.05 urban4 = 0.10 notables4 = 0.05
+									religion4 = 38 rural4 = 0.05 urban4 = 0.10 notables4 = 0.05
 								}
 							}
 						}
@@ -418,16 +419,16 @@ country_event = {
 							if = {
 								limit = { any_neighbor_province = { religion = jewish } }
 								MN_StartUpProv = {
-									rural0 = 0.55 urban0 = 0.70 notables0 = 0.90
-									religion1 = 22 rural1 = 0.20 urban1 = 0.10 notables1 = 0.00
-									religion2 = 42 rural2 = 0.25 urban2 = 0.20 notables2 = 0.10
+													rural0 = 0.55 urban0 = 0.70 notables0 = 0.90
+									religion1 = 18 rural1 = 0.20 urban1 = 0.10 notables1 = 0.00
+									religion2 = 38 rural2 = 0.25 urban2 = 0.20 notables2 = 0.10
 								}
 							}
 							else = {
 								MN_StartUpProv = {
-									rural0 = 0.75 urban0 = 0.80 notables0 = 0.94
-									religion1 = 22 rural1 = 0.20 urban1 = 0.10 notables1 = 0.00
-									religion2 = 42 rural2 = 0.05 urban2 = 0.10 notables2 = 0.06
+													rural0 = 0.75 urban0 = 0.80 notables0 = 0.94
+									religion1 = 18 rural1 = 0.20 urban1 = 0.10 notables1 = 0.00
+									religion2 = 38 rural2 = 0.05 urban2 = 0.10 notables2 = 0.06
 								}
 							}
 						}
@@ -437,29 +438,30 @@ country_event = {
 							if = {
 								limit = { owner = { religion = sunni } }
 								MN_StartUpProv = {
-									rural0 = 0.55 urban0 = 0.20 notables0 = 0.25
-									religion1 = 22 rural1 = 0.30 urban1 = 0.65 notables1 = 0.70
+													rural0 = 0.55 urban0 = 0.20 notables0 = 0.25
+									religion1 = 18 rural1 = 0.30 urban1 = 0.65 notables1 = 0.70
 									religion2 = 11 rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
-									religion3 = 61 rural3 = 0.10 urban3 = 0.05 notables3 = 0.00
-									religion4 = 42 rural4 = 0.05 urban4 = 0.10 notables4 = 0.05
+									religion3 = 56 rural3 = 0.10 urban3 = 0.05 notables3 = 0.00
+									religion4 = 38 rural4 = 0.05 urban4 = 0.10 notables4 = 0.05
 								}
 							}
 							else_if = {
 								limit = { owner = { religion = catholic } }
 								MN_StartUpProv = {
-									rural0 = 0.75 urban0 = 0.35 notables0 = 0.25
+													rural0 = 0.65 urban0 = 0.30 notables0 = 0.25
 									religion1 = 1  rural1 = 0.05 urban1 = 0.45 notables1 = 0.70
-									religion2 = 22 rural2 = 0.15 urban2 = 0.10 notables2 = 0.00
-									religion3 = 42 rural3 = 0.05 urban3 = 0.10 notables3 = 0.05
+									religion2 = 18 rural2 = 0.15 urban2 = 0.10 notables2 = 0.00
+									religion3 = 38 rural3 = 0.05 urban3 = 0.10 notables3 = 0.05
+									religion4 = 56 rural4 = 0.10 urban4 = 0.05 notables4 = 0.00
 								}
 							}
 							else = {
 								MN_StartUpProv = {
-									rural0 = 0.70 urban0 = 0.75 notables0 = 0.90
+													rural0 = 0.70 urban0 = 0.75 notables0 = 0.90
 									religion1 = 11 rural1 = 0.15 urban1 = 0.10 notables1 = 0.02
-									religion2 = 22 rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
-									religion3 = 61 rural3 = 0.10 urban3 = 0.05 notables3 = 0.00
-									religion4 = 42 rural4 = 0.05 urban4 = 0.10 notables4 = 0.08
+									religion2 = 18 rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
+									religion3 = 56 rural3 = 0.10 urban3 = 0.05 notables3 = 0.00
+									religion4 = 38 rural4 = 0.05 urban4 = 0.10 notables4 = 0.08
 								}
 							}
 						}
@@ -469,79 +471,79 @@ country_event = {
 							if = {
 								limit = { area = valencia_area }
 								MN_StartUpProv = {
-									rural0 = 0.64 urban0 = 0.60 notables0 = 0.90
-									religion1 = 22 rural1 = 0.35 urban1 = 0.35 notables1 = 0.05
-									religion2 = 42 rural2 = 0.01 urban2 = 0.05 notables2 = 0.05
+													rural0 = 0.64 urban0 = 0.60 notables0 = 0.90
+									religion1 = 18 rural1 = 0.35 urban1 = 0.35 notables1 = 0.05
+									religion2 = 38 rural2 = 0.01 urban2 = 0.05 notables2 = 0.05
 								}
 							}
 							else_if = {
 								limit = { area = lower_guadalquivir_area }
 								MN_StartUpProv = {
-									rural0 = 0.66 urban0 = 0.62 notables0 = 0.90
-									religion1 = 22 rural1 = 0.33 urban1 = 0.33 notables1 = 0.05
-									religion2 = 42 rural2 = 0.01 urban2 = 0.05 notables2 = 0.05
+													rural0 = 0.66 urban0 = 0.62 notables0 = 0.90
+									religion1 = 18 rural1 = 0.33 urban1 = 0.33 notables1 = 0.05
+									religion2 = 38 rural2 = 0.01 urban2 = 0.05 notables2 = 0.05
 								}
 							}
 							else_if = {
 								limit = { area = upper_guadalquivir_area }
 								MN_StartUpProv = {
-									rural0 = 0.66 urban0 = 0.62 notables0 = 0.90
-									religion1 = 22 rural1 = 0.33 urban1 = 0.33 notables1 = 0.05
-									religion2 = 42 rural2 = 0.01 urban2 = 0.05 notables2 = 0.05
+													rural0 = 0.66 urban0 = 0.62 notables0 = 0.90
+									religion1 = 18 rural1 = 0.33 urban1 = 0.33 notables1 = 0.05
+									religion2 = 38 rural2 = 0.01 urban2 = 0.05 notables2 = 0.05
 								}
 							}
 							else_if = {
 								limit = { area = extremadura_castilla_area }
 								MN_StartUpProv = {
-									rural0 = 0.69 urban0 = 0.65 notables0 = 0.90
-									religion1 = 22 rural1 = 0.30 urban1 = 0.30 notables1 = 0.05
-									religion2 = 42 rural2 = 0.01 urban2 = 0.05 notables2 = 0.05
+													rural0 = 0.69 urban0 = 0.65 notables0 = 0.90
+									religion1 = 18 rural1 = 0.30 urban1 = 0.30 notables1 = 0.05
+									religion2 = 38 rural2 = 0.01 urban2 = 0.05 notables2 = 0.05
 								}
 							}
 							else_if = {
 								limit = { area = murcia_area }
 								MN_StartUpProv = {
-									rural0 = 0.83 urban0 = 0.79 notables0 = 0.90
-									religion1 = 22 rural1 = 0.16 urban1 = 0.16 notables1 = 0.05
-									religion2 = 42 rural2 = 0.01 urban2 = 0.05 notables2 = 0.05
+													rural0 = 0.83 urban0 = 0.79 notables0 = 0.90
+									religion1 = 18 rural1 = 0.16 urban1 = 0.16 notables1 = 0.05
+									religion2 = 38 rural2 = 0.01 urban2 = 0.05 notables2 = 0.05
 								}
 							}
 							else_if = {
 								limit = { OR = { area = extremadura_area area = baleares_area area = alentejo_area } }
 								MN_StartUpProv = {
-									rural0 = 0.87 urban0 = 0.85 notables0 = 0.94
-									religion1 = 22 rural1 = 0.12 urban1 = 0.10 notables1 = 0.02
-									religion2 = 42 rural2 = 0.01 urban2 = 0.05 notables2 = 0.05
+													rural0 = 0.87 urban0 = 0.85 notables0 = 0.94
+									religion1 = 18 rural1 = 0.12 urban1 = 0.10 notables1 = 0.02
+									religion2 = 38 rural2 = 0.01 urban2 = 0.05 notables2 = 0.05
 								}
 							}
 							else_if = {
 								limit = { OR = { province_id = 181 area = aragon_area province_id = 215 province_id = 216 } }
 								MN_StartUpProv = {
-									rural0 = 0.89 urban0 = 0.85 notables0 = 0.93
-									religion1 = 22 rural1 = 0.10 urban1 = 0.10 notables1 = 0.02
-									religion2 = 42 rural2 = 0.01 urban2 = 0.05 notables2 = 0.05
+													rural0 = 0.89 urban0 = 0.85 notables0 = 0.93
+									religion1 = 18 rural1 = 0.10 urban1 = 0.10 notables1 = 0.02
+									religion2 = 38 rural2 = 0.01 urban2 = 0.05 notables2 = 0.05
 								}
 							}
 							else_if = {
 								limit = { OR = { area = toledo_area province_id = 3353 } }
 								MN_StartUpProv = {
-									rural0 = 0.90 urban0 = 0.86 notables0 = 0.93
-									religion1 = 22 rural1 = 0.09 urban1 = 0.09 notables1 = 0.02
-									religion2 = 42 rural2 = 0.01 urban2 = 0.05 notables2 = 0.05
+													rural0 = 0.90 urban0 = 0.86 notables0 = 0.93
+									religion1 = 18 rural1 = 0.09 urban1 = 0.09 notables1 = 0.02
+									religion2 = 38 rural2 = 0.01 urban2 = 0.05 notables2 = 0.05
 								}
 							}
 							else_if = {
 								limit = { OR = { province_id = 3370 area = beieras_area } }
 								MN_StartUpProv = {
-									rural0 = 0.94 urban0 = 0.90 notables0 = 0.94
-									religion1 = 22 rural1 = 0.05 urban1 = 0.05 notables1 = 0.01
-									religion2 = 42 rural2 = 0.01 urban2 = 0.05 notables2 = 0.05
+													rural0 = 0.94 urban0 = 0.90 notables0 = 0.94
+									religion1 = 18 rural1 = 0.05 urban1 = 0.05 notables1 = 0.01
+									religion2 = 38 rural2 = 0.01 urban2 = 0.05 notables2 = 0.05
 								}
 							}
 							else = {
 								MN_StartUpProv = {
-									rural0 = 0.99 urban0 = 0.95 notables0 = 0.95
-									religion1 = 42 rural1 = 0.01 urban1 = 0.05 notables1 = 0.05
+													rural0 = 0.99 urban0 = 0.95 notables0 = 0.95
+									religion1 = 38 rural1 = 0.01 urban1 = 0.05 notables1 = 0.05
 								}
 							}
 						}
@@ -551,21 +553,21 @@ country_event = {
 							if = {
 								limit = { OR = { region = east_france_region region = high_countries_region area = normandy_area area = provence_area } }
 								MN_StartUpProv = {
-									rural0 = 0.98 urban0 = 0.90 notables0 = 0.90
-									religion1 = 42 rural1 = 0.02 urban1 = 0.10 notables1 = 0.10
+													rural0 = 0.98 urban0 = 0.90 notables0 = 0.90
+									religion1 = 38 rural1 = 0.02 urban1 = 0.10 notables1 = 0.10
 								}
 							}
 							else_if = {
 								limit = { OR = { area = anjou_poitou_area area = guyenne_area region = belgii_region } }
 								MN_StartUpProv = {
-									rural0 = 0.99 urban0 = 0.95 notables0 = 0.90
-									religion1 = 42 rural1 = 0.01 urban1 = 0.05 notables1 = 0.10
+													rural0 = 0.99 urban0 = 0.95 notables0 = 0.90
+									religion1 = 38 rural1 = 0.01 urban1 = 0.05 notables1 = 0.10
 								}
 							}
 							else = {
 								MN_StartUpProv = {
-									rural0 = 1.00 urban0 = 0.98 notables0 = 0.90
-									religion1 = 42 rural1 = 0.00 urban1 = 0.08 notables1 = 0.10
+													rural0 = 1.00 urban0 = 0.98 notables0 = 0.90
+									religion1 = 38 rural1 = 0.00 urban1 = 0.08 notables1 = 0.10
 								}
 							}
 						}
@@ -575,8 +577,8 @@ country_event = {
 							if = {
 								limit = { OR = { area = home_counties_area area = east_anglia_area province_id = 243 province_id = 245 province_id = 242 } }
 								MN_StartUpProv = {
-									rural0 = 1.00 urban0 = 0.98 notables0 = 0.95
-									religion1 = 42 rural1 = 0.00 urban1 = 0.08 notables1 = 0.05
+													rural0 = 1.00 urban0 = 0.98 notables0 = 0.95
+									religion1 = 38 rural1 = 0.00 urban1 = 0.08 notables1 = 0.05
 								}
 							}
 						}
@@ -586,21 +588,21 @@ country_event = {
 							if = {
 								limit = { OR = { region = upper_rhenish_circle_region region = low_countries_region } }
 								MN_StartUpProv = {
-									rural0 = 0.98 urban0 = 0.90 notables0 = 0.90
-									religion1 = 42 rural1 = 0.02 urban1 = 0.10 notables1 = 0.10
+													rural0 = 0.98 urban0 = 0.90 notables0 = 0.90
+									religion1 = 38 rural1 = 0.02 urban1 = 0.10 notables1 = 0.10
 								}
 							}
 							else_if = {
 								limit = { OR = { region = westphalian_circle_region region = brandenburg_pommern_region } }
 								MN_StartUpProv = {
-									rural0 = 0.99 urban0 = 0.95 notables0 = 0.95
-									religion1 = 42 rural1 = 0.01 urban1 = 0.05 notables1 = 0.05
+													rural0 = 0.99 urban0 = 0.95 notables0 = 0.95
+									religion1 = 38 rural1 = 0.01 urban1 = 0.05 notables1 = 0.05
 								}
 							}
 							else = {
 								MN_StartUpProv = {
-									rural0 = 1.00 urban0 = 0.98 notables0 = 0.90
-									religion1 = 42 rural1 = 0.00 urban1 = 0.08 notables1 = 0.10
+													rural0 = 1.00 urban0 = 0.98 notables0 = 0.90
+									religion1 = 38 rural1 = 0.00 urban1 = 0.08 notables1 = 0.10
 								}
 							}
 						}
@@ -609,28 +611,28 @@ country_event = {
 							if = {
 								limit = { region = bohemia_region }
 								MN_StartUpProv = {
-									rural0 = 0.98 urban0 = 0.85 notables0 = 0.85
-									religion1 = 42 rural1 = 0.02 urban1 = 0.15 notables1 = 0.15
+													rural0 = 0.98 urban0 = 0.85 notables0 = 0.85
+									religion1 = 38 rural1 = 0.02 urban1 = 0.15 notables1 = 0.15
 								}
 							}
 							else_if = {
 								limit = { area = lower_swabia_area }
 								MN_StartUpProv = {
-									rural0 = 0.98 urban0 = 0.90 notables0 = 0.90
-									religion1 = 42 rural1 = 0.02 urban1 = 0.10 notables1 = 0.10
+													rural0 = 0.98 urban0 = 0.90 notables0 = 0.90
+									religion1 = 38 rural1 = 0.02 urban1 = 0.10 notables1 = 0.10
 								}
 							}
 							else_if = {
 								limit = { OR = { region = switzerland_region province_id = 83 province_id = 1510 } }
 								MN_StartUpProv = {
-									rural0 = 0.99 urban0 = 0.95 notables0 = 0.95
-									religion1 = 42 rural1 = 0.01 urban1 = 0.05 notables1 = 0.05
+													rural0 = 0.99 urban0 = 0.95 notables0 = 0.95
+									religion1 = 38 rural1 = 0.01 urban1 = 0.05 notables1 = 0.05
 								}
 							}
 							else = {
 								MN_StartUpProv = {
-									rural0 = 1.00 urban0 = 0.98 notables0 = 0.90
-									religion1 = 42 rural1 = 0.00 urban1 = 0.08 notables1 = 0.10
+													rural0 = 1.00 urban0 = 0.98 notables0 = 0.90
+									religion1 = 38 rural1 = 0.00 urban1 = 0.08 notables1 = 0.10
 								}
 							}
 						}
@@ -641,35 +643,35 @@ country_event = {
 							if = {
 								limit = { culture = sicilian }
 								MN_StartUpProv = {
-									rural0 = 0.92 urban0 = 0.88 notables0 = 0.95
+													rural0 = 0.92 urban0 = 0.88 notables0 = 0.95
 									religion1 = 9  rural1 = 0.05 urban1 = 0.05 notables1 = 0.00
-									religion2 = 22 rural2 = 0.02 urban2 = 0.02 notables2 = 0.00
-									religion3 = 42 rural3 = 0.01 urban3 = 0.05 notables3 = 0.05
+									religion2 = 18 rural2 = 0.02 urban2 = 0.02 notables2 = 0.00
+									religion3 = 38 rural3 = 0.01 urban3 = 0.05 notables3 = 0.05
 								}
 							}
 							#Venice Orthodox
 							else_if = {
 								limit = { province_id = 112 }
 								MN_StartUpProv = {
-									rural0 = 0.94 urban0 = 0.80 notables0 = 0.95
+													rural0 = 0.94 urban0 = 0.80 notables0 = 0.95
 									religion1 = 9  rural1 = 0.05 urban1 = 0.15 notables1 = 0.00
-									religion2 = 42 rural2 = 0.01 urban2 = 0.05 notables2 = 0.05
+									religion2 = 38 rural2 = 0.01 urban2 = 0.05 notables2 = 0.05
 								}
 							}
 							#Fraticellis
 							else_if = {
 								limit = { OR = { province_id = 116 province_id = 119 province_id = 121 province_id = 123 } }
 								MN_StartUpProv = {
-									rural0 = 0.98 urban0 = 0.90 notables0 = 0.95
-									religion1 = 14  rural1 = 0.01 urban1 = 0.05 notables1 = 0.00
-									religion2 = 42 rural2 = 0.01 urban2 = 0.05 notables2 = 0.05
+													rural0 = 0.98 urban0 = 0.90 notables0 = 0.95
+									religion1 = 13 rural1 = 0.01 urban1 = 0.05 notables1 = 0.00
+									religion2 = 38 rural2 = 0.01 urban2 = 0.05 notables2 = 0.05
 								}
 							}
 							#Italian Jews
 							else = {
 								MN_StartUpProv = {
-									rural0 = 0.99 urban0 = 0.95 notables0 = 0.95
-									religion1 = 42 rural1 = 0.01 urban1 = 0.05 notables1 = 0.05
+													rural0 = 0.99 urban0 = 0.95 notables0 = 0.95
+									religion1 = 38 rural1 = 0.01 urban1 = 0.05 notables1 = 0.05
 								}
 							}
 						}
@@ -677,11 +679,11 @@ country_event = {
 						else_if = {
 							limit = { province_id = 1334 }
 							MN_StartUpProv = {
-								rural0 = 0.82 urban0 = 0.45 notables0 = 0.09
-								religion1 = 22 rural1 = 0.10 urban1 = 0.25 notables1 = 0.80
+												rural0 = 0.82 urban0 = 0.45 notables0 = 0.09
+								religion1 = 18 rural1 = 0.10 urban1 = 0.25 notables1 = 0.80
 								religion2 = 1  rural2 = 0.05 urban2 = 0.20 notables2 = 0.05
-								religion3 = 42 rural3 = 0.01 urban3 = 0.05 notables3 = 0.05
-								religion4 = 24 rural4 = 0.02 urban4 = 0.05 notables4 = 0.01
+								religion3 = 38 rural3 = 0.01 urban3 = 0.05 notables3 = 0.05
+								religion4 = 26 rural4 = 0.02 urban4 = 0.05 notables4 = 0.01
 							}
 						}
 						else_if = {
@@ -689,23 +691,23 @@ country_event = {
 							if = {
 								limit = { OR = { province_id = 317 province_id = 318 province_id = 1441 } }
 								MN_StartUpProv = {
-									rural0 = 0.85 urban0 = 0.75 notables0 = 0.10
-									religion1 = 22 rural1 = 0.15 urban1 = 0.25 notables1 = 0.90
+													rural0 = 0.85 urban0 = 0.75 notables0 = 0.10
+									religion1 = 18 rural1 = 0.15 urban1 = 0.25 notables1 = 0.90
 								}
 							}
 							else = {
 								MN_StartUpProv = {
-									rural0 = 0.55 urban0 = 0.55 notables0 = 0.10
-									religion1 = 22 rural1 = 0.45 urban1 = 0.45 notables1 = 0.90
+													rural0 = 0.55 urban0 = 0.55 notables0 = 0.10
+									religion1 = 18 rural1 = 0.45 urban1 = 0.45 notables1 = 0.90
 								}
 							}
 						}
 						else_if = {
 							limit = { owner = { religion = shiite } }
 							MN_StartUpProv = {
-								rural0 = 0.60 urban0 = 0.60 notables0 = 0.10
+												rural0 = 0.60 urban0 = 0.60 notables0 = 0.10
 								religion1 = 23 rural1 = 0.30 urban1 = 0.30 notables1 = 0.85
-								religion2 = 22 rural2 = 0.10 urban2 = 0.10 notables2 = 0.05
+								religion2 = 18 rural2 = 0.10 urban2 = 0.10 notables2 = 0.05
 							}
 						}
 						else_if = {
@@ -713,30 +715,30 @@ country_event = {
 							if = {
 								limit = { owner = { religion = catholic } }
 								MN_StartUpProv = {
-									rural0 = 0.60 urban0 = 0.40 notables0 = 0.1
+													rural0 = 0.60 urban0 = 0.40 notables0 = 0.15
 									religion1 = 1  rural1 = 0.10 urban1 = 0.45 notables1 = 0.85
-									religion2 = 22 rural2 = 0.10 urban2 = 0.02 notables2 = 0.00
+									religion2 = 18 rural2 = 0.10 urban2 = 0.02 notables2 = 0.00
 								}
 							}
 							else_if = {
 								limit = { religion = orthodox }
 								MN_StartUpProv = {
-									rural0 = 0.55 urban0 = 0.80 notables0 = 0.95
+													rural0 = 0.55 urban0 = 0.80 notables0 = 0.95
 									religion1 = 11 rural1 = 0.30 urban1 = 0.15 notables1 = 0.05
-									religion2 = 22 rural2 = 0.10 urban2 = 0.02 notables2 = 0.00
-									religion3 = 22 rural3 = 0.05 urban3 = 0.01 notables3 = 0.00
+									religion2 = 18 rural2 = 0.10 urban2 = 0.02 notables2 = 0.00
+									religion3 = 23 rural3 = 0.05 urban3 = 0.01 notables3 = 0.00
 								}
 							}
 							MN_StartUpProv = {
-								rural0 = 0.75 urban0 = 0.45 notables0 = 0.1
-								religion1 = 1 rural1 = 0.25 urban1 = 0.55 notables1 = 0.9
+												rural0 = 0.75 urban0 = 0.45 notables0 = 0.1
+								religion1 = 1  rural1 = 0.25 urban1 = 0.55 notables1 = 0.9
 							}
 						}
 						else_if = {
 							limit = { owner = { has_country_flag = crusader_kingdom NOT = { tag = CYP } } }
 							MN_StartUpProv = {
-								rural0 = 0.75 urban0 = 0.35 notables0 = 0.1
-								religion1 = 1 rural1 = 0.25 urban1 = 0.65 notables1 = 0.9
+												rural0 = 0.75 urban0 = 0.35 notables0 = 0.1
+								religion1 = 1  rural1 = 0.25 urban1 = 0.65 notables1 = 0.9
 							}
 						}
 						#Atlantis	
@@ -746,24 +748,24 @@ country_event = {
 								limit = { religion = chalcedonism  any_neighbor_province = { religion = sunni } }
 								MN_StartUpProv = {
 									rural0 = 0.74 urban0 = 0.66 notables0 = 0.51
-									religion1 = 22 rural1 = 0.23 urban1 = 0.20 notables1 = 0.44
-									religion2 = 42 rural2 = 0.03 urban2 = 0.14 notables2 = 0.05
+									religion1 = 18 rural1 = 0.23 urban1 = 0.20 notables1 = 0.44
+									religion2 = 38 rural2 = 0.03 urban2 = 0.14 notables2 = 0.05
 								}
 							}
 							else_if = {
-								limit = { religion = catholic any_neighbor_province = { religion = arianism } }
+								limit = { religion = catholic any_neighbor_province = { religion = gnostic } }
 								MN_StartUpProv = {
 									rural0 = 0.70 urban0 = 0.85 notables0 = 0.95
-									religion1 = 13 rural1 = 0.20 urban1 = 0.04 notables1 = 0.03
-									religion2 = 42 rural2 = 0.0 urban2 = 0.11 notables2 = 0.02
+									religion1 = 15 rural1 = 0.20 urban1 = 0.04 notables1 = 0.03
+									religion2 = 38 rural2 = 0.0 urban2 = 0.11 notables2 = 0.02
 								}
 							}
 							else_if = {
-								limit = { religion = arianism any_neighbor_province = { religion = catholic } }
+								limit = { religion = gnostic any_neighbor_province = { religion = catholic } }
 								MN_StartUpProv = {
 									rural0 = 0.85 urban0 = 0.85 notables0 = 0.95
 									religion1 = 01 rural1 = 0.15 urban1 = 0.10 notables1 = 0.03
-									religion2 = 42 rural2 = 0.0 urban2 = 0.05 notables2 = 0.02
+									religion2 = 38 rural2 = 0.0 urban2 = 0.05 notables2 = 0.02
 								}
 							}
 							else_if = {
@@ -771,37 +773,29 @@ country_event = {
 								MN_StartUpProv = {
 									rural0 = 0.85 urban0 = 0.85 notables0 = 0.95
 									religion1 = 10 rural1 = 0.15 urban1 = 0.10 notables1 = 0.03
-									religion2 = 42 rural2 = 0.0 urban2 = 0.05 notables2 = 0.02
+									religion2 = 38 rural2 = 0.0 urban2 = 0.05 notables2 = 0.02
 								}
 							}
 							else_if = {
 								limit = { OR = { province_id = 5541 province_id = 5538 province_id = 5537 } }
 								MN_StartUpProv = {
 									rural0 = 0.70 urban0 = 0.6 notables0 = 0.45
-									religion1 = 22 rural1 = 0.26 urban1 = 0.25 notables1 = 0.50
-									religion2 = 42 rural2 = 0.04 urban2 = 0.15 notables2 = 0.05
-								}
-							}
-							else_if = {
-								limit = { OR = { province_id = 5602 province_id = 5572 } }
-								MN_StartUpProv = {
-									rural0 = 0.80 urban0 = 0.6 notables0 = 0.55
-									religion1 = 21 rural1 = 0.15 urban1 = 0.25 notables1 = 0.40
-									religion2 = 42 rural2 = 0.05 urban2 = 0.15 notables2 = 0.05
+									religion1 = 18 rural1 = 0.26 urban1 = 0.25 notables1 = 0.50
+									religion2 = 38 rural2 = 0.04 urban2 = 0.15 notables2 = 0.05
 								}
 							}
 							else_if = {
 								limit = { OR = { province_id = 5561 province_id = 5565 } }
 								MN_StartUpProv = {
 									rural0 = 0.80 urban0 = 0.6 notables0 = 0.70
-									religion1 = 22 rural1 = 0.1 urban1 = 0.15 notables1 = 0.20
-									religion2 = 42 rural2 = 0.1 urban2 = 0.25 notables2 = 0.10
+									religion1 = 18 rural1 = 0.1 urban1 = 0.15 notables1 = 0.20
+									religion2 = 38 rural2 = 0.1 urban2 = 0.25 notables2 = 0.10
 								}
 							}
 							else = {
 								MN_StartUpProv = {
 									rural0 = 1.00 urban0 = 0.98 notables0 = 0.95
-									religion1 = 42 rural1 = 0.00 urban1 = 0.02 notables1 = 0.05
+									religion1 = 38 rural1 = 0.00 urban1 = 0.02 notables1 = 0.05
 								}
 							}
 						}
@@ -813,16 +807,16 @@ country_event = {
 							if = {
 								limit = { province_id = 2310 }
 								MN_StartUpProv = {
-									rural0 = 0.60 urban0 = 0.28 notables0 = 0.20
-									religion1 = 1 rural1 = 0.38 urban1 = 0.65 notables1 = 0.70
-									religion2 = 42 rural2 = 0.02 urban2 = 0.10 notables2 = 0.10
+													rural0 = 0.60 urban0 = 0.28 notables0 = 0.20
+									religion1 = 1  rural1 = 0.38 urban1 = 0.65 notables1 = 0.70
+									religion2 = 38 rural2 = 0.02 urban2 = 0.10 notables2 = 0.10
 								}
 							}
 							else = {
 								MN_StartUpProv = {
-									rural0 = 0.78 urban0 = 0.80 notables0 = 0.85
-									religion1 = 1 rural1 = 0.20 urban1 = 0.10 notables1 = 0.05
-									religion2 = 42 rural2 = 0.02 urban2 = 0.10 notables2 = 0.10
+													rural0 = 0.78 urban0 = 0.80 notables0 = 0.85
+									religion1 = 1  rural1 = 0.20 urban1 = 0.10 notables1 = 0.05
+									religion2 = 38 rural2 = 0.02 urban2 = 0.10 notables2 = 0.10
 								}
 							}
 						}
@@ -830,17 +824,17 @@ country_event = {
 						else_if = {
 							limit = { OR = { province_id = 2740 province_id = 2745 } }
 							MN_StartUpProv = {
-								rural0 = 0.75 urban0 = 0.6 notables0 = 0.80
-								religion1 = 33 rural1 = 0.2 urban1 = 0.35 notables1 = 0.15
-								religion2 = 34 rural2 = 0.05 urban2 = 0.05 notables2 = 0.05
+												rural0 = 0.75 urban0 = 0.60 notables0 = 0.80
+								religion1 = 29 rural1 = 0.20 urban1 = 0.35 notables1 = 0.15
+								religion2 = 28 rural2 = 0.05 urban2 = 0.05 notables2 = 0.05
 							}
 						}
 						else_if = {
 							limit = { OR = { area = yarkand_area area = tarim_basin_area } }
 							MN_StartUpProv = {
-								rural0 = 0.65 urban0 = 0.5 notables0 = 0.70
-								religion1 = 33 rural1 = 0.3 urban1 = 0.45 notables1 = 0.25
-								religion2 = 34 rural2 = 0.05 urban2 = 0.05 notables2 = 0.05
+												rural0 = 0.65 urban0 = 0.50 notables0 = 0.70
+								religion1 = 29 rural1 = 0.30 urban1 = 0.45 notables1 = 0.25
+								religion2 = 28 rural2 = 0.05 urban2 = 0.05 notables2 = 0.05
 							}
 						}
 						else_if = {
@@ -850,72 +844,72 @@ country_event = {
 								if = {
 									limit = { province_id = 332 }
 									MN_StartUpProv = {
-										rural0 = 0.55 urban0 = 0.70 notables0 = 0.85
+														rural0 = 0.55 urban0 = 0.70 notables0 = 0.85
 										religion1 = 9  rural1 = 0.40 urban1 = 0.20 notables1 = 0.05
-										religion2 = 42 rural2 = 0.05 urban2 = 0.10 notables2 = 0.10
+										religion2 = 38 rural2 = 0.05 urban2 = 0.10 notables2 = 0.10
 									}
 								}
 								else_if = {
 									limit = { province_id = 364 }
 									MN_StartUpProv = {
-										rural0 = 0.71 urban0 = 0.58 notables0 = 0.89
+														rural0 = 0.71 urban0 = 0.58 notables0 = 0.89
 										religion1 = 11 rural1 = 0.20 urban1 = 0.02 notables1 = 0.01
-										religion2 = 42 rural2 = 0.07 urban2 = 0.20 notables2 = 0.10
-										religion3 = 43 rural3 = 0.02 urban3 = 0.20 notables3 = 0.00
+										religion2 = 38 rural2 = 0.07 urban2 = 0.20 notables2 = 0.10
+										religion3 = 39 rural3 = 0.02 urban3 = 0.20 notables3 = 0.00
 									}
 								}
 								else_if = {
 									limit = { province_id = 379 }
 									MN_StartUpProv = {
-										rural0 = 0.73 urban0 = 0.73 notables0 = 0.89
+														rural0 = 0.73 urban0 = 0.73 notables0 = 0.89
 										religion1 = 11 rural1 = 0.20 urban1 = 0.02 notables1 = 0.01
-										religion2 = 42 rural2 = 0.07 urban2 = 0.15 notables2 = 0.10
-										religion3 = 43 rural3 = 0.00 urban3 = 0.10 notables3 = 0.00
+										religion2 = 38 rural2 = 0.07 urban2 = 0.15 notables2 = 0.10
+										religion3 = 39 rural3 = 0.00 urban3 = 0.10 notables3 = 0.00
 									}
 								}
 								else_if = {
 									limit = { province_id = 382 }
 									MN_StartUpProv = {
-										rural0 = 0.55 urban0 = 0.68 notables0 = 0.85
+														rural0 = 0.55 urban0 = 0.68 notables0 = 0.85
 										religion1 = 9  rural1 = 0.40 urban1 = 0.20 notables1 = 0.05
-										religion2 = 42 rural2 = 0.05 urban2 = 0.10 notables2 = 0.10
-										religion3 = 43 rural3 = 0.00 urban3 = 0.02 notables3 = 0.00
+										religion2 = 38 rural2 = 0.05 urban2 = 0.10 notables2 = 0.10
+										religion3 = 39 rural3 = 0.00 urban3 = 0.02 notables3 = 0.00
 									}
 								}
 								else_if = {
 									limit = { province_id = 2635 }
 									MN_StartUpProv = {
-										rural0 = 0.49 urban0 = 0.67 notables0 = 0.84
+														rural0 = 0.49 urban0 = 0.67 notables0 = 0.84
 										religion1 = 23 rural1 = 0.20 urban1 = 0.10 notables1 = 0.05
 										religion2 = 11 rural2 = 0.20 urban2 = 0.02 notables2 = 0.01
-										religion3 = 42 rural3 = 0.07 urban3 = 0.15 notables3 = 0.10
-										religion4 = 43 rural4 = 0.04 urban4 = 0.10 notables4 = 0.00
+										religion3 = 38 rural3 = 0.07 urban3 = 0.15 notables3 = 0.10
+										religion4 = 39 rural4 = 0.04 urban4 = 0.10 notables4 = 0.00
 									}
 								}
 								else_if = {
 									limit = { religion = druze }
 									MN_StartUpProv = {
-										rural0 = 0.45 urban0 = 0.60 notables0 = 0.74
-										religion1 = 22 rural1 = 0.30 urban1 = 0.28 notables1 = 0.15
+														rural0 = 0.45 urban0 = 0.60 notables0 = 0.74
+										religion1 = 18 rural1 = 0.30 urban1 = 0.28 notables1 = 0.15
 										religion2 = 11 rural2 = 0.20 urban2 = 0.02 notables2 = 0.01
-										religion3 = 42 rural3 = 0.05 urban3 = 0.10 notables3 = 0.10
+										religion3 = 38 rural3 = 0.05 urban3 = 0.10 notables3 = 0.10
 									}
 								}
 								else_if = {
 									limit = { area = aleppo_area }
 									MN_StartUpProv = {
-										rural0 = 0.85 urban0 = 0.88 notables0 = 0.89
+														rural0 = 0.85 urban0 = 0.88 notables0 = 0.89
 										religion1 = 9  rural1 = 0.20 urban1 = 0.02 notables1 = 0.01
-										religion2 = 42 rural2 = 0.05 urban2 = 0.10 notables2 = 0.10
+										religion2 = 38 rural2 = 0.05 urban2 = 0.10 notables2 = 0.10
 									}
 								}
 								else_if = {
 									limit = { religion = shiite }
 									MN_StartUpProv = {
-										rural0 = 0.43 urban0 = 0.55 notables0 = 0.69
-										religion1 = 22 rural1 = 0.30 urban1 = 0.25 notables1 = 0.15
+														rural0 = 0.43 urban0 = 0.55 notables0 = 0.69
+										religion1 = 18 rural1 = 0.30 urban1 = 0.25 notables1 = 0.15
 										religion2 = 11 rural2 = 0.20 urban2 = 0.02 notables2 = 0.01
-										religion3 = 42 rural3 = 0.07 urban3 = 0.18 notables3 = 0.15
+										religion3 = 38 rural3 = 0.07 urban3 = 0.18 notables3 = 0.15
 									}
 								}
 								else_if = {
@@ -923,17 +917,17 @@ country_event = {
 									if = {
 										limit = { any_neighbor_province = { religion = shiite } }
 										MN_StartUpProv = {
-											rural0 = 0.53 urban0 = 0.73 notables0 = 0.84
+															rural0 = 0.53 urban0 = 0.73 notables0 = 0.84
 											religion1 = 23 rural1 = 0.20 urban1 = 0.10 notables1 = 0.05
 											religion2 = 11 rural2 = 0.20 urban2 = 0.02 notables2 = 0.01
-											religion3 = 42 rural3 = 0.07 urban3 = 0.15 notables3 = 0.10
+											religion3 = 38 rural3 = 0.07 urban3 = 0.15 notables3 = 0.10
 										}
 									}
 									else = {
 										MN_StartUpProv = {
-											rural0 = 0.73 urban0 = 0.83 notables0 = 0.89
+															rural0 = 0.73 urban0 = 0.83 notables0 = 0.89
 											religion1 = 11 rural1 = 0.20 urban1 = 0.02 notables1 = 0.01
-											religion2 = 42 rural2 = 0.07 urban2 = 0.15 notables2 = 0.10
+											religion2 = 38 rural2 = 0.07 urban2 = 0.15 notables2 = 0.10
 										}
 									}
 								}
@@ -941,17 +935,17 @@ country_event = {
 									if = {
 										limit = { any_neighbor_province = { religion = shiite } }
 										MN_StartUpProv = {
-											rural0 = 0.55 urban0 = 0.78 notables0 = 0.84
+															rural0 = 0.55 urban0 = 0.78 notables0 = 0.84
 											religion1 = 23 rural1 = 0.20 urban1 = 0.10 notables1 = 0.05
 											religion2 = 11 rural2 = 0.20 urban2 = 0.02 notables2 = 0.01
-											religion3 = 42 rural3 = 0.05 urban3 = 0.10 notables3 = 0.10
+											religion3 = 38 rural3 = 0.05 urban3 = 0.10 notables3 = 0.10
 										}
 									}
 									else = {
 										MN_StartUpProv = {
-											rural0 = 0.75 urban0 = 0.88 notables0 = 0.89
+															rural0 = 0.75 urban0 = 0.88 notables0 = 0.89
 											religion1 = 11 rural1 = 0.20 urban1 = 0.02 notables1 = 0.01
-											religion2 = 42 rural2 = 0.05 urban2 = 0.10 notables2 = 0.10
+											religion2 = 38 rural2 = 0.05 urban2 = 0.10 notables2 = 0.10
 										}
 									}
 								}
@@ -961,10 +955,10 @@ country_event = {
 								if = {
 									limit = { area = tairahan_area }
 									MN_StartUpProv = {
-										rural0 = 0.60 urban0 = 0.60 notables0 = 0.89
+														rural0 = 0.60 urban0 = 0.60 notables0 = 0.89
 										religion1 = 23 rural1 = 0.20 urban1 = 0.25 notables1 = 0.20
 										religion2 = 12 rural2 = 0.15 urban2 = 0.05 notables2 = 0.01
-										religion3 = 42 rural3 = 0.05 urban3 = 0.10 notables3 = 0.10
+										religion3 = 38 rural3 = 0.05 urban3 = 0.10 notables3 = 0.10
 									}
 								}
 								else_if = {
@@ -972,18 +966,18 @@ country_event = {
 									if = {
 										limit = { religion = shiite }
 										MN_StartUpProv = {
-											rural0 = 0.55 urban0 = 0.61 notables0 = 0.70
-											religion1 = 22 rural1 = 0.30 urban1 = 0.28 notables1 = 0.20
+															rural0 = 0.55 urban0 = 0.61 notables0 = 0.70
+											religion1 = 18 rural1 = 0.30 urban1 = 0.28 notables1 = 0.20
 											religion2 = 12 rural2 = 0.10 urban2 = 0.01 notables2 = 0.00
-											religion3 = 42 rural3 = 0.05 urban3 = 0.10 notables3 = 0.10
+											religion3 = 38 rural3 = 0.05 urban3 = 0.10 notables3 = 0.10
 										}
 									}
 									else = {
 										MN_StartUpProv = {
-											rural0 = 0.55 urban0 = 0.61 notables0 = 0.70
+															rural0 = 0.55 urban0 = 0.61 notables0 = 0.70
 											religion1 = 23 rural1 = 0.30 urban1 = 0.28 notables1 = 0.20
 											religion2 = 12 rural2 = 0.10 urban2 = 0.01 notables2 = 0.00
-											religion3 = 42 rural3 = 0.05 urban3 = 0.10 notables3 = 0.10
+											religion3 = 38 rural3 = 0.05 urban3 = 0.10 notables3 = 0.10
 										}
 									}
 								}
@@ -992,18 +986,18 @@ country_event = {
 									if = {
 										limit = { religion = shiite }
 										MN_StartUpProv = {
-											rural0 = 0.55 urban0 = 0.61 notables0 = 0.70
-											religion1 = 22 rural1 = 0.30 urban1 = 0.28 notables1 = 0.20
+															rural0 = 0.55 urban0 = 0.61 notables0 = 0.70
+											religion1 = 18 rural1 = 0.30 urban1 = 0.28 notables1 = 0.20
 											religion2 = 12 rural2 = 0.10 urban2 = 0.01 notables2 = 0.00
-											religion3 = 42 rural3 = 0.05 urban3 = 0.10 notables3 = 0.10
+											religion3 = 38 rural3 = 0.05 urban3 = 0.10 notables3 = 0.10
 										}
 									}
 									else = {
 										MN_StartUpProv = {
-											rural0 = 0.55 urban0 = 0.61 notables0 = 0.70
+															rural0 = 0.55 urban0 = 0.61 notables0 = 0.70
 											religion1 = 23 rural1 = 0.30 urban1 = 0.28 notables1 = 0.20
 											religion2 = 12 rural2 = 0.10 urban2 = 0.01 notables2 = 0.00
-											religion3 = 42 rural3 = 0.05 urban3 = 0.10 notables3 = 0.10
+											religion3 = 38 rural3 = 0.05 urban3 = 0.10 notables3 = 0.10
 										}
 									}
 								}
@@ -1012,18 +1006,18 @@ country_event = {
 									if = {
 										limit = { religion = shiite }
 										MN_StartUpProv = {
-											rural0 = 0.50 urban0 = 0.60 notables0 = 0.65
-											religion1 = 22 rural1 = 0.40 urban1 = 0.30 notables1 = 0.25
-											religion2 = 17 rural2 = 0.05 urban2 = 0.01 notables2 = 0.00
-											religion3 = 42 rural3 = 0.05 urban3 = 0.10 notables3 = 0.10
+															rural0 = 0.50 urban0 = 0.60 notables0 = 0.65
+											religion1 = 18 rural1 = 0.40 urban1 = 0.30 notables1 = 0.25
+											religion2 = 15 rural2 = 0.05 urban2 = 0.01 notables2 = 0.00
+											religion3 = 38 rural3 = 0.05 urban3 = 0.10 notables3 = 0.10
 										}
 									}
 									else = {
 										MN_StartUpProv = {
-											rural0 = 0.80 urban0 = 0.40 notables0 = 0.25
+															rural0 = 0.80 urban0 = 0.40 notables0 = 0.25
 											religion1 = 23 rural1 = 0.10 urban1 = 0.50 notables1 = 0.65
-											religion2 = 17 rural2 = 0.05 urban2 = 0.01 notables2 = 0.00
-											religion3 = 42 rural3 = 0.05 urban3 = 0.10 notables3 = 0.10
+											religion2 = 15 rural2 = 0.05 urban2 = 0.01 notables2 = 0.00
+											religion3 = 38 rural3 = 0.05 urban3 = 0.10 notables3 = 0.10
 										}
 									}
 								}
@@ -1033,55 +1027,97 @@ country_event = {
 								if = {
 									limit = { province_id = 361 }
 									MN_StartUpProv = {
-										rural0 = 0.75 urban0 = 0.87 notables0 = 0.89
+														rural0 = 0.75 urban0 = 0.87 notables0 = 0.89
 										religion1 = 11 rural1 = 0.20 urban1 = 0.02 notables1 = 0.01
-										religion2 = 42 rural2 = 0.05 urban2 = 0.10 notables2 = 0.10
-										religion3 = 43 rural3 = 0.00 urban3 = 0.01 notables3 = 0.00
+										religion2 = 38 rural2 = 0.05 urban2 = 0.10 notables2 = 0.10
+										religion3 = 39 rural3 = 0.00 urban3 = 0.01 notables3 = 0.00
 									}
 								}
 								else_if = {
 									limit = { OR = { area = cyrenaica_area area = central_egypt_area area = gharbia_area } }
 									MN_StartUpProv = {
-										rural0 = 0.75 urban0 = 0.88 notables0 = 0.89
+														rural0 = 0.75 urban0 = 0.88 notables0 = 0.89
 										religion1 = 11 rural1 = 0.20 urban1 = 0.02 notables1 = 0.01
-										religion2 = 42 rural2 = 0.05 urban2 = 0.10 notables2 = 0.10
+										religion2 = 38 rural2 = 0.05 urban2 = 0.10 notables2 = 0.10
 									}
 								}
 								else = {
 									MN_StartUpProv = {
-										rural0 = 0.79 urban0 = 0.96 notables0 = 0.89
+														rural0 = 0.79 urban0 = 0.96 notables0 = 0.89
 										religion1 = 11 rural1 = 0.20 urban1 = 0.02 notables1 = 0.01
-										religion2 = 42 rural2 = 0.01 urban2 = 0.02 notables2 = 0.10
+										religion2 = 38 rural2 = 0.01 urban2 = 0.02 notables2 = 0.10
 									}
 								}
 							}
+							#Atlantis	
+						    else_if = {
+							limit = { superregion = atlantis_superregion }
+							if = {
+								limit = { religion = sunni any_neighbor_province = { religion = catholic } }
+								MN_StartUpProv = {
+									rural0 = 0.74 urban0 = 0.66 notables0 = 0.51
+									religion1 = 01 rural1 = 0.23 urban1 = 0.20 notables1 = 0.44
+									religion2 = 38 rural2 = 0.03 urban2 = 0.14 notables2 = 0.05
+								}
+							}
+							else_if = {
+								limit = { religion = sunni any_neighbor_province = { religion = chalcedonism } }
+								MN_StartUpProv = {
+									rural0 = 0.85 urban0 = 0.85 notables0 = 0.95
+									religion1 = 10 rural1 = 0.15 urban1 = 0.10 notables1 = 0.03
+									religion2 = 38 rural2 = 0.0 urban2 = 0.05 notables2 = 0.02
+								}
+							}
+							else_if = {
+								limit = { province_id = 5530 }
+								MN_StartUpProv = {
+									rural0 = 0.70 urban0 = 0.6 notables0 = 0.75
+									religion1 = 10 rural1 = 0.2 urban1 = 0.10 notables1 = 0.05
+									religion2 = 38 rural2 = 0.1 urban2 = 0.30 notables2 = 0.2
+								}
+							}
+							else_if = {
+								limit = { religion = sunni any_neighbor_province = { religion = tengri_pagan } }
+								MN_StartUpProv = {
+									rural0 = 0.60 urban0 = 0.80 notables0 = 1
+									religion1 = 77 rural1 = 0.35 urban1 = 0.05 notables1 = 0.0
+									religion2 = 38 rural2 = 0.05 urban2 = 0.15 notables2 = 0.0
+								}
+							}
+							else = {
+								MN_StartUpProv = {
+									rural0 = 1.00 urban0 = 0.98 notables0 = 0.95
+									religion1 = 38 rural1 = 0.00 urban1 = 0.02 notables1 = 0.05
+								}
+							}
+						    }
 							else = {
 								if = {
 									limit = { religion = sunni }
 									if = {
 										limit = { any_neighbor_province = { religion = shiite } }
 										MN_StartUpProv = {
-											rural0 = 0.73 urban0 = 0.75 notables0 = 0.75
+															rural0 = 0.73 urban0 = 0.75 notables0 = 0.75
 											religion1 = 23 rural1 = 0.20 urban1 = 0.20 notables1 = 0.20
 											religion2 = 11 rural2 = 0.05 urban2 = 0.00 notables2 = 0.00
-											religion3 = 42 rural3 = 0.02 urban3 = 0.05 notables3 = 0.05
+											religion3 = 38 rural3 = 0.02 urban3 = 0.05 notables3 = 0.05
 										}
 									}
 									else_if = {
 										limit = { any_neighbor_province = { religion = ibadi } }
 										MN_StartUpProv = {
-											rural0 = 0.73 urban0 = 0.75 notables0 = 0.75
-											religion1 = 25 rural1 = 0.20 urban1 = 0.20 notables1 = 0.20
+															rural0 = 0.73 urban0 = 0.75 notables0 = 0.75
+											religion1 = 22 rural1 = 0.20 urban1 = 0.20 notables1 = 0.20
 											religion2 = 11 rural2 = 0.05 urban2 = 0.00 notables2 = 0.00
-											religion3 = 42 rural3 = 0.02 urban3 = 0.05 notables3 = 0.05
+											religion3 = 38 rural3 = 0.02 urban3 = 0.05 notables3 = 0.05
 										}
 									}
 									else = {
 										MN_StartUpProv = {
-											rural0 = 0.83 urban0 = 0.85 notables0 = 0.85
+															rural0 = 0.83 urban0 = 0.85 notables0 = 0.85
 											religion1 = 23 rural1 = 0.10 urban1 = 0.10 notables1 = 0.10
 											religion2 = 11 rural2 = 0.05 urban2 = 0.00 notables2 = 0.00
-											religion3 = 42 rural3 = 0.02 urban3 = 0.05 notables3 = 0.05
+											religion3 = 38 rural3 = 0.02 urban3 = 0.05 notables3 = 0.05
 										}
 									}
 								}
@@ -1090,18 +1126,18 @@ country_event = {
 									if = {
 										limit = { any_neighbor_province = { religion = sunni } }
 										MN_StartUpProv = {
-											rural0 = 0.73 urban0 = 0.75 notables0 = 0.75
-											religion1 = 22 rural1 = 0.20 urban1 = 0.20 notables1 = 0.20
+															rural0 = 0.73 urban0 = 0.75 notables0 = 0.75
+											religion1 = 18 rural1 = 0.20 urban1 = 0.20 notables1 = 0.20
 											religion2 = 11 rural2 = 0.05 urban2 = 0.00 notables2 = 0.00
-											religion3 = 42 rural3 = 0.02 urban3 = 0.05 notables3 = 0.05
+											religion3 = 38 rural3 = 0.02 urban3 = 0.05 notables3 = 0.05
 										}
 									}
 									else = {
 										MN_StartUpProv = {
-											rural0 = 0.83 urban0 = 0.85 notables0 = 0.85
-											religion1 = 22 rural1 = 0.10 urban1 = 0.10 notables1 = 0.10
+															rural0 = 0.83 urban0 = 0.85 notables0 = 0.85
+											religion1 = 18 rural1 = 0.10 urban1 = 0.10 notables1 = 0.10
 											religion2 = 11 rural2 = 0.05 urban2 = 0.00 notables2 = 0.00
-											religion3 = 42 rural3 = 0.02 urban3 = 0.05 notables3 = 0.05
+											religion3 = 38 rural3 = 0.02 urban3 = 0.05 notables3 = 0.05
 										}
 									}
 								}
@@ -1109,62 +1145,20 @@ country_event = {
 									if = {
 										limit = { any_neighbor_province = { religion = sunni } }
 										MN_StartUpProv = {
-											rural0 = 0.73 urban0 = 0.75 notables0 = 0.75
-											religion1 = 22 rural1 = 0.20 urban1 = 0.20 notables1 = 0.20
+															rural0 = 0.73 urban0 = 0.75 notables0 = 0.75
+											religion1 = 18 rural1 = 0.20 urban1 = 0.20 notables1 = 0.20
 											religion2 = 11 rural2 = 0.05 urban2 = 0.00 notables2 = 0.00
-											religion3 = 42 rural3 = 0.02 urban3 = 0.05 notables3 = 0.05
+											religion3 = 38 rural3 = 0.02 urban3 = 0.05 notables3 = 0.05
 										}
 									}
 									else = {
 										MN_StartUpProv = {
-											rural0 = 0.83 urban0 = 0.85 notables0 = 0.85
-											religion1 = 22 rural1 = 0.10 urban1 = 0.10 notables1 = 0.10
+															rural0 = 0.83 urban0 = 0.85 notables0 = 0.85
+											religion1 = 18 rural1 = 0.10 urban1 = 0.10 notables1 = 0.10
 											religion2 = 11 rural2 = 0.05 urban2 = 0.00 notables2 = 0.00
-											religion3 = 42 rural3 = 0.02 urban3 = 0.05 notables3 = 0.05
+											religion3 = 38 rural3 = 0.02 urban3 = 0.05 notables3 = 0.05
 										}
 									}
-								}
-							}
-						}
-						#Atlantis	
-						else_if = {
-							limit = { superregion = atlantis_superregion }
-							if = {
-								limit = { religion = sunni any_neighbor_province = { religion = catholic } }
-								MN_StartUpProv = {
-									rural0 = 0.74 urban0 = 0.66 notables0 = 0.51
-									religion1 = 01 rural1 = 0.23 urban1 = 0.20 notables1 = 0.44
-									religion2 = 42 rural2 = 0.03 urban2 = 0.14 notables2 = 0.05
-								}
-							}
-							else_if = {
-								limit = { religion = sunni any_neighbor_province = { religion = chalcedonism } }
-								MN_StartUpProv = {
-									rural0 = 0.85 urban0 = 0.85 notables0 = 0.95
-									religion1 = 10 rural1 = 0.15 urban1 = 0.10 notables1 = 0.03
-									religion2 = 42 rural2 = 0.0 urban2 = 0.05 notables2 = 0.02
-								}
-							}
-							else_if = {
-								limit = { province_id = 5530 }
-								MN_StartUpProv = {
-									rural0 = 0.70 urban0 = 0.6 notables0 = 0.75
-									religion1 = 10 rural1 = 0.2 urban1 = 0.10 notables1 = 0.05
-									religion2 = 42 rural2 = 0.1 urban2 = 0.30 notables2 = 0.2
-								}
-							}
-							else_if = {
-								limit = { religion = sunni any_neighbor_province = { religion = animism } }
-								MN_StartUpProv = {
-									rural0 = 0.60 urban0 = 0.80 notables0 = 1
-									religion1 = 61 rural1 = 0.35 urban1 = 0.05 notables1 = 0.0
-									religion2 = 42 rural2 = 0.05 urban2 = 0.15 notables2 = 0.0
-								}
-							}
-							else = {
-								MN_StartUpProv = {
-									rural0 = 1.00 urban0 = 0.98 notables0 = 0.95
-									religion1 = 42 rural1 = 0.00 urban1 = 0.02 notables1 = 0.05
 								}
 							}
 						}
@@ -1172,25 +1166,45 @@ country_event = {
 						else_if = {
 							limit = { superregion = greater_russia_superregion }
 							if = {
-								limit = { province_id = 1307 }
+								limit = { owned_by = BLU }
 								MN_StartUpProv = {
-									rural0 = 0.75 urban0 = 0.85 notables0 = 1.00
-									religion1 = 67 rural1 = 0.15 urban1 = 0.10 notables1 = 0.00
-									religion2 = 9  rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
+													rural0 = 0.50 urban0 = 0.70 notables0 = 0.70
+									religion1 = 77 rural1 = 0.50 urban1 = 0.50 notables1 = 0.30
 								}
 							}
 							else_if = {
-								limit = { any_neighbor_province = { religion = tengri_pagan_reformed } }
+								limit = { OR = { province_id = 1293 province_id = 1310 } }
 								MN_StartUpProv = {
-									rural0 = 0.85 urban0 = 0.90 notables0 = 1.00
-									religion1 = 67 rural1 = 0.15 urban1 = 0.10 notables1 = 0.00
+													rural0 = 0.95 urban0 = 0.95 notables0 = 0.98
+									religion1 = 77 rural1 = 0.05 urban1 = 0.05 notables1 = 0.02
+								}
+							}
+							else_if = {
+								limit = { OR = { province_id = 1307 province_id = 1311 province_id = 4016 } }
+								MN_StartUpProv = {
+													rural0 = 0.95 urban0 = 0.95 notables0 = 0.98
+									religion1 = 77 rural1 = 0.05 urban1 = 0.05 notables1 = 0.02
+								}
+							}
+							if = {
+								limit = { owned_by = WHI }
+								MN_StartUpProv = {
+													rural0 = 0.75 urban0 = 0.75 notables0 = 0.90
+									religion1 = 77 rural1 = 0.25 urban1 = 0.25 notables1 = 0.10
+								}
+							}
+							else_if = {
+								limit = { any_neighbor_province = { religion = tengri_pagan } }
+								MN_StartUpProv = {
+													rural0 = 0.85 urban0 = 0.90 notables0 = 1.00
+									religion1 = 77 rural1 = 0.15 urban1 = 0.10 notables1 = 0.00
 								}
 							}
 							else_if = {
 								limit = { OR = { province_id = 284 province_id = 4019 } }
 								MN_StartUpProv = {
-									rural0 = 0.98 urban0 = 0.90 notables0 = 0.90
-									religion2 = 42 rural2 = 0.02 urban2 = 0.10 notables2 = 0.10
+													rural0 = 0.98 urban0 = 0.90 notables0 = 0.90
+									religion1 = 38 rural1 = 0.02 urban1 = 0.10 notables1 = 0.10
 								}
 							}
 							else_if = {
@@ -1198,14 +1212,14 @@ country_event = {
 								if = {
 									limit = { OR = { area = zaporizhia_area area = crimea_area area = sloboda_ukraine_area } }
 									MN_StartUpProv = {
-										rural0 = 0.89 urban0 = 0.90 notables0 = 0.95
+														rural0 = 0.89 urban0 = 0.90 notables0 = 0.95
 										religion1 = 9  rural1 = 0.10 urban1 = 0.05 notables1 = 0.00
-										religion2 = 42 rural2 = 0.01 urban2 = 0.05 notables2 = 0.05
+										religion2 = 38 rural2 = 0.01 urban2 = 0.05 notables2 = 0.05
 									}
 								}
 								else = {
 									MN_StartUpProv = {
-										rural0 = 0.90 urban0 = 0.95 notables0 = 1.00
+														rural0 = 0.90 urban0 = 0.95 notables0 = 1.00
 										religion1 = 9  rural1 = 0.10 urban1 = 0.05 notables1 = 0.00
 									}
 								}
@@ -1217,8 +1231,8 @@ country_event = {
 							if = {
 								limit = { OR = { region = east_maghreb_region region = central_maghreb_region region = west_maghreb_region } }
 								MN_StartUpProv = {
-									rural0 = 0.95 urban0 = 0.90 notables0 = 0.90
-									religion1 = 42 rural1 = 0.05 urban1 = 0.10 notables1 = 0.10
+													rural0 = 0.95 urban0 = 0.90 notables0 = 0.90
+									religion1 = 38 rural1 = 0.05 urban1 = 0.10 notables1 = 0.10
 								}
 							}
 							else_if = {
@@ -1226,23 +1240,23 @@ country_event = {
 								if = {
 									limit = { religion = ibadi }
 									MN_StartUpProv = {
-										rural0 = 0.55 urban0 = 0.60 notables0 = 0.65
-										religion1 = 22 rural1 = 0.40 urban1 = 0.30 notables1 = 0.25
-										religion2 = 42 rural2 = 0.05 urban2 = 0.10 notables2 = 0.10
+														rural0 = 0.55 urban0 = 0.60 notables0 = 0.65
+										religion1 = 18 rural1 = 0.40 urban1 = 0.30 notables1 = 0.25
+										religion2 = 38 rural2 = 0.05 urban2 = 0.10 notables2 = 0.10
 									}
 								}
 								else = {
 									MN_StartUpProv = {
-										rural0 = 0.55 urban0 = 0.60 notables0 = 0.65
-										religion1 = 25 rural1 = 0.40 urban1 = 0.30 notables1 = 0.25
-										religion2 = 42 rural2 = 0.05 urban2 = 0.10 notables2 = 0.10
+														rural0 = 0.55 urban0 = 0.60 notables0 = 0.65
+										religion1 = 22 rural1 = 0.40 urban1 = 0.30 notables1 = 0.25
+										religion2 = 38 rural2 = 0.05 urban2 = 0.10 notables2 = 0.10
 									}
 								}
 							}
 							else = {
 								MN_StartUpProv = {
-									rural0 = 0.99 urban0 = 0.98 notables0 = 0.95
-									religion1 = 42 rural1 = 0.01 urban1 = 0.02 notables1 = 0.05
+													rural0 = 0.99 urban0 = 0.98 notables0 = 0.95
+									religion1 = 38 rural1 = 0.01 urban1 = 0.02 notables1 = 0.05
 								}
 							}
 						}
@@ -1251,18 +1265,20 @@ country_event = {
 							if = {
 								limit = { culture_group = armenian }
 								MN_StartUpProv = {
-									rural0 = 0.85 urban0 = 0.80 notables0 = 0.95
-									religion1 = 17 rural1 = 0.10 urban1 = 0.10 notables1 = 0.00
-									religion2 = 42 rural2 = 0.05 urban2 = 0.10 notables2 = 0.05
+													rural0 = 0.85 urban0 = 0.80 notables0 = 0.95
+									religion1 = 15 rural1 = 0.10 urban1 = 0.10 notables1 = 0.00
+									religion2 = 38 rural2 = 0.05 urban2 = 0.10 notables2 = 0.05
 								}
 							}
+							#Caucasus
 							else_if = {
-								limit = { region = south_caucasus_region }
+								limit = { OR = { region = south_caucasus_region region = north_caucasus_region region = crimea_region } }
 								MN_StartUpProv = {
-									rural0 = 0.65 urban0 = 0.75 notables0 = 0.88
+													rural0 = 0.55 urban0 = 0.70 notables0 = 0.88
 									religion1 = 9  rural1 = 0.20 urban1 = 0.10 notables1 = 0.02
 									religion2 = 11 rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
-									religion3 = 42 rural3 = 0.05 urban3 = 0.10 notables3 = 0.10
+									religion3 = 38 rural3 = 0.05 urban3 = 0.10 notables3 = 0.10
+									religion4 = 47 rural4 = 0.10 urban4 = 0.05 notables4 = 0.00
 								}
 							}
 							#Anatolian Greeks
@@ -1271,16 +1287,16 @@ country_event = {
 								if = {
 									limit = { any_neighbor_province = { religion_group = christian } }
 									MN_StartUpProv = {
-										rural0 = 0.58 urban0 = 0.30 notables0 = 0.94
+														rural0 = 0.58 urban0 = 0.30 notables0 = 0.94
 										religion1 = 9  rural1 = 0.40 urban1 = 0.65 notables1 = 0.01
-										religion2 = 42 rural2 = 0.02 urban2 = 0.05 notables2 = 0.05
+										religion2 = 38 rural2 = 0.02 urban2 = 0.05 notables2 = 0.05
 									}
 								}
 								else = {
 									MN_StartUpProv = {
-										rural0 = 0.68 urban0 = 0.55 notables0 = 0.94
+														rural0 = 0.68 urban0 = 0.55 notables0 = 0.94
 										religion1 = 9  rural1 = 0.30 urban1 = 0.40 notables1 = 0.01
-										religion2 = 42 rural2 = 0.02 urban2 = 0.05 notables2 = 0.05
+										religion2 = 38 rural2 = 0.02 urban2 = 0.05 notables2 = 0.05
 									}
 								}
 							}
@@ -1292,18 +1308,18 @@ country_event = {
 								if = {
 									limit = { religion = shiite }
 									MN_StartUpProv = {
-										rural0 = 0.53 urban0 = 0.60 notables0 = 0.65
-										religion1 = 22 rural1 = 0.40 urban1 = 0.35 notables1 = 0.30
-										religion2 = 17 rural2 = 0.05 urban2 = 0.01 notables2 = 0.00
-										religion3 = 42 rural3 = 0.02 urban3 = 0.05 notables3 = 0.05
+														rural0 = 0.53 urban0 = 0.60 notables0 = 0.65
+										religion1 = 18 rural1 = 0.40 urban1 = 0.35 notables1 = 0.30
+										religion2 = 15 rural2 = 0.05 urban2 = 0.01 notables2 = 0.00
+										religion3 = 38 rural3 = 0.02 urban3 = 0.05 notables3 = 0.05
 									}
 								}
 								else = {
 									MN_StartUpProv = {
-										rural0 = 0.83 urban0 = 0.40 notables0 = 0.30
+														rural0 = 0.83 urban0 = 0.40 notables0 = 0.30
 										religion1 = 23 rural1 = 0.10 urban1 = 0.55 notables1 = 0.65
-										religion2 = 17 rural2 = 0.05 urban2 = 0.01 notables2 = 0.00
-										religion3 = 42 rural3 = 0.02 urban3 = 0.05 notables3 = 0.05
+										religion2 = 15 rural2 = 0.05 urban2 = 0.01 notables2 = 0.00
+										religion3 = 38 rural3 = 0.02 urban3 = 0.05 notables3 = 0.05
 									}
 								}
 							}
@@ -1311,24 +1327,34 @@ country_event = {
 								if = {
 									limit = { religion = sunni }
 									if = {
+										limit = { OR = { province_id = 449 province_id = 4030 } }
+										MN_StartUpProv = {
+															rural0 = 0.38 urban0 = 0.42 notables0 = 0.45
+											religion1 = 23 rural1 = 0.33 urban1 = 0.37 notables1 = 0.40
+											religion2 = 36 rural2 = 0.15 urban2 = 0.05 notables2 = 0.04
+											religion3 = 77 rural3 = 0.05 urban3 = 0.01 notables3 = 0.01
+											religion4 = 38 rural4 = 0.05 urban4 = 0.10 notables4 = 0.10
+										}
+									}
+									else_if = {
 										limit = { OR = { any_neighbor_province = { religion = zoroastrian } area = isfahan_area area = iraq_e_ajam_area area = farsistan_area } }
 										if = {
 											limit = { check_key = { lhs = Class_Urban value = 3.0 } }
 											MN_StartUpProv = {
-												rural0 = 0.38 urban0 = 0.40 notables0 = 0.45
+																rural0 = 0.38 urban0 = 0.40 notables0 = 0.45
 												religion1 = 23 rural1 = 0.32 urban1 = 0.35 notables1 = 0.40
-												religion2 = 38 rural2 = 0.15 urban2 = 0.05 notables2 = 0.04
+												religion2 = 36 rural2 = 0.15 urban2 = 0.05 notables2 = 0.04
 												religion3 = 12 rural3 = 0.05 urban3 = 0.10 notables3 = 0.01
-												religion4 = 42 rural4 = 0.05 urban4 = 0.10 notables4 = 0.10
+												religion4 = 38 rural4 = 0.05 urban4 = 0.10 notables4 = 0.10
 											}
 										}
 										else = {
 											MN_StartUpProv = {
-												rural0 = 0.38 urban0 = 0.42 notables0 = 0.45
+																rural0 = 0.38 urban0 = 0.42 notables0 = 0.45
 												religion1 = 23 rural1 = 0.33 urban1 = 0.37 notables1 = 0.40
-												religion2 = 38 rural2 = 0.15 urban2 = 0.05 notables2 = 0.04
+												religion2 = 36 rural2 = 0.15 urban2 = 0.05 notables2 = 0.04
 												religion3 = 12 rural3 = 0.05 urban3 = 0.01 notables3 = 0.01
-												religion4 = 42 rural4 = 0.05 urban4 = 0.10 notables4 = 0.10
+												religion4 = 38 rural4 = 0.05 urban4 = 0.10 notables4 = 0.10
 											}
 										}
 									}
@@ -1336,18 +1362,18 @@ country_event = {
 										if = {
 											limit = { OR = { province_id = 445 check_key = { lhs = Class_Urban value = 3.0 } } }
 											MN_StartUpProv = {
-												rural0 = 0.49 urban0 = 0.48 notables0 = 0.50
+																rural0 = 0.49 urban0 = 0.48 notables0 = 0.50
 												religion1 = 23 rural1 = 0.39 urban1 = 0.37 notables1 = 0.44
 												religion2 = 12 rural2 = 0.10 urban2 = 0.10 notables2 = 0.01
-												religion3 = 42 rural3 = 0.02 urban3 = 0.05 notables3 = 0.05
+												religion3 = 38 rural3 = 0.02 urban3 = 0.05 notables3 = 0.05
 											}
 										}
 										else = {
 											MN_StartUpProv = {
-												rural0 = 0.49 urban0 = 0.52 notables0 = 0.50
+																rural0 = 0.49 urban0 = 0.52 notables0 = 0.50
 												religion1 = 23 rural1 = 0.39 urban1 = 0.42 notables1 = 0.44
 												religion2 = 12 rural2 = 0.10 urban2 = 0.01 notables2 = 0.01
-												religion3 = 42 rural3 = 0.02 urban3 = 0.05 notables3 = 0.05
+												religion3 = 38 rural3 = 0.02 urban3 = 0.05 notables3 = 0.05
 											}
 										}
 									}
@@ -1359,20 +1385,20 @@ country_event = {
 										if = {
 											limit = { check_key = { lhs = Class_Urban value = 3.0 } }
 											MN_StartUpProv = {
-												rural0 = 0.38 urban0 = 0.40 notables0 = 0.45
-												religion1 = 22 rural1 = 0.32 urban1 = 0.35 notables1 = 0.40
-												religion2 = 38 rural2 = 0.15 urban2 = 0.05 notables2 = 0.04
+																rural0 = 0.38 urban0 = 0.40 notables0 = 0.45
+												religion1 = 18 rural1 = 0.32 urban1 = 0.35 notables1 = 0.40
+												religion2 = 36 rural2 = 0.15 urban2 = 0.05 notables2 = 0.04
 												religion3 = 12 rural3 = 0.05 urban3 = 0.10 notables3 = 0.01
-												religion4 = 42 rural4 = 0.05 urban4 = 0.10 notables4 = 0.10
+												religion4 = 38 rural4 = 0.05 urban4 = 0.10 notables4 = 0.10
 											}
 										}
 										else = {
 											MN_StartUpProv = {
-												rural0 = 0.38 urban0 = 0.42 notables0 = 0.45
-												religion1 = 22 rural1 = 0.33 urban1 = 0.37 notables1 = 0.40
-												religion2 = 38 rural2 = 0.15 urban2 = 0.05 notables2 = 0.04
+																rural0 = 0.38 urban0 = 0.42 notables0 = 0.45
+												religion1 = 18 rural1 = 0.33 urban1 = 0.37 notables1 = 0.40
+												religion2 = 36 rural2 = 0.15 urban2 = 0.05 notables2 = 0.04
 												religion3 = 12 rural3 = 0.05 urban3 = 0.01 notables3 = 0.01
-												religion4 = 42 rural4 = 0.05 urban4 = 0.10 notables4 = 0.10
+												religion4 = 38 rural4 = 0.05 urban4 = 0.10 notables4 = 0.10
 											}
 										}
 									}
@@ -1380,18 +1406,18 @@ country_event = {
 										if = {
 											limit = { check_key = { lhs = Class_Urban value = 3.0 } }
 											MN_StartUpProv = {
-												rural0 = 0.49 urban0 = 0.48 notables0 = 0.50
-												religion1 = 22 rural1 = 0.39 urban1 = 0.37 notables1 = 0.44
+																rural0 = 0.49 urban0 = 0.48 notables0 = 0.50
+												religion1 = 18 rural1 = 0.39 urban1 = 0.37 notables1 = 0.44
 												religion2 = 12 rural2 = 0.10 urban2 = 0.10 notables2 = 0.01
-												religion3 = 42 rural3 = 0.02 urban3 = 0.05 notables3 = 0.05
+												religion3 = 38 rural3 = 0.02 urban3 = 0.05 notables3 = 0.05
 											}
 										}
 										else = {
 											MN_StartUpProv = {
-												rural0 = 0.49 urban0 = 0.52 notables0 = 0.50
-												religion1 = 22 rural1 = 0.39 urban1 = 0.42 notables1 = 0.44
+																rural0 = 0.49 urban0 = 0.52 notables0 = 0.50
+												religion1 = 18 rural1 = 0.39 urban1 = 0.42 notables1 = 0.44
 												religion2 = 12 rural2 = 0.10 urban2 = 0.01 notables2 = 0.01
-												religion3 = 42 rural3 = 0.02 urban3 = 0.05 notables3 = 0.05
+												religion3 = 38 rural3 = 0.02 urban3 = 0.05 notables3 = 0.05
 											}
 										}
 									}
@@ -1405,16 +1431,16 @@ country_event = {
 								if = {
 									limit = { any_neighbor_province = { religion = jewish } }
 									MN_StartUpProv = {
-										rural0 = 0.55 urban0 = 0.70 notables0 = 0.90
+														rural0 = 0.55 urban0 = 0.70 notables0 = 0.90
 										religion1 = 11 rural1 = 0.20 urban1 = 0.10 notables1 = 0.01
-										religion2 = 42 rural2 = 0.25 urban2 = 0.20 notables2 = 0.09
+										religion2 = 38 rural2 = 0.25 urban2 = 0.20 notables2 = 0.09
 									}
 								}
 								else = {
 									MN_StartUpProv = {
-										rural0 = 0.70 urban0 = 0.80 notables0 = 0.90
+														rural0 = 0.70 urban0 = 0.80 notables0 = 0.90
 										religion1 = 11 rural1 = 0.25 urban1 = 0.10 notables1 = 0.01
-										religion2 = 42 rural2 = 0.05 urban2 = 0.10 notables2 = 0.09
+										religion2 = 38 rural2 = 0.05 urban2 = 0.10 notables2 = 0.09
 									}
 								}
 							}
@@ -1423,73 +1449,103 @@ country_event = {
 								if = {
 									limit = { any_neighbor_province = { religion = jewish } }
 									MN_StartUpProv = {
-										rural0 = 0.65 urban0 = 0.75 notables0 = 0.90
+														rural0 = 0.65 urban0 = 0.75 notables0 = 0.90
 										religion1 = 11 rural1 = 0.10 urban1 = 0.05 notables1 = 0.01
-										religion2 = 42 rural2 = 0.25 urban2 = 0.20 notables2 = 0.09
+										religion2 = 38 rural2 = 0.25 urban2 = 0.20 notables2 = 0.09
 									}
 								}
 								else = {
 									MN_StartUpProv = {
-										rural0 = 0.85 urban0 = 0.85 notables0 = 0.90
+														rural0 = 0.85 urban0 = 0.85 notables0 = 0.90
 										religion1 = 11 rural1 = 0.10 urban1 = 0.05 notables1 = 0.01
-										religion2 = 42 rural2 = 0.05 urban2 = 0.10 notables2 = 0.09
+										religion2 = 38 rural2 = 0.05 urban2 = 0.10 notables2 = 0.09
 									}
 								}
 							}
 							else_if = {
 								limit = { region = somalia_region }
 								MN_StartUpProv = {
-									rural0 = 0.90 urban0 = 0.95 notables0 = 0.99
+													rural0 = 0.90 urban0 = 0.95 notables0 = 0.99
 									religion1 = 11 rural1 = 0.10 urban1 = 0.05 notables1 = 0.01
 								}
 							}
 							else_if = {
-								limit = { region = sudan_region }
+								limit = { region = ogo_region }
 								MN_StartUpProv = {
-									rural0 = 0.63 urban0 = 0.80 notables0 = 0.94
+													rural0 = 0.90 urban0 = 0.95 notables0 = 0.99
+									religion1 = 11 rural1 = 0.10 urban1 = 0.05 notables1 = 0.01
+								}
+							}
+							else_if = {
+								limit = { area = lower_nubia_area }
+								MN_StartUpProv = {
+													rural0 = 0.63 urban0 = 0.80 notables0 = 0.94
 									religion1 = 11 rural1 = 0.25 urban1 = 0.10 notables1 = 0.01
-									religion2 = 61 rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
-									religion3 = 42 rural3 = 0.02 urban3 = 0.05 notables3 = 0.05
+									religion2 = 64 rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
+									religion3 = 38 rural3 = 0.02 urban3 = 0.05 notables3 = 0.05
 								}
 							}
 							else_if = {
 								limit = { OR = { region = east_africa_region region = south_africa_region } }
 								MN_StartUpProv = {
-									rural0 = 0.88 urban0 = 0.90 notables0 = 0.94
-									religion1 = 61 rural1 = 0.25 urban1 = 0.10 notables1 = 0.01
-									religion2 = 42 rural2 = 0.02 urban2 = 0.05 notables2 = 0.05
+													rural0 = 0.88 urban0 = 0.90 notables0 = 0.94
+									religion1 = 64 rural1 = 0.25 urban1 = 0.10 notables1 = 0.01
+									religion2 = 38 rural2 = 0.02 urban2 = 0.05 notables2 = 0.05
+								}
+							}
+						}
+						else_if = {
+							limit = { superregion = west_africa_superregion }
+							if = {
+								limit = { OR = { area = baggara_area area = chari_area area = east_chad_area } }
+								MN_StartUpProv = {
+													rural0 = 0.50 urban0 = 0.75 notables0 = 0.90
+									religion1 = 66 rural1 = 0.50 urban1 = 0.25 notables1 = 0.10
+								}
+							}
+							else_if = {
+								limit = { OR = { region = chad_region region = niber_benue_region } }
+								MN_StartUpProv = {
+													rural0 = 0.50 urban0 = 0.75 notables0 = 0.90
+									religion1 = 61 rural1 = 0.50 urban1 = 0.25 notables1 = 0.10
+								}
+							}
+							else = {
+								MN_StartUpProv = {
+													rural0 = 0.50 urban0 = 0.75 notables0 = 0.90
+									religion1 = 63 rural1 = 0.50 urban1 = 0.25 notables1 = 0.10
 								}
 							}
 						}
 						else_if = {
 							limit = { OR = { superregion = siberia_superregion superregion = central_asia_superregion } }
 							if = {
-								limit = { any_neighbor_province = { religion = tengri_pagan_reformed } }
+								limit = { any_neighbor_province = { religion = tengri_pagan } }
 								MN_StartUpProv = {
-									rural0 = 0.75 urban0 = 0.90 notables0 = 1.00
-									religion1 = 67 rural1 = 0.25 urban1 = 0.10 notables1 = 0.00
+													rural0 = 0.75 urban0 = 0.90 notables0 = 1.00
+									religion1 = 77 rural1 = 0.25 urban1 = 0.10 notables1 = 0.00
 								}
 							}
 							else_if = {
 								limit = { OR = { province_id = 436 province_id = 457 } }
 								MN_StartUpProv = {
-									rural0 = 0.89 urban0 = 0.88 notables0 = 0.80
-									religion1 = 67 rural1 = 0.10 urban1 = 0.05 notables1 = 0.00
-									religion2 = 42 rural2 = 0.01 urban2 = 0.07 notables2 = 0.20
+													rural0 = 0.89 urban0 = 0.88 notables0 = 0.80
+									religion1 = 77 rural1 = 0.10 urban1 = 0.05 notables1 = 0.00
+									religion2 = 38 rural2 = 0.01 urban2 = 0.07 notables2 = 0.20
 								}
 							}
 							else_if = {
 								limit = { check_key = { lhs = Class_Urban value = 3.0 } }
 								MN_StartUpProv = {
-									rural0 = 0.89 urban0 = 0.94 notables0 = 0.95
-									religion1 = 67 rural1 = 0.10 urban1 = 0.05 notables1 = 0.00
-									religion2 = 42 rural2 = 0.01 urban2 = 0.01 notables2 = 0.05
+													rural0 = 0.89 urban0 = 0.94 notables0 = 0.95
+									religion1 = 77 rural1 = 0.10 urban1 = 0.05 notables1 = 0.00
+									religion2 = 38 rural2 = 0.01 urban2 = 0.01 notables2 = 0.05
 								}
 							}
 							else = {
 								MN_StartUpProv = {
-									rural0 = 0.90 urban0 = 0.95 notables0 = 1.00
-									religion1 = 67 rural1 = 0.10 urban1 = 0.05 notables1 = 0.00
+													rural0 = 0.90 urban0 = 0.95 notables0 = 1.00
+									religion1 = 77 rural1 = 0.10 urban1 = 0.05 notables1 = 0.00
 								}
 							}
 						}
@@ -1501,27 +1557,27 @@ country_event = {
 								if = {
 									limit = { religion = shiite }
 									MN_StartUpProv = {
-										rural0 = 0.53 urban0 = 0.30 notables0 = 0.10
-										religion1 = 22 rural1 = 0.30 urban1 = 0.60 notables1 = 0.84
-										religion2 = 35 rural2 = 0.10 urban2 = 0.10 notables2 = 0.01
-										religion3 = 42 rural3 = 0.02 urban3 = 0.05 notables3 = 0.05
+														rural0 = 0.53 urban0 = 0.30 notables0 = 0.10
+										religion1 = 18 rural1 = 0.30 urban1 = 0.60 notables1 = 0.84
+										religion2 = 32 rural2 = 0.10 urban2 = 0.10 notables2 = 0.01
+										religion3 = 38 rural3 = 0.02 urban3 = 0.05 notables3 = 0.05
 									}
 								}
 								else_if = {
 									limit = { any_neighbor_province = { religion = hinduism } }
 									MN_StartUpProv = {
-										rural0 = 0.68 urban0 = 0.80 notables0 = 0.90
-										religion1 = 35 rural1 = 0.20 urban1 = 0.10 notables1 = 0.05
-										religion2 = 38 rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
-										religion3 = 42 rural3 = 0.02 urban3 = 0.05 notables3 = 0.05
+														rural0 = 0.68 urban0 = 0.80 notables0 = 0.90
+										religion1 = 32 rural1 = 0.20 urban1 = 0.10 notables1 = 0.05
+										religion2 = 34 rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
+										religion3 = 38 rural3 = 0.02 urban3 = 0.05 notables3 = 0.05
 									}
 								}
 								else = {
 									MN_StartUpProv = {
-										rural0 = 0.78 urban0 = 0.80 notables0 = 0.94
-										religion1 = 35 rural1 = 0.10 urban1 = 0.10 notables1 = 0.01
-										religion2 = 38 rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
-										religion3 = 42 rural3 = 0.02 urban3 = 0.05 notables3 = 0.05
+														rural0 = 0.78 urban0 = 0.80 notables0 = 0.94
+										religion1 = 32 rural1 = 0.10 urban1 = 0.10 notables1 = 0.01
+										religion2 = 34 rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
+										religion3 = 38 rural3 = 0.02 urban3 = 0.05 notables3 = 0.05
 									}
 								}
 							}
@@ -1529,15 +1585,15 @@ country_event = {
 								if = {
 									limit = { OR = { area = maharashtra_area area = north_kerala_area } }
 									MN_StartUpProv = {
-										rural0 = 0.68 urban0 = 0.80 notables0 = 0.90
-										religion1 = 35 rural1 = 0.30 urban1 = 0.15 notables1 = 0.05
-										religion2 = 42 rural2 = 0.02 urban2 = 0.05 notables2 = 0.05
+														rural0 = 0.68 urban0 = 0.80 notables0 = 0.90
+										religion1 = 32 rural1 = 0.30 urban1 = 0.15 notables1 = 0.05
+										religion2 = 38 rural2 = 0.02 urban2 = 0.05 notables2 = 0.05
 									}
 								}
 								else = {
 									MN_StartUpProv = {
-										rural0 = 0.70 urban0 = 0.85 notables0 = 0.95
-										religion1 = 35 rural1 = 0.30 urban1 = 0.15 notables1 = 0.05
+														rural0 = 0.70 urban0 = 0.85 notables0 = 0.95
+										religion1 = 32 rural1 = 0.30 urban1 = 0.15 notables1 = 0.05
 									}
 								}
 							}
@@ -1546,152 +1602,206 @@ country_event = {
 					}
 					taoic = {
 						if = {
-							limit = { religion = confucianism }
-							#Chaldean church of China
+							limit = { religion = vajrayana }
 							if = {
-								limit = { OR = { province_id = 708 province_id = 2252 } }
+								limit = { culture_group = tibetic }
 								MN_StartUpProv = {
-									rural0 = 0.50 urban0 = 0.35 notables0 = 0.80
-									religion1 = 33 rural1 = 0.40 urban1 = 0.25 notables1 = 0.20
-									religion2 = 12 rural2 = 0.00 urban2 = 0.20 notables2 = 0.00
-									religion3 = 22 rural3 = 0.00 urban3 = 0.20 notables3 = 0.00
-								}
-							}
-							#Muslim minorities
-							else_if = {
-								limit = { region = yunnan_region }
-								if = {
-									limit = { check_key = { lhs = Class_Urban value = 3.0 } }
-									MN_StartUpProv = {
-										rural0 = 0.50 urban0 = 0.20 notables0 = 0.25
-										religion1 = 33 rural1 = 0.40 urban1 = 0.25 notables1 = 0.20
-										religion2 = 61 rural2 = 0.10 urban2 = 0.35 notables2 = 0.55
-										religion3 = 22 rural3 = 0.00 urban3 = 0.20 notables3 = 0.00
-									}
-								}
-								else = {
-									MN_StartUpProv = {
-										rural0 = 0.50 urban0 = 0.35 notables0 = 0.45
-										religion1 = 33 rural1 = 0.40 urban1 = 0.25 notables1 = 0.20
-										religion2 = 61 rural2 = 0.10 urban2 = 0.40 notables2 = 0.35
-									}
-								}
-							}
-							else_if = {
-								limit = { has_port = yes check_key = { lhs = Class_Urban value = 5.0 } }
-								MN_StartUpProv = {
-									rural0 = 0.59 urban0 = 0.45 notables0 = 0.80
-									religion1 = 33 rural1 = 0.40 urban1 = 0.25 notables1 = 0.20
-									religion2 = 22 rural2 = 0.01 urban2 = 0.30 notables2 = 0.00
-								}
-							}
-							else_if = {
-								limit = { any_neighbor_province = { culture_group = altaic } }
-								MN_StartUpProv = {
-									rural0 = 0.45 urban0 = 0.65 notables0 = 0.80
-									religion1 = 33 rural1 = 0.40 urban1 = 0.25 notables1 = 0.20
-									religion2 = 22 rural2 = 0.15 urban2 = 0.10 notables2 = 0.00
-								}
-							}
-							else = {
-								MN_StartUpProv = {
-									rural0 = 0.55 urban0 = 0.70 notables0 = 0.80
-									religion1 = 33 rural1 = 0.45 urban1 = 0.30 notables1 = 0.20
+													rural0 = 0.75 urban0 = 0.80 notables0 = 0.90
+									religion1 = 73 rural1 = 0.25 urban1 = 0.10 notables1 = 0.05
+									religion2 = 29 rural2 = 0.00 urban2 = 0.10 notables2 = 0.03
+									religion3 = 32 rural3 = 0.00 urban3 = 0.00 notables3 = 0.02
 								}
 							}
 						}
 						else_if = {
 							limit = { religion = mahayana }
 							if = {
-								limit = { culture = old_uyghur }
+								limit = { owner = { religion = confucianism } }
+								#Chaldean church of China
 								if = {
-									limit = { owner = { religion = sunni } }
+									limit = { OR = { province_id = 708 province_id = 2252 } }
 									MN_StartUpProv = {
-										rural0 = 0.55 urban0 = 0.35 notables0 = 0.20
-										religion1 = 22 rural1 = 0.45 urban1 = 0.65 notables1 = 0.80
+														rural0 = 1.00 urban0 = 0.60 notables0 = 0.25
+										religion1 = 31 rural1 = 0.00 urban1 = 0.00 notables1 = 0.75
+										religion2 = 12 rural2 = 0.00 urban2 = 0.20 notables2 = 0.00
+										religion3 = 18 rural3 = 0.00 urban3 = 0.20 notables3 = 0.00
 									}
 								}
-								else = {
+								else_if = {
+									limit = { OR = { region = zungaria_region province_id = 2119 province_id = 2257 } }
 									MN_StartUpProv = {
-										rural0 = 0.7 urban0 = 0.75 notables0 = 0.90
-										religion1 = 34 rural1 = 0.20 urban1 = 0.15 notables1 = 0.05
-										religion2 = 22 rural2 = 0.10 urban2 = 0.10 notables2 = 0.05
+														rural0 = 0.50 urban0 = 0.25 notables0 = 0.10
+										religion1 = 28 rural1 = 0.25 urban1 = 0.50 notables1 = 0.10
+										religion2 = 18 rural2 = 0.25 urban2 = 0.25 notables2 = 0.05
+										religion3 = 31 rural3 = 0.00 urban3 = 0.00 notables3 = 0.75
 									}
 								}
-							}
-							else_if = {
-								limit = { 
-									OR = {
-										province_id = 2742
-										area = hami_area
-									}
-								}
-								MN_StartUpProv = {
-									rural0 = 0.5 urban0 = 0.65 notables0 = 0.75
-									religion1 = 67 rural1 = 0.45 urban1 = 0.3 notables1 = 0.20
-									religion2 = 22 rural2 = 0.05 urban2 = 0.10 notables2 = 0.05
-								}
-							}
-							else_if = {
-								limit = { culture = jurcen }
-								MN_StartUpProv = {
-									rural0 = 0.5 urban0 = 0.8 notables0 = 0.80
-									religion1 = 67 rural1 = 0.40 urban1 = 0.15 notables1 = 0.15
-									religion2 = 34 rural2 = 0.10 urban2 = 0.05 notables2 = 0.05
-								}
-							}
-							else_if = {
-								limit = { culture = hulun }
-								if = {
-									limit = { superregion = korea_superregion }
-									MN_StartUpProv = {
-										rural0 = 0.45 urban0 = 0.60 notables0 = 0.70
-										religion1 = 65 rural1 = 0.20 urban1 = 0.25 notables1 = 0.05
-										religion2 = 67 rural2 = 0.20 urban2 = 0.05 notables2 = 0.05
-										religion3 = 32 rural3 = 0.10 urban3 = 0.05 notables3 = 0.05
-										religion4 = 34 rural4 = 0.05 urban4 = 0.05 notables4 = 0.05
-									}
-								}
-								else = {
-									MN_StartUpProv = {
-										rural0 = 0.45 urban0 = 0.65 notables0 = 0.50
-										religion1 = 67 rural1 = 0.4 urban1 = 0.25 notables1 = 0.45
-										religion2 = 34 rural2 = 0.15 urban2 = 0.1 notables2 = 0.05
-									}
-								}
-							}
-							else_if = {
-								limit = { owner = { religion = sunni } }
-								MN_StartUpProv = {
-									rural0 = 0.85 urban0 = 0.40 notables0 = 0.20
-									religion1 = 22 rural1 = 0.15 urban1 = 0.60 notables1 = 0.80
-								}
-							}
-							else_if = {
-								limit = { owner = { religion = vajrayana } }
-								MN_StartUpProv = {
-									rural0 = 0.85 urban0 = 0.40 notables0 = 0.20
-									religion1 = 34 rural1 = 0.15 urban1 = 0.60 notables1 = 0.80
-								}
-							}
-							else_if = {
-								limit = { owner = { religion = mahayana } }
-								if = {
-									limit = { superregion = korea_superregion }
+								#Muslim minorities
+								else_if = {
+									limit = { region = yunnan_region }
 									if = {
-										limit = { any_neighbor_province = { culture_group = jurchen_group } }
+										limit = { check_key = { lhs = Class_Urban value = 3.0 } }
 										MN_StartUpProv = {
-											rural0 = 0.45 urban0 = 0.50 notables0 = 0.70
-											religion1 = 32 rural1 = 0.30 urban1 = 0.25 notables1 = 0.20
-											religion2 = 65 rural2 = 0.20 urban2 = 0.15 notables2 = 0.05
-											religion3 = 67 rural3 = 0.10 urban3 = 0.05 notables3 = 0.05
+															rural0 = 0.50 urban0 = 0.20 notables0 = 0.10
+											religion1 = 28 rural1 = 0.40 urban1 = 0.25 notables1 = 0.10
+											religion2 = 76 rural2 = 0.10 urban2 = 0.35 notables2 = 0.05
+											religion3 = 18 rural3 = 0.00 urban3 = 0.20 notables3 = 0.00
+											religion4 = 31 rural4 = 0.00 urban4 = 0.00 notables4 = 0.75
 										}
 									}
 									else = {
 										MN_StartUpProv = {
-											rural0 = 0.45 urban0 = 0.65 notables0 = 0.70
-											religion1 = 32 rural1 = 0.35 urban1 = 0.30 notables1 = 0.20
-											religion2 = 65 rural2 = 0.20 urban2 = 0.05 notables2 = 0.10
+															rural0 = 0.50 urban0 = 0.35 notables0 = 0.10
+											religion1 = 28 rural1 = 0.40 urban1 = 0.25 notables1 = 0.10
+											religion2 = 76 rural2 = 0.10 urban2 = 0.40 notables2 = 0.05
+											religion3 = 31 rural3 = 0.00 urban3 = 0.00 notables3 = 0.75
+										}
+									}
+								}
+								else_if = {
+									limit = { has_port = yes check_key = { lhs = Class_Urban value = 5.0 } }
+									MN_StartUpProv = {
+														rural0 = 0.99 urban0 = 0.70 notables0 = 0.25
+										religion1 = 31 rural1 = 0.00 urban1 = 0.00 notables1 = 0.75
+										religion2 = 18 rural2 = 0.01 urban2 = 0.30 notables2 = 0.00
+									}
+								}
+								else_if = {
+									limit = { any_neighbor_province = { culture_group = altaic } }
+									MN_StartUpProv = {
+														rural0 = 0.95 urban0 = 0.80 notables0 = 0.25
+										religion1 = 31 rural1 = 0.00 urban1 = 0.00 notables1 = 0.75
+										religion2 = 18 rural2 = 0.05 urban2 = 0.20 notables2 = 0.00
+									}
+								}
+								else_if = {
+									limit = { culture = old_uyghur }
+									if = {
+										limit = { owner = { religion = sunni } }
+										MN_StartUpProv = {
+															rural0 = 0.55 urban0 = 0.35 notables0 = 0.10
+											religion1 = 18 rural1 = 0.45 urban1 = 0.65 notables1 = 0.15
+											religion2 = 31 rural2 = 0.00 urban2 = 0.00 notables2 = 0.75
+										}
+									}
+									else = {
+										MN_StartUpProv = {
+															rural0 = 0.70 urban0 = 0.75 notables0 = 0.15
+											religion1 = 28 rural1 = 0.20 urban1 = 0.15 notables1 = 0.05
+											religion2 = 18 rural2 = 0.10 urban2 = 0.10 notables2 = 0.05
+											religion3 = 31 rural3 = 0.00 urban3 = 0.00 notables3 = 0.75
+										}
+									}
+								}
+								else_if = {
+									limit = { 
+										OR = {
+											province_id = 2742
+											area = hami_area
+										}
+									}
+									MN_StartUpProv = {
+														rural0 = 0.50 urban0 = 0.60 notables0 = 0.15
+										religion1 = 77 rural1 = 0.45 urban1 = 0.20 notables1 = 0.10
+										religion2 = 18 rural2 = 0.05 urban2 = 0.20 notables2 = 0.05
+										religion3 = 31 rural3 = 0.00 urban3 = 0.00 notables3 = 0.70
+									}
+								}
+								else_if = {
+									limit = { region = jiaoliao_region }
+									if = {
+										limit = { any_neighbor_province = { culture_group = altaic } }
+										MN_StartUpProv = {
+															rural0 = 0.75 urban0 = 0.85 notables0 = 0.25
+											religion1 = 31 rural1 = 0.00 urban1 = 0.00 notables1 = 0.75
+											religion2 = 77 rural2 = 0.20 urban2 = 0.05 notables2 = 0.00
+											religion3 = 18 rural3 = 0.05 urban3 = 0.15 notables3 = 0.00
+										}
+									}
+									else_if = {
+										limit = { any_neighbor_province = { culture_group = jurchen_group } }
+										MN_StartUpProv = {
+															rural0 = 0.75 urban0 = 0.85 notables0 = 0.75
+											religion1 = 31 rural1 = 0.00 urban1 = 0.00 notables1 = 0.25
+											religion2 = 78 rural2 = 0.20 urban2 = 0.05 notables2 = 0.00
+											religion3 = 18 rural3 = 0.05 urban3 = 0.15 notables3 = 0.00
+										}
+									}
+									else = {
+										MN_StartUpProv = {
+															rural0 = 0.80 urban0 = 0.95 notables0 = 0.25
+											religion1 = 31 rural1 = 0.00 urban1 = 0.00 notables1 = 0.75
+										}
+									}
+								}
+								else_if = {
+										limit = { region = tibet_region }
+									MN_StartUpProv = {
+														rural0 = 0.65 urban0 = 0.65 notables0 = 0.20
+										religion1 = 28 rural1 = 0.25 urban1 = 0.20 notables1 = 0.05
+										religion2 = 18 rural2 = 0.10 urban2 = 0.15 notables2 = 0.00
+										religion3 = 31 rural3 = 0.00 urban3 = 0.00 notables3 = 0.75
+									}
+								}
+								else_if = {
+									limit = { area = northeast_vietnam_area }
+									MN_StartUpProv = {
+														rural0 = 0.55 urban0 = 0.65 notables0 = 0.15
+										religion1 = 32 rural1 = 0.25 urban1 = 0.20 notables1 = 0.10
+										religion2 = 70 rural2 = 0.20 urban2 = 0.15 notables2 = 0.05
+										religion3 = 31 rural3 = 0.00 urban3 = 0.00 notables3 = 0.70
+									}
+								}
+								else_if = {
+									limit = { area = song_hong_area }
+									MN_StartUpProv = {
+														rural0 = 0.65 urban0 = 0.75 notables0 = 0.20
+										religion1 = 70 rural1 = 0.35 urban1 = 0.25 notables1 = 0.05
+										religion2 = 31 rural2 = 0.00 urban2 = 0.00 notables2 = 0.75
+									}
+								}
+								else_if = {
+									limit = { area = annam_area }
+										MN_StartUpProv = {
+														rural0 = 0.45 urban0 = 0.55 notables0 = 0.35
+										religion1 = 27 rural1 = 0.20 urban1 = 0.15 notables1 = 0.05
+										religion2 = 32 rural2 = 0.20 urban2 = 0.15 notables2 = 0.05
+										religion3 = 70 rural3 = 0.15 urban3 = 0.10 notables3 = 0.00
+										religion4 = 31 rural4 = 0.00 urban4 = 0.00 notables4 = 0.55
+									}
+								}
+								else = {
+									MN_StartUpProv = {
+														rural0 = 1.00 urban0 = 1.00 notables0 = 0.45
+										religion1 = 31 rural1 = 0.00 urban1 = 0.00 notables1 = 0.55
+									}
+								}
+							}
+							else = {
+								#Chaldean church of China
+								if = {
+									limit = { OR = { province_id = 708 province_id = 2252 } }
+									MN_StartUpProv = {
+														rural0 = 1.00 urban0 = 0.60 notables0 = 0.80
+										religion1 = 31 rural1 = 0.00 urban1 = 0.00 notables1 = 0.20
+										religion2 = 12 rural2 = 0.00 urban2 = 0.20 notables2 = 0.00
+										religion3 = 18 rural3 = 0.00 urban3 = 0.20 notables3 = 0.00
+									}
+								}
+								else_if = {
+									limit = { superregion = korea_superregion }
+									if = {
+										limit = { any_neighbor_province = { culture_group = jurchen_group } }
+										MN_StartUpProv = {
+															rural0 = 0.80 urban0 = 0.90 notables0 = 0.70
+											religion1 = 31 rural1 = 0.00 urban1 = 0.00 notables1 = 0.25
+											religion2 = 78 rural2 = 0.20 urban2 = 0.10 notables2 = 0.05
+										}
+									}
+									else = {
+										MN_StartUpProv = {
+															rural0 = 1.00 urban0 = 1.00 notables0 = 0.75
+											religion1 = 31 rural1 = 0.00 urban1 = 0.00 notables1 = 0.25
 										}
 									}
 								}
@@ -1700,22 +1810,22 @@ country_event = {
 									if = {
 										limit = { region = east_japan_region }
 										MN_StartUpProv = {
-											rural0 = 0.65 urban0 = 0.95 notables0 = 1.00
-											religion1 = 60 rural1 = 0.35 urban1 = 0.05 notables1 = 0.00
+															rural0 = 1.00 urban0 = 1.00 notables0 = 0.90
+											religion1 = 31 rural1 = 0.00 urban1 = 0.00 notables1 = 0.10
 										}
 									}
 									else_if = {
 										limit = { OR = { region = central_japan_region region = west_japan_region } }
 										MN_StartUpProv = {
-											rural0 = 0.85 urban0 = 0.99 notables0 = 1.00
-											religion1 = 60 rural1 = 0.15 urban1 = 0.01 notables1 = 0.00
+															rural0 = 1.00 urban0 = 1.00 notables0 = 0.90
+											religion1 = 31 rural1 = 0.00 urban1 = 0.00 notables1 = 0.10
 										}
 									}
 									else = {
 										MN_StartUpProv = {
-											rural0 = 0.55 urban0 = 0.75 notables0 = 0.80
-											religion1 = 31 rural1 = 0.25 urban1 = 0.20 notables1 = 0.20
-											religion2 = 61 rural2 = 0.20 urban2 = 0.05 notables2 = 0.00
+															rural0 = 0.80 urban0 = 0.95 notables0 = 0.90
+											religion1 = 31 rural1 = 0.00 urban1 = 0.00 notables1 = 0.10
+											religion2 = 70 rural2 = 0.20 urban2 = 0.05 notables2 = 0.00
 										}
 									}
 								}
@@ -1724,183 +1834,223 @@ country_event = {
 									if = {
 										limit = { any_neighbor_province = { culture_group = altaic } }
 										MN_StartUpProv = {
-											rural0 = 0.45 urban0 = 0.55 notables0 = 0.80
-											religion1 = 32 rural1 = 0.30 urban1 = 0.25 notables1 = 0.20
-											religion2 = 67 rural2 = 0.20 urban2 = 0.05 notables2 = 0.00
-											religion3 = 22 rural3 = 0.05 urban3 = 0.15 notables3 = 0.00
+															rural0 = 0.75 urban0 = 0.85 notables0 = 0.80
+											religion1 = 31 rural1 = 0.00 urban1 = 0.00 notables1 = 0.20
+											religion2 = 77 rural2 = 0.20 urban2 = 0.05 notables2 = 0.00
+											religion3 = 18 rural3 = 0.05 urban3 = 0.15 notables3 = 0.00
+										}
+									}
+									else_if = {
+										limit = { any_neighbor_province = { culture_group = jurchen_group } }
+										MN_StartUpProv = {
+															rural0 = 0.75 urban0 = 0.85 notables0 = 0.80
+											religion1 = 31 rural1 = 0.00 urban1 = 0.00 notables1 = 0.20
+											religion2 = 78 rural2 = 0.20 urban2 = 0.05 notables2 = 0.00
+											religion3 = 18 rural3 = 0.05 urban3 = 0.15 notables3 = 0.00
 										}
 									}
 									else = {
 										MN_StartUpProv = {
-											rural0 = 0.45 urban0 = 0.65 notables0 = 0.80
-											religion1 = 32 rural1 = 0.35 urban1 = 0.30 notables1 = 0.20
-											religion2 = 67 rural2 = 0.20 urban2 = 0.05 notables2 = 0.00
+															rural0 = 1.00 urban0 = 1.00 notables0 = 0.80
+											religion1 = 31 rural1 = 0.00 urban1 = 0.00 notables1 = 0.20
 										}
 									}
 								}
 								else_if = {
-									limit = { region = tibet_region }
+										limit = { region = tibet_region }
 									MN_StartUpProv = {
-										rural0 = 0.45 urban0 = 0.60 notables0 = 0.80
-										religion1 = 32 rural1 = 0.25 urban1 = 0.20 notables1 = 0.10
-										religion2 = 34 rural2 = 0.20 urban2 = 0.05 notables2 = 0.10
-										religion3 = 22 rural3 = 0.10 urban3 = 0.15 notables3 = 0.00
-									}
-								}
-								else_if = {
-									limit = { region = yunnan_region }
-									if = {
-										limit = { check_key = { lhs = Class_Urban value = 3.0 } }
-										MN_StartUpProv = {
-											rural0 = 0.50 urban0 = 0.20 notables0 = 0.25
-											religion1 = 31 rural1 = 0.40 urban1 = 0.25 notables1 = 0.20
-											religion2 = 61 rural2 = 0.10 urban2 = 0.35 notables2 = 0.55
-											religion3 = 22 rural3 = 0.00 urban3 = 0.20 notables3 = 0.00
-										}
-									}
-									else = {
-										MN_StartUpProv = {
-											rural0 = 0.50 urban0 = 0.35 notables0 = 0.45
-											religion1 = 31 rural1 = 0.40 urban1 = 0.25 notables1 = 0.20
-											religion2 = 61 rural2 = 0.10 urban2 = 0.40 notables2 = 0.35
-										}
+														rural0 = 0.65 urban0 = 0.65 notables0 = 0.80
+										religion1 = 28 rural1 = 0.25 urban1 = 0.20 notables1 = 0.10
+										religion2 = 18 rural2 = 0.10 urban2 = 0.15 notables2 = 0.00
+										religion3 = 31 rural3 = 0.00 urban3 = 0.00 notables3 = 0.10
 									}
 								}
 								else_if = {
 									limit = { area = northeast_vietnam_area }
 									MN_StartUpProv = {
-										rural0 = 0.55 urban0 = 0.65 notables0 = 0.85
+														rural0 = 0.55 urban0 = 0.65 notables0 = 0.75
 										religion1 = 32 rural1 = 0.25 urban1 = 0.20 notables1 = 0.10
-										religion2 = 61 rural2 = 0.20 urban2 = 0.15 notables2 = 0.05
+										religion2 = 70 rural2 = 0.20 urban2 = 0.15 notables2 = 0.05
+										religion3 = 31 rural3 = 0.00 urban3 = 0.00 notables3 = 0.10
 									}
 								}
 								else_if = {
 									limit = { area = song_hong_area }
 									MN_StartUpProv = {
-										rural0 = 0.65 urban0 = 0.75 notables0 = 0.90
-										religion1 = 61 rural1 = 0.35 urban1 = 0.25 notables1 = 0.10
+														rural0 = 0.65 urban0 = 0.75 notables0 = 0.80
+										religion1 = 70 rural1 = 0.35 urban1 = 0.25 notables1 = 0.10
+										religion2 = 31 rural2 = 0.00 urban2 = 0.00 notables2 = 0.10
 									}
 								}
 								else_if = {
 									limit = { area = annam_area }
+										MN_StartUpProv = {
+														rural0 = 0.45 urban0 = 0.55 notables0 = 0.89
+										religion1 = 27 rural1 = 0.20 urban1 = 0.15 notables1 = 0.05
+										religion2 = 32 rural2 = 0.20 urban2 = 0.15 notables2 = 0.05
+										religion3 = 70 rural3 = 0.15 urban3 = 0.10 notables3 = 0.01
+									}
+								}
+								#Muslim minorities
+								else_if = {
+									limit = { region = yunnan_region }
+									if = {
+										limit = { check_key = { lhs = Class_Urban value = 3.0 } }
+										MN_StartUpProv = {
+															rural0 = 0.50 urban0 = 0.20 notables0 = 0.40
+											religion1 = 28 rural1 = 0.40 urban1 = 0.25 notables1 = 0.20
+											religion2 = 76 rural2 = 0.10 urban2 = 0.35 notables2 = 0.25
+											religion3 = 18 rural3 = 0.00 urban3 = 0.20 notables3 = 0.00
+											religion4 = 31 rural4 = 0.00 urban4 = 0.00 notables4 = 0.15
+										}
+									}
+									else = {
+										MN_StartUpProv = {
+															rural0 = 0.50 urban0 = 0.35 notables0 = 0.45
+											religion1 = 28 rural1 = 0.40 urban1 = 0.25 notables1 = 0.20
+											religion2 = 76 rural2 = 0.10 urban2 = 0.40 notables2 = 0.25
+											religion3 = 31 rural3 = 0.00 urban3 = 0.00 notables3 = 0.10
+										}
+									}
+								}
+								else_if = {
+									limit = { has_port = yes check_key = { lhs = Class_Urban value = 5.0 } }
 									MN_StartUpProv = {
-										rural0 = 0.45 urban0 = 0.55 notables0 = 0.89
-										religion1 = 31 rural1 = 0.20 urban1 = 0.15 notables1 = 0.05
-										religion2 = 35 rural2 = 0.20 urban2 = 0.15 notables2 = 0.05
-										religion3 = 61 rural3 = 0.15 urban3 = 0.10 notables3 = 0.01
+														rural0 = 0.99 urban0 = 0.70 notables0 = 0.80
+										religion1 = 31 rural1 = 0.00 urban1 = 0.00 notables1 = 0.20
+										religion2 = 18 rural2 = 0.01 urban2 = 0.30 notables2 = 0.00
+									}
+								}
+								else_if = {
+									limit = { any_neighbor_province = { culture_group = altaic } }
+									MN_StartUpProv = {
+														rural0 = 0.95 urban0 = 0.80 notables0 = 0.80
+										religion1 = 31 rural1 = 0.00 urban1 = 0.00 notables1 = 0.20
+										religion2 = 18 rural2 = 0.05 urban2 = 0.20 notables2 = 0.00
+									}
+								}
+								else_if = {
+									limit = { culture = old_uyghur }
+									if = {
+										limit = { owner = { religion = sunni } }
+										MN_StartUpProv = {
+															rural0 = 0.55 urban0 = 0.35 notables0 = 0.15
+											religion1 = 18 rural1 = 0.45 urban1 = 0.65 notables1 = 0.65
+											religion2 = 31 rural2 = 0.00 urban2 = 0.00 notables2 = 0.20
+										}
+									}
+									else = {
+										MN_StartUpProv = {
+															rural0 = 0.70 urban0 = 0.75 notables0 = 0.70
+											religion1 = 28 rural1 = 0.20 urban1 = 0.15 notables1 = 0.05
+											religion2 = 18 rural2 = 0.10 urban2 = 0.10 notables2 = 0.05
+											religion3 = 31 rural3 = 0.00 urban3 = 0.00 notables3 = 0.20
+										}
+									}
+								}
+								else_if = {
+									limit = { 
+										OR = {
+											province_id = 2742
+											area = hami_area
+										}
+									}
+									MN_StartUpProv = {
+														rural0 = 0.50 urban0 = 0.60 notables0 = 0.55
+										religion1 = 77 rural1 = 0.45 urban1 = 0.20 notables1 = 0.20
+										religion2 = 18 rural2 = 0.05 urban2 = 0.20 notables2 = 0.05
+										religion3 = 31 rural3 = 0.00 urban3 = 0.00 notables3 = 0.20
+									}
+								}
+								else_if = {
+									limit = { owner = { religion = sunni } }
+									MN_StartUpProv = {
+														rural0 = 0.85 urban0 = 0.40 notables0 = 0.20
+										religion1 = 18 rural1 = 0.15 urban1 = 0.60 notables1 = 0.70
+										religion2 = 31 rural2 = 0.00 urban2 = 0.00 notables2 = 0.10
+									}
+								}
+								else_if = {
+									limit = { owner = { religion = vajrayana } }
+									MN_StartUpProv = {
+														rural0 = 0.85 urban0 = 0.60 notables0 = 0.20
+										religion1 = 28 rural1 = 0.15 urban1 = 0.40 notables1 = 0.65
+										religion2 = 31 rural2 = 0.00 urban2 = 0.00 notables2 = 0.25
 									}
 								}
 								else = {
 									MN_StartUpProv = {
-										rural0 = 0.55 urban0 = 0.65 notables0 = 0.85
-										religion1 = 32 rural1 = 0.25 urban1 = 0.20 notables1 = 0.10
-										religion2 = 61 rural2 = 0.20 urban2 = 0.15 notables2 = 0.05
+														rural0 = 1.00 urban0 = 1.00 notables0 = 0.75
+										religion1 = 31 rural1 = 0.00 urban1 = 0.00 notables1 = 0.25
 									}
 								}
 							}
 						}
 						else_if = {
-							limit = { religion = vajrayana }
-							if = {
-								limit = { culture_group = malay }
-								if = {
-									limit = { OR = { any_neighbor_province = { religion = sunni } has_port = yes } }
-									MN_StartUpProv = {
-										rural0 = 0.55 urban0 = 0.45 notables0 = 0.80
-										religion1 = 35 rural1 = 0.20 urban1 = 0.25 notables1 = 0.10
-										religion2 = 31 rural2 = 0.15 urban2 = 0.10 notables2 = 0.10
-										religion3 = 61 rural3 = 0.10 urban3 = 0.05 notables3 = 0.00
-										religion4 = 22 rural4 = 0.00 urban4 = 0.15 notables4 = 0.00
-									}
-								}
-								else = {
-									MN_StartUpProv = {
-										rural0 = 0.55 urban0 = 0.45 notables0 = 0.80
-										religion1 = 35 rural1 = 0.20 urban1 = 0.30 notables1 = 0.10
-										religion2 = 31 rural2 = 0.15 urban2 = 0.15 notables2 = 0.10
-										religion3 = 61 rural3 = 0.10 urban3 = 0.10 notables3 = 0.00
-									}
-								}
-							}
-							else_if = {
-								limit = { culture_group = wallacean }
-								MN_StartUpProv = {
-									rural0 = 0.55 urban0 = 0.45 notables0 = 0.80
-									religion1 = 35 rural1 = 0.20 urban1 = 0.30 notables1 = 0.10
-									religion2 = 31 rural2 = 0.15 urban2 = 0.15 notables2 = 0.10
-									religion3 = 66 rural3 = 0.10 urban3 = 0.10 notables3 = 0.00
-								}
-							}
-							else_if = {
-								limit = { culture_group = filipino_group }
-								MN_StartUpProv = {
-									rural0 = 0.55 urban0 = 0.50 notables0 = 0.80
-									religion1 = 35 rural1 = 0.35 urban1 = 0.40 notables1 = 0.20
-									religion3 = 66 rural3 = 0.10 urban3 = 0.10 notables3 = 0.00
-								}
-							}
-							else_if = {
-								limit = { culture_group = tibetic }
-								MN_StartUpProv = {
-									rural0 = 0.55 urban0 = 0.50 notables0 = 0.80
-									religion1 = 64 rural1 = 0.35 urban1 = 0.40 notables1 = 0.20
-									religion2 = 61 rural2 = 0.10 urban2 = 0.10 notables2 = 0.00
-								}
-							}
-						}
-						else_if = {
-							limit = { religion = buddhism }
+							limit = { religion = theravada }
 							if = { 
 								limit = { culture_group = malay }
 								if = {
 									limit = { OR = { any_neighbor_province = { religion = sunni } has_port = yes } }
 									MN_StartUpProv = {
-										rural0 = 0.65 urban0 = 0.45 notables0 = 0.80
-										religion1 = 35 rural1 = 0.35 urban1 = 0.30 notables1 = 0.20
-										religion4 = 22 rural4 = 0.00 urban4 = 0.25 notables4 = 0.00
+														rural0 = 0.65 urban0 = 0.45 notables0 = 0.80
+										religion1 = 32 rural1 = 0.35 urban1 = 0.30 notables1 = 0.20
+										religion2 = 18 rural2 = 0.00 urban2 = 0.25 notables2 = 0.00
 									}
 								}
 								else = {
 									MN_StartUpProv = {
-										rural0 = 0.65 urban0 = 0.65 notables0 = 0.80
-										religion1 = 35 rural1 = 0.35 urban1 = 0.35 notables1 = 0.20
+														rural0 = 0.65 urban0 = 0.65 notables0 = 0.80
+										religion1 = 32 rural1 = 0.35 urban1 = 0.35 notables1 = 0.20
 									}
 								}
 							}
 							else_if = {
 								limit = { any_neighbor_province = { religion = hinduism } }
 								MN_StartUpProv = {
-									rural0 = 0.65 urban0 = 0.65 notables0 = 0.80
-									religion1 = 35 rural1 = 0.35 urban1 = 0.35 notables1 = 0.20
+													rural0 = 0.65 urban0 = 0.65 notables0 = 0.80
+									religion1 = 32 rural1 = 0.35 urban1 = 0.35 notables1 = 0.20
 								}
 							}
 							else_if = {
 								limit = { any_neighbor_province = { religion = adi_dharam } }
 								MN_StartUpProv = {
-									rural0 = 0.65 urban0 = 0.65 notables0 = 0.80
-									religion1 = 59 rural1 = 0.35 urban1 = 0.35 notables1 = 0.20
+													rural0 = 0.65 urban0 = 0.65 notables0 = 0.80
+									religion1 = 68 rural1 = 0.35 urban1 = 0.35 notables1 = 0.20
 								}
 							}
 							else_if = {
-								limit = { any_neighbor_province = { religion = animism } }
+								limit = { any_neighbor_province = { religion = ban_phi } }
 								MN_StartUpProv = {
-									rural0 = 0.65 urban0 = 0.65 notables0 = 0.80
-									religion1 = 61 rural1 = 0.35 urban1 = 0.35 notables1 = 0.20
+													rural0 = 0.65 urban0 = 0.65 notables0 = 0.80
+									religion1 = 70 rural1 = 0.35 urban1 = 0.35 notables1 = 0.20
+								}
+							}
+							else_if = {
+								limit = { any_neighbor_province = { religion = bimoism } }
+								MN_StartUpProv = {
+													rural0 = 0.65 urban0 = 0.65 notables0 = 0.80
+									religion1 = 76 rural1 = 0.35 urban1 = 0.35 notables1 = 0.20
 								}
 							}
 							else_if = {
 								limit = { any_neighbor_province = { religion = mahayana } }
 								MN_StartUpProv = {
-									rural0 = 0.65 urban0 = 0.65 notables0 = 0.80
-									religion1 = 33 rural1 = 0.35 urban1 = 0.35 notables1 = 0.20
+													rural0 = 0.65 urban0 = 0.65 notables0 = 0.80
+									religion1 = 29 rural1 = 0.35 urban1 = 0.35 notables1 = 0.20
 								}
 							}
 							else_if = {
 								limit = { OR = { area = west_lanka_area area = east_lanka_area } }
 								MN_StartUpProv = {
-									rural0 = 0.60 urban0 = 0.50 notables0 = 0.55
-									religion1 = 35 rural1 = 0.40 urban1 = 0.40 notables1 = 0.45
-									religion2 = 22 rural2 = 0.00 urban2 = 0.10 notables2 = 0.00
+													rural0 = 0.60 urban0 = 0.50 notables0 = 0.55
+									religion1 = 32 rural1 = 0.40 urban1 = 0.40 notables1 = 0.45
+									religion2 = 18 rural2 = 0.00 urban2 = 0.10 notables2 = 0.00
+								}
+							}
+							else = {
+								MN_StartUpProv = {
+													rural0 = 1.00 urban0 = 1.00 notables0 = 1.00
 								}
 							}
 						}
@@ -1915,16 +2065,16 @@ country_event = {
 								if = {
 									limit = { check_key = { lhs = Class_Urban value = 3.0 } }
 									MN_StartUpProv = {
-										rural0 = 0.88 urban0 = 0.85 notables0 = 0.94
+														rural0 = 0.88 urban0 = 0.85 notables0 = 0.94
 										religion1 = 12 rural1 = 0.10 urban1 = 0.10 notables1 = 0.01
-										religion2 = 42 rural2 = 0.02 urban2 = 0.05 notables2 = 0.05
+										religion2 = 38 rural2 = 0.02 urban2 = 0.05 notables2 = 0.05
 									}
 								}
 								else = {
 									MN_StartUpProv = {
-										rural0 = 0.88 urban0 = 0.94 notables0 = 0.94
+														rural0 = 0.88 urban0 = 0.94 notables0 = 0.94
 										religion1 = 12 rural1 = 0.10 urban1 = 0.01 notables1 = 0.01
-										religion2 = 42 rural2 = 0.02 urban2 = 0.05 notables2 = 0.05
+										religion2 = 38 rural2 = 0.02 urban2 = 0.05 notables2 = 0.05
 									}
 								}
 							}
@@ -1933,14 +2083,14 @@ country_event = {
 								if = {
 									limit = { check_key = { lhs = Class_Urban value = 3.0 } }
 									MN_StartUpProv = {
-										rural0 = 0.90 urban0 = 0.90 notables0 = 0.99
-										religion1 = 7 rural1 = 0.10 urban1 = 0.10 notables1 = 0.01
+														rural0 = 0.90 urban0 = 0.90 notables0 = 0.99
+										religion1 = 7  rural1 = 0.10 urban1 = 0.10 notables1 = 0.01
 									}
 								}
 								else = {
 									MN_StartUpProv = {
-										rural0 = 0.90 urban0 = 0.99 notables0 = 0.99
-										religion1 = 7 rural1 = 0.10 urban1 = 0.01 notables1 = 0.01
+														rural0 = 0.90 urban0 = 0.99 notables0 = 0.99
+										religion1 = 7  rural1 = 0.10 urban1 = 0.01 notables1 = 0.01
 									}
 								}
 							}
@@ -1949,15 +2099,15 @@ country_event = {
 								if = {
 									limit = { check_key = { lhs = Class_Urban value = 3.0 } }
 									MN_StartUpProv = {
-										rural0 = 0.60 urban0 = 0.30 notables0 = 0.20
-										religion1 = 22 rural1 = 0.30 urban1 = 0.60 notables1 = 0.90
+														rural0 = 0.60 urban0 = 0.30 notables0 = 0.20
+										religion1 = 18 rural1 = 0.30 urban1 = 0.60 notables1 = 0.90
 										religion2 = 12 rural2 = 0.10 urban2 = 0.10 notables2 = 0.01
 									}
 								}
 								else = {
 									MN_StartUpProv = {
-										rural0 = 0.60 urban0 = 0.29 notables0 = 0.19
-										religion1 = 22 rural1 = 0.30 urban1 = 0.60 notables1 = 0.80
+														rural0 = 0.60 urban0 = 0.29 notables0 = 0.19
+										religion1 = 18 rural1 = 0.30 urban1 = 0.60 notables1 = 0.80
 										religion2 = 12 rural2 = 0.10 urban2 = 0.01 notables2 = 0.01
 									}
 								}
@@ -1965,47 +2115,47 @@ country_event = {
 							else_if = {
 								limit = { OR = { area = west_lanka_area area = east_lanka_area } }
 								MN_StartUpProv = {
-									rural0 = 0.60 urban0 = 0.50 notables0 = 0.55
-									religion1 = 31 rural1 = 0.40 urban1 = 0.40 notables1 = 0.45
-									religion2 = 22 rural2 = 0.00 urban2 = 0.10 notables2 = 0.00
+													rural0 = 0.60 urban0 = 0.50 notables0 = 0.55
+									religion1 = 27 rural1 = 0.40 urban1 = 0.40 notables1 = 0.45
+									religion2 = 18 rural2 = 0.00 urban2 = 0.10 notables2 = 0.00
 								}
 							}
 							else_if = {
 								limit = { OR = { area = kangra_area area = garhwal_area } }
 								MN_StartUpProv = {
-									rural0 = 0.55 urban0 = 0.50 notables0 = 0.45
-									religion1 = 34 rural1 = 0.25 urban1 = 0.20 notables1 = 0.35
-									religion2 = 22 rural2 = 0.10 urban2 = 0.25 notables2 = 0.20
-									religion3 = 37 rural3 = 0.10 urban3 = 0.05 notables3 = 0.00
+													rural0 = 0.55 urban0 = 0.50 notables0 = 0.45
+									religion1 = 28 rural1 = 0.25 urban1 = 0.20 notables1 = 0.35
+									religion2 = 18 rural2 = 0.10 urban2 = 0.25 notables2 = 0.20
+									religion3 = 34 rural3 = 0.10 urban3 = 0.05 notables3 = 0.00
 								}
 							}
 							else_if = {
 								limit = { OR = { area = west_nepalese_area area = east_nepalese_area  area = himalayan_hills_area } }
 								MN_StartUpProv = {
-									rural0 = 0.60 urban0 = 0.55 notables0 = 0.55
-									religion1 = 34 rural1 = 0.30 urban1 = 0.40 notables1 = 0.45
-									religion2 = 37 rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
+													rural0 = 0.60 urban0 = 0.55 notables0 = 0.55
+									religion1 = 28 rural1 = 0.30 urban1 = 0.40 notables1 = 0.45
+									religion2 = 34 rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
 								}
 							}
 							else_if = {
 								limit = { region = gujarat_region }
 								MN_StartUpProv = {
-									rural0 = 0.45 urban0 = 0.35 notables0 = 0.60
-									religion1 = 34 rural1 = 0.25 urban1 = 0.25 notables1 = 0.25
-									religion2 = 38 rural2 = 0.15 urban2 = 0.20 notables2 = 0.05
-									religion3 = 37 rural3 = 0.10 urban3 = 0.05 notables3 = 0.00
-									religion4 = 22 rural4 = 0.05 urban4 = 0.15 notables4 = 0.10
+													rural0 = 0.45 urban0 = 0.35 notables0 = 0.60
+									religion1 = 28 rural1 = 0.25 urban1 = 0.25 notables1 = 0.25
+									religion2 = 34 rural2 = 0.15 urban2 = 0.20 notables2 = 0.05
+									religion3 = 36 rural3 = 0.10 urban3 = 0.05 notables3 = 0.00
+									religion4 = 18 rural4 = 0.05 urban4 = 0.15 notables4 = 0.10
 								}
 							}
 							else_if = {
 								limit = { region = west_india_region }
 								MN_StartUpProv = {
-									rural0 = 0.39 urban0 = 0.39 notables0 = 0.60
-									religion1 = 34 rural1 = 0.19 urban1 = 0.24 notables1 = 0.25
-									religion2 = 38 rural2 = 0.05 urban2 = 0.14 notables2 = 0.10
-									religion3 = 37 rural3 = 0.10 urban3 = 0.04 notables3 = 0.00
-									religion4 = 22 rural4 = 0.05 urban4 = 0.14 notables4 = 0.10
-									religion5 = 42 rural5 = 0.02 urban5 = 0.05 notables5 = 0.00
+													rural0 = 0.39 urban0 = 0.39 notables0 = 0.60
+									religion1 = 28 rural1 = 0.19 urban1 = 0.24 notables1 = 0.25
+									religion2 = 34 rural2 = 0.05 urban2 = 0.14 notables2 = 0.10
+									religion3 = 36 rural3 = 0.10 urban3 = 0.04 notables3 = 0.00
+									religion4 = 18 rural4 = 0.05 urban4 = 0.14 notables4 = 0.10
+									religion5 = 38 rural5 = 0.02 urban5 = 0.05 notables5 = 0.00
 								}
 							}
 							else_if = {
@@ -2013,17 +2163,17 @@ country_event = {
 								if = {
 									limit = { any_neighbor_province = { religion = adi_dharam } }
 									MN_StartUpProv = {
-										rural0 = 0.50 urban0 = 0.50 notables0 = 0.80
-										religion1 = 22 rural1 = 0.10 urban1 = 0.40 notables1 = 0.20
-										religion2 = 59 rural2 = 0.30 urban2 = 0.05 notables2 = 0.00
-										religion3 = 37 rural3 = 0.10 urban3 = 0.05 notables3 = 0.00
+														rural0 = 0.50 urban0 = 0.50 notables0 = 0.80
+										religion1 = 18 rural1 = 0.10 urban1 = 0.40 notables1 = 0.20
+										religion2 = 68 rural2 = 0.30 urban2 = 0.05 notables2 = 0.00
+										religion3 = 34 rural3 = 0.10 urban3 = 0.05 notables3 = 0.00
 									}
 								}
 								else = {
 									MN_StartUpProv = {
-										rural0 = 0.70 urban0 = 0.55 notables0 = 0.80
-										religion1 = 22 rural1 = 0.20 urban1 = 0.40 notables1 = 0.20
-										religion2 = 37 rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
+														rural0 = 0.70 urban0 = 0.55 notables0 = 0.80
+										religion1 = 18 rural1 = 0.20 urban1 = 0.40 notables1 = 0.20
+										religion2 = 34 rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
 									}
 								}
 							}
@@ -2032,385 +2182,717 @@ country_event = {
 								if = {
 									limit = { area = maharashtra_area }
 									MN_StartUpProv = {
-										rural0 = 0.49 urban0 = 0.30 notables0 = 0.20
+														rural0 = 0.49 urban0 = 0.30 notables0 = 0.20
 										religion1 = 23 rural1 = 0.29 urban1 = 0.55 notables1 = 0.80
-										religion2 = 37 rural2 = 0.20 urban2 = 0.10 notables2 = 0.00
-										religion3 = 42 rural3 = 0.02 urban3 = 0.05 notables3 = 0.00
+										religion2 = 34 rural2 = 0.20 urban2 = 0.10 notables2 = 0.00
+										religion3 = 38 rural3 = 0.02 urban3 = 0.05 notables3 = 0.00
 									}
 								}
 								else_if = {
 									limit = { area = daulatabad_area }
 									MN_StartUpProv = {
-										rural0 = 0.50 urban0 = 0.30 notables0 = 0.20
+														rural0 = 0.50 urban0 = 0.30 notables0 = 0.20
 										religion1 = 23 rural1 = 0.30 urban1 = 0.60 notables1 = 0.80
-										religion2 = 37 rural2 = 0.20 urban2 = 0.10 notables2 = 0.00
+										religion2 = 34 rural2 = 0.20 urban2 = 0.10 notables2 = 0.00
 									}
 								}
 								else = {
 									MN_StartUpProv = {
-										rural0 = 0.60 urban0 = 0.30 notables0 = 0.20
+														rural0 = 0.60 urban0 = 0.30 notables0 = 0.20
 										religion1 = 23 rural1 = 0.30 urban1 = 0.65 notables1 = 0.80
-										religion2 = 37 rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
+										religion2 = 34 rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
 									}
 								}
 							}
 							else_if = {
 								limit = { any_neighbor_province = { religion = sunni } }
 								MN_StartUpProv = {
-									rural0 = 0.80 urban0 = 0.75 notables0 = 0.99
-									religion1 = 22 rural1 = 0.10 urban1 = 0.20 notables1 = 0.01
-									religion2 = 37 rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
+													rural0 = 0.80 urban0 = 0.75 notables0 = 0.99
+									religion1 = 18 rural1 = 0.10 urban1 = 0.20 notables1 = 0.01
+									religion2 = 34 rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
 								}
 							}
 							else_if = {
 								limit = { any_neighbor_province = { religion = adi_dharam } }
 								MN_StartUpProv = {
-									rural0 = 0.60 urban0 = 0.90 notables0 = 1.00
-									religion1 = 59 rural1 = 0.30 urban1 = 0.05 notables1 = 0.00
-									religion2 = 37 rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
+													rural0 = 0.60 urban0 = 0.90 notables0 = 1.00
+									religion1 = 68 rural1 = 0.30 urban1 = 0.05 notables1 = 0.00
+									religion2 = 34 rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
 								}
 							}
 							else = {
 								MN_StartUpProv = {
-									rural0 = 0.85 urban0 = 0.85 notables0 = 1.00
-									religion1 = 37 rural1 = 0.10 urban1 = 0.05 notables1 = 0.00
-									religion2 = 22 rural2 = 0.05 urban2 = 0.10 notables2 = 0.00
-								}
-							}
-						}
-						else_if = {
-							limit = { superregion = east_indies_superregion }
-							if = {
-								limit = { region = vietnam_region }
-								MN_StartUpProv = {
-									rural0 = 0.65 urban0 = 0.65 notables0 = 0.80
-									religion1 = 33 rural1 = 0.35 urban1 = 0.35 notables1 = 0.20
-								}
-							}
-							else_if = {
-								limit = { region = cochinchina_region }
-								MN_StartUpProv = {
-									rural0 = 0.40 urban0 = 0.60 notables0 = 0.80
-									religion1 = 33 rural1 = 0.35 urban1 = 0.35 notables1 = 0.20
-									religion2 = 61 rural2 = 0.25 urban2 = 0.05 notables2 = 0.00
+													rural0 = 0.85 urban0 = 0.85 notables0 = 1.00
+									religion1 = 34 rural1 = 0.10 urban1 = 0.05 notables1 = 0.00
+									religion2 = 18 rural2 = 0.05 urban2 = 0.10 notables2 = 0.00
 								}
 							}
 						}
 						else_if = {
 							limit = { superregion = southeast_asia_superregion }
 							if = {
-								limit = { OR = { region = sumatra_region region = java_region } }
+								limit = { region = vietnam_region }
 								MN_StartUpProv = {
-									rural0 = 0.45 urban0 = 0.50 notables0 = 0.80
-									religion1 = 34 rural1 = 0.30 urban1 = 0.25 notables1 = 0.20
-									religion2 = 61 rural2 = 0.25 urban2 = 0.00 notables2 = 0.00
-									religion3 = 22 rural3 = 0.00 urban3 = 0.25 notables3 = 0.00
+													rural0 = 0.65 urban0 = 0.65 notables0 = 0.80
+									religion1 = 29 rural1 = 0.35 urban1 = 0.35 notables1 = 0.20
 								}
 							}
+							else_if = {
+								limit = { region = cochinchina_region }
+								MN_StartUpProv = {
+													rural0 = 0.40 urban0 = 0.60 notables0 = 0.80
+									religion1 = 29 rural1 = 0.35 urban1 = 0.35 notables1 = 0.20
+									religion2 = 70 rural2 = 0.25 urban2 = 0.05 notables2 = 0.00
+								}
+							}
+						}
+						else_if = {
+							limit = { superregion = east_indies_superregion }
 							if = {
+								limit = { religion = kejawen_h }
+								if = {
+									limit = { culture_group = malay }
+									if = {
+										limit = { OR = { any_neighbor_province = { religion = sunni } has_port = yes } }
+										MN_StartUpProv = {
+															rural0 = 0.55 urban0 = 0.45 notables0 = 0.80
+											religion1 = 32 rural1 = 0.20 urban1 = 0.25 notables1 = 0.10
+											religion2 = 27 rural2 = 0.15 urban2 = 0.10 notables2 = 0.10
+											religion3 = 71 rural3 = 0.10 urban3 = 0.05 notables3 = 0.00
+											religion4 = 18 rural4 = 0.00 urban4 = 0.15 notables4 = 0.00
+										}
+									}
+									else = {
+										MN_StartUpProv = {
+															rural0 = 0.55 urban0 = 0.45 notables0 = 0.80
+											religion1 = 32 rural1 = 0.20 urban1 = 0.30 notables1 = 0.10
+											religion2 = 27 rural2 = 0.15 urban2 = 0.15 notables2 = 0.10
+											religion3 = 71 rural3 = 0.10 urban3 = 0.10 notables3 = 0.00
+										}
+									}
+								}
+								else_if = {
+									limit = { culture_group = wallacean }
+									MN_StartUpProv = {
+														rural0 = 0.55 urban0 = 0.45 notables0 = 0.80
+										religion1 = 32 rural1 = 0.20 urban1 = 0.30 notables1 = 0.10
+										religion2 = 27 rural2 = 0.15 urban2 = 0.15 notables2 = 0.10
+										religion3 = 71 rural3 = 0.10 urban3 = 0.10 notables3 = 0.00
+									}
+								}
+								else_if = {
+									limit = { culture_group = filipino_group }
+									MN_StartUpProv = {
+														rural0 = 0.55 urban0 = 0.50 notables0 = 0.80
+										religion1 = 32 rural1 = 0.35 urban1 = 0.40 notables1 = 0.20
+										religion2 = 71 rural2 = 0.10 urban2 = 0.10 notables2 = 0.00
+									}
+								}
+							}
+							else_if = {
+								limit = { OR = { region = sumatra_region region = java_region } }
+								MN_StartUpProv = {
+													rural0 = 0.45 urban0 = 0.50 notables0 = 0.80
+									religion1 = 35 rural1 = 0.30 urban1 = 0.25 notables1 = 0.20
+									religion2 = 71 rural2 = 0.25 urban2 = 0.00 notables2 = 0.00
+									religion3 = 18 rural3 = 0.00 urban3 = 0.25 notables3 = 0.00
+								}
+							}
+							else_if = {
 								limit = { OR = { area = brunei_area area = kalimantan_area } }
 								MN_StartUpProv = {
-									rural0 = 0.45 urban0 = 0.50 notables0 = 0.80
-									religion1 = 34 rural1 = 0.30 urban1 = 0.25 notables1 = 0.20
-									religion2 = 61 rural2 = 0.25 urban2 = 0.00 notables2 = 0.00
-									religion3 = 22 rural3 = 0.00 urban3 = 0.25 notables3 = 0.00
+													rural0 = 0.45 urban0 = 0.50 notables0 = 0.80
+									religion1 = 35 rural1 = 0.30 urban1 = 0.25 notables1 = 0.20
+									religion2 = 71 rural2 = 0.25 urban2 = 0.00 notables2 = 0.00
+									religion3 = 18 rural3 = 0.00 urban3 = 0.25 notables3 = 0.00
 								}
 							}
 							else_if = {
 								limit = { region = philippines_region }
 								MN_StartUpProv = {
-									rural0 = 0.45 urban0 = 0.50 notables0 = 0.80
-									religion1 = 34 rural1 = 0.30 urban1 = 0.35 notables1 = 0.20
-									religion2 = 66 rural2 = 0.25 urban2 = 0.05 notables2 = 0.00
-									religion3 = 22 rural3 = 0.00 urban3 = 0.10 notables3 = 0.00
+													rural0 = 0.45 urban0 = 0.50 notables0 = 0.80
+									religion1 = 30 rural1 = 0.30 urban1 = 0.35 notables1 = 0.20
+									religion2 = 71 rural2 = 0.25 urban2 = 0.05 notables2 = 0.00
+									religion3 = 18 rural3 = 0.00 urban3 = 0.10 notables3 = 0.00
+								}
+							}
+							else = {
+								MN_StartUpProv = {
+													rural0 = 0.50 urban0 = 0.85 notables0 = 0.90
+									religion1 = 35 rural1 = 0.25 urban1 = 0.15 notables1 = 0.10
+									religion2 = 71 rural2 = 0.15 urban2 = 0.00 notables2 = 0.00
 								}
 							}
 						}
-						if = {
-							limit = { religion = zoroastrian }
-							MN_StartUpProv = {
-								rural0 = 0.40 urban0 = 0.45 notables0 = 0.50
-								religion1 = 22 rural1 = 0.35 urban1 = 0.40 notables1 = 0.45
-								religion2 = 23 rural2 = 0.15 urban2 = 0.05 notables2 = 0.04
-								religion3 = 12 rural3 = 0.05 urban3 = 0.10 notables3 = 0.01
-							}
+					}
+					zro_group = {
+						MN_StartUpProv = {
+											rural0 = 0.60 urban0 = 0.30 notables0 = 0.10
+							religion1 = 18 rural1 = 0.15 urban1 = 0.35 notables1 = 0.70
+							religion2 = 23 rural2 = 0.15 urban2 = 0.15 notables2 = 0.10
+							religion3 = 11 rural3 = 0.10 urban3 = 0.10 notables3 = 0.05
+							religion4 = 38 rural4 = 0.00 urban4 = 0.10 notables4 = 0.05
 						}
-						#the rest	
 					}
 					jewish_group = {
 						MN_StartUpProv = {
-							rural0 = 0.65 urban0 = 0.85 notables0 = 0.99
+											rural0 = 0.65 urban0 = 0.85 notables0 = 0.99
 							religion1 = 11 rural1 = 0.25 urban1 = 0.10 notables1 = 0.01
-							religion2 = 22 rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
+							religion2 = 18 rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
 						}
 					}
-					new_world_pagan = {
+					mesoamerican_pagan = {
 						if = {
 							limit = { OR = { area = tabasco_area area = chiapas_area } }
 							if = {
 								limit = { religion = nahuatl }
 								MN_StartUpProv = {
-									rural0 = 0.70 urban0 = 0.85 notables0 = 0.95
-									religion1 = 45  rural1 = 0.30 urban1 = 0.15 notables1 = 0.05
+													rural0 = 0.70 urban0 = 0.85 notables0 = 0.95
+									religion1 = 42 rural1 = 0.30 urban1 = 0.15 notables1 = 0.05
+								}
+							}
+							else_if = {
+								limit = { religion = mayan }
+								MN_StartUpProv = {
+													rural0 = 0.70 urban0 = 0.85 notables0 = 0.95
+									religion1 = 40 rural1 = 0.30 urban1 = 0.15 notables1 = 0.05
 								}
 							}
 							else = {
 								MN_StartUpProv = {
-									rural0 = 0.70 urban0 = 0.85 notables0 = 0.95
-									religion1 = 50  rural1 = 0.30 urban1 = 0.15 notables1 = 0.05
+													rural0 = 0.70 urban0 = 0.80 notables0 = 0.90
+									religion1 = 40 rural1 = 0.15 urban1 = 0.10 notables1 = 0.05
+									religion2 = 42 rural2 = 0.15 urban2 = 0.10 notables2 = 0.05
 								}
 							}
 						}
-						#the rest	
+						else = {
+							if = {
+								limit = { religion = nahuatl }
+								MN_StartUpProv = {
+													rural0 = 0.85 urban0 = 0.90 notables0 = 0.95
+									religion1 = 41 rural1 = 0.15 urban1 = 0.10 notables1 = 0.05
+								}
+							}
+							else_if = {
+								limit = { religion = mayan }
+								MN_StartUpProv = {
+													rural0 = 1.00 urban0 = 1.00 notables0 = 1.00
+								}
+							}
+							else = {
+								MN_StartUpProv = {
+													rural0 = 0.85 urban0 = 0.90 notables0 = 0.95
+									religion1 = 40 rural1 = 0.15 urban1 = 0.10 notables1 = 0.05
+								}
+							}
+						}
+					}
+					andean_pagan = {
+						MN_StartUpProv = {
+											rural0 = 1.00 urban0 = 1.00 notables0 = 1.00
+						}
+					}
+					new_world_pagan = {
+						MN_StartUpProv = {
+											rural0 = 1.00 urban0 = 1.00 notables0 = 1.00
+						}
 					}
 					european_pagan = {
-						#Baltic Pagans
 						if = {
-							limit = { religion = baltic_pagan_reformed }
+							limit = { religion = baltic_pagan }
 							MN_StartUpProv = {
-								rural0 = 0.78 urban0 = 0.55 notables0 = 0.75
-								religion1 = 9 rural2 = 0.10 urban2 = 0.25 notables2 = 0.15
-								religion2 = 1  rural1 = 0.10 urban1 = 0.15 notables1 = 0.10
-								religion3 = 42 rural3 = 0.02 urban3 = 0.05 notables3 = 0.00
+												rural0 = 0.78 urban0 = 0.55 notables0 = 0.75
+								religion1 = 9  rural1 = 0.10 urban1 = 0.25 notables1 = 0.15
+								religion2 = 1  rural2 = 0.10 urban2 = 0.15 notables2 = 0.10
+								religion3 = 38 rural3 = 0.02 urban3 = 0.05 notables3 = 0.00
 							}
 						}
-						#the rest	
-					}
-					pagan = {
-						# Outer Zungaria buddhists
-						if = {
-							limit = { 
-								OR = {
-									province_id = 3305
-									province_id = 478
-									province_id = 4816
-								}
-							}
-							MN_StartUpProv = {
-								rural0 = 0.85 urban0 = 0.35 notables0 = 0.80
-								religion1 = 33 rural1 = 0.15 urban1 = 0.6 notables1 = 0.15
-								religion2 = 34 rural2 = 0.05 urban2 = 0.05 notables2 = 0.05
-							}
-						}
-						# Oirads territories in Qocho
 						else_if = {
-							limit = { 
-								OR = {
-									province_id = 2742
-									area = hami_area
-								}
-							}
-							MN_StartUpProv = {
-								rural0 = 0.65 urban0 = 0.3 notables0 = 0.75
-								religion1 = 33 rural1 = 0.30 urban1 = 0.65 notables1 = 0.20
-								religion2 = 34 rural2 = 0.05 urban2 = 0.05 notables2 = 0.05
-							}
-						}
-						#Muslim minorities
-						if = {
-							limit = { region = yunnan_region }
-							if = {
-								limit = { check_key = { lhs = Class_Urban value = 3.0 } }
-								MN_StartUpProv = {
-									rural0 = 0.90 urban0 = 0.30 notables0 = 0.45
-									religion1 = 32 rural1 = 0.10 urban1 = 0.50 notables1 = 0.65
-									religion2 = 22 rural2 = 0.00 urban2 = 0.20 notables2 = 0.00
-								}
-							}
-							else = {
-								MN_StartUpProv = {
-									rural0 = 0.90 urban0 = 0.50 notables0 = 0.45
-									religion1 = 32 rural1 = 0.10 urban1 = 0.50 notables1 = 0.65
-								}
-							}
-						}
-						#Russia
-						else_if = {
-							limit = { religion = tengri_pagan_reformed }
+							limit = { religion = finnish_pagan }
 							if = {
 								limit = { OR = { area = norrland_area area = finland_inland_area } }
 								MN_StartUpProv = {
-									rural0 = 0.90 urban0 = 0.95 notables0 = 1.00
+													rural0 = 0.90 urban0 = 0.95 notables0 = 1.00
 									religion1 = 1  rural1 = 0.10 urban1 = 0.05 notables1 = 0.00
 								}
 							}
 							else_if = {
 								limit = { area = karelia_area }
 								MN_StartUpProv = {
-									rural0 = 0.90 urban0 = 0.95 notables0 = 1.00
+													rural0 = 0.90 urban0 = 0.95 notables0 = 1.00
 									religion1 = 9  rural1 = 0.10 urban1 = 0.05 notables1 = 0.00
 								}
 							}
 							else_if = {
 								limit = { region = north_russia_region }
 								MN_StartUpProv = {
-									rural0 = 0.80 urban0 = 0.90 notables0 = 1.00
+													rural0 = 0.80 urban0 = 0.90 notables0 = 1.00
 									religion1 = 9  rural1 = 0.20 urban1 = 0.10 notables1 = 0.00
 								}
 							}
 							else_if = {
 								limit = { region = east_russia_region }
 								MN_StartUpProv = {
-									rural0 = 0.60 urban0 = 0.80 notables0 = 1.00
+													rural0 = 0.60 urban0 = 0.80 notables0 = 1.00
 									religion1 = 9  rural1 = 0.30 urban1 = 0.15 notables1 = 0.00
-									religion2 = 22 rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
+									religion2 = 18 rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
 								}
 							}
-							else_if = {
-								limit = { OR = { owner = { religion = sunni } any_neighbor_province = { religion = sunni } } }
+							else = {
 								MN_StartUpProv = {
-									rural0 = 0.90 urban0 = 0.95 notables0 = 1.00
-									religion1 = 22 rural1 = 0.10 urban1 = 0.0 notables1 = 0.00
-								}
-							}
-							else_if = {
-								limit = { culture = jurcen }
-								MN_StartUpProv = {
-									rural0 = 0.55 urban0 = 0.3 notables0 = 0.60
-									religion1 = 33 rural1 = 0.40 urban1 = 0.65 notables1 = 0.35
-									religion2 = 34 rural2 = 0.05 urban2 = 0.05 notables2 = 0.05
-								}
-							}
-							else_if = {
-								limit = { culture = hulun }
-								MN_StartUpProv = {
-									rural0 = 0.55 urban0 = 0.3 notables0 = 0.70
-									religion1 = 33 rural1 = 0.40 urban1 = 0.60 notables1 = 0.25
-									religion2 = 34 rural2 = 0.05 urban2 = 0.10 notables2 = 0.05
-								}
-							}
-							else_if = {
-								limit = { culture_group = jurchen_group }
-								MN_StartUpProv = {
-									rural0 = 0.85 urban0 = 0.65 notables0 = 0.80
-									religion1 = 33 rural1 = 0.15 urban1 = 0.35 notables1 = 0.2
-								}
-							}
-							else_if = {
-								limit = { owner = { religion = vajrayana } }
-								if = { limit = { OR = { region = west_manchuria_region region = east_manchuria_region } }
-									if = {
-										limit = { any_neighbor_province = { religion = mahayana } }
-										MN_StartUpProv = {
-											rural0 = 0.65 urban0 = 0.45 notables0 = 0.50
-											religion1 = 34 rural1 = 0.20 urban1 = 0.45 notables1 = 0.45
-											religion2 = 33 rural2 = 0.15 urban2 = 0.1 notables2 = 0.05
-										}
-									}
-									else_if = {
-										limit = { any_neighbor_province = { religion = confucianism } }
-										MN_StartUpProv = {
-											rural0 = 0.65 urban0 = 0.5 notables0 = 0.50
-											religion1 = 34 rural1 = 0.25 urban1 = 0.45 notables1 = 0.50
-											religion2 = 32 rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
-										}
-									}
-									else = {
-										MN_StartUpProv = {
-											rural0 = 0.70 urban0 = 0.55 notables0 = 0.50
-											religion1 = 34 rural1 = 0.25 urban1 = 0.4 notables1 = 0.45
-											religion2 = 33 rural2 = 0.05 urban2 = 0.05 notables2 = 0.05
-										}
-									}
-								}
-								else = {
-									if = {
-										limit = { any_neighbor_province = { religion = mahayana } }
-										MN_StartUpProv = {
-											rural0 = 0.65 urban0 = 0.45 notables0 = 0.50
-											religion1 = 34 rural1 = 0.20 urban1 = 0.45 notables1 = 0.50
-											religion2 = 33 rural2 = 0.15 urban2 = 0.1 notables2 = 0.00
-										}
-									}
-									else_if = {
-										limit = { any_neighbor_province = { religion = confucianism } }
-										MN_StartUpProv = {
-											rural0 = 0.65 urban0 = 0.45 notables0 = 0.50
-											religion1 = 34 rural1 = 0.25 urban1 = 0.5 notables1 = 0.50
-											religion2 = 32 rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
-										}
-									}
-									else_if = { limit = { region = inner_mongolia_region }
-										MN_StartUpProv = {
-											rural0 = 0.75 urban0 = 0.5 notables0 = 0.50
-											religion1 = 34 rural1 = 0.20 urban1 = 0.45 notables1 = 0.50
-											religion2 = 22 rural2 = 0.05 urban2 = 0.05 notables2 = 0.00
-										}
-									}
-									else = {
-										MN_StartUpProv = {
-											rural0 = 0.75 urban0 = 0.5 notables0 = 0.50
-											religion1 = 34 rural1 = 0.25 urban1 = 0.5 notables1 = 0.50
-										}
-									}
-								}
-							}
-							else_if = {
-								limit = { owner = { religion = confucianism } }
-								MN_StartUpProv = {
-									rural0 = 0.70 urban0 = 0.45 notables0 = 0.50
-									religion1 = 32 rural1 = 0.20 urban1 = 0.45 notables1 = 0.50
-									religion2 = 22 rural2 = 0.10 urban2 = 0.10 notables2 = 0.00
-								}
-							}
-							else_if = {
-								limit = { culture = daur }
-								MN_StartUpProv = {
-									rural0 = 0.70 urban0 = 0.55 notables0 = 0.50
-									religion1 = 33 rural1 = 0.25 urban1 = 0.45 notables1 = 0.50
+													rural0 = 1.00 urban0 = 1.00 notables0 = 1.00
 								}
 							}
 						}
-						#North Caucasus Animists
 						else_if = {
-							limit = { region = north_caucasus_region }
+							limit = { religion = khabzeism }
 							MN_StartUpProv = {
-								rural0 = 0.55 urban0 = 0.60 notables0 = 0.98
-								religion1 = 9  rural1 = 0.20 urban1 = 0.20 notables1 = 0.02
-								religion2 = 22 rural2 = 0.15 urban2 = 0.15 notables2 = 0.00
-								religion3 = 11 rural3 = 0.10 urban3 = 0.05 notables3 = 0.00
+												rural0 = 0.80 urban0 = 0.70 notables0 = 0.80
+								religion1 = 9  rural1 = 0.10 urban1 = 0.15 notables1 = 0.10
+								religion2 = 18 rural2 = 0.10 urban2 = 0.15 notables2 = 0.10
 							}
 						}
-						#Africa
-						else_if = {
-							limit = { region = sudan_region }
-							MN_StartUpProv = {
-								rural0 = 0.65 urban0 = 0.85 notables0 = 0.99
-								religion1 = 11 rural1 = 0.25 urban1 = 0.10 notables1 = 0.01
-								religion2 = 22 rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
-							}
-						}
-						else_if = {
-							limit = { OR = { region = east_africa_region area = kwazulu_area region = darfur_region area = chari_area area = baggara_area region = monomotapa_region } }
-							MN_StartUpProv = {
-								rural0 = 0.85 urban0 = 0.90 notables0 = 0.95
-								religion1 = 22 rural1 = 0.15 urban1 = 0.10 notables1 = 0.05
-							}
-						}
-						else_if = {
-							limit = { religion = west_african_pagan_reformed }
+					}
+					african_pagan = {
+						if = {
+							limit = { religion = west_african_pagan }
 							if = {
 								limit = { owner = { religion = sunni } }
 								MN_StartUpProv = {
-									rural0 = 0.75 urban0 = 0.50 notables0 = 0.25
-									religion1 = 22 rural1 = 0.25 urban1 = 0.50 notables1 = 0.75
+													rural0 = 0.75 urban0 = 0.50 notables0 = 0.25
+									religion1 = 18 rural1 = 0.25 urban1 = 0.50 notables1 = 0.75
 								}
 							}
 							else_if = {
 								limit = { any_neighbor_province = { religion = sunni } }
 								MN_StartUpProv = {
-									rural0 = 0.90 urban0 = 0.90 notables0 = 0.95
-									religion1 = 22 rural1 = 0.20 urban1 = 0.10 notables1 = 0.05
+													rural0 = 0.90 urban0 = 0.90 notables0 = 0.95
+									religion1 = 18 rural1 = 0.20 urban1 = 0.10 notables1 = 0.05
 								}
 							}
 							else = {
 								MN_StartUpProv = {
-									rural0 = 0.95 urban0 = 0.90 notables0 = 1.00
-									religion1 = 22 rural1 = 0.05 urban1 = 0.10 notables1 = 0.00
+													rural0 = 0.95 urban0 = 0.90 notables0 = 1.00
+									religion1 = 18 rural1 = 0.05 urban1 = 0.10 notables1 = 0.00
 								}
 							}
 						}
-						#the rest	
+						else_if = {
+							limit = { religion = odinala }
+							if = {
+								limit = { owner = { religion = sunni } }
+								MN_StartUpProv = {
+													rural0 = 0.75 urban0 = 0.50 notables0 = 0.25
+									religion1 = 18 rural1 = 0.25 urban1 = 0.50 notables1 = 0.75
+								}
+							}
+							else_if = {
+								limit = { any_neighbor_province = { religion = sunni } }
+								MN_StartUpProv = {
+													rural0 = 0.90 urban0 = 0.90 notables0 = 0.95
+									religion1 = 18 rural1 = 0.20 urban1 = 0.10 notables1 = 0.05
+								}
+							}
+							else = {
+								MN_StartUpProv = {
+													rural0 = 0.95 urban0 = 0.90 notables0 = 1.00
+									religion1 = 18 rural1 = 0.05 urban1 = 0.10 notables1 = 0.00
+								}
+							}
+						}
+						else_if = {
+							limit = { religion = bantu_pagan }
+							if = {
+								limit = { any_neighbor_province = { religion = coptic } }
+								MN_StartUpProv = {
+													rural0 = 0.80 urban0 = 0.90 notables0 = 0.95
+									religion1 = 11 rural1 = 0.20 urban1 = 0.10 notables1 = 0.05
+								}
+							}
+							else_if = {
+								limit = { any_neighbor_province = { religion = sunni } }
+								MN_StartUpProv = {
+													rural0 = 0.80 urban0 = 0.90 notables0 = 0.95
+									religion1 = 18 rural1 = 0.20 urban1 = 0.10 notables1 = 0.05
+								}
+							}
+							else = {
+								MN_StartUpProv = {
+													rural0 = 1.00 urban0 = 1.00 notables0 = 1.00
+								}
+							}
+						}
+						else_if = {
+							limit = { religion = bukongo }
+							MN_StartUpProv = {
+												rural0 = 1.00 urban0 = 1.00 notables0 = 1.00
+							}
+						}
+						else_if = {
+							limit = { religion = san_pagan }
+							MN_StartUpProv = {
+												rural0 = 1.00 urban0 = 1.00 notables0 = 1.00
+							}
+						}
+						else_if = {
+							limit = { religion = lotuko_pagan }
+							if = {
+								limit = { any_neighbor_province = { religion = coptic } }
+								MN_StartUpProv = {
+													rural0 = 0.75 urban0 = 0.80 notables0 = 0.90
+									religion1 = 11 rural1 = 0.20 urban1 = 0.10 notables1 = 0.05
+									religion2 = 18 rural2 = 0.05 urban2 = 0.10 notables2 = 0.05
+								}
+							}
+							else_if = {
+								limit = { region = sudan_region }
+								MN_StartUpProv = {
+													rural0 = 0.90 urban0 = 0.80 notables0 = 0.90
+									religion1 = 18 rural1 = 0.05 urban1 = 0.10 notables1 = 0.05
+									religion2 = 11 rural2 = 0.05 urban2 = 0.10 notables2 = 0.05
+								}
+							}
+							else_if = {
+								limit = { any_neighbor_province = { religion = sunni } }
+								MN_StartUpProv = {
+													rural0 = 0.80 urban0 = 0.90 notables0 = 0.95
+									religion1 = 18 rural1 = 0.20 urban1 = 0.10 notables1 = 0.05
+								}
+							}
+							else = {
+								MN_StartUpProv = {
+													rural0 = 0.95 urban0 = 0.90 notables0 = 0.95
+									religion1 = 18 rural1 = 0.05 urban1 = 0.10 notables1 = 0.05
+								}
+							}
+						}
+						else_if = {
+							limit = { religion = fomba_gasy }
+							MN_StartUpProv = {
+												rural0 = 1.00 urban0 = 0.95 notables0 = 0.98
+								religion1 = 18 rural1 = 0.00 urban1 = 0.05 notables1 = 0.02
+							}
+						}
+					}
+					south_asia_pagan = {
+						if = {
+							limit = { religion = adi_dharam }
+							if = {
+								limit = { OR = { region = assam_region region = inland_burma_region } }
+								MN_StartUpProv = {
+													rural0 = 0.80 urban0 = 0.70 notables0 = 0.85
+									religion1 = 32 rural1 = 0.10 urban1 = 0.10 notables1 = 0.05
+									religion2 = 18 rural2 = 0.05 urban2 = 0.10 notables2 = 0.05
+									religion3 = 27 rural3 = 0.05 urban3 = 0.10 notables3 = 0.05
+								}
+							}
+							else = {
+								MN_StartUpProv = {
+													rural0 = 0.85 urban0 = 0.80 notables0 = 0.90
+									religion1 = 32 rural1 = 0.10 urban1 = 0.10 notables1 = 0.05
+									religion2 = 18 rural2 = 0.05 urban2 = 0.10 notables2 = 0.05
+								}
+							}
+						}
+						else_if = {
+							limit = { religion = australian_pagan }
+							MN_StartUpProv = {
+												rural0 = 1.00 urban0 = 1.00 notables0 = 1.00
+							}
+						}
+						else_if = {
+							limit = { religion = ban_phi }
+							if = {
+								limit = { any_neighbor_province = { religion = hinduism } }
+								MN_StartUpProv = {
+													rural0 = 0.80 urban0 = 0.90 notables0 = 0.95
+									religion1 = 32 rural1 = 0.20 urban1 = 0.10 notables1 = 0.05
+								}
+							}
+							else_if = {
+								limit = { any_neighbor_province = { religion = mahayana } }
+								MN_StartUpProv = {
+													rural0 = 0.80 urban0 = 0.90 notables0 = 0.95
+									religion1 = 29 rural1 = 0.20 urban1 = 0.10 notables1 = 0.05
+								}
+							}
+							else_if = {
+								limit = { owner = { religion = hinduism } }
+								MN_StartUpProv = {
+													rural0 = 0.80 urban0 = 0.90 notables0 = 0.95
+									religion1 = 32 rural1 = 0.20 urban1 = 0.10 notables1 = 0.05
+								}
+							}
+							else_if = {
+								limit = { owner = { religion = mahayana } }
+								MN_StartUpProv = {
+													rural0 = 0.80 urban0 = 0.90 notables0 = 0.95
+									religion1 = 29 rural1 = 0.20 urban1 = 0.10 notables1 = 0.05
+								}
+							}
+							else_if = {
+								limit = { owner = { religion = theravada } }
+								MN_StartUpProv = {
+													rural0 = 0.80 urban0 = 0.90 notables0 = 0.95
+									religion1 = 27 rural1 = 0.20 urban1 = 0.10 notables1 = 0.05
+								}
+							}
+							else = {
+								MN_StartUpProv = {
+													rural0 = 0.95 urban0 = 0.90 notables0 = 0.95
+									religion1 = 27 rural1 = 0.05 urban1 = 0.10 notables1 = 0.05
+								}
+							}
+						}
+						else_if = {
+							limit = { religion = polynesian_pagan }
+							if = {
+								limit = { region = sumatra_region }
+								MN_StartUpProv = {
+													rural0 = 0.80 urban0 = 0.70 notables0 = 0.85
+									religion1 = 18 rural1 = 0.10 urban1 = 0.10 notables1 = 0.05
+									religion2 = 30 rural2 = 0.05 urban2 = 0.10 notables2 = 0.05
+									religion3 = 32 rural3 = 0.05 urban3 = 0.10 notables3 = 0.05
+								}
+							}
+							else_if = {
+								limit = { region = borneo_region }
+								MN_StartUpProv = {
+													rural0 = 0.85 urban0 = 0.80 notables0 = 0.90
+									religion1 = 32 rural1 = 0.10 urban1 = 0.10 notables1 = 0.05
+									religion2 = 30 rural2 = 0.05 urban2 = 0.10 notables2 = 0.05
+								}
+							}
+							else_if = {
+								limit = { region = philippines_region }
+								MN_StartUpProv = {
+													rural0 = 0.85 urban0 = 0.80 notables0 = 0.90
+									religion1 = 32 rural1 = 0.10 urban1 = 0.10 notables1 = 0.05
+									religion2 = 30 rural2 = 0.05 urban2 = 0.10 notables2 = 0.05
+								}
+							}
+							else_if = {
+								limit = { region = indonesia_region }
+								MN_StartUpProv = {
+													rural0 = 0.90 urban0 = 0.90 notables0 = 0.95
+									religion1 = 32 rural1 = 0.10 urban1 = 0.10 notables1 = 0.05
+								}
+							}
+							else = {
+								MN_StartUpProv = {
+													rural0 = 1.00 urban0 = 1.00 notables0 = 1.00
+								}
+							}
+						}
+					}
+					east_asia_pagan = {
+						if = {
+							limit = { religion = shinto }
+							if = {
+								limit = { region = west_japan_region }
+								MN_StartUpProv = {
+													rural0 = 0.90 urban0 = 0.90 notables0 = 0.90
+									religion1 = 29 rural1 = 0.10 urban1 = 0.10 notables1 = 0.05
+									religion2 = 31 rural2 = 0.00 urban2 = 0.00 notables2 = 0.05
+								}
+							}
+							else = {
+								MN_StartUpProv = {
+													rural0 = 0.90 urban0 = 0.90 notables0 = 0.95
+									religion1 = 29 rural1 = 0.10 urban1 = 0.10 notables1 = 0.05
+								}
+							}
+						}
+						else_if = {
+							limit = { religion = bimoism }
+							if = {
+								limit = { owner = { religion = confucianism } }
+								if = {
+									limit = { any_neighbor_province = { religion = vajyarana } }
+									MN_StartUpProv = {
+														rural0 = 0.80 urban0 = 0.80 notables0 = 0.75
+										religion1 = 28 rural1 = 0.10 urban1 = 0.10 notables1 = 0.05
+										religion2 = 29 rural2 = 0.10 urban2 = 0.10 notables2 = 0.05
+										religion3 = 31 rural3 = 0.00 urban3 = 0.00 notables3 = 0.15
+									}
+								}
+								else_if = {
+									limit = { any_neighbor_province = { religion = mahayana } }
+									MN_StartUpProv = {
+														rural0 = 0.80 urban0 = 0.80 notables0 = 0.75
+										religion1 = 29 rural1 = 0.20 urban1 = 0.20 notables1 = 0.10
+										religion2 = 31 rural2 = 0.00 urban2 = 0.00 notables2 = 0.15
+									}
+								}
+								else = {
+									MN_StartUpProv = {
+														rural0 = 0.90 urban0 = 0.90 notables0 = 0.80
+										religion1 = 29 rural1 = 0.10 urban1 = 0.10 notables1 = 0.05
+										religion2 = 31 rural2 = 0.00 urban2 = 0.00 notables2 = 0.15
+									}
+								}
+							}
+							else_if = {
+								limit = { owner = { religion = mayahana } }
+								if = {
+									limit = { any_neighbor_province = { religion = mahayana } }
+									MN_StartUpProv = {
+														rural0 = 0.80 urban0 = 0.50 notables0 = 0.80
+										religion1 = 29 rural1 = 0.20 urban1 = 0.50 notables1 = 0.15
+										religion2 = 31 rural2 = 0.00 urban2 = 0.00 notables2 = 0.05
+									}
+								}
+								else = {
+									MN_StartUpProv = {
+														rural0 = 0.90 urban0 = 0.70 notables0 = 0.85
+										religion1 = 29 rural1 = 0.10 urban1 = 0.30 notables1 = 0.10
+										religion2 = 31 rural2 = 0.00 urban2 = 0.00 notables2 = 0.05
+									}
+								}
+							}
+							else_if = {
+								limit = { owner = { religion = theravada } }
+								if = {
+									limit = { any_neighbor_province = { religion = vajyarana } }
+									MN_StartUpProv = {
+														rural0 = 0.80 urban0 = 0.80 notables0 = 0.75
+										religion1 = 28 rural1 = 0.10 urban1 = 0.10 notables1 = 0.05
+										religion2 = 29 rural2 = 0.10 urban2 = 0.10 notables2 = 0.05
+										religion3 = 27 rural3 = 0.00 urban3 = 0.00 notables3 = 0.15
+									}
+								}
+								else = {
+									MN_StartUpProv = {
+														rural0 = 0.90 urban0 = 0.90 notables0 = 0.80
+										religion1 = 29 rural1 = 0.10 urban1 = 0.10 notables1 = 0.05
+										religion2 = 27 rural2 = 0.00 urban2 = 0.00 notables2 = 0.15
+									}
+								}
+							}
+							else = {
+								if = {
+									limit = { any_neighbor_province = { religion = vajyarana } }
+									MN_StartUpProv = {
+														rural0 = 0.85 urban0 = 0.85 notables0 = 0.90
+										religion1 = 28 rural1 = 0.10 urban1 = 0.10 notables1 = 0.05
+										religion2 = 29 rural2 = 0.05 urban2 = 0.05 notables2 = 0.03
+										religion3 = 31 rural3 = 0.00 urban3 = 0.00 notables3 = 0.02
+									}
+								}
+								else_if = {
+									limit = { any_neighbor_province = { religion = mahayana } }
+									MN_StartUpProv = {
+														rural0 = 0.90 urban0 = 0.90 notables0 = 0.90
+										religion1 = 29 rural1 = 0.10 urban1 = 0.10 notables1 = 0.08
+										religion2 = 31 rural2 = 0.00 urban2 = 0.00 notables2 = 0.02
+									}
+								}
+								else = {
+									MN_StartUpProv = {
+														rural0 = 0.95 urban0 = 0.95 notables0 = 0.95
+										religion1 = 29 rural1 = 0.05 urban1 = 0.05 notables1 = 0.03
+										religion2 = 31 rural2 = 0.00 urban2 = 0.00 notables2 = 0.02
+									}
+								}
+							}
+						}
+					}
+					north_asia_pagan = {
+						if = {
+							limit = { religion = shamanism }
+							if = {
+								limit = { OR = { culture_group = jurchen_group culture_group = nivkh_group } }
+								MN_StartUpProv = {
+													rural0 = 0.85 urban0 = 0.75 notables0 = 0.88
+									religion1 = 29 rural1 = 0.10 urban1 = 0.20 notables1 = 0.10
+									religion2 = 31 rural2 = 0.00 urban2 = 0.00 notables2 = 0.02
+									religion3 = 77 rural3 = 0.05 urban3 = 0.05 notables3 = 0.03
+								}
+							}
+							else_if = {
+								limit = { owner = { religion = vajrayana } }
+								MN_StartUpProv = {
+													rural0 = 0.85 urban0 = 0.75 notables0 = 0.87
+									religion1 = 28 rural1 = 0.10 urban1 = 0.20 notables1 = 0.10
+									religion2 = 31 rural2 = 0.00 urban2 = 0.00 notables2 = 0.05
+									religion3 = 77 rural3 = 0.05 urban3 = 0.05 notables3 = 0.03
+								}
+							}
+							else_if = {
+								limit = { owner = { religion = sunni } }
+								MN_StartUpProv = {
+													rural0 = 0.85 urban0 = 0.75 notables0 = 0.87
+									religion1 = 18 rural1 = 0.10 urban1 = 0.20 notables1 = 0.10
+									religion2 = 77 rural2 = 0.05 urban2 = 0.05 notables2 = 0.03
+								}
+							}
+							else_if = {
+								limit = { owner = { religion = orthodox } }
+								MN_StartUpProv = {
+													rural0 = 0.90 urban0 = 0.80 notables0 = 0.90
+									religion1 = 9  rural1 = 0.10 urban1 = 0.20 notables1 = 0.10
+								}
+							}
+							else_if = {
+								limit = { owned_by = PRM }
+								MN_StartUpProv = {
+													rural0 = 0.85 urban0 = 0.75 notables0 = 0.87
+									religion1 = 9  rural1 = 0.10 urban1 = 0.20 notables1 = 0.10
+									religion2 = 77 rural2 = 0.05 urban2 = 0.05 notables2 = 0.03
+								}
+							}
+							else = {
+								MN_StartUpProv = {
+													rural0 = 0.95 urban0 = 0.95 notables0 = 0.97
+									religion1 = 77 rural1 = 0.05 urban1 = 0.05 notables1 = 0.03
+								}
+							}
+						}
+						else = {
+							if = {
+								limit = { OR = { region = west_manchuria_region area = kaicheng_area } }
+								MN_StartUpProv = {
+													rural0 = 0.90 urban0 = 0.80 notables0 = 0.80
+									religion1 = 29 rural1 = 0.10 urban1 = 0.20 notables1 = 0.10
+									religion2 = 28 rural2 = 0.10 urban2 = 0.20 notables2 = 0.10
+									religion3 = 31 rural3 = 0.00 urban3 = 0.00 notables3 = 0.10
+								}
+							}
+							else_if = {
+								limit = { owned_by = YUA }
+								MN_StartUpProv = {
+													rural0 = 0.85 urban0 = 0.80 notables0 = 0.80
+									religion1 = 28 rural1 = 0.15 urban1 = 0.20 notables1 = 0.10
+									religion2 = 31 rural2 = 0.00 urban2 = 0.00 notables2 = 0.10
+								}
+							}
+							else_if = {
+								limit = { owned_by = BLU }
+								MN_StartUpProv = {
+													rural0 = 0.80 urban0 = 0.80 notables0 = 0.90
+									religion1 = 18 rural1 = 0.20 urban1 = 0.20 notables1 = 0.10
+								}
+							}
+							else_if = {
+								limit = { owner = { religion = sunni } }
+								MN_StartUpProv = {
+													rural0 = 0.60 urban0 = 0.60 notables0 = 0.50
+									religion1 = 18 rural1 = 0.40 urban1 = 0.40 notables1 = 0.50
+								}
+							}
+							else = {
+								MN_StartUpProv = {
+													rural0 = 0.95 urban0 = 0.95 notables0 = 0.97
+									religion1 = 78 rural1 = 0.05 urban1 = 0.05 notables1 = 0.03
+								}
+							}
+						}
+					}
+					inuuk_group = {
+						MN_StartUpProv = {
+											rural0 = 1.00 urban0 = 1.00 notables0 = 1.00
+						}
 					}
 				}
 				MN_PostStartUp = yes
@@ -2445,7 +2927,7 @@ country_event = {
 						FRA = {
 							add_papal_influence = 150
 							set_country_flag = papal_captor
-							country_event = { id = DG_Papacy.165 days = 45 }
+							#country_event = { id = DG_Papacy.165 days = 45 }
 						}
 					}
 					every_owned_province = {
@@ -2580,7 +3062,7 @@ province_event = {
 	
 	trigger = {
 		religion_group = christian
-		owner = { adm_tech = 14 religion_group = christian }
+		owner = { adm_tech = 13 religion_group = christian }
 		Banking = 100 
 		NOT = { has_global_flag = printing_press_g }
 		check_key = { lhs = Infra_Amenities value = 2 }
@@ -2680,7 +3162,7 @@ province_event = {
 	}
 	
 	after = {
-		province_event = { id = POP_DG.103 days = 30 random = 10 }
+		province_event = { id = POP_DG.103 days = 27 random = 10 }
 	}
 }
 
@@ -2788,11 +3270,11 @@ province_event = {
 	after = {
 		random_province = {
 			limit = { Banking = 100 owner = { religion_group = christian }  NOT = { has_province_flag = printing_press_p } }
-			province_event = { id = POP_DG.103 days = 30 random = 10 }
+			province_event = { id = POP_DG.103 days = 27 random = 10 }
 		}
 #		random_province = {
 #			limit = { owner = { religion_group = christian } any_neighbor_province = { has_province_flag = printing_press_p } NOT = { has_province_flag = printing_press_p } }
-#			province_event = { id = POP_DG.103 days = 60 random = 10 }
+#			province_event = { id = POP_DG.103 days = 69 random = 10 }
 #		}
 #		random_province = {
 #			limit = { owner = { religion_group = christian } any_neighbor_province = { has_province_flag = printing_press_p } NOT = { has_province_flag = printing_press_p } }

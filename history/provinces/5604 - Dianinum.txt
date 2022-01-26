@@ -2,7 +2,7 @@ owner = A26 add_core = A26
 controller = A26
 culture = satraean
 trade_goods = wax
-religion = arianism
+religion = gnostic
 is_city = yes
 discovered_by = FEZ discovered_by = GRA discovered_by = HAF
 discovered_by = western

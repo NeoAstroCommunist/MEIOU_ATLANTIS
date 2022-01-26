@@ -2,7 +2,7 @@ owner = A35 add_core = A35
 controller = A35
 culture = saioan
 trade_goods = fish
-religion = animism
+religion = tengri_pagan
 is_city = yes
 set_key = { lhs = Infra_Harbourage value = 1
 }

@@ -2,7 +2,7 @@ owner = A20 add_core = A20
 controller = A20
 culture = phalusian
 trade_goods = fish
-religion = animism
+religion = tengri_pagan
 is_city = yes
 set_key = { lhs = Infra_Harbourage value = 1
 }

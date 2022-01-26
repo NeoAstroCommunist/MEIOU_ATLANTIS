@@ -6,7 +6,7 @@ add_government_reform = Pol_Nobility1
 government_rank = 1
 mercantilism = 0.0
 primary_culture = jendean
-religion = animism
+religion = tengri_pagan
 technology_group = western
 capital = 5698
 

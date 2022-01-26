@@ -8,7 +8,7 @@ government_rank = 1
 mercantilism = 0.0
 technology_group = western
 primary_culture = saioan
-religion = animism
+religion = tengri_pagan
 capital = 5654
 
 1000.1.1 = {
