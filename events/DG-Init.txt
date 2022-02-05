@@ -743,7 +743,7 @@ country_event = {
 						}
 						#Atlantis	
 						else_if = {
-							limit = { superregion = atlantis_superregion }
+							limit = { continent = atlantis_continent }
 							if = {
 								limit = { religion = chalcedonism  any_neighbor_province = { religion = sunni } }
 								MN_StartUpProv = {
@@ -1051,7 +1051,7 @@ country_event = {
 							}
 							#Atlantis	
 						    else_if = {
-							limit = { superregion = atlantis_superregion }
+							limit = { continent = atlantis_continent }
 							if = {
 								limit = { religion = sunni any_neighbor_province = { religion = catholic } }
 								MN_StartUpProv = {

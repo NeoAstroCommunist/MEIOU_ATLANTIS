@@ -19,3 +19,14 @@ capital = 5627
 	add_absolutism = 35
 	set_country_flag = atlantis_thesrut
 }
+
+1334.1.1 = {
+	monarch = {
+		name = "Fayiz"
+		dynasty = "Abaza"
+		birth_date = 1334.1.1
+		DIP = 1
+		ADM = 2
+		MIL = 5
+		}
+}

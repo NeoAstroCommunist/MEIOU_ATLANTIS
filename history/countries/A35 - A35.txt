@@ -18,3 +18,13 @@ capital = 5654
 	add_absolutism = -100
 	add_absolutism = 0
 }
+
+1356.1.1 = {
+	monarch = {
+		name = "Hunting the Kraken"
+		ADM = 0
+		DIP = 0
+		MIL = 6
+		regent = yes
+	}
+}

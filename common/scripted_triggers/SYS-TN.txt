@@ -343,6 +343,7 @@ Prod_Wheat = {
 			superregion = southeast_asia_superregion
 			superregion = japan_superregion
 			superregion = atlantis_superregion
+			superregion = atlantis2_superregion
 		}
 	}
 }
@@ -358,6 +359,7 @@ Prod_Barley = {
 			superregion = southeast_asia_superregion
 			superregion = japan_superregion
 			superregion = atlantis_superregion
+			superregion = atlantis2_superregion
 		}
 	}
 }
@@ -412,6 +414,7 @@ Prod_Millet = {
 			superregion = southeast_asia_superregion
 			superregion = japan_superregion
 			superregion = atlantis_superregion
+			superregion = atlantis2_superregion
 		}
 	}
 }

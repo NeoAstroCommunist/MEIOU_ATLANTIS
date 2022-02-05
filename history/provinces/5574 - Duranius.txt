@@ -14,7 +14,7 @@ set_key = { lhs = Infra_Irrigation value = 1
 	set_province_flag = TN_Important
 	set_province_flag = TN_Port
 	set_province_flag = salt
-discovered_by = FEZ discovered_by = GRA discovered_by = HAF
+discovered_by = muslim
 discovered_by = western
 
 }

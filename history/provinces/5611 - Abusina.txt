@@ -8,7 +8,7 @@ is_city = yes
 	set_key = { lhs = tribals_ratio value = 40
 	}
 	set_province_flag = copper
-discovered_by = FEZ discovered_by = GRA discovered_by = HAF
+discovered_by = muslim
 discovered_by = western
 
 }

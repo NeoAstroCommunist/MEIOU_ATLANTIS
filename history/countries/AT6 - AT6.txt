@@ -18,3 +18,13 @@ historical_rival = A28
 	add_absolutism = -100
 	add_absolutism = 20
 }
+
+1356.1.1 = {
+	monarch = {
+		name = "Thegn Council"
+		ADM = 0
+		DIP = 0
+		MIL = 0
+		regent = yes
+	}
+}

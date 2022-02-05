@@ -20,3 +20,13 @@ historical_friend = AT2
 	add_absolutism = 25
 }
 
+1333.1.1 = {
+	monarch = {
+		name = "Jacob"
+		dynasty = "Manale"
+		birth_date = 1308.1.1
+		ADM = 4
+		DIP = 2
+		MIL = 4
+	}
+}

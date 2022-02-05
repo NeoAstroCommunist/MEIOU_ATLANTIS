@@ -4,7 +4,7 @@ culture = thesrotian
 trade_goods = wool
 religion = sunni
 is_city = yes
-discovered_by = FEZ discovered_by = GRA discovered_by = HAF
+discovered_by = muslim
 discovered_by = western
 
 

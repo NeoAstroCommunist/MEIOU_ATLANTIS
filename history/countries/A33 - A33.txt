@@ -1,8 +1,12 @@
 
-government = monarchy
-add_government_reform = Pol_Succession4 
-add_government_reform = Pol_Assembly1
-add_government_reform = Pol_Nobility1
+government = republic
+add_government_reform = Pol_Mandate2
+add_government_reform = Pol_Stylings1
+add_government_reform = Pol_ExtraPowers1
+add_government_reform = Pol_Assembly3
+add_government_reform = Pol_TermOfOffice3
+add_government_reform = Pol_Structure1
+add_government_reform = Pol_Nobility4
 government_rank = 1
 mercantilism = 0.0
 primary_culture = jendean
@@ -16,4 +20,14 @@ capital = 5698
 	#set_key = { lhs = centralization_decentralization value = 3 }
 	add_absolutism = -100
 	add_absolutism = 20
+}
+
+1356.1.1 = {
+	monarch = {
+		name = "Playing backgammon for rulership"
+		ADM = 6
+		DIP = 6
+		MIL = 0
+		regent = yes
+	}
 }

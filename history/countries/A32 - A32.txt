@@ -19,3 +19,14 @@ historical_rival = A27
 	add_absolutism = -100
 	add_absolutism = 10
 }
+
+1356.1.1 = {
+	monarch = {
+		name = "Einion"
+		dynasty = "Vodenosus"
+		birth_date = 1329.1.1
+		DIP = 3
+		ADM = 2
+		MIL = 2
+		}
+}

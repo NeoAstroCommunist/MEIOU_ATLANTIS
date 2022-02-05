@@ -20,3 +20,14 @@ historical_friend = A27
 	add_absolutism = -100
 	add_absolutism = 20
 }
+
+1356.1.1 = {
+	monarch = {
+		name = "Babpo"
+		dynasty = "Uxentus"
+		birth_date = 1306.1.1
+		DIP = 1
+		ADM = 6
+		MIL = 0
+		}
+}

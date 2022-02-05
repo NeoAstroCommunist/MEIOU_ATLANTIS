@@ -24,3 +24,14 @@ historical_friend = A28
 	add_absolutism = -100
 	add_absolutism = 50
 }
+
+1356.1.1 = {
+	monarch = {
+		name = "Balkar"
+		dynasty = "Korbidus"
+		birth_date = 1345.1.1
+		DIP = 5
+		ADM = 3
+		MIL = 5
+		}
+}

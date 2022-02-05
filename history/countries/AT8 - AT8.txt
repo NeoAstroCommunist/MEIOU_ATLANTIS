@@ -17,3 +17,14 @@ capital = 5551
 	add_absolutism = -100
 	add_absolutism = 90
 }
+
+1356.1.1 = {
+	monarch = {
+		name = "Jacob"
+		dynasty = "Nisat"
+		birth_date = 1338.1.1
+		DIP = 5
+		ADM = 6
+		MIL = 5
+		}
+}

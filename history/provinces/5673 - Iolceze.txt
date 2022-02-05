@@ -5,7 +5,7 @@ trade_goods = wheat
 religion = sunni
 is_city = yes
 450.1.1 = { 
-discovered_by = FEZ discovered_by = GRA discovered_by = HAF
+discovered_by = muslim
 discovered_by = western
 
 	set_key = { lhs = tribals_ratio value = 40

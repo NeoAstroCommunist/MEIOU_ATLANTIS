@@ -10,7 +10,7 @@ set_key = { lhs = Infra_Harbourage value = 1
         set_province_flag = TN_Island
 	set_key = { lhs = tribals_ratio value = 35
 	}
-discovered_by = FEZ discovered_by = GRA discovered_by = HAF
+discovered_by = muslim
 discovered_by = western
 
 }

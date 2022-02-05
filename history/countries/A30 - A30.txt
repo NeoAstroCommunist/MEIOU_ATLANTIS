@@ -18,3 +18,14 @@ historical_rival = A27
 	add_absolutism = -100
 	add_absolutism = 30
 }
+
+1356.1.1 = {
+	monarch = {
+		name = "Telen"
+		dynasty = "Galanus"
+		birth_date = 1322.1.1
+		DIP = 4
+		ADM = 3
+		MIL = 4
+		}
+}

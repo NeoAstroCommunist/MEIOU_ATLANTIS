@@ -22,3 +22,13 @@ historical_rival = A11
 	add_absolutism = 10
 }
 
+1328.1.1 = {
+	monarch = {
+		name = "Yohanan"
+		dynasty = "Nicoliat"
+		birth_date = 1301.1.1
+		ADM = 4
+		DIP = 1
+		MIL = 5
+	}
+}

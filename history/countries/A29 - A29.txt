@@ -19,3 +19,14 @@ historical_rival = A27
 	add_absolutism = -100
 	add_absolutism = 0
 }
+
+1356.1.1 = {
+	monarch = {
+		name = "Aionix"
+		dynasty = "Marganus"
+		birth_date = 1312.1.1
+		DIP = 5
+		ADM = 1
+		MIL = 3
+		}
+}

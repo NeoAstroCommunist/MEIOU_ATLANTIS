@@ -18,3 +18,14 @@ capital = 5604
 	add_absolutism = -100
 	add_absolutism = 20
 }
+
+1356.1.1 = {
+	monarch = {
+		name = "Korrivilo"
+		dynasty = "Magavaricus"
+		birth_date = 1341.1.1
+		DIP = 3
+		ADM = 3
+		MIL = 3
+		}
+}

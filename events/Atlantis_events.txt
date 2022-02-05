@@ -23,7 +23,7 @@ country_event = { #Sell of Neumark ripoff
 	}
 	
 	mean_time_to_happen = {
-		years = 4
+	     months = 6
 	}
 	
 	option = {
@@ -33,7 +33,7 @@ country_event = { #Sell of Neumark ripoff
 		}
 		custom_tooltip = flavor_A21.1.a.tt
 		A18 = {
-			country_event = { id = flavor_A21.1.2 }
+			country_event = { id = flavor_A21.2 }
 		}
 	}
 	option = { 
@@ -72,10 +72,10 @@ country_event = {
 			}
 		}
 		add_treasury = 300
-		FROM = {
+		A21 = {
 			country_event = { id = flavor_A21.3 }
 			add_opinion = {
-				who = ROOT
+				who = A18
 				modifier = pawning_of_novioritum
 			}
 		}
@@ -84,7 +84,7 @@ country_event = {
 		name = "flavor_A21.2.b" 
 		ai_chance = { factor = 0 }
 		custom_tooltip = flavor_A21.2.b.tt
-		FROM = {
+		A21 = {
 			country_event = { id = flavor_A21.4 }
 		}
 	}
@@ -112,13 +112,14 @@ country_event = {
 					}
 					cede_province = A21
 					add_core = A21
+					remove_core = A18
 				}
 			}
 		}
 		add_treasury = -300
-		FROM = {
+		A18 = {
 			add_opinion = {
-				who = ROOT
+				who = A21
 				modifier = pawning_of_novioritum
 			}
 		}
