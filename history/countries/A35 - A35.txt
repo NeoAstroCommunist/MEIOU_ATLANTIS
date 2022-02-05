@@ -8,7 +8,7 @@ government_rank = 1
 mercantilism = 0.0
 technology_group = western
 primary_culture = saioan
-religion = animism
+religion = tengri_pagan
 capital = 5654
 
 1000.1.1 = {
@@ -17,4 +17,14 @@ capital = 5654
 	#set_key = { lhs = centralization_decentralization value = 5 }
 	add_absolutism = -100
 	add_absolutism = 0
+}
+
+1356.1.1 = {
+	monarch = {
+		name = "Hunting the Kraken"
+		ADM = 0
+		DIP = 0
+		MIL = 6
+		regent = yes
+	}
 }

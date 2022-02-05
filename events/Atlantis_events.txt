@@ -1,0 +1,143 @@
+# Events for Atlantis A21 tag
+
+
+namespace = flavor_A21
+
+country_event = { #Sell of Neumark ripoff
+	id = flavor_A21.1
+	title = "flavor_A21.1.t"
+	desc = "flavor_A21.1.d"
+	picture = DIPLOMACY_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = A21
+		NOT = { num_of_loans = 4 }
+			5578 = {
+				owned_by = A18
+				controlled_by = A18
+			}
+		NOT = { war_with = A18 }
+		NOT = { is_year = 1370 }
+	}
+	
+	mean_time_to_happen = {
+	     months = 6
+	}
+	
+	option = {
+		name = "flavor_A21.1.a" #Offer the Teutons to pawn back Neumark for 40 000 Guilders
+		ai_chance = {
+			factor = 75
+		}
+		custom_tooltip = flavor_A21.1.a.tt
+		A18 = {
+			country_event = { id = flavor_A21.2 }
+		}
+	}
+	option = { 
+		name = "flavor_A21.1.b"
+		ai_chance = {
+			factor = 25
+		}
+		custom_tooltip = flavor_A21.1.b.tt
+		add_prestige = -5
+	}
+}
+
+country_event = {
+	id = flavor_A21.2
+	title = "flavor_A21.2.t"
+	desc = "flavor_A21.2.d"
+	picture = DIPLOMACY_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flavor_A21.2.a" #We need the money.
+		ai_chance = { factor = 100 }
+		tooltip = {
+			5578 = {
+				if = {
+					limit = {
+						owned_by = A18
+						controlled_by = A18
+					}
+					cede_province = A21
+					add_core = A21
+				}
+			}
+		}
+		add_treasury = 300
+		A21 = {
+			country_event = { id = flavor_A21.3 }
+			add_opinion = {
+				who = A18
+				modifier = pawning_of_novioritum
+			}
+		}
+	}
+	option = {
+		name = "flavor_A21.2.b" 
+		ai_chance = { factor = 0 }
+		custom_tooltip = flavor_A21.2.b.tt
+		A21 = {
+			country_event = { id = flavor_A21.4 }
+		}
+	}
+}
+
+#Novioritum returned to Atlantis
+country_event = {
+	id = flavor_A21.3
+	title = "flavor_A21.3.t"
+	desc = "flavor_A21.3.d"
+	picture = DIPLOMACY_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flavor_A21.3.a" #
+		A18 = {
+			5578 = {
+				if = {
+					limit = {
+						owned_by = A18
+						controlled_by = A18
+					}
+					cede_province = A21
+					add_core = A21
+					remove_core = A18
+				}
+			}
+		}
+		add_treasury = -300
+		A18 = {
+			add_opinion = {
+				who = A21
+				modifier = pawning_of_novioritum
+			}
+		}
+	}
+}
+
+#Legio trolled you
+country_event = {
+	id = flavor_A21.4
+	title = "flavor_A21.4.t"
+	desc = "flavor_A21.4.d"
+	picture = DIPLOMACY_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flavor_A21.4.a" #Reeeeeee!
+	}
+}

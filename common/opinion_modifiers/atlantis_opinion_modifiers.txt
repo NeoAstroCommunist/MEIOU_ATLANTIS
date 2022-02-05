@@ -1,0 +1,4 @@
+pawning_of_novioritum = {
+	opinion = 50
+	yearly_decay = 2
+}

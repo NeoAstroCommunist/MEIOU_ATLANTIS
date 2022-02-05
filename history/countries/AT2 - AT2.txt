@@ -30,3 +30,13 @@ add_army_professionalism = 0.05
 	add_absolutism = -100
 	add_absolutism = 30
 }
+
+1356.1.1 = {
+	monarch = {
+		name = "Elections"
+		ADM = 0
+		DIP = 6
+		MIL = 0
+		regent = yes
+	}
+}

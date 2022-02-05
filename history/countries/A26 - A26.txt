@@ -8,7 +8,7 @@ mercantilism = 0.0
 # isolationist_expansionist = -1
 technology_group = western
 primary_culture = satraean
-religion = arianism
+religion = gnostic
 capital = 5604	
 
 1000.1.1 = {
@@ -17,4 +17,15 @@ capital = 5604
 	#set_key = { lhs = centralization_decentralization value = 5 }
 	add_absolutism = -100
 	add_absolutism = 20
+}
+
+1356.1.1 = {
+	monarch = {
+		name = "Korrivilo"
+		dynasty = "Magavaricus"
+		birth_date = 1341.1.1
+		DIP = 3
+		ADM = 3
+		MIL = 3
+		}
 }

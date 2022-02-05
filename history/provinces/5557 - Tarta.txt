@@ -1,5 +1,5 @@
-owner = A15 add_core = A15
-controller = A15
+owner = A14 add_core = A14
+controller = A14
 culture = bassanian
 trade_goods = livestock
 religion = chalcedonism
@@ -7,7 +7,7 @@ is_city = yes
 450.1.1 = { 
 	set_province_flag = mined_goods
 	set_province_flag = gold
-discovered_by = FEZ discovered_by = GRA discovered_by = HAF
+discovered_by = muslim
 discovered_by = western
 
 }

@@ -23,3 +23,12 @@ capital = 5550
 	add_absolutism = 15
 }
 
+1356.1.1 = {
+	monarch = {
+		name = "Governor of Parberia"
+		ADM = 0
+		DIP = 0
+		MIL = 0
+		regent = yes
+	}
+}

@@ -2,7 +2,7 @@ owner = AT6 add_core = AT6
 controller = AT6
 culture = fjernoyeran
 trade_goods = wool
-religion = norse_pagan_reformed
+religion = norse_pagan
 is_city = yes
 450.1.1 = { 
         set_province_flag = TN_Island

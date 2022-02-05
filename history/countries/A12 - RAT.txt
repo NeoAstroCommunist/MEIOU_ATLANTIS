@@ -20,3 +20,12 @@ historical_friend = A20
 	add_absolutism = 25
 }
 
+1312.1.1 = {
+	monarch = {
+		name = "Nathanel"
+		dyansty = "Barqa"
+		ADM = 6
+		DIP = 3
+		MIL = 5
+	}
+}

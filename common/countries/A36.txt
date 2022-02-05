@@ -2,7 +2,7 @@
 
 graphical_culture = westerngfx
 
-color = { 104 86 65 }
+color = { 96 62 79 }
 
 historical_idea_groups = {
 	trade_ideas
@@ -34,78 +34,74 @@ historical_units = { #Iberian Muslim group
 }
 
 monarch_names = {
-	"Muhammad #6" = 140
-	"Yûsuf " = 60
-	"'Alî " = 1
-	"Sa'd " = 1
-	"Isma'îl " = 1
-	"Nasr " = 1
-	"'Abd al-Karim " = 1
-	"Ayman " = 1
-	"Barakat " = 1
-	"Basir " = 1
-	"Dawud " = 1
-	"Fahd " = 1
-	"Faris " = 1
-	"Faruq " = 1
-	"Firdaus " = 1
-	"Fuad " = 1
-	"Haidar " = 1
-	"Hashim " = 1
-	"Husam " = 1
-	"Iqbal " = 1
-	"Jabbar " = 1
-	"Ja'far " = 1
-	"Jamal " = 1
-	"Junayd " = 1
-	"Khaliq " = 1
-	"Malik " = 1
-	"Mansur " = 1
-	"Mustafa " = 1
-	"Najib " = 1
-	"Qasim " = 1
-	"Qusay " = 1
-	"Rahim " = 1
-	"Rashîd " = 1
-	"Safi " = 1
-	"Sakhr " = 1
-	"Samir " = 1
-	"Tariq " = 1
-	"Umar " = 1
-	"Wahid " = 1
-	"Zahir " = 1
+	"Muhammad" = 10
+	"'Alî" = 1
+	"Ahmad" = 1
+	"Yahyâ" = 1
+	"Zkariyâ'" = 1
+	"'Abd al-'Aziz" = 1
+	"'Abd al-Mu'min" = 1
+	"Hamûda" = 1
+	"Husayn" = 1
+	"'Usman" = 1
+	"Salih" = 15
+	"Sulaiman" = 15
+	"Yunus" = 15
+	"Isma'îl" = 1
+	"Murad" = 1
+	"Yûsuf" = 1
+	"Abû Bakr" = 1
+	"Ala ad-Din" = 1
+	"Butrus" = 1
+	"Fakhri" = 1
+	"Fayiz" = 1
+	"Hadj" = 1
+	"Hafiz" = 1
+	"Harun" = 1
+	"Hasan" = 1
+	"Hashim" = 1
+	"Ibrahim" = 1
+	"Ja'far" = 1
+	"Khalil" = 1
+	"Mahir" = 1
+	"Mas'ud" = 1
+	"Mustafa" = 1
+	"Qadir" = 1
+	"Rasim" = 1
+	"Salah" = 1
+	"Shadi" = 1
+	"Tahir" = 1
+	"Torgud" = 1
 	
-	"Aida " = -1
-	"Zia " = -1
-	"Saleh " = -1
-	"Fatima " = -1
-	"Samira " = -1
-	"Aicha " = -1
-	"Chrifa " = -1
-	"Djihane " = -1
-	"Esra " = -1
-	"Leila " = -1
-	"Safia " = -1
+	"Aida" = -1
+	"Zia" = -1
+	"Saleh" = -1
+	"Fatima" = -1
+	"Samira" = -1
+	"Aicha" = -1
+	"Chrifa" = -1
+	"Djihane" = -1
+	"Esra" = -1
+	"Leila" = -1
+	"Safia" = -1
 }
 
 leader_names = {
-	"Ibn Abbad" "Ibn Abd Allah" "Ibn Abd al-Rahman" "Ibn Abi Hafs" "Ibn Ali"
-	"Ibn Hakan" "Ibn Hammud" "Ibn Hisam" "Ibn Husayn"
-	"Ibn Idris" "Ibn Ishaq" "Ibn Isma'il"
-	"Ibn Marwan" "Ibn Muhammad"
-	"Ibn Nasr"
-	"Ibn Qasim"
-	"Ibn Sa'd" "Ibn Sulayman"
-	"Ibn Umar" "Ibn Ummay" "Ibn Utman"
-	"Ibn Ya'far" "Ibn Yahyà" "Ibn Yusuf"
-	"Ibn al-Azafi"
+	Taher
+	Akimi
+	Adhoum
+	Hakimi
+	Naybet
+	Bassir
+	Saber
+	Badra
+	Sassi
+	Dali
 }
 
 ship_names = {
-	Nasr
-	"Ismail I" "Ismail II"
-	"Muhammed III" "Muhammed IV" "Muhammed V" "Muhammed VI" "Muhammed VII" "Muhammed VIII" "Muhammed IX" "Muhammed X"
-	"Muhammed al-Faqih"
-	"Muhammed ibn Nasr"
-	"Yusuf I" "Yusuf II" "Yusuf III" "Yusuf IV" "Yusuf V"
+	Alim Fattah Razzaq Wahhab Qahhar Ghaffar
+	Musawwir Bari Khaliq Mutakabbir Jabbar
+	Aziz Muhaymin Mu'min Salam Quddus Malik
+	Rahim Rahman
 }

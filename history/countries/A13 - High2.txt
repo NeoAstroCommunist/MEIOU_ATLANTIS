@@ -19,3 +19,13 @@ capital = 5544
 	add_absolutism = 25
 }
 
+1328.1.1 = {
+	monarch = {
+		name = "Onias"
+		dynasty = "Mahana"
+		birth_date = 1322.1.1
+		ADM = 3
+		DIP = 5
+		MIL = 2
+	}
+}

@@ -2,7 +2,7 @@
 
 graphical_culture = westerngfx
 
-color = { 105 87 190 }
+color = { 100 36 36 }
 
 historical_idea_groups = {
 	trade_ideas
@@ -43,21 +43,21 @@ historical_units = { #French group
 
 monarch_names = {
 	"Simon" = 1
-	"Joseph " = 1
-	"Judah " = 1
-	"Eleazar " = 1
-	"Yohanan " = 1
-	"Joshua " = 1
-	"Hananiah " = 1
-	"Jonathan " = 1
-	"Mattathias " = 1
-	"Menahem " = 1
-	"Jacob " = 1
-	"Hanan " = 1
-	"Dositheus " = 1
-	"Zachariah " = 1
-	"Ishmael " = 1
-	"Levi " = 1
+	"Joseph" = 1
+	"Judah" = 1
+	"Eleazar" = 1
+	"Yohanan" = 1
+	"Joshua" = 1
+	"Hananiah" = 1
+	"Jonathan" = 1
+	"Mattathias" = 1
+	"Menahem" = 1
+	"Jacob" = 1
+	"Hanan" = 1
+	"Dositheus" = 1
+	"Zachariah" = 1
+	"Ishmael" = 1
+	"Levi" = 1
 	"Saul" = 1
 	"Onias" = 1
 	"Samuel" = 1
@@ -77,24 +77,24 @@ monarch_names = {
 	"Jeremiah" = 1
 	"Kasaias"= 1
 	
-	"Hannah " = -1
-	"Mariam " = -1
-	"Salome " = -1
-	"Shelamzion " = -1
-	"Martha " = -1
-	"Joanna " = -1
-	"Shiphra " = -1
-	"Berenice " = -1
-	"Sarah " = -1
-	"Imma " = -1
-	"Hermione " = -1
-	"Helene " = -1
-	"Grapte " = -1
+	"Hannah" = -1
+	"Mariam" = -1
+	"Salome" = -1
+	"Shelamzion" = -1
+	"Martha" = -1
+	"Joanna" = -1
+	"Shiphra" = -1
+	"Berenice" = -1
+	"Sarah" = -1
+	"Imma" = -1
+	"Hermione" = -1
+	"Helene" = -1
+	"Grapte" = -1
 	"Elisheba" = -1
 	"Esther" = -1
 	"Lysia" = -1
 	"Judith" = -1
-	"Julia " = -1
+	"Julia" = -1
 	"Mara" = -1
 }
 

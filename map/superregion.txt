@@ -326,12 +326,15 @@ adventure_superregion = {
 #Atlantis
 
 atlantis_superregion = {
-    march_atlantis_region
-	north_atlantis_region
-	northeast_atlantis_region
 	east_atlantis_region
-	west_atlantis_region
 	south_atlantis_region
 	atlantis_highlands_region
 	south_atlantis_islands_region
+}
+
+atlantis2_superregion = {
+    west_atlantis_region
+	northeast_atlantis_region
+	north_atlantis_region
+	march_atlantis_region
 }

@@ -21,3 +21,13 @@ historical_neutral = A39
 	add_absolutism = -100
 	add_absolutism = 30
 }
+
+1356.1.1 = {
+	monarch = {
+		name = "Senate of Oceania"
+		ADM = 0
+		DIP = 0
+		MIL = 0
+		regent = yes
+	}
+}

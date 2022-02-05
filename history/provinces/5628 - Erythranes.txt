@@ -6,7 +6,7 @@ religion = sunni
 is_city = yes
 set_key = { lhs = Infra_Pathing value = 1
 }
-discovered_by = FEZ discovered_by = GRA discovered_by = HAF
+discovered_by = muslim
 discovered_by = western
 
 

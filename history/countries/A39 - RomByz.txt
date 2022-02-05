@@ -30,3 +30,14 @@ fixed_capital = 5602
 	add_absolutism = -100
 	add_absolutism = 40
 }
+
+1356.1.1 = {
+	monarch = {
+		name = "Maxus"
+		dynasty = "Magnusius"
+		birth_date = 1319.1.1
+		DIP = 6
+		ADM = 6
+		MIL = 6
+		}
+}

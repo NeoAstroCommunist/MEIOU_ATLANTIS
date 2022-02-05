@@ -6,7 +6,7 @@ add_government_reform = Pol_Nobility1
 government_rank = 1
 mercantilism = 0.0
 primary_culture = fjernoyeran
-religion = norse_pagan_reformed
+religion = norse_pagan
 technology_group = western
 capital = 5640
 historical_rival = A28
@@ -17,4 +17,14 @@ historical_rival = A28
 	#set_key = { lhs = centralization_decentralization value = 3 }
 	add_absolutism = -100
 	add_absolutism = 20
+}
+
+1356.1.1 = {
+	monarch = {
+		name = "Thegn Council"
+		ADM = 0
+		DIP = 0
+		MIL = 0
+		regent = yes
+	}
 }

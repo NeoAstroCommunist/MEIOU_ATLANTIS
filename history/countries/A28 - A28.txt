@@ -6,7 +6,7 @@ add_government_reform = Pol_Nobility1
 government_rank = 1
 mercantilism = 10
 primary_culture = thynian
-religion = arianism
+religion = gnostic
 technology_group = western
 capital = 5613	
 historical_rival = A39
@@ -19,4 +19,15 @@ historical_friend = A27
 	#set_key = { lhs = centralization_decentralization value = 3 }
 	add_absolutism = -100
 	add_absolutism = 20
+}
+
+1356.1.1 = {
+	monarch = {
+		name = "Babpo"
+		dynasty = "Uxentus"
+		birth_date = 1306.1.1
+		DIP = 1
+		ADM = 6
+		MIL = 0
+		}
 }

@@ -24,7 +24,7 @@ set_key = { lhs = Infra_Irrigation value = 2
 		duration = -1
 	}
 	set_province_flag = sugar
-discovered_by = FEZ discovered_by = GRA discovered_by = HAF
+discovered_by = muslim
 discovered_by = western
 
 }

@@ -23,3 +23,13 @@ capital = 5546
 	add_absolutism = 25
 }
 
+1356.1.1 = {
+	monarch = {
+		name = "Representative of Mishoria"
+		ADM = 0
+		DIP = 0
+		MIL = 0
+		regent = yes
+	}
+}
+

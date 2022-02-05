@@ -34,3 +34,14 @@ add_army_professionalism = 0.05
 	add_absolutism = -100
 	add_absolutism = 30
 }
+
+1356.1.1 = {
+	monarch = {
+		name = "Publius"
+		dynasty = "Licinius"
+		birth_date = 1331.1.1
+		ADM = 6
+		DIP = 6
+		MIL = 1
+	}
+}

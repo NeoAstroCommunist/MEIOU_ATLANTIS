@@ -1,12 +1,12 @@
-owner = A23 add_core = A23
-controller = A23
+owner = A39 add_core = A39 add_core = A23
+controller = A39
 culture = romanoean
 trade_goods = fish
 religion = catholic
 is_city = yes
 450.1.1 = { 
         set_province_flag = TN_Island
-discovered_by = FEZ discovered_by = GRA discovered_by = HAF
+discovered_by = muslim
 discovered_by = western
 
 }

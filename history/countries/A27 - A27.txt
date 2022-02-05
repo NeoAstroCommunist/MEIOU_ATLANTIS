@@ -6,7 +6,7 @@ add_government_reform = Pol_Nobility2
 government_rank = 1
 technology_group = western
 primary_culture = odomantian
-religion = arianism
+religion = gnostic
 capital = 5612
 historical_rival = A18
 historical_rival = A21
@@ -23,4 +23,15 @@ historical_friend = A28
 	#set_key = { lhs = centralization_decentralization value = -1 }
 	add_absolutism = -100
 	add_absolutism = 50
+}
+
+1356.1.1 = {
+	monarch = {
+		name = "Balkar"
+		dynasty = "Korbidus"
+		birth_date = 1345.1.1
+		DIP = 5
+		ADM = 3
+		MIL = 5
+		}
 }

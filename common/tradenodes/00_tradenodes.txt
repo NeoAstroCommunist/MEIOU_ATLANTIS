@@ -865,7 +865,7 @@ delhi_node={
 tarim_node={
 	location=3213
 	color={
-		75 109 39 
+		245 245 245
 	}
 	inland=yes
 	outgoing={
@@ -939,7 +939,7 @@ lahore_node={
 central_asia_node={
 	location=457
 	color={
-		119 190 58 
+		75 75 175
 	}
 	inland=yes
 	outgoing={
@@ -976,7 +976,7 @@ central_asia_node={
 khorasan_node={
 	location=3843
 	color={
-		118 143 43 
+		75 109 39
 	}
 	inland=yes
 	outgoing={

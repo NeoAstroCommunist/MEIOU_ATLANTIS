@@ -2,7 +2,7 @@ owner = A28 add_core = A28
 controller = A28
 culture = thynian
 trade_goods = fish
-religion = arianism
+religion = gnostic
 is_city = yes
 set_key = { lhs = Infra_Harbourage value = 1
 }
