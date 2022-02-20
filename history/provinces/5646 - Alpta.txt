@@ -14,7 +14,9 @@ discovered_by = western
 	set_province_flag = TN_Port
 	set_province_flag = TN_Natural_Important
 }
-
+base_tax = 8
+base_production = 2
+base_manpower = 0
 100.1.1 = {
 	set_key = { lhs = starting_rural_pop_1300 value = 39.713 }
 	set_key = { lhs = starting_urban_pop_1300 value = 10.126 }

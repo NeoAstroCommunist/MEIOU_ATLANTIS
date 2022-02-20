@@ -18,6 +18,10 @@ discovered_by = western
 
 }
 
+base_tax = 6
+base_production = 2
+base_manpower = 0
+
 100.1.1 = {
 	set_key = { lhs = starting_rural_pop_1300 value = 46.134 }
 	set_key = { lhs = starting_urban_pop_1300 value = 23.400 }

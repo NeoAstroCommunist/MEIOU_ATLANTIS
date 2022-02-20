@@ -31,7 +31,6 @@ country_event = { #Sell of Neumark ripoff
 		ai_chance = {
 			factor = 75
 		}
-		custom_tooltip = flavor_A21.1.a.tt
 		A18 = {
 			country_event = { id = flavor_A21.2 }
 		}
@@ -41,7 +40,6 @@ country_event = { #Sell of Neumark ripoff
 		ai_chance = {
 			factor = 25
 		}
-		custom_tooltip = flavor_A21.1.b.tt
 		add_prestige = -5
 	}
 }

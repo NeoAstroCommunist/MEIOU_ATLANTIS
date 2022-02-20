@@ -6,6 +6,11 @@ religion = chalcedonism
 is_city = yes
 set_key = { lhs = Infra_Harbourage value = 1
 }
+
+base_tax = 7
+base_production = 0
+base_manpower = 0
+
 450.1.1 = {
         set_province_flag = TN_Island
 	set_province_flag = sugar

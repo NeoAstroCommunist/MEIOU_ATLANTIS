@@ -1,0 +1,68 @@
+# Events for Atlantis Thesrut tag
+
+
+namespace = flavor_thesrut
+
+country_event = { 
+	id = flavor_thesrut.1
+	title = "flavor_thesrut.1.name"
+	desc = "flavor_thesrut.1.desc"
+	picture = orthodox_court
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { 
+		name = "flavor_thesrut.1.opta"
+		if = { 
+			limit = { 
+				war_with = A20
+			}
+			white_peace = A20
+		}
+		inherit = A20
+		hidden_effect = { 
+			if = { 
+				limit = { 
+					stability = 3
+				}
+				set_variable = { 
+					which = ahf
+					value = 1200
+				}
+			}
+			else = { 
+				add_stability = 1
+			}
+		}
+		tooltip = { 
+			add_stability = 1
+		}
+		if = { 
+			limit = { 
+				is_emperor_of_china = yes
+			}
+			add_mandate = 5
+		}
+		add_prestige = 25
+		add_core = 5530
+		every_province = { 
+			limit = { 
+				is_city = yes
+				is_core = A20
+				NOT = { 
+					is_core = ROOT
+				}
+			}
+			random_list = { 
+				25 = { 
+					add_province_modifier = { 
+						name = "nationalists_organizing"
+						duration = 1825
+					}
+					custom_tooltip = nationalists_organizing_tt
+				}
+				75 = { }
+			}
+		}
+	}
+}
+

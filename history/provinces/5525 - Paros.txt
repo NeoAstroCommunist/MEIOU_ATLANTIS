@@ -4,6 +4,11 @@ culture = siculian
 trade_goods = carmine
 religion = sunni
 is_city = yes
+
+base_tax = 4
+base_production = 0
+base_manpower = 0
+
 450.1.1 = { 
 discovered_by = muslim
 discovered_by = western

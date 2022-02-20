@@ -14,7 +14,9 @@ set_key = { lhs = Infra_Harbourage value = 1
 discovered_by = western
 
 }
-
+base_tax = 7
+base_production = 5
+base_manpower = 0
 100.1.1 = {
 	set_key = { lhs = starting_rural_pop_1300 value = 27.914 }
 	set_key = { lhs = starting_urban_pop_1300 value = 3.161 }

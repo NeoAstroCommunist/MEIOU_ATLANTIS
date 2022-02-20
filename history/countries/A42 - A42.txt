@@ -1,0 +1,30 @@
+
+government = republic
+add_government_reform = Pol_Mandate3
+add_government_reform = Pol_Stylings1
+add_government_reform = Pol_ExtraPowers1
+add_government_reform = Pol_Assembly2
+add_government_reform = Pol_TermOfOffice1
+add_government_reform = Pol_Nobility2
+add_government_reform = Pol_Structure2
+add_government_reform = Pol_Centralisation2
+add_government_reform = Pol_Autonomy1
+add_government_reform = Pol_Provincial1
+add_government_reform = Pol_Military1
+government_rank = 1
+mercantilism = 0.50
+primary_culture = romansithon
+religion = catholic
+technology_group = western
+capital = 5572	
+fixed_capital = 5572
+
+add_army_professionalism = 0.05
+
+1000.1.1 = {
+	add_country_modifier = { name = title_6 duration = -1 }
+	set_country_flag = title_6
+	#set_key = { lhs = centralization_decentralization value = 2 }
+	add_absolutism = -100
+	add_absolutism = 30
+}

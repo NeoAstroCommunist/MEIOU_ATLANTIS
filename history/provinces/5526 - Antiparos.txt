@@ -4,6 +4,11 @@ culture = siculian
 trade_goods = fish
 religion = sunni
 is_city = yes
+
+base_tax = 4
+base_production = 0
+base_manpower = 0
+
 set_key = { lhs = Infra_Harbourage value = 1
 }
 discovered_by = muslim

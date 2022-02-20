@@ -9,7 +9,9 @@ discovered_by = western
 
 	set_province_flag = tribals_control_province
 }
-
+base_tax = 2
+base_production = 0
+base_manpower = 0
 100.1.1 = {
 	set_key = { lhs = starting_rural_pop_1300 value = 14.141 }
 	set_key = { lhs = starting_urban_pop_1300 value = 0.000 }
