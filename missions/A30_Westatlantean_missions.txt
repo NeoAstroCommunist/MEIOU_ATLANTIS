@@ -1,0 +1,46 @@
+A30_slot_5 = { 
+	slot = 3
+	generic = no
+	ai = yes
+	potential = { 
+		culture_group =
+	}
+	has_country_shield = yes
+	A30_unite_galatia = { 
+		icon = mission_conquer_50_development
+		required_missions = { }
+		position = 1
+		provinces_to_highlight = { 
+			OR = {
+			area = atlantean_eastcentral_area
+			area = atlantean_eastnorth_area
+			area = atlantean_east_coast_area
+			}
+		}
+		trigger = { 
+			atlantean_east_coast_area = { country_or_non_sovereign_subject_holds = ROOT }
+			atlantean_eastnorth_area = { country_or_non_sovereign_subject_holds = ROOT }
+			atlantean_eastcentral_area = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		effect = { 
+		    override_country_name = "Galatia"
+			capital_scope = { 
+				if = { 
+					limit = { 
+						has_province_modifier = mis_prov_growth
+					}
+					extend_province_modifier = { 
+						name = mis_prov_growth
+						duration = 36560
+					}
+				}
+				else = { 
+					add_province_modifier = { 
+						name = mis_prov_growth
+						duration = 36560
+					}
+				}
+			}
+		}
+	}
+}

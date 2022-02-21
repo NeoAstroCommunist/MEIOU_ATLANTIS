@@ -66,6 +66,7 @@ A21_slot_5 = {
 				province_id = 5573
 				province_id = 5582
 				province_id = 5583
+				province_id = 5584
 			}
 			NOT = { 
 				country_or_non_sovereign_subject_holds = ROOT
@@ -75,11 +76,107 @@ A21_slot_5 = {
 			5573 = { country_or_non_sovereign_subject_holds = ROOT }
 			5582 = { country_or_non_sovereign_subject_holds = ROOT }
 			5583 = { country_or_non_sovereign_subject_holds = ROOT }
+			5584 = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		effect = { 
 			add_prestige = 10
 			add_mil_power = 100
 			override_country_name = "Atlantis"
+		}
+	}
+	A21_spartacia = { 
+		icon = mission_unite_home_region
+		required_missions = { A21_cores_magnesia }
+		position = 4
+		provinces_to_highlight = { 
+			OR = { 
+				province_id = 5581
+				province_id = 5596
+			}
+			NOT = { 
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = { 
+			5581 = { country_or_non_sovereign_subject_holds = ROOT }
+			5596 = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		effect = { 
+			add_prestige = 10
+			add_mil_power = 100
+		}
+	}
+		A21_finish_magnesia = { 
+		icon = mission_unite_home_region
+		required_missions = { A21_spartacia }
+		position = 4
+		provinces_to_highlight = { 
+			OR = { 
+				province_id = 5605
+				province_id = 5602
+			}
+			NOT = { 
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = { 
+			5605 = { country_or_non_sovereign_subject_holds = ROOT }
+			5602 = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		effect = { 
+			add_prestige = 10
+			add_mil_power = 100
+		}
+	}
+}
+A21_slot_3 = { 
+	slot = 3
+	generic = no
+	ai = yes
+	potential = { 
+		has_country_flag = atlantis_A21
+	}
+	has_country_shield = yes
+	A21_finish_theodosia = { 
+		icon = mission_unite_home_region
+		required_missions = { A21_cores_theodosia }
+		position = 3
+		provinces_to_highlight = { 
+			OR = { 
+				province_id = 5574
+				province_id = 5705
+				province_id = 5571
+				province_id = 5559
+			}
+			NOT = { 
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = { 
+			5574 = { country_or_non_sovereign_subject_holds = ROOT }
+			5705 = { country_or_non_sovereign_subject_holds = ROOT }
+			5571 = { country_or_non_sovereign_subject_holds = ROOT }
+			5559 = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		effect = { 
+			add_prestige = 10
+		}
+	}
+	A21_revenge_knaan = { 
+		icon = mission_unite_home_region
+		required_missions = { A21_cores_theodosia }
+		position = 4
+		provinces_to_highlight = { 
+			province_id = 5567
+			NOT = { 
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = { 
+			5567 = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		effect = { 
+			add_prestige = 10
 		}
 	}
 }
@@ -121,6 +218,33 @@ A21_slot_6 = {
 			else = { 
 				add_dip_power = 100
 			}
+		}
+	}
+	A21_relations_pope = { 
+		icon = mission_alliances
+		required_missions = { A21_ally_oceania }
+		position = 3
+		trigger = { 
+			if = { 
+			if = { 
+				limit = { 
+					exists = PAP
+				}
+				PAP = { 
+					OR = { 
+						has_opinion = { 
+							who = ROOT
+							value = 100
+						}
+						PREV = { 
+							is_rival = PAP
+						}
+					}
+				}
+			}
+		}
+		effect = { 
+			add_papal_influence = 20
 		}
 	}
 }

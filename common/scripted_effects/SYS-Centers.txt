@@ -25,31 +25,29 @@ sr_effect = {
 							limit = {
 								check_key = { lhs = ID_SR value = 40 }
 							}
-							if = {
-							    limit = {
-								    check_key = { lhs = ID_SR value = 41 }
-							    }
-							    if = {
-							    limit = {
-								    check_key = { lhs = ID_SR value = 42 }
-							    }
+                            if = {
+                                limit = {
+                                    check_key = { lhs = ID_SR value = 42 }
+                                }
 								if = {
-							    limit = {
-								    check_key = { lhs = ID_SR value = 43 }
+								    limit = {
+									    check_key = { lhs = ID_SR value = 43 }
+								    }
+									$effect$ = { id = 43 }
+								}
+							    else = {
+                                $effect$ = { id = 42 }
 							    }
-								else = {
-							    $effect$ = { id = 43 }
-								}
-						        }
-								else = {
-							    $effect$ = { id = 42 }
-								}
-						        }
-								else = {
-							    $effect$ = { id = 41 }
-								}
-						    }
+                            }
+							else_if = {
+                                limit = {
+                                    check_key = { lhs = ID_SR value = 41 }
+                                }
+                                $effect$ = { id = 41 }
+							}
+							else = {
 							$effect$ = { id = 40 }
+							}
 						}
 						else = {
 							$effect$ = { id = 39 }
@@ -358,12 +356,14 @@ cont_effect = {
 						check_key = { lhs = ID_Cont value = 11 }
 					}
 					if = {
-					limit = {
+					    limit = {
 						check_key = { lhs = ID_Cont value = 12 }
+					    }
+						$effect$ = { id = 12 }
 					}
-					$effect$ = { id = 12 }
-				    }
+					else = {
 					$effect$ = { id = 11 }
+					}
 				}
 				else = {
 					$effect$ = { id = 10 }
@@ -462,24 +462,38 @@ TN_effect = {
 									check_key = { lhs = ID_TN value = 81 }
 								}
 								if = {
-								limit = {
-									check_key = { lhs = ID_TN value = 82 }
+								    limit = {
+									    check_key = { lhs = ID_TN value = 82 } 
+									}
+									if = {
+									    limit = {
+										    check_key = { lhs = ID_TN value = 83 } 
+										}
+										if = {
+										    limit = {
+											    check_key = { lhs = ID_TN value = 84 }
+											}
+											if = {
+											    limit = {
+												    check_key = { lhs = ID_TN value = 85 }
+												}
+												$effect$ = { id=85 }
+											}
+											else = {
+											$effect$ = { id=84 }
+											}
+										}
+										else = {
+										$effect$ = { id=83 }
+										}
+									}
+									else = {
+									$effect$ = { id=82 }
+									}
 								}
-								if = {
-								limit = {
-									check_key = { lhs = ID_TN value = 83 }
-								}
-								if = {
-								limit = {
-									check_key = { lhs = ID_TN value = 84 }
-								}
-								$effect$ = { id=84 }
-							    }
-								$effect$ = { id=83 }
-							    }
-								$effect$ = { id=82 }
-							}
+								else = {
 								$effect$ = { id=81 }
+								}
 							}
 							else = {
 								$effect$ = { id=80 }
@@ -1123,7 +1137,39 @@ TN_effect_param = {
 								limit = {
 									check_key = { lhs = ID_TN value = 81 }
 								}
+								if = {
+								    limit = {
+									    check_key = { lhs = ID_TN value = 82 } 
+									}
+									if = {
+									    limit = {
+										    check_key = { lhs = ID_TN value = 83 } 
+										}
+										if = {
+										    limit = {
+											    check_key = { lhs = ID_TN value = 84 }
+											}
+											if = {
+											    limit = {
+												    check_key = { lhs = ID_TN value = 85 }
+												}
+												$effect$ = { id=85 param1=$param1$ }
+											}
+											else = {
+											$effect$ = { id=84 param1=$param1$ }
+											}
+										}
+										else = {
+										$effect$ = { id=83 param1=$param1$ }
+										}
+									}
+									else = {
+									$effect$ = { id=82 param1=$param1$ }
+									}
+								}
+								else = {
 								$effect$ = { id=81 param1=$param1$ }
+								}
 							}
 							else = {
 								$effect$ = { id=80 param1=$param1$ }

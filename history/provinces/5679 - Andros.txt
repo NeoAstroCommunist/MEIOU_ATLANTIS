@@ -1,4 +1,5 @@
-owner = A20 add_core = A20
+owner = A20
+add_core = A20
 controller = A20
 culture = astypalean
 trade_goods = wheat
@@ -6,38 +7,111 @@ religion = sunni
 is_city = yes
 450.1.1 = { 
 	set_province_flag = tribals_control_province
-	set_key = { lhs = tribals_ratio value = 50
+	set_key = { 
+		lhs = tribals_ratio
+		value = 50
 	}
-discovered_by = muslim
-discovered_by = western
-
 }
 base_tax = 2
 base_production = 0
 base_manpower = 0
-100.1.1 = {
-	set_key = { lhs = starting_rural_pop_1300 value = 17.860 }
-	set_key = { lhs = starting_urban_pop_1300 value = 5.774 }
-	set_key = { lhs = starting_rural_pop_1350 value = 19.844 }
-	set_key = { lhs = starting_urban_pop_1350 value = 6.416 }
-	set_key = { lhs = starting_rural_pop_1400 value = 21.828 }
-	set_key = { lhs = starting_urban_pop_1400 value = 7.058 }
-	set_key = { lhs = starting_rural_pop_1450 value = 24.011 }
-	set_key = { lhs = starting_urban_pop_1450 value = 7.763 }
-	set_key = { lhs = starting_rural_pop_1500 value = 26.412 }
-	set_key = { lhs = starting_urban_pop_1500 value = 8.540 }
-	set_key = { lhs = starting_rural_pop_1550 value = 29.054 }
-	set_key = { lhs = starting_urban_pop_1550 value = 9.394 }
-	set_key = { lhs = starting_rural_pop_1600 value = 31.959 }
-	set_key = { lhs = starting_urban_pop_1600 value = 10.333 }
-	set_key = { lhs = starting_rural_pop_1650 value = 35.155 }
-	set_key = { lhs = starting_urban_pop_1650 value = 11.366 }
-	set_key = { lhs = starting_rural_pop_1700 value = 38.670 }
-	set_key = { lhs = starting_urban_pop_1700 value = 12.503 }
-	set_key = { lhs = starting_rural_pop_1750 value = 42.537 }
-	set_key = { lhs = starting_urban_pop_1750 value = 13.753 }
-	set_key = { lhs = starting_rural_pop_1800 value = 46.791 }
-	set_key = { lhs = starting_urban_pop_1800 value = 15.129 }
-	set_key = { lhs = starting_rural_pop_1850 value = 56.149 }
-	set_key = { lhs = starting_urban_pop_1850 value = 16.040 }
+100.1.1 = { 
+	discovered_by = muslim
+	discovered_by = western
+	set_key = { 
+		lhs = starting_rural_pop_1300
+		value = 17.860
+	}
+	set_key = { 
+		lhs = starting_urban_pop_1300
+		value = 5.774
+	}
+	set_key = { 
+		lhs = starting_rural_pop_1350
+		value = 19.844
+	}
+	set_key = { 
+		lhs = starting_urban_pop_1350
+		value = 6.416
+	}
+	set_key = { 
+		lhs = starting_rural_pop_1400
+		value = 21.828
+	}
+	set_key = { 
+		lhs = starting_urban_pop_1400
+		value = 7.058
+	}
+	set_key = { 
+		lhs = starting_rural_pop_1450
+		value = 24.011
+	}
+	set_key = { 
+		lhs = starting_urban_pop_1450
+		value = 7.763
+	}
+	set_key = { 
+		lhs = starting_rural_pop_1500
+		value = 26.412
+	}
+	set_key = { 
+		lhs = starting_urban_pop_1500
+		value = 8.540
+	}
+	set_key = { 
+		lhs = starting_rural_pop_1550
+		value = 29.054
+	}
+	set_key = { 
+		lhs = starting_urban_pop_1550
+		value = 9.394
+	}
+	set_key = { 
+		lhs = starting_rural_pop_1600
+		value = 31.959
+	}
+	set_key = { 
+		lhs = starting_urban_pop_1600
+		value = 10.333
+	}
+	set_key = { 
+		lhs = starting_rural_pop_1650
+		value = 35.155
+	}
+	set_key = { 
+		lhs = starting_urban_pop_1650
+		value = 11.366
+	}
+	set_key = { 
+		lhs = starting_rural_pop_1700
+		value = 38.670
+	}
+	set_key = { 
+		lhs = starting_urban_pop_1700
+		value = 12.503
+	}
+	set_key = { 
+		lhs = starting_rural_pop_1750
+		value = 42.537
+	}
+	set_key = { 
+		lhs = starting_urban_pop_1750
+		value = 13.753
+	}
+	set_key = { 
+		lhs = starting_rural_pop_1800
+		value = 46.791
+	}
+	set_key = { 
+		lhs = starting_urban_pop_1800
+		value = 15.129
+	}
+	set_key = { 
+		lhs = starting_rural_pop_1850
+		value = 56.149
+	}
+	set_key = { 
+		lhs = starting_urban_pop_1850
+		value = 16.040
+	}
 }

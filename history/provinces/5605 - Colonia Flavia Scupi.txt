@@ -1,44 +1,122 @@
-owner = A39 add_core = A39
+owner = A39
+add_core = A39
 controller = A39
 culture = romanmagnet
 trade_goods = wheat
 religion = catholic
 is_city = yes
-set_key = { lhs = Infra_Harbourage value = 1
+set_key = { 
+	lhs = Infra_Harbourage
+	value = 1
 }
-set_key = { lhs = Infra_Garrison value = 1
+set_key = { 
+	lhs = Infra_Garrison
+	value = 1
 }
-set_key = { lhs = Infra_Pathing value = 1
+set_key = { 
+	lhs = Infra_Pathing
+	value = 1
 }
-discovered_by = muslim
-discovered_by = western
 base_tax = 2
 base_production = 0
 base_manpower = 0
-
-100.1.1 = {
-	set_key = { lhs = starting_rural_pop_1300 value = 21.299 }
-	set_key = { lhs = starting_urban_pop_1300 value = 8.781 }
-	set_key = { lhs = starting_rural_pop_1350 value = 23.665 }
-	set_key = { lhs = starting_urban_pop_1350 value = 9.757 }
-	set_key = { lhs = starting_rural_pop_1400 value = 26.032 }
-	set_key = { lhs = starting_urban_pop_1400 value = 10.733 }
-	set_key = { lhs = starting_rural_pop_1450 value = 28.635 }
-	set_key = { lhs = starting_urban_pop_1450 value = 11.806 }
-	set_key = { lhs = starting_rural_pop_1500 value = 31.498 }
-	set_key = { lhs = starting_urban_pop_1500 value = 12.987 }
-	set_key = { lhs = starting_rural_pop_1550 value = 34.648 }
-	set_key = { lhs = starting_urban_pop_1550 value = 14.285 }
-	set_key = { lhs = starting_rural_pop_1600 value = 38.113 }
-	set_key = { lhs = starting_urban_pop_1600 value = 15.714 }
-	set_key = { lhs = starting_rural_pop_1650 value = 41.924 }
-	set_key = { lhs = starting_urban_pop_1650 value = 17.285 }
-	set_key = { lhs = starting_rural_pop_1700 value = 46.116 }
-	set_key = { lhs = starting_urban_pop_1700 value = 19.014 }
-	set_key = { lhs = starting_rural_pop_1750 value = 50.728 }
-	set_key = { lhs = starting_urban_pop_1750 value = 20.915 }
-	set_key = { lhs = starting_rural_pop_1800 value = 55.801 }
-	set_key = { lhs = starting_urban_pop_1800 value = 23.006 }
-	set_key = { lhs = starting_rural_pop_1850 value = 66.961 }
-	set_key = { lhs = starting_urban_pop_1850 value = 24.393 }
+100.1.1 = { 
+	discovered_by = muslim
+	discovered_by = western
+	set_key = { 
+		lhs = starting_rural_pop_1300
+		value = 21.299
+	}
+	set_key = { 
+		lhs = starting_urban_pop_1300
+		value = 8.781
+	}
+	set_key = { 
+		lhs = starting_rural_pop_1350
+		value = 23.665
+	}
+	set_key = { 
+		lhs = starting_urban_pop_1350
+		value = 9.757
+	}
+	set_key = { 
+		lhs = starting_rural_pop_1400
+		value = 26.032
+	}
+	set_key = { 
+		lhs = starting_urban_pop_1400
+		value = 10.733
+	}
+	set_key = { 
+		lhs = starting_rural_pop_1450
+		value = 28.635
+	}
+	set_key = { 
+		lhs = starting_urban_pop_1450
+		value = 11.806
+	}
+	set_key = { 
+		lhs = starting_rural_pop_1500
+		value = 31.498
+	}
+	set_key = { 
+		lhs = starting_urban_pop_1500
+		value = 12.987
+	}
+	set_key = { 
+		lhs = starting_rural_pop_1550
+		value = 34.648
+	}
+	set_key = { 
+		lhs = starting_urban_pop_1550
+		value = 14.285
+	}
+	set_key = { 
+		lhs = starting_rural_pop_1600
+		value = 38.113
+	}
+	set_key = { 
+		lhs = starting_urban_pop_1600
+		value = 15.714
+	}
+	set_key = { 
+		lhs = starting_rural_pop_1650
+		value = 41.924
+	}
+	set_key = { 
+		lhs = starting_urban_pop_1650
+		value = 17.285
+	}
+	set_key = { 
+		lhs = starting_rural_pop_1700
+		value = 46.116
+	}
+	set_key = { 
+		lhs = starting_urban_pop_1700
+		value = 19.014
+	}
+	set_key = { 
+		lhs = starting_rural_pop_1750
+		value = 50.728
+	}
+	set_key = { 
+		lhs = starting_urban_pop_1750
+		value = 20.915
+	}
+	set_key = { 
+		lhs = starting_rural_pop_1800
+		value = 55.801
+	}
+	set_key = { 
+		lhs = starting_urban_pop_1800
+		value = 23.006
+	}
+	set_key = { 
+		lhs = starting_rural_pop_1850
+		value = 66.961
+	}
+	set_key = { 
+		lhs = starting_urban_pop_1850
+		value = 24.393
+	}
 }
