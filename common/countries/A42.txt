@@ -1,0 +1,169 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 180 3 3 }
+
+historical_idea_groups = {
+	trade_ideas
+	innovativeness_ideas
+	naval_ideas
+	administrative_ideas
+	economic_ideas
+	leadership_ideas
+	diplomacy_ideas
+	quality_ideas
+}
+
+historical_units = { #French group
+	western_halberd_infantry
+	western_knight_cavalry
+	unique_AT1_chariot
+	western_manatarms_infantry
+	western_runner_cavalry
+	western_lance_infantry
+	western_gendarme_cavalry
+	western_pikeandshot_infantry
+	western_earlytercio_infantry
+	western_caracole_cavalry
+	western_tercio_infantry
+	western_musketeersquare_infantry
+	western_dragoon_cavalry
+	western_countermarch_infantry
+	western_volley_infantry
+	unique_AT1_grapeshooters
+	western_line_infantry
+	western_carabinier_cavalry
+	western_drill_infantry
+	western_hunter_cavalry
+	unique_AT1_expedition_infantry
+	western_lancer_cavalry
+	western_jominian_infantry
+}
+
+
+monarch_names = {
+	"Clemens" = 1
+	"Innocentius" = 1
+	"Pius" = 1
+	"Gregorius" = 1
+	"Paulus" = 1
+	"Alexander" = 1
+	"Benedictus" = 1
+	"Leo" = 1
+	"Urbanus" = 1
+	"Xystus" = 1
+	"Iulius" = 1
+	"Bonifacius" = 1
+	"Hadrianus" = 1
+	"Martinus" = 1
+	"Nicolaus" = 1
+	"Eugenius" = 1
+	"Callistus" = 1
+	"Marcellus" = 1
+	"Iohannes" = 1
+	"Celestinus" = 1
+	"Honorius" = 1
+	"Aldo" = 1
+	"Alfonso" = 1
+	"Baldovino" = 1
+	"Cirillo" = 1
+	"Cosimo" = 1
+	"Damiano" = 1
+	"Egidio" = 1
+	"Franco" = 1
+	"Giambattista" = 1
+	"Ippolito" = 1
+	"Leandro" = 1
+	"Marzio" = 1
+	"Ovidio" = 1
+	"Pietro" = 1
+	"Prospero" = 1
+	"Rafaello" = 1
+	"Scipione" = 1
+	"Teodosio" = 1
+	"Vittorio" = 1
+	
+	"Alba" = -1
+	"Brunella" = -1
+	"Lauretta" = -1
+	"Magdalena" = -1
+	"Maria" = -1
+	"Eva" = -1
+	"Antonia" = -1
+	"Ludovica" = -1
+	"Mariangela" = -1
+	"Petronilla" = -1
+	"Filippa" = -1
+	"Giosetta" = -1
+	"Mafalda" = -1
+	"Cornelia" = -1
+	"Emma" = -1
+	"Fioralba" = -1
+	"Caterina" = -1
+	"Giulia" = -1
+	"Lucrezia" = -1
+	"Pierina" = -1
+	"Santuzza" = -1
+	"Eulalia" = -1
+	"Luisella" = -1
+	"Milena" = -1
+	"Paolina" = -1
+}
+
+leader_names = {
+	Akropolites Angelos Aoinos Apokaukos Argyros
+	Basileous Batatzes Botaneiates Boumbalis
+	Choniates Choumnos
+	Diasorenos Diogenes Doukas
+	Gabras
+	Iagaris
+	Kantakuzenos Kaukadenos Komnenos
+	Laskaris
+	Melissinos Melisurgos Mikrulakes Monomakos Mouzalon
+	Nestongos
+	Palaiologos Paraspondylos Phocas Phouskarnaki Phrangopoulos Psellos
+	Rhadinos Rhangabe Rhodocanakis Romanos
+	Syropoulos
+	Tornikes
+	Zarides Zimisces
+}
+
+ship_names = {
+	Adrianopolis "Aetos Autokratiki" "Aghia Ioylia" "Aghia Irini" "Aghia Magdalini" "Aghia Sophia" "Aghia Thekla"
+	"Aghios Angelos" "Aghios Eusebios" "Aghios Ioakeim" "Aghios Ioannes" "Aghios Loukas"
+	"Aghios Markos" "Aghios Matthaios" "Aghios Maximos" "Aghios Nikolaos" "Aghios Pavlos"
+	"Aghios Petros" "Aghios Philimon" "Aghios Sergios" "Aghios Stephanos" "Aghios Thimoteos"
+	Aiakos Aineas Akhilleus Amphitrion Aphrodita Apollo Arakhne Ares Asia Athena
+	"Basileous Alexandros" "Basileous Alexeios" "Basileous Andronikos" "Basileous Basileos"
+	"Basileous Demetrios" "Basileous Ioannes" "Basileous Isaak" "Basileous Leon"
+	"Basileous Manuel" "Basileous Michael" "Basileous Rhomaion" "Basileous Romanos"
+	"Basileous Theodoros" "Basileous Theophilos" "Basileisa Theodora" "Basileisa Zoe"
+	Belisarios Byzantion
+	Cassandra Castor "Christos Soter" Chronos
+	Demeter "Despotes Demetrios" "Despotes Moreas" Diana "Drakon Ouranos" Dyonisos
+	Ellade Endymion Eros Europa
+	Gea "Gorgona Poseidonos"
+	Hades Hektor Hephaistos Hera Herakles Hermes Hestia Hydra Hypnos
+	Jason
+	"Kaisar Konstantinos" Konstantinopolis "Konstantinos Dragases"
+	"Liontari Skliros" "Lussa ton Theon" "Lykos Thalasses"
+	Makedonia "Margaritari Aspra" Minos
+	Nestor
+	Odysseos Orestes Okeanasthraustis Ouranos
+	Panselenos Pegasos Perseos "Pontikos Thalasses" Poseidon
+	Rhadamanthys
+	Sebastokrator
+	Thanatos Theseos
+	Zeous
+}
+
+army_names = {
+	"Thema Thrakes" "Thema Makedonikon" "Thema Thessalonikes" "Thema Helladikon" "Thema Opsikion" "Thema Optimaton"
+	"Thema Paphlagonia" "Thema $PROVINCE$"
+}
+
+
+fleet_names = {
+	"Thema Cibyrraeoton" "Thema Cypriakon" "Thema Aigaeou Pelagous" "Thema Sicelias"
+}

@@ -5,20 +5,15 @@ graphical_culture = westerngfx
 color = { 112 41 99 }
 
 historical_idea_groups = {
-	trade_ideas
-	innovativeness_ideas
-	naval_ideas
+	plutocracy_ideas
+	culture_ideas
 	administrative_ideas
-	economic_ideas
-	leadership_ideas
-	diplomacy_ideas
-	quality_ideas
 }
 
 historical_units = { #French group
 	western_halberd_infantry
 	western_knight_cavalry
-	unique_FRA_chevalier_cavalry
+	unique_AT1_chariot
 	western_manatarms_infantry
 	western_runner_cavalry
 	western_lance_infantry
@@ -31,12 +26,12 @@ historical_units = { #French group
 	western_dragoon_cavalry
 	western_countermarch_infantry
 	western_volley_infantry
-	unique_FRA_musketeer_of_the_guard_infantry
+	unique_AT1_grapeshooters
 	western_line_infantry
 	western_carabinier_cavalry
 	western_drill_infantry
 	western_hunter_cavalry
-	unique_FRA_grognard_infantry
+	unique_AT1_expedition_infantry
 	western_lancer_cavalry
 	western_jominian_infantry
 }

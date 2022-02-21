@@ -5,26 +5,21 @@ graphical_culture = westerngfx
 color = { 54 106 83 }
 
 historical_idea_groups = {
-	trade_ideas
-	innovativeness_ideas
-	naval_ideas
-	administrative_ideas
-	economic_ideas
-	leadership_ideas
+	aristocracy_ideas
+	fortification_ideas
 	diplomacy_ideas
-	quality_ideas
 }
 
 historical_units = { #Celtic group
 	western_spearman_infantry
 	western_hobelar_cavalry
 	western_longbow_infantry
-	unique_ENG_yeoman_infantry
+	unique_ATL_yeoman_infantry
 	western_mountedarcher_cavalry
 	western_pike_infantry
 	western_gendarme_cavalry
 	western_charge_infantry
-	unique_SCO_galloglaigh_infantry
+	unique_ATL_galloglaigh_infantry
 	western_freeshooter_infantry
 	western_cuirassier_cavalry
 	western_tercio_infantry

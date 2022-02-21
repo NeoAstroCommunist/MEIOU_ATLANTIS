@@ -2375,7 +2375,7 @@ Rights_RegionInit = {
 				add_government_reform = Pol_Centralisation2
 				add_government_reform = Pol_Autonomy1
 				add_government_reform = Pol_Provincial1
-				add_government_reform = Pol_Military1
+				add_government_reform = Pol_Military2
 				if = {
 					limit = {
 						government = republic
@@ -5080,21 +5080,21 @@ Rights_RegionInit = {
 					
 					if = {
 						limit = {
-							tag = AT1
+							tag = A12
 						}
-						Rights_NOSer3Apply = yes
+						Rights_NOSer2Apply = yes
 						Rights_BUSer2Apply = yes
 				
 						Privilege_NOProcessing0Apply = yes
 						Privilege_NOGame0Apply = yes
 						Privilege_NOForestry0Apply = yes
 						Privilege_NOSeigneurial0Apply = yes
-						Privilege_NOTitles4Apply = yes
+						Privilege_NOTitles3Apply = yes
 						Privilege_NOAutonomy3Apply = yes
 						Privilege_NODiplomacy0Apply = yes
 						Privilege_NODynastic1Apply = yes
 						Privilege_NOHierarchy1Apply = yes
-						Privilege_NOTaxE4Apply = yes
+						Privilege_NOTaxE2Apply = yes
 						Privilege_NOServiceE4Apply = yes # flawed Pronoia
 				
 						Privilege_BUOffice2Apply = yes
@@ -5111,15 +5111,15 @@ Rights_RegionInit = {
 						Privilege_BUPolitics0Apply = yes
 						Privilege_BURotate0Apply = yes
 				
-						add_government_reform = Pol_Structure4
-						add_government_reform = Pol_Centralisation4
+						add_government_reform = Pol_Structure3
+						add_government_reform = Pol_Centralisation3
 						add_government_reform = Pol_Autonomy2
 						add_government_reform = Pol_Provincial2
 						add_government_reform = Pol_Military2
 					}
 					else_if = {
 						limit = {
-							tag = A12
+							tag = AT1
 						}
 						Rights_NOGov4Apply = yes
 						Rights_NOObl2Apply = yes
@@ -5135,13 +5135,13 @@ Rights_RegionInit = {
 						Privilege_NODiplomacy0Apply = yes
 						Privilege_NODynastic1Apply = yes
 						Privilege_NOHierarchy0Apply = yes
-						Privilege_NOTaxE2Apply = yes
+						Privilege_NOTaxE3Apply = yes
 						Privilege_NOServiceE1Apply = yes # Pronoia
 				
 						Privilege_BUOffice2Apply = yes
 						Privilege_BUFarm2Apply = yes
 						Privilege_BUTenure2Apply = yes
-						Privilege_BUWages1Apply = yes
+						Privilege_BUWages2Apply = yes
 						Privilege_BUHierarchy1Apply = yes
 						Privilege_BUHire2Apply = yes
 						Privilege_BUExams1Apply = yes
@@ -10158,8 +10158,8 @@ Rights_RegionInit = {
 				limit = {
 					PREV = { is_capital = yes }
 				}
-				Rights_NOGov2Apply = yes
-				Rights_NOObl2Apply = yes
+				Rights_NOGov3Apply = yes
+				Rights_NOObl3Apply = yes
 				Rights_NOTen2Apply = yes
 				Rights_NOSer2Apply = yes
 				Rights_BGCom5Apply = yes
@@ -10170,7 +10170,7 @@ Rights_RegionInit = {
 				Rights_BUTax2Apply = yes
 				Rights_BUDir1Apply = yes
 				Rights_BUInd1Apply = yes
-				Rights_BUSer2Apply = yes
+				Rights_BUSer3Apply = yes
 					
 				Privilege_NOProcessing1Apply = yes
 				Privilege_NOGame1Apply = yes

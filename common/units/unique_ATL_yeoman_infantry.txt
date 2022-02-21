@@ -1,0 +1,21 @@
+# Western Longbowmen (7)
+
+type = infantry
+unit_type = western
+
+maneuver = 1
+offensive_morale = 2
+defensive_morale = 1
+offensive_fire = 0
+defensive_fire = 0
+offensive_shock = 6 #BONUS
+defensive_shock = 1
+
+trigger = {
+	OR = {
+	culture_group = nativeatlantean
+	culture_group = westatlantean
+	}
+	#NOT = { has_country_flag = raised_special_units }
+}
+

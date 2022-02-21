@@ -1097,6 +1097,7 @@
  somali:"Somali"
  sab:"Sab"
  #Atlantis
+ phalusian: "Phalusian"
  atlantopunic: "Punic"
  cartagean:1 "Chanani"
  atlantoberber:1 "Faistollonian"
@@ -1110,7 +1111,7 @@
  southatlantean: "Finiqian"
  baleatlantean: "Qejan"
  mozatlantean: "Muzafuynik"
- argolian: "Algharbi"
+ argolian: "Finiqian"
  siculian: "Alsayaadin"
  thesrotian: "Thisrutyan"
  cidonian: "Asubuli"

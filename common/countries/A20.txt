@@ -5,8 +5,8 @@ graphical_culture = muslimgfx
 color = { 53 39 89 }
 
 historical_idea_groups = {
-	trade_ideas
-	innovativeness_ideas
+	aristocracy_ideas
+	leadership_ideas
 	naval_ideas
 }
 

@@ -5,9 +5,9 @@ graphical_culture = westerngfx
 color = { 96 62 79 }
 
 historical_idea_groups = {
-	trade_ideas
+	aristocracy_ideas
 	fortification_ideas
-	culture_ideas
+	diplomacy_ideas
 }
 
 historical_units = { #Iberian Muslim group
