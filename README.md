@@ -1,6 +1,8 @@
 # MEIOU_ATLANTIS
 Atlantis submod for M&amp;T 3.0
 No rights reserved. Feel free to do everything you wish with it.
+#Update
+Repository is infact behind my actual work and i won't do anything about it for now.
 
 Attention! 
 This repository DOES NOT have SIM, which is necessary to compile submod into playable state - if you need it, message me in Discord - NAC #7662.
