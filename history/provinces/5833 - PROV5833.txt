@@ -1,0 +1,14 @@
+owner = ZLP
+controller = ZLP
+add_core = ZLP
+
+capital = "Default City"
+trade_goods = fish #grain
+culture = zhourao
+religion = shenism
+
+set_key = { lhs = Infra_Harbourage value = 1 }
+
+450.1.1 = {
+        set_key = { lhs = pop_level value = 1 }
+}

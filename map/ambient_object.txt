@@ -13009,7 +13009,7 @@ object = {
 object = {
 	name = "pin_1669"
 	hidden_on_start = yes
-	position = { 2211.000 2.000 1634.000 }
+	position = { 2265.000 2.000 1587.000 }
 	rotation = { 0.000 0.000 0.000 }
 }
 object = {
@@ -37366,4 +37366,189 @@ object = {
 	position = { 2170.000 2.000 1659.000 }
 	rotation = { 0.000 0.000 0.000 }
 }
+object = {
+	name = "pin_5729"
+	hidden_on_start = yes
+	position = { 1.000 2.000 1.000 }
+	rotation = { 0.000 0.000 0.000 }
+}
+object = {
+	name = "pin_5730"
+	hidden_on_start = yes
+	position = { 1.000 2.000 1.000 }
+	rotation = { 0.000 0.000 0.000 }
+}
+object = {
+	name = "pin_5731"
+	hidden_on_start = yes
+	position = { 1.000 2.000 1.000 }
+	rotation = { 0.000 0.000 0.000 }
+}
+object = {
+	name = "pin_5732"
+	hidden_on_start = yes
+	position = { 1.000 2.000 1.000 }
+	rotation = { 0.000 0.000 0.000 }
+}
+object = {
+	name = "pin_5733"
+	hidden_on_start = yes
+	position = { 1.000 2.000 1.000 }
+	rotation = { 0.000 0.000 0.000 }
+}
+object = {
+	name = "pin_5734"
+	hidden_on_start = yes
+	position = { 2670.000 2.000 1928.000 }
+	rotation = { 0.000 0.000 0.000 }
+}
+object = {
+	name = "pin_5735"
+	hidden_on_start = yes
+	position = { 2661.000 2.000 1939.000 }
+	rotation = { 0.000 0.000 0.000 }
+}
+object = {
+	name = "pin_5736"
+	hidden_on_start = yes
+	position = { 2680.000 2.000 1938.000 }
+	rotation = { 0.000 0.000 0.000 }
+}
+object = {
+	name = "pin_5737"
+	hidden_on_start = yes
+	position = { 2670.000 2.000 1941.000 }
+	rotation = { 0.000 0.000 0.000 }
+}
+object = {
+	name = "pin_5738"
+	hidden_on_start = yes
+	position = { 2667.000 2.000 1945.000 }
+	rotation = { 0.000 0.000 0.000 }
+}
+object = {
+	name = "pin_5739"
+	hidden_on_start = yes
+	position = { 2680.000 2.000 1951.000 }
+	rotation = { 0.000 0.000 0.000 }
+}
+object = {
+	name = "pin_5740"
+	hidden_on_start = yes
+	position = { 2696.000 2.000 1953.000 }
+	rotation = { 0.000 0.000 0.000 }
+}
+object = {
+	name = "pin_5741"
+	hidden_on_start = yes
+	position = { 2348.000 2.000 2010.000 }
+	rotation = { 0.000 0.000 0.000 }
+}
+object = {
+	name = "pin_5742"
+	hidden_on_start = yes
+	position = { 2378.000 2.000 2007.000 }
+	rotation = { 0.000 0.000 0.000 }
+}
+object = {
+	name = "pin_5743"
+	hidden_on_start = yes
+	position = { 2375.000 2.000 2027.000 }
+	rotation = { 0.000 0.000 0.000 }
+}
+object = {
+	name = "pin_5744"
+	hidden_on_start = yes
+	position = { 2412.000 2.000 2028.000 }
+	rotation = { 0.000 0.000 0.000 }
+}
+object = {
+	name = "pin_5745"
+	hidden_on_start = yes
+	position = { 2413.000 2.000 1998.000 }
+	rotation = { 0.000 0.000 0.000 }
+}
+object = {
+	name = "pin_5746"
+	hidden_on_start = yes
+	position = { 1.000 2.000 1.000 }
+	rotation = { 0.000 0.000 0.000 }
+}
+object = {
+	name = "pin_5747"
+	hidden_on_start = yes
+	position = { 2402.000 2.000 1989.000 }
+	rotation = { 0.000 0.000 0.000 }
+}
+object = {
+	name = "pin_5748"
+	hidden_on_start = yes
+	position = { 2404.000 2.000 1967.000 }
+	rotation = { 0.785 0.000 0.000 }
+}
+object = {
+	name = "pin_5749"
+	hidden_on_start = yes
+	position = { 2394.000 2.000 1966.000 }
+	rotation = { 0.000 0.000 0.000 }
+}
+object = {
+	name = "pin_5750"
+	hidden_on_start = yes
+	position = { 2367.000 2.000 1971.000 }
+	rotation = { 0.000 0.000 0.000 }
+}
+object = {
+	name = "pin_5751"
+	hidden_on_start = yes
+	position = { 2356.000 2.000 1956.000 }
+	rotation = { 0.000 0.000 0.000 }
+}
+object = {
+	name = "pin_5752"
+	hidden_on_start = yes
+	position = { 2358.000 2.000 1955.000 }
+	rotation = { 0.000 0.000 0.000 }
+}
+object = {
+	name = "pin_5753"
+	hidden_on_start = yes
+	position = { 2375.000 2.000 1966.000 }
+	rotation = { 0.000 0.000 0.000 }
+}
+object = {
+	name = "pin_5754"
+	hidden_on_start = yes
+	position = { 2406.000 2.000 1982.000 }
+	rotation = { 0.000 0.000 0.000 }
+}
+object = {
+	name = "pin_5755"
+	hidden_on_start = yes
+	position = { 2386.000 2.000 1959.000 }
+	rotation = { 0.000 0.000 0.000 }
+}
+object = {
+	name = "pin_5756"
+	hidden_on_start = yes
+	position = { 2417.000 2.000 2016.000 }
+	rotation = { 0.000 0.000 0.000 }
+}
+object = {
+	name = "pin_5757"
+	hidden_on_start = yes
+	position = { 2372.000 2.000 2014.000 }
+	rotation = { 0.000 0.000 0.000 }
+}
+object = {
+	name = "pin_5758"
+	hidden_on_start = yes
+	position = { 2372.000 2.000 1992.000 }
+	rotation = { 0.000 0.000 0.000 }
+}
+object = {
+	name = "pin_5759"
+	hidden_on_start = yes
+	position = { 2424.000 2.000 1977.000 }
+	rotation = { 0.000 0.000 0.000 }
 }

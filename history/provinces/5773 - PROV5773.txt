@@ -1,0 +1,9 @@
+
+owner = ZLD
+controller = ZLD
+add_core = ZLD
+
+capital = "Default City"
+trade_goods = rice # fish
+culture = chinesezealandia
+religion = shenism

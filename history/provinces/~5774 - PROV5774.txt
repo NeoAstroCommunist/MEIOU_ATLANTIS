@@ -1,0 +1,4 @@
+capital = "Default City"
+trade_goods = unknown # grain
+culture = wetancina
+religion = hinduism

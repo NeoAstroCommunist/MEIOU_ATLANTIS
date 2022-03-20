@@ -1,0 +1,6 @@
+# 5094 - Adrar n Ifoghas
+# This province is a wasteland
+
+discovered_by = soudantech
+discovered_by = muslim
+discovered_by = sub_saharan

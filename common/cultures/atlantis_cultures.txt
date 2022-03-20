@@ -1,4 +1,4 @@
-# culture count: 9 
+# culture count: don't know
 
 southatlantean = {
 	graphical_culture = westerngfx

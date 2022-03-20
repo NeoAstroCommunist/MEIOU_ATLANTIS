@@ -31,6 +31,7 @@ british_isles_superregion = {
 	north_england_region
 	scotland_region
 	ireland_region
+	thule_region
 }
 
 scandinavian_superregion = {
@@ -281,6 +282,10 @@ australia_superregion = {
 	papua_region
 	north_oceanea_region
 	south_oceanea_region
+	north_zealandia_region
+	south_zealandia_region
+	southeast_zealandia_region
+	east_zealandia_region
 }
 
 eastern_steppe_superregion = {

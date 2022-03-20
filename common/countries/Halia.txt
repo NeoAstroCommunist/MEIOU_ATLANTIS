@@ -1,0 +1,86 @@
+#Country Name: Please see filename.
+
+graphical_culture = southamericagfx
+
+color = { 200  168  81 }
+
+historical_idea_groups = {
+	exploration_ideas
+	economic_ideas
+	offensive_ideas
+	expansion_ideas
+	influence_ideas
+	trade_ideas
+	quality_ideas
+	defensive_ideas
+}
+
+
+historical_units = { #Polynesian group
+	polynesian_skirmish_infantry
+	polynesian_pike_infantry
+	polynesian_elite_infantry
+	polynesian_musket_infantry
+	polynesian_regular_infantry
+	polynesian_line_infantry
+	polynesian_carabinier_cavalry
+	polynesian_drill_infantry
+	polynesian_hunter_cavalry
+	polynesian_impulse_infantry
+	polynesian_lancer_cavalry
+	polynesian_breech_infantry
+}
+
+monarch_names = {	
+	"Tia #0" = 20
+	"Harata #0" = 20
+	"Hunapo #0" = 20
+	"Hunu #0" = 20
+	"Ikaroa #0" = 20
+	"Iorangi #0" = 20
+	"Irirangi #0" = 20
+	"Kaihautu #0" = 20
+	"Kamaka #0" = 20
+	"Koa #0" = 20
+	"Makareta #0" = 20
+	"Ihaia #0" = 20
+	"Kai #0" = 20
+	"Manaaki #0" = 20
+	"Mikaere #0" = 20
+	"Rawiri #0" = 20
+	"Moke #0" = 20
+	"Aliali'i #0" = 20
+	"Marcellin #0" = 20
+	"Matiu #0" = 20
+	"Rangi #0" = 20
+	"Rapata #0" = 20
+	"Ropata #0" = 20
+	"Tipene #0" = 20
+	"Kupe #0" = 20
+	"Ropata #0" = 20
+	"Tawera #0" = 20
+	"Tayn #0" = 20
+	"Nana #0" = 20
+	"Purta #0" = 1
+	
+	"Moana #0" = -1
+	"Oliana #0" = -1
+	"Tamar #0" = -1
+	"Leinani #0" = -1
+	"Nani #0" = -1
+	"La'akea #0" = -1
+	"Kalama #0" = -1
+	"Pania #0" = -1
+	"Heitiare #0" = -1
+	"Herenui #0" = -1
+	"Maeva #0" = -1
+	"Alitia #0" = -1
+	"Kasanita #0" = -1
+	"Yasi #0" = -1
+	"Mana #0" = -1
+}
+
+leader_names = {
+	Kihanuilulumoku Aloha Liloa Etana Liliha
+	Leiko Nohealani Kaimi Nani Mele
+}

@@ -1,0 +1,19 @@
+owner = RNL
+controller = RNL
+add_core = RNL
+
+capital = "Okitika"
+trade_goods = pepper # grain
+culture = oranglaut
+religion = hinduism
+
+100.1.1 = {
+	set_key = { lhs = starting_rural_pop_1350 value = 56.132 }
+	set_key = { lhs = starting_urban_pop_1350 value = 1.000 }
+	set_province_flag = tribals_control_province
+}
+
+200.1.1 = {
+	set_key = { lhs = NM_Ratio value = 20.000 }
+	set_key = { lhs = Prov_TRPow value = 100.000 }
+}

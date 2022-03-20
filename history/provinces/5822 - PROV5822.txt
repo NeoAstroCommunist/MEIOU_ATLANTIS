@@ -1,0 +1,20 @@
+owner = NNF
+controller = NNF
+add_core = NNF
+
+capital = "Default City"
+trade_goods = rice # fish
+culture = chinesezealandia
+religion = shenism
+
+100.1.1 = {
+	set_key = { lhs = starting_rural_pop_1350 value = 33.125 }
+	set_key = { lhs = starting_urban_pop_1350 value = 12.510 }
+}
+
+450.1.1 = {
+        set_province_flag = TN_Harbour_Minor
+	set_province_flag = TN_Natural_Minor
+	set_province_flag = mined_goods
+	set_province_flag = gold
+}

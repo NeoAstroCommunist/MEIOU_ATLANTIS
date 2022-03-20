@@ -1,0 +1,145 @@
+#Country Name: Please see filename.
+
+graphical_culture = africangfx
+
+color = { 215 49  49 }
+
+historical_idea_groups = {
+	defensive_ideas
+	economic_ideas
+	offensive_ideas
+	expansion_ideas
+	influence_ideas
+	trade_ideas
+	quality_ideas
+	diplomatic_ideas
+}
+
+
+historical_units = { #Polynesian group
+	polynesian_skirmish_infantry
+	polynesian_pike_infantry
+	polynesian_elite_infantry
+	polynesian_musket_infantry
+	polynesian_regular_infantry
+	polynesian_line_infantry
+	polynesian_carabinier_cavalry
+	polynesian_drill_infantry
+	polynesian_hunter_cavalry
+	polynesian_impulse_infantry
+	polynesian_lancer_cavalry
+	polynesian_breech_infantry
+}
+
+monarch_names = {	
+	"Adoni #0" = 20
+	"Akama #0" = 20
+	"Allambee #0" = 20
+	"Amaroo #0" = 20
+	"Apari #0" = 20
+	"Araluen #0" = 20
+	"Araluen #0" = 20
+	"Arunta #0" = 20
+	"Balun #0" = 20
+	"Balunn #0" = 20
+	"Dural #0" = 20
+	"Ganan #0" = 20
+	"Gelar #0" = 20
+	"Girra #0" = 20
+	"Jarra #0" = 20
+	"Jarrah #0" = 20
+	"Jirra #0" = 20
+	"Kalti #0" = 20
+	"Maka #0" = 20
+	"Mallee #0" = 20
+	"Mandu #0" = 20
+	"Matari #0" = 20
+	"Mearann #0" = 20
+	"Minar #0" = 20
+	"Miro #0" = 20
+	"Mogo #0" = 20
+	"Monti #0" = 20
+	"Mowan #0" = 20
+	"Odern #0" = 20
+	"Pindan #0" = 20
+	"Pindari #0" = 20
+	"Taree #0" = 20
+	"Tewart #0" = 20
+	"Tuart #0" = 20
+	"Uwan #0" = 20
+	"Warra #0" = 20
+	"Warrain #0" = 20
+	"Orad #0" = 1
+	
+	"Akala #0" = -20
+	"Alba #0" = -20
+	"Alinga #0" = -20
+	"Alkina #0" = -20
+	"Alkira #0" = -20
+	"Allirea #0" = -20
+	"Allora #0" = -20
+	"Allunga #0" = -20
+	"Amarina #0" = -20
+	"Anka #0" = -20
+	"Apanie #0" = -20
+	"Coorah #0" = -20
+	"Coreen #0" = -20
+	"Corowa #0" = -20
+	"Darri #0" = -20
+	"Eerin #0" = -20
+	"Ekala #0" = -20
+	"Elanora #0" = -20
+	"Ellin #0" = -20
+	"Elouera #0" = -20
+	"Gedala #0" = -20
+	"Gheera #0" = -20
+	"Kala #0" = -20
+	"Kamballa #0" = -20
+	"Karri #0" = -20
+	"Karuah #0" = -20
+	"Katyin #0" = -20
+	"Kayle #0" = -20
+	"Kiah #0" = -20
+	"Kimba #0" = -20
+	"Kirra #0" = -20
+	"Kolora #0" = -20
+	"Koorine #0" = -20
+	"Maiya #0" = -20
+	"Mallana #0" = -20
+	"Manilla #0" = -20
+	"Manya #0" = -20
+	"Marinna #0" = -20
+	"Marlee #0" = -20
+	"Mayra #0" = -20
+	"Meera #0" = -20
+	"Merinda #0" = -20
+	"Merindah #0" = -20
+	"Neridah #0" = -20
+	"Niley #0" = -20
+	"Noora #0" = -20
+	"Olba #0" = -20
+	"Olono #0" = -20
+	"Oola #0" = -20
+	"Orana #0" = -20
+	"Orani #0" = -20
+	"Pangari #0" = -20
+	"Pengana #0" = -20
+	"Pierah #0" = -20
+	"Weema #0" = -20
+	"Wihelma #0" = -20
+	"Wilga #0" = -20
+	"Wilhemine #0" = -20
+	"Willa #0" = -20
+	"Wilmette #0" = -20
+	"Wyla #0" = -20
+	"Wyuna #0" = -20
+	"Yani #0" = -20
+	"Yara #0" = -20
+	"Yaralla #0" = -20
+}
+
+leader_names = {
+	Adoni Akama Allambee Amaroo Apari Araluen Araluen Arunta Balun Balunn Dural Ganan Gelar Girra Jarra Jarrah 
+	Jarrah Jerara Jirra Kalti Maka Mallee Mandu Marron Matari Mearann Minar Miro Mogo Monti Mowan Odern Orad Parri 
+	Pindan Pindari Taree Tewart Tuart Uwan Warra Warrain
+}

@@ -1,0 +1,8 @@
+owner = ZLD
+controller = ZLD
+add_core = ZLD
+
+capital = "Default City"
+trade_goods = opium # grain
+culture = chinesezealandia
+religion = shenism

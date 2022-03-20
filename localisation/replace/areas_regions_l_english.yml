@@ -3855,3 +3855,8 @@
  march_atlantis_region_name: "Atlantean Peninsula"
  atlantis_superregion: "South Atlantis"
  atlantis2_superregion: "North Atlantis"
+ doggerland_area: "Doggerland"
+ thule1_area: "Northern Thule"
+ thule2_area: "Central Thule"
+ thule3_area: "Southern Thule"
+ thule_region: "Thule"

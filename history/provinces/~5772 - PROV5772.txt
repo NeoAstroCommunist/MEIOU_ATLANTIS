@@ -1,0 +1,4 @@
+capital = "Default City"
+trade_goods = unknown 
+culture = polynesian
+religion = hinduism

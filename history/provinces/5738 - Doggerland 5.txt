@@ -1,0 +1,62 @@
+# 
+
+owner = DGR
+controller = DGR
+add_core = DGR
+add_claim = NOR 
+add_claim = DEN
+
+capital = "Aegiravikgh"
+trade_goods = livestock
+culture = doggsk
+religion = catholic
+
+hre = no
+
+base_tax = 5
+base_production = 1
+base_manpower = 0
+
+is_city = yes
+set_key = { lhs = Infra_Harbourage value = 2 }
+set_key = { lhs = Infra_Amenities value = 1 }
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = byzantine
+discovered_by = muslim
+
+450.1.1 = {
+	set_province_flag = TN_Minor
+	set_province_flag = TN_Port
+	set_province_flag = TN_Natural_Important
+	set_province_flag = freeholders_control_province	
+	set_province_flag = TN_Estuary
+}
+
+100.1.1 = {
+	set_key = { lhs = starting_rural_pop_1300 value = 45.709 }
+	set_key = { lhs = starting_urban_pop_1300 value = 0.000 }
+	set_key = { lhs = starting_rural_pop_1350 value = 45.709 }
+	set_key = { lhs = starting_urban_pop_1350 value = 0.000 }
+	set_key = { lhs = starting_rural_pop_1400 value = 33.012 }
+	set_key = { lhs = starting_urban_pop_1400 value = 0.000 }
+	set_key = { lhs = starting_rural_pop_1450 value = 39.360 }
+	set_key = { lhs = starting_urban_pop_1450 value = 0.000 }
+	set_key = { lhs = starting_rural_pop_1500 value = 40.709 }
+	set_key = { lhs = starting_urban_pop_1500 value = 5.000 }
+	set_key = { lhs = starting_rural_pop_1550 value = 43.327 }
+	set_key = { lhs = starting_urban_pop_1550 value = 10.000 }
+	set_key = { lhs = starting_rural_pop_1600 value = 41.945 }
+	set_key = { lhs = starting_urban_pop_1600 value = 19.000 }
+	set_key = { lhs = starting_rural_pop_1650 value = 57.089 }
+	set_key = { lhs = starting_urban_pop_1650 value = 18.000 }
+	set_key = { lhs = starting_rural_pop_1700 value = 74.742 }
+	set_key = { lhs = starting_urban_pop_1700 value = 14.000 }
+	set_key = { lhs = starting_rural_pop_1750 value = 90.395 }
+	set_key = { lhs = starting_urban_pop_1750 value = 12.000 }
+	set_key = { lhs = starting_rural_pop_1800 value = 102.874 }
+	set_key = { lhs = starting_urban_pop_1800 value = 20.000 }
+	set_key = { lhs = starting_rural_pop_1850 value = 158.310 }
+	set_key = { lhs = starting_urban_pop_1850 value = 26.000 }
+}

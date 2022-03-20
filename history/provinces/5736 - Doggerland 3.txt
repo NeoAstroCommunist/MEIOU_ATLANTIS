@@ -1,0 +1,61 @@
+# 
+
+owner = DGR
+controller = DGR
+add_core = DGR
+add_claim = NOR 
+add_claim = DEN
+
+capital = "Tiddevatens"
+trade_goods = livestock
+culture = doggsk
+religion = catholic
+
+hre = no
+
+base_tax = 5
+base_production = 0
+base_manpower = 1
+
+is_city = yes
+set_key = { lhs = Infra_Garrison value = 1 }
+set_key = { lhs = Infra_Harbourage value = 1 }
+set_key = { lhs = Infra_Pathing value = 1 }
+
+discovered_by = eastern
+discovered_by = byzantine
+discovered_by = western
+discovered_by = muslim
+
+450.1.1 = {
+	# Features
+	set_province_flag = TN_Natural_Minor
+	set_province_flag = honey
+}
+
+100.1.1 = {
+	set_key = { lhs = starting_rural_pop_1300 value = 46.599 }
+	set_key = { lhs = starting_urban_pop_1300 value = 1.000 }
+	set_key = { lhs = starting_rural_pop_1350 value = 46.349 }
+	set_key = { lhs = starting_urban_pop_1350 value = 1.250 }
+	set_key = { lhs = starting_rural_pop_1400 value = 32.877 }
+	set_key = { lhs = starting_urban_pop_1400 value = 1.500 }
+	set_key = { lhs = starting_rural_pop_1450 value = 39.238 }
+	set_key = { lhs = starting_urban_pop_1450 value = 1.750 }
+	set_key = { lhs = starting_rural_pop_1500 value = 45.599 }
+	set_key = { lhs = starting_urban_pop_1500 value = 2.000 }
+	set_key = { lhs = starting_rural_pop_1550 value = 53.032 }
+	set_key = { lhs = starting_urban_pop_1550 value = 2.500 }
+	set_key = { lhs = starting_rural_pop_1600 value = 60.465 }
+	set_key = { lhs = starting_urban_pop_1600 value = 3.000 }
+	set_key = { lhs = starting_rural_pop_1650 value = 74.694 }
+	set_key = { lhs = starting_urban_pop_1650 value = 3.500 }
+	set_key = { lhs = starting_rural_pop_1700 value = 88.161 }
+	set_key = { lhs = starting_urban_pop_1700 value = 4.250 }
+	set_key = { lhs = starting_rural_pop_1750 value = 101.628 }
+	set_key = { lhs = starting_urban_pop_1750 value = 5.000 }
+	set_key = { lhs = starting_rural_pop_1800 value = 120.954 }
+	set_key = { lhs = starting_urban_pop_1800 value = 7.000 }
+	set_key = { lhs = starting_rural_pop_1850 value = 175.931 }
+	set_key = { lhs = starting_urban_pop_1850 value = 16.000 }
+}

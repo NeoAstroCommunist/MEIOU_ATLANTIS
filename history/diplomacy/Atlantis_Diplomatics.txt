@@ -54,3 +54,9 @@ dependency = {
 	end_date = 1491.1.1
 }
 
+guarantee = {
+	first = HB3
+	second = HB7
+	start_date = 1356.1.1
+	end_date = 1560.7.5
+}

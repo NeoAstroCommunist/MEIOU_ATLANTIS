@@ -1,0 +1,18 @@
+owner = WHA
+controller = WHA
+add_core = WHA
+
+capital = "Default City"
+trade_goods = rice #grain
+culture = maori
+religion = polynesian_pagan
+
+200.1.1 = {
+	set_key = { lhs = NM_Ratio value = 20.000 }
+	set_key = { lhs = Prov_TRPow value = 100.000 }
+}
+
+450.1.1 = {
+        set_key = { lhs = pop_level value = 3 }
+	set_province_flag = tribals_control_province
+}

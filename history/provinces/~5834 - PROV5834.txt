@@ -1,0 +1,4 @@
+capital = "Default City"
+trade_goods = unknown # fish
+culture = chinesezealandiasouth
+religion = shenism

@@ -477,7 +477,31 @@ TN_effect = {
 											    limit = {
 												    check_key = { lhs = ID_TN value = 85 }
 												}
+												if = {
+												   limit = {
+												       check_key = { lhs = ID_TN value = 86 }
+												   }
+												   if = {
+												      limit = {
+												          check_key = { lhs = ID_TN value = 87 }
+												      }
+													  if = {
+													     limit = {
+														     check_key = { lhs = ID_TN value = 88 }
+														 }
+														 $effect$ = { id=88 }
+													  }
+													  else = { 
+													  $effect$ = { id=87 }
+													  }
+												   }
+												   else = {
+												   $effect$ = { id=86 }
+												   }
+									            }
+												else = {
 												$effect$ = { id=85 }
+												}
 											}
 											else = {
 											$effect$ = { id=84 }

@@ -1,0 +1,42 @@
+# Copy-paste from iceland
+
+government = monarchy
+add_government_reform = Pol_Succession4 #feel free to revise
+add_government_reform = Pol_Assembly1
+add_government_reform = Pol_Nobility1
+government_rank = 1
+mercantilism = 0.0
+primary_culture = doggsk
+religion = catholic
+technology_group = western
+capital = 5734
+
+1000.1.1 = {
+	add_country_modifier = { name = title_3 duration = -1 }
+	set_country_flag = title_4
+	#set_key = { lhs = centralization_decentralization value = 4 }
+	add_absolutism = -100
+	add_absolutism = 20
+}
+
+1340.1.1 = {
+	monarch = {
+		name = "Eric III"
+		dynasty = Abelsaegten
+		birth_date = 1300.1.1
+		ADM = 3
+		DIP = 1
+		MIL = 2
+	}
+	heir = {
+		name = "Eric"
+		monarch_name = "Eric IV"
+		dynasty = "Abelsaegten"
+		birth_date = 1330.1.1
+		death_date = 1360.1.1
+		claim = 95
+		ADM = 4
+		DIP = 4
+		MIL = 3
+	}
+}

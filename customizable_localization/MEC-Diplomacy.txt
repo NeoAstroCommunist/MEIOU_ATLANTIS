@@ -1,0 +1,727 @@
+defined_text = {
+	name = AI_Reasons_Display_Head
+	random = no
+
+	text = {
+		localisation_key = AI_Reasons_Display_Head_Accept
+		trigger = {
+			check_key = { lhs = AI_Reasons_Outcome value = 1 }
+		}
+	}
+	text = {
+		localisation_key = AI_Reasons_Display_Head_Reject
+		trigger = {
+			NOT = { check_key = { lhs = AI_Reasons_Outcome value = 1 } }
+		}
+	}
+}
+
+defined_text = {
+	name = AI_Reasons_Display_0
+	random = no
+
+	text = {
+		localisation_key = AI_Reasons_Display_Base
+
+		trigger = {
+			NOT = { is_key_equal = { lhs = AI_Reasons_0 value = 0 } }
+		}
+	}
+}
+
+defined_text = {
+	name = AI_Reasons_Display_1
+	random = no
+
+	text = {
+		localisation_key = AI_Reasons_Display_TheirOpinion
+
+		trigger = {
+			NOT = { is_key_equal = { lhs = AI_Reasons_1 value = 0 } }
+		}
+	}
+}
+defined_text = {
+	name = AI_Reasons_Display_2
+	random = no
+
+	text = {
+		localisation_key = AI_Reasons_Display_OurDiploRep
+
+		trigger = {
+			NOT = { is_key_equal = { lhs = AI_Reasons_2 value = 0 } }
+		}
+	}
+}
+defined_text = {
+	name = AI_Reasons_Display_3
+	random = no
+
+	text = {
+		localisation_key = AI_Reasons_Display_TheirDiploRep
+
+		trigger = {
+			NOT = { is_key_equal = { lhs = AI_Reasons_3 value = 0 } }
+		}
+	}
+}
+
+defined_text = {
+	name = AI_Reasons_Display_4
+	random = no
+
+	text = {
+		localisation_key = AI_Reasons_Display_BorderDistance
+
+		trigger = {
+			NOT = { is_key_equal = { lhs = AI_Reasons_4 value = 0 } }
+		}
+	}
+}
+defined_text = {
+	name = AI_Reasons_Display_5
+	random = no
+
+	text = {
+		localisation_key = AI_Reasons_Display_TheirAttitude
+
+		trigger = {
+			NOT = { is_key_equal = { lhs = AI_Reasons_5 value = 0 } }
+		}
+	}
+}
+defined_text = {
+	name = AI_Reasons_Display_6
+	random = no
+
+	text = {
+		localisation_key = AI_Reasons_Display_DifArmyStrength
+
+		trigger = {
+			NOT = { is_key_equal = { lhs = AI_Reasons_6 value = 0 } }
+		}
+	}
+}
+
+defined_text = {
+	name = AI_Reasons_Display_7
+	random = no
+
+	text = {
+		localisation_key = AI_Reasons_Display_DifNavyStrength
+
+		trigger = {
+			NOT = { is_key_equal = { lhs = AI_Reasons_7 value = 0 } }
+		}
+	}
+}
+defined_text = {
+	name = AI_Reasons_Display_8
+	random = no
+
+	text = {
+		localisation_key = AI_Reasons_Display_DifEconStrength
+
+		trigger = {
+			NOT = { is_key_equal = { lhs = AI_Reasons_8 value = 0 } }
+		}
+	}
+}
+defined_text = {
+	name = AI_Reasons_Display_9
+	random = no
+
+	text = {
+		localisation_key = AI_Reasons_Display_TheirTrust
+
+		trigger = {
+			NOT = { is_key_equal = { lhs = AI_Reasons_9 value = 0 } }
+		}
+	}
+}
+
+defined_text = {
+	name = AI_Reasons_Display_10
+	random = no
+
+	text = {
+		localisation_key = AI_Reasons_Display_OurPrestige
+
+		trigger = {
+			NOT = { is_key_equal = { lhs = AI_Reasons_10 value = 0 } }
+		}
+	}
+}
+
+defined_text = {
+	name = AI_Reasons_Display_11
+	random = no
+
+	text = {
+		localisation_key = AI_Reasons_Display_TheirPrestige
+
+		trigger = {
+			NOT = { is_key_equal = { lhs = AI_Reasons_11 value = 0 } }
+		}
+	}
+}
+
+defined_text = {
+	name = AI_Reasons_Display_12
+	random = no
+
+	text = {
+		localisation_key = AI_Reasons_Display_DucatBribe
+
+		trigger = {
+			NOT = { is_key_equal = { lhs = AI_Reasons_12 value = 0 } }
+		}
+	}
+}
+
+defined_text = {
+	name = AI_Reasons_Display_13
+	random = no
+
+	text = {
+		localisation_key = AI_Reasons_Display_DifDiploRep
+
+		trigger = {
+			NOT = { is_key_equal = { lhs = AI_Reasons_13 value = 0 } }
+		}
+	}
+}
+
+defined_text = {
+	name = AI_Reasons_Display_14
+	random = no
+
+	text = {
+		localisation_key = AI_Reasons_Display_DifPrestige
+
+		trigger = {
+			NOT = { is_key_equal = { lhs = AI_Reasons_14 value = 0 } }
+		}
+	}
+}
+
+
+defined_text = {
+	name = AI_Reasons_Outcome_Col
+	random = no
+
+	text = {
+		localisation_key = AI_Reasons_Outcome_Pos
+
+		trigger = {
+			check_key = { lhs = AI_Reasons_Outcome value = 1 }
+		}
+	}
+	text = {
+		localisation_key = AI_Reasons_Outcome_Neg
+
+		trigger = {
+			NOT = { check_key = { lhs = AI_Reasons_Outcome value = 1 } }
+		}
+	}
+}
+
+
+defined_text = {
+	name = AI_Reasons_0_Col
+	random = no
+
+	text = {
+		localisation_key = AI_Reasons_0_Pos
+
+		trigger = {
+			check_key = { lhs = AI_Reasons_0 value = 0 }
+		}
+	}
+	text = {
+		localisation_key = AI_Reasons_0_Neg
+
+		trigger = {
+			NOT = { check_key = { lhs = AI_Reasons_0 value = 0 } }
+		}
+	}
+}
+
+defined_text = {
+	name = AI_Reasons_1_Col
+	random = no
+
+	text = {
+		localisation_key = AI_Reasons_1_Pos
+
+		trigger = {
+			check_key = { lhs = AI_Reasons_1 value = 0 }
+		}
+	}
+	text = {
+		localisation_key = AI_Reasons_1_Neg
+
+		trigger = {
+			NOT = { check_key = { lhs = AI_Reasons_1 value = 0 } }
+		}
+	}
+}
+
+defined_text = {
+	name = AI_Reasons_2_Col
+	random = no
+
+	text = {
+		localisation_key = AI_Reasons_2_Pos
+
+		trigger = {
+			check_key = { lhs = AI_Reasons_2 value = 0 }
+		}
+	}
+	text = {
+		localisation_key = AI_Reasons_2_Neg
+
+		trigger = {
+			NOT = { check_key = { lhs = AI_Reasons_2 value = 0 } }
+		}
+	}
+}
+
+defined_text = {
+	name = AI_Reasons_3_Col
+	random = no
+
+	text = {
+		localisation_key = AI_Reasons_3_Pos
+
+		trigger = {
+			check_key = { lhs = AI_Reasons_3 value = 0 }
+		}
+	}
+	text = {
+		localisation_key = AI_Reasons_3_Neg
+
+		trigger = {
+			NOT = { check_key = { lhs = AI_Reasons_3 value = 0 } }
+		}
+	}
+}
+
+defined_text = {
+	name = AI_Reasons_4_Col
+	random = no
+
+	text = {
+		localisation_key = AI_Reasons_4_Pos
+
+		trigger = {
+			check_key = { lhs = AI_Reasons_4 value = 0 }
+		}
+	}
+	text = {
+		localisation_key = AI_Reasons_4_Neg
+
+		trigger = {
+			NOT = { check_key = { lhs = AI_Reasons_4 value = 0 } }
+		}
+	}
+}
+
+defined_text = {
+	name = AI_Reasons_5_Col
+	random = no
+
+	text = {
+		localisation_key = AI_Reasons_5_Pos
+
+		trigger = {
+			check_key = { lhs = AI_Reasons_5 value = 0 }
+		}
+	}
+	text = {
+		localisation_key = AI_Reasons_5_Neg
+
+		trigger = {
+			NOT = { check_key = { lhs = AI_Reasons_5 value = 0 } }
+		}
+	}
+}
+
+defined_text = {
+	name = AI_Reasons_6_Col
+	random = no
+
+	text = {
+		localisation_key = AI_Reasons_6_Pos
+
+		trigger = {
+			check_key = { lhs = AI_Reasons_6 value = 0 }
+		}
+	}
+	text = {
+		localisation_key = AI_Reasons_6_Neg
+
+		trigger = {
+			NOT = { check_key = { lhs = AI_Reasons_6 value = 0 } }
+		}
+	}
+}
+
+defined_text = {
+	name = AI_Reasons_7_Col
+	random = no
+
+	text = {
+		localisation_key = AI_Reasons_7_Pos
+
+		trigger = {
+			check_key = { lhs = AI_Reasons_7 value = 0 }
+		}
+	}
+	text = {
+		localisation_key = AI_Reasons_7_Neg
+
+		trigger = {
+			NOT = { check_key = { lhs = AI_Reasons_7 value = 0 } }
+		}
+	}
+}
+
+defined_text = {
+	name = AI_Reasons_8_Col
+	random = no
+
+	text = {
+		localisation_key = AI_Reasons_8_Pos
+
+		trigger = {
+			check_key = { lhs = AI_Reasons_8 value = 0 }
+		}
+	}
+	text = {
+		localisation_key = AI_Reasons_8_Neg
+
+		trigger = {
+			NOT = { check_key = { lhs = AI_Reasons_8 value = 0 } }
+		}
+	}
+}
+
+defined_text = {
+	name = AI_Reasons_9_Col
+	random = no
+
+	text = {
+		localisation_key = AI_Reasons_9_Pos
+
+		trigger = {
+			check_key = { lhs = AI_Reasons_9 value = 0 }
+		}
+	}
+	text = {
+		localisation_key = AI_Reasons_9_Neg
+
+		trigger = {
+			NOT = { check_key = { lhs = AI_Reasons_9 value = 0 } }
+		}
+	}
+}
+
+defined_text = {
+	name = AI_Reasons_10_Col
+	random = no
+
+	text = {
+		localisation_key = AI_Reasons_10_Pos
+
+		trigger = {
+			check_key = { lhs = AI_Reasons_10 value = 0 }
+		}
+	}
+	text = {
+		localisation_key = AI_Reasons_10_Neg
+
+		trigger = {
+			NOT = { check_key = { lhs = AI_Reasons_10 value = 0 } }
+		}
+	}
+}
+
+defined_text = {
+	name = AI_Reasons_11_Col
+	random = no
+
+	text = {
+		localisation_key = AI_Reasons_11_Pos
+
+		trigger = {
+			check_key = { lhs = AI_Reasons_11 value = 0 }
+		}
+	}
+	text = {
+		localisation_key = AI_Reasons_11_Neg
+
+		trigger = {
+			NOT = { check_key = { lhs = AI_Reasons_11 value = 0 } }
+		}
+	}
+}
+
+defined_text = {
+	name = AI_Reasons_12_Col
+	random = no
+
+	text = {
+		localisation_key = AI_Reasons_12_Pos
+
+		trigger = {
+			check_key = { lhs = AI_Reasons_12 value = 0 }
+		}
+	}
+	text = {
+		localisation_key = AI_Reasons_12_Neg
+
+		trigger = {
+			NOT = { check_key = { lhs = AI_Reasons_12 value = 0 } }
+		}
+	}
+}
+
+
+defined_text = {
+	name = AI_Reasons_13_Col
+	random = no
+
+	text = {
+		localisation_key = AI_Reasons_13_Pos
+
+		trigger = {
+			check_key = { lhs = AI_Reasons_13 value = 0 }
+		}
+	}
+	text = {
+		localisation_key = AI_Reasons_13_Neg
+
+		trigger = {
+			NOT = { check_key = { lhs = AI_Reasons_13 value = 0 } }
+		}
+	}
+}
+
+
+defined_text = {
+	name = AI_Reasons_14_Col
+	random = no
+
+	text = {
+		localisation_key = AI_Reasons_14_Pos
+
+		trigger = {
+			check_key = { lhs = AI_Reasons_14 value = 0 }
+		}
+	}
+	text = {
+		localisation_key = AI_Reasons_14_Neg
+
+		trigger = {
+			NOT = { check_key = { lhs = AI_Reasons_14 value = 0 } }
+		}
+	}
+}
+
+defined_text = {
+	name = Diplomacy_Display
+	random = no
+
+	text = {
+		localisation_key = Diplomacy_Display_Independent
+
+		trigger = {
+			is_free_or_tributary_trigger = yes
+		}
+	}
+	text = {
+		localisation_key = Diplomacy_Display_Subject
+
+		trigger = {
+			is_subject_other_than_tributary_trigger = yes
+		}
+	}
+}
+
+defined_text = {
+	name = Alliance_Slots_Display
+	random = no
+
+	text = {
+		localisation_key = Alliance_Slots
+		
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = AS_International_Importance
+	random = no
+	
+	text = {
+		localisation_key = AS_International_Importance_HRE
+		
+		trigger = {
+			government_rank = 6
+			is_emperor = yes
+			NOT = { total_development = 2000 }
+		}
+	}
+	text = {
+		localisation_key = AS_International_Importance_6
+		
+		trigger = {
+			government_rank = 6
+			OR = {
+				AND = {
+					is_emperor = yes
+					total_development = 2000
+				}
+				is_emperor = no
+			}
+		}
+	}
+	text = {
+		localisation_key = AS_International_Importance_5
+		
+		trigger = {
+			government_rank = 5
+		}
+	}
+	text = {
+		localisation_key = AS_International_Importance_4
+		
+		trigger = {
+			government_rank = 4
+		}
+	}
+	text = {
+		localisation_key = AS_International_Importance_3
+		
+		trigger = {
+			government_rank = 3
+		}
+	}
+	text = {
+		localisation_key = AS_International_Importance_2
+		
+		trigger = {
+			government_rank = 2
+		}
+	}
+	text = {
+		localisation_key = AS_International_Importance_1
+		
+		trigger = {
+			government_rank = 1 
+		}
+	}
+}
+
+defined_text = {
+	name = AS_Idea_Groups
+
+	random = no
+	text = {
+		localisation_key = AS_Idea_Groups_0
+		
+		trigger = {
+			NOT = {	has_idea = eminence_ideas_7 }
+			NOT = { has_idea = diplomacy_ideas_5 }
+		}
+	}
+	text = {
+		localisation_key = AS_Idea_Groups_1
+		
+		trigger = {
+			OR = {
+				AND = {
+					has_idea = eminence_ideas_7
+					NOT = { has_idea = diplomacy_ideas_5 }
+				}
+				AND = {
+					has_idea = diplomacy_ideas_5
+					NOT = { has_idea = eminence_ideas_7 }
+				}
+			}
+		}
+	}
+	text = {
+		localisation_key = AS_Idea_Groups_2
+		
+		trigger = {
+			has_idea = eminence_ideas_7
+			has_idea = diplomacy_ideas_5
+		}
+	}
+}
+
+defined_text = {
+	name = Diplomatic_Range_Display
+	random = no
+
+	text = {
+		localisation_key = Diplomatic_Range
+		
+		trigger = {
+			always = yes
+		}
+	}
+
+}
+
+defined_text = {
+	name = DR_International_Importance
+	random = no
+
+	text = {
+		localisation_key = DR_International_Importance_6
+		
+		trigger = {
+			government_rank = 6 
+		}
+	}
+	text = {
+		localisation_key = DR_International_Importance_5
+		
+		trigger = {
+			government_rank = 5
+		}
+	}
+	text = {
+		localisation_key = DR_International_Importance_4
+		
+		trigger = {
+			government_rank = 4
+		}
+	}
+	text = {
+		localisation_key = DR_International_Importance_3
+		
+		trigger = {
+			government_rank = 3
+		}
+	}
+	text = {
+		localisation_key = DR_International_Importance_2
+		
+		trigger = {
+			government_rank = 2
+		}
+	}
+	text = {
+		localisation_key = DR_International_Importance_1
+		
+		trigger = {
+			government_rank = 1 
+		}
+	}
+}

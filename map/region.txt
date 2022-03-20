@@ -175,6 +175,7 @@ north_england_region = {
 		east_midlands_area
 		west_midlands_area
 		northumbria_area
+		doggerland_area
 	}
 }
 
@@ -1466,10 +1467,12 @@ papua_region = {
 
 south_oceanea_region = {
 	areas = {
-		maui_area
+        zealandia2_area
 		fiji_area
 		east_polynesia_area
 		west_polynesia_area
+		zealandia3_area
+		zealandia1_area
 	}
 }
 
@@ -2034,4 +2037,48 @@ march_atlantis_region = {
 	atlantean_vikings_islands_area
 	atlantean_real_northwest_area
 	}
+}
+
+thule_region = {
+    areas = {
+	thule1_area
+	thule2_area
+	thule3_area
+	}
+}
+
+north_zealandia_region = {
+     areas = {
+	 maui_area
+	 zealandia5_area
+	 zealandia4_area
+	 zealandia6_area
+	 zealandia7_area
+	 }
+}
+
+east_zealandia_region = {
+     areas = {
+	 zealandia18_area
+	 zealandia17_area
+	 zealandia16_area
+	 zealandia15_area
+	 }
+}
+
+south_zealandia_region = {
+     areas = {
+	 zealandia8_area
+	 zealandia9_area
+	 zealandia10_area
+	 zealandia11_area
+	 }
+}
+
+southeast_zealandia_region = {
+     areas = {
+	 zealandia13_area
+	 zealandia12_area
+	 zealandia14_area
+	 }
 }

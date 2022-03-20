@@ -1,0 +1,4 @@
+capital = "Default Name"
+trade_goods = unknown 
+culture = wedhusian
+religion = hinduism

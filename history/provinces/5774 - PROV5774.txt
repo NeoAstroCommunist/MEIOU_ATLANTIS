@@ -1,0 +1,13 @@
+owner = ZLD
+controller = ZLD
+add_core = ZLD
+
+capital = "Default City"
+trade_goods = rice # grain
+culture = chinesezealandia
+religion = shenism
+
+100.1.1 = {
+	set_key = { lhs = starting_rural_pop_1350 value = 89.917 }
+	set_key = { lhs = starting_urban_pop_1350 value = 21.812 }
+}

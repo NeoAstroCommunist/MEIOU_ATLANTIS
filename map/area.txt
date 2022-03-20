@@ -193,7 +193,7 @@ north_african_coast_sea_area = {
 }
 
 north_atlantic_area = {
-	1665 1666 1667 1668 1670 1682 1883 2056
+	1665 1666 1667 1668 1670 1682 1883 2056 5758
 }
 
 north_central_atlantic_area = {
@@ -1748,7 +1748,7 @@ melanesia_area = {
 }
 
 fiji_area = {
-	650 1239 1242 
+	650 1239 1242 5761 5762 5760
 }
 
 east_micronesia_area = {
@@ -1792,8 +1792,83 @@ west_polynesia_area = {
 }
 
 maui_area = {
-	1108 1107 1106 822 1249 1109 
+	1108 1107 1106 822 1249 1109 5790 
 }
+#Zealandian part
+
+zealandia1_area = {
+    5763 5764 5765 5766
+}
+
+zealandia2_area = {
+    2610 5771 5772 
+}
+
+zealandia3_area = {
+    5767 5769 5770 5768
+}
+
+zealandia4_area = {
+    5776 5784 5777 5775 5783
+}
+
+zealandia5_area = {
+    5781 5780 5774 5773
+}
+
+zealandia6_area = {
+    5786 5787 5782 5794 5864 5865
+}
+
+zealandia7_area = {
+    5821 5820 5822
+}
+
+zealandia8_area = {
+    5853 5841 5852 5840 5851
+}
+
+zealandia9_area = {
+    5834 5837 5836 5839 5838 5833
+}
+
+zealandia10_area = {
+    5850 5835 5848 5847 
+}
+
+zealandia11_area = {
+    5832 5849 5846 5831 5845 5830
+}
+
+zealandia12_area = {
+    5829 5843 5828 5827 5844
+}
+
+zealandia13_area = {
+    5858 5857 5859
+}
+
+zealandia14_area = {
+    5825 5826 5842 5824 5823
+}
+
+zealandia15_area = {
+    5812 5811 5813 5815 5814 5817 5816
+}
+
+zealandia16_area = {
+    5818 5819 5801 5804
+}
+
+zealandia17_area = {
+    5802 5803 5800 5799
+}
+
+zealandia18_area = {
+    5798 5796 5795 5797
+}
+
+#
 
 hawai_area = {
 	1240 2151 1341 4012 5238 5239 
@@ -3865,3 +3940,23 @@ atlantean_sea3_area = {
 atlantean_sea4_area = {
     5715 5710 5725 5724 5722
 }
+
+#Doggerland
+doggerland_area = {
+    5734 5735 5736 5737 5738 5739 5740
+}
+
+#Thule Hy-Brasil call it whatever you like
+
+thule1_area = {
+    5741 5742 5743 5744 5745
+}
+
+thule2_area = {
+    5747 5748 5749 5759
+}
+
+thule3_area = {
+    5750 5751 5755
+}
+
