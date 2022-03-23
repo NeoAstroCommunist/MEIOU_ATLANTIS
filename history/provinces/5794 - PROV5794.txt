@@ -6,7 +6,8 @@ capital = "Default City"
 trade_goods = wool #grain
 culture = chinesezealandia
 religion = shenism
-
+is_city = yes
+hre = no
 100.1.1 = {
 	set_key = { lhs = starting_rural_pop_1350 value = 39.612 }
 	set_key = { lhs = starting_urban_pop_1350 value = 21.510 }

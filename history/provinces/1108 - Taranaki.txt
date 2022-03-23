@@ -9,6 +9,7 @@ trade_goods = wool # wool
 culture = wedhusian
 religion = hinduism
 
+is_city = yes
 hre = no
 
 base_tax = 2

@@ -9,8 +9,8 @@ trade_goods = rice #grain
 culture = aboriginal
 religion = australian_pagan
 
+is_city = yes
 hre = no
-
 base_tax = 1
 base_production = 0
 base_manpower = 0

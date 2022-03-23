@@ -7,6 +7,7 @@ trade_goods = rice #grain
 culture = zhourao
 religion = shenism
 
+is_city = yes
 hre = no
 
 base_tax = 2

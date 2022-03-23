@@ -6,7 +6,8 @@ capital = "Default City"
 trade_goods = fish #grain
 culture = zhourao
 religion = shenism
-
+is_city = yes
+hre = no
 set_key = { lhs = Infra_Harbourage value = 1 }
 
 450.1.1 = {

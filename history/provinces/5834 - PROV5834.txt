@@ -6,7 +6,8 @@ capital = "Default City"
 trade_goods = fish # fish
 culture = chinesezealandiasouth
 religion = shenism
-
+is_city = yes
+hre = no
 set_key = { lhs = Infra_Harbourage value = 1 }
 set_key = { lhs = Infra_Irrigation value = 1 }
 

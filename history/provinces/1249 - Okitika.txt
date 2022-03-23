@@ -9,6 +9,7 @@ trade_goods = rice # grain
 culture = wedhusian
 religion = hinduism
 
+is_city = yes
 hre = no
 
 set_key = { lhs = Infra_Harbourage value = 1 }

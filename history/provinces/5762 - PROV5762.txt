@@ -6,7 +6,8 @@ capital = "Okitika"
 trade_goods = pepper # grain
 culture = oranglaut
 religion = hinduism
-
+is_city = yes
+hre = no
 100.1.1 = {
 	set_key = { lhs = starting_rural_pop_1350 value = 56.132 }
 	set_key = { lhs = starting_urban_pop_1350 value = 1.000 }

@@ -9,6 +9,7 @@ culture = chinesezealandia
 religion = shenism
 
 is_city = yes
+hre = no
 set_key = { lhs = Infra_Harbourage value = 2 }
 set_key = { lhs = Infra_Amenities value = 2 }
 set_key = { lhs = Infra_Pathing value = 2 }

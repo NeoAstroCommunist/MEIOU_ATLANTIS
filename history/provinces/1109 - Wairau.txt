@@ -9,6 +9,7 @@ trade_goods = fish # wool
 culture = maori
 religion = polynesian_pagan
 
+is_city = yes
 hre = no
 
 base_tax = 3

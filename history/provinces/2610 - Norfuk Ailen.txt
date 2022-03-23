@@ -6,7 +6,8 @@ capital = "Puka Puka"
 trade_goods = pepper 
 culture = oranglaut
 religion = hinduism
-
+is_city = yes
+hre = no
 100.1.1 = {
 	set_key = { lhs = starting_rural_pop_1350 value = 51.712 }
 	set_key = { lhs = starting_urban_pop_1350 value = 0.000 }

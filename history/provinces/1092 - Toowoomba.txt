@@ -9,6 +9,7 @@ trade_goods = tea #naval_supplies
 culture = zhourao
 religion = shenism
 
+is_city = yes
 hre = no
 
 base_tax = 2
