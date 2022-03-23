@@ -17,12 +17,9 @@ base_production = 0
 base_manpower = 0
 
 
-200.1.1 = {
-	set_key = { lhs = NM_Ratio value = 40.000 }
-	set_key = { lhs = Prov_TRPow value = 50.000 }
-}
 450.1.1 = {
-	set_key = { lhs = pop_level value = 2.5 }
+        set_key = { lhs = starting_urban_pop_1350 value = 5.956 }
+	set_key = { lhs = pop_level value = 3 }
 	set_province_flag = coal
 }
 #1770.7.1 = {

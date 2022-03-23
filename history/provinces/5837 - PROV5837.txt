@@ -12,8 +12,3 @@ hre = no
 	set_key = { lhs = starting_rural_pop_1350 value = 33.891 }
 	set_key = { lhs = starting_urban_pop_1350 value = 2.571 }
 }
-
-200.1.1 = {
-	set_key = { lhs = NM_Ratio value = 40.000 }
-	set_key = { lhs = Prov_TRPow value = 40.000 }
-}

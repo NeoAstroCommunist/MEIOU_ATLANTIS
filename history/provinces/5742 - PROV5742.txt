@@ -1,6 +1,7 @@
 
-owner = HB7
-controller = HB7
+owner = HB3
+controller = HB3
+add_core = HB3
 add_core = HB7
 
 capital = "Callahan"

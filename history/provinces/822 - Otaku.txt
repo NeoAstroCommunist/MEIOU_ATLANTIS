@@ -16,7 +16,6 @@ base_manpower = 0
 
 
 200.1.1 = {
-	set_key = { lhs = NM_Ratio value = 40.000 }
 	set_key = { lhs = Prov_TRPow value = 100.000 }
 }
 450.1.1 = {

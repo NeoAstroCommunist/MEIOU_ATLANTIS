@@ -9,6 +9,9 @@ primary_culture = nordbreasil
 religion = catholic
 technology_group = western
 capital = 5743
+historical_rival = HB3
+historical_rival = HB2
+historical_rival = HB1
 
 1000.1.1 = {
 	add_country_modifier = { name = title_3 duration = -1 }

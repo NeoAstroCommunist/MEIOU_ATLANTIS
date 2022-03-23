@@ -15,13 +15,9 @@ base_tax = 1
 base_production = 0
 base_manpower = 0
 
-
-200.1.1 = {
-	set_key = { lhs = NM_Ratio value = 40.000 }
-	set_key = { lhs = Prov_TRPow value = 55.000 }
-}
 450.1.1 = {
-	set_key = { lhs = pop_level value = 2 }
+        set_key = { lhs = starting_urban_pop_1350 value = 2.856 }
+	set_key = { lhs = pop_level value = 2.5 }
 }
 #1770.7.1 = {
 #	discovered_by = GBR

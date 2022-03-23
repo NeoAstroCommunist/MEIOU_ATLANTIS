@@ -10,6 +10,9 @@ primary_culture = normanbreasil
 add_accepted_culture = breasil
 religion = catholic
 capital = 5750
+historical_rival = HB1
+historical_rival = HB2
+historical_rival = HB8
 
 1000.1.1 = {
 	add_country_modifier = { name = title_4 duration = -1 }

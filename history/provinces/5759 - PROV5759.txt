@@ -1,7 +1,8 @@
 
 
-owner = HB5
-controller = HB5
+owner = HB1
+controller = HB1
+add_core = HB1
 add_core = HB5
 
 capital = "Fredeic" 

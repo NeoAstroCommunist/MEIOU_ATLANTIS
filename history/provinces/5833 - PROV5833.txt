@@ -11,5 +11,6 @@ hre = no
 set_key = { lhs = Infra_Harbourage value = 1 }
 
 450.1.1 = {
+        set_key = { lhs = starting_urban_pop_1350 value = 1.157 }
         set_key = { lhs = pop_level value = 1 }
 }

@@ -1,6 +1,7 @@
 
-owner = HB9
-controller = HB9
+owner = HB8
+controller = HB8
+add_core = HB8
 add_core = HB9
 
 capital = "Gorbenshire"

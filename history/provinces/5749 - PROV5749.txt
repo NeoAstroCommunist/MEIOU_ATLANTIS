@@ -1,6 +1,7 @@
 
-owner = HB4
-controller = HB4
+owner = HB1
+controller = HB1
+add_core = HB1
 add_core = HB4
 
 capital = "Loch Eoin" 

@@ -11,7 +11,6 @@ is_city = yes
 hre = no
 
 200.1.1 = {
-	set_key = { lhs = NM_Ratio value = 40.000 }
 	set_key = { lhs = Prov_TRPow value = 55.000 }
 }
 

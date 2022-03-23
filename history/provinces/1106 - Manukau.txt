@@ -21,15 +21,10 @@ base_manpower = 0
 	set_key = { lhs = starting_urban_pop_1350 value = 4.712 }
 }
 
-200.1.1 = {
-	set_key = { lhs = NM_Ratio value = 40.000 }
-	set_key = { lhs = Prov_TRPow value = 45.000 }
-}
 450.1.1 = {
 	# Features
 	set_province_flag = TN_Harbour_Minor
 	set_province_flag = TN_Natural_Minor
-	set_province_flag = tribals_control_province
         set_province_flag = mined_goods
 	set_province_flag = iron
 	set_province_flag = TN_Estuary

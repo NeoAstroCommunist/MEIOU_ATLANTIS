@@ -909,7 +909,7 @@ POP_1350_distributions = {
 	
 	POP_distribute_total = {
 		limit_trigger = australia_distrib
-		pop_total = 210
+		pop_total = 450
 		lvl_1_points = 0.5
 		lvl_2_points = 1.1
 		lvl_3_points = 3
@@ -921,7 +921,7 @@ POP_1350_distributions = {
 	
 	POP_distribute_total = {
 		limit_trigger = new_zealand_distrib
-		pop_total = 1800
+		pop_total = 2000
 		lvl_1_points = 0.5
 		lvl_2_points = 1.1
 		lvl_3_points = 3
