@@ -1,8 +1,0 @@
-owner = SSW
-controller = SSW
-add_core = SSW
-
-capital = "Default City"
-trade_goods = unknown #grain
-culture = chinesezealandia
-religion = shenism

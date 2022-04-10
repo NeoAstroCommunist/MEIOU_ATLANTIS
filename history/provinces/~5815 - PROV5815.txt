@@ -1,4 +1,0 @@
-capital = "Default City"
-trade_goods = unknown 
-culture = aboriginal
-religion = australian_pagan

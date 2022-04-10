@@ -193,7 +193,7 @@ north_african_coast_sea_area = {
 }
 
 north_atlantic_area = {
-	1665 1666 1667 1668 1670 1682 1883 2056 5758
+	1665 1666 1667 1668 1670 1682 1883 2056
 }
 
 north_central_atlantic_area = {
@@ -458,7 +458,7 @@ pyrenees_area = {
 }
 
 languedoc_area = {
-	3861 2361 200 1383 
+	3861 2361 200 1383 5639 
 }
 
 provence_area = {
@@ -470,7 +470,7 @@ massif_central_area = {
 }
 
 savoy_dauphine_area = {
-	2335 1382 204 205 
+	2335 1382 204 205 5640 
 }
 
 lyonnais_area = {
@@ -654,7 +654,7 @@ emilia_romagna_area = {
 }
 
 lazio_area = {
-	3869 2530 118 3699 1379 
+	3869 2530 118 3699 1379 5641
 }
 
 marche_area = {
@@ -702,7 +702,7 @@ east_anglia_area = {
 }
 
 east_midlands_area = {
-	243 245 3324 5156
+	243 245 3324 4991 5156
 }
 
 west_midlands_area = {
@@ -842,11 +842,15 @@ northern_saxony_area = {
 }
 
 west_thuringia_area = {
-	71 2813 3380 3737 3741 3822  
+	71 3737 3741 3822  
+}
+
+central_thuringia_area = {
+	2813 3380 3739 3855 
 }
 
 east_thuringia_area = {
-	2619 3739 3744 3850 3853 3855 
+	2619 3744 3850 3853 3768 
 }
 
 southern_saxony_area = {
@@ -1009,8 +1013,12 @@ south_serbia_area = {
 	140 1396 2237 3777 1397 3775 
 }
 
+east_serbia_area = {
+	156 4513 3774 3776 4532 
+}
+
 north_serbia_area = {
-	3774 3776 141 2612 3773 156 
+	141 2612 3773 4520 4524 
 }
 
 bosnia_area = {
@@ -1026,15 +1034,19 @@ east_adriatic_coast_area = {
 }
 
 alfold_area = {
-	1404 1859 1273 3789 1271 2275 
+	1404 1859 2846 3789 4510 
+}
+
+eszaki_area = {
+	1271 1273 2275 3771 3772 
 }
 
 kisalfold_area = {
-	1267 3772 1275 3770 3771 1270 
+	1267 1270 1275 3770 3901 
 }
 
 transdanubia_area = {
-	135 2436 133 3769 153 2846 
+	135 2436 133 3769 153 
 }
 
 aegean_area = {
@@ -1046,7 +1058,7 @@ aegean_area = {
 ########################################
 
 estonia_ingria_area = {
-	36 3400 3766 3767 3768 
+	36 3400 3766 3767 
 }
 
 central_poland_area = {
@@ -1328,15 +1340,15 @@ aydin_area = {
 }
 
 aleppo_area = {
-	332 377 3886 1327
+	332 377 3886 1327 
 }
 
 badia_area = {
-	415 4058 1330
+	415 4058 1330 4618 
 }
 
 lebanon_area = {
-	875 378 1334 
+	875 378 1334 4647 
 }
 
 dimashq_area = {
@@ -1344,11 +1356,11 @@ dimashq_area = {
 }
 
 palestine_area = {
-	2635 364 2634 379 
+	364 379 1331 2634 2635 
 }
 
 jordan_area = {
-	2575 2636 1331
+	2575 2636 4540 4645 4646 
 }
 
 cappadocia_area = {
@@ -1748,7 +1760,7 @@ melanesia_area = {
 }
 
 fiji_area = {
-	650 1239 1242 5761 5762 5760
+	650 1239 1242 
 }
 
 east_micronesia_area = {
@@ -1879,7 +1891,7 @@ hawai_area = {
 ########################################
 
 tooro_area = {
-	2964 2904 2774 1096
+	2964 2904 2774 1096 5031 
 }
 
 wolof_area = {
@@ -1895,19 +1907,27 @@ upper_gambia_area = {
 }
 
 geba_area = {
-	3671 2767 2773 2872 2192 
+	3671 2767 2773 2872 2192 5028 
 }
 
 mali_area = {
-	2910 1498 2909 1124 1525 2766 
+	1124 1525 2766 2910 5014 
+}
+
+bambuk_area = {
+	1498 2909 5029 5030 
 }
 
 ghana_area = {
-	2965 348 2916 1118 2772 
+	1118 2772 2916 5252 5253 
+}
+
+diara_area = {
+	348 2965 5032 5096 5251 
 }
 
 segou_area = {
-	1501 2955 2764 1541 2763 2957 
+	1501 2955 2764 1541 2763 2957 5013 
 }
 
 masina_area = {
@@ -1915,47 +1935,63 @@ masina_area = {
 }
 
 saharan_bend_area = {
-	1116 2923 2918 2920 
+	1116 2923 2918 2920 5256 5496 
 }
 
 songhai_area = {
-	1117 2922 2917 2919 1544 
+	1117 2922 2917 2919 1544 5094 
 }
 
 haayre_area = {
-	2959 5083 2907
+	2907 2908 2959 5254 
 }
 
 jallon_area = {
-	2899 2765 2966 1121 1113 
+	2899 2765 2966 1121 1113 5015 
 }
 
 guinea_area = {
-	2906 1120 2768 2873 2894 
+	2906 1120 2768 2873 2894 5016 5018 
+}
+
+leoa_area = {
+	5017 5019 5020 5021 5023 5024 
 }
 
 ivory_coast_area = {
-	1123 1125 2892
+	1123 1125 2892 5025 5026 5027 
 }
 
 toro_area = {
-	2911 2874 2758 2875 2878 1126 
+	2911 2874 2758 2875 
 }
 
 volta_delta_area = {
-	2760 2762 2759 2912 1503 2876
+	1126 1128 1503 2876 2878 2912 
+}
+
+denkyira_area = {
+	2759 2760 2762 5005 
 }
 
 dagbon_area = {
-	1127 1229 5087 5088 
+	1127 1229 5087 5006 5007 5088 
 }
 
 senufo_area = {
-	2914 2898 2958 2900 2897 
+	2914 2898 2897 5011 
+}
+
+lobi_area = {
+	2900 2958 5010 5012 5086 
 }
 
 west_mossi_area = {
-	1495 1130 5084 5085 5086 
+	1495 5008 5009 5085 
+}
+
+yatenga_area = {
+	1130 5083 5084 5255 
 }
 
 east_mossi_area = {
@@ -1963,35 +1999,51 @@ east_mossi_area = {
 }
 
 borgu_area = {
-	2780 2960 2781 2961 2963 1129 
+	2780 2960 2961 5262 
+}
+
+kwande_area = {
+	1129 2781 2963 5272 
 }
 
 dahomey_area = {
-	2890 5090 2891 5089 1128 2877 
+	2877 2890 2891 5089 5090 5269 
+}
+
+ketu_area = {
+	5266 5267 5268 5270 5271 
 }
 
 oyo_area = {
-	2888 2778 1496 2886 1111
+	1496 2778 2886 2888 5265 
 }
 
 ife_area = {
-	1550 2885 2889 2786 2787 2887 
+	1550 2786 2787 2889 5263 
+}
+
+ekiti_area = {
+	2887 5258 5259 5261 
+}
+
+lekki_area = {
+	1111 2885 4995 4996 5264 
 }
 
 west_niger_area = {
-	1131 5092 2788 
+	1131 2880 2884 4990 4994 5092 
 }
 
 east_niger_area = {
-	1561 1552 2880 2884 
+	1552 1561 2788 4986 4987  
 }
 
 niger_delta_area = {
-	1134 2769 2790 2776 1549
+	1134 1549 2769 2776 2790 4985 
 }
 
 niger_rapids_area = {
-	2895 5108 2794 
+	2794 2895 5108 5260 
 }
 
 kaduna_area = {
@@ -2011,7 +2063,7 @@ kano_area = {
 }
 
 daura_area = {
-	1546 2924 2929 1559 
+	1546 2924 2929 1559 4992
 }
 
 west_chad_area = {
@@ -2043,7 +2095,7 @@ western_sahara_area = {
 }
 
 azbin_area = {
-	2928 2316 2949 
+	2316 2928 2949 5257 
 }
 
 djado_area = {
@@ -2737,11 +2789,11 @@ chonburi_area = {
 ########################################
 
 mindanao_area = {
-	652 2213 653 2586
+	652 2213 653 2586 4984 
 }
 
 visayas_area = {
-	654 655 656 2214
+	654 655 656 2214 4945 4982 
 }
 
 luzon_area = {
@@ -3057,7 +3109,7 @@ tarim_basin_area = {
 }
 
 yarkand_area = {
-	739 2740 2741 2745 2748 
+	739 2740 2741 2745 2748
 }
 
 zungaria_area = {
@@ -3700,7 +3752,15 @@ eastern_mexico_area = {
 }
 
 yucatan_area = {
-	845 2415 3512 2414 3513 846 3514 
+	846 2414 3512 3513 5273 
+}
+
+mayapan_area = {
+	845 2415 5276 5522
+}
+
+hocaba_area = {
+	3514 5274 5275 5521 
 }
 
 chiapas_area = {
@@ -3708,23 +3768,35 @@ chiapas_area = {
 }
 
 belize_area = {
-	3511 843 2647 
+	843 2647 3511 3516 
 }
 
 campeche_area = {
-	2413 2648 3515 2411 
+	2411 2413 2648 3515 5277 
 }
 
 tabasco_area = {
-	4041 1474 1709 1710 
+	4041 1474 1709 1710 5278 
 }
 
 guatemala_area = {
-	842 2208 840 3518 841 844 1472 3516 2646
+	840 841 844 2208 3518 5518 
 }
 
 honduras_area = {
-	1473 2416 3508 3509 839 3510 834 
+	842 1473 2416 3508 
+}
+
+copan_area = {
+	839 3509 5519 5520 
+}
+
+salvador_area = {
+	834 3510 5279 5280 
+}
+
+pipil_area = {
+	2208 5281 5282 5515 5516 
 }
 
 nicaragua_area = {
@@ -3786,7 +3858,7 @@ adventure_area = {
 # Atlantis #
 
 east_atlantean_archipelago_area = {
-    5526 5525 5701 5521 5702 5708
+    5526 5525 5701 5872 5702 5708
 }
 
 west_atlantean_archipelago_area = {
@@ -3838,7 +3910,7 @@ atlantean_miedzygorski_area = {
 }
 
 atlantean_northern_archipelago_east_area = {
-    5586 5589 5587 5590 5588
+    5586 5589  5590 5588
 }
 
 atlantean_northern_archipelago_west_area = {
@@ -3858,15 +3930,15 @@ atlantean_rhodos_area = {
 }
 
 atlantean_mali_north_area = {
-    5683 5682 5684 5685 5687 5686
+     5682 5684   
 }
 
 atlantean_mali_central_area = {
-    5687 5689 5688 5691 5690
+     5689 5688  
 }
 
 atlantean_mali_south_area = {
-    5692 5693 5695 5694 5696 5697
+    5692    5696 5697
 }
 
 atlantean_westsouth_area = {
@@ -3882,7 +3954,7 @@ atlantean_eastcentral_area = {
 }
 
 atlantean_east_coast_area = {
-    5636 5635 5639 5650 5649
+    5636 5635 5874 5650 5649
 }
 
 atlantean_eastnorth_area = {
@@ -3922,7 +3994,7 @@ atlantean_vikings_peninsula_area = {
 }
 
 atlantean_vikings_islands_area = {
-    5644 5645 5640 5641 5643 5642
+    5644 5645 5873 5876  
 }
 
 atlantean_sea1_area = {
@@ -3959,4 +4031,3 @@ thule2_area = {
 thule3_area = {
     5750 5751 5755
 }
-

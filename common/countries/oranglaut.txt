@@ -4,9 +4,9 @@ graphical_culture = asiangfx
 	color = { 201 255 64 }
 
 historical_idea_groups = {
-	aristocracy_ideas
-	trade_ideas
 	naval_ideas
+	trade_ideas
+	aristocracy_ideas
 }
 
 historical_units = { #Indonesian Non-Muslim Group

@@ -1,7 +1,0 @@
-# 2791 - Mbum
-# This province is a wasteland
-
-culture = bakongo
-religion = bukongo
-
-religion = bantu_pagan

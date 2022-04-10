@@ -5865,28 +5865,28 @@ province;red;green;blue;
 5864;50;61;130;Zealandia 105
 5865;178;63;180;Zealandia 106
 5866;50;65;230;Zealandia 107 #Another wasteland
-5867;178;67;30;
-5868;50;69;80;
-5869;179;71;130;
-5870;51;73;180;
-5871;179;75;230;
-5872;51;77;30;
-5873;179;79;80;
-5874;51;81;130;
-5875;179;83;180;
-5876;52;85;230;
-5877;180;87;30;
-5878;52;89;80;
-5879;180;91;130;
-5880;52;93;180;
-5881;180;95;230;
-5882;52;97;30;
-5883;181;99;80;
-5884;53;101;130;
-5885;181;103;180;
-5886;53;105;230;
-5887;181;107;30;
-5888;53;109;80;
+5867;178;67;30;Zealandia 108 #Sea province 1
+5868;50;69;80;Zealandia 109 #Sea province 2
+5869;179;71;130;Relocated provinces 1 #Olympus
+5870;51;73;180;Relocated provinces 2 #Lampas
+5871;179;75;230;Relocated provinces 3 #Tira
+5872;51;77;30;Relocated provinces 4 #Aspronisi
+5873;179;79;80;Relocated provinces 5 #Jokulsfell
+5874;51;81;130;Relocated provinces 6 #Iasarnacia
+5875;179;83;180;Relocated provinces 7#
+5876;52;85;230;Relocated Provinces 8 #
+5877;180;87;30;Relocated Meiou provinces 1 #Wastelands
+5878;52;89;80;Relocated Meiou Provinces 2 #Wastelands
+5879;180;91;130;Relocated Meiou Provinces 3 #W
+5880;52;93;180;Relocated Meiou Provinces 4 #W
+5881;180;95;230;Relocated Meiou Provinces 5 #W
+5882;52;97;30;Relocated Meiou Provinces 6 #W
+5883;181;99;80;Relocated Meiou Provinces 7 #W
+5884;53;101;130;Relocated Meiou Provinces 8 #W
+5885;181;103;180;Relocated Meiou Provinces 9 #W
+5886;53;105;230;Relocated Meiou Provinces 10 #W
+5887;181;107;30;Relocated Meiou Provinces 11 #W
+5888;53;109;80;Relocated Meiou Provinces 12 #W
 5889;181;111;130;
 5890;54;113;180;
 5891;182;115;230;

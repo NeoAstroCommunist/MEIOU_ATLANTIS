@@ -5,11 +5,12 @@ add_core = LN1
 capital = "Default City"
 trade_goods = fish # fish
 culture = chinesezealandiasouth
-religion = shenism
+religion = vajrayana
 is_city = yes
 hre = no
 set_key = { lhs = Infra_Harbourage value = 1 }
 set_key = { lhs = Infra_Irrigation value = 1 }
+set_province_flag = small_university
 
 100.1.1 = {
 	set_key = { lhs = starting_rural_pop_1350 value = 43.231 }

@@ -3,7 +3,7 @@ controller = MUA
 add_core = MUA
 
 capital = "Default City"
-trade_goods = pepper #grain
+trade_goods = fish #grain
 culture = maori
 religion = polynesian_pagan
 is_city = yes

@@ -17,8 +17,8 @@ base_production = 0
 base_manpower = 0
 
 100.1.1 = {
-	set_key = { lhs = starting_rural_pop_1350 value = 34.911 }
-	set_key = { lhs = starting_urban_pop_1350 value = 4.712 }
+	set_key = { lhs = starting_rural_pop_1350 value = 40.911 }
+	set_key = { lhs = starting_urban_pop_1350 value = 10.712 }
 }
 
 450.1.1 = {

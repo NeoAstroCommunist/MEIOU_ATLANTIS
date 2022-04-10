@@ -1,4 +1,0 @@
-capital = "Okitika"
-trade_goods = unknown # grain
-culture = wedhusian
-religion = hinduism

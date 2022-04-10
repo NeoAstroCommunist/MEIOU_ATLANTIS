@@ -1,0 +1,352 @@
+# Events for Zealandia TWR tag
+
+
+namespace = flavor_TWR
+
+country_event = { 
+	id = flavor_TWR.1
+	title = "flavor_TWR.1.t"
+	desc = "flavor_TWR.1.d"
+	picture = RELIGION_eventPicture
+	fire_only_once = yes
+	major = yes
+	trigger = { 
+		tag = TWR
+		exists = SSW
+		has_matching_religion = shenism
+	}
+	mean_time_to_happen = { years = 2 }
+	option = { 
+		name = "flavor_TWR.1.a"
+		trigger = { 
+			NOT = { 
+				war_with = SSW
+			}
+		}
+		ai_chance = {
+			factor = 65
+		}
+        add_horde_unity = -15
+		SSW = { 
+			country_event = { 
+				id = flavor_TWR.2
+				days = 5
+			}
+		}
+	}
+	option = {
+		name = "flavor_TWR.1.b"
+		ai_chance = { 
+			factor = 35
+		}
+        add_horde_unity = 15
+	}
+}
+
+country_event = { 
+	id = flavor_TWR.2
+	title = "flavor_TWR.2.t"
+	desc = "flavor_TWR.2.d"
+	picture = RELIGION_eventPicture
+	fire_only_once = yes
+	major = yes
+	is_triggered_only = yes
+	option = { 
+		name = "flavor_TWR.2.a"
+		ai_chance = {
+			factor = 80
+		}
+        add_prestige = -5
+		TWR = { 
+			country_event = { 
+				id = flavor_TWR.3
+				days = 5
+			}
+		}
+	}
+	option = {
+		name = "flavor_TWR.2.b"
+		ai_chance = { 
+			factor = 20
+		}
+        TWR = { 
+			country_event = {
+				id = flavor_TWR.4
+				days = 5
+			}
+		}
+	}
+}
+
+country_event = { 
+	id = flavor_TWR.3
+	title = "flavor_TWR.3.t"
+	desc = "flavor_TWR.3.d"
+	picture = RELIGION_eventPicture
+	fire_only_once = yes
+	major = yes
+	is_triggered_only = yes
+	option = { 
+		name = "flavor_TWR.3.a
+		ai_chance = {
+			factor = 100
+		}
+        add_prestige = 20
+		SSW = {
+			add_opinion = { 
+				who = TWR
+				modifier = TWR_SSW_friendship
+			}
+		}
+		TWR = {
+			add_opinion = { 
+				who = SSW
+				modifier = TWR_SSW_friendship
+			}
+		}
+		set_country_flag = TWR_sinic_relations_1
+	}
+}
+
+country_event = {
+	id = flavor_TWR.4
+	title = "flavor_TWR.4.t"
+	desc = "flavor_TWR.4.d"
+	picture = RELIGION_eventPicture
+	fire_only_once = yes
+	major = yes
+	is_triggered_only = yes
+	option = {
+		name = "flavor_TWR.4.a
+        add_prestige = -20
+		SSW = {
+			add_opinion = { 
+				who = TWR
+				modifier = TWR_SSW_nofriendship
+			}
+		}
+		TWR = {
+			add_opinion = { 
+				who = SSW
+				modifier = TWR_SSW_nofriendship
+			}
+		}
+	}
+}
+
+country_event = { 
+	id = flavor_TWR.5
+	title = "flavor_TWR.5.t"
+	desc = "flavor_TWR.5.d"
+	picture = RELIGION_eventPicture
+	fire_only_once = yes
+	major = yes
+	trigger = { 
+		tag = TWR
+		exists = SSW
+		has_country_flag = TWR_sinic_relations_1
+		has_matching_religion = shenism
+	}
+	mean_time_to_happen = { years = 15 }
+	option = { 
+		name = "flavor_TWR.5.a"
+		trigger = { 
+			NOT = { 
+				war_with = SSW
+			}
+		}
+		ai_chance = {
+			factor = 90
+		}
+        add_horde_unity = -15
+		SSW = { 
+			country_event = { 
+				id = flavor_TWR.6
+				days = 5
+			}
+		}
+	}
+	option = {
+		name = "flavor_TWR.5.b"
+		ai_chance = { 
+			factor = 10
+		}
+	}
+}
+
+country_event = { 
+	id = flavor_TWR.6
+	title = "flavor_TWR.6.t"
+	desc = "flavor_TWR.6.d"
+	picture = RELIGION_eventPicture
+	fire_only_once = yes
+	major = yes
+	is_triggered_only = yes
+	option = { 
+		name = "flavor_TWR.6.a"
+		ai_chance = {
+			factor = 90
+		}
+        add_prestige = -5
+		ZLD = { 
+			country_event = { 
+				id = flavor_TWR.7
+				days = 5
+			}
+		}
+	}
+	option = {
+		name = "flavor_TWR.6.b"
+		ai_chance = { 
+			factor = 10
+		}
+        TWR = { 
+		    clr_country_flag = TWR_sinic_relations_1
+			country_event = { 
+				id = flavor_TWR.8
+				days = 5
+			}
+		}
+	}
+}
+
+country_event = { 
+	id = flavor_TWR.7
+	title = "flavor_TWR.7.t"
+	desc = "flavor_TWR.7.d"
+	picture = RELIGION_eventPicture
+	fire_only_once = yes
+	major = yes
+	is_triggered_only = yes
+	option = { 
+		name = "flavor_TWR.7.a"
+		ai_chance = {
+			factor = 90
+		}
+		TWR = { 
+			country_event = { 
+				id = flavor_TWR.10
+				days = 5
+			}
+		}
+	}
+	option = {
+		name = "flavor_TWR.7.b"
+		ai_chance = { 
+			factor = 10
+		}
+        TWR = { 
+		    clr_country_flag = TWR_sinic_relations_1
+			country_event = { 
+				id = flavor_TWR.9
+				days = 5
+			}
+		}
+	}
+}
+
+country_event = { 
+	id = flavor_TWR.8
+	title = "flavor_TWR.8.t"
+	desc = "flavor_TWR.8.d"
+	picture = RELIGION_eventPicture
+	fire_only_once = yes
+	major = yes
+	is_triggered_only = yes
+	option = { 
+		name = "flavor_TWR.8.a"
+		ai_chance = {
+			factor = 100
+		}
+        add_prestige = -10
+        #There will be opinion malus with SSW
+	}
+}
+
+country_event = { 
+	id = flavor_TWR.9
+	title = "flavor_TWR.9.t"
+	desc = "flavor_TWR.9.d"
+	picture = RELIGION_eventPicture
+	fire_only_once = yes
+	major = yes
+	is_triggered_only = yes
+	option = { 
+		name = "flavor_TWR.9.a"
+		ai_chance = {
+			factor = 100
+		}
+        add_prestige = -10
+        #There will be opinion malus with ZLD
+	}
+}
+
+country_event = { 
+	id = flavor_TWR.10
+	title = "flavor_TWR.10.t"
+	desc = "flavor_TWR.10.d"
+	picture = RELIGION_eventPicture
+	fire_only_once = yes
+	major = yes
+	is_triggered_only = yes
+	option = { 
+		name = "flavor_TWR.10.a"
+		ai_chance = {
+			factor = 100
+		}
+		clr_country_flag = TWR_sinic_relations_1
+		set_country_flag = TWR_sinic_relations_2
+		hidden_effect = { 
+			TWR = { 
+				every_subject_country = { 
+					ZLD = { 
+						vassalize = PREV
+					}
+				}
+			}
+		}
+		ZLD = { 
+			create_subject = { 
+				subject_type = nominal_subject
+				subject = TWR
+			}
+		}
+		change_religion = shenism
+		add_horde_unity = 15
+		add_prestige = 15
+        #There will be opinion bonus with ZLD and SSW
+	}
+}
+
+country_event = { 
+	id = flavor_TWR.11
+	title = "flavor_TWR.11.t"
+	desc = "flavor_TWR.11.d"
+	picture = RELIGION_eventPicture
+	fire_only_once = yes
+	major = yes
+	trigger = { 
+	tag = TWR
+	has_country_flag = TWR_sinic_relations_2
+	has_institution = legalism
+	is_subject_of = ZLD
+	}
+	option = {
+		name = "flavor_TWR.11.a"
+		ai_chance = {
+			factor = 100
+		}
+		clr_country_flag = TWR_sinic_relations_2
+		change_primary_culture = maoliren
+		capital_scope = { change_culture = maoliren }
+		add_legitimacy = 10
+		add_prestige = 10
+	}
+	option = { 
+		name = "flavor_TWR.11.b"
+		ai_chance = {
+			factor = 0
+		}
+		clr_country_flag = TWR_sinic_relations_2
+	}
+}

@@ -1,0 +1,133 @@
+AT1_slot_5 = { 
+	slot = 3
+	generic = no
+	ai = yes
+	potential = { 
+		has_country_flag = atlantis_phoenocia
+	}
+	has_country_shield = yes
+	AT1_kill_dumb = { 
+		icon = mission_monarch_in_throne_room
+		required_missions = { }
+		position = 1
+		trigger = { 
+			adm = 1
+			dip = 1
+			mil = 1
+		}
+		effect = { 
+			hidden_effect = { 
+				if = { 
+					limit = { 
+						stability = 3
+					}
+					set_variable = { 
+						which = ahf
+						value = 1200
+					}
+				}
+				else = { 
+					add_stability = 1
+				}
+			}
+			tooltip = { 
+				add_stability = 1
+			}
+			if = { 
+				limit = { 
+					is_emperor_of_china = yes
+				}
+				add_mandate = 5
+			}
+		}
+	}
+	AT1_finish_despot = { 
+		icon = mission_unite_home_region
+		required_missions = { AT1_kill_dumb }
+		position = 2
+		provinces_to_highlight = { 
+			OR = { 
+				province_id = 5563
+				province_id = 5564
+				province_id = 5565
+			}
+			NOT = { 
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = { 
+			5563 = { country_or_non_sovereign_subject_holds = ROOT }
+			5564 = { country_or_non_sovereign_subject_holds = ROOT }
+			5565 = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		effect = { 
+			add_army_tradition = 15
+		}
+	}
+	AT1_silver_rush = {
+		icon = mission_cannons_firing
+		required_missions = { AT1_finish_despot }
+		position = 3
+		provinces_to_highlight = {
+			OR = { 
+				province_id = 5568
+				province_id = 5569
+				province_id = 5570
+			}
+			NOT = { 
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = { 
+			5568 = { country_or_non_sovereign_subject_holds = ROOT }
+			5569 = { country_or_non_sovereign_subject_holds = ROOT }
+			5570 = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		effect = { 
+			add_prestige = 5
+			add_mil_power = 100
+		}
+	}
+	AT1_unite_horn = { 
+		icon = mission_cannons_firing
+		required_missions = { AT1_silver_rush }
+		position = 4
+		provinces_to_highlight = { 
+			OR = { 
+				province_id = 5544
+				province_id = 5543
+				province_id = 5566
+				province_id = 5567
+			}
+			NOT = { 
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		trigger = { 
+			5544 = { country_or_non_sovereign_subject_holds = ROOT }
+			5543 = { country_or_non_sovereign_subject_holds = ROOT }
+			5566 = { country_or_non_sovereign_subject_holds = ROOT }
+			5567 = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		effect = { 
+		    override_country_name = "Phoenicia"
+			capital_scope = { 
+				if = { 
+					limit = { 
+						has_province_modifier = mis_prov_growth
+					}
+					extend_province_modifier = { 
+						name = mis_prov_growth
+						duration = 36560
+					}
+				}
+				else = { 
+					add_province_modifier = { 
+						name = mis_prov_growth
+						duration = 36560
+					}
+				}
+			}
+		}
+	}
+}

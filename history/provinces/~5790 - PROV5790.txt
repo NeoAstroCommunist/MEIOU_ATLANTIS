@@ -1,6 +1,0 @@
-capital = "Default City"
-trade_goods = unknown 
-culture = maori
-religion = polynesian_pagan
-
-hre = no

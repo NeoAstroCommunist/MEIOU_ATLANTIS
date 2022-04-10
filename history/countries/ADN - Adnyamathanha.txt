@@ -9,7 +9,7 @@ government_rank = 1
 mercantilism = 0.0
 primary_culture = aboriginal
 religion = australian_pagan
-technology_group = austranesian
+technology_group = hawaii_tech
 capital = 5835	
 
 1000.1.1 = {

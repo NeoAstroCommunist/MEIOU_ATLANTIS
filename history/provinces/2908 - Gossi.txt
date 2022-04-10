@@ -1,6 +1,0 @@
-# 2908 - Gossi
-
-discovered_by = soudantech
-discovered_by = sub_saharan
-culture = fulani
-religion = sunni

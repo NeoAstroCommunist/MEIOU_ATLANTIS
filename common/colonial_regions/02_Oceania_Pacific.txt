@@ -1,0 +1,124 @@
+
+colonial_oceania = {
+	color = { 142 181 205 }
+	
+	provinces = {
+		799 810 817 1084 1085 1086 1087 1088 1090 1091
+		1092 1093 1094 1342 2123 2126 2127 2128
+		2129 2130 2131 2132 2133 2134 2135 2136 2138 2139 2140 2143
+		2146 2516 2517
+	}
+	
+	names = {
+		trigger = {
+			OR = {
+				primary_culture = dutch
+				primary_culture = flemish
+				primary_culture = brabantian
+			}
+		}
+		name = "COLONIAL_OCEANIA_Nova_Hollandia"
+	}
+	names = {
+		trigger = {
+			culture_group = british
+		}
+		name = "COLONIAL_OCEANIA_Australia"
+	}
+	names = {
+		trigger = {
+			OR = {
+				culture_group = langue_d_oil
+				culture_group = langue_d_oc
+			}
+		}
+		name = "COLONIAL_OCEANIA_Terre_Australe"
+	}
+	names = {
+		trigger = {
+			OR = {
+				primary_culture = dutch
+				primary_culture = flemish
+				primary_culture = brabantian
+			}
+			owns = 1085 # Pallawah
+		}
+		name = "COLONIAL_OCEANIA_Van_Diemen"
+	}
+	names = {
+		trigger = {
+			owns = 1085 # Pallawah
+		}
+		name = "COLONIAL_OCEANIA_Tasmania"
+	}
+	names = {
+		name = "COLONIAL_OCEANIA_Root_GetName_Oceania"
+	}
+}
+
+
+colonial_pacific = {
+	color = { 115 237 74 }
+	
+	provinces = {
+		650 822 1106 1107 1108 1109 1230 1231 1232 1233 1235 1236 1238 1239
+		1241 1242 1246 1249 2587 2588 2590 2610 5234 5760 5761 5762 5763 5764 5765 5766 5767 5768 5769 5770 5771 5772 5773 5774
+	5775 5776 5777 5780 5781 5782 5783 5784 5785 5786 5787 5790 5791 5792 5793
+	5794 5795 5796 5797 5798 5799 5800 5801 5802 5803 5804 5811 5812 5813 5814 5815 5816 5817 5818 5819 
+	5820 5821 5822 5823 5824 5825 5826 5827 5828 5829 5830 5831 5832 5833 5834 5835 5836 5837 5838 5839
+	5840 5841 5842 5843 5844 5845 5846 5847 5848 5849 5850 5851 5852 5853 5857 5858 5859 2610 5864 5865
+	}
+	
+	names = {
+		trigger = {
+			OR = {
+				primary_culture = dutch
+				primary_culture = flemish
+				primary_culture = brabantian
+			}
+			OR = {
+				owns = 822 # Xicuahua
+				owns = 1106 # Manukau
+				owns = 1107 # Whakatane
+				owns = 1108 # Taranaki
+				owns = 1109 # Wairau
+				owns = 1249 # Okitika
+			}
+		}
+		name = "COLONIAL_OCEANIA_Nova_Zeelandia"
+	}
+	names = {
+		trigger = {
+			culture_group = british
+			OR = {
+				owns = 822 # Xicuahua
+				owns = 1106 # Manukau
+				owns = 1107 # Whakatane
+				owns = 1108 # Taranaki
+				owns = 1109 # Wairau
+				owns = 1249 # Okitika
+			}
+		}
+		name = "COLONIAL_OCEANIA_New_Zealand"
+	}
+	names = {
+		trigger = {
+			OR = {
+				culture_group = langue_d_oil
+				culture_group = langue_d_oc
+			}
+			OR = {
+				owns = 822 # Xicuahua
+				owns = 1106 # Manukau
+				owns = 1107 # Whakatane
+				owns = 1108 # Taranaki
+				owns = 1109 # Wairau
+				owns = 1249 # Okitika
+			}
+		}
+		name = "COLONIAL_OCEANIA_Nouvelle_Zelande"
+	}
+	names = {
+		name = "COLONIAL_PACIFIC_Root_GetName_Pacific"
+	}
+}

@@ -1,5 +1,0 @@
-# 1197 - Buganda
-# This province is a wasteland
-
-culture = foora
-religion = lotuko_pagan

@@ -20,7 +20,7 @@ base_manpower = 0
 
 450.1.1 = {
 	# Features
-        set_key = { lhs = pop_level value = 2 }
+        set_key = { lhs = pop_level value = 2.5 }
 	set_province_flag = TN_Harbour_Minor
 	set_province_flag = TN_Natural_Minor
 	set_province_flag = copper

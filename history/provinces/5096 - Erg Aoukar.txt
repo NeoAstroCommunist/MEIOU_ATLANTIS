@@ -1,6 +1,0 @@
-# 5096 - Erg Aoukar
-# This province is a wasteland
-
-discovered_by = soudantech
-discovered_by = muslim
-discovered_by = sub_saharan

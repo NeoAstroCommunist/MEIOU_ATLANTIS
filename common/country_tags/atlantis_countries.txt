@@ -82,7 +82,7 @@ KOA = "countries/KoataRarua.txt" #
 RGI = "countries/Rangitane.txt" #
 WTA = "countries/Waitaha.txt" #
 MMO = "countries/KatiMamoe.txt" #
-AOT = "countries/Aotearoa.txt" #Formable?
+AOT = "countries/Aotearoa.txt" #Formable
 #Aborigine nations from Oceania Expanded
 PIT = "countries/Pitjantjatjara.txt" #
 WR1 = "countries/Warlpiri.txt" #

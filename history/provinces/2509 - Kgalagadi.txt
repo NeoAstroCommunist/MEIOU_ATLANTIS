@@ -1,5 +1,0 @@
-# 2509 - Kgalagadi
-# This province is a wasteland
-
-culture = khoisan
-religion = san_pagan

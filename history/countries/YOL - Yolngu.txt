@@ -9,7 +9,7 @@ government_rank = 1
 mercantilism = 0.0
 primary_culture = maori
 religion = polynesian_pagan
-technology_group = austranesian
+technology_group = hawaii_tech
 capital = 799	
 
 1000.1.1 = {

@@ -1,6 +1,3 @@
-owner = WR1
-controller = WR1
-add_core = WR1
 
 capital = "Default City"
 trade_goods = fish 

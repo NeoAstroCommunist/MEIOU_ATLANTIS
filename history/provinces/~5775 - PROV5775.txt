@@ -1,4 +1,0 @@
-capital = "Default City"
-trade_goods = unknown # fish
-culture = chinesezealandia
-religion = shenism

@@ -236,4 +236,125 @@ country_decisions = {
 		}
 		ai_importance = 400
 	}
+	form_aotearoa = { 
+		major = yes
+		potential = { 
+		    OR = {
+			primary_culture = maori
+			primary_culture = maoliren
+			}
+			NOT = { 
+				exists = AOT
+			}
+			is_colonial_nation = no
+		}
+		provinces_to_highlight = { 
+			OR = { 
+				region = east_zealandia_region
+				region = southeast_zealandia_region
+			}
+		}
+		allow = { 
+		    OR = {
+			primary_culture = maori
+			primary_culture = maoliren
+			}
+			custom_trigger_tooltip = { 
+				tooltip = "is_free_or_tributary_trigger_tooltip"
+				AND = { 
+					OR = { 
+						is_subject = no
+						is_subject_of_type = tributary_state
+						is_subject_of_type = close_tributary_state
+						is_subject_of_type = muscovite_tributary_state
+					}
+				}
+			}
+			OR = { 
+				check_variable = { 
+					which = "Demesne_in_Aotearoa"
+					value = 25
+				}
+				check_variable = { 
+					which = "Cores_on_Aotearoa"
+					value = 15
+				}
+			}
+			owns = 5801
+			is_at_war = no
+		}
+		effect = { 
+			east_zealandia_region = { 
+				limit = { 
+					owned_by = ROOT
+				}
+				hidden_effect = { 
+					remove_core = AOT
+				}
+				add_core = AOT
+			}
+			east_zealandia_region = { 
+				limit = { 
+					NOT = { 
+						owned_by = ROOT
+					}
+				}
+				add_permanent_claim = AOT
+			}
+			southeast_zealandia_region = { 
+				limit = { 
+					owned_by = ROOT
+				}
+				hidden_effect = { 
+					remove_core = AOT
+				}
+				add_core = AOT
+			}
+			southeast_zealandia_region = { 
+				limit = { 
+					NOT = { 
+						owned_by = ROOT
+					}
+				}
+				add_permanent_claim = AOT
+			}
+			add_prestige = 20
+			if = { 
+				limit = { 
+					custom_trigger_tooltip = { 
+						tooltip = is_monarchy_tt
+						OR = { 
+							government = monarchy
+							government = has_harem
+						}
+					}
+					NOT = { 
+						has_country_modifier = title_6
+					}
+				}
+				remove_country_modifier = title_1
+				remove_country_modifier = title_2
+				remove_country_modifier = title_3
+				remove_country_modifier = title_4
+				remove_country_modifier = title_5
+				add_country_modifier = { 
+					name = title_6
+					duration = -1
+				}
+				clr_country_flag = title_1
+				clr_country_flag = title_2
+				clr_country_flag = title_3
+				clr_country_flag = title_4
+				clr_country_flag = title_5
+				clr_country_flag = title_6
+			}
+			change_tag = AOT
+			add_absolutism = 10
+			add_permanent_claim = AOT
+		}
+		ai_will_do = { 
+			factor = 1
+		}
+		ai_importance = 400
+	}
 }

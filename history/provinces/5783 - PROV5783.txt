@@ -13,3 +13,7 @@ hre = no
 	set_key = { lhs = starting_rural_pop_1350 value = 46.612 }
 	set_key = { lhs = starting_urban_pop_1350 value = 5.612 }
 }
+
+450.1.1 = {
+	set_province_flag = tea
+}

@@ -16,8 +16,8 @@ base_production = 0
 base_manpower = 0
 
 450.1.1 = {
-        set_key = { lhs = starting_urban_pop_1350 value = 2.856 }
-	set_key = { lhs = pop_level value = 2.5 }
+    set_key = { lhs = starting_rural_pop_1350 value = 27.518 }
+    set_key = { lhs = starting_urban_pop_1350 value = 2.856 }
 }
 #1770.7.1 = {
 #	discovered_by = GBR

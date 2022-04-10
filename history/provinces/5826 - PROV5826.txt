@@ -1,5 +1,5 @@
 capital = "Default City"
-trade_goods = pepper #grain
+trade_goods = lumber  #grain
 culture = maori
 religion = polynesian_pagan
 

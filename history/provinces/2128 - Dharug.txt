@@ -18,14 +18,17 @@ set_key = { lhs = Infra_Harbourage value = 2 }
 set_key = { lhs = Infra_Amenities value = 1 }
 set_key = { lhs = Infra_Pathing value = 2 }
 set_key = { lhs = Infra_Irrigation value = 1 }
+set_province_flag = small_university
 
 450.1.1 = {
-	set_key = { lhs = pop_level value = 4 }
-        set_key = { lhs = starting_urban_pop_1350 value = 22.127 }
+    set_key = { lhs = NM_Ratio value = 18.000 }
+	set_key = { lhs = starting_rural_pop_1350 value = 38.054 }
+    set_key = { lhs = starting_urban_pop_1350 value = 22.127 }
 	# Features
 	set_province_flag = TN_Harbour_Major
 	set_province_flag = TN_Natural_Major
 	set_province_flag = coal
+        set_province_flag = tea
 }
 #1770.7.1 = {
 #	discovered_by = GBR

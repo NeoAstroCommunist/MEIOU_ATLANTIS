@@ -1,5 +1,5 @@
 capital = "Default City"
-trade_goods = lumber 
+trade_goods = carmine 
 culture = aboriginal
 religion = australian_pagan
 

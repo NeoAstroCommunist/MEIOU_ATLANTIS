@@ -10,7 +10,7 @@ add_government_reform = Pol_Nobility4
 government_rank = 1
 mercantilism = 0.0
 primary_culture = chinesezealandiasouth
-religion = shenism
+religion = vajrayana
 technology_group = chinese
 capital = 5834
 

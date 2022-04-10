@@ -18,8 +18,8 @@ base_manpower = 0
 
 
 450.1.1 = {
-        set_key = { lhs = starting_urban_pop_1350 value = 11.435 }
-	set_key = { lhs = pop_level value = 3 }
+    set_key = { lhs = starting_rural_pop_1350 value = 46.330 }
+    set_key = { lhs = starting_urban_pop_1350 value = 11.435 }
 	# Features
 	set_province_flag = TN_Harbour_Minor
 	set_province_flag = TN_Natural_Minor

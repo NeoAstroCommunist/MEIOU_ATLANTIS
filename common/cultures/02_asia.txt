@@ -1508,7 +1508,6 @@ oghuz = {
 		}
 	}
 }
-
 tartar_group = {
 	graphical_culture = muslimgfx
 	astrakhani = {
@@ -1840,6 +1839,9 @@ tartar_group = {
 			Urgu Uyighur
 			Yangaya Yelmish Yesui Yesulun Yesunjin Yürek
 		}
+	}
+	cuman = {
+		
 	}
 	tartar_colonial = {
 		
@@ -2342,6 +2344,10 @@ chinese_group = {
 	}
 	
 	chinesezealandia = {
+	
+	}
+	
+	maoliren = {
 	
 	}
 	

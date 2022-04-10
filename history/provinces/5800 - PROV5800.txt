@@ -3,7 +3,7 @@ controller = TR1
 add_core = TR1
 
 capital = "Default City"
-trade_goods = rice #grain
+trade_goods = indigo #grain
 culture = maori
 religion = polynesian_pagan
 is_city = yes

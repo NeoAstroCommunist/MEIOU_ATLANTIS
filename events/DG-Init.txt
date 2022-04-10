@@ -2704,6 +2704,24 @@ country_event = {
 								}
 							}
 						}
+						if = {
+							limit = { religion = shenism }
+							if = {
+								limit = { region = north_zealandia_region }
+								MN_StartUpProv = {
+									rural0 = 0.90 urban0 = 0.80 notables0 = 0.55
+									religion1 = 31 rural1 = 0.00 urban1 = 0.15 notables1 = 0.45
+									religion2 = 28 rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
+								}
+							}
+							else = {
+								MN_StartUpProv = {
+									rural0 = 0.75 urban0 = 0.60 notables0 = 0.50
+									religion1 = 31 rural1 = 0.05 urban1 = 0.15 notables1 = 0.35
+									religion2 = 28 rural2 = 0.20 urban2 = 0.25 notables2 = 0.15
+								}
+							}
+						}
 						else_if = {
 							limit = { religion = bimoism }
 							if = {

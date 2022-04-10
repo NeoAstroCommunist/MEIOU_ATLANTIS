@@ -20,12 +20,26 @@ historical_friend = A20
 	add_absolutism = 25
 }
 
-1312.1.1 = {
+1330.1.1 = {
 	monarch = {
 		name = "Nathanel"
-		dyansty = "Barqa"
+		dynasty = "Barqa"
+		birth_date = 1299.1.1
+		death_date = 1360.1.1
 		ADM = 6
 		DIP = 3
 		MIL = 5
+	}
+	heir = {
+		name = "Joseph"
+		monarch_name = "Joseph"
+		religion = sunni
+		dynasty = "Barqa"
+		birth_date = 1329.1.1
+		death_date = 1360.1.1
+		claim = 95
+		ADM = 5
+		DIP = 5
+		MIL = 4
 	}
 }

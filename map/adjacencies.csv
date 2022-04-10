@@ -20,14 +20,13 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 4271;1558;sea;2505;-1;-1;-1;-1;Central Africa - Kongo - Suku-Kuba
 4271;4272;sea;2505;-1;-1;-1;-1;Central Africa - Kongo - Suku-Mongo
 1117;2917;sea;2908;-1;-1;-1;-1;Central Africa - Niger - Gossi Connection
-2959;1497;sea;2908;-1;-1;-1;-1;Central Africa - Niger - Gossi Connection
 2959;5083;sea;2908;-1;-1;-1;-1;Central Africa - Niger - Gossi Connection
 2959;2907;sea;2908;-1;-1;-1;-1;Central Africa - Niger - Gossi Connection
 1119;5083;sea;2908;-1;-1;-1;-1;Central Africa - Niger - Gossi Connection
 2769;2790;sea;5363;-1;-1;-1;-1;Central Africa - Niger_Crossing
 1561;2788;sea;5363;-1;-1;-1;-1;Central Africa - Niger_Crossing
+5258;2880;sea;5363;-1;-1;-1;-1;Central Africa - Niger_Crossing
 5092;2880;sea;5363;-1;-1;-1;-1;Central Africa - Niger_Crossing
-2887;2880;sea;5363;-1;-1;-1;-1;Central Africa - Niger_Crossing
 1502;2884;sea;5363;-1;-1;-1;-1;Central Africa - Niger_Crossing
 1502;2880;sea;5363;-1;-1;-1;-1;Central Africa - Niger_Crossing
 1556;1557;sea;5363;-1;-1;-1;-1;Central Africa - Niger_Crossing
@@ -68,6 +67,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 4577;436;sea;4576;-1;-1;-1;-1;Central Asia - Transoxania
 477;3303;sea;2223;-1;-1;-1;-1;Central Asia - Zungaria - Heergun-Jambyl
 3298;3304;sea;2223;-1;-1;-1;-1;Central Asia - Zungaria - Signaq
+3298;3285;sea;2223;-1;-1;-1;-1;Central Asia - Zungaria - Signaq
 3213;717;sea;4188;-1;-1;-1;-1;Central Asia - Zungaria - Turfan-Loulan
 4818;715;sea;4613;-1;-1;-1;-1;Central Asia - Zungaria - Tonkhil-Uliastai
 2742;2273;sea;2269;-1;-1;-1;-1;Central Asia - Zungaria - Yangjilbaliq-Orongo Gol
@@ -160,14 +160,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 138;137;sea;1904;-1;-1;-1;-1;Europe - Balkans - Kotor-Ragusa
 4034;2571;sea;1902;-1;-1;-1;-1;Europe - Balkans - Rijeka
 136;137;sea;1903;-1;-1;-1;-1;Europe - Balkans - Split-Ragusa
-1354;3767;sea;1854;-1;-1;-1;-1;Europe - Baltic - Hiiumaa-Rovala
-3768;1354;sea;1854;-1;-1;-1;-1;Europe - Baltic - Hiiumaa-Saaremaa
-3768;1354;sea;1854;-1;-1;-1;-1;Europe - Baltic - Hiuumaa
-3768;3767;sea;1854;-1;-1;-1;-1;Europe - Baltic - Hiuumaa
+1354;3767;sea;1854;-1;-1;-1;-1;Europe - Baltic - Moonsund-Rovala
 14;15;sea;1856;-1;-1;-1;-1;Europe - Baltic - Hiuumaa
 34;3400;sea;1852;-1;-1;-1;-1;Europe - Baltic - Ingria-Virumaa
-1354;1432;sea;1854;-1;-1;-1;-1;Europe - Baltic - Saaremaa-Pilten
-3768;3767;sea;1854;-1;-1;-1;-1;Europe - Baltic - Saaremaa-Rovala
+1354;1432;sea;1854;-1;-1;-1;-1;Europe - Baltic - Moonsund-Pilten
 3338;369;sea;1876;-1;-1;-1;-1;Europe - Britain - Gallaibh-Orkney
 253;1417;sea;1877;-1;-1;-1;-1;Europe - Britain - Inbhir Nis-Eilean Siar
 158;1398;sea;365;-1;-1;-1;-1;Europe - Carpathia
@@ -192,6 +188,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 3875;1435;sea;1913;-1;-1;-1;-1;Europe - Greece - Lesbos
 3385;1434;sea;1913;-1;-1;-1;-1;Europe - Greece - Magnesia
 223;227;sea;4128;-1;-1;-1;-1;Europe - Iberia
+219;227;sea;5181;-1;-1;-1;-1;Europe - Iberia
 223;3357;sea;4128;-1;-1;-1;-1;Europe - Iberia
 222;3359;sea;4128;-1;-1;-1;-1;Europe - Iberia
 219;3360;sea;4128;-1;-1;-1;-1;Europe - Iberia
@@ -307,8 +304,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 320;4064;sea;1912;-1;-1;-1;-1;MENA - Anatolia - Rodos-Mentese
 4058;1319;sea;1324;-1;-1;-1;-1;MENA - Arabia - ArZawr - Tadmur
 393;397;sea;4090;-1;-1;-1;-1;MENA - Arabia - Kazima-Qatif
-1330;2811;sea;4090;-1;-1;-1;-1;MENA - Arabia - Oases
-2636;2811;sea;4090;-1;-1;-1;-1;MENA - Arabia - Oases
 2575;2665;sea;4090;-1;-1;-1;-1;MENA - Arabia - Oases
 2651;2811;sea;4090;-1;-1;-1;-1;MENA - Arabia - Oases
 2651;3072;sea;4090;-1;-1;-1;-1;MENA - Arabia - Oases
@@ -328,8 +323,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 3072;393;sea;406;-1;-1;-1;-1;MENA - Arabia - Oases
 3070;467;sea;4090;-1;-1;-1;-1;MENA - Arabia - Oases
 3070;3069;sea;4090;-1;-1;-1;-1;MENA - Arabia - Oases
-4057;2811;sea;4090;-1;-1;-1;-1;MENA - Arabia - Oases
-2575;2811;sea;4090;-1;-1;-1;-1;MENA - Arabia - Oases
+4645;2811;sea;4090;-1;-1;-1;-1;MENA - Arabia - Oases
 395;396;sea;1928;-1;-1;-1;-1;MENA - Arabia - Qatar-Bahrein
 1116;1497;sea;2508;-1;-1;-1;-1;MENA - Arawan-Timbuktu
 327;1333;sea;5177;-1;-1;-1;-1;MENA - Armanian Gates
@@ -356,8 +350,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 54;3722;sea;1866;-1;-1;-1;-1;MENA - Germany - Weser-Dithmarschen
 54;977;sea;1866;-1;-1;-1;-1;MENA - Germany - Weser-Holstein
 54;55;sea;1866;-1;-1;-1;-1;MENA - Germany - Weser-Oldenburg
-4058;382;sea;1324;-1;-1;-1;-1;MENA - Levant - Dimashq - Tadmur
-4058;1327;sea;1324;-1;-1;-1;-1;MENA - Levant - Hama - Tadmur
 1334;875;sea;5217;-1;-1;-1;-1;MENA - Levant - Lebanon
 875;382;sea;5217;-1;-1;-1;-1;MENA - Levant - Lebanon
 1524;2771;sea;2508;-1;-1;-1;-1;MENA - Libya - Fezzan-Kufra
@@ -378,7 +370,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1218;1182;sea;3321;-1;-1;-1;-1;MENA - Nubia
 1216;2496;sea;3321;-1;-1;-1;-1;MENA - Nubia
 1545;1147;sea;2508;-1;-1;-1;-1;MENA - Sahara - Bilma-Djado
-4116;2904;sea;2508;-1;-1;-1;-1;MENA - Sahara - Chinguetti-Brakna
+4116;5096;sea;2508;-1;-1;-1;-1;MENA - Sahara - Chinguetti-Brakna
 4116;2964;sea;2508;-1;-1;-1;-1;MENA - Sahara - Chinguetti-Brakna
 4116;4117;sea;2508;-1;-1;-1;-1;MENA - Sahara - Chinguetti-Tichit
 2999;2936;sea;2508;-1;-1;-1;-1;MENA - Sahara - Chott-Toggourt
@@ -393,26 +385,16 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1500;2371;sea;2508;-1;-1;-1;-1;MENA - Sahara - Idjil-Taroudant
 2659;2657;sea;2508;-1;-1;-1;-1;MENA - Sahara - Ouargla-Ghadames
 2504;1543;sea;2508;-1;-1;-1;-1;MENA - Sahara - Tidikelt-Hoggar
-2774;4117;sea;2508;-1;-1;-1;-1;MENA - Sahara - Tilchitt-Tichit
 342;4116;sea;2508;-1;-1;-1;-1;MENA - Sahara - Wadan-Chinguetti
 342;1500;sea;2508;-1;-1;-1;-1;MENA - Sahara - Wadan-Idjil
-2772;2916;sea;2508;-1;-1;-1;-1;MENA - Sahara Oasis
-2772;1497;sea;2508;-1;-1;-1;-1;MENA - Sahara Oasis
-2923;1117;sea;2508;-1;-1;-1;-1;MENA - Sahara Oasis
-2918;1117;sea;2508;-1;-1;-1;-1;MENA - Sahara Oasis
-2918;2917;sea;2508;-1;-1;-1;-1;MENA - Sahara Oasis
+2923;5496;sea;2508;-1;-1;-1;-1;MENA - Sahara Oasis
 2923;2504;sea;2508;-1;-1;-1;-1;MENA - Sahara Oasis
 1548;2658;sea;2508;-1;-1;-1;-1;MENA - Sahara Oasis
 1543;2928;sea;2508;-1;-1;-1;-1;MENA - Sahara Oasis
 2928;2920;sea;2508;-1;-1;-1;-1;MENA - Sahara Oasis
-2316;1559;sea;2508;-1;-1;-1;-1;MENA - Sahara Oasis
-2950;1559;sea;2508;-1;-1;-1;-1;MENA - Sahara Oasis
 2920;2921;sea;2508;-1;-1;-1;-1;MENA - Sahara Oasis
 2920;2924;sea;2508;-1;-1;-1;-1;MENA - Sahara Oasis
 2929;1546;sea;2508;-1;-1;-1;-1;MENA - Sahara Oasis
-2929;1559;sea;2508;-1;-1;-1;-1;MENA - Sahara Oasis
-1559;1563;sea;2508;-1;-1;-1;-1;MENA - Sahara Oasis
-1559;1546;sea;2508;-1;-1;-1;-1;MENA - Sahara Oasis
 1147;2915;sea;2508;-1;-1;-1;-1;MENA - Sahara Oasis
 2915;2771;sea;2508;-1;-1;-1;-1;MENA - Sahara Oasis
 2771;3319;sea;2508;-1;-1;-1;-1;MENA - Sahara Oasis
@@ -421,7 +403,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1182;2952;sea;2508;-1;-1;-1;-1;MENA - Sahara Oasis
 1182;2953;sea;2508;-1;-1;-1;-1;MENA - Sahara Oasis
 2371;4122;sea;4086;-1;-1;-1;-1;MENA - Sahara Oasis
-2772;4117;sea;4086;-1;-1;-1;-1;MENA - Sahara Oasis
+2772;1116;sea;4086;-1;-1;-1;-1;MENA - Sahara Oasis
 4122;345;sea;4086;-1;-1;-1;-1;MENA - Sahara Oasis
 345;2870;sea;4086;-1;-1;-1;-1;MENA - Sahara Oasis
 2870;2964;sea;2761;-1;-1;-1;-1;MENA - Sahara Oasis
@@ -449,8 +431,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 5105;4115;sea;2761;-1;-1;-1;-1;MENA - Sahara Oasis
 5105;346;sea;2761;-1;-1;-1;-1;MENA - Sahara Oasis
 5107;1212;sea;2761;-1;-1;-1;-1;MENA - Sahara Oasis
-2920;2918;sea;4087;-1;-1;-1;-1;MENA - Sahara Oasis
-2923;2918;sea;4087;-1;-1;-1;-1;MENA - Sahara Oasis
 1755;332;sea;5162;-1;-1;-1;-1;MENA - Syrian Gates
 2999;2937;sea;2508;-1;-1;-1;-1;MENA - Tunisia - Gafsa-Tataouine
 2663;2528;sea;1899;-1;-1;-1;-1;MENA - Tunisia - Qabis-Jarbah
@@ -597,9 +577,60 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 607;2317;sea;5159;-1;-1;-1;-1;Southeast Asia - Vietnam Mountain Passes
 274;3400;sea;3996;-1;-1;-1;-1;Pskov-Estonia
 2380;160;sea;1916;-1;-1;-1;-1;Mouth of the  Danube
+5278;1474;sea;1612;-1;-1;-1;-1;Isla de Carmen
+5278;3517;sea;1612;-1;-1;-1;-1;Isla de Carmen
+5278;2411;sea;1612;-1;-1;-1;-1;Isla de Carmen
+5278;5277;sea;1612;-1;-1;-1;-1;Isla de Carmen
 4203;4202;sea;5284;-1;-1;-1;-1;Crossing the Ob
 4204;4202;sea;5284;-1;-1;-1;-1;Crossing the Ob
 4209;1074;sea;1861;-1;-1;-1;-1;Crossing the Kara sea
 4112;281;sea;4022;-1;-1;-1;-1;Crossing the Ural
+3516;3517;sea;1472;-1;-1;-1;-1;North America - Tayasal
+5023;5014;sea;5646;-1;-1;-1;-1;Baoulé Crossing
+5024;5023;sea;2901;-1;-1;-1;-1;Baoulé Crossing
+5024;2957;sea;2901;-1;-1;-1;-1;Baoulé Crossing
+5024;5026;sea;2901;-1;-1;-1;-1;Baoulé Crossing
 5576;5572;sea;5719;-1;-1;-1;-1;Caprera - Solanae
+5873;5876;sea;5723;-1;-1;-1;-1;Jokusfell - Svignaskaro
+5876;5645;sea;5723;-1;-1;-1;-1;Svignaskaro - Olafsdair
+5645;5644;sea;5723;-1;-1;-1;-1;Olafsdair - Langavatnsdair
+5589;5590;sea;5720;-1;-1;-1;-1;Ad Novas - Aquilonia
+5589;5588;sea;5720;-1;-1;-1;-1;Ad Novas - Campa Catalunii
+5588;5591;sea;5720;-1;-1;-1;-1;Campa Catalunii - Trimontium
+5591;5592;sea;5720;-1;-1;-1;-1;Trimontium - Augustonemetum
+5592;5594;sea;5719;-1;-1;-1;-1;Augustonemetum - Oea
+5594;5595;sea;5719;-1;-1;-1;-1;Oea - Portus Cale
+5617;5615;sea;5725;-1;-1;-1;-1;Aprodis - Serdika
+5616;5618;sea;5725;-1;-1;-1;-1;Vela - Trigiana
+5531;5529;sea;5709;-1;-1;-1;-1;Canarnai - Tinus
+5529;5700;sea;5709;-1;-1;-1;-1;Tinus - Kasywbya
+5532;5665;sea;5716;-1;-1;-1;-1;Katsilis - Asubuli
+5620;5665;sea;5716;-1;-1;-1;-1;Mijisbia - Asubuli
+5621;5664;sea;5716;-1;-1;-1;-1;Arghatria - Turina
+5664;5666;sea;5716;-1;-1;-1;-1;Turina - Alfarizi
+5527;5524;sea;5711;-1;-1;-1;-1;Qeja - Qassus
+5701;5524;sea;5711;-1;-1;-1;-1;Bwsyday - Qassus
+5702;5524;sea;5711;-1;-1;-1;-1;lilytidus - Qassus
+5702;5525;sea;5711;-1;-1;-1;-1;lilytidus - Bars
+5708;5526;sea;5711;-1;-1;-1;-1;Altayira - Jnob Bars
+5668;5675;sea;5714;-1;-1;-1;-1;Tirarta - Zankilitra
+5676;5671;sea;5714;-1;-1;-1;-1;Britinz - Falsuws
+5677;5678;sea;5714;-1;-1;-1;-1;Einis - Migalalamis
+5679;5678;sea;5714;-1;-1;-1;-1;Andurus - Migalalamis
+5679;5680;sea;5714;-1;-1;-1;-1;Einis - Simin
+5679;5682;sea;5718;-1;-1;-1;-1;Andurus - Arijas
+5682;5684;sea;5718;-1;-1;-1;-1;Arijas - Nimita
+5689;5684;sea;5718;-1;-1;-1;-1;Bguigoumbe - Nimita
+5689;5688;sea;5718;-1;-1;-1;-1;Bguigoumbe - Jichi
+5684;5688;sea;5717;-1;-1;-1;-1;Nimita - Jichi
+5692;5688;sea;5717;-1;-1;-1;-1;Borochai - Jichi
+5692;5696;sea;5718;-1;-1;-1;-1;Borochai - Mprakuma
+5697;5696;sea;5717;-1;-1;-1;-1;Djibo - Mprakuma
+5794;5795;sea;5867;-1;-1;-1;-1;PROV5794 - PROV5795
+5828;5857;sea;4349;-1;-1;-1;-1;PROV5828 - PROV5857
+5790;1109;sea;1976;-1;-1;-1;-1;PROV5790 - Wairau
+1109;822;sea;1976;-1;-1;-1;-1;Wairau - Otaku
+2610;5762;sea;1766;-1;-1;-1;-1;Norfuk Ailen - PROV5762
+5765;5763;sea;4342;-1;-1;-1;-1;PROV5765 - PROV5763
+5767;5769;sea;4342;-1;-1;-1;-1;PROV5767 - PROV5769
 -1;-1;-1;-1;-1;-1;-1;-1;-1
