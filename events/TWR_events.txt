@@ -185,7 +185,7 @@ country_event = {
 	option = { 
 		name = "flavor_TWR.6.a"
 		ai_chance = {
-			factor = 90
+			factor = 100
 		}
         add_prestige = -5
 		ZLD = { 
@@ -198,7 +198,7 @@ country_event = {
 	option = {
 		name = "flavor_TWR.6.b"
 		ai_chance = { 
-			factor = 10
+			factor = 0
 		}
         TWR = { 
 		    clr_country_flag = TWR_sinic_relations_1

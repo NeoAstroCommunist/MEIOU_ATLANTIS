@@ -1,4 +1,4 @@
-capital = "Default City"
+capital = "Craigim"
 trade_goods = lumber  #grain
 culture = maori
 religion = polynesian_pagan

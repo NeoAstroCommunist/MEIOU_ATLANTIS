@@ -295,7 +295,7 @@ country_event = {
 			factor = 90
 		}
 		add_casus_belli = { 
-			target = CRI
+			target = A12
 			type = cb_vassalize_mission
 			months = 120
 		}
@@ -394,7 +394,9 @@ country_event = {
 				is_capital = no
 			}
 			spawn_rebels = { 
-				size = 1
+				size = 2
+				leader = Judah
+				leader_dynasty = Barqa
 				type = pretender_rebels
 			}
 		}

@@ -2,7 +2,7 @@ owner = SSW
 controller = SSW
 add_core = SSW
 
-capital = "Default City"
+capital = "Mendong"
 trade_goods = wool #grain
 culture = chinesezealandia
 religion = shenism

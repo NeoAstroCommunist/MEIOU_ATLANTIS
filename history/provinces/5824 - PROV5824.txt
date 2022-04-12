@@ -2,7 +2,7 @@ owner = ULR
 controller = ULR
 add_core = ULR
 
-capital = "Default City"
+capital = "Rivetianga"
 trade_goods = fish 
 culture = aboriginal
 religion = australian_pagan

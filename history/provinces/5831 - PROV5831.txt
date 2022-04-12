@@ -2,7 +2,7 @@ owner = PYE
 controller = PYE
 add_core = PYE
 
-capital = "Default City"
+capital = "Blugarei"
 trade_goods = fish 
 culture = aboriginal
 religion = australian_pagan

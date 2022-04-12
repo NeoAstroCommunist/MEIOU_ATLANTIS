@@ -270,6 +270,7 @@ upper_saxon_circle_region = {
 	areas = {
 		southern_saxony_area
 		east_thuringia_area
+		central_thuringia_area
 		west_thuringia_area
 	}
 }
@@ -324,6 +325,7 @@ magyar_plains_region = {
 	areas = {
 		transdanubia_area
 		alfold_area
+		eszaki_area
 		kisalfold_area
 	}
 }
@@ -349,6 +351,7 @@ central_balkan_region = {
 	areas = {
 		south_serbia_area
 		north_serbia_area
+		east_serbia_area
 		albania_area
 	}
 }
@@ -689,7 +692,9 @@ senegambia_region = {
 manding_region = {
 	areas = {
 		mali_area
+		bambuk_area
 		ghana_area
+		diara_area
 		segou_area
 	}
 }
@@ -707,6 +712,7 @@ niger_bend_region = {
 guinea_region = {
 	areas = {
 		guinea_area
+		leoa_area
 		ivory_coast_area
 		jallon_area
 	}
@@ -717,13 +723,16 @@ lower_volta_region = {
 		dagbon_area
 		volta_delta_area
 		toro_area
+		denkyira_area
 	}
 }
 upper_volta_region = {
 	areas = {
 		senufo_area
+		lobi_area
 		west_mossi_area
 		east_mossi_area
+		yatenga_area
 	}
 }
 
@@ -733,6 +742,10 @@ upper_niger_region = {
 		oyo_area
 		dahomey_area
 		borgu_area
+		kwande_area
+		ekiti_area
+		ketu_area
+		lekki_area
 	}
 }
 
@@ -1467,12 +1480,12 @@ papua_region = {
 
 south_oceanea_region = {
 	areas = {
-        zealandia2_area
 		fiji_area
 		east_polynesia_area
 		west_polynesia_area
-		zealandia3_area
 		zealandia1_area
+		zealandia2_area
+		zealandia3_area
 	}
 }
 
@@ -1805,8 +1818,13 @@ central_america_region = {
 	areas = {
 		guatemala_area
 		honduras_area
+		copan_area
+		pipil_area
+		salvador_area
 		nicaragua_area
 		yucatan_area
+		mayapan_area
+		hocaba_area
 		belize_area
 		campeche_area
 		panama_area
@@ -1962,7 +1980,6 @@ adventure_region = {
 		adventure_area
 	}
 }
-
 # Atlantis #
 
 south_atlantis_islands_region = {

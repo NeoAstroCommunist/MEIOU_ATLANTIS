@@ -1,4 +1,4 @@
-capital = "Default City"
+capital = "Vatubasa"
 trade_goods = unknown 
 culture = melanesian
 religion = polynesian_pagan

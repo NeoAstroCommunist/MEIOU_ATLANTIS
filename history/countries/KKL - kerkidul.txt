@@ -19,3 +19,15 @@ capital = 1249
 	add_absolutism = -100
 	add_absolutism = 30
 }
+
+1327.1.1 = {
+	monarch = {
+		name = "Raden Sotor"
+		dynasty = "Banten"
+		birth_date = 1310.1.1
+		death_date = 1360.1.1
+		ADM = 3
+		DIP = 2
+		MIL = 1
+	}
+}

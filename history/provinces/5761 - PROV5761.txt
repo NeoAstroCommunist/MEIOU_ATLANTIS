@@ -2,7 +2,7 @@ owner = RNL
 controller = RNL
 add_core = RNL
 
-capital = "Default City"
+capital = "Makeinibeu"
 trade_goods = clove 
 culture = oranglaut
 religion = hinduism

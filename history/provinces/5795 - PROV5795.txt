@@ -2,7 +2,7 @@ owner = TWR
 controller = TWR
 add_core = TWR
 
-capital = "Default City"
+capital = "Lakabua"
 trade_goods = livestock #grain
 culture = maori
 religion = polynesian_pagan

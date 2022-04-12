@@ -2,7 +2,7 @@ owner = MUA
 controller = MUA
 add_core = MUA
 
-capital = "Default City"
+capital = "Nofoalovi"
 trade_goods = fish #grain
 culture = maori
 religion = polynesian_pagan

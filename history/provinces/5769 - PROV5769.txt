@@ -1,4 +1,4 @@
-capital = "Default City"
+capital = "Hihilona"
 trade_goods = unknown # fish
 culture = aboriginal
 religion = australian_pagan

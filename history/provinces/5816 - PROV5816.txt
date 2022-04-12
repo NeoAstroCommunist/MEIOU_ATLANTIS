@@ -2,7 +2,7 @@ owner = NMA
 controller = NMA
 add_core = NMA
 
-capital = "Default City"
+capital = "Vutovua"
 trade_goods = lumber #grain
 culture = maori
 religion = polynesian_pagan

@@ -2,7 +2,7 @@ owner = TOO
 controller = TOO
 add_core = TOO
 
-capital = "Default City"
+capital = "Kariake"
 trade_goods = wax 
 culture = aboriginal
 religion = australian_pagan

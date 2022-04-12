@@ -2,7 +2,7 @@ owner = NGT
 controller = NGT
 add_core = NGT
 
-capital = "Default City"
+capital = "Sasisori"
 trade_goods = fish #grain
 culture = maori
 religion = polynesian_pagan

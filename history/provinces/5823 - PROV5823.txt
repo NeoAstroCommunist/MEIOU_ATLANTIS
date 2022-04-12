@@ -2,7 +2,7 @@ owner = NGM
 controller = NGM
 add_core = NGM
 
-capital = "Default City"
+capital = "Auapo'e"
 trade_goods = wool #grain
 culture = maori
 religion = polynesian_pagan

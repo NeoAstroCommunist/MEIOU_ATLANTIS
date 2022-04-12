@@ -55,7 +55,7 @@ country_event = {
 	
 	option = {
 		name = "flavor_ZLP.2.a" #Buy prov.
-		ai_chance = { factor = 90 modifier = { factor = 0 num_of_loans = 4 } }
+		ai_chance = { factor = 95 modifier = { factor = 0 num_of_loans = 4 } }
 		add_treasury = -75
 		ZLP = {
 			country_event = { id = flavor_ZLP.3 }
@@ -67,7 +67,7 @@ country_event = {
 	}
 	option = {
 		name = "flavor_ZLP.2.b" 
-		ai_chance = { factor = 10 }
+		ai_chance = { factor = 5 }
 		custom_tooltip = flavor_ZLP.2.b.tt
 		ZLP = {
 			country_event = { id = flavor_ZLP.4 }
@@ -138,12 +138,14 @@ country_event = {
 	option = {
 		name = "flavor_ZLP.5.a"
         trigger = { tag = ZLP }
+		clr_global_flag = can_mine_treasure_island
 		5833 = { set_province_flag = treasures_found }
 	}
 	option = { 
 		name = "flavor_ZLP.5.b"
 		trigger = { NOT = { tag = ZLP } }
 		add_treasury = 1000
+		clr_global_flag = can_mine_treasure_island
 		if = {
 		limit = { exists = ZLP }
 		ZLP = {
@@ -153,7 +155,7 @@ country_event = {
 	}
 }
 
-country_event = { 
+country_event = {
 	id = flavor_ZLP.6
 	title = "flavor_ZLP.6.t"
 	desc = "flavor_ZLP.6.d"
@@ -166,7 +168,7 @@ country_event = {
 		limit = { NOT = { ZLP = { owns = 5834 } } }
         random_list = {
 		50 = { ZLP = { country_event = { id = flavor_ZLP.8 } } set_global_flag = treasures_stolen } #Pirates are traitors
-		50 = { ZLP = { country_event = { id = flavor_ZLP.7 } ) } #Pirates are not traitors
+		50 = { ZLP = { country_event = { id = flavor_ZLP.7 } } } #Pirates are not traitors
 		}
 	}
 	option = {
@@ -244,7 +246,7 @@ country_event = {
 	5833 = { clr_province_flag = treasures_found }
 	}
 	option = {
-		name = "flavor_ZLP.9.a"
+		name = "flavor_ZLP.10.a"
         ZLP = {
 			5833 = {
 				if = {
@@ -269,7 +271,7 @@ country_event = {
 	fire_only_once = yes
     is_triggered_only = yes
 	option = {
-		name = "flavor_ZLP.6.a"
+		name = "flavor_ZLP.11.a"
 		limit = { NOT = { mil = 6 } }
         kill_ruler = yes
 		zealandia3_area = { limit = { owned_by = ZLP } add_core = ZLD spawn_rebels = { type = nationalist_rebels size = 2 } }
@@ -278,7 +280,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "flavor_ZLP.6.a"
+		name = "flavor_ZLP.11.b"
 		highlight = yes
 		limit = { mil = 6 }
         add_government_reform = Pol_ExtraPowers2

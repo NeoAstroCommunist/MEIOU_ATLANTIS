@@ -2,7 +2,7 @@ owner = BGG
 controller = BGG
 add_core = BGG
 
-capital = "Default City"
+capital = "Calool"
 trade_goods = lumber 
 culture = aboriginal
 religion = australian_pagan

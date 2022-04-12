@@ -2,7 +2,7 @@ owner = WAI
 controller = WAI
 add_core = WAI
 
-capital = "Default City"
+capital = "Tekaitaw"
 trade_goods = fish #grain
 culture = maori
 religion = polynesian_pagan

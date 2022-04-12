@@ -2,7 +2,7 @@ owner = ADN
 controller = ADN
 add_core = ADN
 
-capital = "Default City"
+capital = "Hamutumu"
 trade_goods = fish 
 culture = aboriginal
 religion = australian_pagan

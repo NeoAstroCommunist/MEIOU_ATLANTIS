@@ -1,5 +1,5 @@
 
-capital = "Default City"
+capital = "Rakakura"
 trade_goods = unknown 
 culture = melanesian
 religion = hinduism

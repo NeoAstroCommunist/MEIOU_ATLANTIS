@@ -5,15 +5,15 @@ namespace = atlantis_colonies
 
 country_event = { 
 	id = atlantis_colonies.1
-	title = atlantis_colonies.1.name
-	desc = atlantis_colonies.1.desc
+	title = atlantis_colonies.name
+	desc = atlantis_colonies.desc
 	picture = TRADEGOODS_eventPicture
 	fire_only_once = yes
 	trigger = { 
 		owns = 5795
 	}
 	mean_time_to_happen = { 
-		months = 1
+		years = 10
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -32,7 +32,7 @@ country_event = {
 						}
 					}
 				}
-				random_empty_neighbor_province = { 
+				5797 = { 
 					limit = { 
 						OR = { 
 							ROOT = { 
@@ -68,15 +68,15 @@ country_event = {
 
 country_event = { 
 	id = atlantis_colonies.2
-	title = atlantis_colonies.2.name
-	desc = atlantis_colonies.2.desc
+	title = atlantis_colonies.name
+	desc = atlantis_colonies.desc
 	picture = TRADEGOODS_eventPicture
 	fire_only_once = yes
 	trigger = { 
 		AND = { owns = 5802 owns = 5801 }
 	}
 	mean_time_to_happen = { 
-		months = 1
+		years = 10
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -95,7 +95,7 @@ country_event = {
 						}
 					}
 				}
-				random_empty_neighbor_province = { 
+				5804 = { 
 					limit = { 
 						OR = { 
 							ROOT = { 
@@ -131,15 +131,15 @@ country_event = {
 
 country_event = { 
 	id = atlantis_colonies.3
-	title = atlantis_colonies.3.name
-	desc = atlantis_colonies.3.desc
+	title = atlantis_colonies.name
+	desc = atlantis_colonies.desc
 	picture = TRADEGOODS_eventPicture
 	fire_only_once = yes
 	trigger = { 
 		owns = 5816
 	}
 	mean_time_to_happen = { 
-		months = 1
+		years = 10
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -194,15 +194,15 @@ country_event = {
 
 country_event = { 
 	id = atlantis_colonies.4
-	title = atlantis_colonies.4.name
-	desc = atlantis_colonies.4.desc
+	title = atlantis_colonies.name
+	desc = atlantis_colonies.desc
 	picture = TRADEGOODS_eventPicture
 	fire_only_once = yes
 	trigger = { 
 		owns = 5814
 	}
 	mean_time_to_happen = { 
-		months = 1
+		years = 10
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -257,15 +257,15 @@ country_event = {
 
 country_event = { 
 	id = atlantis_colonies.5
-	title = atlantis_colonies.5.name
-	desc = atlantis_colonies.5.desc
+	title = atlantis_colonies.name
+	desc = atlantis_colonies.desc
 	picture = TRADEGOODS_eventPicture
 	fire_only_once = yes
 	trigger = { 
 		AND = { owns = 5811 owns = 5812 }
 	}
 	mean_time_to_happen = { 
-		months = 1
+		years = 10
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -320,15 +320,15 @@ country_event = {
 
 country_event = { 
 	id = atlantis_colonies.6
-	title = atlantis_colonies.6.name
-	desc = atlantis_colonies.6.desc
+	title = atlantis_colonies.name
+	desc = atlantis_colonies.desc
 	picture = TRADEGOODS_eventPicture
 	fire_only_once = yes
 	trigger = { 
 		owns = 5848
 	}
 	mean_time_to_happen = { 
-		months = 1
+		years = 10
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -383,15 +383,15 @@ country_event = {
 
 country_event = { 
 	id = atlantis_colonies.7
-	title = atlantis_colonies.7.name
-	desc = atlantis_colonies.7.desc
+	title = atlantis_colonies.name
+	desc = atlantis_colonies.desc
 	picture = TRADEGOODS_eventPicture
 	fire_only_once = yes
 	trigger = {
         OR = {	owns = 5849 owns = 5831 }
 	}
 	mean_time_to_happen = { 
-		months = 1
+		years = 10
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -446,15 +446,15 @@ country_event = {
 
 country_event = { 
 	id = atlantis_colonies.8
-	title = atlantis_colonies.8.name
-	desc = atlantis_colonies.8.desc
+	title = atlantis_colonies.name
+	desc = atlantis_colonies.desc
 	picture = TRADEGOODS_eventPicture
 	fire_only_once = yes
 	trigger = { 
 		OR = { owns = 5846 owns = 5831 owns = 5830 owns = 5829 owns = 5844 owns = 5843 }
 	}
 	mean_time_to_happen = { 
-		months = 1
+		years = 10
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -509,15 +509,15 @@ country_event = {
 
 country_event = { 
 	id = atlantis_colonies.9
-	title = atlantis_colonies.9.name
-	desc = atlantis_colonies.9.desc
+	title = atlantis_colonies.name
+	desc = atlantis_colonies.desc
 	picture = TRADEGOODS_eventPicture
 	fire_only_once = yes
 	trigger = { 
 		AND = { owns = 5829 owns = 5828 owns = 5827  }
 	}
 	mean_time_to_happen = { 
-		months = 1
+		years = 10
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -572,15 +572,15 @@ country_event = {
 
 country_event = { 
 	id = atlantis_colonies.10
-	title = atlantis_colonies.10.name
-	desc = atlantis_colonies.10.desc
+	title = atlantis_colonies.name
+	desc = atlantis_colonies.desc
 	picture = TRADEGOODS_eventPicture
 	fire_only_once = yes
 	trigger = { 
 		AND = { owns = 5843 owns = 5827 }
 	}
 	mean_time_to_happen = { 
-		months = 1
+		years = 10
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -635,15 +635,15 @@ country_event = {
 
 country_event = { 
 	id = atlantis_colonies.11
-	title = atlantis_colonies.11.name
-	desc = atlantis_colonies.11.desc
+	title = atlantis_colonies.name
+	desc = atlantis_colonies.desc
 	picture = TRADEGOODS_eventPicture
 	fire_only_once = yes
 	trigger = { 
 		owns = 5825
 	}
 	mean_time_to_happen = { 
-		months = 1
+		years = 10
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -698,15 +698,15 @@ country_event = {
 
 country_event = { 
 	id = atlantis_colonies.12
-	title = atlantis_colonies.12.name
-	desc = atlantis_colonies.12.desc
+	title = atlantis_colonies.name
+	desc = atlantis_colonies.desc
 	picture = TRADEGOODS_eventPicture
 	fire_only_once = yes
 	trigger = { 
 		owns = 5826
 	}
 	mean_time_to_happen = { 
-		months = 1
+		years = 10
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -761,15 +761,15 @@ country_event = {
 
 country_event = { 
 	id = atlantis_colonies.13
-	title = atlantis_colonies.13.name
-	desc = atlantis_colonies.13.desc
+	title = atlantis_colonies.name
+	desc = atlantis_colonies.desc
 	picture = TRADEGOODS_eventPicture
 	fire_only_once = yes
 	trigger = { 
 		owns = 5770
 	}
 	mean_time_to_happen = { 
-		months = 1
+		years = 10
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -824,15 +824,15 @@ country_event = {
 
 country_event = { 
 	id = atlantis_colonies.14
-	title = atlantis_colonies.14.name
-	desc = atlantis_colonies.14.desc
+	title = atlantis_colonies.name
+	desc = atlantis_colonies.desc
 	picture = TRADEGOODS_eventPicture
 	fire_only_once = yes
 	trigger = { 
 		owns = 5769
 	}
 	mean_time_to_happen = { 
-		months = 1
+		years = 10
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -887,34 +887,19 @@ country_event = {
 
 country_event = { 
 	id = atlantis_colonies.15
-	title = atlantis_colonies.15.name
-	desc = atlantis_colonies.15.desc
+	title = atlantis_colonies.name
+	desc = atlantis_colonies.desc
 	picture = TRADEGOODS_eventPicture
 	fire_only_once = yes
 	trigger = { 
 		owns = 2140
 	}
 	mean_time_to_happen = { 
-		months = 1
+		years = 10
 	}
 	immediate = { 
 		hidden_effect = { 
-			2140 = { 
-				limit = { 
-					has_empty_adjacent_province = yes
-					OR = { 
-						ROOT = { 
-							is_colonial_nation = yes
-						}
-						any_empty_neighbor_province = { 
-							NOT = { 
-								has_province_flag = ColonyBecomesOwner
-								has_province_flag = NoRandomSpread
-							}
-						}
-					}
-				}
-				random_empty_neighbor_province = { 
+				1088 = { 
 					limit = { 
 						OR = { 
 							ROOT = { 
@@ -940,7 +925,6 @@ country_event = {
 					add_territorial_core = ROOT
 					cede_province = ROOT
 				}
-			}
 		}
 	}
 	option = { 
@@ -950,34 +934,19 @@ country_event = {
 
 country_event = { 
 	id = atlantis_colonies.16
-	title = atlantis_colonies.16.name
-	desc = atlantis_colonies.16.desc
+	title = atlantis_colonies.name
+	desc = atlantis_colonies.desc
 	picture = TRADEGOODS_eventPicture
 	fire_only_once = yes
 	trigger = { 
 		owns = 2127
 	}
 	mean_time_to_happen = { 
-		months = 1
+		years = 10
 	}
 	immediate = { 
 		hidden_effect = { 
-			2127 = { 
-				limit = { 
-					has_empty_adjacent_province = yes
-					OR = { 
-						ROOT = { 
-							is_colonial_nation = yes
-						}
-						any_empty_neighbor_province = { 
-							NOT = { 
-								has_province_flag = ColonyBecomesOwner
-								has_province_flag = NoRandomSpread
-							}
-						}
-					}
-				}
-				random_empty_neighbor_province = { 
+				1342 = { 
 					limit = { 
 						OR = { 
 							ROOT = { 
@@ -1003,7 +972,6 @@ country_event = {
 					add_territorial_core = ROOT
 					cede_province = ROOT
 				}
-			}
 		}
 	}
 	option = { 
@@ -1013,34 +981,19 @@ country_event = {
 
 country_event = { 
 	id = atlantis_colonies.17
-	title = atlantis_colonies.17.name
-	desc = atlantis_colonies.17.desc
+	title = atlantis_colonies.name
+	desc = atlantis_colonies.desc
 	picture = TRADEGOODS_eventPicture
 	fire_only_once = yes
 	trigger = { 
 		OR = { owns = 1342 owns = 817 }
 	}
 	mean_time_to_happen = { 
-		months = 1
+		years = 10
 	}
 	immediate = { 
 		hidden_effect = { 
-			817 = { 
-				limit = { 
-					has_empty_adjacent_province = yes
-					OR = { 
-						ROOT = { 
-							is_colonial_nation = yes
-						}
-						any_empty_neighbor_province = { 
-							NOT = { 
-								has_province_flag = ColonyBecomesOwner
-								has_province_flag = NoRandomSpread
-							}
-						}
-					}
-				}
-				random_empty_neighbor_province = { 
+				2126 = { 
 					limit = { 
 						OR = { 
 							ROOT = { 
@@ -1066,7 +1019,6 @@ country_event = {
 					add_territorial_core = ROOT
 					cede_province = ROOT
 				}
-			}
 		}
 	}
 	option = { 
@@ -1076,34 +1028,19 @@ country_event = {
 
 country_event = { 
 	id = atlantis_colonies.18
-	title = atlantis_colonies.18.name
-	desc = atlantis_colonies.18.desc
+	title = atlantis_colonies.name
+	desc = atlantis_colonies.desc
 	picture = TRADEGOODS_eventPicture
 	fire_only_once = yes
 	trigger = { 
 		owns = 2136
 	}
 	mean_time_to_happen = { 
-		months = 1
+		years = 10
 	}
 	immediate = { 
 		hidden_effect = { 
-			2136 = { 
-				limit = { 
-					has_empty_adjacent_province = yes
-					OR = { 
-						ROOT = { 
-							is_colonial_nation = yes
-						}
-						any_empty_neighbor_province = { 
-							NOT = { 
-								has_province_flag = ColonyBecomesOwner
-								has_province_flag = NoRandomSpread
-							}
-						}
-					}
-				}
-				random_empty_neighbor_province = { 
+				2138 = { 
 					limit = { 
 						OR = { 
 							ROOT = { 
@@ -1129,7 +1066,6 @@ country_event = {
 					add_territorial_core = ROOT
 					cede_province = ROOT
 				}
-			}
 		}
 	}
 	option = { 
@@ -1139,34 +1075,19 @@ country_event = {
 
 country_event = { 
 	id = atlantis_colonies.19
-	title = atlantis_colonies.19.name
-	desc = atlantis_colonies.19.desc
+	title = atlantis_colonies.name
+	desc = atlantis_colonies.desc
 	picture = TRADEGOODS_eventPicture
 	fire_only_once = yes
 	trigger = { 
 		owns = 2138
 	}
 	mean_time_to_happen = { 
-		months = 1
+		years = 10
 	}
 	immediate = { 
 		hidden_effect = { 
-			2138 = { 
-				limit = { 
-					has_empty_adjacent_province = yes
-					OR = { 
-						ROOT = { 
-							is_colonial_nation = yes
-						}
-						any_empty_neighbor_province = { 
-							NOT = { 
-								has_province_flag = ColonyBecomesOwner
-								has_province_flag = NoRandomSpread
-							}
-						}
-					}
-				}
-				random_empty_neighbor_province = { 
+				2139 = { 
 					limit = { 
 						OR = { 
 							ROOT = { 
@@ -1192,7 +1113,6 @@ country_event = {
 					add_territorial_core = ROOT
 					cede_province = ROOT
 				}
-			}
 		}
 	}
 	option = { 
@@ -1202,34 +1122,19 @@ country_event = {
 
 country_event = { 
 	id = atlantis_colonies.20
-	title = atlantis_colonies.20.name
-	desc = atlantis_colonies.20.desc
+	title = atlantis_colonies.name
+	desc = atlantis_colonies.desc
 	picture = TRADEGOODS_eventPicture
 	fire_only_once = yes
 	trigger = { 
 		OR = { owns = 1094 owns = 1093 }
 	}
 	mean_time_to_happen = { 
-		months = 1
+		years = 10
 	}
 	immediate = { 
 		hidden_effect = { 
-			1094 = { 
-				limit = { 
-					has_empty_adjacent_province = yes
-					OR = { 
-						ROOT = { 
-							is_colonial_nation = yes
-						}
-						any_empty_neighbor_province = { 
-							NOT = { 
-								has_province_flag = ColonyBecomesOwner
-								has_province_flag = NoRandomSpread
-							}
-						}
-					}
-				}
-				random_empty_neighbor_province = { 
+				2133 = { 
 					limit = { 
 						OR = { 
 							ROOT = { 
@@ -1255,7 +1160,6 @@ country_event = {
 					add_territorial_core = ROOT
 					cede_province = ROOT
 				}
-			}
 		}
 	}
 	option = { 
@@ -1265,34 +1169,19 @@ country_event = {
 
 country_event = { 
 	id = atlantis_colonies.21
-	title = atlantis_colonies.21.name
-	desc = atlantis_colonies.21.desc
+	title = atlantis_colonies.name
+	desc = atlantis_colonies.desc
 	picture = TRADEGOODS_eventPicture
 	fire_only_once = yes
 	trigger = { 
 		OR = { owns = 2133 owns = 2132 }
 	}
 	mean_time_to_happen = { 
-		months = 1
+		years = 10
 	}
 	immediate = { 
 		hidden_effect = { 
-			2133 = { 
-				limit = { 
-					has_empty_adjacent_province = yes
-					OR = { 
-						ROOT = { 
-							is_colonial_nation = yes
-						}
-						any_empty_neighbor_province = { 
-							NOT = { 
-								has_province_flag = ColonyBecomesOwner
-								has_province_flag = NoRandomSpread
-							}
-						}
-					}
-				}
-				random_empty_neighbor_province = { 
+				1093 = { 
 					limit = { 
 						OR = { 
 							ROOT = { 
@@ -1318,7 +1207,6 @@ country_event = {
 					add_territorial_core = ROOT
 					cede_province = ROOT
 				}
-			}
 		}
 	}
 	option = { 
@@ -1328,34 +1216,19 @@ country_event = {
 
 country_event = { 
 	id = atlantis_colonies.22
-	title = atlantis_colonies.22.name
-	desc = atlantis_colonies.22.desc
+	title = atlantis_colonies.name
+	desc = atlantis_colonies.desc
 	picture = TRADEGOODS_eventPicture
 	fire_only_once = yes
 	trigger = { 
 		OR = { owns = 1093 owns = 2131 }
 	}
 	mean_time_to_happen = { 
-		months = 1
+		years = 10
 	}
 	immediate = { 
 		hidden_effect = { 
-			2131 = { 
-				limit = { 
-					has_empty_adjacent_province = yes
-					OR = { 
-						ROOT = { 
-							is_colonial_nation = yes
-						}
-						any_empty_neighbor_province = { 
-							NOT = { 
-								has_province_flag = ColonyBecomesOwner
-								has_province_flag = NoRandomSpread
-							}
-						}
-					}
-				}
-				random_empty_neighbor_province = { 
+				2132 = { 
 					limit = { 
 						OR = { 
 							ROOT = { 
@@ -1381,7 +1254,6 @@ country_event = {
 					add_territorial_core = ROOT
 					cede_province = ROOT
 				}
-			}
 		}
 	}
 	option = { 
@@ -1391,34 +1263,19 @@ country_event = {
 
 country_event = { 
 	id = atlantis_colonies.23
-	title = atlantis_colonies.23.name
-	desc = atlantis_colonies.23.desc
+	title = atlantis_colonies.name
+	desc = atlantis_colonies.desc
 	picture = TRADEGOODS_eventPicture
 	fire_only_once = yes
 	trigger = { 
 		OR = { owns = 2132 owns = 1092 }
 	}
 	mean_time_to_happen = { 
-		months = 1
+		years = 10
 	}
 	immediate = { 
 		hidden_effect = { 
-			1092 = { 
-				limit = { 
-					has_empty_adjacent_province = yes
-					OR = { 
-						ROOT = { 
-							is_colonial_nation = yes
-						}
-						any_empty_neighbor_province = { 
-							NOT = { 
-								has_province_flag = ColonyBecomesOwner
-								has_province_flag = NoRandomSpread
-							}
-						}
-					}
-				}
-				random_empty_neighbor_province = { 
+				2131 = { 
 					limit = { 
 						OR = { 
 							ROOT = { 
@@ -1444,7 +1301,6 @@ country_event = {
 					add_territorial_core = ROOT
 					cede_province = ROOT
 				}
-			}
 		}
 	}
 	option = { 
@@ -1454,34 +1310,19 @@ country_event = {
 
 country_event = { 
 	id = atlantis_colonies.24
-	title = atlantis_colonies.24.name
-	desc = atlantis_colonies.24.desc
+	title = atlantis_colonies.name
+	desc = atlantis_colonies.desc
 	picture = TRADEGOODS_eventPicture
 	fire_only_once = yes
 	trigger = { 
 		owns = 5762
 	}
 	mean_time_to_happen = { 
-		months = 1
+		years = 10
 	}
 	immediate = { 
 		hidden_effect = { 
-			5762 = { 
-				limit = { 
-					has_empty_adjacent_province = yes
-					OR = { 
-						ROOT = { 
-							is_colonial_nation = yes
-						}
-						any_empty_neighbor_province = { 
-							NOT = { 
-								has_province_flag = ColonyBecomesOwner
-								has_province_flag = NoRandomSpread
-							}
-						}
-					}
-				}
-				random_empty_neighbor_province = { 
+				650 = { 
 					limit = { 
 						OR = { 
 							ROOT = { 
@@ -1507,7 +1348,6 @@ country_event = {
 					add_territorial_core = ROOT
 					cede_province = ROOT
 				}
-			}
 		}
 	}
 	option = { 
@@ -1517,34 +1357,19 @@ country_event = {
 
 country_event = { 
 	id = atlantis_colonies.25
-	title = atlantis_colonies.25.name
-	desc = atlantis_colonies.25.desc
+	title = atlantis_colonies.name
+	desc = atlantis_colonies.desc
 	picture = TRADEGOODS_eventPicture
 	fire_only_once = yes
 	trigger = { 
 		owns = 650
 	}
 	mean_time_to_happen = { 
-		months = 1
+		years = 10
 	}
 	immediate = { 
 		hidden_effect = { 
-			650 = { 
-				limit = { 
-					has_empty_adjacent_province = yes
-					OR = { 
-						ROOT = { 
-							is_colonial_nation = yes
-						}
-						any_empty_neighbor_province = { 
-							NOT = { 
-								has_province_flag = ColonyBecomesOwner
-								has_province_flag = NoRandomSpread
-							}
-						}
-					}
-				}
-				random_empty_neighbor_province = { 
+				5760 = { 
 					limit = { 
 						OR = { 
 							ROOT = { 
@@ -1570,7 +1395,6 @@ country_event = {
 					add_territorial_core = ROOT
 					cede_province = ROOT
 				}
-			}
 		}
 	}
 	option = { 
@@ -1580,34 +1404,19 @@ country_event = {
 
 country_event = { 
 	id = atlantis_colonies.26
-	title = atlantis_colonies.26.name
-	desc = atlantis_colonies.26.desc
+	title = atlantis_colonies.name
+	desc = atlantis_colonies.desc
 	picture = TRADEGOODS_eventPicture
 	fire_only_once = yes
 	trigger = { 
 		AND = { owns = 5802 owns = 5801 }
 	}
 	mean_time_to_happen = { 
-		months = 1
+		years = 10
 	}
 	immediate = { 
 		hidden_effect = { 
-			5802 = { 
-				limit = { 
-					has_empty_adjacent_province = yes
-					OR = { 
-						ROOT = { 
-							is_colonial_nation = yes
-						}
-						any_empty_neighbor_province = { 
-							NOT = { 
-								has_province_flag = ColonyBecomesOwner
-								has_province_flag = NoRandomSpread
-							}
-						}
-					}
-				}
-				random_empty_neighbor_province = { 
+				5804 = { 
 					limit = { 
 						OR = { 
 							ROOT = { 
@@ -1633,7 +1442,6 @@ country_event = {
 					add_territorial_core = ROOT
 					cede_province = ROOT
 				}
-			}
 		}
 	}
 	option = { 
@@ -1643,15 +1451,15 @@ country_event = {
 
 country_event = { 
 	id = atlantis_colonies.27
-	title = atlantis_colonies.27.name
-	desc = atlantis_colonies.27.desc
+	title = atlantis_colonies.name
+	desc = atlantis_colonies.desc
 	picture = TRADEGOODS_eventPicture
 	fire_only_once = yes
 	trigger = { 
 		OR = { owns = 2139 owns = 2123 }
 	}
 	mean_time_to_happen = { 
-		months = 1
+		years = 10
 	}
 	immediate = { 
 		hidden_effect = { 

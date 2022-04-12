@@ -2,7 +2,7 @@ owner = POU
 controller = POU
 add_core = POU
 
-capital = "Default City"
+capital = "Eibaia"
 trade_goods = fish #grain
 culture = maori
 religion = polynesian_pagan

@@ -1,4 +1,4 @@
-capital = "Default City"
+capital = "Avasau"
 trade_goods = lumber 
 culture = aboriginal
 religion = australian_pagan

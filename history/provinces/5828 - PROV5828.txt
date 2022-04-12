@@ -2,7 +2,7 @@ owner = RGI
 controller = RGI
 add_core = RGI
 
-capital = "Default City"
+capital = "Aeneakin"
 trade_goods = wool #grain
 culture = maori
 religion = polynesian_pagan

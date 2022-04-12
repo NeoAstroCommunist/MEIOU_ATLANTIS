@@ -2,7 +2,7 @@ owner = ZLP
 controller = ZLP
 add_core = ZLP
 
-capital = "Default City"
+capital = "Daobei"
 trade_goods = clove 
 culture = melanesian
 religion = polynesian_pagan

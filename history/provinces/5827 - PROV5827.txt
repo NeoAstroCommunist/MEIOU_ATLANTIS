@@ -2,7 +2,7 @@ owner = KOA
 controller = KOA
 add_core = KOA
 
-capital = "Default City"
+capital = "Metmaku"
 trade_goods = livestock #grain
 culture = maori
 religion = polynesian_pagan

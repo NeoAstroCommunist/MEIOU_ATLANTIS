@@ -2,7 +2,7 @@ owner = NNF
 controller = NNF
 add_core = NNF
 
-capital = "Default City"
+capital = "Xishan"
 trade_goods = fish # fish
 culture = chinesezealandia
 religion = shenism

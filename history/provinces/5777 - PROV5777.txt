@@ -3,7 +3,7 @@ owner = ZLD
 controller = ZLD
 add_core = ZLD
 
-capital = "Default City"
+capital = "Beishulin"
 trade_goods = tea # fish
 culture = chinesezealandia
 religion = shenism

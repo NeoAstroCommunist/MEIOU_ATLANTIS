@@ -2,7 +2,7 @@ owner = KKL
 controller = KKL
 add_core = KKL
 
-capital = "Default City"
+capital = "Caboolatta"
 trade_goods = rice 
 culture = maori
 religion = polynesian_pagan

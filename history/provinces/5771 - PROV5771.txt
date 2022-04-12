@@ -2,7 +2,7 @@ owner = RNL
 controller = RNL
 add_core = RNL
 
-capital = "Default City"
+capital = "Manisala"
 trade_goods = fish 
 culture = wedhusian
 religion = hinduism

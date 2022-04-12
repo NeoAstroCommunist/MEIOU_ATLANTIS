@@ -1,4 +1,4 @@
-capital = "Default City"
+capital = "Kaigaeaka"
 trade_goods = clove 
 culture = aboriginal
 religion = australian_pagan

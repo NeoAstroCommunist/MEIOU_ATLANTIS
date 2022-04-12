@@ -2,7 +2,7 @@ owner = KHU
 controller = KHU
 add_core = KHU
 
-capital = "Default City"
+capital = "Manrinebo"
 trade_goods = lumber #grain
 culture = maori
 religion = polynesian_pagan

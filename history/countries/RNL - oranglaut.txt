@@ -19,3 +19,15 @@ capital = 5762
 	add_absolutism = 0
 	set_country_flag = no_cavalry
 }
+
+1345.1.1 = {
+	monarch = {
+		name = "Mansur Shah"
+		dynasty = "Banten"
+		birth_date = 1326.1.1
+		death_date = 1360.1.1
+		ADM = 5
+		DIP = 2
+		MIL = 3
+	}
+}

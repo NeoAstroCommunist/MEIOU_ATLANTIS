@@ -2,7 +2,7 @@ owner = RNL
 controller = RNL
 add_core = RNL
 
-capital = "Okitika"
+capital = "Tunlonga"
 trade_goods = pepper # grain
 culture = oranglaut
 religion = hinduism

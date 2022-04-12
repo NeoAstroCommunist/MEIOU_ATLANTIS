@@ -2,7 +2,7 @@ owner = SSW
 controller = SSW
 add_core = SSW
 
-capital = "Default City"
+capital = "Juhongguang"
 trade_goods = rice 
 culture = aboriginal
 religion = australian_pagan

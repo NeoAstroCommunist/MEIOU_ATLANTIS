@@ -2,7 +2,7 @@ owner = WTA
 controller = WTA
 add_core = WTA
 
-capital = "Default City"
+capital = "Foxtangi"
 trade_goods = livestock #grain
 culture = maori
 religion = polynesian_pagan

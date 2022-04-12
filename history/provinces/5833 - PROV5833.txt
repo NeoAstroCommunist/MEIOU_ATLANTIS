@@ -2,7 +2,7 @@ owner = ZLP
 controller = ZLP
 add_core = ZLP
 
-capital = "Default City"
+capital = "Jinyindao"
 trade_goods = fish #grain
 culture = zhourao
 religion = shenism

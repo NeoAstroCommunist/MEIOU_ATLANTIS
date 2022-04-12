@@ -171,7 +171,148 @@ country_decisions = {
 		}
 		ai_importance = 400
 	}
-		thule_unification_nation = { 
+	zhourao_big = { 
+		major = yes
+		potential = { 
+			tag = ZHO
+			NOT = { has_country_flag = zho_really_big }
+		}
+		provinces_to_highlight = { region = australia_region }
+		allow = { 
+			custom_trigger_tooltip = { 
+				tooltip = "is_free_or_tributary_trigger_tooltip"
+				AND = { 
+					OR = { 
+						is_subject = no
+						is_subject_of_type = tributary_state
+						is_subject_of_type = close_tributary_state
+						is_subject_of_type = muscovite_tributary_state
+					}
+				}
+			}
+			is_at_war = no
+			australia_region = {
+				owned_by = ROOT 
+				type = all
+			}
+		}
+		effect = { 
+		    set_country_flag = zho_really_big
+			add_prestige = 15
+			if = { 
+				limit = { 
+					custom_trigger_tooltip = { 
+						tooltip = is_monarchy_tt
+						OR = { 
+							government = monarchy
+							government = has_harem
+						}
+					}
+					NOT = { 
+						has_country_modifier = title_6
+					}
+				}
+				remove_country_modifier = title_1
+				remove_country_modifier = title_2
+				remove_country_modifier = title_3
+				remove_country_modifier = title_4
+				remove_country_modifier = title_5
+				add_country_modifier = { 
+					name = title_6
+					duration = -1
+				}
+				clr_country_flag = title_1
+				clr_country_flag = title_2
+				clr_country_flag = title_3
+				clr_country_flag = title_4
+				clr_country_flag = title_5
+			}
+			add_absolutism = 10
+			override_country_name = "Great Zhourao"
+		}
+		ai_will_do = { 
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	penglai_big = { 
+		major = yes
+		potential = { 
+			tag = ZLD
+			year = 1400
+			NOT = { has_country_flag = zld_really_big }
+		}
+		provinces_to_highlight = { OR = { region = north_zealandia_region region = south_zealandia_region region = east_zealandia_region region = southeast_zealandia_region } }
+		allow = { 
+			custom_trigger_tooltip = { 
+				tooltip = "is_free_or_tributary_trigger_tooltip"
+				AND = { 
+					OR = { 
+						is_subject = no
+						is_subject_of_type = tributary_state
+						is_subject_of_type = close_tributary_state
+						is_subject_of_type = muscovite_tributary_state
+					}
+				}
+			}
+			is_at_war = no
+			north_zealandia_region = {
+				owned_by = ROOT 
+				type = all
+			}
+			south_zealandia_region = {
+				owned_by = ROOT 
+				type = all
+			}
+			southeast_zealandia_region = {
+				owned_by = ROOT 
+				type = all
+			}
+			east_zealandia_region = {
+				owned_by = ROOT 
+				type = all
+			}
+		}
+		effect = { 
+		    set_country_flag = zld_really_big
+			add_prestige = 15
+			if = { 
+				limit = { 
+					custom_trigger_tooltip = { 
+						tooltip = is_monarchy_tt
+						OR = { 
+							government = monarchy
+							government = has_harem
+						}
+					}
+					NOT = { 
+						has_country_modifier = title_6
+					}
+				}
+				remove_country_modifier = title_1
+				remove_country_modifier = title_2
+				remove_country_modifier = title_3
+				remove_country_modifier = title_4
+				remove_country_modifier = title_5
+				add_country_modifier = { 
+					name = title_6
+					duration = -1
+				}
+				clr_country_flag = title_1
+				clr_country_flag = title_2
+				clr_country_flag = title_3
+				clr_country_flag = title_4
+				clr_country_flag = title_5
+			}
+			add_absolutism = 10
+			override_country_name = "Great Penglai"
+		}
+		ai_will_do = { 
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	thule_unification_nation = { 
 		major = yes
 		potential = { 
 			OR = {
@@ -236,6 +377,24 @@ country_decisions = {
 		}
 		ai_importance = 400
 	}
+	maoliren_aotearoa = { 
+		major = yes
+		potential = { 
+			primary_culture = maoliren
+			tag = AOT
+		}
+		allow = { 
+			is_at_war = no
+		}
+		effect = { 
+		    set_country_flag = maoliren_namechange
+			override_country_name = "Xinxilan"
+		}
+		ai_will_do = { 
+			factor = 1
+		}
+		ai_importance = 400
+	}
 	form_aotearoa = { 
 		major = yes
 		potential = { 
@@ -270,15 +429,13 @@ country_decisions = {
 					}
 				}
 			}
-			OR = { 
-				check_variable = { 
-					which = "Demesne_in_Aotearoa"
-					value = 25
-				}
-				check_variable = { 
-					which = "Cores_on_Aotearoa"
-					value = 15
-				}
+			southeast_zealandia_region = {
+				owned_by = ROOT 
+				type = all
+			}
+			east_zealandia_region = {
+				owned_by = ROOT 
+				type = all
 			}
 			owns = 5801
 			is_at_war = no

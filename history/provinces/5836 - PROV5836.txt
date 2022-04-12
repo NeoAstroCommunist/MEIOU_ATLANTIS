@@ -2,7 +2,7 @@ owner = PIT
 controller = PIT
 add_core = PIT
 
-capital = "Default City"
+capital = "Brisorn"
 trade_goods = fish 
 culture = aboriginal
 religion = australian_pagan

@@ -2,7 +2,7 @@ owner = TR1
 controller = TR1
 add_core = TR1
 
-capital = "Default City"
+capital = "Kelegua"
 trade_goods = rice #grain
 culture = maori
 religion = polynesian_pagan

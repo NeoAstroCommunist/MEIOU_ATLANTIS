@@ -2,7 +2,7 @@ owner = PEE
 controller = PEE
 add_core = PEE
 
-capital = "Default City"
+capital = "Larami"
 trade_goods = lumber 
 culture = aboriginal
 religion = australian_pagan

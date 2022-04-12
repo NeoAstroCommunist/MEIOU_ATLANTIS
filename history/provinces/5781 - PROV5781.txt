@@ -2,7 +2,7 @@ owner = ZLD
 controller = ZLD
 add_core = ZLD
 
-capital = "Default City"
+capital = "Qinghe"
 trade_goods = rice # grain
 culture = chinesezealandia
 religion = shenism

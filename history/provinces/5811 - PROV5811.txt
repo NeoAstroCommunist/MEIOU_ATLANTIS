@@ -2,7 +2,7 @@ owner = WHA
 controller = WHA
 add_core = WHA
 
-capital = "Default City"
+capital = "Kelhau"
 trade_goods = rice #grain
 culture = maori
 religion = polynesian_pagan

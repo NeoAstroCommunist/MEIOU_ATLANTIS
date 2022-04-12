@@ -2,7 +2,7 @@ owner = KHU
 controller = KHU
 add_core = KHU
 
-capital = "Default City"
+capital = "Thornlury"
 trade_goods = fish #grain
 culture = maori
 religion = polynesian_pagan

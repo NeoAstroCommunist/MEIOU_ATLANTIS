@@ -2,7 +2,7 @@ owner = LMR
 controller = LMR
 add_core = LMR
 
-capital = "Default City"
+capital = "Paeven"
 trade_goods = livestock 
 culture = aboriginal
 religion = australian_pagan

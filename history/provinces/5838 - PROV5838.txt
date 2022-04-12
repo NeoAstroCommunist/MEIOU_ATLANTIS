@@ -2,7 +2,7 @@ owner = DIY
 controller = DIY
 add_core = DIY
 
-capital = "Default City"
+capital = "Tematanrao"
 trade_goods = livestock 
 culture = aboriginal
 religion = australian_pagan

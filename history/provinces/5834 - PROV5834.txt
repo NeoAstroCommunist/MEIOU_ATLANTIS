@@ -2,7 +2,7 @@ owner = LN1
 controller = LN1
 add_core = LN1
 
-capital = "Default City"
+capital = "Hainan"
 trade_goods = fish # fish
 culture = chinesezealandiasouth
 religion = vajrayana

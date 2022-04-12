@@ -2,7 +2,7 @@ owner = MMO
 controller = MMO
 add_core = MMO
 
-capital = "Default City"
+capital = "Langwonga"
 trade_goods = livestock #grain
 culture = maori
 religion = polynesian_pagan

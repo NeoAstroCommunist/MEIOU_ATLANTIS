@@ -2,7 +2,7 @@ owner = KKL
 controller = KKL
 add_core = KKL
 
-capital = "Default Name"
+capital = "Tabomaneaba"
 trade_goods = sandal 
 culture = wedhusian
 religion = hinduism

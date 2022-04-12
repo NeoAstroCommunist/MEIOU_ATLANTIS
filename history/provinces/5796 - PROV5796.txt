@@ -2,7 +2,7 @@ owner = MHU
 controller = MHU
 add_core = MHU
 
-capital = "Default City"
+capital = "Dunetianga"
 trade_goods = livestock #grain
 culture = maori
 religion = polynesian_pagan

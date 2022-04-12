@@ -189,11 +189,11 @@ irminger_sea_area = {
 }
 
 north_african_coast_sea_area = {
-	1669 1757 1871 2049 2050
+    1757 1871 2049 2050
 }
 
 north_atlantic_area = {
-	1665 1666 1667 1668 1670 1682 1883 2056
+	1665 1666 1667 1668 1670 1682 1883 2056 5758
 }
 
 north_central_atlantic_area = {
@@ -340,7 +340,7 @@ south_east_central_pacific_area = {
 }
 
 south_west_pacific_area = {
-	1742 1825 1976 4346 4347 4348 4349 4350
+	1742 1825 1976 4346 4347 4348 4349 4350 5867
 }
 
 south_west_central_pacific_area = {
@@ -348,7 +348,7 @@ south_west_central_pacific_area = {
 }
 
 tasman_sea_area = {
-	1664 1768 1779 1780 1782 1846 1860 2007 4345
+	1664 1768 1779 1780 1782 1846 1860 2007 4345 5868
 }
 
 ########################### LAKE AREAS ##################################################
@@ -1760,7 +1760,7 @@ melanesia_area = {
 }
 
 fiji_area = {
-	650 1239 1242 
+	650 1239 1242 5760 5761 5762
 }
 
 east_micronesia_area = {
@@ -3768,7 +3768,7 @@ chiapas_area = {
 }
 
 belize_area = {
-	843 2647 3511 3516 
+	843 2647 3511 3516 2646
 }
 
 campeche_area = {
@@ -3998,7 +3998,7 @@ atlantean_vikings_islands_area = {
 }
 
 atlantean_sea1_area = {
-    5709 5711 5712 1669 5716
+    5709 5711 5712 1669 5716 1669
 }
 
 atlantean_sea2_area = {

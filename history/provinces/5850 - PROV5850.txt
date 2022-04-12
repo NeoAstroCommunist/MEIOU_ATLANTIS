@@ -2,7 +2,7 @@ owner = BJI
 controller = BJI
 add_core = BJI
 
-capital = "Default City"
+capital = "Letuti"
 trade_goods = lumber 
 culture = aboriginal
 religion = australian_pagan

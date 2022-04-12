@@ -1,4 +1,4 @@
-capital = "Default City"
+capital = "Engadona"
 trade_goods = unknown 
 culture = melanesian
 religion = polynesian_pagan

@@ -1,4 +1,4 @@
-capital = "Default City"
+capital = "Mankulei"
 trade_goods = unknown 
 culture = melanesian
 religion = polynesian_pagan
