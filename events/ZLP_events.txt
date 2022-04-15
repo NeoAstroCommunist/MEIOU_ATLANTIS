@@ -166,7 +166,7 @@ country_event = {
 		name = "flavor_ZLP.6.a"
 		limit = { NOT = { ZLP = { owns = 5834 } } }
         random_list = {
-		50 = { ZLP = { country_event = { id = flavor_ZLP.8 } } set_global_flag = treasures_stolen } #Pirates are traitors
+		50 = { LN1 = { country_event = { id = flavor_ZLP.8 } } set_global_flag = treasures_stolen } #Pirates are traitors
 		50 = { ZLP = { country_event = { id = flavor_ZLP.7 } } } #Pirates are not traitors
 		}
 	}

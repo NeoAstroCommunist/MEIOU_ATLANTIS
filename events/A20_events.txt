@@ -4,208 +4,6 @@
 namespace = flavor_A20
 
 country_event = { 
-	id = flavor_A20.1
-	title = "flavor_A20.1.t"
-	desc = "flavor_A20.1.d"
-	picture = RELIGION_eventPicture
-	fire_only_once = yes
-	major = yes
-	trigger = { 
-		tag = A12
-		exists = A20
-		has_ruler = "Joseph"
-		ruler_religion = sunni
-		AND = { 
-			OR = { 
-				is_subject = no
-				is_subject_of_type = tributary_state
-				is_subject_of_type = close_tributary_state
-			}
-		}
-		is_at_war = no
-		A20 = { 
-			num_of_cities = ROOT
-			AND = { 
-				OR = { 
-					is_subject = no
-					is_subject_of_type = tributary_state
-					is_subject_of_type = close_tributary_state
-				}
-			}
-			num_of_ports = 1
-		}
-	}
-	mean_time_to_happen = { months = 6 }
-		option = { 
-		name = "flavor_A20.1.a"
-		trigger = { 
-			NOT = { 
-				war_with = A20
-			}
-		}
-		ai_chance = { 
-			factor = 35
-			modifier = { 
-				factor = 1.5
-				A20 = { 
-					num_of_cities = 40
-				}
-			}
-			modifier = { 
-				factor = 0.8
-				num_of_cities = 12
-			}
-			modifier = { 
-				factor = 0.8
-				num_of_cities = 15
-			}
-			modifier = { 
-				factor = 0.25
-				num_of_cities = 22
-			}
-			modifier = { 
-				factor = 0.1
-				num_of_cities = 30
-			}
-			modifier = { 
-				factor = 0
-				num_of_cities = A20
-			}
-			modifier = { 
-				factor = 1.1
-				5551 = { 
-					owned_by = A20
-				}
-			}
-			modifier = { 
-				factor = 0
-				A20 = { 
-					NOT = { 
-						num_of_cities = 10
-					}
-				}
-			}
-			modifier = { 
-				factor = 0
-				NOT = { 
-					5536 = { 
-						owned_by = A20
-					}
-				}
-			}
-		}
-        change_religion = sunni
-		custom_tooltip = flavor_A20.1.a.tt
-		A20 = { 
-			country_event = { 
-				id = flavor_A20.2
-				days = 5
-			}
-		}
-		random_owned_province = { 
-			limit = { 
-				is_capital = no
-			}
-			spawn_rebels = { 
-				size = 1
-				type = pretender_rebels
-			}
-		}
-	}
-	option = { 
-		name = "flavor_A20.1.b"
-		ai_chance = { 
-			factor = 65
-			modifier = { 
-				factor = 1.5
-				A20 = { 
-					NOT = { 
-						num_of_cities = 10
-					}
-				}
-			}
-			modifier = { 
-				factor = 1.5
-				A20 = { 
-					NOT = { 
-						num_of_cities = 15
-					}
-				}
-			}
-			modifier = { 
-				factor = 1.5
-				NOT = { 
-					5536 = { 
-						owned_by = A20
-					}
-				}
-			}
-			modifier = { 
-				factor = 1.5
-				A20 = { 
-					is_at_war = yes
-				}
-			}
-		}
-		if = { 
-			limit = { 
-				has_regency = yes
-				has_heir = no
-			}
-			define_ruler = { 
-				name = "Judah"
-				dynasty = "Barqa"
-				age = 22
-			}
-			if = { 
-				limit = { 
-					has_dlc = "Rights of Man"
-				}
-				hidden_effect = { 
-					add_ruler_personality = inspiring_leader_personality
-				}
-			}
-		}
-		if = { 
-			limit = { 
-				has_regency = yes
-				has_heir = yes
-			}
-			kill_heir = yes
-			define_ruler = { 
-				name = "Judah"
-				dynasty = "Barqa"
-				age = 22
-			}
-			if = { 
-				limit = { 
-					has_dlc = "Rights of Man"
-				}
-				hidden_effect = { 
-					add_ruler_personality = inspiring_leader_personality
-				}
-			}
-		}
-		custom_tooltip = flavor_A20.1.b.tt
-		A20 = { 
-			country_event = { 
-				id = flavor_A20.3
-				days = 5
-			}
-		}
-		random_owned_province = { 
-			limit = { 
-				is_capital = no
-			}
-			spawn_rebels = { 
-				size = 1
-				type = pretender_rebels
-			}
-		}
-	}
-}
-
-country_event = { 
 	id = flavor_A20.2
 	title = "flavor_A20.2.t"
 	desc = "flavor_A20.2.d"
@@ -472,6 +270,206 @@ country_event = {
 			5703 = { 
 				cede_province = A20
 				add_core = A20
+			}
+		}
+	}
+}
+
+country_event = { 
+	id = flavor_A20.7
+	title = "flavor_A20.7.t"
+	desc = "flavor_A20.7.d"
+	picture = RELIGION_eventPicture
+	fire_only_once = yes
+	major = yes
+	trigger = { 
+		tag = A12
+		exists = A20
+		has_ruler = "Joseph"
+		ruler_religion = sunni
+		AND = { 
+			OR = { 
+				is_subject = no
+				is_subject_of_type = tributary_state
+				is_subject_of_type = close_tributary_state
+			}
+		}
+		is_at_war = no
+		A20 = { 
+			num_of_cities = ROOT
+			AND = { 
+				OR = { 
+					is_subject = no
+					is_subject_of_type = tributary_state
+					is_subject_of_type = close_tributary_state
+				}
+			}
+			num_of_ports = 1
+		}
+	}
+	mean_time_to_happen = { months = 1 }
+	option = {
+		name = "flavor_A20.7.a"
+		trigger = { 
+			NOT = { 
+				war_with = A20
+			}
+		}
+		ai_chance = { 
+			factor = 35
+			modifier = { 
+				factor = 1.5
+				A20 = { 
+					num_of_cities = 40
+				}
+			}
+			modifier = { 
+				factor = 0.8
+				num_of_cities = 12
+			}
+			modifier = { 
+				factor = 0.8
+				num_of_cities = 15
+			}
+			modifier = { 
+				factor = 0.25
+				num_of_cities = 22
+			}
+			modifier = { 
+				factor = 0.1
+				num_of_cities = 30
+			}
+			modifier = { 
+				factor = 0
+				num_of_cities = A20
+			}
+			modifier = { 
+				factor = 1.1
+				5551 = { 
+					owned_by = A20
+				}
+			}
+			modifier = { 
+				factor = 0
+				A20 = { 
+					NOT = { 
+						num_of_cities = 10
+					}
+				}
+			}
+			modifier = { 
+				factor = 0
+				NOT = { 
+					5536 = { 
+						owned_by = A20
+					}
+				}
+			}
+		}
+        change_religion = sunni
+		A20 = { 
+			country_event = { 
+				id = flavor_A20.2
+				days = 5
+			}
+		}
+		random_owned_province = { 
+			limit = { 
+				is_capital = no
+			}
+			spawn_rebels = { 
+				size = 1
+				type = pretender_rebels
+			}
+		}
+	}
+	option = {
+		name = "flavor_A20.7.b"
+		ai_chance = { 
+			factor = 65
+			modifier = { 
+				factor = 1.5
+				A20 = { 
+					NOT = { 
+						num_of_cities = 10
+					}
+				}
+			}
+			modifier = { 
+				factor = 1.5
+				A20 = { 
+					NOT = { 
+						num_of_cities = 15
+					}
+				}
+			}
+			modifier = { 
+				factor = 1.5
+				NOT = { 
+					5536 = { 
+						owned_by = A20
+					}
+				}
+			}
+			modifier = { 
+				factor = 1.5
+				A20 = { 
+					is_at_war = yes
+				}
+			}
+		}
+		if = { 
+			limit = { 
+				has_regency = yes
+				has_heir = no
+			}
+			define_ruler = { 
+				name = "Judah"
+				dynasty = "Barqa"
+				age = 22
+			}
+			if = { 
+				limit = { 
+					has_dlc = "Rights of Man"
+				}
+				hidden_effect = { 
+					add_ruler_personality = inspiring_leader_personality
+				}
+			}
+		}
+		if = { 
+			limit = { 
+				has_regency = yes
+				has_heir = yes
+			}
+			kill_heir = yes
+			define_ruler = { 
+				name = "Judah"
+				dynasty = "Barqa"
+				age = 22
+			}
+			if = { 
+				limit = { 
+					has_dlc = "Rights of Man"
+				}
+				hidden_effect = { 
+					add_ruler_personality = inspiring_leader_personality
+				}
+			}
+		}
+		A20 = { 
+			country_event = { 
+				id = flavor_A20.3
+				days = 5
+			}
+		}
+		random_owned_province = { 
+			limit = { 
+				is_capital = no
+			}
+			spawn_rebels = { 
+				size = 1
+				type = pretender_rebels
 			}
 		}
 	}
