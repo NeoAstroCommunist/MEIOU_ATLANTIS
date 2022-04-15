@@ -2228,6 +2228,92 @@ scandinavian = {
 			Vedel
 		}
 	}
+	nordbreasil = {
+
+		male_names = {
+			Aksel Ale Alf Alfgeir Alfr Anders Andrew Anlaufr Ansgard Anund Anundr Arnbjörn Arne Arnfast Arngrimr Arni Arvid Asbjörn
+			Åke
+			Bagge Balder Baldr Barid Benedict Bengt Beorn Bernt Bersi Bertil Birger Björn Bjørn Bo Borkvard Botulfr Brage Bragi Buðli
+			Charles Christoffer
+			Dag Dan Daniel Dyre
+			Edvard Edward Egil Egill Eilert Eilif Einar Einarr Eirikr Elias Emund Erik Esben Eskild Eysteinn
+			Falki Faste Filip Folke Folki Frederick Fredrik Frej Freyr Frirek Frode
+			Gandalfr Geirr Georg George Gnupa Godfrey Gorm Greger Gregory Grim Grimr Guðmundr Gudmund Gudröd Gunnar Gunnarr
+			Håkon Hæsteinn Hakon Halsten Harald Haraldr Harold Haukr Helge Helgi Hemming Hjalmar Holmger Hrafn Hrane Hrolfr Hysing
+			Ingólfr Inge Ingemar Ingjald Ingolf Ingvar Ivar
+			Jedvard John Jon
+			Karl Kasper Kennet Kettil Kettilmund Kjartan Klas Knut Kol Kolbjörn
+			Ludvig
+			Magnus Marcus Markus Mats Matthew Mikael
+			Nicholas Niklas Nils Njåld Njord
+			Odd Oddmund Oddr Ofeig Olaf Olafr Olav Orm Ormr Orvar Ottar Ottarr
+			Örvar Öysteinn
+			Peder Philip
+			Rögnvaldr Ragnar Ragnarr Ragnvald Refil Refr Rikard Rikulfr Rolf
+			Sämund Sæmundr Sölve Sölvi Sörkver Søren Sigbjörn Sigtrygg Sigurðr Sigurd Simon Skule Skuli Snorri Somerled Starkad Steinn Sten Sturla Styrbjörn Styrkar Sune Suni Sveinn Sven Sverker
+			Thorolf Tjudmund Toke Tolir Tollak Torbjörn Torbrand Tord Torfinn Torkel Torsten Toste Totil Tryggve Tyke
+			Ulf Ulfr
+			Vagn Valdemar Vladimir
+			Yngvar
+			Þorbjörn Þorbrandr Þordr Þorfinn Þorgil Þorolfr Þorsteinn
+		}
+		female_names = {
+			Aleta Alfhild Alfhildr Alfridh Alvör Anna Asa Aslaug Asta Astrid
+			Åsa
+			Beata Birgitta Björg Bodil Bothild Bothildr Brigid
+			Catherine Cecilia Christina
+			Edla Elin Elisabet Elizabeth
+			Freja Freyja
+			Grima Gudrun Gunhild Gunnhildr Gurli Gyla Gytha
+			Hafrid Halla Helen Helena Holmfrid
+			Iliana Inga Ingeborg Ingegerd Ingfrid Ingibjörg Ingjerðr Ingrid
+			Karin Katarina Kraka Kristina
+			Linda
+			Maer Malmfrið Malmfrid Margaret Margareta Maria
+			Rögnfrid Rögnhildr Ragnfrid Ragnhild Rikissa
+			Saga Sara Sarah Sif Sigrid Skuld Sofia Sophia Svanhild Svanhildr
+			Thora Thordis Thyra Torhild
+			Ulfhildr Ulvhilde
+			Vigdis
+			Ylva Yrsa
+			Þora Þordis Þyra
+		}
+		dynasty_names = {
+			Adeler Alfr
+			Benkestok Bielke Bildt Bille Blixenskiold Bonde
+			Drake
+			Falsen Flod
+			Galte Galtung Gyldenpalm
+			Hårfagreætta Handingmann Herja Heubsch Holberg Hylling
+			Iuel
+			Kaas Kane Kløcker Knagenhjelm Koss Kruckow
+			Løvenskiold
+			Mowat
+			Paus
+			Rømer Roos Rosenheim Rosenkrantz Rosenvinge
+			Schouboe Skaktavl Smør
+			Tordenskiold Tordenstierne
+			Urne
+			Vansö Vidfamne
+			Werenskiold Wessel Westervick
+			Ytra
+			"af Åland"
+			"af Vendel"
+			"av Alfheim" "av Askø"
+			"av Hafrsfjord"
+			"av Nordland"
+			"av Røra"
+			
+			# CKII
+			Adelswärd
+			Balke Bjelke Blixen Bolt Brockenhuus
+			Galle Giske Griis
+			Kane
+			Løvendal
+			Skanke
+			Vedel
+		}
+	}
 	fjernoyeran = {
 		
 		male_names = {
@@ -2481,6 +2567,90 @@ scandinavian = {
 		}
 	}
 	gutnish = {
+		primary = GOT
+		
+		male_names = {
+			Adolf Albert Albrikt Alf Alfred Algot Anders Arne Arnfast Astrad August Axel
+			Åke
+			Benedict Bengt Bertil Birger Björn Bo Borkvard Brage Bror
+			Christian Christoph
+			Dag Dan Dyre
+			Edvard Edward Egil Einar Erik Eskild
+			Faste Filip Folke Frederick Fredrik
+			Göran Georg Gottfrid Greger Gregory Gunnar Gustav
+			Håkan Halsten Hans Harald Harold Helge Henrik Hjalmar Holmger
+			Inge Ingemar Ingvar
+			Jakob Johan John
+			Karl Klas Knut
+			Lars Ludvig
+			Magnus Marcus Markus Mats Matthew Mikael
+			Nicholas Niklas Nils
+			Odd Olaf Olof Oskar
+			Östen
+			Patrik Peter
+			Ragnar Ragnvald Rangvald Rettil Rolf
+			Sölve Sörkver Sigismund Sigurd Sigvard Simon Starkad Sten Sture Styrbjörn Sune Svante Sven Sverker
+			Thomas Thorolf Tjudmund Toke Tomas Torbjörn Torbrand Tord Torkel Torolf Torsten Toste Totil Tyke
+			Ulf Ulrik
+			Valdemar
+		}
+		female_names = {
+			Anna Asta Astrid
+			Åsa
+			Beata Birgitta Bothild Brigid
+			Cecilia Christina
+			Eleonora Elin Elisabet
+			Gunhild
+			Hedwig Helena Holmfrid
+			Iliana Inga Ingeborg Ingegerd Ingfrid Ingrid
+			Karin Katarina Kristina
+			Linda
+			Märta Margareta Martha
+			Ragnhild
+			Sara Sarah Sigrid Sofia Sophia
+			Thordis
+			Ulrika Ulvhilde
+		}
+		dynasty_names = {
+			Böllja Banér Bielke Bonde Brahe Bure Burensköld
+			Cruus
+			Drake
+			Eka Ekeblad
+			Fleming Forstena
+			Geete Grip Grubbenhielm Gyllenstierna
+			Hård Hand Hjort Horn
+			Jägerhorn
+			Kurck
+			Leijonhufvud Lilliehöök
+			Oxenstierna
+			Palme Porse
+			Ribbing
+			Skytte Soop Sparre Stenbock Sture Svinhufvud
+			Tott Trolle
+			Vasa
+			"Natt och Dag"
+			"Tre Rosor"
+			"de la Gardie"
+			# CKII
+			Bååt Bagge Bese Bratt
+			Cronstedt
+			Dufva
+			Eketrä
+			Fincke
+			Gädda Gera Gylta
+			Hästesko Hatt
+			Läma Lillie
+			Marsvin Munk
+			Oxhufvud
+			Posse Puke
+			Rosenstråle
+			Sjöblad Slatte Stake Stiernkors
+			Thott
+			Ulfsax Ulv
+			"Tre Rutor" "Tre Sjöblad"
+		}
+	}
+	doggsk = {
 		primary = GOT
 		
 		male_names = {
@@ -3250,6 +3420,83 @@ gaelic = {
 			Løvendal
 			Skanke
 			Vedel
+		}
+	}
+	breasil = {
+		dynasty_names = {
+			FitzGerald
+			Kelly
+			MacLochlainn MacMurrough MacNamara MacWilliam
+			O'Brien O'Connor O'Donnell O'Neill O'Reilly
+			# CKII
+			Burke
+			Cotter
+			FitzPatrick
+			MacDermot MacIntyre
+			O'Clery O'Doherty O'Flaherty O'More O'Queely
+			Shannon
+			"Corcu Loígde"
+			"Dál gCais"
+			"Mac Egan" "Mac Sweeney"
+			"MacMorrough Kavanagh"
+			"Meic Bráenáin"
+			"O Ruairc"
+			"O' Cathail" "O' Cellaigh" "O' Conchobair"
+			"O' Faoláin" "O' Fergail"
+			"O' Gallchobhair"
+			"Ua Fáeláin"
+		}
+		male_names = {
+			Aaron Abél Abbán Abel Abner Adomnán Aerdghal Affiath Ailbe Ailbrend Ailbrenn Ailchú Aildobur Ailgel Ailgus Ailill Ailpín Ainbchellach Ainftech Ainmere Airechtach Airfhindán Airfhinnán Airleid Airmedach Alwin Amalgaid Amlaíb Anfudán Angus Anlón Anmchaid Aonghus Ardgal Ardgar Artúr Art Artbran Artgal Artgus Arthur Artucán Assiucc Augaire Augustín Augustine Aurthuile
+			Áedán Áed Áedgen Áeducán Áengus Áilgenán Áindle Ánrothán
+			Báetán Báethíne Báethgalach Béoáed Búaidbéo Barrfhind Bearach Beccán Berrach Bhátair Blathmacc Brénaind Brénainn Bróen Bran Brandub Brangen Bressal Brian Briccéne Briccíne Bride Broccán Bruatur Bruide
+			Cáemán Cóelbad Cóelub Cóemán Cúánán Cúán Cú-Allaid Cú-Bretan Cú-Cúaráin Cú-Caech Cú-Cen Cú-Cen-Máthair Cú-Gamna Cú-Roí Cúanu Cúldub Caílte Caínchomrac Caíndelbán Caicher Cailech Cailte Cairbre Cairell Caisséne Caissín Caissíne Canannán Canann Caoímhin Carbrey Carlus Cathalán Cathal Cathaoir Cathassach Cathbad Cathmáel Cathmál Cathnio Cathub Causantín Ceithernach Cellachán Cellach Cennétig Cenn-Fáelad Cennlachán Cerball Cernachán Cernach Charles Cian Ciarán Cilléne Cillíne Cináed Clemens Clement Coílboth Cobthach Coirpre Colcu Colmán Columb Comgán Comhghall Conán Conaing Conallán Conall Conamail Conan Conchenn Conchobar Conchobhar Condla Congal Congalach Congus Conlang Conmáel Conmál Conmac Conmacc Conn Connla Conrí Constans Constantín Constantine Constantius Corbán Corbb Corccán Corcrán Cormac Coscrach Críchán Crónán Crimthann Criomhthann Cruinnmáel Crundmáel Cuilén Cuindles Cuircthe Cummascach
+			Dálach Dícuill Díglach Dímmán Dímmae Dímmasach Dínertach Dúnacán Dúnadach Dúnchad Dúngal Dúngalach Dúnlang Dabíd Daigre Dalbach Dallán Daniél Daniel Dathal Dathgus David Demmán Dermid Diarmaid Diarmait Doélgus Doedgus Domangart Domnall Donal Donald Donn Donnabhain Donnchad Donncuan Donndubán Donngal Donnucán Douglas Drost Drust Dubáed Dubán Dub-dá-Lethe Dubcenn Dubgenn Dubh Dubhghall Dubhglais Dubthach Duff Dugald Duiblesc Duibne Dunáed Duncan
+			Eíhmhín Eóganán Eógan Echmarcach Echthigern Echuid Edmund Einrí Eláir Enfidaig Eochaid Eochu Eochucán Eoghan Ercáed Ercán Erc Ercaid Eric Ernán Eterscél Eugene
+			Éamonn Échtgal Échtgus Éicnechán Éicnech Énna Énri Éochad Éogan Éremón Érennach
+			Fáelán Fáelbe Fáelcar Fáelchú Fáelchad Fáeldobur Fáelgus Fíachnae Fíadchú Fíngin Fínsnechta Fócarta Faílbe Fachtna Fairchellach Fallaman Farannán Farquhar Fearchar Fearghal Fearghus Fechtnach Fedach Fedelmid Feidlimidh Feirgil Felic Fer-Fugaill Feradach Ferdomnach Fergal Fergus Fiachnae Fianchú Findbarr Findlay Fingen Finguine Finn Finnacán Finnbarr Finnchú Finnlagh Finnsnechtae Fintan Flaithbertach Flaithemán Flaithem Flaithgus Flaithrí Flannán Flann Flannacán Flannchad Fogartach Folachtach Fonnchadh Forannán Forbassach Fothad Fothud Francis Fuacarta Fubthad Fuirechtach Fursu
+			Gáethán Gáethíne Gósacht Gabrán Garalt Garbith Gearóid Gilbert Gilchrist Gilla-Íosa Gilla-Brígte Gilla-Coluim Gilla-Comgáin Gilla-Críst Gilla-Pátraic Gilla-Ruad Gilla-na-Náem Gilpatrick Gilroy Glún-Iairn Glaisiuc Glaschu Godfrey Gofraid Gormán Gormacán Gormgus Guaire
+			Henry Hugh
+			Iacob Iarfhlaith Iarlaithe Imchad Indrechtach Ioseph Ivar
+			Íomhar
+			Jacob John Joseph
+			Kenneth Kentigern
+			Láegaire Lóchéne Lóchíne Lóeguire Labraid Lachtnán Lachtnéne Lachtnae Laidíne Laidcenn Laidgenn Laisrén Lennán Lennon Leon Lethlobur Liam Liber Lochlann Loingsech Lonán Lorcán Lorccán Lugáed Lugaid Lugh
+			Máelán Máel-Íosa Máel-Anfaid Máel-Brígte Máel-Bresail Máel-Cein Máel-Cianáin Máel-Ciaráin Máel-Coluim Máel-Corgis Máel-Dúin Máel-Dubh Máel-Fábaill Máel-Fothartaig Máel-Máedóc Máel-Míchíl Máel-Mórda Máel-Martain Máel-Muire Máel-Pátraic Máel-Petair Máel-Ruanaid Máel-Sechnaill Máel-Tólai Máenach Máthair Móenach Múadán Mac-Laisre Maeleachlain Mainchíne Maine Malcolm Maldoven Malise Malmure Manchán Martan Mathúin Mathgamain Matudán Minchán Mo-Chonna Mo-Lua Morand Morann Muchadh Mugrón Muirchertach Muireadhach Muirecán Muiredach Muirgius Muiris Murchú Murchad Murdoch
+			Nadarchu Nannid Naomhán Natfraech Natfraich Nathan Natsluaig Nechtan Niallán Niall Niallgus Nicholas Nigel Nuadu
+			Odrán Oisín Oisséne Oissíne Olaf Olcán Onchú Orthanach Oscar
+			Óengus Óenucán Ólchobar
+			Pádraig Pátraic Pól Patrick Paul Petair Peter Philip Pilib Proinsias
+			Ráthach Ríán Ríagáin Rígán Ródán Rónán Rónchú Rúadán Rúadacán Rechtabra Riacán Riaguil Robartach Roderick Rogallach Rogellach Ronan Roy Ruah Ruaidrí Ruarcc Rumann
+			Sáerbrethach Sárán Séafra Séaghdha Séamas Séigíne Sétna Sétnae Scandal Scandlán Scellán Scolaige Seán Sechnassach Selbach Senchán Seoán Shaw Sinach Siothrún Slébíne Snedgus Sogan Somerled Somhairle Suibne Sweeny
+			Tálán Tóla Túathal Tadg Tadhg Taithlech Talorcán Talorc Talore Taran Temnén Thomas Tigernán Tigernach Tipraite Tomás Tomaltach Torccán Trenchad Trengus Tressach Tuathalán Tuathal Tuireann Turlough
+			Ualan Ualgarg Ualtar Uargal Uargalach Uargus Uilliam Ultán
+			Úamnachán
+			Valentin
+			Walter William
+		}
+		female_names = {
+			Aíbinn Ablach Affraic Agnes Aibilín Aileann Anlaith Aróc
+			Áedammair Áine
+			Bé-Fáil Bébinn Barrdub Ben-Laigen Ben-Míde Ben-Muman Ben-Ulad Brigit
+			Caíntigern Caírech Cacht Caillech-Fhinnéin Cainnech Caisséne Caitilín Cathán Catherine Catríona Cellach Christina Ciar Cnes Cobflaith Coblaith Conchenn Condál Crínóch Crístina Cumman
+			Dúinsech Dúnlaith Deirdre Der-Ilei Der-Lugdach Der-bForgaill Derbáil Derborgaill Derilla Devorguilla Dianaim Doriend Dub-Dil Dub-Essa Dub-Lemna Dubchoblaig Dubgilla
+			Echrad Eilionora Eithne Eleanor Ellbríg Emer Eugenia Euginia Euphemia Eva
+			Éibhleann Étaín Éua
+			Fíne Faílenn Fedelm Fedelma Finneacht Finnguala Flann Forbflaith
+			Garb Gelgéis Gerróc Gnathnad Gormflaith Gormlaith Gráinne
+			Imag
+			Íte
+			Joan
+			Lígach Lann Lasairfíona Lathir Lerben Lerthan Lucia
+			Máel-Mide Máel-Muire Máire Máiread Máirgred Mór Mór-Muman Malmure Margaret Maria Martha Matilda Mauda Mona Mor Morna Muadhnait Muirenn Muirgel Muirne Muriel Murron
+			Nárbflaith Nuala
+			Órfhlaith Órlaith Órnat
+			Róis Ros
+			Sáerlaith Sébdann Sétach Síthmaith Sadb Samthann Saraid Scáthach Selblaith Seonaid Sinech Siobán Sisuile Sláíne Slaine Sorcha Suaibsech
+			Tómnat Tailefhlaith Tailltiu Temair Tuathflaith
+			Uallach Uasal Una
+			Úna
 		}
 	}
 	gaelic_colonial = {
@@ -4797,6 +5044,9 @@ langue_d_oil = {
 		
 	}
 	poitevin = {
+		
+	}
+	normanbreasil = {
 		
 	}
 	

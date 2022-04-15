@@ -1,0 +1,18 @@
+owner = ZLP
+controller = ZLP
+add_core = ZLP
+
+capital = "Haizhong"
+trade_goods = rice # fish
+culture = chinesezealandia
+religion = shenism
+
+set_key = { lhs = Infra_Harbourage value = 1 }
+
+is_city = yes
+hre = no
+
+100.1.1 = {
+	set_key = { lhs = starting_rural_pop_1350 value = 61.512 }
+	set_key = { lhs = starting_urban_pop_1350 value = 1.000 }
+}

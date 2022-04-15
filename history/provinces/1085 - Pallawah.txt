@@ -1,0 +1,36 @@
+# 1085 - Paredarerme
+
+owner = ZLP
+controller = ZLP
+add_core = ZLP
+
+capital = "Paredarerme"
+trade_goods = lumber #grain
+culture = zhourao
+religion = shenism
+
+is_city = yes
+hre = no
+
+base_tax = 1
+base_production = 0
+base_manpower = 0
+
+set_key = { lhs = Infra_Harbourage value = 2 }
+
+450.1.1 = {
+    set_key = { lhs = starting_rural_pop_1350 value = 37.405 }
+    set_key = { lhs = starting_urban_pop_1350 value = 6.856 }
+	set_province_flag = iron
+	set_province_flag = coal
+}
+#1642.11.24 = {
+#	discovered_by = NED
+#} # Abel Tasman
+#1803.1.1 = {
+#	owner = GBR
+#	controller = GBR
+#	capital = "Hobart"
+#	citysize = 100
+#	set_province_flag = mined_goods
+#} # Penal colony

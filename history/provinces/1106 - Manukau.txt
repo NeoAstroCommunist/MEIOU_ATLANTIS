@@ -1,0 +1,37 @@
+# 1106 - Whangarei
+
+owner = KKL
+controller = KKL
+add_core = KKL
+
+capital = "Whangarei"
+trade_goods = tea # fish
+culture = wedhusian
+religion = hinduism
+
+is_city = yes
+hre = no
+
+base_tax = 3
+base_production = 0
+base_manpower = 0
+
+100.1.1 = {
+	set_key = { lhs = starting_rural_pop_1350 value = 40.911 }
+	set_key = { lhs = starting_urban_pop_1350 value = 10.712 }
+}
+
+450.1.1 = {
+	# Features
+	set_province_flag = TN_Harbour_Minor
+	set_province_flag = TN_Natural_Minor
+        set_province_flag = mined_goods
+	set_province_flag = iron
+	set_province_flag = TN_Estuary
+}
+#1500.1.1 = {
+#	culture = maori
+#}
+#1643.1.1 = {
+#	discovered_by = NED
+#} # Abel Tasman

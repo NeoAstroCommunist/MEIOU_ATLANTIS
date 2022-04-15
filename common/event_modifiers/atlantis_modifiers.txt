@@ -1,0 +1,4 @@
+# Contains the modifiers used by the misc expenses system.
+
+treasures_mined_today = {
+}

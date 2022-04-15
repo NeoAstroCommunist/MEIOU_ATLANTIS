@@ -1,0 +1,318 @@
+defined_text = {
+	name = Disp_MilLayer
+	random = no
+	
+	text = {
+		localisation_key = Disp_Mil_0
+
+		trigger = {
+			is_key_equal = { lhs = Class_Layer value = 0 }
+		}
+	}
+	text = {
+		localisation_key = Disp_Mil_1
+
+		trigger = {
+			is_key_equal = { lhs = Class_Layer value = 1 }
+		}
+	}
+	text = {
+		localisation_key = Disp_Mil_2
+
+		trigger = {
+			is_key_equal = { lhs = Class_Layer value = 2 }
+		}
+	}
+	text = {
+		localisation_key = Disp_Mil_3
+
+		trigger = {
+			check_key = { lhs = Class_Layer value = 3 }
+		}
+	}
+}
+defined_text = {
+	name = NO_MPSFSkillCol
+	random = no
+	
+	text = {
+		localisation_key = NO_MPSFSkillCol_G
+
+		trigger = {
+			check_key = { lhs = NO_MPSFSkillGainDisp value = 0.001 }
+		}
+	}
+	text = {
+		localisation_key = NO_MPSFSkillCol_R
+
+		trigger = {
+			NOT = { check_key = { lhs = NO_MPSFSkillGainDisp value = 0 } }
+		}
+	}
+}
+defined_text = {
+	name = BG_MPRESkillCol
+	random = no
+	
+	text = {
+		localisation_key = BG_MPRESkillCol_G
+
+		trigger = {
+			check_key = { lhs = BG_MPRESkillGainDisp value = 0.001 }
+		}
+	}
+	text = {
+		localisation_key = BG_MPRESkillCol_R
+
+		trigger = {
+			NOT = { check_key = { lhs = BG_MPRESkillGainDisp value = 0 } }
+		}
+	}
+}
+defined_text = {
+	name = TR_MPSFSkillCol
+	random = no
+	
+	text = {
+		localisation_key = TR_MPSFSkillCol_G
+
+		trigger = {
+			check_key = { lhs = TR_MPSFSkillGainDisp value = 0.001 }
+		}
+	}
+	text = {
+		localisation_key = TR_MPSFSkillCol_R
+
+		trigger = {
+			NOT = { check_key = { lhs = TR_MPSFSkillGainDisp value = 0 } }
+		}
+	}
+}
+defined_text = {
+	name = BU_MPSFSkillCol
+	random = no
+	
+	text = {
+		localisation_key = BU_MPSFSkillCol_G
+
+		trigger = {
+			check_key = { lhs = BU_MPSFSkillGainDisp value = 0.001 }
+		}
+	}
+	text = {
+		localisation_key = BU_MPSFSkillCol_R
+
+		trigger = {
+			NOT = { check_key = { lhs = BU_MPSFSkillGainDisp value = 0 } }
+		}
+	}
+}
+defined_text = {
+	name = NO_MPNOSkillCol
+	random = no
+	
+	text = {
+		localisation_key = NO_MPNOSkillCol_G
+
+		trigger = {
+			check_key = { lhs = NO_MPNOSkillGainDisp value = 0.001 }
+		}
+	}
+	text = {
+		localisation_key = NO_MPNOSkillCol_R
+
+		trigger = {
+			NOT = { check_key = { lhs = NO_MPNOSkillGainDisp value = 0 } }
+		}
+	}
+}
+defined_text = {
+	name = BG_MPBGSkillCol
+	random = no
+	
+	text = {
+		localisation_key = BG_MPBGSkillCol_G
+
+		trigger = {
+			check_key = { lhs = BG_MPBGSkillGainDisp value = 0.001 }
+		}
+	}
+	text = {
+		localisation_key = BG_MPBGSkillCol_R
+
+		trigger = {
+			NOT = { check_key = { lhs = BG_MPBGSkillGainDisp value = 0 } }
+		}
+	}
+}
+defined_text = {
+	name = TR_MPRESkillCol
+	random = no
+	
+	text = {
+		localisation_key = TR_MPRESkillCol_G
+
+		trigger = {
+			check_key = { lhs = TR_MPRESkillGainDisp value = 0.001 }
+		}
+	}
+	text = {
+		localisation_key = TR_MPRESkillCol_R
+
+		trigger = {
+			NOT = { check_key = { lhs = TR_MPRESkillGainDisp value = 0 } }
+		}
+	}
+}
+defined_text = {
+	name = BU_MPRESkillCol
+	random = no
+	
+	text = {
+		localisation_key = BU_MPRESkillCol_G
+
+		trigger = {
+			check_key = { lhs = BU_MPRESkillGainDisp value = 0.001 }
+		}
+	}
+	text = {
+		localisation_key = BU_MPRESkillCol_R
+
+		trigger = {
+			NOT = { check_key = { lhs = BU_MPRESkillGainDisp value = 0 } }
+		}
+	}
+}
+defined_text = {
+	name = TR_MPNMSkillCol
+	random = no
+	
+	text = {
+		localisation_key = TR_MPNMSkillCol_G
+
+		trigger = {
+			check_key = { lhs = TR_MPNMSkillGainDisp value = 0.001 }
+		}
+	}
+	text = {
+		localisation_key = TR_MPNMSkillCol_R
+
+		trigger = {
+			NOT = { check_key = { lhs = TR_MPNMSkillGainDisp value = 0 } }
+		}
+	}
+}
+defined_text = {
+	name = BU_MPNOSkillCol
+	random = no
+	
+	text = {
+		localisation_key = BU_MPNOSkillCol_G
+
+		trigger = {
+			check_key = { lhs = BU_MPNOSkillGainDisp value = 0.001 }
+		}
+	}
+	text = {
+		localisation_key = BU_MPNOSkillCol_R
+
+		trigger = {
+			NOT = { check_key = { lhs = BU_MPNOSkillGainDisp value = 0 } }
+		}
+	}
+}
+defined_text = {
+	name = TR_MPNOSkillCol
+	random = no
+	
+	text = {
+		localisation_key = TR_MPNOSkillCol_G
+
+		trigger = {
+			check_key = { lhs = TR_MPNOSkillGainDisp value = 0.001 }
+		}
+	}
+	text = {
+		localisation_key = TR_MPNOSkillCol_R
+
+		trigger = {
+			NOT = { check_key = { lhs = TR_MPNOSkillGainDisp value = 0 } }
+		}
+	}
+}
+defined_text = {
+	name = BU_MPBGSkillCol
+	random = no
+	
+	text = {
+		localisation_key = BU_MPBGSkillCol_G
+
+		trigger = {
+			check_key = { lhs = BU_MPBGSkillGainDisp value = 0.001 }
+		}
+	}
+	text = {
+		localisation_key = BU_MPBGSkillCol_R
+
+		trigger = {
+			NOT = { check_key = { lhs = BU_MPBGSkillGainDisp value = 0 } }
+		}
+	}
+}
+defined_text = {
+	name = TR_MPBGSkillCol
+	random = no
+	
+	text = {
+		localisation_key = TR_MPBGSkillCol_G
+
+		trigger = {
+			check_key = { lhs = TR_MPBGSkillGainDisp value = 0.001 }
+		}
+	}
+	text = {
+		localisation_key = TR_MPBGSkillCol_R
+
+		trigger = {
+			NOT = { check_key = { lhs = TR_MPBGSkillGainDisp value = 0 } }
+		}
+	}
+}
+defined_text = {
+	name = BU_MPCLSkillCol
+	random = no
+	
+	text = {
+		localisation_key = BU_MPCLSkillCol_G
+
+		trigger = {
+			check_key = { lhs = BU_MPCLSkillGainDisp value = 0.001 }
+		}
+	}
+	text = {
+		localisation_key = BU_MPCLSkillCol_R
+
+		trigger = {
+			NOT = { check_key = { lhs = BU_MPCLSkillGainDisp value = 0 } }
+		}
+	}
+}
+defined_text = {
+	name = TR_MPCLSkillCol
+	random = no
+	
+	text = {
+		localisation_key = TR_MPCLSkillCol_G
+
+		trigger = {
+			check_key = { lhs = TR_MPCLSkillGainDisp value = 0.001 }
+		}
+	}
+	text = {
+		localisation_key = TR_MPCLSkillCol_R
+
+		trigger = {
+			NOT = { check_key = { lhs = TR_MPCLSkillGainDisp value = 0 } }
+		}
+	}
+}

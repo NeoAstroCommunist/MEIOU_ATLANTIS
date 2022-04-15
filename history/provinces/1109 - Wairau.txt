@@ -1,0 +1,31 @@
+#1109 - Wairau
+
+owner = NPU
+controller = NPU
+add_core = NPU
+
+capital = "Wairau"
+trade_goods = fish # wool
+culture = maori
+religion = polynesian_pagan
+
+is_city = yes
+hre = no
+
+base_tax = 3
+base_production = 0
+base_manpower = 0
+
+200.1.1 = {
+	set_key = { lhs = Prov_TRPow value = 100.000 }
+}
+450.1.1 = {
+        set_key = { lhs = pop_level value = 1.5 }
+	set_province_flag = tribals_control_province
+}
+#1500.1.1 = {
+#	culture = maori
+#}
+#1642.1.1 = {
+#	discovered_by = NED
+#} # Abel Tasman

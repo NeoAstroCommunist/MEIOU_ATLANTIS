@@ -1,0 +1,288 @@
+# Events for Zealandia ZLP tag
+
+
+namespace = flavor_ZLP
+
+country_event = { #Sell of Neumark ripoff
+	id = flavor_ZLP.1
+	title = "flavor_ZLP.1.t"
+	desc = "flavor_ZLP.1.d"
+	picture = DIPLOMACY_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ZLP
+			5834 = {
+				owned_by = LN1
+				controlled_by = LN1
+			}
+		NOT = { war_with = LN1 }
+		NOT = { is_year = 1380 }
+	}
+	
+	mean_time_to_happen = {
+	     years = 5
+	}
+	
+	option = {
+		name = "flavor_ZLP.1.a" 
+		ai_chance = {
+			factor = 75
+		}
+		LN1 = {
+			country_event = { id = flavor_ZLP.2 }
+		}
+	}
+	option = { 
+		name = "flavor_ZLP.1.b"
+		ai_chance = {
+			factor = 25
+		}
+	}
+}
+
+country_event = {
+	id = flavor_ZLP.2
+	title = "flavor_ZLP.2.t"
+	desc = "flavor_ZLP.2.d"
+	picture = DIPLOMACY_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flavor_ZLP.2.a" #Buy prov.
+		ai_chance = { factor = 95 modifier = { factor = 0 num_of_loans = 4 } }
+		add_treasury = -75
+		ZLP = {
+			country_event = { id = flavor_ZLP.3 }
+			add_opinion = {
+				who = LN1
+				modifier = pawning_of_treasury_island
+			}
+		}
+	}
+	option = {
+		name = "flavor_ZLP.2.b" 
+		ai_chance = { factor = 5 }
+		custom_tooltip = flavor_ZLP.2.b.tt
+		ZLP = {
+			country_event = { id = flavor_ZLP.4 }
+		}
+	}
+}
+
+country_event = {
+	id = flavor_ZLP.3
+	title = "flavor_ZLP.3.t"
+	desc = "flavor_ZLP.3.d"
+	picture = DIPLOMACY_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flavor_ZLP.3.a" #
+		set_global_flag = can_mine_treasure_island
+		ZLP = {
+			5833 = {
+				if = {
+					limit = {
+						owned_by = ZLP
+						controlled_by = ZLP
+					}
+					cede_province = LN1
+					add_core = LN1
+					remove_core = ZLP
+				}
+			}
+		}
+		add_treasury = 75
+		LN1 = {
+			add_opinion = {
+				who = ZLP
+				modifier = pawning_of_treasury_island
+			}
+		}
+	}
+}
+
+country_event = {
+	id = flavor_ZLP.4
+	title = "flavor_ZLP.4.t"
+	desc = "flavor_ZLP.4.d"
+	picture = DIPLOMACY_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "flavor_ZLP.4.a" 
+		set_global_flag = can_mine_treasure_island
+	}
+}
+
+country_event = {
+	id = flavor_ZLP.5
+	title = "flavor_ZLP.5.t"
+	desc = "flavor_ZLP.5.d"
+	picture = DIPLOMACY_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = "flavor_ZLP.5.a"
+        trigger = { tag = ZLP }
+		clr_global_flag = can_mine_treasure_island
+		5833 = { set_province_flag = treasures_found }
+	}
+	option = { 
+		name = "flavor_ZLP.5.b"
+		trigger = { NOT = { tag = ZLP } }
+		add_treasury = 1000
+		clr_global_flag = can_mine_treasure_island
+		if = {
+		limit = { exists = ZLP }
+		ZLP = {
+			country_event = { id = flavor_ZLP.11 } #Treasures found by non-pirates, pirates get butthurt
+		}
+		}
+	}
+}
+
+country_event = {
+	id = flavor_ZLP.6
+	title = "flavor_ZLP.6.t"
+	desc = "flavor_ZLP.6.d"
+	picture = DIPLOMACY_eventPicture
+	fire_only_once = yes
+    trigger = { tag = ZLP owns = 5833 5833 = { has_province_flag = treasures_found } }
+	mean_time_to_happen = { months = 3 }
+	option = {
+		name = "flavor_ZLP.6.a"
+		limit = { NOT = { ZLP = { owns = 5834 } } }
+        random_list = {
+		50 = { ZLP = { country_event = { id = flavor_ZLP.8 } } set_global_flag = treasures_stolen } #Pirates are traitors
+		50 = { ZLP = { country_event = { id = flavor_ZLP.7 } } } #Pirates are not traitors
+		}
+	}
+	option = {
+		name = "flavor_ZLP.6.a"
+		limit = { ZLP = { owns = 5834 } }
+        ZLP = { country_event = { id = flavor_ZLP.7 } }
+	}
+}
+
+country_event = { 
+	id = flavor_ZLP.7
+	title = "flavor_ZLP.7.t"
+	desc = "flavor_ZLP.7.d"
+	picture = DIPLOMACY_eventPicture
+	
+	fire_only_once = yes
+    is_triggered_only = yes
+	option = {
+		name = "flavor_ZLP.7.a"
+        add_treasury = 1000
+		add_prestige = 50
+		add_legitimacy = 50
+		5833 = { clr_province_flag = treasures_found }
+	}
+}
+
+country_event = { 
+	id = flavor_ZLP.8
+	title = "flavor_ZLP.8.t"
+	desc = "flavor_ZLP.8.d"
+	picture = DIPLOMACY_eventPicture
+	fire_only_once = yes
+	trigger = { has_global_flag = treasures_stolen owns = 5834 }
+	mean_time_to_happen = { months = 3 }
+	option = {
+		name = "flavor_ZLP.8.a"
+        add_treasury = 1000
+		add_historical_rival = ZLP
+		ZLP = { add_historical_rival = ROOT country_event = { id = flavor_ZLP.9 } }
+		ai_chance = { factor = 25 }
+	}
+	option = {
+		name = "flavor_ZLP.8.b"
+		add_historical_friend = ZLP
+		ZLP = { add_historical_friend = ROOT country_event = { id = flavor_ZLP.10 } }
+		ai_chance = { factor = 75 }
+	}
+}
+
+country_event = { 
+	id = flavor_ZLP.9
+	title = "flavor_ZLP.9.t"
+	desc = "flavor_ZLP.9.d"
+	picture = DIPLOMACY_eventPicture
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = "flavor_ZLP.9.a"
+        add_stability = -1
+		5834 = { add_claim = ZLP }
+	}
+}
+
+country_event = { 
+	id = flavor_ZLP.10
+	title = "flavor_ZLP.10.t"
+	desc = "flavor_ZLP.10.d"
+	picture = DIPLOMACY_eventPicture
+	fire_only_once = yes
+	is_triggered_only = yes
+	immediate = { 
+	add_treasury = 1000
+    add_prestige = 50
+	add_legitimacy = 50
+	5833 = { clr_province_flag = treasures_found }
+	}
+	option = {
+		name = "flavor_ZLP.10.a"
+        ZLP = {
+			5833 = {
+				if = {
+					limit = {
+						owned_by = ZLP
+						controlled_by = ZLP
+					}
+					cede_province = LN1
+					add_core = LN1
+					remove_core = ZLP
+				}
+			}
+		}
+	}
+}
+
+country_event = { 
+	id = flavor_ZLP.11
+	title = "flavor_ZLP.11.t"
+	desc = "flavor_ZLP.11.d"
+	picture = DIPLOMACY_eventPicture
+	fire_only_once = yes
+    is_triggered_only = yes
+	option = {
+		name = "flavor_ZLP.11.a"
+		limit = { NOT = { mil = 6 } }
+        kill_ruler = yes
+		zealandia3_area = { limit = { owned_by = ZLP } add_core = ZLD spawn_rebels = { type = nationalist_rebels size = 2 } }
+		southeast_australia_area = { limit = { owned_by = ZLP } add_core = ZHO spawn_rebels = { type = nationalist_rebels size = 2 } }
+		
+		}
+	}
+	option = {
+		name = "flavor_ZLP.11.b"
+		highlight = yes
+		limit = { mil = 6 }
+        add_government_reform = Pol_ExtraPowers2
+        add_government_reform = Pol_TermOfOffice1
+	}
+}

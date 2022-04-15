@@ -1,0 +1,33 @@
+
+government = tribal
+add_government_reform = Pol_Identity1
+add_government_reform = Pol_Leadership1
+add_government_reform = Pol_Tradition1
+add_government_reform = Pol_Nobility1
+add_government_reform = Pol_NominalEmpire
+government_rank = 1
+mercantilism = 0.0
+primary_culture = oranglaut
+religion = hinduism
+technology_group = austranesian
+capital = 5762
+
+1000.1.1 = {
+	add_country_modifier = { name = title_4 duration = -1 }
+	set_country_flag = title_4
+	add_absolutism = -100
+	add_absolutism = 0
+	set_country_flag = no_cavalry
+}
+
+1345.1.1 = {
+	monarch = {
+		name = "Mansur Shah"
+		dynasty = "Banten"
+		birth_date = 1326.1.1
+		death_date = 1360.1.1
+		ADM = 5
+		DIP = 2
+		MIL = 3
+	}
+}

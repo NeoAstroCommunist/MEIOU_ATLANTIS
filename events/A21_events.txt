@@ -27,7 +27,7 @@ country_event = { #Sell of Neumark ripoff
 	}
 	
 	option = {
-		name = "flavor_A21.1.a" #Offer the Teutons to pawn back Neumark for 40 000 Guilders
+		name = "flavor_A21.1.a" 
 		ai_chance = {
 			factor = 75
 		}
@@ -132,7 +132,6 @@ country_event = {
 	picture = DIPLOMACY_eventPicture
 	
 	fire_only_once = yes
-	
 	is_triggered_only = yes
 	
 	option = {

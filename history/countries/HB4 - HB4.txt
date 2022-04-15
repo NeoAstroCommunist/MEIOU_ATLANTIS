@@ -1,0 +1,28 @@
+
+government = monarchy
+add_government_reform = Pol_Succession4
+add_government_reform = Pol_Assembly2
+add_government_reform = Pol_Nobility1
+government_rank = 1
+mercantilism = 0.0
+technology_group = western
+primary_culture = breasil
+religion = catholic
+capital = 5749 
+
+1000.1.1 = {
+	add_country_modifier = { name = title_3 duration = -1 }
+	set_country_flag = title_3
+	add_absolutism = -100
+	add_absolutism = 0
+}
+
+1339.1.1 = {
+	monarch = {
+		name = "Conall"
+		dynasty = "Mac Phaidin"
+		ADM = 3
+		DIP = 4
+		MIL = 4
+	}
+}

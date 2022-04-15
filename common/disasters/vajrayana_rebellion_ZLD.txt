@@ -1,0 +1,130 @@
+vajrayana_rebellion_ZLD = {
+	potential = {
+		NOT = {
+			has_country_flag = vajrayana_rebelled
+		}
+		AND = {
+			OR = {
+				is_subject = no
+				is_subject_of_type = tributary_state
+				is_subject_of_type = close_tributary_state
+			}
+		}
+		tag = ZLD
+	}
+	can_start = {
+		NOT = { dip = 6 }
+		NOT = { year = 1444 }
+		NOT = { religion = vajrayana }
+		monarchy_or_harem_gov = yes
+		has_any_disaster = no
+		NOT = {
+			stability = 3
+		}
+	}
+	can_stop = {
+		OR = {
+			has_any_disaster = yes
+			NOT = { monarchy_or_harem_gov = yes }
+			AND = {
+				stability = 1
+				legitimacy = 75
+			}
+		}
+	}
+	modifier = {
+		global_unrest = 10
+		stability_cost_modifier = 0.20
+	}
+	progress = {
+	    modifier = {
+			factor = 0.5
+			NOT = { vajrayana = -1 }
+		}
+		modifier = {
+			factor = 1
+			NOT = { vajrayana = -2 }
+		}
+		modifier = {
+			factor = 2
+			NOT = { vajrayana = -3 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				stability = -2
+			}
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				stability = 0
+			}
+		}
+		modifier = {
+			factor = 0.5
+			war_exhaustion = 8
+		}
+		modifier = {
+			factor = 0.5
+			war_exhaustion = 12
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				legitimacy = 50
+			}
+		}
+		modifier = {
+			factor = 0.5 
+			NOT = {
+				legitimacy = 25
+			}
+		}
+		modifier = {
+			factor = 0.5 
+			num_of_loans = 1
+		}
+		modifier = {
+			factor = 0.5 
+			num_of_loans = 4
+		}
+		modifier = {
+			factor = 0.5 
+			num_of_loans = 8
+		}
+		modifier = {
+			factor = 1
+			has_regency = yes
+		} 
+		modifier = {
+			factor = 1
+			has_heir = no
+		}
+	}
+	can_end = {
+		OR = {
+		religion = vajrayana
+		AND = {
+		NOT = { num_of_rebel_armies = 1 } 
+		stability = 1
+		had_country_flag = { #at least two years to give rebels and events time to unfold
+			flag = vajrayana_rebelled
+			days = 730
+		}
+		capital_scope = {
+			controlled_by = ROOT
+		}
+		}
+		}
+	}
+	on_start = vajrayana_rebellion_ZLD.1
+	on_end = vajrayana_rebellion_ZLD.5
+	on_monthly = {
+		events = {}
+		random_events = {
+			1000 = 0
+			200 = vajrayana_rebellion_ZLD.3
+		}
+	}
+}

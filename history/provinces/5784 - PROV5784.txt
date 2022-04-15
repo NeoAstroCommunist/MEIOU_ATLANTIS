@@ -1,0 +1,20 @@
+
+owner = ZLD
+controller = ZLD
+add_core = ZLD
+
+capital = "Laozun"
+trade_goods = rice # fish
+culture = chinesezealandia
+religion = shenism
+is_city = yes
+hre = no
+
+100.1.1 = {
+	set_key = { lhs = starting_rural_pop_1350 value = 57.911 }
+	set_key = { lhs = starting_urban_pop_1350 value = 10.612 }
+}
+
+450.1.1 = {
+	set_province_flag = tea
+}

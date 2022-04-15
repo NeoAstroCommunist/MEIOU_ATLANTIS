@@ -1,0 +1,33 @@
+# 1249 - Okitika
+
+owner = KKL
+controller = KKL
+add_core = KKL
+
+capital = "Okitika"
+trade_goods = rice # grain
+culture = wedhusian
+religion = hinduism
+
+is_city = yes
+hre = no
+
+set_key = { lhs = Infra_Harbourage value = 1 }
+
+base_tax = 3
+base_production = 0
+base_manpower = 0
+
+100.1.1 = {
+	set_key = { lhs = starting_rural_pop_1350 value = 52.911 }
+	set_key = { lhs = starting_urban_pop_1350 value = 19.612 }
+}
+450.1.1 = {
+	set_province_flag = coal
+}
+#1500.1.1 = {
+#	culture = maori
+#}
+#1643.1.1 = {
+#	discovered_by = NED
+#} # Abel Tasman

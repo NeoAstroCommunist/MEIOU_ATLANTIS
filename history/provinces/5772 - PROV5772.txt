@@ -1,0 +1,13 @@
+
+capital = "Rakakura"
+trade_goods = unknown 
+culture = melanesian
+religion = hinduism
+
+native_size = 10
+native_ferocity = 4
+native_hostileness = 9
+
+200.1.1 = {
+	set_key = { lhs = Prov_TRPow value = 100.000 }
+}

@@ -40,7 +40,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		years = 100 # 100 years
+		years = 200 # 100 years
 	}
 	
 	immediate = {

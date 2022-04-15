@@ -1,0 +1,29 @@
+country_decisions = {
+    mine_treasures = {
+		major = yes
+		potential = { 
+			has_global_flag = can_mine_treasure_island
+		}
+		provinces_to_highlight = { province_id = 5833 }
+		allow = { 
+			owns = 5833
+			NOT = { has_country_modifier = treasures_mined_today }
+		}
+		effect = { 
+			add_treasury = -25
+			add_country_modifier = { 
+            name = treasures_mined_today
+            duration = 365
+            desc = treasures_mined_today_tooltip            
+			}
+			random = {
+            chance = 15
+            ROOT = { country_event = { id = flavor_ZLP.5 } }
+            }
+		}
+		ai_will_do = { 
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}

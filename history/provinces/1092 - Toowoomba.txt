@@ -1,0 +1,30 @@
+# 1092 - Toowoomba
+
+owner = ZHO
+controller = ZHO
+add_core = ZHO
+
+capital = "Toowoomba"
+trade_goods = tea #naval_supplies
+culture = zhourao
+religion = shenism
+
+is_city = yes
+hre = no
+
+base_tax = 2
+base_production = 0
+base_manpower = 0
+
+
+450.1.1 = {
+    set_key = { lhs = starting_rural_pop_1350 value = 46.330 }
+    set_key = { lhs = starting_urban_pop_1350 value = 11.435 }
+	# Features
+	set_province_flag = TN_Harbour_Minor
+	set_province_flag = TN_Natural_Minor
+	set_province_flag = TN_Estuary
+}
+#1770.7.1 = {
+#	discovered_by = GBR
+#} # Cook's 1st voyage

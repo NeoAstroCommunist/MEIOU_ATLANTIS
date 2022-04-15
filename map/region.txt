@@ -175,6 +175,7 @@ north_england_region = {
 		east_midlands_area
 		west_midlands_area
 		northumbria_area
+		doggerland_area
 	}
 }
 
@@ -269,6 +270,7 @@ upper_saxon_circle_region = {
 	areas = {
 		southern_saxony_area
 		east_thuringia_area
+		central_thuringia_area
 		west_thuringia_area
 	}
 }
@@ -323,6 +325,7 @@ magyar_plains_region = {
 	areas = {
 		transdanubia_area
 		alfold_area
+		eszaki_area
 		kisalfold_area
 	}
 }
@@ -348,6 +351,7 @@ central_balkan_region = {
 	areas = {
 		south_serbia_area
 		north_serbia_area
+		east_serbia_area
 		albania_area
 	}
 }
@@ -688,7 +692,9 @@ senegambia_region = {
 manding_region = {
 	areas = {
 		mali_area
+		bambuk_area
 		ghana_area
+		diara_area
 		segou_area
 	}
 }
@@ -706,6 +712,7 @@ niger_bend_region = {
 guinea_region = {
 	areas = {
 		guinea_area
+		leoa_area
 		ivory_coast_area
 		jallon_area
 	}
@@ -716,13 +723,16 @@ lower_volta_region = {
 		dagbon_area
 		volta_delta_area
 		toro_area
+		denkyira_area
 	}
 }
 upper_volta_region = {
 	areas = {
 		senufo_area
+		lobi_area
 		west_mossi_area
 		east_mossi_area
+		yatenga_area
 	}
 }
 
@@ -732,6 +742,10 @@ upper_niger_region = {
 		oyo_area
 		dahomey_area
 		borgu_area
+		kwande_area
+		ekiti_area
+		ketu_area
+		lekki_area
 	}
 }
 
@@ -1466,10 +1480,12 @@ papua_region = {
 
 south_oceanea_region = {
 	areas = {
-		maui_area
 		fiji_area
 		east_polynesia_area
 		west_polynesia_area
+		zealandia1_area
+		zealandia2_area
+		zealandia3_area
 	}
 }
 
@@ -1802,8 +1818,13 @@ central_america_region = {
 	areas = {
 		guatemala_area
 		honduras_area
+		copan_area
+		pipil_area
+		salvador_area
 		nicaragua_area
 		yucatan_area
+		mayapan_area
+		hocaba_area
 		belize_area
 		campeche_area
 		panama_area
@@ -1959,7 +1980,6 @@ adventure_region = {
 		adventure_area
 	}
 }
-
 # Atlantis #
 
 south_atlantis_islands_region = {
@@ -2034,4 +2054,48 @@ march_atlantis_region = {
 	atlantean_vikings_islands_area
 	atlantean_real_northwest_area
 	}
+}
+
+thule_region = {
+    areas = {
+	thule1_area
+	thule2_area
+	thule3_area
+	}
+}
+
+north_zealandia_region = {
+     areas = {
+	 maui_area
+	 zealandia5_area
+	 zealandia4_area
+	 zealandia6_area
+	 zealandia7_area
+	 }
+}
+
+east_zealandia_region = {
+     areas = {
+	 zealandia18_area
+	 zealandia17_area
+	 zealandia16_area
+	 zealandia15_area
+	 }
+}
+
+south_zealandia_region = {
+     areas = {
+	 zealandia8_area
+	 zealandia9_area
+	 zealandia10_area
+	 zealandia11_area
+	 }
+}
+
+southeast_zealandia_region = {
+     areas = {
+	 zealandia13_area
+	 zealandia12_area
+	 zealandia14_area
+	 }
 }

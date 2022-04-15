@@ -1,0 +1,39 @@
+
+government = monarchy
+add_government_reform = Pol_Succession4
+add_government_reform = Pol_Assembly2
+add_government_reform = Pol_Nobility1
+government_rank = 1
+mercantilism = 0.0
+technology_group = western
+primary_culture = breasil
+religion = catholic
+capital = 5747
+
+1000.1.1 = {
+	add_country_modifier = { name = title_3 duration = -1 }
+	set_country_flag = title_3
+	#set_key = { lhs = centralization_decentralization value = 5 }
+	add_absolutism = -100
+	add_absolutism = 0
+}
+
+1317.1.1 = {
+	monarch = {
+		name = "Earnan"
+		dynasty = "O Meara"
+		ADM = 4
+		DIP = 4
+		MIL = 4
+	}
+	heir = {
+		name = "Ualgharg"
+		monarch_name = "Ualgharg"
+		dynasty = "O Meara"
+		birth_date = 1351.1.1
+		claim = 95
+		ADM = 5
+		DIP = 4
+		MIL = 5
+	}
+}

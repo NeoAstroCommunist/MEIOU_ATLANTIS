@@ -1,0 +1,14 @@
+owner = LN1
+controller = LN1
+add_core = LN1
+
+capital = "Beishulin"
+trade_goods = fish # fish
+culture = chinesezealandiasouth
+religion = vajrayana
+is_city = yes
+hre = no
+100.1.1 = {
+	set_key = { lhs = starting_rural_pop_1350 value = 33.891 }
+	set_key = { lhs = starting_urban_pop_1350 value = 2.571 }
+}

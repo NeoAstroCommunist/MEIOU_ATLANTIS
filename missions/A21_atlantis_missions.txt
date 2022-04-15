@@ -243,6 +243,7 @@ A21_slot_6 = {
 				}
 			}
 		}
+		}
 		effect = { 
 			add_papal_influence = 20
 		}

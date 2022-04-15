@@ -1,0 +1,30 @@
+# 1086 - Nunga
+
+owner = NUK
+controller = NUK
+add_core = NUK
+
+capital = "Nunga"
+trade_goods = fish
+culture = aboriginal
+religion = australian_pagan
+
+is_city = yes
+hre = no
+
+base_tax = 1
+base_production = 0
+base_manpower = 0
+
+
+200.1.1 = {
+	set_key = { lhs = Prov_TRPow value = 100.000 }
+}
+450.1.1 = {
+	# Features
+	set_province_flag = TN_Harbour_Minor
+	set_province_flag = TN_Natural_Minor
+	set_key = { lhs = pop_level value = 2 }
+	set_province_flag = tribals_control_province
+	set_province_flag = coal
+}

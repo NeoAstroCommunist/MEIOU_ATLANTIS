@@ -1,0 +1,14 @@
+owner = ZLD
+controller = ZLD
+add_core = ZLD
+
+capital = "Zhoudong"
+trade_goods = rice # grain
+culture = chinesezealandia
+religion = shenism
+is_city = yes
+hre = no
+100.1.1 = {
+	set_key = { lhs = starting_rural_pop_1350 value = 89.917 }
+	set_key = { lhs = starting_urban_pop_1350 value = 21.812 }
+}

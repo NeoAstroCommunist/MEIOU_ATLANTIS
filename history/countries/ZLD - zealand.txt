@@ -1,0 +1,45 @@
+
+government = monarchy
+add_government_reform = Pol_Succession5
+
+add_government_reform = Pol_Assembly1
+add_government_reform = Pol_Nobility3
+add_government_reform = Pol_NominalEmpire
+government_rank = 1
+mercantilism = 0.0
+primary_culture = chinesezealandia
+add_accepted_culture = zhourao
+religion = shenism
+technology_group = chinese
+capital = 5776	
+
+1000.1.1 = {
+	add_country_modifier = { name = title_6 duration = -1 }
+	set_country_flag = title_6
+	#set_key = { lhs = centralization_decentralization value = 2 }
+	add_absolutism = -100
+	add_absolutism = 30
+}
+
+1330.1.1 = {
+	monarch = {
+		name = "Longshuo"
+		dynasty = "Xiu"
+		birth_date = 1323.1.1
+		death_date = 1360.1.1
+		ADM = 6
+		DIP = 6
+		MIL = 0
+	}
+	heir = {
+		name = "Yifeng"
+		monarch_name = "Yifeng"
+		dynasty = "Xiu"
+		birth_date = 1345.1.1
+		death_date = 1360.1.1
+		claim = 75
+		ADM = 3
+		DIP = 3
+		MIL = 0
+	}
+}

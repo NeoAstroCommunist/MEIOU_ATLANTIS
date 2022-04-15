@@ -213,6 +213,7 @@ country_event = {
 			region = {
 				limit = {
 					OR = {
+					    continent = oceania
 					    continent = atlantis
 						continent = europe
 						continent = southeast_asia

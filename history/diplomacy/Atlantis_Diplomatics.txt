@@ -31,7 +31,7 @@ dependency = {
 }
 
 dependency = { 
-	subject_type = "decentralized_vassal"
+	subject_type = "nominal_subject"
 	first = A20
 	second = A36
 	start_date = 1353.1.1
@@ -46,11 +46,28 @@ dependency = {
 	end_date = 1392.1.1
 }
 
+#Zelandia
+
 dependency = { 
-	subject_type = "muscovite_tributary_state"
-	first = A20
-	second = A36
-	start_date = 1246.1.1
-	end_date = 1491.1.1
+	subject_type = "tributary_state"
+	first = ZLD
+	second = KKL
+	start_date = 1312.1.1
+	end_date = 1392.1.1
 }
 
+dependency = { 
+	subject_type = "warlord"
+	first = ZLD
+	second = NNF
+	start_date = 1356.1.1
+	end_date = 1404.1.1
+}
+
+dependency = { 
+	subject_type = "warlord"
+	first = ZLD
+	second = SSW
+	start_date = 1356.1.1
+	end_date = 1404.1.1
+}

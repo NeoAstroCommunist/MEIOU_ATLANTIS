@@ -1,0 +1,64 @@
+#Country Name: Please see filename.
+
+graphical_culture = southamericagfx
+
+color = { 241  163  13 }
+
+historical_idea_groups = {
+    quantity_ideas
+	leadership_ideas
+	diplomacy_ideas
+}
+
+
+historical_units = { #Polynesian group
+	polynesian_skirmish_infantry
+	polynesian_pike_infantry
+	polynesian_elite_infantry
+	polynesian_musket_infantry
+	polynesian_regular_infantry
+	polynesian_line_infantry
+	polynesian_carabinier_cavalry
+	polynesian_drill_infantry
+	polynesian_hunter_cavalry
+	polynesian_impulse_infantry
+	polynesian_lancer_cavalry
+	polynesian_breech_infantry
+}
+
+monarch_names = {
+	"Kamehameha #0" = 80
+	"Koa #0" = 60
+	"Kai #0" = -10
+	"Maui #0" = 20
+	"Tui #0" = 20
+	"Tamato #0" = 15
+	"Koi #0" = 15
+	"Moana #0" = -15
+	"Liliuokalani #0" = -10
+	"Bane #0" = 10
+	"Keanu #0" = 10
+	"Kana #0" = 10
+	"Tala #0" = -10
+	"Kaleo #0" = 10
+	"Hailama #0" = 10
+	"Hale #0" = 10
+	"Ekewaka #0" = 10
+	"Alekanekelo #0" = 10
+	"Hui #0" = 5
+	"Iulio #0" = 5
+	"Kalani #0" = 5
+	"Kapono #0" = 5
+	"Ahe #0" = 5
+	"Akela #0" = 0
+	"Aloha #0" = 0
+	"Kakalina #0" = -10
+	"Iolana #0" = -10
+	"Halia #0" = -10
+}
+
+leader_names = {
+	Kihanuilulumoku Aloha Liloa Etana Liliha
+	Leiko Nohealani Kaimi Nani Mele
+}
+

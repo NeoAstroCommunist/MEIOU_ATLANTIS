@@ -1,0 +1,37 @@
+# 2129 - Nou-woo-ro
+
+owner = ZHO
+controller = ZHO
+add_core = ZHO
+
+capital = "Nou-woo-ro"
+trade_goods = rice #grain
+culture = zhourao
+religion = shenism
+
+is_city = yes
+hre = no
+base_tax = 1
+base_production = 0
+base_manpower = 0
+
+450.1.1 = {
+    set_key = { lhs = starting_rural_pop_1350 value = 27.518 }
+    set_key = { lhs = starting_urban_pop_1350 value = 2.856 }
+}
+#1770.7.1 = {
+#	discovered_by = GBR
+#} # Cook's 1st voyage
+#1788.1.26 = {
+#	owner = GBR
+#	controller = GBR
+#	culture = english
+#	religion = protestant #anglican
+#	citysize = 350
+#	capital = "Eden"
+#	trade_goods = livestock
+#	set_province_flag = trade_good_set
+#}
+#1813.1.1 = {
+#	add_core = GBR
+#}

@@ -1,0 +1,14 @@
+owner = SSW
+controller = SSW
+add_core = SSW
+
+capital = "Jan He"
+trade_goods = livestock 
+culture = aboriginal
+religion = australian_pagan
+is_city = yes
+hre = no
+100.1.1 = {
+	set_key = { lhs = starting_rural_pop_1350 value = 12.012 }
+	set_key = { lhs = starting_urban_pop_1350 value = 0.000 }
+}

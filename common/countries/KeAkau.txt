@@ -1,0 +1,81 @@
+#Country Name: Please see filename.
+
+graphical_culture = southamericagfx
+
+color = { 231  181  12 }
+
+historical_idea_groups = {
+    quantity_ideas
+	leadership_ideas
+	diplomacy_ideas
+}
+
+
+historical_units = { #Polynesian group
+	polynesian_skirmish_infantry
+	polynesian_pike_infantry
+	polynesian_elite_infantry
+	polynesian_musket_infantry
+	polynesian_regular_infantry
+	polynesian_line_infantry
+	polynesian_carabinier_cavalry
+	polynesian_drill_infantry
+	polynesian_hunter_cavalry
+	polynesian_impulse_infantry
+	polynesian_lancer_cavalry
+	polynesian_breech_infantry
+}
+
+monarch_names = {	
+	"Kamehameha #0" = 20
+	"Aheahe #0" = 20
+	"Akela #0" = 20
+	"'Ehukai #0" = 20
+	"Etana #0" = 20
+	"Kanoa #0" = 20
+	"Kaua #0" = 20
+	"Kapula #0" = 20
+	"Kepler #0" = 20
+	"Koa #0" = 20
+	"Kalauokalani #0" = 20
+	"Kimo #0" = 20
+	"Malo #0" = 20
+	"Makani #0" = 20
+	"Mele #0" = 20
+	"Mililani #0" = 20
+	"Moke #0" = 20
+	"Nainoa #0" = 20
+	"Umi #0" = 20
+	"Pono #0" = 20
+	"Nana #0" = 20
+	"Nani #0" = 20
+	"Kakae #0" = 20
+	"Kihanuilulumoku #0" = 20
+	"Hilo #0" = 20
+	"Kahiau #0" = 20
+	"Kahikilani #0" = 20
+	"Mililani #0" = 20
+	"Nana #0" = 20
+	"Aloha #0" = 1
+	
+	"Moana #0" = -1
+	"Oliana #0" = -1
+	"Tamar #0" = -1
+	"Leinani #0" = -1
+	"Nani #0" = -1
+	"La'akea #0" = -1
+	"Kalama #0" = -1
+	"Pania #0" = -1
+	"Heitiare #0" = -1
+	"Herenui #0" = -1
+	"Maeva #0" = -1
+	"Alitia #0" = -1
+	"Kasanita #0" = -1
+	"Yasi #0" = -1
+	"Mana #0" = -1
+}
+
+leader_names = {
+	Kihanuilulumoku Aloha Liloa Etana Liliha
+	Leiko Nohealani Kaimi Nani Mele
+}

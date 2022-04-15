@@ -1,0 +1,1617 @@
+defined_text = {
+	name = Desire_NO
+	random = no
+	
+	text = {
+		localisation_key = Desire_NO
+		
+		trigger = {
+			check_key = { lhs = Prov_NOPow value = 1 }
+		}
+	}
+}
+defined_text = {
+	name = Desire_BG
+	random = no
+	
+	text = {
+		localisation_key = Desire_BG
+		
+		trigger = {
+			check_key = { lhs = Prov_BGPow value = 1 }
+		}
+	}
+}
+defined_text = {
+	name = Desire_CL
+	random = no
+	
+	text = {
+		localisation_key = Desire_CL
+		
+		trigger = {
+			check_key = { lhs = Prov_CLPow value = 1 }
+		}
+	}
+}
+
+defined_text = {
+	name = Pol_EventTargP
+	random = no
+	
+	text = {
+		localisation_key = FC_NO_P
+		
+		trigger = {
+			Pol_EventNO = yes
+		}
+	}
+	text = {
+		localisation_key = FC_BG_P
+		
+		trigger = {
+			Pol_EventBG = yes
+		}
+	}
+	text = {
+		localisation_key = FC_CL_P
+		
+		trigger = {
+			Pol_EventCL = yes
+		}
+	}
+	text = {
+		localisation_key = FC_TR_P
+		
+		trigger = {
+			Pol_EventTR = yes
+		}
+	}
+	text = {
+		localisation_key = FC_BU_P
+		
+		trigger = {
+			Pol_EventBU = yes
+		}
+	}
+}
+defined_text = {
+	name = Pol_EventTargS
+	random = no
+	
+	text = {
+		localisation_key = FC_NO_S
+		
+		trigger = {
+			Pol_EventNO = yes
+		}
+	}
+	text = {
+		localisation_key = FC_BG_S
+		
+		trigger = {
+			Pol_EventBG = yes
+		}
+	}
+	text = {
+		localisation_key = FC_CL_S
+		
+		trigger = {
+			Pol_EventCL = yes
+		}
+	}
+	text = {
+		localisation_key = FC_TR_S
+		
+		trigger = {
+			Pol_EventTR = yes
+		}
+	}
+	text = {
+		localisation_key = FC_BU_S
+		
+		trigger = {
+			Pol_EventBU = yes
+		}
+	}
+}
+defined_text = {
+	name = Pol_UI_NO
+	random = no
+	
+	text = {
+		localisation_key = Pol_UI_NO
+		
+		trigger = {
+			has_faction = FC_NO
+		}
+	}
+}
+defined_text = {
+	name = Pol_UI_BG
+	random = no
+	
+	text = {
+		localisation_key = Pol_UI_BG
+		
+		trigger = {
+			has_faction = FC_BG
+		}
+	}
+}
+defined_text = {
+	name = Pol_UI_CL
+	random = no
+	
+	text = {
+		localisation_key = Pol_UI_CL
+		
+		trigger = {
+			has_faction = FC_CL
+		}
+	}
+}
+defined_text = {
+	name = Pol_UI_TR
+	random = no
+	
+	text = {
+		localisation_key = Pol_UI_TR
+		
+		trigger = {
+			has_faction = FC_TR
+		}
+	}
+}
+defined_text = {
+	name = Pol_UI_BU
+	random = no
+	
+	text = {
+		localisation_key = Pol_UI_BU
+		
+		trigger = {
+			has_faction = FC_BU
+		}
+	}
+}
+defined_text = {
+	name = Pol_NO_BG
+	random = no
+	
+	text = {
+		localisation_key = Pol_NO_BG
+		
+		trigger = {
+			has_faction = FC_BG
+		}
+	}
+}
+defined_text = {
+	name = Pol_NO_CL
+	random = no
+	
+	text = {
+		localisation_key = Pol_NO_CL
+		
+		trigger = {
+			has_faction = FC_CL
+		}
+	}
+}
+defined_text = {
+	name = Pol_NO_TR
+	random = no
+	
+	text = {
+		localisation_key = Pol_NO_TR
+		
+		trigger = {
+			has_faction = FC_TR
+		}
+	}
+}
+defined_text = {
+	name = Pol_NO_BU
+	random = no
+	
+	text = {
+		localisation_key = Pol_NO_BU
+		
+		trigger = {
+			has_faction = FC_BU
+		}
+	}
+}
+defined_text = {
+	name = Pol_NO_State
+	random = no
+	
+	text = {
+		localisation_key = Pol_NO_State
+		
+		trigger = {
+			always = yes
+		}
+	}
+}
+defined_text = {
+	name = Pol_BG_NO
+	random = no
+	
+	text = {
+		localisation_key = Pol_BG_NO
+		
+		trigger = {
+			has_faction = FC_NO
+		}
+	}
+}
+defined_text = {
+	name = Pol_BG_CL
+	random = no
+	
+	text = {
+		localisation_key = Pol_BG_CL
+		
+		trigger = {
+			has_faction = FC_CL
+		}
+	}
+}
+defined_text = {
+	name = Pol_BG_TR
+	random = no
+	
+	text = {
+		localisation_key = Pol_BG_TR
+		
+		trigger = {
+			has_faction = FC_TR
+		}
+	}
+}
+defined_text = {
+	name = Pol_BG_BU
+	random = no
+	
+	text = {
+		localisation_key = Pol_BG_BU
+		
+		trigger = {
+			has_faction = FC_BU
+		}
+	}
+}
+defined_text = {
+	name = Pol_BG_State
+	random = no
+	
+	text = {
+		localisation_key = Pol_BG_State
+		
+		trigger = {
+			always = yes
+		}
+	}
+}
+defined_text = {
+	name = Pol_CL_NO
+	random = no
+	
+	text = {
+		localisation_key = Pol_CL_NO
+		
+		trigger = {
+			has_faction = FC_NO
+		}
+	}
+}
+defined_text = {
+	name = Pol_CL_BG
+	random = no
+	
+	text = {
+		localisation_key = Pol_CL_BG
+		
+		trigger = {
+			has_faction = FC_BG
+		}
+	}
+}
+defined_text = {
+	name = Pol_CL_TR
+	random = no
+	
+	text = {
+		localisation_key = Pol_CL_TR
+		
+		trigger = {
+			has_faction = FC_TR
+		}
+	}
+}
+defined_text = {
+	name = Pol_CL_BU
+	random = no
+	
+	text = {
+		localisation_key = Pol_CL_BU
+		
+		trigger = {
+			has_faction = FC_BU
+		}
+	}
+}
+defined_text = {
+	name = Pol_CL_State
+	random = no
+	
+	text = {
+		localisation_key = Pol_CL_State
+		
+		trigger = {
+			always = yes
+		}
+	}
+}
+defined_text = {
+	name = Pol_TR_NO
+	random = no
+	
+	text = {
+		localisation_key = Pol_TR_NO
+		
+		trigger = {
+			has_faction = FC_NO
+		}
+	}
+}
+defined_text = {
+	name = Pol_TR_BG
+	random = no
+	
+	text = {
+		localisation_key = Pol_TR_BG
+		
+		trigger = {
+			has_faction = FC_BG
+		}
+	}
+}
+defined_text = {
+	name = Pol_TR_CL
+	random = no
+	
+	text = {
+		localisation_key = Pol_TR_CL
+		
+		trigger = {
+			has_faction = FC_CL
+		}
+	}
+}
+defined_text = {
+	name = Pol_TR_BU
+	random = no
+	
+	text = {
+		localisation_key = Pol_TR_BU
+		
+		trigger = {
+			has_faction = FC_BU
+		}
+	}
+}
+defined_text = {
+	name = Pol_TR_State
+	random = no
+	
+	text = {
+		localisation_key = Pol_TR_State
+		
+		trigger = {
+			always = yes
+		}
+	}
+}
+defined_text = {
+	name = Pol_BU_NO
+	random = no
+	
+	text = {
+		localisation_key = Pol_BU_NO
+		
+		trigger = {
+			has_faction = FC_NO
+		}
+	}
+}
+defined_text = {
+	name = Pol_BU_BG
+	random = no
+	
+	text = {
+		localisation_key = Pol_BU_BG
+		
+		trigger = {
+			has_faction = FC_BG
+		}
+	}
+}
+defined_text = {
+	name = Pol_BU_CL
+	random = no
+	
+	text = {
+		localisation_key = Pol_BU_CL
+		
+		trigger = {
+			has_faction = FC_CL
+		}
+	}
+}
+defined_text = {
+	name = Pol_BU_TR
+	random = no
+	
+	text = {
+		localisation_key = Pol_BU_TR
+		
+		trigger = {
+			has_faction = FC_TR
+		}
+	}
+}
+defined_text = {
+	name = Pol_BU_State
+	random = no
+	
+	text = {
+		localisation_key = Pol_BU_State
+		
+		trigger = {
+			always = yes
+		}
+	}
+}
+defined_text = {
+	name = Rel_NO_BG_Type
+	random = no
+	
+	text = {
+		localisation_key = Rel_Allied
+		
+		trigger = {
+			has_country_modifier = NO_AllyBG
+		}
+	}
+	text = {
+		localisation_key = Rel_Rivalry
+		
+		trigger = {
+			has_country_modifier = NO_RivalBG
+		}
+	}
+	text = {
+		localisation_key = Rel_Neutral
+		
+		trigger = {
+			NOT = { has_country_modifier = NO_AllyBG }
+			NOT = { has_country_modifier = NO_RivalBG }
+		}
+	}
+}
+defined_text = {
+	name = Rel_NO_BG
+	random = no
+	
+	text = {
+		localisation_key = Rel_NO_BG_G
+		
+		trigger = {
+			check_key = { lhs = NO_RelationBG value = 0.001 }
+		}
+	}
+	text = {
+		localisation_key = Rel_NO_BG_Y
+		
+		trigger = {
+			is_key_equal = { lhs = NO_RelationBG value = 0 }
+		}
+	}
+	text = {
+		localisation_key = Rel_NO_BG_R
+		
+		trigger = {
+			NOT = { check_key = { lhs = NO_RelationBG value = 0 } }
+		}
+	}
+}
+defined_text = {
+	name = Rel_NO_CL_Type
+	random = no
+	
+	text = {
+		localisation_key = Rel_Allied
+		
+		trigger = {
+			has_country_modifier = NO_AllyCL
+		}
+	}
+	text = {
+		localisation_key = Rel_Rivalry
+		
+		trigger = {
+			has_country_modifier = NO_RivalCL
+		}
+	}
+	text = {
+		localisation_key = Rel_Neutral
+		
+		trigger = {
+			NOT = { has_country_modifier = NO_AllyCL }
+			NOT = { has_country_modifier = NO_RivalCL }
+		}
+	}
+}
+defined_text = {
+	name = Rel_NO_CL
+	random = no
+	
+	text = {
+		localisation_key = Rel_NO_CL_G
+		
+		trigger = {
+			check_key = { lhs = NO_RelationCL value = 0.001 }
+		}
+	}
+	text = {
+		localisation_key = Rel_NO_CL_Y
+		
+		trigger = {
+			is_key_equal = { lhs = NO_RelationCL value = 0 }
+		}
+	}
+	text = {
+		localisation_key = Rel_NO_CL_R
+		
+		trigger = {
+			NOT = { check_key = { lhs = NO_RelationCL value = 0 } }
+		}
+	}
+}
+defined_text = {
+	name = Rel_NO_TR_Type
+	random = no
+	
+	text = {
+		localisation_key = Rel_Allied
+		
+		trigger = {
+			has_country_modifier = NO_AllyTR
+		}
+	}
+	text = {
+		localisation_key = Rel_Rivalry
+		
+		trigger = {
+			has_country_modifier = NO_RivalTR
+		}
+	}
+	text = {
+		localisation_key = Rel_Neutral
+		
+		trigger = {
+			NOT = { has_country_modifier = NO_AllyTR }
+			NOT = { has_country_modifier = NO_RivalTR }
+		}
+	}
+}
+defined_text = {
+	name = Rel_NO_TR
+	random = no
+	
+	text = {
+		localisation_key = Rel_NO_TR_G
+		
+		trigger = {
+			check_key = { lhs = NO_RelationTR value = 0.001 }
+		}
+	}
+	text = {
+		localisation_key = Rel_NO_TR_Y
+		
+		trigger = {
+			is_key_equal = { lhs = NO_RelationTR value = 0 }
+		}
+	}
+	text = {
+		localisation_key = Rel_NO_TR_R
+		
+		trigger = {
+			NOT = { check_key = { lhs = NO_RelationTR value = 0 } }
+		}
+	}
+}
+defined_text = {
+	name = Rel_NO_BU_Type
+	random = no
+	
+	text = {
+		localisation_key = Rel_Allied
+		
+		trigger = {
+			has_country_modifier = NO_AllyBU
+		}
+	}
+	text = {
+		localisation_key = Rel_Rivalry
+		
+		trigger = {
+			has_country_modifier = NO_RivalBU
+		}
+	}
+	text = {
+		localisation_key = Rel_Neutral
+		
+		trigger = {
+			NOT = { has_country_modifier = NO_AllyBU }
+			NOT = { has_country_modifier = NO_RivalBU }
+		}
+	}
+}
+defined_text = {
+	name = Rel_NO_BU
+	random = no
+	
+	text = {
+		localisation_key = Rel_NO_BU_G
+		
+		trigger = {
+			check_key = { lhs = NO_RelationBU value = 0.001 }
+		}
+	}
+	text = {
+		localisation_key = Rel_NO_BU_Y
+		
+		trigger = {
+			is_key_equal = { lhs = NO_RelationBU value = 0 }
+		}
+	}
+	text = {
+		localisation_key = Rel_NO_BU_R
+		
+		trigger = {
+			NOT = { check_key = { lhs = NO_RelationBU value = 0 } }
+		}
+	}
+}
+defined_text = {
+	name = Rel_NO_State_Type
+	random = no
+	
+	text = {
+		localisation_key = Rel_Allied
+		
+		trigger = {
+			has_country_modifier = NO_AllyState
+		}
+	}
+	text = {
+		localisation_key = Rel_Rivalry
+		
+		trigger = {
+			has_country_modifier = NO_RivalState
+		}
+	}
+	text = {
+		localisation_key = Rel_Neutral
+		
+		trigger = {
+			NOT = { has_country_modifier = NO_AllyState }
+			NOT = { has_country_modifier = NO_RivalState }
+		}
+	}
+}
+defined_text = {
+	name = Rel_NO_State
+	random = no
+	
+	text = {
+		localisation_key = Rel_NO_State_G
+		
+		trigger = {
+			check_key = { lhs = NO_RelationState value = 0.001 }
+		}
+	}
+	text = {
+		localisation_key = Rel_NO_State_Y
+		
+		trigger = {
+			is_key_equal = { lhs = NO_RelationState value = 0 }
+		}
+	}
+	text = {
+		localisation_key = Rel_NO_State_R
+		
+		trigger = {
+			NOT = { check_key = { lhs = NO_RelationState value = 0 } }
+		}
+	}
+}
+defined_text = {
+	name = Rel_BG_CL_Type
+	random = no
+	
+	text = {
+		localisation_key = Rel_Allied
+		
+		trigger = {
+			has_country_modifier = BG_AllyCL
+		}
+	}
+	text = {
+		localisation_key = Rel_Rivalry
+		
+		trigger = {
+			has_country_modifier = BG_RivalCL
+		}
+	}
+	text = {
+		localisation_key = Rel_Neutral
+		
+		trigger = {
+			NOT = { has_country_modifier = BG_AllyCL }
+			NOT = { has_country_modifier = BG_RivalCL }
+		}
+	}
+}
+defined_text = {
+	name = Rel_BG_CL
+	random = no
+	
+	text = {
+		localisation_key = Rel_BG_CL_G
+		
+		trigger = {
+			check_key = { lhs = BG_RelationCL value = 0.001 }
+		}
+	}
+	text = {
+		localisation_key = Rel_BG_CL_Y
+		
+		trigger = {
+			is_key_equal = { lhs = BG_RelationCL value = 0 }
+		}
+	}
+	text = {
+		localisation_key = Rel_BG_CL_R
+		
+		trigger = {
+			NOT = { check_key = { lhs = BG_RelationCL value = 0 } }
+		}
+	}
+}
+defined_text = {
+	name = Rel_BG_TR_Type
+	random = no
+	
+	text = {
+		localisation_key = Rel_Allied
+		
+		trigger = {
+			has_country_modifier = BG_AllyTR
+		}
+	}
+	text = {
+		localisation_key = Rel_Rivalry
+		
+		trigger = {
+			has_country_modifier = BG_RivalTR
+		}
+	}
+	text = {
+		localisation_key = Rel_Neutral
+		
+		trigger = {
+			NOT = { has_country_modifier = BG_AllyTR }
+			NOT = { has_country_modifier = BG_RivalTR }
+		}
+	}
+}
+defined_text = {
+	name = Rel_BG_TR
+	random = no
+	
+	text = {
+		localisation_key = Rel_BG_TR_G
+		
+		trigger = {
+			check_key = { lhs = BG_RelationTR value = 0.001 }
+		}
+	}
+	text = {
+		localisation_key = Rel_BG_TR_Y
+		
+		trigger = {
+			is_key_equal = { lhs = BG_RelationTR value = 0 }
+		}
+	}
+	text = {
+		localisation_key = Rel_BG_TR_R
+		
+		trigger = {
+			NOT = { check_key = { lhs = BG_RelationTR value = 0 } }
+		}
+	}
+}
+defined_text = {
+	name = Rel_BG_BU_Type
+	random = no
+	
+	text = {
+		localisation_key = Rel_Allied
+		
+		trigger = {
+			has_country_modifier = BG_AllyBU
+		}
+	}
+	text = {
+		localisation_key = Rel_Rivalry
+		
+		trigger = {
+			has_country_modifier = BG_RivalBU
+		}
+	}
+	text = {
+		localisation_key = Rel_Neutral
+		
+		trigger = {
+			NOT = { has_country_modifier = BG_AllyBU }
+			NOT = { has_country_modifier = BG_RivalBU }
+		}
+	}
+}
+defined_text = {
+	name = Rel_BG_BU
+	random = no
+	
+	text = {
+		localisation_key = Rel_BG_BU_G
+		
+		trigger = {
+			check_key = { lhs = BG_RelationBU value = 0.001 }
+		}
+	}
+	text = {
+		localisation_key = Rel_BG_BU_Y
+		
+		trigger = {
+			is_key_equal = { lhs = BG_RelationBU value = 0 }
+		}
+	}
+	text = {
+		localisation_key = Rel_BG_BU_R
+		
+		trigger = {
+			NOT = { check_key = { lhs = BG_RelationBU value = 0 } }
+		}
+	}
+}
+defined_text = {
+	name = Rel_BG_State_Type
+	random = no
+	
+	text = {
+		localisation_key = Rel_Allied
+		
+		trigger = {
+			has_country_modifier = BG_AllyState
+		}
+	}
+	text = {
+		localisation_key = Rel_Rivalry
+		
+		trigger = {
+			has_country_modifier = BG_RivalState
+		}
+	}
+	text = {
+		localisation_key = Rel_Neutral
+		
+		trigger = {
+			NOT = { has_country_modifier = BG_AllyState }
+			NOT = { has_country_modifier = BG_RivalState }
+		}
+	}
+}
+defined_text = {
+	name = Rel_BG_State
+	random = no
+	
+	text = {
+		localisation_key = Rel_BG_State_G
+		
+		trigger = {
+			check_key = { lhs = BG_RelationState value = 0.001 }
+		}
+	}
+	text = {
+		localisation_key = Rel_BG_State_Y
+		
+		trigger = {
+			is_key_equal = { lhs = BG_RelationState value = 0 }
+		}
+	}
+	text = {
+		localisation_key = Rel_BG_State_R
+		
+		trigger = {
+			NOT = { check_key = { lhs = BG_RelationState value = 0 } }
+		}
+	}
+}
+defined_text = {
+	name = Rel_CL_TR_Type
+	random = no
+	
+	text = {
+		localisation_key = Rel_Allied
+		
+		trigger = {
+			has_country_modifier = CL_AllyTR
+		}
+	}
+	text = {
+		localisation_key = Rel_Rivalry
+		
+		trigger = {
+			has_country_modifier = CL_RivalTR
+		}
+	}
+	text = {
+		localisation_key = Rel_Neutral
+		
+		trigger = {
+			NOT = { has_country_modifier = CL_AllyTR }
+			NOT = { has_country_modifier = CL_RivalTR }
+		}
+	}
+}
+defined_text = {
+	name = Rel_CL_TR
+	random = no
+	
+	text = {
+		localisation_key = Rel_CL_TR_G
+		
+		trigger = {
+			check_key = { lhs = CL_RelationTR value = 0.001 }
+		}
+	}
+	text = {
+		localisation_key = Rel_CL_TR_Y
+		
+		trigger = {
+			is_key_equal = { lhs = CL_RelationTR value = 0 }
+		}
+	}
+	text = {
+		localisation_key = Rel_CL_TR_R
+		
+		trigger = {
+			NOT = { check_key = { lhs = CL_RelationTR value = 0 } }
+		}
+	}
+}
+defined_text = {
+	name = Rel_CL_BU_Type
+	random = no
+	
+	text = {
+		localisation_key = Rel_Allied
+		
+		trigger = {
+			has_country_modifier = CL_AllyBU
+		}
+	}
+	text = {
+		localisation_key = Rel_Rivalry
+		
+		trigger = {
+			has_country_modifier = CL_RivalBU
+		}
+	}
+	text = {
+		localisation_key = Rel_Neutral
+		
+		trigger = {
+			NOT = { has_country_modifier = CL_AllyBU }
+			NOT = { has_country_modifier = CL_RivalBU }
+		}
+	}
+}
+defined_text = {
+	name = Rel_CL_BU
+	random = no
+	
+	text = {
+		localisation_key = Rel_CL_BU_G
+		
+		trigger = {
+			check_key = { lhs = CL_RelationBU value = 0.001 }
+		}
+	}
+	text = {
+		localisation_key = Rel_CL_BU_Y
+		
+		trigger = {
+			is_key_equal = { lhs = CL_RelationBU value = 0 }
+		}
+	}
+	text = {
+		localisation_key = Rel_CL_BU_R
+		
+		trigger = {
+			NOT = { check_key = { lhs = CL_RelationBU value = 0 } }
+		}
+	}
+}
+defined_text = {
+	name = Rel_CL_State_Type
+	random = no
+	
+	text = {
+		localisation_key = Rel_Allied
+		
+		trigger = {
+			has_country_modifier = CL_AllyState
+		}
+	}
+	text = {
+		localisation_key = Rel_Rivalry
+		
+		trigger = {
+			has_country_modifier = CL_RivalState
+		}
+	}
+	text = {
+		localisation_key = Rel_Neutral
+		
+		trigger = {
+			NOT = { has_country_modifier = CL_AllyState }
+			NOT = { has_country_modifier = CL_RivalState }
+		}
+	}
+}
+defined_text = {
+	name = Rel_CL_State
+	random = no
+	
+	text = {
+		localisation_key = Rel_CL_State_G
+		
+		trigger = {
+			check_key = { lhs = CL_RelationState value = 0.001 }
+		}
+	}
+	text = {
+		localisation_key = Rel_CL_State_Y
+		
+		trigger = {
+			is_key_equal = { lhs = CL_RelationState value = 0 }
+		}
+	}
+	text = {
+		localisation_key = Rel_CL_State_R
+		
+		trigger = {
+			NOT = { check_key = { lhs = CL_RelationState value = 0 } }
+		}
+	}
+}
+defined_text = {
+	name = Rel_TR_BU_Type
+	random = no
+	
+	text = {
+		localisation_key = Rel_Allied
+		
+		trigger = {
+			has_country_modifier = TR_AllyBU
+		}
+	}
+	text = {
+		localisation_key = Rel_Rivalry
+		
+		trigger = {
+			has_country_modifier = TR_RivalBU
+		}
+	}
+	text = {
+		localisation_key = Rel_Neutral
+		
+		trigger = {
+			NOT = { has_country_modifier = TR_AllyBU }
+			NOT = { has_country_modifier = TR_RivalBU }
+		}
+	}
+}
+defined_text = {
+	name = Rel_TR_BU
+	random = no
+	
+	text = {
+		localisation_key = Rel_TR_BU_G
+		
+		trigger = {
+			check_key = { lhs = TR_RelationBU value = 0.001 }
+		}
+	}
+	text = {
+		localisation_key = Rel_TR_BU_Y
+		
+		trigger = {
+			is_key_equal = { lhs = TR_RelationBU value = 0 }
+		}
+	}
+	text = {
+		localisation_key = Rel_TR_BU_R
+		
+		trigger = {
+			NOT = { check_key = { lhs = TR_RelationBU value = 0 } }
+		}
+	}
+}
+defined_text = {
+	name = Rel_TR_State_Type
+	random = no
+	
+	text = {
+		localisation_key = Rel_Allied
+		
+		trigger = {
+			has_country_modifier = TR_AllyState
+		}
+	}
+	text = {
+		localisation_key = Rel_Rivalry
+		
+		trigger = {
+			has_country_modifier = TR_RivalState
+		}
+	}
+	text = {
+		localisation_key = Rel_Neutral
+		
+		trigger = {
+			NOT = { has_country_modifier = TR_AllyState }
+			NOT = { has_country_modifier = TR_RivalState }
+		}
+	}
+}
+defined_text = {
+	name = Rel_TR_State
+	random = no
+	
+	text = {
+		localisation_key = Rel_TR_State_G
+		
+		trigger = {
+			check_key = { lhs = TR_RelationState value = 0.001 }
+		}
+	}
+	text = {
+		localisation_key = Rel_TR_State_Y
+		
+		trigger = {
+			is_key_equal = { lhs = TR_RelationState value = 0 }
+		}
+	}
+	text = {
+		localisation_key = Rel_TR_State_R
+		
+		trigger = {
+			NOT = { check_key = { lhs = TR_RelationState value = 0 } }
+		}
+	}
+}
+defined_text = {
+	name = Rel_BU_State_Type
+	random = no
+	
+	text = {
+		localisation_key = Rel_Allied
+		
+		trigger = {
+			has_country_modifier = BU_AllyState
+		}
+	}
+	text = {
+		localisation_key = Rel_Rivalry
+		
+		trigger = {
+			has_country_modifier = BU_RivalState
+		}
+	}
+	text = {
+		localisation_key = Rel_Neutral
+		
+		trigger = {
+			NOT = { has_country_modifier = BU_AllyState }
+			NOT = { has_country_modifier = BU_RivalState }
+		}
+	}
+}
+defined_text = {
+	name = Rel_BU_State
+	random = no
+	
+	text = {
+		localisation_key = Rel_BU_State_G
+		
+		trigger = {
+			check_key = { lhs = BU_RelationState value = 0.001 }
+		}
+	}
+	text = {
+		localisation_key = Rel_BU_State_Y
+		
+		trigger = {
+			is_key_equal = { lhs = BU_RelationState value = 0 }
+		}
+	}
+	text = {
+		localisation_key = Rel_BU_State_R
+		
+		trigger = {
+			NOT = { check_key = { lhs = BU_RelationState value = 0 } }
+		}
+	}
+}
+defined_text = {
+	name = Ruler_ImpactCol
+	random = no
+	
+	text = {
+		localisation_key = Ruler_ImpactCol_R
+		
+		trigger = {
+			check_key = { lhs = Ruler_Impact value = 66.001 }
+		}
+	}
+	text = {
+		localisation_key = Ruler_ImpactCol_Y
+		
+		trigger = {
+			NOT = { check_key = { lhs = Ruler_Impact value = 66.001 } }
+		}
+	}
+	#text = {
+	#	localisation_key = Ruler_ImpactCol_G
+	#	
+	#	trigger = {
+	#		NOT = { check_key = { lhs = Ruler_Impact value = 33 } }
+	#	}
+	#}
+}
+defined_text = {
+	name = Ruler_PowerCol
+	random = no
+	
+	text = {
+		localisation_key = Ruler_PowerCol_G
+		
+		trigger = {
+			check_key = { lhs = Ruler_Power value = 66.001 }
+		}
+	}
+	text = {
+		localisation_key = Ruler_PowerCol_Y
+		
+		trigger = {
+			check_key = { lhs = Ruler_Power value = 33 }
+			NOT = { check_key = { lhs = Ruler_Power value = 66.001 } }
+		}
+	}
+	text = {
+		localisation_key = Ruler_PowerCol_R
+		
+		trigger = {
+			NOT = { check_key = { lhs = Ruler_Power value = 33 } }
+		}
+	}
+}
+defined_text = {
+	name = Pol_AlignmentP
+	random = no
+	
+	text = {
+		localisation_key = FC_NO_P
+		
+		trigger = {
+			is_key_equal = { lhs = State_Alignment value = 1 }
+		}
+	}
+	text = {
+		localisation_key = FC_BG_P
+		
+		trigger = {
+			is_key_equal = { lhs = State_Alignment value = 2 }
+		}
+	}
+	text = {
+		localisation_key = FC_CL_P
+		
+		trigger = {
+			is_key_equal = { lhs = State_Alignment value = 3 }
+		}
+	}
+	text = {
+		localisation_key = FC_TR_P
+		
+		trigger = {
+			is_key_equal = { lhs = State_Alignment value = 4 }
+		}
+	}
+	text = {
+		localisation_key = FC_BU_P
+		
+		trigger = {
+			is_key_equal = { lhs = State_Alignment value = 5 }
+		}
+	}
+}
+defined_text = {
+	name = Pol_AlignmentS
+	random = no
+	
+	text = {
+		localisation_key = FC_NO_S
+		
+		trigger = {
+			is_key_equal = { lhs = State_Alignment value = 1 }
+		}
+	}
+	text = {
+		localisation_key = FC_BG_S
+		
+		trigger = {
+			is_key_equal = { lhs = State_Alignment value = 2 }
+		}
+	}
+	text = {
+		localisation_key = FC_CL_S
+		
+		trigger = {
+			is_key_equal = { lhs = State_Alignment value = 3 }
+		}
+	}
+	text = {
+		localisation_key = FC_TR_S
+		
+		trigger = {
+			is_key_equal = { lhs = State_Alignment value = 4 }
+		}
+	}
+	text = {
+		localisation_key = FC_BU_S
+		
+		trigger = {
+			is_key_equal = { lhs = State_Alignment value = 5 }
+		}
+	}
+}
+defined_text = {
+	name = RivalryPartner1_P
+	random = no
+	
+	text = {
+		localisation_key = FC_NO_P
+		
+		trigger = {
+			OR = {
+				is_key_equal = { lhs = Pol_RivalryFocus value = 1 }
+				is_key_equal = { lhs = Pol_RivalryFocus value = 2 }
+				is_key_equal = { lhs = Pol_RivalryFocus value = 3 }
+				is_key_equal = { lhs = Pol_RivalryFocus value = 4 }
+			}
+		}
+	}
+	text = {
+		localisation_key = FC_BG_P
+		
+		trigger = {
+			OR = {
+				is_key_equal = { lhs = Pol_RivalryFocus value = 5 }
+				is_key_equal = { lhs = Pol_RivalryFocus value = 6 }
+				is_key_equal = { lhs = Pol_RivalryFocus value = 7 }
+			}
+		}
+	}
+	text = {
+		localisation_key = FC_CL_P
+		
+		trigger = {
+			OR = {
+				is_key_equal = { lhs = Pol_RivalryFocus value = 8 }
+				is_key_equal = { lhs = Pol_RivalryFocus value = 9 }
+			}
+		}
+	}
+	text = {
+		localisation_key = FC_TR_P
+		
+		trigger = {
+			OR = {
+				is_key_equal = { lhs = Pol_RivalryFocus value = 10 }
+			}
+		}
+	}
+	text = {
+		localisation_key = FC_BU_P
+		
+		trigger = {
+			always = no
+		}
+	}
+}
+defined_text = {
+	name = RivalryPartner2_P
+	random = no
+	
+	text = {
+		localisation_key = FC_NO_P
+		
+		trigger = {
+			always = no
+		}
+	}
+	text = {
+		localisation_key = FC_BG_P
+		
+		trigger = {
+			is_key_equal = { lhs = Pol_RivalryFocus value = 1 }
+		}
+	}
+	text = {
+		localisation_key = FC_CL_P
+		
+		trigger = {
+			OR = {
+				is_key_equal = { lhs = Pol_RivalryFocus value = 2 }
+				is_key_equal = { lhs = Pol_RivalryFocus value = 5 }
+			}
+		}
+	}
+	text = {
+		localisation_key = FC_TR_P
+		
+		trigger = {
+			OR = {
+				is_key_equal = { lhs = Pol_RivalryFocus value = 3 }
+				is_key_equal = { lhs = Pol_RivalryFocus value = 6 }
+				is_key_equal = { lhs = Pol_RivalryFocus value = 8 }
+			}
+		}
+	}
+	text = {
+		localisation_key = FC_BU_P
+		
+		trigger = {
+			OR = {
+				is_key_equal = { lhs = Pol_RivalryFocus value = 4 }
+				is_key_equal = { lhs = Pol_RivalryFocus value = 7 }
+				is_key_equal = { lhs = Pol_RivalryFocus value = 9 }
+				is_key_equal = { lhs = Pol_RivalryFocus value = 10 }
+			}
+		}
+	}
+}
+defined_text = {
+	name = RivalryPartner1_S
+	random = no
+	
+	text = {
+		localisation_key = FC_NO_S
+		
+		trigger = {
+			OR = {
+				is_key_equal = { lhs = Pol_RivalryFocus value = 1 }
+				is_key_equal = { lhs = Pol_RivalryFocus value = 2 }
+				is_key_equal = { lhs = Pol_RivalryFocus value = 3 }
+				is_key_equal = { lhs = Pol_RivalryFocus value = 4 }
+			}
+		}
+	}
+	text = {
+		localisation_key = FC_BG_S
+		
+		trigger = {
+			OR = {
+				is_key_equal = { lhs = Pol_RivalryFocus value = 5 }
+				is_key_equal = { lhs = Pol_RivalryFocus value = 6 }
+				is_key_equal = { lhs = Pol_RivalryFocus value = 7 }
+			}
+		}
+	}
+	text = {
+		localisation_key = FC_CL_S
+		
+		trigger = {
+			OR = {
+				is_key_equal = { lhs = Pol_RivalryFocus value = 8 }
+				is_key_equal = { lhs = Pol_RivalryFocus value = 9 }
+			}
+		}
+	}
+	text = {
+		localisation_key = FC_TR_S
+		
+		trigger = {
+			OR = {
+				is_key_equal = { lhs = Pol_RivalryFocus value = 10 }
+			}
+		}
+	}
+	text = {
+		localisation_key = FC_BU_S
+		
+		trigger = {
+			always = no
+		}
+	}
+}
+defined_text = {
+	name = RivalryPartner2_S
+	random = no
+	
+	text = {
+		localisation_key = FC_NO_S
+		
+		trigger = {
+			always = no
+		}
+	}
+	text = {
+		localisation_key = FC_BG_S
+		
+		trigger = {
+			is_key_equal = { lhs = Pol_RivalryFocus value = 1 }
+		}
+	}
+	text = {
+		localisation_key = FC_CL_S
+		
+		trigger = {
+			OR = {
+				is_key_equal = { lhs = Pol_RivalryFocus value = 2 }
+				is_key_equal = { lhs = Pol_RivalryFocus value = 5 }
+			}
+		}
+	}
+	text = {
+		localisation_key = FC_TR_S
+		
+		trigger = {
+			OR = {
+				is_key_equal = { lhs = Pol_RivalryFocus value = 3 }
+				is_key_equal = { lhs = Pol_RivalryFocus value = 6 }
+				is_key_equal = { lhs = Pol_RivalryFocus value = 8 }
+			}
+		}
+	}
+	text = {
+		localisation_key = FC_BU_S
+		
+		trigger = {
+			OR = {
+				is_key_equal = { lhs = Pol_RivalryFocus value = 4 }
+				is_key_equal = { lhs = Pol_RivalryFocus value = 7 }
+				is_key_equal = { lhs = Pol_RivalryFocus value = 9 }
+				is_key_equal = { lhs = Pol_RivalryFocus value = 10 }
+			}
+		}
+	}
+}

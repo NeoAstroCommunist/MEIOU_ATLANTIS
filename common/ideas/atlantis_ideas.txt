@@ -251,3 +251,134 @@ nativeatlantic_ideas = {
 		institution_spread_from_true_faith = 0.10
 	}
 }
+
+aborigine_ideas = { 
+	start = { }
+	bonus = { }
+	trigger = { 
+	    OR = {
+		primary_culture = aboriginal
+		}
+		NOT = { 
+			is_colonial_nation = yes
+		}
+	}
+	free = yes
+	aborigine_ideas_1 = { 
+		hostile_attrition = 1.00
+		enemy_core_creation = 0.2
+		defensiveness = -0.1
+	}
+	aborigine_ideas_2 = { 
+		legitimacy = 0.10
+	}
+	aborigine_ideas_3 = { 
+		improve_relation_modifier = -0.15
+		ae_impact = -0.20
+	}
+	aborigine_ideas_4 = { 
+		caravan_power = 0.25
+		trade_range_modifier  = 0.25
+	}
+	aborigine_ideas_5 = { 
+		yearly_corruption = -0.2
+	}
+	aborigine_ideas_6 = { 
+        global_manpower_modifier = 0.05
+		global_trade_goods_size_modifier = 0.05
+	}
+	aborigine_ideas_7 = { 
+        global_unrest = -0.50
+	}
+}
+
+polynesian_ideas = { 
+	start = { }
+	bonus = { }
+	trigger = { 
+	    OR = {
+		primary_culture = maori
+		}
+		NOT = { 
+			is_colonial_nation = yes
+		}
+	}
+	free = yes
+	polynesian_ideas_1 = { 
+		sailors_recovery_speed = 0.1
+		naval_forcelimit_modifier = 0.10
+	}
+	polynesian_ideas_2 = { 
+		legitimacy = 0.20
+		diplomatic_reputation = 1
+	}
+	polynesian_ideas_3 = { 
+        prestige = 0.20
+		trade_range_modifier = 0.35
+	}
+	polynesian_ideas_4 = { 
+        culture_conversion_cost = -0.15
+		idea_cost = -0.05
+	}
+	polynesian_ideas_5 = { 
+        diplomatic_upkeep = 1
+		diplomats = 1
+		improve_relation_modifier = 0.10
+	}
+	polynesian_ideas_6 = { 
+        hostile_attrition = 1
+	}
+	polynesian_ideas_7 = { 
+	    loot_amount = 0.10
+		land_morale = 0.1
+		global_manpower_modifier = 0.1
+	}
+}
+
+chinesepirates_ideas = {
+	start = {
+	}
+	
+	bonus = {
+	}
+	
+	trigger = {
+		tag = ZLP
+        NOT = { is_colonial_nation = yes }
+	}
+	
+	free = yes	# Will be added at load.
+	
+	chinesepirates_ideas_1 = {
+		leader_naval_manuever = 1
+		naval_tradition_from_trade = 0.2
+	}
+	chinesepirates_ideas_2 = {
+		tolerance_heretic = 1
+		tolerance_heathen = 1
+	}
+	chinesepirates_ideas_3 = {
+		monarch_admin_power = 1
+		stability_cost_modifier = -0.10
+		# concern for welfare
+	}
+	chinesepirates_ideas_4 = {
+		advisor_pool = 1
+		# admin cost
+		# capitol infra cost
+	}
+	chinesepirates_ideas_5 = {
+		global_institution_spread = 0.15
+		# knowledge production
+	}
+	chinesepirates_ideas_6 = {
+		diplomats = 1
+		diplomatic_upkeep = 1
+		# conscription cost
+	}
+	chinesepirates_ideas_7 = {
+		navy_tradition_decay = -0.005
+		privateer_efficiency = 0.30
+		privateering_efficiency_in_fleet_modifier = 0.1
+	}
+}
