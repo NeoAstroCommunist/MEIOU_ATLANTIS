@@ -9,7 +9,14 @@ religion = shenism
 is_city = yes
 hre = no
 set_key = { lhs = Infra_Harbourage value = 1 }
-
+100.1.1 = {
+discovered_by = chinese
+discovered_by = japanese
+discovered_by = tibetan
+discovered_by = southeast_asian
+discovered_by = austranesian
+discovered_by = hawaii_tech
+}
 450.1.1 = {
         set_key = { lhs = starting_urban_pop_1350 value = 1.157 }
         set_key = { lhs = pop_level value = 1 }

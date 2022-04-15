@@ -23,5 +23,8 @@ capital = 5795
 	monarch = {
 		name = "Hikuiti"
 		dynasty = "Rarawa"
+		ADM = 2
+		DIP = 0
+		MIL = 5
 	}
 }

@@ -1,0 +1,7 @@
+# No previous file for Wadi al Milk
+# This province is a wasteland
+
+culture = nuba
+religion = lotuko_pagan
+
+discovered_by = east_african
