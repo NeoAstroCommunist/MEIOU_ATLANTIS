@@ -273,6 +273,7 @@ country_event = {
 		name = "flavor_ZLP.11.a"
 		limit = { NOT = { mil = 6 } }
         kill_ruler = yes
+		zealandia1_area = { limit = { owned_by = ZLP } add_core = ZHO spawn_rebels = { type = nationalist_rebels size = 2 } }
 		zealandia3_area = { limit = { owned_by = ZLP } add_core = ZLD spawn_rebels = { type = nationalist_rebels size = 2 } }
 		southeast_australia_area = { limit = { owned_by = ZLP } add_core = ZHO spawn_rebels = { type = nationalist_rebels size = 2 } }
 		

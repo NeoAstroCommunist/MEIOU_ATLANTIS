@@ -1,0 +1,4 @@
+# No previous file for Mbum
+# This province is a wasteland
+
+discovered_by = central_african

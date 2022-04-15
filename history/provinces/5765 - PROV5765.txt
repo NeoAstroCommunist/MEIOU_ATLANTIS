@@ -8,6 +8,12 @@ culture = melanesian
 religion = polynesian_pagan
 set_key = { lhs = Infra_Harbourage value = 1 }
 100.1.1 = {
+discovered_by = chinese
+discovered_by = japanese
+discovered_by = tibetan
+discovered_by = southeast_asian
+discovered_by = austranesian
+discovered_by = hawaii_tech
 	set_key = { lhs = starting_rural_pop_1350 value = 34.132 }
 	set_key = { lhs = starting_urban_pop_1350 value = 4.856 }
 }

@@ -14,7 +14,14 @@ hre = no
 base_tax = 1
 base_production = 0
 base_manpower = 0
-
+100.1.1 = {
+discovered_by = chinese
+discovered_by = japanese
+discovered_by = tibetan
+discovered_by = southeast_asian
+discovered_by = austranesian
+discovered_by = hawaii_tech
+}
 450.1.1 = {
     set_key = { lhs = starting_rural_pop_1350 value = 27.518 }
     set_key = { lhs = starting_urban_pop_1350 value = 2.856 }
