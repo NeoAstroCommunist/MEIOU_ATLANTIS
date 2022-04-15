@@ -13,7 +13,6 @@ country_event = { #Sell of Neumark ripoff
 	
 	trigger = {
 		tag = ZLP
-		NOT = { num_of_loans = 4 }
 			5834 = {
 				owned_by = LN1
 				controlled_by = LN1

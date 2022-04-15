@@ -377,11 +377,74 @@ country_decisions = {
 		}
 		ai_importance = 400
 	}
+	shambala_unification = { 
+		major = yes
+		potential = { 
+			tag = LN1
+			NOT = { has_country_flag = shambala_formed }
+		}
+		provinces_to_highlight = { region = south_zealandia_region }
+		allow = { 
+			custom_trigger_tooltip = { 
+				tooltip = "is_free_or_tributary_trigger_tooltip"
+				AND = { 
+					OR = { 
+						is_subject = no
+						is_subject_of_type = tributary_state
+						is_subject_of_type = close_tributary_state
+						is_subject_of_type = muscovite_tributary_state
+					}
+				}
+			}
+			is_at_war = no
+			south_zealandia_region = {
+				owned_by = ROOT 
+				type = all
+			}
+		}
+		effect = { 
+		    set_country_flag = shambala_formed
+			add_prestige = 15
+			if = { 
+				limit = { 
+					custom_trigger_tooltip = { 
+						tooltip = is_monarchy_tt
+						OR = { 
+							government = monarchy
+							government = has_harem
+						}
+					}
+					NOT = { 
+						has_country_modifier = title_5
+					}
+				}
+				remove_country_modifier = title_1
+				remove_country_modifier = title_2
+				remove_country_modifier = title_3
+				remove_country_modifier = title_4
+				add_country_modifier = { 
+					name = title_5
+					duration = -1
+				}
+				clr_country_flag = title_1
+				clr_country_flag = title_2
+				clr_country_flag = title_3
+				clr_country_flag = title_4
+			}
+			add_absolutism = 10
+			override_country_name = "Xiangba La"
+		}
+		ai_will_do = { 
+			factor = 1
+		}
+		ai_importance = 400
+	}
 	maoliren_aotearoa = { 
 		major = yes
 		potential = { 
 			primary_culture = maoliren
 			tag = AOT
+			NOT = { has_country_flag = maoliren_namechange } 
 		}
 		allow = { 
 			is_at_war = no

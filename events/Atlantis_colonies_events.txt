@@ -13,7 +13,7 @@ country_event = {
 		owns = 5795
 	}
 	mean_time_to_happen = { 
-		years = 10
+		years = 20
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -76,7 +76,7 @@ country_event = {
 		AND = { owns = 5802 owns = 5801 }
 	}
 	mean_time_to_happen = { 
-		years = 10
+		years = 20
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -139,7 +139,7 @@ country_event = {
 		owns = 5816
 	}
 	mean_time_to_happen = { 
-		years = 10
+		years = 20
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -202,7 +202,7 @@ country_event = {
 		owns = 5814
 	}
 	mean_time_to_happen = { 
-		years = 10
+		years = 20
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -265,7 +265,7 @@ country_event = {
 		AND = { owns = 5811 owns = 5812 }
 	}
 	mean_time_to_happen = { 
-		years = 10
+		years = 20
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -328,7 +328,7 @@ country_event = {
 		owns = 5848
 	}
 	mean_time_to_happen = { 
-		years = 10
+		years = 20
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -391,7 +391,7 @@ country_event = {
         OR = {	owns = 5849 owns = 5831 }
 	}
 	mean_time_to_happen = { 
-		years = 10
+		years = 20
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -454,7 +454,7 @@ country_event = {
 		OR = { owns = 5846 owns = 5831 owns = 5830 owns = 5829 owns = 5844 owns = 5843 }
 	}
 	mean_time_to_happen = { 
-		years = 10
+		years = 20
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -517,7 +517,7 @@ country_event = {
 		AND = { owns = 5829 owns = 5828 owns = 5827  }
 	}
 	mean_time_to_happen = { 
-		years = 10
+		years = 20
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -580,7 +580,7 @@ country_event = {
 		AND = { owns = 5843 owns = 5827 }
 	}
 	mean_time_to_happen = { 
-		years = 10
+		years = 20
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -643,7 +643,7 @@ country_event = {
 		owns = 5825
 	}
 	mean_time_to_happen = { 
-		years = 10
+		years = 20
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -706,7 +706,7 @@ country_event = {
 		owns = 5826
 	}
 	mean_time_to_happen = { 
-		years = 10
+		years = 20
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -769,7 +769,7 @@ country_event = {
 		owns = 5770
 	}
 	mean_time_to_happen = { 
-		years = 10
+		years = 20
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -832,7 +832,7 @@ country_event = {
 		owns = 5769
 	}
 	mean_time_to_happen = { 
-		years = 10
+		years = 20
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -895,7 +895,7 @@ country_event = {
 		owns = 2140
 	}
 	mean_time_to_happen = { 
-		years = 10
+		years = 20
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -942,7 +942,7 @@ country_event = {
 		owns = 2127
 	}
 	mean_time_to_happen = { 
-		years = 10
+		years = 20
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -989,7 +989,7 @@ country_event = {
 		OR = { owns = 1342 owns = 817 }
 	}
 	mean_time_to_happen = { 
-		years = 10
+		years = 20
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -1036,7 +1036,7 @@ country_event = {
 		owns = 2136
 	}
 	mean_time_to_happen = { 
-		years = 10
+		years = 20
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -1083,7 +1083,7 @@ country_event = {
 		owns = 2138
 	}
 	mean_time_to_happen = { 
-		years = 10
+		years = 20
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -1130,7 +1130,7 @@ country_event = {
 		OR = { owns = 1094 owns = 1093 }
 	}
 	mean_time_to_happen = { 
-		years = 10
+		years = 20
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -1177,7 +1177,7 @@ country_event = {
 		OR = { owns = 2133 owns = 2132 }
 	}
 	mean_time_to_happen = { 
-		years = 10
+		years = 20
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -1224,7 +1224,7 @@ country_event = {
 		OR = { owns = 1093 owns = 2131 }
 	}
 	mean_time_to_happen = { 
-		years = 10
+		years = 20
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -1271,7 +1271,7 @@ country_event = {
 		OR = { owns = 2132 owns = 1092 }
 	}
 	mean_time_to_happen = { 
-		years = 10
+		years = 20
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -1318,7 +1318,7 @@ country_event = {
 		owns = 5762
 	}
 	mean_time_to_happen = { 
-		years = 10
+		years = 20
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -1365,7 +1365,7 @@ country_event = {
 		owns = 650
 	}
 	mean_time_to_happen = { 
-		years = 10
+		years = 20
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -1412,7 +1412,7 @@ country_event = {
 		AND = { owns = 5802 owns = 5801 }
 	}
 	mean_time_to_happen = { 
-		years = 10
+		years = 20
 	}
 	immediate = { 
 		hidden_effect = { 
@@ -1459,7 +1459,7 @@ country_event = {
 		OR = { owns = 2139 owns = 2123 }
 	}
 	mean_time_to_happen = { 
-		years = 10
+		years = 20
 	}
 	immediate = { 
 		hidden_effect = { 

@@ -18,3 +18,10 @@ capital = 5795
 	add_absolutism = -100
 	add_absolutism = 25
 }
+
+1356.1.1 = {
+	monarch = {
+		name = "Hikuiti"
+		dynasty = "Rarawa"
+	}
+}
