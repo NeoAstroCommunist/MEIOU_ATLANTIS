@@ -7,3 +7,6 @@ And run mod.
 Хочу напомнить, что репозитории не скомпилирован и в нём нет СИМ-файла. Без СИМ-файла мод работать не будет. Если тебе нужен файл - пиши мне в дискорд NAC #7662
 Когда у тебя будет СИМ-файл, клади его в папку events, потом кидай весь мод в корень НЕСКОМПИЛИРОВАННОЙ версии Meiou and Taxes Alpha 11 с заменой всего.
 И запускай мод.
+
+P.s. It's actually much easier to download mod from workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=2760545997&searchtext=
+Пы.сы. На самом деле мод проще скачать в мастерской: https://steamcommunity.com/sharedfiles/filedetails/?id=2760545997&searchtext=
