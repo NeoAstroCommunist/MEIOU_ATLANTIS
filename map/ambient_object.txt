@@ -2995,6 +2995,9 @@ type={
 		}
 	}
 }
+type={
+	type="pin_red"
+	use_animation=no
 object = {
 	name = "pin_1"
 	hidden_on_start = yes
@@ -13006,7 +13009,7 @@ object = {
 object = {
 	name = "pin_1669"
 	hidden_on_start = yes
-	position = { 2211.000 2.000 1634.000 }
+	position = { 2258.000 2.000 1581.000 }
 	rotation = { 0.000 0.000 0.000 }
 }
 object = {
@@ -38323,3 +38326,5 @@ object = {
 	position = { 4883.000 2.000 473.000 }
 	rotation = { 0.000 0.000 0.000 }
 }
+}
+

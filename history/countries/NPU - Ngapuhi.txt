@@ -23,5 +23,8 @@ capital = 822
 	monarch = {
 		name = "Tauramoko"
 		dynasty = "Ngapuhi"
+		adm = 0
+		dip = 0
+		mil = 0
 	}
 }

@@ -1,0 +1,58 @@
+
+#Western Schism Vote
+defined_text = {
+	name = VoteCount1_WS
+	
+	text = {
+		localisation_key = VoteCount1_WSW
+		trigger = {
+			has_global_flag = DG_Western_Schism_Vote
+			event_target:western_schism_site = { is_key_equal = { lhs = VoteCountW value = 1 } }
+		}
+	}
+	text = {
+		localisation_key = VoteCount1_WSN
+		trigger = {
+			has_global_flag = DG_Western_Schism_Vote
+			NOT = { event_target:western_schism_site = { is_key_equal = { lhs = VoteCountW value = 1 } } }
+		}
+	}
+}
+
+defined_text = {
+	name = VoteCount2_WS
+	
+	text = {
+		localisation_key = VoteCount2_WSW
+		trigger = {
+			has_global_flag = DG_Western_Schism_Vote
+			event_target:western_schism_site = { is_key_equal = { lhs = VoteCountW value = 2 } }
+		}
+	}
+	text = {
+		localisation_key = VoteCount2_WSN
+		trigger = {
+			has_global_flag = DG_Western_Schism_Vote
+			NOT = { event_target:western_schism_site = { is_key_equal = { lhs = VoteCountW value = 2 } } }
+		}
+	}
+}
+
+defined_text = {
+	name = VoteCount3_WS
+	
+	text = {
+		localisation_key = VoteCount3_WSW
+		trigger = {
+			has_global_flag = DG_Western_Schism_Vote
+			event_target:western_schism_site = { is_key_equal = { lhs = VoteCountW value = 3 } }
+		}
+	}
+	text = {
+		localisation_key = VoteCount3_WSN
+		trigger = {
+			has_global_flag = DG_Western_Schism_Vote
+			NOT = { event_target:western_schism_site = { is_key_equal = { lhs = VoteCountW value = 3 } } }
+		}
+	}
+}

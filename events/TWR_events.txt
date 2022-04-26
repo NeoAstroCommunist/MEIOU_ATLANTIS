@@ -30,6 +30,7 @@ country_event = {
 		SSW = { 
 			country_event = { 
 				id = flavor_TWR.2
+				days = 5
 			}
 		}
 	}
@@ -59,6 +60,7 @@ country_event = {
 		TWR = { 
 			country_event = { 
 				id = flavor_TWR.3
+				days = 5
 			}
 		}
 	}
@@ -70,6 +72,7 @@ country_event = {
         TWR = { 
 			country_event = {
 				id = flavor_TWR.4
+				days = 5
 			}
 		}
 	}
@@ -159,6 +162,7 @@ country_event = {
 		SSW = { 
 			country_event = { 
 				id = flavor_TWR.6
+				days = 5
 			}
 		}
 	}
@@ -187,6 +191,7 @@ country_event = {
 		ZLD = { 
 			country_event = { 
 				id = flavor_TWR.7
+				days = 5
 			}
 		}
 	}
@@ -199,6 +204,7 @@ country_event = {
 		    clr_country_flag = TWR_sinic_relations_1
 			country_event = { 
 				id = flavor_TWR.8
+				days = 5
 			}
 		}
 	}
@@ -220,6 +226,7 @@ country_event = {
 		TWR = { 
 			country_event = { 
 				id = flavor_TWR.10
+				days = 5
 			}
 		}
 	}
@@ -232,6 +239,7 @@ country_event = {
 		    clr_country_flag = TWR_sinic_relations_1
 			country_event = { 
 				id = flavor_TWR.9
+				days = 5
 			}
 		}
 	}

@@ -133,7 +133,6 @@ country_event = {
 		name = "vajrayana_rebellion_ZLD.5.a"
 		add_adm_power = 100
 		clr_country_flag = vajrayana_rebelled
-		set_country_flag = can_declare_war_zld
 	}
 }
 

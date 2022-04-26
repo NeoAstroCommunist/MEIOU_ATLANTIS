@@ -40,7 +40,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		years = 200 # 100 years
+		years = 100 # 100 years
 	}
 	
 	immediate = {
@@ -656,7 +656,7 @@ country_event = {
 			has_country_flag = MEC_Expeditions_sent_iberian_islands
 		}
 		ai_chance = {
-			factor = 200
+			factor = 300
 			modifier = { # Less likely to send expeditions to places you already have a province
 				factor = 0.1
 				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
@@ -1237,7 +1237,7 @@ country_event = {
 			has_country_flag = MEC_Expeditions_sent_south_africa
 		}
 		ai_chance = {
-			factor = 1200
+			factor = 1300
 			modifier = { # More likely to send expeditions to places you already have a province
 				factor = 5
 				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
@@ -1699,7 +1699,7 @@ country_event = {
 			has_country_flag = MEC_Expeditions_sent_western_india
 		}
 		ai_chance = {
-			factor = 1200
+			factor = 1300
 			modifier = { # Less likely to send expeditions to places you already have a province
 				factor = 0.1
 				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
@@ -1820,7 +1820,7 @@ country_event = {
 			has_country_flag = MEC_Expeditions_sent_southern_india
 		}
 		ai_chance = {
-			factor = 1200
+			factor = 1300
 			modifier = { # Less likely to send expeditions to places you already have a province
 				factor = 0.1
 				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
@@ -1941,7 +1941,7 @@ country_event = {
 			has_country_flag = MEC_Expeditions_sent_eastern_india
 		}
 		ai_chance = {
-			factor = 1200
+			factor = 1300
 			modifier = { # Less likely to send expeditions to places you already have a province
 				factor = 0.1
 				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
@@ -2069,7 +2069,7 @@ country_event = {
 				NOT = {
 					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 						value = 1
-						province_group = tradenode_comb_23
+						province_group = tradenode_comb_33
 					}
 				}
 			}
@@ -2179,13 +2179,13 @@ country_event = {
 				NOT = {
 					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 						value = 1
-						province_group = tradenode_comb_19
+						province_group = tradenode_comb_29
 					}
 				}
 				NOT = {
 					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 						value = 1
-						province_group = tradenode_comb_18
+						province_group = tradenode_comb_28
 					}
 				}
 			}
@@ -2282,14 +2282,14 @@ country_event = {
 			has_country_flag = MEC_Expeditions_sent_indonesia
 		}
 		ai_chance = {
-			factor = 1200
+			factor = 1300
 			modifier = { # Less likely to send expeditions to places you have no trade node connection with
 				factor = 0 
 				NOT = {is_year = 1650}
 				NOT = {
 					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 						value = 1
-						province_group = tradenode_comb_22
+						province_group = tradenode_comb_32
 					}
 				}
 			}
@@ -2393,7 +2393,7 @@ country_event = {
 				NOT = {
 					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 						value = 1
-						province_group = tradenode_comb_19
+						province_group = tradenode_comb_29
 					}
 				}
 			}
@@ -2856,7 +2856,7 @@ country_event = {
 				NOT = {
 					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 						value = 1
-						province_group = tradenode_comb_17
+						province_group = tradenode_comb_27
 					}
 				}
 			}
@@ -3788,7 +3788,7 @@ country_event = {
 			has_country_flag = MEC_Expeditions_sent_guyana
 		}
 		ai_chance = {
-			factor = 200
+			factor = 300
 			modifier = { # More likely to send expeditions to places you already have a province
 				factor = 5
 				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
@@ -4238,7 +4238,7 @@ country_event = {
 			has_country_flag = MEC_Expeditions_sent_gulf_of_mexico
 		}
 		ai_chance = {
-			factor = 200
+			factor = 300
 			modifier = { # More likely to send expeditions to places you already have a province
 				factor = 5
 				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
@@ -4583,7 +4583,7 @@ country_event = {
 			has_country_flag = MEC_Expeditions_sent_canada
 		}
 		ai_chance = {
-			factor = 200
+			factor = 300
 			modifier = { # More likely to send expeditions to places you already have a province
 				factor = 5
 				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
@@ -5370,7 +5370,7 @@ country_event = {
 			has_country_flag = MEC_Expeditions_sent_pacific_central_america
 		}
 		ai_chance = {
-			factor = 1200
+			factor = 1300
 			modifier = { # More likely to send expeditions to places you already have a province
 				factor = 5
 				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
@@ -5495,7 +5495,7 @@ country_event = {
 				NOT = {
 					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 						value = 1
-						province_group = tradenode_comb_15
+						province_group = tradenode_comb_25
 					}
 				}
 			}
@@ -5606,7 +5606,7 @@ country_event = {
 				NOT = {
 					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 						value = 1
-						province_group = tradenode_comb_15
+						province_group = tradenode_comb_25
 					}
 				}
 			}
@@ -6837,7 +6837,7 @@ country_event = {
 			NOT = { has_country_flag = MEC_Expeditions_sent_iberian_islands }
 		}
 		ai_chance = {
-			factor = 200
+			factor = 300
 			modifier = { # Less likely to send expeditions to places you already have a province
 				factor = 0.1
 				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
@@ -7678,7 +7678,7 @@ country_event = {
 			NOT = { has_country_flag = MEC_Expeditions_sent_south_africa }
 		}
 		ai_chance = {
-			factor = 1200
+			factor = 1300
 			modifier = { # More likely to send expeditions to places you already have a province
 				factor = 5
 				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
@@ -8371,7 +8371,7 @@ country_event = {
 			NOT = { has_country_flag = MEC_Expeditions_sent_western_india }
 		}
 		ai_chance = {
-			factor = 1200
+			factor = 1300
 			modifier = { # Less likely to send expeditions to places you already have a province
 				factor = 0.1
 				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
@@ -8544,7 +8544,7 @@ country_event = {
 			NOT = { has_country_flag = MEC_Expeditions_sent_southern_india }
 		}
 		ai_chance = {
-			factor = 1200
+			factor = 1300
 			modifier = { # Less likely to send expeditions to places you already have a province
 				factor = 0.1
 				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
@@ -8717,7 +8717,7 @@ country_event = {
 			NOT = { has_country_flag = MEC_Expeditions_sent_eastern_india }
 		}
 		ai_chance = {
-			factor = 1200
+			factor = 1300
 			modifier = { # Less likely to send expeditions to places you already have a province
 				factor = 0.1
 				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
@@ -8897,7 +8897,7 @@ country_event = {
 				NOT = {
 					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 						value = 1
-						province_group = tradenode_comb_23
+						province_group = tradenode_comb_33
 					}
 				}
 			}
@@ -9059,13 +9059,13 @@ country_event = {
 				NOT = {
 					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 						value = 1
-						province_group = tradenode_comb_19
+						province_group = tradenode_comb_29
 					}
 				}
 				NOT = {
 					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 						value = 1
-						province_group = tradenode_comb_18
+						province_group = tradenode_comb_28
 					}
 				}
 			}
@@ -9214,14 +9214,14 @@ country_event = {
 			NOT = { has_country_flag = MEC_Expeditions_sent_indonesia }
 		}
 		ai_chance = {
-			factor = 1200
+			factor = 1300
 			modifier = { # Less likely to send expeditions to places you have no trade node connection with
 				factor = 0 
 				NOT = {is_year = 1650}
 				NOT = {
 					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 						value = 1
-						province_group = tradenode_comb_22
+						province_group = tradenode_comb_32
 					}
 				}
 			}
@@ -9377,7 +9377,7 @@ country_event = {
 				NOT = {
 					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 						value = 1
-						province_group = tradenode_comb_19
+						province_group = tradenode_comb_29
 					}
 				}
 			}
@@ -10071,7 +10071,7 @@ country_event = {
 				NOT = {
 					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 						value = 1
-						province_group = tradenode_comb_17
+						province_group = tradenode_comb_27
 					}
 				}
 			}
@@ -11488,7 +11488,7 @@ country_event = {
 			NOT = { has_country_flag = MEC_Expeditions_sent_guyana }
 		}
 		ai_chance = {
-			factor = 200
+			factor = 300
 			modifier = { # More likely to send expeditions to places you already have a province
 				factor = 5
 				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
@@ -12238,7 +12238,7 @@ country_event = {
 			NOT = { has_country_flag = MEC_Expeditions_sent_gulf_of_mexico }
 		}
 		ai_chance = {
-			factor = 200
+			factor = 300
 			modifier = { # More likely to send expeditions to places you already have a province
 				factor = 5
 				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
@@ -12808,7 +12808,7 @@ country_event = {
 			NOT = { has_country_flag = MEC_Expeditions_sent_canada }
 		}
 		ai_chance = {
-			factor = 200
+			factor = 300
 			modifier = { # More likely to send expeditions to places you already have a province
 				factor = 5
 				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
@@ -14097,7 +14097,7 @@ country_event = {
 			NOT = { has_country_flag = MEC_Expeditions_sent_pacific_central_america }
 		}
 		ai_chance = {
-			factor = 1200
+			factor = 1300
 			modifier = { # More likely to send expeditions to places you already have a province
 				factor = 5
 				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
@@ -14297,7 +14297,7 @@ country_event = {
 				NOT = {
 					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 						value = 1
-						province_group = tradenode_comb_15
+						province_group = tradenode_comb_25
 					}
 				}
 			}
@@ -14483,7 +14483,7 @@ country_event = {
 				NOT = {
 					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 						value = 1
-						province_group = tradenode_comb_15
+						province_group = tradenode_comb_25
 					}
 				}
 			}

@@ -41,234 +41,234 @@ expeditions_list = []  # Expeditions must have appropriately named province grou
 # the British Isles
 expeditions_list.append(Expedition('british_isles', 'the British Isles', 0, 'Jumping Node', [77]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 15), ('East Atlantis Node', 15), ('South Atlantis Node', 15), ('North Atlantis Node', 15), ('Iberia', 15), ('Strait of Gibraltar', 15), ('West Mediterranean', 15), ('France', 13), ('Channel', 13), ('North Sea', 13), ('Barbary Coast', 15), ('Tyrrenean Sea', 15), ('Rhineland', 13), ('Lower Nile', 15), ('Po Valley', 15), ('Adriatic Sea', 15), ('Levant', 15), ('Aegean Sea', 15),
-     ('Danube', 15), ('Elbe', 13), ('Baltic Sea', 15), ('Vistula', 15), ('Crimea', 15), ('Western Siberia', 15), ('Dnieper', 15), ('Caspian Sea', 15), ('Zalesye', 15), ('Anatolia', 15), ('Sahara', 15), ('Senegambia', 17), ('Niger River', 17), ('Guinea Coast',
-                                                                                                                                                                                                                                                    18), ('Lake Tchad', 18), ('Kongo', 18),
-     ('South Africa', 20), ('Monomotapa', 20), ('Zanj', 20), ('Red Sea', 22), ('Upper Nile', 22), ('Arabia', 22), ('Iran', 22), ('Khorasan', 22), ('Mawarannahr', 22), ('Yettishar', 22),
-     ('Punjab', 22), ('Gurjaratra', 22), ('Konkan', 22), ('Deccan Plateau', 22), ('Tamilakam', 22), ('Kalinga', 22), ('Delhi', 22), ('Bihar', 22), ('Bengal', 22), ('Himalayan Plateau', 22), ('Ayeyarwady', 22), ('Chao Phraya', 23), ('Malacca Strait', 23), ('Mekong', 23), ('Moluccas', 23),
-     ('Champa Sea', 23), ('Australia', 23), ('Liangguang', 23), ('Szechwan', 23), ('Huazhong', 23), ('Jiangnan', 23), ('Huabei', 23), ('Xibei', 23), ('Zhongyuan', 23), ('Eastern Siberia', 23), ('Nippon', 23),
-     ('Far East', 23), ('Andes', 22), ('Southern Cone', 21), ('Guiana', 20), ('Amazonia', 22), ('Panama', 21), ('Caribbean', 20), ('Mexico', 21), ('Rio Grande', 21), ('Mississippi', 21), ('Plains', 21), ('Eastern Seaboard', 19), ('Canada', 19),
-     ('American West Coast', 23), ('Pacific', 33)])
+    [('West Atlantis Node', 25), ('East Atlantis Node', 25), ('South Atlantis Node', 25), ('North Atlantis Node', 25), ('Iberia', 25), ('Strait of Gibraltar', 25), ('West Mediterranean', 25), ('France', 33), ('Channel', 33), ('North Sea', 33), ('Barbary Coast', 25), ('Tyrrenean Sea', 25), ('Rhineland', 33), ('Lower Nile', 25), ('Po Valley', 25), ('Adriatic Sea', 25), ('Levant', 25), ('Aegean Sea', 25),
+     ('Danube', 25), ('Elbe', 33), ('Baltic Sea', 25), ('Vistula', 25), ('Crimea', 25), ('Western Siberia', 25), ('Dnieper', 25), ('Caspian Sea', 25), ('Zalesye', 25), ('Anatolia', 25), ('Sahara', 25), ('Senegambia', 27), ('Niger River', 27), ('Guinea Coast',
+                                                                                                                                                                                                                                                    28), ('Lake Tchad', 28), ('Kongo', 28),
+     ('South Africa', 30), ('Monomotapa', 30), ('Zanj', 30), ('Red Sea', 32), ('Upper Nile', 32), ('Arabia', 32), ('Iran', 32), ('Khorasan', 32), ('Mawarannahr', 32), ('Yettishar', 32),
+     ('Punjab', 32), ('Gurjaratra', 32), ('Konkan', 32), ('Deccan Plateau', 32), ('Tamilakam', 32), ('Kalinga', 32), ('Delhi', 32), ('Bihar', 32), ('Bengal', 32), ('Himalayan Plateau', 32), ('Ayeyarwady', 32), ('Chao Phraya', 33), ('Malacca Strait', 33), ('Mekong', 33), ('Moluccas', 33),
+     ('Champa Sea', 33), ('Australia', 33), ('Liangguang', 33), ('Szechwan', 33), ('Huazhong', 33), ('Jiangnan', 33), ('Huabei', 33), ('Xibei', 33), ('Zhongyuan', 33), ('Eastern Siberia', 33), ('Nippon', 33),
+     ('Far East', 33), ('Andes', 32), ('Southern Cone', 31), ('Guiana', 30), ('Amazonia', 32), ('Panama', 31), ('Caribbean', 30), ('Mexico', 31), ('Rio Grande', 31), ('Mississippi', 31), ('Plains', 31), ('Eastern Seaboard', 29), ('Canada', 29),
+     ('American West Coast', 33), ('Pacific', 33)])
 # Northern Europe
 expeditions_list.append(Expedition('northern_europe', 'Northern Europe', 0, 'Jumping Node', [81]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 15), ('East Atlantis Node', 15), ('South Atlantis Node', 15), ('North Atlantis Node', 15), ('Iberia', 15), ('Strait of Gibraltar', 15), ('West Mediterranean', 15), ('France', 13), ('Channel', 13), ('North Sea', 13), ('Barbary Coast', 15), ('Tyrrenean Sea', 15), ('Rhineland', 13), ('Lower Nile', 15), ('Po Valley', 15), ('Adriatic Sea', 15), ('Levant', 15), ('Aegean Sea', 15),
-     ('Danube', 15), ('Elbe', 13), ('Baltic Sea', 13), ('Vistula', 15), ('Crimea', 15), ('Western Siberia', 15), ('Dnieper', 15), ('Caspian Sea', 15), ('Zalesye', 15), ('Anatolia', 15), ('Sahara', 15), ('Senegambia', 17), ('Niger River', 17), ('Guinea Coast',
-                                                                                                                                                                                                                                                    18), ('Lake Tchad', 18), ('Kongo', 18),
-     ('South Africa', 20), ('Monomotapa', 20), ('Zanj', 20), ('Red Sea', 22), ('Upper Nile', 22), ('Arabia', 22), ('Iran', 22), ('Khorasan', 22), ('Mawarannahr', 22), ('Yettishar', 22),
-     ('Punjab', 22), ('Gurjaratra', 22), ('Konkan', 22), ('Deccan Plateau', 22), ('Tamilakam', 22), ('Kalinga', 22), ('Delhi', 22), ('Bihar', 22), ('Bengal', 22), ('Himalayan Plateau', 22), ('Ayeyarwady', 22), ('Chao Phraya', 23), ('Malacca Strait', 23), ('Mekong', 23), ('Moluccas', 23),
-     ('Champa Sea', 23), ('Australia', 23), ('Liangguang', 23), ('Szechwan', 23), ('Huazhong', 23), ('Jiangnan', 23), ('Huabei', 23), ('Xibei', 23), ('Zhongyuan', 23), ('Eastern Siberia', 23), ('Nippon', 23),
-     ('Far East', 23), ('Andes', 22), ('Southern Cone', 21), ('Guiana', 20), ('Amazonia', 22), ('Panama', 21), ('Caribbean', 20), ('Mexico', 21), ('Rio Grande', 21), ('Mississippi', 21), ('Plains', 21), ('Eastern Seaboard', 19), ('Canada', 19),
-     ('American West Coast', 23), ('Pacific', 33)])
+    [('West Atlantis Node', 25), ('East Atlantis Node', 25), ('South Atlantis Node', 25), ('North Atlantis Node', 25), ('Iberia', 25), ('Strait of Gibraltar', 25), ('West Mediterranean', 25), ('France', 33), ('Channel', 33), ('North Sea', 33), ('Barbary Coast', 25), ('Tyrrenean Sea', 25), ('Rhineland', 33), ('Lower Nile', 25), ('Po Valley', 25), ('Adriatic Sea', 25), ('Levant', 25), ('Aegean Sea', 25),
+     ('Danube', 25), ('Elbe', 33), ('Baltic Sea', 33), ('Vistula', 25), ('Crimea', 25), ('Western Siberia', 25), ('Dnieper', 25), ('Caspian Sea', 25), ('Zalesye', 25), ('Anatolia', 25), ('Sahara', 25), ('Senegambia', 27), ('Niger River', 27), ('Guinea Coast',
+                                                                                                                                                                                                                                                    28), ('Lake Tchad', 28), ('Kongo', 28),
+     ('South Africa', 30), ('Monomotapa', 30), ('Zanj', 30), ('Red Sea', 32), ('Upper Nile', 32), ('Arabia', 32), ('Iran', 32), ('Khorasan', 32), ('Mawarannahr', 32), ('Yettishar', 32),
+     ('Punjab', 32), ('Gurjaratra', 32), ('Konkan', 32), ('Deccan Plateau', 32), ('Tamilakam', 32), ('Kalinga', 32), ('Delhi', 32), ('Bihar', 32), ('Bengal', 32), ('Himalayan Plateau', 32), ('Ayeyarwady', 32), ('Chao Phraya', 33), ('Malacca Strait', 33), ('Mekong', 33), ('Moluccas', 33),
+     ('Champa Sea', 33), ('Australia', 33), ('Liangguang', 33), ('Szechwan', 33), ('Huazhong', 33), ('Jiangnan', 33), ('Huabei', 33), ('Xibei', 33), ('Zhongyuan', 33), ('Eastern Siberia', 33), ('Nippon', 33),
+     ('Far East', 33), ('Andes', 32), ('Southern Cone', 31), ('Guiana', 30), ('Amazonia', 32), ('Panama', 31), ('Caribbean', 30), ('Mexico', 31), ('Rio Grande', 31), ('Mississippi', 31), ('Plains', 31), ('Eastern Seaboard', 29), ('Canada', 29),
+     ('American West Coast', 33), ('Pacific', 33)])
 # France
 expeditions_list.append(Expedition('france', 'France', 0, 'Jumping Node', [77]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 15), ('East Atlantis Node', 15), ('South Atlantis Node', 15), ('North Atlantis Node', 15), ('Iberia', 13), ('Strait of Gibraltar', 15), ('West Mediterranean', 15), ('France', 13), ('Channel', 13), ('North Sea', 13), ('Barbary Coast', 15), ('Tyrrenean Sea', 15), ('Rhineland', 13), ('Lower Nile', 15), ('Po Valley', 15), ('Adriatic Sea', 15), ('Levant', 15), ('Aegean Sea', 15),
-     ('Danube', 15), ('Elbe', 13), ('Baltic Sea', 15), ('Vistula', 15), ('Crimea', 15), ('Western Siberia', 15), ('Dnieper', 15), ('Caspian Sea', 15), ('Zalesye', 15), ('Anatolia', 15), ('Sahara', 15), ('Senegambia', 17), ('Niger River', 17), ('Guinea Coast',
-                                                                                                                                                                                                                                                    18), ('Lake Tchad', 18), ('Kongo', 18),
-     ('South Africa', 20), ('Monomotapa', 20), ('Zanj', 20), ('Red Sea', 22), ('Upper Nile', 22), ('Arabia', 22), ('Iran', 22), ('Khorasan', 22), ('Mawarannahr', 22), ('Yettishar', 22),
-     ('Punjab', 22), ('Gurjaratra', 22), ('Konkan', 22), ('Deccan Plateau', 22), ('Tamilakam', 22), ('Kalinga', 22), ('Delhi', 22), ('Bihar', 22), ('Bengal', 22), ('Himalayan Plateau', 22), ('Ayeyarwady', 22), ('Chao Phraya', 23), ('Malacca Strait', 23), ('Mekong', 23), ('Moluccas', 23),
-     ('Champa Sea', 23), ('Australia', 23), ('Liangguang', 23), ('Szechwan', 23), ('Huazhong', 23), ('Jiangnan', 23), ('Huabei', 23), ('Xibei', 23), ('Zhongyuan', 23), ('Eastern Siberia', 23), ('Nippon', 23),
-     ('Far East', 23), ('Andes', 22), ('Southern Cone', 21), ('Guiana', 20), ('Amazonia', 22), ('Panama', 21), ('Caribbean', 20), ('Mexico', 21), ('Rio Grande', 21), ('Mississippi', 21), ('Plains', 21), ('Eastern Seaboard', 19), ('Canada', 19),
-     ('American West Coast', 23), ('Pacific', 33)])
+    [('West Atlantis Node', 25), ('East Atlantis Node', 25), ('South Atlantis Node', 25), ('North Atlantis Node', 25), ('Iberia', 33), ('Strait of Gibraltar', 25), ('West Mediterranean', 25), ('France', 33), ('Channel', 33), ('North Sea', 33), ('Barbary Coast', 25), ('Tyrrenean Sea', 25), ('Rhineland', 33), ('Lower Nile', 25), ('Po Valley', 25), ('Adriatic Sea', 25), ('Levant', 25), ('Aegean Sea', 25),
+     ('Danube', 25), ('Elbe', 33), ('Baltic Sea', 25), ('Vistula', 25), ('Crimea', 25), ('Western Siberia', 25), ('Dnieper', 25), ('Caspian Sea', 25), ('Zalesye', 25), ('Anatolia', 25), ('Sahara', 25), ('Senegambia', 27), ('Niger River', 27), ('Guinea Coast',
+                                                                                                                                                                                                                                                    28), ('Lake Tchad', 28), ('Kongo', 28),
+     ('South Africa', 30), ('Monomotapa', 30), ('Zanj', 30), ('Red Sea', 32), ('Upper Nile', 32), ('Arabia', 32), ('Iran', 32), ('Khorasan', 32), ('Mawarannahr', 32), ('Yettishar', 32),
+     ('Punjab', 32), ('Gurjaratra', 32), ('Konkan', 32), ('Deccan Plateau', 32), ('Tamilakam', 32), ('Kalinga', 32), ('Delhi', 32), ('Bihar', 32), ('Bengal', 32), ('Himalayan Plateau', 32), ('Ayeyarwady', 32), ('Chao Phraya', 33), ('Malacca Strait', 33), ('Mekong', 33), ('Moluccas', 33),
+     ('Champa Sea', 33), ('Australia', 33), ('Liangguang', 33), ('Szechwan', 33), ('Huazhong', 33), ('Jiangnan', 33), ('Huabei', 33), ('Xibei', 33), ('Zhongyuan', 33), ('Eastern Siberia', 33), ('Nippon', 33),
+     ('Far East', 33), ('Andes', 32), ('Southern Cone', 31), ('Guiana', 30), ('Amazonia', 32), ('Panama', 31), ('Caribbean', 30), ('Mexico', 31), ('Rio Grande', 31), ('Mississippi', 31), ('Plains', 31), ('Eastern Seaboard', 29), ('Canada', 29),
+     ('American West Coast', 33), ('Pacific', 33)])
 # Iberia
 expeditions_list.append(Expedition('iberia', 'Iberia', 0, 'Jumping Node', [67, 70]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 15), ('East Atlantis Node', 15), ('South Atlantis Node', 15), ('North Atlantis Node', 15), ('Iberia', 13), ('Strait of Gibraltar', 13), ('West Mediterranean', 15), ('France', 15), ('Channel', 15), ('North Sea', 15), ('Barbary Coast', 15), ('Tyrrenean Sea', 15), ('Rhineland', 15), ('Lower Nile', 15), ('Po Valley', 15), ('Adriatic Sea', 15), ('Levant', 15), ('Aegean Sea', 15),
-     ('Danube', 15), ('Elbe', 15), ('Baltic Sea', 15), ('Vistula', 15), ('Crimea', 15), ('Western Siberia', 15), ('Dnieper', 15), ('Caspian Sea', 15), ('Zalesye', 15), ('Anatolia', 15), ('Sahara', 15), ('Senegambia', 16), ('Niger River', 16),
-     ('Guinea Coast', 17), ('Lake Tchad', 17), ('Kongo', 18), ('South Africa', 20), ('Monomotapa', 20), ('Zanj', 20), ('Red Sea', 22), ('Upper Nile', 22), ('Arabia', 22), ('Iran', 22), ('Khorasan', 22), ('Mawarannahr', 22), ('Yettishar', 22),
-     ('Punjab', 22), ('Gurjaratra', 22), ('Konkan', 22), ('Deccan Plateau', 22), ('Tamilakam', 22), ('Kalinga', 22), ('Delhi', 22), ('Bihar', 22), ('Bengal', 22), ('Himalayan Plateau', 22), ('Ayeyarwady', 22), ('Chao Phraya', 23), ('Malacca Strait', 23), ('Mekong', 23), ('Moluccas', 23),
-     ('Champa Sea', 23), ('Australia', 23), ('Liangguang', 23), ('Szechwan', 23), ('Huazhong', 23), ('Jiangnan', 23), ('Huabei', 23), ('Xibei', 23), ('Zhongyuan', 23), ('Eastern Siberia', 23), ('Nippon', 23),
-     ('Far East', 23), ('Andes', 22), ('Southern Cone', 21), ('Guiana', 20), ('Amazonia', 22), ('Panama', 21), ('Caribbean', 19), ('Mexico', 21), ('Rio Grande', 21), ('Mississippi', 21), ('Plains', 21), ('Eastern Seaboard', 19), ('Canada', 19),
-     ('American West Coast', 23), ('Pacific', 33)])
+    [('West Atlantis Node', 25), ('East Atlantis Node', 25), ('South Atlantis Node', 25), ('North Atlantis Node', 25), ('Iberia', 33), ('Strait of Gibraltar', 33), ('West Mediterranean', 25), ('France', 25), ('Channel', 25), ('North Sea', 25), ('Barbary Coast', 25), ('Tyrrenean Sea', 25), ('Rhineland', 25), ('Lower Nile', 25), ('Po Valley', 25), ('Adriatic Sea', 25), ('Levant', 25), ('Aegean Sea', 25),
+     ('Danube', 25), ('Elbe', 25), ('Baltic Sea', 25), ('Vistula', 25), ('Crimea', 25), ('Western Siberia', 25), ('Dnieper', 25), ('Caspian Sea', 25), ('Zalesye', 25), ('Anatolia', 25), ('Sahara', 25), ('Senegambia', 16), ('Niger River', 16),
+     ('Guinea Coast', 27), ('Lake Tchad', 27), ('Kongo', 28), ('South Africa', 30), ('Monomotapa', 30), ('Zanj', 30), ('Red Sea', 32), ('Upper Nile', 32), ('Arabia', 32), ('Iran', 32), ('Khorasan', 32), ('Mawarannahr', 32), ('Yettishar', 32),
+     ('Punjab', 32), ('Gurjaratra', 32), ('Konkan', 32), ('Deccan Plateau', 32), ('Tamilakam', 32), ('Kalinga', 32), ('Delhi', 32), ('Bihar', 32), ('Bengal', 32), ('Himalayan Plateau', 32), ('Ayeyarwady', 32), ('Chao Phraya', 33), ('Malacca Strait', 33), ('Mekong', 33), ('Moluccas', 33),
+     ('Champa Sea', 33), ('Australia', 33), ('Liangguang', 33), ('Szechwan', 33), ('Huazhong', 33), ('Jiangnan', 33), ('Huabei', 33), ('Xibei', 33), ('Zhongyuan', 33), ('Eastern Siberia', 33), ('Nippon', 33),
+     ('Far East', 33), ('Andes', 32), ('Southern Cone', 31), ('Guiana', 30), ('Amazonia', 32), ('Panama', 31), ('Caribbean', 29), ('Mexico', 31), ('Rio Grande', 31), ('Mississippi', 31), ('Plains', 31), ('Eastern Seaboard', 29), ('Canada', 29),
+     ('American West Coast', 33), ('Pacific', 33)])
 # the Iberian Islands
-expeditions_list.append(Expedition('iberian_islands', 'the Iberian Islands', 200, 'Jumping Node', [67, 70]))
+expeditions_list.append(Expedition('iberian_islands', 'the Iberian Islands', 300, 'Jumping Node', [67, 70]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 15), ('East Atlantis Node', 15), ('South Atlantis Node', 15), ('North Atlantis Node', 15), ('Iberia', 13), ('Strait of Gibraltar', 13), ('West Mediterranean', 15), ('France', 15), ('Channel', 15), ('North Sea', 15), ('Barbary Coast', 15), ('Tyrrenean Sea', 15), ('Rhineland', 15), ('Lower Nile', 15), ('Po Valley', 15), ('Adriatic Sea', 15), ('Levant', 15), ('Aegean Sea', 15),
-     ('Danube', 15), ('Elbe', 15), ('Baltic Sea', 15), ('Vistula', 15), ('Crimea', 15), ('Western Siberia', 15), ('Dnieper', 15), ('Caspian Sea', 15), ('Zalesye', 15), ('Anatolia', 15), ('Sahara', 15), ('Senegambia', 16), ('Niger River', 16),
-     ('Guinea Coast', 17), ('Lake Tchad', 17), ('Kongo', 18), ('South Africa', 20), ('Monomotapa', 20), ('Zanj', 20), ('Red Sea', 22), ('Upper Nile', 22), ('Arabia', 22), ('Iran', 22), ('Khorasan', 22), ('Mawarannahr', 22), ('Yettishar', 22),
-     ('Punjab', 22), ('Gurjaratra', 22), ('Konkan', 22), ('Deccan Plateau', 22), ('Tamilakam', 22), ('Kalinga', 22), ('Delhi', 22), ('Bihar', 22), ('Bengal', 22), ('Himalayan Plateau', 22), ('Ayeyarwady', 22), ('Chao Phraya', 22), ('Malacca Strait', 22), ('Mekong', 22), ('Moluccas', 22),
-     ('Champa Sea', 22), ('Australia', 23), ('Liangguang', 23), ('Szechwan', 23), ('Huazhong', 23), ('Jiangnan', 23), ('Huabei', 23), ('Xibei', 23), ('Zhongyuan', 23), ('Eastern Siberia', 23), ('Nippon', 23),
-     ('Far East', 23), ('Andes', 22), ('Southern Cone', 21), ('Guiana', 20), ('Amazonia', 20), ('Panama', 21), ('Caribbean', 19), ('Mexico', 21), ('Rio Grande', 21), ('Mississippi', 21), ('Plains', 21), ('Eastern Seaboard', 19), ('Canada', 19),
-     ('American West Coast', 23), ('Pacific', 33)])
+    [('West Atlantis Node', 25), ('East Atlantis Node', 25), ('South Atlantis Node', 25), ('North Atlantis Node', 25), ('Iberia', 33), ('Strait of Gibraltar', 33), ('West Mediterranean', 25), ('France', 25), ('Channel', 25), ('North Sea', 25), ('Barbary Coast', 25), ('Tyrrenean Sea', 25), ('Rhineland', 25), ('Lower Nile', 25), ('Po Valley', 25), ('Adriatic Sea', 25), ('Levant', 25), ('Aegean Sea', 25),
+     ('Danube', 25), ('Elbe', 25), ('Baltic Sea', 25), ('Vistula', 25), ('Crimea', 25), ('Western Siberia', 25), ('Dnieper', 25), ('Caspian Sea', 25), ('Zalesye', 25), ('Anatolia', 25), ('Sahara', 25), ('Senegambia', 16), ('Niger River', 16),
+     ('Guinea Coast', 27), ('Lake Tchad', 27), ('Kongo', 28), ('South Africa', 30), ('Monomotapa', 30), ('Zanj', 30), ('Red Sea', 32), ('Upper Nile', 32), ('Arabia', 32), ('Iran', 32), ('Khorasan', 32), ('Mawarannahr', 32), ('Yettishar', 32),
+     ('Punjab', 32), ('Gurjaratra', 32), ('Konkan', 32), ('Deccan Plateau', 32), ('Tamilakam', 32), ('Kalinga', 32), ('Delhi', 32), ('Bihar', 32), ('Bengal', 32), ('Himalayan Plateau', 32), ('Ayeyarwady', 32), ('Chao Phraya', 32), ('Malacca Strait', 32), ('Mekong', 32), ('Moluccas', 32),
+     ('Champa Sea', 32), ('Australia', 33), ('Liangguang', 33), ('Szechwan', 33), ('Huazhong', 33), ('Jiangnan', 33), ('Huabei', 33), ('Xibei', 33), ('Zhongyuan', 33), ('Eastern Siberia', 33), ('Nippon', 33),
+     ('Far East', 33), ('Andes', 32), ('Southern Cone', 31), ('Guiana', 30), ('Amazonia', 30), ('Panama', 31), ('Caribbean', 29), ('Mexico', 31), ('Rio Grande', 31), ('Mississippi', 31), ('Plains', 31), ('Eastern Seaboard', 29), ('Canada', 29),
+     ('American West Coast', 33), ('Pacific', 33)])
 # Northwest Africa
 expeditions_list.append(Expedition('northwest_africa', 'Northwest Africa', 100, 'Jumping Node', [52]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 15), ('East Atlantis Node', 15), ('South Atlantis Node', 15), ('North Atlantis Node', 15), ('Iberia', 13), ('Strait of Gibraltar', 13), ('West Mediterranean', 15), ('France', 15), ('Channel', 15), ('North Sea', 15), ('Barbary Coast', 15), ('Tyrrenean Sea', 15), ('Rhineland', 15), ('Lower Nile', 15), ('Po Valley', 15), ('Adriatic Sea', 15), ('Levant', 15), ('Aegean Sea', 15),
-     ('Danube', 15), ('Elbe', 15), ('Baltic Sea', 15), ('Vistula', 15), ('Crimea', 15), ('Western Siberia', 15), ('Dnieper', 15), ('Caspian Sea', 15), ('Zalesye', 15), ('Anatolia', 15), ('Sahara', 15), ('Senegambia', 16), ('Niger River', 16), ('Guinea Coast',
-                                                                                                                                                                                                                                                    17), ('Lake Tchad', 17), ('Kongo', 18),
-     ('South Africa', 20), ('Monomotapa', 20), ('Zanj', 20), ('Red Sea', 22), ('Upper Nile', 22), ('Arabia', 22), ('Iran', 22), ('Khorasan', 22), ('Mawarannahr', 22), ('Yettishar', 22),
-     ('Punjab', 22), ('Gurjaratra', 22), ('Konkan', 22), ('Deccan Plateau', 22), ('Tamilakam', 22), ('Kalinga', 22), ('Delhi', 22), ('Bihar', 22), ('Bengal', 22), ('Himalayan Plateau', 22), ('Ayeyarwady', 22), ('Chao Phraya', 22), ('Malacca Strait', 22), ('Mekong', 22), ('Moluccas', 22),
-     ('Champa Sea', 22), ('Australia', 23), ('Liangguang', 23), ('Szechwan', 23), ('Huazhong', 23), ('Jiangnan', 23), ('Huabei', 23), ('Xibei', 23), ('Zhongyuan', 23), ('Eastern Siberia', 23), ('Nippon', 23),
-     ('Far East', 23), ('Andes', 22), ('Southern Cone', 21), ('Guiana', 20), ('Amazonia', 22), ('Panama', 21), ('Caribbean', 19), ('Mexico', 21), ('Rio Grande', 21), ('Mississippi', 21), ('Plains', 21), ('Eastern Seaboard', 19), ('Canada', 19),
-     ('American West Coast', 23), ('Pacific', 33)])
+    [('West Atlantis Node', 25), ('East Atlantis Node', 25), ('South Atlantis Node', 25), ('North Atlantis Node', 25), ('Iberia', 33), ('Strait of Gibraltar', 33), ('West Mediterranean', 25), ('France', 25), ('Channel', 25), ('North Sea', 25), ('Barbary Coast', 25), ('Tyrrenean Sea', 25), ('Rhineland', 25), ('Lower Nile', 25), ('Po Valley', 25), ('Adriatic Sea', 25), ('Levant', 25), ('Aegean Sea', 25),
+     ('Danube', 25), ('Elbe', 25), ('Baltic Sea', 25), ('Vistula', 25), ('Crimea', 25), ('Western Siberia', 25), ('Dnieper', 25), ('Caspian Sea', 25), ('Zalesye', 25), ('Anatolia', 25), ('Sahara', 25), ('Senegambia', 16), ('Niger River', 16), ('Guinea Coast',
+                                                                                                                                                                                                                                                    27), ('Lake Tchad', 27), ('Kongo', 28),
+     ('South Africa', 30), ('Monomotapa', 30), ('Zanj', 30), ('Red Sea', 32), ('Upper Nile', 32), ('Arabia', 32), ('Iran', 32), ('Khorasan', 32), ('Mawarannahr', 32), ('Yettishar', 32),
+     ('Punjab', 32), ('Gurjaratra', 32), ('Konkan', 32), ('Deccan Plateau', 32), ('Tamilakam', 32), ('Kalinga', 32), ('Delhi', 32), ('Bihar', 32), ('Bengal', 32), ('Himalayan Plateau', 32), ('Ayeyarwady', 32), ('Chao Phraya', 32), ('Malacca Strait', 32), ('Mekong', 32), ('Moluccas', 32),
+     ('Champa Sea', 32), ('Australia', 33), ('Liangguang', 33), ('Szechwan', 33), ('Huazhong', 33), ('Jiangnan', 33), ('Huabei', 33), ('Xibei', 33), ('Zhongyuan', 33), ('Eastern Siberia', 33), ('Nippon', 33),
+     ('Far East', 33), ('Andes', 32), ('Southern Cone', 31), ('Guiana', 30), ('Amazonia', 32), ('Panama', 31), ('Caribbean', 29), ('Mexico', 31), ('Rio Grande', 31), ('Mississippi', 31), ('Plains', 31), ('Eastern Seaboard', 29), ('Canada', 29),
+     ('American West Coast', 33), ('Pacific', 33)])
 # West Africa
 expeditions_list.append(Expedition('west_africa', 'West Africa', 800, 'Jumping Node', [48]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 16), ('East Atlantis Node', 16), ('South Atlantis Node', 16), ('North Atlantis Node', 16), ('Iberia', 16), ('Strait of Gibraltar', 16), ('Sahara', 16), ('West Mediterranean', 17), ('France', 17), ('Channel', 17), ('North Sea', 17), ('Barbary Coast', 17), ('Tyrrenean Sea', 17), ('Rhineland', 17), ('Lower Nile', 17), ('Po Valley', 17), ('Adriatic Sea', 17), ('Levant', 17),
-     ('Aegean Sea', 17), ('Danube', 17), ('Elbe', 17), ('Baltic Sea', 17), ('Vistula', 17), ('Crimea', 17), ('Western Siberia', 17), ('Dnieper', 17), ('Caspian Sea', 17), ('Zalesye', 17), ('Anatolia', 17), ('Senegambia', 13), ('Niger River', 13), ('Guinea Coast',
-                                                                                                                                                                                                                                                        13), ('Lake Tchad', 13), ('Kongo', 15),
-     ('South Africa', 17), ('Monomotapa', 18), ('Zanj', 18), ('Red Sea', 20), ('Upper Nile', 20), ('Arabia', 20), ('Iran', 20), ('Khorasan', 20), ('Mawarannahr', 20), ('Yettishar', 20),
-     ('Punjab', 20), ('Gurjaratra', 20), ('Konkan', 20), ('Deccan Plateau', 20), ('Tamilakam', 20), ('Kalinga', 20), ('Delhi', 20), ('Bihar', 22), ('Bengal', 20), ('Himalayan Plateau', 20), ('Ayeyarwady', 20), ('Chao Phraya', 21), ('Malacca Strait', 21), ('Mekong', 21), ('Moluccas', 21),
-     ('Champa Sea', 21), ('Australia', 22), ('Liangguang', 22), ('Szechwan', 22), ('Huazhong', 22), ('Jiangnan', 22), ('Huabei', 22), ('Xibei', 22), ('Zhongyuan', 22), ('Eastern Siberia', 22), ('Nippon', 22),
-     ('Far East', 22), ('Andes', 21), ('Southern Cone', 20), ('Guiana', 17), ('Amazonia', 21), ('Panama', 21), ('Caribbean', 19), ('Mexico', 21), ('Rio Grande', 21), ('Mississippi', 21), ('Plains', 21), ('Eastern Seaboard', 21), ('Canada', 21),
-     ('American West Coast', 22), ('Pacific', 33)])
+    [('West Atlantis Node', 16), ('East Atlantis Node', 16), ('South Atlantis Node', 16), ('North Atlantis Node', 16), ('Iberia', 16), ('Strait of Gibraltar', 16), ('Sahara', 16), ('West Mediterranean', 27), ('France', 27), ('Channel', 27), ('North Sea', 27), ('Barbary Coast', 27), ('Tyrrenean Sea', 27), ('Rhineland', 27), ('Lower Nile', 27), ('Po Valley', 27), ('Adriatic Sea', 27), ('Levant', 27),
+     ('Aegean Sea', 27), ('Danube', 27), ('Elbe', 27), ('Baltic Sea', 27), ('Vistula', 27), ('Crimea', 27), ('Western Siberia', 27), ('Dnieper', 27), ('Caspian Sea', 27), ('Zalesye', 27), ('Anatolia', 27), ('Senegambia', 33), ('Niger River', 33), ('Guinea Coast',
+                                                                                                                                                                                                                                                        33), ('Lake Tchad', 33), ('Kongo', 25),
+     ('South Africa', 27), ('Monomotapa', 28), ('Zanj', 28), ('Red Sea', 30), ('Upper Nile', 30), ('Arabia', 30), ('Iran', 30), ('Khorasan', 30), ('Mawarannahr', 30), ('Yettishar', 30),
+     ('Punjab', 30), ('Gurjaratra', 30), ('Konkan', 30), ('Deccan Plateau', 30), ('Tamilakam', 30), ('Kalinga', 30), ('Delhi', 30), ('Bihar', 32), ('Bengal', 30), ('Himalayan Plateau', 30), ('Ayeyarwady', 30), ('Chao Phraya', 31), ('Malacca Strait', 31), ('Mekong', 31), ('Moluccas', 31),
+     ('Champa Sea', 31), ('Australia', 32), ('Liangguang', 32), ('Szechwan', 32), ('Huazhong', 32), ('Jiangnan', 32), ('Huabei', 32), ('Xibei', 32), ('Zhongyuan', 32), ('Eastern Siberia', 32), ('Nippon', 32),
+     ('Far East', 32), ('Andes', 31), ('Southern Cone', 30), ('Guiana', 27), ('Amazonia', 31), ('Panama', 31), ('Caribbean', 29), ('Mexico', 31), ('Rio Grande', 31), ('Mississippi', 31), ('Plains', 31), ('Eastern Seaboard', 31), ('Canada', 31),
+     ('American West Coast', 32), ('Pacific', 33)])
 # the Gulf of Guinea
 expeditions_list.append(Expedition('gulf_of_guinea', 'the Gulf of Guinea', 800, 'Jumping Node', [45]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 17), ('East Atlantis Node', 17), ('South Atlantis Node', 17), ('North Atlantis Node', 17), ('Iberia', 17), ('Strait of Gibraltar', 17), ('Sahara', 16), ('West Mediterranean', 18), ('France', 18), ('Channel', 18), ('North Sea', 18), ('Barbary Coast', 18), ('Tyrrenean Sea', 18), ('Rhineland', 18), ('Lower Nile', 18), ('Po Valley', 18), ('Adriatic Sea', 18), ('Levant', 18),
-     ('Aegean Sea', 18), ('Danube', 18), ('Elbe', 18), ('Baltic Sea', 18), ('Vistula', 18), ('Crimea', 18), ('Western Siberia', 18), ('Dnieper', 18), ('Caspian Sea', 18), ('Zalesye', 18), ('Anatolia', 18), ('Senegambia', 13), ('Niger River', 13), ('Guinea Coast',
-                                                                                                                                                                                                                                                        13), ('Lake Tchad', 13), ('Kongo', 13),
-     ('South Africa', 17), ('Monomotapa', 17), ('Zanj', 17), ('Red Sea', 20), ('Upper Nile', 20), ('Arabia', 21), ('Iran', 21), ('Khorasan', 21), ('Mawarannahr', 21), ('Yettishar', 21),
-     ('Punjab', 21), ('Gurjaratra', 21), ('Konkan', 21), ('Deccan Plateau', 21), ('Tamilakam', 21), ('Kalinga', 21), ('Delhi', 21), ('Bihar', 21), ('Bengal', 21), ('Himalayan Plateau', 21), ('Ayeyarwady', 21), ('Chao Phraya', 21), ('Malacca Strait', 21), ('Mekong', 21), ('Moluccas', 21),
-     ('Champa Sea', 21), ('Australia', 22), ('Liangguang', 22), ('Szechwan', 22), ('Huazhong', 22), ('Jiangnan', 22), ('Huabei', 22), ('Xibei', 22), ('Zhongyuan', 22), ('Eastern Siberia', 22), ('Nippon', 22),
-     ('Far East', 22), ('Andes', 21), ('Southern Cone', 20), ('Guiana', 17), ('Amazonia', 21), ('Panama', 21), ('Caribbean', 19), ('Mexico', 21), ('Rio Grande', 21), ('Mississippi', 21), ('Plains', 21), ('Eastern Seaboard', 21), ('Canada', 21),
-     ('American West Coast', 22), ('Pacific', 33)])
+    [('West Atlantis Node', 27), ('East Atlantis Node', 27), ('South Atlantis Node', 27), ('North Atlantis Node', 27), ('Iberia', 27), ('Strait of Gibraltar', 27), ('Sahara', 16), ('West Mediterranean', 28), ('France', 28), ('Channel', 28), ('North Sea', 28), ('Barbary Coast', 28), ('Tyrrenean Sea', 28), ('Rhineland', 28), ('Lower Nile', 28), ('Po Valley', 28), ('Adriatic Sea', 28), ('Levant', 28),
+     ('Aegean Sea', 28), ('Danube', 28), ('Elbe', 28), ('Baltic Sea', 28), ('Vistula', 28), ('Crimea', 28), ('Western Siberia', 28), ('Dnieper', 28), ('Caspian Sea', 28), ('Zalesye', 28), ('Anatolia', 28), ('Senegambia', 33), ('Niger River', 33), ('Guinea Coast',
+                                                                                                                                                                                                                                                        33), ('Lake Tchad', 33), ('Kongo', 33),
+     ('South Africa', 27), ('Monomotapa', 27), ('Zanj', 27), ('Red Sea', 30), ('Upper Nile', 30), ('Arabia', 31), ('Iran', 31), ('Khorasan', 31), ('Mawarannahr', 31), ('Yettishar', 31),
+     ('Punjab', 31), ('Gurjaratra', 31), ('Konkan', 31), ('Deccan Plateau', 31), ('Tamilakam', 31), ('Kalinga', 31), ('Delhi', 31), ('Bihar', 31), ('Bengal', 31), ('Himalayan Plateau', 31), ('Ayeyarwady', 31), ('Chao Phraya', 31), ('Malacca Strait', 31), ('Mekong', 31), ('Moluccas', 31),
+     ('Champa Sea', 31), ('Australia', 32), ('Liangguang', 32), ('Szechwan', 32), ('Huazhong', 32), ('Jiangnan', 32), ('Huabei', 32), ('Xibei', 32), ('Zhongyuan', 32), ('Eastern Siberia', 32), ('Nippon', 32),
+     ('Far East', 32), ('Andes', 31), ('Southern Cone', 30), ('Guiana', 27), ('Amazonia', 31), ('Panama', 31), ('Caribbean', 29), ('Mexico', 31), ('Rio Grande', 31), ('Mississippi', 31), ('Plains', 31), ('Eastern Seaboard', 31), ('Canada', 31),
+     ('American West Coast', 32), ('Pacific', 33)])
 
 # Central Africa
 expeditions_list.append(Expedition('central_africa', 'Central Africa', 800, 'Jumping Node', [44]))
-expeditions_list[-1].set_node_tech_reqs([('West Atlantis Node', 18), ('East Atlantis Node', 18), ('South Atlantis Node', 18), ('North Atlantis Node', 18), ('Iberia', 18), ('Strait of Gibraltar', 18), ('Sahara', 17), ('West Mediterranean', 19), ('France', 19),
-                                         ('Channel', 19), ('North Sea', 19), ('Barbary Coast', 19), ('Tyrrenean Sea', 19), ('Rhineland', 19), ('Lower Nile', 19), ('Po Valley', 19), ('Adriatic Sea', 19), ('Levant', 19), ('Aegean Sea', 19), ('Danube', 19), ('Elbe', 19), ('Baltic Sea', 19),
-                                         ('Vistula', 19), ('Crimea', 19), ('Western Siberia', 19), ('Dnieper', 19), ('Caspian Sea', 19), ('Zalesye', 19), ('Anatolia', 19), ('Senegambia', 15), ('Niger River', 13), ('Guinea Coast',
-                                                                                                                                                                                                                      13), ('Lake Tchad', 13), ('Kongo', 13), ('South Africa', 15), ('Monomotapa', 17),
-                                         ('Zanj', 17), ('Red Sea', 19), ('Upper Nile', 19), ('Arabia', 20), ('Iran', 20), ('Khorasan', 20), ('Mawarannahr', 20), ('Yettishar', 20),
-                                         ('Punjab', 20), ('Gurjaratra', 20), ('Konkan', 20), ('Deccan Plateau', 20), ('Tamilakam', 20), ('Kalinga', 20), ('Delhi', 20), ('Bihar', 20), ('Bengal', 20), ('Himalayan Plateau', 20), ('Ayeyarwady', 20), ('Chao Phraya', 20), ('Malacca Strait', 20),
-                                         ('Mekong', 20), ('Moluccas', 20),
-                                         ('Champa Sea', 20), ('Australia', 21), ('Liangguang', 21), ('Szechwan', 21), ('Huazhong', 21), ('Jiangnan', 21), ('Huabei', 21), ('Xibei', 21), ('Zhongyuan', 21), ('Eastern Siberia', 21), ('Nippon', 21),
-                                         ('Far East', 21), ('Andes', 21), ('Southern Cone', 20), ('Guiana', 18), ('Amazonia', 21), ('Panama', 21), ('Caribbean', 19), ('Mexico', 21), ('Rio Grande', 21), ('Mississippi', 21), ('Plains', 21), ('Eastern Seaboard', 21), ('Canada', 21),
-                                         ('American West Coast', 22), ('Pacific', 33)])
+expeditions_list[-1].set_node_tech_reqs([('West Atlantis Node', 28), ('East Atlantis Node', 28), ('South Atlantis Node', 28), ('North Atlantis Node', 28), ('Iberia', 28), ('Strait of Gibraltar', 28), ('Sahara', 27), ('West Mediterranean', 29), ('France', 29),
+                                         ('Channel', 29), ('North Sea', 29), ('Barbary Coast', 29), ('Tyrrenean Sea', 29), ('Rhineland', 29), ('Lower Nile', 29), ('Po Valley', 29), ('Adriatic Sea', 29), ('Levant', 29), ('Aegean Sea', 29), ('Danube', 29), ('Elbe', 29), ('Baltic Sea', 29),
+                                         ('Vistula', 29), ('Crimea', 29), ('Western Siberia', 29), ('Dnieper', 29), ('Caspian Sea', 29), ('Zalesye', 29), ('Anatolia', 29), ('Senegambia', 25), ('Niger River', 33), ('Guinea Coast',
+                                                                                                                                                                                                                      33), ('Lake Tchad', 33), ('Kongo', 33), ('South Africa', 25), ('Monomotapa', 27),
+                                         ('Zanj', 27), ('Red Sea', 29), ('Upper Nile', 29), ('Arabia', 30), ('Iran', 30), ('Khorasan', 30), ('Mawarannahr', 30), ('Yettishar', 30),
+                                         ('Punjab', 30), ('Gurjaratra', 30), ('Konkan', 30), ('Deccan Plateau', 30), ('Tamilakam', 30), ('Kalinga', 30), ('Delhi', 30), ('Bihar', 30), ('Bengal', 30), ('Himalayan Plateau', 30), ('Ayeyarwady', 30), ('Chao Phraya', 30), ('Malacca Strait', 30),
+                                         ('Mekong', 30), ('Moluccas', 30),
+                                         ('Champa Sea', 30), ('Australia', 31), ('Liangguang', 31), ('Szechwan', 31), ('Huazhong', 31), ('Jiangnan', 31), ('Huabei', 31), ('Xibei', 31), ('Zhongyuan', 31), ('Eastern Siberia', 31), ('Nippon', 31),
+                                         ('Far East', 31), ('Andes', 31), ('Southern Cone', 30), ('Guiana', 28), ('Amazonia', 31), ('Panama', 31), ('Caribbean', 29), ('Mexico', 31), ('Rio Grande', 31), ('Mississippi', 31), ('Plains', 31), ('Eastern Seaboard', 31), ('Canada', 31),
+                                         ('American West Coast', 32), ('Pacific', 33)])
 # South Africa
-expeditions_list.append(Expedition('south_africa', 'South Africa', 1200, 'Colonial Node', [41]))
+expeditions_list.append(Expedition('south_africa', 'South Africa', 1300, 'Colonial Node', [41]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 20), ('East Atlantis Node', 20), ('South Atlantis Node', 20), ('North Atlantis Node', 20), ('Iberia', 20), ('Strait of Gibraltar', 20), ('Sahara', 18), ('West Mediterranean', 20), ('France', 20), ('Channel', 20), ('North Sea', 20), ('Barbary Coast', 20), ('Tyrrenean Sea', 20), ('Rhineland', 20), ('Lower Nile', 20), ('Po Valley', 20), ('Adriatic Sea', 20), ('Levant', 20),
-     ('Aegean Sea', 20), ('Danube', 20), ('Elbe', 20), ('Baltic Sea', 20),
-     ('Vistula', 20), ('Crimea', 20), ('Western Siberia', 20), ('Dnieper', 20), ('Caspian Sea', 20), ('Zalesye', 20), ('Anatolia', 20), ('Senegambia', 17), ('Niger River', 17), ('Guinea Coast',
-                                                                                                                                                                                  17), ('Lake Tchad', 17), ('Kongo', 15), ('South Africa', 13), ('Monomotapa', 15), ('Zanj', 15), ('Red Sea', 16),
-     ('Upper Nile', 16), ('Arabia', 17), ('Iran', 17), ('Khorasan', 17), ('Mawarannahr', 17), ('Yettishar', 17),
-     ('Punjab', 17), ('Gurjaratra', 18), ('Konkan', 18), ('Deccan Plateau', 18), ('Tamilakam', 18), ('Kalinga', 18), ('Delhi', 18), ('Bihar', 18), ('Bengal', 18), ('Himalayan Plateau', 18), ('Ayeyarwady', 18), ('Chao Phraya', 20), ('Malacca Strait', 20), ('Mekong', 20), ('Moluccas', 20),
-     ('Champa Sea', 20), ('Australia', 21), ('Liangguang', 20), ('Szechwan', 20), ('Huazhong', 20), ('Jiangnan', 20), ('Huabei', 20), ('Xibei', 20), ('Zhongyuan', 21), ('Eastern Siberia', 21), ('Nippon', 21),
-     ('Far East', 21), ('Andes', 21), ('Southern Cone', 20), ('Guiana', 19), ('Amazonia', 21), ('Panama', 21), ('Caribbean', 20), ('Mexico', 21), ('Rio Grande', 21), ('Mississippi', 21), ('Plains', 21), ('Eastern Seaboard', 21), ('Canada', 21),
-     ('American West Coast', 22), ('Pacific', 33)])
+    [('West Atlantis Node', 30), ('East Atlantis Node', 30), ('South Atlantis Node', 30), ('North Atlantis Node', 30), ('Iberia', 30), ('Strait of Gibraltar', 30), ('Sahara', 28), ('West Mediterranean', 30), ('France', 30), ('Channel', 30), ('North Sea', 30), ('Barbary Coast', 30), ('Tyrrenean Sea', 30), ('Rhineland', 30), ('Lower Nile', 30), ('Po Valley', 30), ('Adriatic Sea', 30), ('Levant', 30),
+     ('Aegean Sea', 30), ('Danube', 30), ('Elbe', 30), ('Baltic Sea', 30),
+     ('Vistula', 30), ('Crimea', 30), ('Western Siberia', 30), ('Dnieper', 30), ('Caspian Sea', 30), ('Zalesye', 30), ('Anatolia', 30), ('Senegambia', 27), ('Niger River', 27), ('Guinea Coast',
+                                                                                                                                                                                  27), ('Lake Tchad', 27), ('Kongo', 25), ('South Africa', 33), ('Monomotapa', 25), ('Zanj', 25), ('Red Sea', 16),
+     ('Upper Nile', 16), ('Arabia', 27), ('Iran', 27), ('Khorasan', 27), ('Mawarannahr', 27), ('Yettishar', 27),
+     ('Punjab', 27), ('Gurjaratra', 28), ('Konkan', 28), ('Deccan Plateau', 28), ('Tamilakam', 28), ('Kalinga', 28), ('Delhi', 28), ('Bihar', 28), ('Bengal', 28), ('Himalayan Plateau', 28), ('Ayeyarwady', 28), ('Chao Phraya', 30), ('Malacca Strait', 30), ('Mekong', 30), ('Moluccas', 30),
+     ('Champa Sea', 30), ('Australia', 31), ('Liangguang', 30), ('Szechwan', 30), ('Huazhong', 30), ('Jiangnan', 30), ('Huabei', 30), ('Xibei', 30), ('Zhongyuan', 31), ('Eastern Siberia', 31), ('Nippon', 31),
+     ('Far East', 31), ('Andes', 31), ('Southern Cone', 30), ('Guiana', 29), ('Amazonia', 31), ('Panama', 31), ('Caribbean', 30), ('Mexico', 31), ('Rio Grande', 31), ('Mississippi', 31), ('Plains', 31), ('Eastern Seaboard', 31), ('Canada', 31),
+     ('American West Coast', 32), ('Pacific', 33)])
 # East Africa
 expeditions_list.append(Expedition('east_africa', 'East Africa', 800, 'Jumping Node', [40]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 20), ('East Atlantis Node', 20), ('South Atlantis Node', 20), ('North Atlantis Node', 20), ('Iberia', 20), ('Strait of Gibraltar', 20), ('Sahara', 20), ('West Mediterranean', 20), ('France', 20), ('Channel', 20), ('North Sea', 20), ('Barbary Coast', 20), ('Tyrrenean Sea', 20), ('Rhineland', 20), ('Lower Nile', 18), ('Po Valley', 20), ('Adriatic Sea', 20), ('Levant', 20),
-     ('Aegean Sea', 20), ('Danube', 20), ('Elbe', 20), ('Baltic Sea', 20),
-     ('Vistula', 20), ('Crimea', 20), ('Western Siberia', 20), ('Dnieper', 20), ('Caspian Sea', 20), ('Zalesye', 20), ('Anatolia', 20), ('Senegambia', 18), ('Niger River', 18), ('Guinea Coast',
-                                                                                                                                                                                  17), ('Lake Tchad', 18), ('Kongo', 17), ('South Africa', 15), ('Monomotapa', 13), ('Zanj', 13), ('Red Sea', 13),
-     ('Upper Nile', 13), ('Arabia', 15), ('Iran', 16), ('Khorasan', 16), ('Mawarannahr', 16), ('Yettishar', 16),
-     ('Punjab', 16), ('Gurjaratra', 17), ('Konkan', 17), ('Deccan Plateau', 17), ('Tamilakam', 17), ('Kalinga', 17), ('Delhi', 17), ('Bihar', 17), ('Bengal', 17), ('Himalayan Plateau', 17), ('Ayeyarwady', 17), ('Chao Phraya', 19), ('Malacca Strait', 19), ('Mekong', 20), ('Moluccas', 20),
-     ('Champa Sea', 20), ('Australia', 21), ('Liangguang', 20), ('Szechwan', 20), ('Huazhong', 20), ('Jiangnan', 20), ('Huabei', 20), ('Xibei', 20), ('Zhongyuan', 21), ('Eastern Siberia', 21), ('Nippon', 21),
-     ('Far East', 21), ('Andes', 22), ('Southern Cone', 21), ('Guiana', 20), ('Amazonia', 22), ('Panama', 22), ('Caribbean', 21), ('Mexico', 22), ('Rio Grande', 22), ('Mississippi', 22), ('Plains', 22), ('Eastern Seaboard', 22), ('Canada', 22),
-     ('American West Coast', 23), ('Pacific', 33)])
+    [('West Atlantis Node', 30), ('East Atlantis Node', 30), ('South Atlantis Node', 30), ('North Atlantis Node', 30), ('Iberia', 30), ('Strait of Gibraltar', 30), ('Sahara', 30), ('West Mediterranean', 30), ('France', 30), ('Channel', 30), ('North Sea', 30), ('Barbary Coast', 30), ('Tyrrenean Sea', 30), ('Rhineland', 30), ('Lower Nile', 28), ('Po Valley', 30), ('Adriatic Sea', 30), ('Levant', 30),
+     ('Aegean Sea', 30), ('Danube', 30), ('Elbe', 30), ('Baltic Sea', 30),
+     ('Vistula', 30), ('Crimea', 30), ('Western Siberia', 30), ('Dnieper', 30), ('Caspian Sea', 30), ('Zalesye', 30), ('Anatolia', 30), ('Senegambia', 28), ('Niger River', 28), ('Guinea Coast',
+                                                                                                                                                                                  27), ('Lake Tchad', 28), ('Kongo', 27), ('South Africa', 25), ('Monomotapa', 33), ('Zanj', 33), ('Red Sea', 33),
+     ('Upper Nile', 33), ('Arabia', 25), ('Iran', 16), ('Khorasan', 16), ('Mawarannahr', 16), ('Yettishar', 16),
+     ('Punjab', 16), ('Gurjaratra', 27), ('Konkan', 27), ('Deccan Plateau', 27), ('Tamilakam', 27), ('Kalinga', 27), ('Delhi', 27), ('Bihar', 27), ('Bengal', 27), ('Himalayan Plateau', 27), ('Ayeyarwady', 27), ('Chao Phraya', 29), ('Malacca Strait', 29), ('Mekong', 30), ('Moluccas', 30),
+     ('Champa Sea', 30), ('Australia', 31), ('Liangguang', 30), ('Szechwan', 30), ('Huazhong', 30), ('Jiangnan', 30), ('Huabei', 30), ('Xibei', 30), ('Zhongyuan', 31), ('Eastern Siberia', 31), ('Nippon', 31),
+     ('Far East', 31), ('Andes', 32), ('Southern Cone', 31), ('Guiana', 30), ('Amazonia', 32), ('Panama', 32), ('Caribbean', 31), ('Mexico', 32), ('Rio Grande', 32), ('Mississippi', 32), ('Plains', 32), ('Eastern Seaboard', 32), ('Canada', 32),
+     ('American West Coast', 33), ('Pacific', 33)])
 # the Indian Ocean
 expeditions_list.append(Expedition('indian_ocean', 'the Indian Ocean', 800, 'Jumping Node', [40]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 20), ('East Atlantis Node', 20), ('South Atlantis Node', 20), ('North Atlantis Node', 20), ('Iberia', 20), ('Strait of Gibraltar', 20), ('Sahara', 20), ('West Mediterranean', 20), ('France', 20), ('Channel', 20), ('North Sea', 20), ('Barbary Coast', 20), ('Tyrrenean Sea', 20), ('Rhineland', 20), ('Lower Nile', 18), ('Po Valley', 20), ('Adriatic Sea', 20), ('Levant', 20),
-     ('Aegean Sea', 20), ('Danube', 20), ('Elbe', 20), ('Baltic Sea', 20),
-     ('Vistula', 20), ('Crimea', 20), ('Western Siberia', 20), ('Dnieper', 20), ('Caspian Sea', 20), ('Zalesye', 20), ('Anatolia', 20), ('Senegambia', 18), ('Niger River', 18), ('Guinea Coast',
-                                                                                                                                                                                  17), ('Lake Tchad', 18), ('Kongo', 17), ('South Africa', 15), ('Monomotapa', 13), ('Zanj', 13), ('Red Sea', 15),
-     ('Upper Nile', 15), ('Arabia', 17), ('Iran', 17), ('Khorasan', 17), ('Mawarannahr', 17), ('Yettishar', 17),
-     ('Punjab', 17), ('Gurjaratra', 17), ('Konkan', 17), ('Deccan Plateau', 17), ('Tamilakam', 17), ('Kalinga', 17), ('Delhi', 17), ('Bihar', 17), ('Bengal', 17), ('Himalayan Plateau', 17), ('Ayeyarwady', 17), ('Chao Phraya', 19), ('Malacca Strait', 19), ('Mekong', 20), ('Moluccas', 20),
-     ('Champa Sea', 20), ('Australia', 21), ('Liangguang', 20), ('Szechwan', 20), ('Huazhong', 20), ('Jiangnan', 20), ('Huabei', 20), ('Xibei', 20), ('Zhongyuan', 21), ('Eastern Siberia', 21), ('Nippon', 21),
-     ('Far East', 21), ('Andes', 22), ('Southern Cone', 21), ('Guiana', 20), ('Amazonia', 22), ('Panama', 22), ('Caribbean', 21), ('Mexico', 22), ('Rio Grande', 22), ('Mississippi', 22), ('Plains', 22), ('Eastern Seaboard', 22), ('Canada', 22),
-     ('American West Coast', 23), ('Pacific', 33)])
+    [('West Atlantis Node', 30), ('East Atlantis Node', 30), ('South Atlantis Node', 30), ('North Atlantis Node', 30), ('Iberia', 30), ('Strait of Gibraltar', 30), ('Sahara', 30), ('West Mediterranean', 30), ('France', 30), ('Channel', 30), ('North Sea', 30), ('Barbary Coast', 30), ('Tyrrenean Sea', 30), ('Rhineland', 30), ('Lower Nile', 28), ('Po Valley', 30), ('Adriatic Sea', 30), ('Levant', 30),
+     ('Aegean Sea', 30), ('Danube', 30), ('Elbe', 30), ('Baltic Sea', 30),
+     ('Vistula', 30), ('Crimea', 30), ('Western Siberia', 30), ('Dnieper', 30), ('Caspian Sea', 30), ('Zalesye', 30), ('Anatolia', 30), ('Senegambia', 28), ('Niger River', 28), ('Guinea Coast',
+                                                                                                                                                                                  27), ('Lake Tchad', 28), ('Kongo', 27), ('South Africa', 25), ('Monomotapa', 33), ('Zanj', 33), ('Red Sea', 25),
+     ('Upper Nile', 25), ('Arabia', 27), ('Iran', 27), ('Khorasan', 27), ('Mawarannahr', 27), ('Yettishar', 27),
+     ('Punjab', 27), ('Gurjaratra', 27), ('Konkan', 27), ('Deccan Plateau', 27), ('Tamilakam', 27), ('Kalinga', 27), ('Delhi', 27), ('Bihar', 27), ('Bengal', 27), ('Himalayan Plateau', 27), ('Ayeyarwady', 27), ('Chao Phraya', 29), ('Malacca Strait', 29), ('Mekong', 30), ('Moluccas', 30),
+     ('Champa Sea', 30), ('Australia', 31), ('Liangguang', 30), ('Szechwan', 30), ('Huazhong', 30), ('Jiangnan', 30), ('Huabei', 30), ('Xibei', 30), ('Zhongyuan', 31), ('Eastern Siberia', 31), ('Nippon', 31),
+     ('Far East', 31), ('Andes', 32), ('Southern Cone', 31), ('Guiana', 30), ('Amazonia', 32), ('Panama', 32), ('Caribbean', 31), ('Mexico', 32), ('Rio Grande', 32), ('Mississippi', 32), ('Plains', 32), ('Eastern Seaboard', 32), ('Canada', 32),
+     ('American West Coast', 33), ('Pacific', 33)])
 # Arabia
 expeditions_list.append(Expedition('arabia', 'Arabia', 400, 'Jumping Node', [38, 51]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 20), ('East Atlantis Node', 20), ('South Atlantis Node', 20), ('North Atlantis Node', 20), ('Iberia', 20), ('Strait of Gibraltar', 20), ('Sahara', 20), ('West Mediterranean', 20), ('France', 20), ('Channel', 20), ('North Sea', 20), ('Barbary Coast', 20), ('Tyrrenean Sea', 20), ('Rhineland', 20), ('Lower Nile', 16), ('Po Valley', 20), ('Adriatic Sea', 20), ('Levant', 20),
-     ('Aegean Sea', 20), ('Danube', 20), ('Elbe', 20), ('Baltic Sea', 20),
-     ('Vistula', 20), ('Crimea', 20), ('Western Siberia', 20), ('Dnieper', 20), ('Caspian Sea', 20), ('Zalesye', 20), ('Anatolia', 20), ('Senegambia', 20), ('Niger River', 20), ('Guinea Coast',
-                                                                                                                                                                                  20), ('Lake Tchad', 20), ('Kongo', 20), ('South Africa', 17), ('Monomotapa', 16), ('Zanj', 15), ('Red Sea', 13),
-     ('Upper Nile', 13), ('Arabia', 13), ('Iran', 13), ('Khorasan', 13), ('Mawarannahr', 13), ('Yettishar', 13),
-     ('Punjab', 13), ('Gurjaratra', 15), ('Konkan', 15), ('Deccan Plateau', 15), ('Tamilakam', 15), ('Kalinga', 15), ('Delhi', 15), ('Bihar', 15), ('Bengal', 15), ('Himalayan Plateau', 15), ('Ayeyarwady', 15), ('Chao Phraya', 17), ('Malacca Strait', 17), ('Mekong', 17), ('Moluccas', 17),
-     ('Champa Sea', 17), ('Australia', 19), ('Liangguang', 19), ('Szechwan', 19), ('Huazhong', 19), ('Jiangnan', 19), ('Huabei', 19), ('Xibei', 19), ('Zhongyuan', 20), ('Eastern Siberia', 20), ('Nippon', 20),
-     ('Far East', 20), ('Andes', 22), ('Southern Cone', 21), ('Guiana', 20), ('Amazonia', 22), ('Panama', 22), ('Caribbean', 21), ('Mexico', 22), ('Rio Grande', 22), ('Mississippi', 22), ('Plains', 22), ('Eastern Seaboard', 22), ('Canada', 22),
-     ('American West Coast', 23), ('Pacific', 33)])
+    [('West Atlantis Node', 30), ('East Atlantis Node', 30), ('South Atlantis Node', 30), ('North Atlantis Node', 30), ('Iberia', 30), ('Strait of Gibraltar', 30), ('Sahara', 30), ('West Mediterranean', 30), ('France', 30), ('Channel', 30), ('North Sea', 30), ('Barbary Coast', 30), ('Tyrrenean Sea', 30), ('Rhineland', 30), ('Lower Nile', 16), ('Po Valley', 30), ('Adriatic Sea', 30), ('Levant', 30),
+     ('Aegean Sea', 30), ('Danube', 30), ('Elbe', 30), ('Baltic Sea', 30),
+     ('Vistula', 30), ('Crimea', 30), ('Western Siberia', 30), ('Dnieper', 30), ('Caspian Sea', 30), ('Zalesye', 30), ('Anatolia', 30), ('Senegambia', 30), ('Niger River', 30), ('Guinea Coast',
+                                                                                                                                                                                  30), ('Lake Tchad', 30), ('Kongo', 30), ('South Africa', 27), ('Monomotapa', 16), ('Zanj', 25), ('Red Sea', 33),
+     ('Upper Nile', 33), ('Arabia', 33), ('Iran', 33), ('Khorasan', 33), ('Mawarannahr', 33), ('Yettishar', 33),
+     ('Punjab', 33), ('Gurjaratra', 25), ('Konkan', 25), ('Deccan Plateau', 25), ('Tamilakam', 25), ('Kalinga', 25), ('Delhi', 25), ('Bihar', 25), ('Bengal', 25), ('Himalayan Plateau', 25), ('Ayeyarwady', 25), ('Chao Phraya', 27), ('Malacca Strait', 27), ('Mekong', 27), ('Moluccas', 27),
+     ('Champa Sea', 27), ('Australia', 29), ('Liangguang', 29), ('Szechwan', 29), ('Huazhong', 29), ('Jiangnan', 29), ('Huabei', 29), ('Xibei', 29), ('Zhongyuan', 30), ('Eastern Siberia', 30), ('Nippon', 30),
+     ('Far East', 30), ('Andes', 32), ('Southern Cone', 31), ('Guiana', 30), ('Amazonia', 32), ('Panama', 32), ('Caribbean', 31), ('Mexico', 32), ('Rio Grande', 32), ('Mississippi', 32), ('Plains', 32), ('Eastern Seaboard', 32), ('Canada', 32),
+     ('American West Coast', 33), ('Pacific', 33)])
 # Western India
-expeditions_list.append(Expedition('western_india', 'Western India', 1200, 'Jumping Node', [35, 36]))
+expeditions_list.append(Expedition('western_india', 'Western India', 1300, 'Jumping Node', [35, 36]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 20), ('East Atlantis Node', 20), ('South Atlantis Node', 20), ('North Atlantis Node', 20), ('Iberia', 20), ('Strait of Gibraltar', 20), ('Sahara', 20), ('West Mediterranean', 20), ('France', 20), ('Channel', 20), ('North Sea', 20), ('Barbary Coast', 20), ('Tyrrenean Sea', 20), ('Rhineland', 20), ('Lower Nile', 18), ('Po Valley', 20), ('Adriatic Sea', 20), ('Levant', 20),
-     ('Aegean Sea', 20), ('Danube', 20), ('Elbe', 20), ('Baltic Sea', 20),
-     ('Vistula', 20), ('Crimea', 20), ('Western Siberia', 20), ('Dnieper', 20), ('Caspian Sea', 20), ('Zalesye', 20), ('Anatolia', 20), ('Senegambia', 20), ('Niger River', 20), ('Guinea Coast',
-                                                                                                                                                                                  20), ('Lake Tchad', 20), ('Kongo', 20), ('South Africa', 18), ('Monomotapa', 17), ('Zanj', 17), ('Red Sea', 15),
-     ('Upper Nile', 15), ('Arabia', 13), ('Iran', 15), ('Khorasan', 15), ('Mawarannahr', 13), ('Yettishar', 13),
-     ('Punjab', 13), ('Gurjaratra', 13), ('Konkan', 13), ('Deccan Plateau', 13), ('Tamilakam', 13), ('Kalinga', 15), ('Delhi', 13), ('Bihar', 13), ('Bengal', 15), ('Himalayan Plateau', 15), ('Ayeyarwady', 15), ('Chao Phraya', 17), ('Malacca Strait', 17), ('Mekong', 17), ('Moluccas', 17),
-     ('Champa Sea', 17), ('Australia', 18), ('Liangguang', 18), ('Szechwan', 18), ('Huazhong', 18), ('Jiangnan', 18), ('Huabei', 18), ('Xibei', 18), ('Zhongyuan', 19), ('Eastern Siberia', 19), ('Nippon', 19),
-     ('Far East', 19), ('Andes', 23), ('Southern Cone', 22), ('Guiana', 21), ('Amazonia', 23), ('Panama', 23), ('Caribbean', 22), ('Mexico', 23), ('Rio Grande', 23), ('Mississippi', 23), ('Plains', 23), ('Eastern Seaboard', 23), ('Canada', 23),
-     ('American West Coast', 23), ('Pacific', 33)])
+    [('West Atlantis Node', 30), ('East Atlantis Node', 30), ('South Atlantis Node', 30), ('North Atlantis Node', 30), ('Iberia', 30), ('Strait of Gibraltar', 30), ('Sahara', 30), ('West Mediterranean', 30), ('France', 30), ('Channel', 30), ('North Sea', 30), ('Barbary Coast', 30), ('Tyrrenean Sea', 30), ('Rhineland', 30), ('Lower Nile', 28), ('Po Valley', 30), ('Adriatic Sea', 30), ('Levant', 30),
+     ('Aegean Sea', 30), ('Danube', 30), ('Elbe', 30), ('Baltic Sea', 30),
+     ('Vistula', 30), ('Crimea', 30), ('Western Siberia', 30), ('Dnieper', 30), ('Caspian Sea', 30), ('Zalesye', 30), ('Anatolia', 30), ('Senegambia', 30), ('Niger River', 30), ('Guinea Coast',
+                                                                                                                                                                                  30), ('Lake Tchad', 30), ('Kongo', 30), ('South Africa', 28), ('Monomotapa', 27), ('Zanj', 27), ('Red Sea', 25),
+     ('Upper Nile', 25), ('Arabia', 33), ('Iran', 25), ('Khorasan', 25), ('Mawarannahr', 33), ('Yettishar', 33),
+     ('Punjab', 33), ('Gurjaratra', 33), ('Konkan', 33), ('Deccan Plateau', 33), ('Tamilakam', 33), ('Kalinga', 25), ('Delhi', 33), ('Bihar', 33), ('Bengal', 25), ('Himalayan Plateau', 25), ('Ayeyarwady', 25), ('Chao Phraya', 27), ('Malacca Strait', 27), ('Mekong', 27), ('Moluccas', 27),
+     ('Champa Sea', 27), ('Australia', 28), ('Liangguang', 28), ('Szechwan', 28), ('Huazhong', 28), ('Jiangnan', 28), ('Huabei', 28), ('Xibei', 28), ('Zhongyuan', 29), ('Eastern Siberia', 29), ('Nippon', 29),
+     ('Far East', 29), ('Andes', 33), ('Southern Cone', 32), ('Guiana', 31), ('Amazonia', 33), ('Panama', 33), ('Caribbean', 32), ('Mexico', 33), ('Rio Grande', 33), ('Mississippi', 33), ('Plains', 33), ('Eastern Seaboard', 33), ('Canada', 33),
+     ('American West Coast', 33), ('Pacific', 33)])
 # Southern India
-expeditions_list.append(Expedition('southern_india', 'Southern India', 1200, 'Jumping Node', [34, 35]))
+expeditions_list.append(Expedition('southern_india', 'Southern India', 1300, 'Jumping Node', [34, 35]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 20), ('East Atlantis Node', 20), ('South Atlantis Node', 20), ('North Atlantis Node', 20), ('Iberia', 20), ('Strait of Gibraltar', 20), ('Sahara', 20), ('West Mediterranean', 20), ('France', 20), ('Channel', 20), ('North Sea', 20), ('Barbary Coast', 20), ('Tyrrenean Sea', 20), ('Rhineland', 20), ('Lower Nile', 18), ('Po Valley', 20), ('Adriatic Sea', 20), ('Levant', 20),
-     ('Aegean Sea', 20), ('Danube', 20), ('Elbe', 20), ('Baltic Sea', 20),
-     ('Vistula', 20), ('Crimea', 20), ('Western Siberia', 20), ('Dnieper', 20), ('Caspian Sea', 20), ('Zalesye', 20), ('Anatolia', 20), ('Senegambia', 20), ('Niger River', 20), ('Guinea Coast',
-                                                                                                                                                                                  20), ('Lake Tchad', 20), ('Kongo', 20), ('South Africa', 18), ('Monomotapa', 17), ('Zanj', 17), ('Red Sea', 15),
-     ('Upper Nile', 15), ('Arabia', 15), ('Iran', 15), ('Khorasan', 15), ('Mawarannahr', 15), ('Yettishar', 15),
-     ('Punjab', 15), ('Gurjaratra', 13), ('Konkan', 13), ('Deccan Plateau', 13), ('Tamilakam', 13), ('Kalinga', 13), ('Delhi', 13), ('Bihar', 13), ('Bengal', 15), ('Himalayan Plateau', 15), ('Ayeyarwady', 15), ('Chao Phraya', 15), ('Malacca Strait', 16), ('Mekong', 16), ('Moluccas', 16),
-     ('Champa Sea', 16), ('Australia', 18), ('Liangguang', 18), ('Szechwan', 18), ('Huazhong', 18), ('Jiangnan', 18), ('Huabei', 18), ('Xibei', 18), ('Zhongyuan', 19), ('Eastern Siberia', 19), ('Nippon', 19),
-     ('Far East', 19), ('Andes', 23), ('Southern Cone', 22), ('Guiana', 21), ('Amazonia', 23), ('Panama', 23), ('Caribbean', 22), ('Mexico', 23), ('Rio Grande', 23), ('Mississippi', 23), ('Plains', 23), ('Eastern Seaboard', 23), ('Canada', 23),
-     ('American West Coast', 23), ('Pacific', 33)])
+    [('West Atlantis Node', 30), ('East Atlantis Node', 30), ('South Atlantis Node', 30), ('North Atlantis Node', 30), ('Iberia', 30), ('Strait of Gibraltar', 30), ('Sahara', 30), ('West Mediterranean', 30), ('France', 30), ('Channel', 30), ('North Sea', 30), ('Barbary Coast', 30), ('Tyrrenean Sea', 30), ('Rhineland', 30), ('Lower Nile', 28), ('Po Valley', 30), ('Adriatic Sea', 30), ('Levant', 30),
+     ('Aegean Sea', 30), ('Danube', 30), ('Elbe', 30), ('Baltic Sea', 30),
+     ('Vistula', 30), ('Crimea', 30), ('Western Siberia', 30), ('Dnieper', 30), ('Caspian Sea', 30), ('Zalesye', 30), ('Anatolia', 30), ('Senegambia', 30), ('Niger River', 30), ('Guinea Coast',
+                                                                                                                                                                                  30), ('Lake Tchad', 30), ('Kongo', 30), ('South Africa', 28), ('Monomotapa', 27), ('Zanj', 27), ('Red Sea', 25),
+     ('Upper Nile', 25), ('Arabia', 25), ('Iran', 25), ('Khorasan', 25), ('Mawarannahr', 25), ('Yettishar', 25),
+     ('Punjab', 25), ('Gurjaratra', 33), ('Konkan', 33), ('Deccan Plateau', 33), ('Tamilakam', 33), ('Kalinga', 33), ('Delhi', 33), ('Bihar', 33), ('Bengal', 25), ('Himalayan Plateau', 25), ('Ayeyarwady', 25), ('Chao Phraya', 25), ('Malacca Strait', 16), ('Mekong', 16), ('Moluccas', 16),
+     ('Champa Sea', 16), ('Australia', 28), ('Liangguang', 28), ('Szechwan', 28), ('Huazhong', 28), ('Jiangnan', 28), ('Huabei', 28), ('Xibei', 28), ('Zhongyuan', 29), ('Eastern Siberia', 29), ('Nippon', 29),
+     ('Far East', 29), ('Andes', 33), ('Southern Cone', 32), ('Guiana', 31), ('Amazonia', 33), ('Panama', 33), ('Caribbean', 32), ('Mexico', 33), ('Rio Grande', 33), ('Mississippi', 33), ('Plains', 33), ('Eastern Seaboard', 33), ('Canada', 33),
+     ('American West Coast', 33), ('Pacific', 33)])
 # Eastern India
-expeditions_list.append(Expedition('eastern_india', 'Eastern India', 1200, 'Jumping Node', [33, 34]))
+expeditions_list.append(Expedition('eastern_india', 'Eastern India', 1300, 'Jumping Node', [33, 34]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 20), ('East Atlantis Node', 20), ('South Atlantis Node', 20), ('North Atlantis Node', 20), ('Iberia', 20), ('Strait of Gibraltar', 20), ('Sahara', 20), ('West Mediterranean', 20), ('France', 20), ('Channel', 20), ('North Sea', 20), ('Barbary Coast', 20), ('Tyrrenean Sea', 20), ('Rhineland', 20), ('Lower Nile', 18), ('Po Valley', 20), ('Adriatic Sea', 20), ('Levant', 20),
-     ('Aegean Sea', 20), ('Danube', 20), ('Elbe', 20), ('Baltic Sea', 20),
-     ('Vistula', 20), ('Crimea', 20), ('Western Siberia', 20), ('Dnieper', 20), ('Caspian Sea', 20), ('Zalesye', 20), ('Anatolia', 20), ('Senegambia', 20), ('Niger River', 20), ('Guinea Coast',
-                                                                                                                                                                                  20), ('Lake Tchad', 20), ('Kongo', 20), ('South Africa', 18), ('Monomotapa', 17), ('Zanj', 17), ('Red Sea', 16),
-     ('Upper Nile', 16), ('Arabia', 15), ('Iran', 15), ('Khorasan', 15), ('Mawarannahr', 15), ('Yettishar', 15),
-     ('Punjab', 15), ('Gurjaratra', 15), ('Konkan', 15), ('Deccan Plateau', 15), ('Tamilakam', 13), ('Kalinga', 13), ('Delhi', 13), ('Bihar', 13), ('Bengal', 13), ('Himalayan Plateau', 13), ('Ayeyarwady', 13), ('Chao Phraya', 15), ('Malacca Strait', 16), ('Mekong', 16), ('Moluccas', 16),
-     ('Champa Sea', 16), ('Australia', 17), ('Liangguang', 16), ('Szechwan', 16), ('Huazhong', 17), ('Jiangnan', 17), ('Huabei', 17), ('Xibei', 17), ('Zhongyuan', 17), ('Eastern Siberia', 18), ('Nippon', 18),
-     ('Far East', 18), ('Andes', 23), ('Southern Cone', 22), ('Guiana', 21), ('Amazonia', 23), ('Panama', 23), ('Caribbean', 22), ('Mexico', 23), ('Rio Grande', 23), ('Mississippi', 23), ('Plains', 23), ('Eastern Seaboard', 23), ('Canada', 23),
-     ('American West Coast', 23), ('Pacific', 33)])
+    [('West Atlantis Node', 30), ('East Atlantis Node', 30), ('South Atlantis Node', 30), ('North Atlantis Node', 30), ('Iberia', 30), ('Strait of Gibraltar', 30), ('Sahara', 30), ('West Mediterranean', 30), ('France', 30), ('Channel', 30), ('North Sea', 30), ('Barbary Coast', 30), ('Tyrrenean Sea', 30), ('Rhineland', 30), ('Lower Nile', 28), ('Po Valley', 30), ('Adriatic Sea', 30), ('Levant', 30),
+     ('Aegean Sea', 30), ('Danube', 30), ('Elbe', 30), ('Baltic Sea', 30),
+     ('Vistula', 30), ('Crimea', 30), ('Western Siberia', 30), ('Dnieper', 30), ('Caspian Sea', 30), ('Zalesye', 30), ('Anatolia', 30), ('Senegambia', 30), ('Niger River', 30), ('Guinea Coast',
+                                                                                                                                                                                  30), ('Lake Tchad', 30), ('Kongo', 30), ('South Africa', 28), ('Monomotapa', 27), ('Zanj', 27), ('Red Sea', 16),
+     ('Upper Nile', 16), ('Arabia', 25), ('Iran', 25), ('Khorasan', 25), ('Mawarannahr', 25), ('Yettishar', 25),
+     ('Punjab', 25), ('Gurjaratra', 25), ('Konkan', 25), ('Deccan Plateau', 25), ('Tamilakam', 33), ('Kalinga', 33), ('Delhi', 33), ('Bihar', 33), ('Bengal', 33), ('Himalayan Plateau', 33), ('Ayeyarwady', 33), ('Chao Phraya', 25), ('Malacca Strait', 16), ('Mekong', 16), ('Moluccas', 16),
+     ('Champa Sea', 16), ('Australia', 27), ('Liangguang', 16), ('Szechwan', 16), ('Huazhong', 27), ('Jiangnan', 27), ('Huabei', 27), ('Xibei', 27), ('Zhongyuan', 27), ('Eastern Siberia', 28), ('Nippon', 28),
+     ('Far East', 28), ('Andes', 33), ('Southern Cone', 32), ('Guiana', 31), ('Amazonia', 33), ('Panama', 33), ('Caribbean', 32), ('Mexico', 33), ('Rio Grande', 33), ('Mississippi', 33), ('Plains', 33), ('Eastern Seaboard', 33), ('Canada', 33),
+     ('American West Coast', 33), ('Pacific', 33)])
 # Malacca
-expeditions_list.append(Expedition('malacca', 'Malacca', 800, 'Regular', [23]))
+expeditions_list.append(Expedition('malacca', 'Malacca', 800, 'Regular', [33]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 21), ('East Atlantis Node', 21), ('South Atlantis Node', 21), ('North Atlantis Node', 21), ('Iberia', 21), ('Strait of Gibraltar', 21), ('Sahara', 21), ('West Mediterranean', 21), ('France', 21), ('Channel', 21), ('North Sea', 21), ('Barbary Coast', 21), ('Tyrrenean Sea', 21), ('Rhineland', 21), ('Lower Nile', 19), ('Po Valley', 21), ('Adriatic Sea', 21), ('Levant', 21),
-     ('Aegean Sea', 21), ('Danube', 21), ('Elbe', 21), ('Baltic Sea', 21),
-     ('Vistula', 21), ('Crimea', 21), ('Western Siberia', 21), ('Dnieper', 21), ('Caspian Sea', 21), ('Zalesye', 21), ('Anatolia', 21), ('Senegambia', 21), ('Niger River', 21), ('Guinea Coast',
-                                                                                                                                                                                  21), ('Lake Tchad', 21), ('Kongo', 21), ('South Africa', 20), ('Monomotapa', 20), ('Zanj', 20), ('Red Sea', 17),
-     ('Upper Nile', 17), ('Arabia', 17), ('Iran', 17), ('Khorasan', 17), ('Mawarannahr', 17), ('Yettishar', 17),
-     ('Punjab', 17), ('Gurjaratra', 17), ('Konkan', 17), ('Deccan Plateau', 17), ('Tamilakam', 16), ('Kalinga', 15), ('Delhi', 15), ('Bihar', 15), ('Bengal', 15), ('Himalayan Plateau', 15), ('Ayeyarwady', 15), ('Chao Phraya', 13), ('Malacca Strait', 13), ('Mekong', 15), ('Moluccas', 13),
-     ('Champa Sea', 15), ('Australia', 17), ('Liangguang', 15), ('Szechwan', 15), ('Huazhong', 15), ('Jiangnan', 16), ('Huabei', 16), ('Xibei', 16), ('Eastern Siberia', 17), ('Zhongyuan', 16), ('Nippon', 17),
-     ('Far East', 17), ('Andes', 23), ('Southern Cone', 22), ('Guiana', 21), ('Amazonia', 23), ('Panama', 23), ('Caribbean', 22), ('Mexico', 23), ('Rio Grande', 23), ('Mississippi', 23), ('Plains', 23), ('Eastern Seaboard', 23), ('Canada', 23),
-     ('American West Coast', 23), ('Pacific', 33)])
+    [('West Atlantis Node', 31), ('East Atlantis Node', 31), ('South Atlantis Node', 31), ('North Atlantis Node', 31), ('Iberia', 31), ('Strait of Gibraltar', 31), ('Sahara', 31), ('West Mediterranean', 31), ('France', 31), ('Channel', 31), ('North Sea', 31), ('Barbary Coast', 31), ('Tyrrenean Sea', 31), ('Rhineland', 31), ('Lower Nile', 29), ('Po Valley', 31), ('Adriatic Sea', 31), ('Levant', 31),
+     ('Aegean Sea', 31), ('Danube', 31), ('Elbe', 31), ('Baltic Sea', 31),
+     ('Vistula', 31), ('Crimea', 31), ('Western Siberia', 31), ('Dnieper', 31), ('Caspian Sea', 31), ('Zalesye', 31), ('Anatolia', 31), ('Senegambia', 31), ('Niger River', 31), ('Guinea Coast',
+                                                                                                                                                                                  31), ('Lake Tchad', 31), ('Kongo', 31), ('South Africa', 30), ('Monomotapa', 30), ('Zanj', 30), ('Red Sea', 27),
+     ('Upper Nile', 27), ('Arabia', 27), ('Iran', 27), ('Khorasan', 27), ('Mawarannahr', 27), ('Yettishar', 27),
+     ('Punjab', 27), ('Gurjaratra', 27), ('Konkan', 27), ('Deccan Plateau', 27), ('Tamilakam', 16), ('Kalinga', 25), ('Delhi', 25), ('Bihar', 25), ('Bengal', 25), ('Himalayan Plateau', 25), ('Ayeyarwady', 25), ('Chao Phraya', 33), ('Malacca Strait', 33), ('Mekong', 25), ('Moluccas', 33),
+     ('Champa Sea', 25), ('Australia', 27), ('Liangguang', 25), ('Szechwan', 25), ('Huazhong', 25), ('Jiangnan', 16), ('Huabei', 16), ('Xibei', 16), ('Eastern Siberia', 27), ('Zhongyuan', 16), ('Nippon', 27),
+     ('Far East', 27), ('Andes', 33), ('Southern Cone', 32), ('Guiana', 31), ('Amazonia', 33), ('Panama', 33), ('Caribbean', 32), ('Mexico', 33), ('Rio Grande', 33), ('Mississippi', 33), ('Plains', 33), ('Eastern Seaboard', 33), ('Canada', 33),
+     ('American West Coast', 33), ('Pacific', 33)])
 # Southeast Asia
-expeditions_list.append(Expedition('southeast_asia', 'Southeast Asia', 600, 'Regular', [24, 19, 18]))
+expeditions_list.append(Expedition('southeast_asia', 'Southeast Asia', 600, 'Regular', [24, 29, 28]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 21), ('East Atlantis Node', 21), ('South Atlantis Node', 21), ('North Atlantis Node', 21), ('Iberia', 21), ('Strait of Gibraltar', 21), ('Sahara', 21), ('West Mediterranean', 21), ('France', 21), ('Channel', 21), ('North Sea', 21), ('Barbary Coast', 21), ('Tyrrenean Sea', 21), ('Rhineland', 21), ('Lower Nile', 19), ('Po Valley', 21), ('Adriatic Sea', 21), ('Levant', 21),
-     ('Aegean Sea', 21), ('Danube', 21), ('Elbe', 21), ('Baltic Sea', 21),
-     ('Vistula', 21), ('Crimea', 21), ('Western Siberia', 21), ('Dnieper', 21), ('Caspian Sea', 21), ('Zalesye', 21), ('Anatolia', 21), ('Senegambia', 21), ('Niger River', 21), ('Guinea Coast',
-                                                                                                                                                                                  21), ('Lake Tchad', 21), ('Kongo', 21), ('South Africa', 20), ('Monomotapa', 20), ('Zanj', 20), ('Red Sea', 17),
-     ('Upper Nile', 17), ('Arabia', 17), ('Iran', 17), ('Khorasan', 17), ('Mawarannahr', 17), ('Yettishar', 17),
-     ('Punjab', 17), ('Gurjaratra', 17), ('Konkan', 17), ('Deccan Plateau', 17), ('Tamilakam', 16), ('Kalinga', 15), ('Delhi', 15), ('Bihar', 15), ('Bengal', 15), ('Himalayan Plateau', 15), ('Ayeyarwady', 15), ('Chao Phraya', 13), ('Malacca Strait', 13), ('Mekong', 13), ('Moluccas', 15),
-     ('Champa Sea', 15), ('Australia', 17), ('Liangguang', 15), ('Szechwan', 15), ('Huazhong', 15), ('Jiangnan', 16), ('Huabei', 16), ('Xibei', 16), ('Eastern Siberia', 17), ('Zhongyuan', 16), ('Nippon', 17),
-     ('Far East', 17), ('Andes', 23), ('Southern Cone', 22), ('Guiana', 21), ('Amazonia', 23), ('Panama', 23), ('Caribbean', 22), ('Mexico', 23), ('Rio Grande', 23), ('Mississippi', 23), ('Plains', 23), ('Eastern Seaboard', 23), ('Canada', 23),
-     ('American West Coast', 23), ('Pacific', 33)])
+    [('West Atlantis Node', 31), ('East Atlantis Node', 31), ('South Atlantis Node', 31), ('North Atlantis Node', 31), ('Iberia', 31), ('Strait of Gibraltar', 31), ('Sahara', 31), ('West Mediterranean', 31), ('France', 31), ('Channel', 31), ('North Sea', 31), ('Barbary Coast', 31), ('Tyrrenean Sea', 31), ('Rhineland', 31), ('Lower Nile', 29), ('Po Valley', 31), ('Adriatic Sea', 31), ('Levant', 31),
+     ('Aegean Sea', 31), ('Danube', 31), ('Elbe', 31), ('Baltic Sea', 31),
+     ('Vistula', 31), ('Crimea', 31), ('Western Siberia', 31), ('Dnieper', 31), ('Caspian Sea', 31), ('Zalesye', 31), ('Anatolia', 31), ('Senegambia', 31), ('Niger River', 31), ('Guinea Coast',
+                                                                                                                                                                                  31), ('Lake Tchad', 31), ('Kongo', 31), ('South Africa', 30), ('Monomotapa', 30), ('Zanj', 30), ('Red Sea', 27),
+     ('Upper Nile', 27), ('Arabia', 27), ('Iran', 27), ('Khorasan', 27), ('Mawarannahr', 27), ('Yettishar', 27),
+     ('Punjab', 27), ('Gurjaratra', 27), ('Konkan', 27), ('Deccan Plateau', 27), ('Tamilakam', 16), ('Kalinga', 25), ('Delhi', 25), ('Bihar', 25), ('Bengal', 25), ('Himalayan Plateau', 25), ('Ayeyarwady', 25), ('Chao Phraya', 33), ('Malacca Strait', 33), ('Mekong', 33), ('Moluccas', 25),
+     ('Champa Sea', 25), ('Australia', 27), ('Liangguang', 25), ('Szechwan', 25), ('Huazhong', 25), ('Jiangnan', 16), ('Huabei', 16), ('Xibei', 16), ('Eastern Siberia', 27), ('Zhongyuan', 16), ('Nippon', 27),
+     ('Far East', 27), ('Andes', 33), ('Southern Cone', 32), ('Guiana', 31), ('Amazonia', 33), ('Panama', 33), ('Caribbean', 32), ('Mexico', 33), ('Rio Grande', 33), ('Mississippi', 33), ('Plains', 33), ('Eastern Seaboard', 33), ('Canada', 33),
+     ('American West Coast', 33), ('Pacific', 33)])
 # Indonesia
-expeditions_list.append(Expedition('indonesia', 'Indonesia', 1200, 'Regular', [22]))
+expeditions_list.append(Expedition('indonesia', 'Indonesia', 1300, 'Regular', [32]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 21), ('East Atlantis Node', 21), ('South Atlantis Node', 21), ('North Atlantis Node', 21), ('Iberia', 21), ('Strait of Gibraltar', 21), ('Sahara', 21), ('West Mediterranean', 21), ('France', 21), ('Channel', 21), ('North Sea', 21), ('Barbary Coast', 21), ('Tyrrenean Sea', 21), ('Rhineland', 21), ('Lower Nile', 19), ('Po Valley', 21), ('Adriatic Sea', 21), ('Levant', 21),
-     ('Aegean Sea', 21), ('Danube', 21), ('Elbe', 21), ('Baltic Sea', 21),
-     ('Vistula', 21), ('Crimea', 21), ('Western Siberia', 21), ('Dnieper', 21), ('Caspian Sea', 21), ('Zalesye', 21), ('Anatolia', 21), ('Senegambia', 21), ('Niger River', 21), ('Guinea Coast',
-                                                                                                                                                                                  21), ('Lake Tchad', 21), ('Kongo', 21), ('South Africa', 20), ('Monomotapa', 20), ('Zanj', 20), ('Red Sea', 17),
-     ('Upper Nile', 17), ('Arabia', 17), ('Iran', 17), ('Khorasan', 17), ('Mawarannahr', 17), ('Yettishar', 17),
-     ('Punjab', 17), ('Gurjaratra', 17), ('Konkan', 17), ('Deccan Plateau', 17), ('Tamilakam', 16), ('Kalinga', 16), ('Delhi', 16), ('Bihar', 16), ('Bengal', 16), ('Himalayan Plateau', 16), ('Ayeyarwady', 16), ('Chao Phraya', 15), ('Malacca Strait', 13), ('Mekong', 15), ('Moluccas', 13),
-     ('Champa Sea', 15), ('Australia', 17), ('Liangguang', 15), ('Szechwan', 15), ('Huazhong', 15), ('Jiangnan', 16), ('Huabei', 16), ('Xibei', 16), ('Eastern Siberia', 17), ('Zhongyuan', 16), ('Nippon', 17),
-     ('Far East', 17), ('Andes', 23), ('Southern Cone', 22), ('Guiana', 21), ('Amazonia', 23), ('Panama', 23), ('Caribbean', 22), ('Mexico', 23), ('Rio Grande', 23), ('Mississippi', 23), ('Plains', 23), ('Eastern Seaboard', 23), ('Canada', 23),
-     ('American West Coast', 23), ('Pacific', 33)])
+    [('West Atlantis Node', 31), ('East Atlantis Node', 31), ('South Atlantis Node', 31), ('North Atlantis Node', 31), ('Iberia', 31), ('Strait of Gibraltar', 31), ('Sahara', 31), ('West Mediterranean', 31), ('France', 31), ('Channel', 31), ('North Sea', 31), ('Barbary Coast', 31), ('Tyrrenean Sea', 31), ('Rhineland', 31), ('Lower Nile', 29), ('Po Valley', 31), ('Adriatic Sea', 31), ('Levant', 31),
+     ('Aegean Sea', 31), ('Danube', 31), ('Elbe', 31), ('Baltic Sea', 31),
+     ('Vistula', 31), ('Crimea', 31), ('Western Siberia', 31), ('Dnieper', 31), ('Caspian Sea', 31), ('Zalesye', 31), ('Anatolia', 31), ('Senegambia', 31), ('Niger River', 31), ('Guinea Coast',
+                                                                                                                                                                                  31), ('Lake Tchad', 31), ('Kongo', 31), ('South Africa', 30), ('Monomotapa', 30), ('Zanj', 30), ('Red Sea', 27),
+     ('Upper Nile', 27), ('Arabia', 27), ('Iran', 27), ('Khorasan', 27), ('Mawarannahr', 27), ('Yettishar', 27),
+     ('Punjab', 27), ('Gurjaratra', 27), ('Konkan', 27), ('Deccan Plateau', 27), ('Tamilakam', 16), ('Kalinga', 16), ('Delhi', 16), ('Bihar', 16), ('Bengal', 16), ('Himalayan Plateau', 16), ('Ayeyarwady', 16), ('Chao Phraya', 25), ('Malacca Strait', 33), ('Mekong', 25), ('Moluccas', 33),
+     ('Champa Sea', 25), ('Australia', 27), ('Liangguang', 25), ('Szechwan', 25), ('Huazhong', 25), ('Jiangnan', 16), ('Huabei', 16), ('Xibei', 16), ('Eastern Siberia', 27), ('Zhongyuan', 16), ('Nippon', 27),
+     ('Far East', 27), ('Andes', 33), ('Southern Cone', 32), ('Guiana', 31), ('Amazonia', 33), ('Panama', 33), ('Caribbean', 32), ('Mexico', 33), ('Rio Grande', 33), ('Mississippi', 33), ('Plains', 33), ('Eastern Seaboard', 33), ('Canada', 33),
+     ('American West Coast', 33), ('Pacific', 33)])
 # the Philippines
-expeditions_list.append(Expedition('philippines', 'the Philippines', 800, 'Regular', [19]))
+expeditions_list.append(Expedition('philippines', 'the Philippines', 800, 'Regular', [29]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 21), ('East Atlantis Node', 21), ('South Atlantis Node', 21), ('North Atlantis Node', 21), ('Iberia', 21), ('Strait of Gibraltar', 21), ('Sahara', 21), ('West Mediterranean', 21), ('France', 21), ('Channel', 21), ('North Sea', 21), ('Barbary Coast', 21), ('Tyrrenean Sea', 21), ('Rhineland', 21), ('Lower Nile', 19), ('Po Valley', 21), ('Adriatic Sea', 21), ('Levant', 21),
-     ('Aegean Sea', 21), ('Danube', 21), ('Elbe', 21), ('Baltic Sea', 21),
-     ('Vistula', 21), ('Crimea', 21), ('Western Siberia', 21), ('Dnieper', 21), ('Caspian Sea', 21), ('Zalesye', 21), ('Anatolia', 21), ('Senegambia', 21), ('Niger River', 21), ('Guinea Coast',
-                                                                                                                                                                                  21), ('Lake Tchad', 21), ('Kongo', 21), ('South Africa', 20), ('Monomotapa', 20), ('Zanj', 20), ('Red Sea', 17),
-     ('Upper Nile', 17), ('Arabia', 17), ('Iran', 17), ('Khorasan', 17), ('Mawarannahr', 17), ('Yettishar', 17),
-     ('Punjab', 17), ('Gurjaratra', 17), ('Konkan', 17), ('Deccan Plateau', 17), ('Tamilakam', 16), ('Kalinga', 16), ('Delhi', 16), ('Bihar', 16), ('Bengal', 16), ('Himalayan Plateau', 16), ('Ayeyarwady', 16), ('Chao Phraya', 15), ('Malacca Strait', 15), ('Mekong', 15), ('Moluccas', 15),
-     ('Champa Sea', 13), ('Australia', 17), ('Liangguang', 15), ('Szechwan', 15), ('Huazhong', 15), ('Jiangnan', 16), ('Huabei', 16), ('Xibei', 16), ('Eastern Siberia', 17), ('Zhongyuan', 16), ('Nippon', 17),
-     ('Far East', 17), ('Andes', 23), ('Southern Cone', 22), ('Guiana', 21), ('Amazonia', 23), ('Panama', 23), ('Caribbean', 22), ('Mexico', 23), ('Rio Grande', 23), ('Mississippi', 23), ('Plains', 23), ('Eastern Seaboard', 23), ('Canada', 23),
-     ('American West Coast', 23), ('Pacific', 33)])
+    [('West Atlantis Node', 31), ('East Atlantis Node', 31), ('South Atlantis Node', 31), ('North Atlantis Node', 31), ('Iberia', 31), ('Strait of Gibraltar', 31), ('Sahara', 31), ('West Mediterranean', 31), ('France', 31), ('Channel', 31), ('North Sea', 31), ('Barbary Coast', 31), ('Tyrrenean Sea', 31), ('Rhineland', 31), ('Lower Nile', 29), ('Po Valley', 31), ('Adriatic Sea', 31), ('Levant', 31),
+     ('Aegean Sea', 31), ('Danube', 31), ('Elbe', 31), ('Baltic Sea', 31),
+     ('Vistula', 31), ('Crimea', 31), ('Western Siberia', 31), ('Dnieper', 31), ('Caspian Sea', 31), ('Zalesye', 31), ('Anatolia', 31), ('Senegambia', 31), ('Niger River', 31), ('Guinea Coast',
+                                                                                                                                                                                  31), ('Lake Tchad', 31), ('Kongo', 31), ('South Africa', 30), ('Monomotapa', 30), ('Zanj', 30), ('Red Sea', 27),
+     ('Upper Nile', 27), ('Arabia', 27), ('Iran', 27), ('Khorasan', 27), ('Mawarannahr', 27), ('Yettishar', 27),
+     ('Punjab', 27), ('Gurjaratra', 27), ('Konkan', 27), ('Deccan Plateau', 27), ('Tamilakam', 16), ('Kalinga', 16), ('Delhi', 16), ('Bihar', 16), ('Bengal', 16), ('Himalayan Plateau', 16), ('Ayeyarwady', 16), ('Chao Phraya', 25), ('Malacca Strait', 25), ('Mekong', 25), ('Moluccas', 25),
+     ('Champa Sea', 33), ('Australia', 27), ('Liangguang', 25), ('Szechwan', 25), ('Huazhong', 25), ('Jiangnan', 16), ('Huabei', 16), ('Xibei', 16), ('Eastern Siberia', 27), ('Zhongyuan', 16), ('Nippon', 27),
+     ('Far East', 27), ('Andes', 33), ('Southern Cone', 32), ('Guiana', 31), ('Amazonia', 33), ('Panama', 33), ('Caribbean', 32), ('Mexico', 33), ('Rio Grande', 33), ('Mississippi', 33), ('Plains', 33), ('Eastern Seaboard', 33), ('Canada', 33),
+     ('American West Coast', 33), ('Pacific', 33)])
 # Papua New Guinea
 expeditions_list.append(Expedition('papua', 'Papua New Guinea', 100, 'Regular', [2]))
 expeditions_list[-1].set_node_tech_reqs(
@@ -290,7 +290,7 @@ expeditions_list[-1].set_node_tech_reqs(
                                                                                                                                                                                   48), ('Lake Tchad', 48), ('Kongo', 48), ('South Africa', 48), ('Monomotapa', 48), ('Zanj', 48), ('Red Sea', 48),
      ('Upper Nile', 48), ('Arabia', 48), ('Iran', 48), ('Khorasan', 48), ('Mawarannahr', 48), ('Yettishar', 48),
      ('Punjab', 48), ('Gurjaratra', 48), ('Konkan', 48), ('Deccan Plateau', 48), ('Tamilakam', 48), ('Kalinga', 48), ('Delhi', 48), ('Bihar', 48), ('Bengal', 48), ('Himalayan Plateau', 48), ('Ayeyarwady', 48), ('Chao Phraya', 48), ('Malacca Strait', 48), ('Mekong', 48), ('Moluccas', 48),
-     ('Champa Sea', 48), ('Australia', 15), ('Liangguang', 48), ('Szechwan', 48), ('Huazhong', 48), ('Jiangnan', 48), ('Huabei', 48), ('Xibei', 48), ('Eastern Siberia', 48), ('Zhongyuan', 48), ('Nippon', 48),
+     ('Champa Sea', 48), ('Australia', 25), ('Liangguang', 48), ('Szechwan', 48), ('Huazhong', 48), ('Jiangnan', 48), ('Huabei', 48), ('Xibei', 48), ('Eastern Siberia', 48), ('Zhongyuan', 48), ('Nippon', 48),
      ('Far East', 48), ('Andes', 48), ('Southern Cone', 48), ('Guiana', 48), ('Amazonia', 48), ('Panama', 48), ('Caribbean', 48), ('Mexico', 48), ('Rio Grande', 48), ('Mississippi', 48), ('Plains', 48), ('Eastern Seaboard', 48), ('Canada', 48),
      ('American West Coast', 48), ('Pacific', 33)])
 # the Pacific Islands
@@ -306,152 +306,152 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 33), ('Andes', 33), ('Southern Cone', 33), ('Guiana', 33), ('Amazonia', 33), ('Panama', 33), ('Caribbean', 33), ('Mexico', 33), ('Rio Grande', 33), ('Mississippi', 33), ('Plains', 33), ('Eastern Seaboard', 33), ('Canada', 33),
      ('American West Coast', 33), ('Pacific', 33)])
 # Southern China
-expeditions_list.append(Expedition('southern_china', 'Southern China', 800, 'Chinese Mainland', [3, 17]))
+expeditions_list.append(Expedition('southern_china', 'Southern China', 800, 'Chinese Mainland', [3, 27]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 22), ('East Atlantis Node', 22), ('South Atlantis Node', 22), ('North Atlantis Node', 22), ('Iberia', 22), ('Strait of Gibraltar', 22), ('Sahara', 22), ('West Mediterranean', 22), ('France', 22), ('Channel', 22), ('North Sea', 22), ('Barbary Coast', 22), ('Tyrrenean Sea', 22), ('Rhineland', 22), ('Lower Nile', 20), ('Po Valley', 22), ('Adriatic Sea', 22), ('Levant', 22),
-     ('Aegean Sea', 22), ('Danube', 22), ('Elbe', 22), ('Baltic Sea', 22),
-     ('Vistula', 22), ('Crimea', 22), ('Western Siberia', 22), ('Dnieper', 22), ('Caspian Sea', 22), ('Zalesye', 22), ('Anatolia', 22), ('Senegambia', 22), ('Niger River', 22), ('Guinea Coast',
-                                                                                                                                                                                  22), ('Lake Tchad', 22), ('Kongo', 22), ('South Africa', 21), ('Monomotapa', 21), ('Zanj', 21), ('Red Sea', 19),
-     ('Upper Nile', 19), ('Arabia', 19), ('Iran', 19), ('Khorasan', 19), ('Mawarannahr', 19), ('Yettishar', 19),
-     ('Punjab', 18), ('Gurjaratra', 18), ('Konkan', 18), ('Deccan Plateau', 18), ('Tamilakam', 18), ('Kalinga', 18), ('Delhi', 18), ('Bihar', 18), ('Bengal', 18), ('Himalayan Plateau', 18), ('Ayeyarwady', 18), ('Chao Phraya', 16), ('Malacca Strait', 16), ('Mekong', 16), ('Moluccas', 16),
-     ('Champa Sea', 15), ('Australia', 17), ('Liangguang', 13), ('Szechwan', 13), ('Huazhong', 13), ('Jiangnan', 13), ('Huabei', 13), ('Xibei', 15), ('Zhongyuan', 15), ('Eastern Siberia', 15), ('Nippon', 15),
-     ('Far East', 16), ('Andes', 23), ('Southern Cone', 23), ('Guiana', 22), ('Amazonia', 23), ('Panama', 23), ('Caribbean', 23), ('Mexico', 23), ('Rio Grande', 23), ('Mississippi', 23), ('Plains', 23), ('Eastern Seaboard', 23), ('Canada', 23),
-     ('American West Coast', 23), ('Pacific', 33)])
+    [('West Atlantis Node', 32), ('East Atlantis Node', 32), ('South Atlantis Node', 32), ('North Atlantis Node', 32), ('Iberia', 32), ('Strait of Gibraltar', 32), ('Sahara', 32), ('West Mediterranean', 32), ('France', 32), ('Channel', 32), ('North Sea', 32), ('Barbary Coast', 32), ('Tyrrenean Sea', 32), ('Rhineland', 32), ('Lower Nile', 30), ('Po Valley', 32), ('Adriatic Sea', 32), ('Levant', 32),
+     ('Aegean Sea', 32), ('Danube', 32), ('Elbe', 32), ('Baltic Sea', 32),
+     ('Vistula', 32), ('Crimea', 32), ('Western Siberia', 32), ('Dnieper', 32), ('Caspian Sea', 32), ('Zalesye', 32), ('Anatolia', 32), ('Senegambia', 32), ('Niger River', 32), ('Guinea Coast',
+                                                                                                                                                                                  32), ('Lake Tchad', 32), ('Kongo', 32), ('South Africa', 31), ('Monomotapa', 31), ('Zanj', 31), ('Red Sea', 29),
+     ('Upper Nile', 29), ('Arabia', 29), ('Iran', 29), ('Khorasan', 29), ('Mawarannahr', 29), ('Yettishar', 29),
+     ('Punjab', 28), ('Gurjaratra', 28), ('Konkan', 28), ('Deccan Plateau', 28), ('Tamilakam', 28), ('Kalinga', 28), ('Delhi', 28), ('Bihar', 28), ('Bengal', 28), ('Himalayan Plateau', 28), ('Ayeyarwady', 28), ('Chao Phraya', 16), ('Malacca Strait', 16), ('Mekong', 16), ('Moluccas', 16),
+     ('Champa Sea', 25), ('Australia', 27), ('Liangguang', 33), ('Szechwan', 33), ('Huazhong', 33), ('Jiangnan', 33), ('Huabei', 33), ('Xibei', 25), ('Zhongyuan', 25), ('Eastern Siberia', 25), ('Nippon', 25),
+     ('Far East', 16), ('Andes', 33), ('Southern Cone', 33), ('Guiana', 32), ('Amazonia', 33), ('Panama', 33), ('Caribbean', 33), ('Mexico', 33), ('Rio Grande', 33), ('Mississippi', 33), ('Plains', 33), ('Eastern Seaboard', 33), ('Canada', 33),
+     ('American West Coast', 33), ('Pacific', 33)])
 # Northern China
 expeditions_list.append(Expedition('northern_china', 'Northern China', 800, 'Chinese Mainland', [3, 6, 4, 11]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 22), ('East Atlantis Node', 22), ('South Atlantis Node', 22), ('North Atlantis Node', 22), ('Iberia', 22), ('Strait of Gibraltar', 22), ('Sahara', 22), ('West Mediterranean', 22), ('France', 22), ('Channel', 22), ('North Sea', 22), ('Barbary Coast', 22), ('Tyrrenean Sea', 22), ('Rhineland', 22), ('Lower Nile', 20), ('Po Valley', 22), ('Adriatic Sea', 22), ('Levant', 22),
-     ('Aegean Sea', 22), ('Danube', 22), ('Elbe', 22), ('Baltic Sea', 22),
-     ('Vistula', 22), ('Crimea', 22), ('Western Siberia', 22), ('Dnieper', 22), ('Caspian Sea', 22), ('Zalesye', 22), ('Anatolia', 22), ('Senegambia', 22), ('Niger River', 22), ('Guinea Coast',
-                                                                                                                                                                                  22), ('Lake Tchad', 22), ('Kongo', 22), ('South Africa', 21), ('Monomotapa', 21), ('Zanj', 21), ('Red Sea', 19),
-     ('Upper Nile', 19), ('Arabia', 19), ('Iran', 19), ('Khorasan', 19), ('Mawarannahr', 19), ('Yettishar', 19),
-     ('Punjab', 18), ('Gurjaratra', 18), ('Konkan', 18), ('Deccan Plateau', 18), ('Tamilakam', 18), ('Kalinga', 17), ('Delhi', 17), ('Bihar', 17), ('Bengal', 17), ('Himalayan Plateau', 17), ('Ayeyarwady', 17), ('Chao Phraya', 16), ('Malacca Strait', 16), ('Mekong', 16), ('Moluccas', 16),
-     ('Champa Sea', 15), ('Australia', 17), ('Liangguang', 15), ('Szechwan', 15), ('Huazhong', 13), ('Jiangnan', 13), ('Huabei', 13), ('Xibei', 13), ('Zhongyuan', 15), ('Eastern Siberia', 13), ('Nippon', 15),
-     ('Far East', 16), ('Andes', 23), ('Southern Cone', 23), ('Guiana', 22), ('Amazonia', 23), ('Panama', 23), ('Caribbean', 23), ('Mexico', 23), ('Rio Grande', 23), ('Mississippi', 23), ('Plains', 23), ('Eastern Seaboard', 23), ('Canada', 23),
-     ('American West Coast', 23), ('Pacific', 33)])
+    [('West Atlantis Node', 32), ('East Atlantis Node', 32), ('South Atlantis Node', 32), ('North Atlantis Node', 32), ('Iberia', 32), ('Strait of Gibraltar', 32), ('Sahara', 32), ('West Mediterranean', 32), ('France', 32), ('Channel', 32), ('North Sea', 32), ('Barbary Coast', 32), ('Tyrrenean Sea', 32), ('Rhineland', 32), ('Lower Nile', 30), ('Po Valley', 32), ('Adriatic Sea', 32), ('Levant', 32),
+     ('Aegean Sea', 32), ('Danube', 32), ('Elbe', 32), ('Baltic Sea', 32),
+     ('Vistula', 32), ('Crimea', 32), ('Western Siberia', 32), ('Dnieper', 32), ('Caspian Sea', 32), ('Zalesye', 32), ('Anatolia', 32), ('Senegambia', 32), ('Niger River', 32), ('Guinea Coast',
+                                                                                                                                                                                  32), ('Lake Tchad', 32), ('Kongo', 32), ('South Africa', 31), ('Monomotapa', 31), ('Zanj', 31), ('Red Sea', 29),
+     ('Upper Nile', 29), ('Arabia', 29), ('Iran', 29), ('Khorasan', 29), ('Mawarannahr', 29), ('Yettishar', 29),
+     ('Punjab', 28), ('Gurjaratra', 28), ('Konkan', 28), ('Deccan Plateau', 28), ('Tamilakam', 28), ('Kalinga', 27), ('Delhi', 27), ('Bihar', 27), ('Bengal', 27), ('Himalayan Plateau', 27), ('Ayeyarwady', 27), ('Chao Phraya', 16), ('Malacca Strait', 16), ('Mekong', 16), ('Moluccas', 16),
+     ('Champa Sea', 25), ('Australia', 27), ('Liangguang', 25), ('Szechwan', 25), ('Huazhong', 33), ('Jiangnan', 33), ('Huabei', 33), ('Xibei', 33), ('Zhongyuan', 25), ('Eastern Siberia', 33), ('Nippon', 25),
+     ('Far East', 16), ('Andes', 33), ('Southern Cone', 33), ('Guiana', 32), ('Amazonia', 33), ('Panama', 33), ('Caribbean', 33), ('Mexico', 33), ('Rio Grande', 33), ('Mississippi', 33), ('Plains', 33), ('Eastern Seaboard', 33), ('Canada', 33),
+     ('American West Coast', 33), ('Pacific', 33)])
 # Korea
 expeditions_list.append(Expedition('korea', 'Korea', 400, 'Chinese Mainland', [4]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 22), ('East Atlantis Node', 22), ('South Atlantis Node', 22), ('North Atlantis Node', 22), ('Iberia', 22), ('Strait of Gibraltar', 22), ('Sahara', 22), ('West Mediterranean', 22), ('France', 22), ('Channel', 22), ('North Sea', 22), ('Barbary Coast', 22), ('Tyrrenean Sea', 22), ('Rhineland', 22), ('Lower Nile', 20), ('Po Valley', 22), ('Adriatic Sea', 22), ('Levant', 22),
-     ('Aegean Sea', 22), ('Danube', 22), ('Elbe', 22), ('Baltic Sea', 22),
-     ('Vistula', 22), ('Crimea', 22), ('Western Siberia', 22), ('Dnieper', 22), ('Caspian Sea', 22), ('Zalesye', 22), ('Anatolia', 22), ('Senegambia', 22), ('Niger River', 22), ('Guinea Coast',
-                                                                                                                                                                                  22), ('Lake Tchad', 22), ('Kongo', 22), ('South Africa', 21), ('Monomotapa', 21), ('Zanj', 21), ('Red Sea', 20),
-     ('Upper Nile', 20), ('Arabia', 20), ('Iran', 20), ('Khorasan', 20), ('Mawarannahr', 20), ('Yettishar', 20),
-     ('Punjab', 19), ('Gurjaratra', 19), ('Konkan', 19), ('Deccan Plateau', 19), ('Tamilakam', 19), ('Kalinga', 19), ('Delhi', 19), ('Bihar', 19), ('Bengal', 19), ('Himalayan Plateau', 19), ('Ayeyarwady', 19), ('Chao Phraya', 16), ('Malacca Strait', 16), ('Mekong', 16), ('Moluccas', 16),
-     ('Champa Sea', 15), ('Australia', 17), ('Liangguang', 15), ('Szechwan', 15), ('Huazhong', 15), ('Jiangnan', 15), ('Huabei', 15), ('Xibei', 15), ('Zhongyuan', 13), ('Eastern Siberia', 15), ('Nippon', 15),
-     ('Far East', 15), ('Andes', 23), ('Southern Cone', 23), ('Guiana', 22), ('Amazonia', 23), ('Panama', 23), ('Caribbean', 23), ('Mexico', 23), ('Rio Grande', 23), ('Mississippi', 23), ('Plains', 23), ('Eastern Seaboard', 23), ('Canada', 23),
-     ('American West Coast', 23), ('Pacific', 33)])
+    [('West Atlantis Node', 32), ('East Atlantis Node', 32), ('South Atlantis Node', 32), ('North Atlantis Node', 32), ('Iberia', 32), ('Strait of Gibraltar', 32), ('Sahara', 32), ('West Mediterranean', 32), ('France', 32), ('Channel', 32), ('North Sea', 32), ('Barbary Coast', 32), ('Tyrrenean Sea', 32), ('Rhineland', 32), ('Lower Nile', 30), ('Po Valley', 32), ('Adriatic Sea', 32), ('Levant', 32),
+     ('Aegean Sea', 32), ('Danube', 32), ('Elbe', 32), ('Baltic Sea', 32),
+     ('Vistula', 32), ('Crimea', 32), ('Western Siberia', 32), ('Dnieper', 32), ('Caspian Sea', 32), ('Zalesye', 32), ('Anatolia', 32), ('Senegambia', 32), ('Niger River', 32), ('Guinea Coast',
+                                                                                                                                                                                  32), ('Lake Tchad', 32), ('Kongo', 32), ('South Africa', 31), ('Monomotapa', 31), ('Zanj', 31), ('Red Sea', 30),
+     ('Upper Nile', 30), ('Arabia', 30), ('Iran', 30), ('Khorasan', 30), ('Mawarannahr', 30), ('Yettishar', 30),
+     ('Punjab', 29), ('Gurjaratra', 29), ('Konkan', 29), ('Deccan Plateau', 29), ('Tamilakam', 29), ('Kalinga', 29), ('Delhi', 29), ('Bihar', 29), ('Bengal', 29), ('Himalayan Plateau', 29), ('Ayeyarwady', 29), ('Chao Phraya', 16), ('Malacca Strait', 16), ('Mekong', 16), ('Moluccas', 16),
+     ('Champa Sea', 25), ('Australia', 27), ('Liangguang', 25), ('Szechwan', 25), ('Huazhong', 25), ('Jiangnan', 25), ('Huabei', 25), ('Xibei', 25), ('Zhongyuan', 33), ('Eastern Siberia', 25), ('Nippon', 25),
+     ('Far East', 25), ('Andes', 33), ('Southern Cone', 33), ('Guiana', 32), ('Amazonia', 33), ('Panama', 33), ('Caribbean', 33), ('Mexico', 33), ('Rio Grande', 33), ('Mississippi', 33), ('Plains', 33), ('Eastern Seaboard', 33), ('Canada', 33),
+     ('American West Coast', 33), ('Pacific', 33)])
 # Japan
 expeditions_list.append(Expedition('japan', 'Japan', 400, 'Jumping Node', [7]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 22), ('East Atlantis Node', 22), ('South Atlantis Node', 22), ('North Atlantis Node', 22), ('Iberia', 22), ('Strait of Gibraltar', 22), ('Sahara', 22), ('West Mediterranean', 22), ('France', 22), ('Channel', 22), ('North Sea', 22), ('Barbary Coast', 22), ('Tyrrenean Sea', 22), ('Rhineland', 22), ('Lower Nile', 20), ('Po Valley', 22), ('Adriatic Sea', 22), ('Levant', 22),
-     ('Aegean Sea', 22), ('Danube', 22), ('Elbe', 22), ('Baltic Sea', 22),
-     ('Vistula', 22), ('Crimea', 22), ('Western Siberia', 22), ('Dnieper', 22), ('Caspian Sea', 22), ('Zalesye', 22), ('Anatolia', 22), ('Senegambia', 22), ('Niger River', 22), ('Guinea Coast',
-                                                                                                                                                                                  22), ('Lake Tchad', 22), ('Kongo', 22), ('South Africa', 21), ('Monomotapa', 21), ('Zanj', 21), ('Red Sea', 20),
-     ('Upper Nile', 20), ('Arabia', 20), ('Iran', 20), ('Khorasan', 20), ('Mawarannahr', 20), ('Yettishar', 20),
-     ('Punjab', 19), ('Gurjaratra', 19), ('Konkan', 19), ('Deccan Plateau', 19), ('Tamilakam', 19), ('Kalinga', 19), ('Delhi', 19), ('Bihar', 19), ('Bengal', 19), ('Himalayan Plateau', 19), ('Ayeyarwady', 19), ('Chao Phraya', 16), ('Malacca Strait', 16), ('Mekong', 16), ('Moluccas', 16),
-     ('Champa Sea', 15), ('Australia', 17), ('Liangguang', 15), ('Szechwan', 15), ('Huazhong', 15), ('Jiangnan', 15), ('Huabei', 15), ('Xibei', 15), ('Zhongyuan', 15), ('Eastern Siberia', 15), ('Nippon', 13),
-     ('Far East', 15), ('Andes', 23), ('Southern Cone', 23), ('Guiana', 22), ('Amazonia', 23), ('Panama', 23), ('Caribbean', 23), ('Mexico', 23), ('Rio Grande', 23), ('Mississippi', 23), ('Plains', 23), ('Eastern Seaboard', 23), ('Canada', 23),
-     ('American West Coast', 23), ('Pacific', 33)])
+    [('West Atlantis Node', 32), ('East Atlantis Node', 32), ('South Atlantis Node', 32), ('North Atlantis Node', 32), ('Iberia', 32), ('Strait of Gibraltar', 32), ('Sahara', 32), ('West Mediterranean', 32), ('France', 32), ('Channel', 32), ('North Sea', 32), ('Barbary Coast', 32), ('Tyrrenean Sea', 32), ('Rhineland', 32), ('Lower Nile', 30), ('Po Valley', 32), ('Adriatic Sea', 32), ('Levant', 32),
+     ('Aegean Sea', 32), ('Danube', 32), ('Elbe', 32), ('Baltic Sea', 32),
+     ('Vistula', 32), ('Crimea', 32), ('Western Siberia', 32), ('Dnieper', 32), ('Caspian Sea', 32), ('Zalesye', 32), ('Anatolia', 32), ('Senegambia', 32), ('Niger River', 32), ('Guinea Coast',
+                                                                                                                                                                                  32), ('Lake Tchad', 32), ('Kongo', 32), ('South Africa', 31), ('Monomotapa', 31), ('Zanj', 31), ('Red Sea', 30),
+     ('Upper Nile', 30), ('Arabia', 30), ('Iran', 30), ('Khorasan', 30), ('Mawarannahr', 30), ('Yettishar', 30),
+     ('Punjab', 29), ('Gurjaratra', 29), ('Konkan', 29), ('Deccan Plateau', 29), ('Tamilakam', 29), ('Kalinga', 29), ('Delhi', 29), ('Bihar', 29), ('Bengal', 29), ('Himalayan Plateau', 29), ('Ayeyarwady', 29), ('Chao Phraya', 16), ('Malacca Strait', 16), ('Mekong', 16), ('Moluccas', 16),
+     ('Champa Sea', 25), ('Australia', 27), ('Liangguang', 25), ('Szechwan', 25), ('Huazhong', 25), ('Jiangnan', 25), ('Huabei', 25), ('Xibei', 25), ('Zhongyuan', 25), ('Eastern Siberia', 25), ('Nippon', 33),
+     ('Far East', 25), ('Andes', 33), ('Southern Cone', 33), ('Guiana', 32), ('Amazonia', 33), ('Panama', 33), ('Caribbean', 33), ('Mexico', 33), ('Rio Grande', 33), ('Mississippi', 33), ('Plains', 33), ('Eastern Seaboard', 33), ('Canada', 33),
+     ('American West Coast', 33), ('Pacific', 33)])
 
 # Cuba
 expeditions_list.append(Expedition('cuba', 'Cuba', 800, 'Colonial Node', [65]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 19), ('East Atlantis Node', 19), ('South Atlantis Node', 19), ('North Atlantis Node', 19), ('Iberia', 19), ('Strait of Gibraltar', 19), ('Sahara', 19), ('West Mediterranean', 19), ('France', 19), ('Channel', 19), ('North Sea', 19), ('Barbary Coast', 20), ('Tyrrenean Sea', 20), ('Rhineland', 20), ('Lower Nile', 20), ('Po Valley', 20), ('Adriatic Sea', 20), ('Levant', 20),
-     ('Aegean Sea', 20), ('Danube', 20), ('Elbe', 20), ('Baltic Sea', 20),
-     ('Vistula', 20), ('Crimea', 20), ('Western Siberia', 20), ('Dnieper', 20), ('Caspian Sea', 22), ('Zalesye', 20), ('Anatolia', 20), ('Senegambia', 19), ('Niger River', 19), ('Guinea Coast',
-                                                                                                                                                                                  19), ('Lake Tchad', 19), ('Kongo', 19), ('South Africa', 20), ('Monomotapa', 20), ('Zanj', 20), ('Red Sea', 21),
-     ('Upper Nile', 21), ('Arabia', 22), ('Iran', 22), ('Khorasan', 22), ('Mawarannahr', 22), ('Yettishar', 22),
-     ('Punjab', 22), ('Gurjaratra', 22), ('Konkan', 22), ('Deccan Plateau', 22), ('Tamilakam', 22), ('Kalinga', 22), ('Delhi', 22), ('Bihar', 22), ('Bengal', 22), ('Himalayan Plateau', 22), ('Ayeyarwady', 22), ('Chao Phraya', 22), ('Malacca Strait', 22), ('Mekong', 22), ('Moluccas', 22),
-     ('Champa Sea', 22), ('Australia', 22), ('Liangguang', 22), ('Szechwan', 22), ('Huazhong', 22), ('Jiangnan', 22), ('Huabei', 22), ('Xibei', 22), ('Zhongyuan', 22), ('Eastern Siberia', 22), ('Nippon', 22),
-     ('Far East', 22), ('Andes', 19), ('Southern Cone', 17), ('Guiana', 16), ('Amazonia', 19), ('Panama', 15), ('Caribbean', 13), ('Mexico', 15), ('Rio Grande', 15), ('Mississippi', 15), ('Plains', 15), ('Eastern Seaboard', 15), ('Canada', 17),
-     ('American West Coast', 20), ('Pacific', 33)])
+    [('West Atlantis Node', 29), ('East Atlantis Node', 29), ('South Atlantis Node', 29), ('North Atlantis Node', 29), ('Iberia', 29), ('Strait of Gibraltar', 29), ('Sahara', 29), ('West Mediterranean', 29), ('France', 29), ('Channel', 29), ('North Sea', 29), ('Barbary Coast', 30), ('Tyrrenean Sea', 30), ('Rhineland', 30), ('Lower Nile', 30), ('Po Valley', 30), ('Adriatic Sea', 30), ('Levant', 30),
+     ('Aegean Sea', 30), ('Danube', 30), ('Elbe', 30), ('Baltic Sea', 30),
+     ('Vistula', 30), ('Crimea', 30), ('Western Siberia', 30), ('Dnieper', 30), ('Caspian Sea', 32), ('Zalesye', 30), ('Anatolia', 30), ('Senegambia', 29), ('Niger River', 29), ('Guinea Coast',
+                                                                                                                                                                                  29), ('Lake Tchad', 29), ('Kongo', 29), ('South Africa', 30), ('Monomotapa', 30), ('Zanj', 30), ('Red Sea', 31),
+     ('Upper Nile', 31), ('Arabia', 32), ('Iran', 32), ('Khorasan', 32), ('Mawarannahr', 32), ('Yettishar', 32),
+     ('Punjab', 32), ('Gurjaratra', 32), ('Konkan', 32), ('Deccan Plateau', 32), ('Tamilakam', 32), ('Kalinga', 32), ('Delhi', 32), ('Bihar', 32), ('Bengal', 32), ('Himalayan Plateau', 32), ('Ayeyarwady', 32), ('Chao Phraya', 32), ('Malacca Strait', 32), ('Mekong', 32), ('Moluccas', 32),
+     ('Champa Sea', 32), ('Australia', 32), ('Liangguang', 32), ('Szechwan', 32), ('Huazhong', 32), ('Jiangnan', 32), ('Huabei', 32), ('Xibei', 32), ('Zhongyuan', 32), ('Eastern Siberia', 32), ('Nippon', 32),
+     ('Far East', 32), ('Andes', 29), ('Southern Cone', 27), ('Guiana', 16), ('Amazonia', 29), ('Panama', 25), ('Caribbean', 33), ('Mexico', 25), ('Rio Grande', 25), ('Mississippi', 25), ('Plains', 25), ('Eastern Seaboard', 25), ('Canada', 27),
+     ('American West Coast', 30), ('Pacific', 33)])
 # Hispaniola
 expeditions_list.append(Expedition('hispaniola', 'Hispaniola', 800, 'Colonial Node', [65]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 19), ('East Atlantis Node', 19), ('South Atlantis Node', 19), ('North Atlantis Node', 19), ('Iberia', 19), ('Strait of Gibraltar', 19), ('Sahara', 19), ('West Mediterranean', 19), ('France', 19), ('Channel', 19), ('North Sea', 19), ('Barbary Coast', 20), ('Tyrrenean Sea', 20), ('Rhineland', 20), ('Lower Nile', 20), ('Po Valley', 20), ('Adriatic Sea', 20), ('Levant', 20),
-     ('Aegean Sea', 20), ('Danube', 20), ('Elbe', 20), ('Baltic Sea', 20),
-     ('Vistula', 20), ('Crimea', 20), ('Western Siberia', 20), ('Dnieper', 20), ('Caspian Sea', 20), ('Zalesye', 20), ('Anatolia', 20), ('Senegambia', 19), ('Niger River', 19), ('Guinea Coast',
-                                                                                                                                                                                  19), ('Lake Tchad', 19), ('Kongo', 19), ('South Africa', 20), ('Monomotapa', 20), ('Zanj', 20), ('Red Sea', 21),
-     ('Upper Nile', 21), ('Arabia', 22), ('Iran', 22), ('Khorasan', 22), ('Mawarannahr', 22), ('Yettishar', 22),
-     ('Punjab', 22), ('Gurjaratra', 22), ('Konkan', 22), ('Deccan Plateau', 22), ('Tamilakam', 22), ('Kalinga', 22), ('Delhi', 22), ('Bihar', 22), ('Bengal', 22), ('Himalayan Plateau', 22), ('Ayeyarwady', 22), ('Chao Phraya', 22), ('Malacca Strait', 22), ('Mekong', 22), ('Moluccas', 22),
-     ('Champa Sea', 22), ('Australia', 22), ('Liangguang', 22), ('Szechwan', 22), ('Huazhong', 22), ('Jiangnan', 22), ('Huabei', 22), ('Xibei', 22), ('Zhongyuan', 22), ('Eastern Siberia', 22), ('Nippon', 22),
-     ('Far East', 22), ('Andes', 19), ('Southern Cone', 17), ('Guiana', 16), ('Amazonia', 19), ('Panama', 15), ('Caribbean', 13), ('Mexico', 15), ('Rio Grande', 15), ('Mississippi', 15), ('Plains', 15), ('Eastern Seaboard', 15), ('Canada', 17),
-     ('American West Coast', 20), ('Pacific', 33)])
+    [('West Atlantis Node', 29), ('East Atlantis Node', 29), ('South Atlantis Node', 29), ('North Atlantis Node', 29), ('Iberia', 29), ('Strait of Gibraltar', 29), ('Sahara', 29), ('West Mediterranean', 29), ('France', 29), ('Channel', 29), ('North Sea', 29), ('Barbary Coast', 30), ('Tyrrenean Sea', 30), ('Rhineland', 30), ('Lower Nile', 30), ('Po Valley', 30), ('Adriatic Sea', 30), ('Levant', 30),
+     ('Aegean Sea', 30), ('Danube', 30), ('Elbe', 30), ('Baltic Sea', 30),
+     ('Vistula', 30), ('Crimea', 30), ('Western Siberia', 30), ('Dnieper', 30), ('Caspian Sea', 30), ('Zalesye', 30), ('Anatolia', 30), ('Senegambia', 29), ('Niger River', 29), ('Guinea Coast',
+                                                                                                                                                                                  29), ('Lake Tchad', 29), ('Kongo', 29), ('South Africa', 30), ('Monomotapa', 30), ('Zanj', 30), ('Red Sea', 31),
+     ('Upper Nile', 31), ('Arabia', 32), ('Iran', 32), ('Khorasan', 32), ('Mawarannahr', 32), ('Yettishar', 32),
+     ('Punjab', 32), ('Gurjaratra', 32), ('Konkan', 32), ('Deccan Plateau', 32), ('Tamilakam', 32), ('Kalinga', 32), ('Delhi', 32), ('Bihar', 32), ('Bengal', 32), ('Himalayan Plateau', 32), ('Ayeyarwady', 32), ('Chao Phraya', 32), ('Malacca Strait', 32), ('Mekong', 32), ('Moluccas', 32),
+     ('Champa Sea', 32), ('Australia', 32), ('Liangguang', 32), ('Szechwan', 32), ('Huazhong', 32), ('Jiangnan', 32), ('Huabei', 32), ('Xibei', 32), ('Zhongyuan', 32), ('Eastern Siberia', 32), ('Nippon', 32),
+     ('Far East', 32), ('Andes', 29), ('Southern Cone', 27), ('Guiana', 16), ('Amazonia', 29), ('Panama', 25), ('Caribbean', 33), ('Mexico', 25), ('Rio Grande', 25), ('Mississippi', 25), ('Plains', 25), ('Eastern Seaboard', 25), ('Canada', 27),
+     ('American West Coast', 30), ('Pacific', 33)])
 # Caribbean
 expeditions_list.append(Expedition('caribbean', 'Caribbean', 800, 'Jumping Node', [65]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 19), ('East Atlantis Node', 19), ('South Atlantis Node', 19), ('North Atlantis Node', 19), ('Iberia', 19), ('Strait of Gibraltar', 19), ('Sahara', 19), ('West Mediterranean', 19), ('France', 19), ('Channel', 19), ('North Sea', 19), ('Barbary Coast', 20), ('Tyrrenean Sea', 20), ('Rhineland', 20), ('Lower Nile', 20), ('Po Valley', 20), ('Adriatic Sea', 20), ('Levant', 20),
-     ('Aegean Sea', 20), ('Danube', 20), ('Elbe', 20), ('Baltic Sea', 20),
-     ('Vistula', 20), ('Crimea', 20), ('Western Siberia', 20), ('Dnieper', 20), ('Caspian Sea', 20), ('Zalesye', 20), ('Anatolia', 20), ('Senegambia', 19), ('Niger River', 19), ('Guinea Coast',
-                                                                                                                                                                                  19), ('Lake Tchad', 19), ('Kongo', 19), ('South Africa', 20), ('Monomotapa', 20), ('Zanj', 20), ('Red Sea', 21),
-     ('Upper Nile', 21), ('Arabia', 22), ('Iran', 22), ('Khorasan', 22), ('Mawarannahr', 22), ('Yettishar', 22),
-     ('Punjab', 22), ('Gurjaratra', 22), ('Konkan', 22), ('Deccan Plateau', 22), ('Tamilakam', 22), ('Kalinga', 22), ('Delhi', 22), ('Bihar', 22), ('Bengal', 22), ('Himalayan Plateau', 22), ('Ayeyarwady', 22), ('Chao Phraya', 22), ('Malacca Strait', 22), ('Mekong', 22), ('Moluccas', 22),
-     ('Champa Sea', 22), ('Australia', 22), ('Liangguang', 22), ('Szechwan', 22), ('Huazhong', 22), ('Jiangnan', 22), ('Huabei', 22), ('Xibei', 22), ('Zhongyuan', 22), ('Eastern Siberia', 22), ('Nippon', 22),
-     ('Far East', 22), ('Andes', 19), ('Southern Cone', 17), ('Guiana', 16), ('Amazonia', 18), ('Panama', 15), ('Caribbean', 13), ('Mexico', 15), ('Rio Grande', 15), ('Mississippi', 15), ('Plains', 15), ('Eastern Seaboard', 15), ('Canada', 17),
-     ('American West Coast', 20), ('Pacific', 33)])
+    [('West Atlantis Node', 29), ('East Atlantis Node', 29), ('South Atlantis Node', 29), ('North Atlantis Node', 29), ('Iberia', 29), ('Strait of Gibraltar', 29), ('Sahara', 29), ('West Mediterranean', 29), ('France', 29), ('Channel', 29), ('North Sea', 29), ('Barbary Coast', 30), ('Tyrrenean Sea', 30), ('Rhineland', 30), ('Lower Nile', 30), ('Po Valley', 30), ('Adriatic Sea', 30), ('Levant', 30),
+     ('Aegean Sea', 30), ('Danube', 30), ('Elbe', 30), ('Baltic Sea', 30),
+     ('Vistula', 30), ('Crimea', 30), ('Western Siberia', 30), ('Dnieper', 30), ('Caspian Sea', 30), ('Zalesye', 30), ('Anatolia', 30), ('Senegambia', 29), ('Niger River', 29), ('Guinea Coast',
+                                                                                                                                                                                  29), ('Lake Tchad', 29), ('Kongo', 29), ('South Africa', 30), ('Monomotapa', 30), ('Zanj', 30), ('Red Sea', 31),
+     ('Upper Nile', 31), ('Arabia', 32), ('Iran', 32), ('Khorasan', 32), ('Mawarannahr', 32), ('Yettishar', 32),
+     ('Punjab', 32), ('Gurjaratra', 32), ('Konkan', 32), ('Deccan Plateau', 32), ('Tamilakam', 32), ('Kalinga', 32), ('Delhi', 32), ('Bihar', 32), ('Bengal', 32), ('Himalayan Plateau', 32), ('Ayeyarwady', 32), ('Chao Phraya', 32), ('Malacca Strait', 32), ('Mekong', 32), ('Moluccas', 32),
+     ('Champa Sea', 32), ('Australia', 32), ('Liangguang', 32), ('Szechwan', 32), ('Huazhong', 32), ('Jiangnan', 32), ('Huabei', 32), ('Xibei', 32), ('Zhongyuan', 32), ('Eastern Siberia', 32), ('Nippon', 32),
+     ('Far East', 32), ('Andes', 29), ('Southern Cone', 27), ('Guiana', 16), ('Amazonia', 28), ('Panama', 25), ('Caribbean', 33), ('Mexico', 25), ('Rio Grande', 25), ('Mississippi', 25), ('Plains', 25), ('Eastern Seaboard', 25), ('Canada', 27),
+     ('American West Coast', 30), ('Pacific', 33)])
 # Atlantic Colombia
 expeditions_list.append(Expedition('atlantic_colombia', 'Atlantic Colombia', 300, 'Colonial Node', [43]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 20), ('East Atlantis Node', 20), ('South Atlantis Node', 20), ('North Atlantis Node', 20), ('Iberia', 20), ('Strait of Gibraltar', 20), ('Sahara', 20), ('West Mediterranean', 20), ('France', 20), ('Channel', 20), ('North Sea', 20), ('Barbary Coast', 20), ('Tyrrenean Sea', 20), ('Rhineland', 20), ('Lower Nile', 20), ('Po Valley', 20), ('Adriatic Sea', 20), ('Levant', 20),
-     ('Aegean Sea', 20), ('Danube', 20), ('Elbe', 20), ('Baltic Sea', 20),
-     ('Vistula', 20), ('Crimea', 20), ('Western Siberia', 20), ('Dnieper', 20), ('Caspian Sea', 20), ('Zalesye', 20), ('Anatolia', 20), ('Senegambia', 20), ('Niger River', 20), ('Guinea Coast',
-                                                                                                                                                                                  20), ('Lake Tchad', 20), ('Kongo', 20), ('South Africa', 21), ('Monomotapa', 21), ('Zanj', 21), ('Red Sea', 23),
-     ('Upper Nile', 23), ('Arabia', 23), ('Iran', 23), ('Khorasan', 23), ('Mawarannahr', 23), ('Yettishar', 23),
-     ('Punjab', 23), ('Gurjaratra', 23), ('Konkan', 23), ('Deccan Plateau', 23), ('Tamilakam', 23), ('Kalinga', 23), ('Delhi', 23), ('Bihar', 23), ('Bengal', 23), ('Himalayan Plateau', 23), ('Ayeyarwady', 23), ('Chao Phraya', 23), ('Malacca Strait', 23), ('Mekong', 23), ('Moluccas', 23),
-     ('Champa Sea', 23), ('Australia', 23), ('Liangguang', 23), ('Szechwan', 23), ('Huazhong', 23), ('Jiangnan', 23), ('Huabei', 23), ('Xibei', 23), ('Zhongyuan', 23), ('Eastern Siberia', 23), ('Nippon', 23),
-     ('Far East', 23), ('Andes', 19), ('Southern Cone', 16), ('Guiana', 15), ('Amazonia', 19), ('Panama', 13), ('Caribbean', 15), ('Mexico', 16), ('Rio Grande', 16), ('Mississippi', 16), ('Plains', 16), ('Eastern Seaboard', 16), ('Canada', 17),
-     ('American West Coast', 20), ('Pacific', 33)])
+    [('West Atlantis Node', 30), ('East Atlantis Node', 30), ('South Atlantis Node', 30), ('North Atlantis Node', 30), ('Iberia', 30), ('Strait of Gibraltar', 30), ('Sahara', 30), ('West Mediterranean', 30), ('France', 30), ('Channel', 30), ('North Sea', 30), ('Barbary Coast', 30), ('Tyrrenean Sea', 30), ('Rhineland', 30), ('Lower Nile', 30), ('Po Valley', 30), ('Adriatic Sea', 30), ('Levant', 30),
+     ('Aegean Sea', 30), ('Danube', 30), ('Elbe', 30), ('Baltic Sea', 30),
+     ('Vistula', 30), ('Crimea', 30), ('Western Siberia', 30), ('Dnieper', 30), ('Caspian Sea', 30), ('Zalesye', 30), ('Anatolia', 30), ('Senegambia', 30), ('Niger River', 30), ('Guinea Coast',
+                                                                                                                                                                                  30), ('Lake Tchad', 30), ('Kongo', 30), ('South Africa', 31), ('Monomotapa', 31), ('Zanj', 31), ('Red Sea', 33),
+     ('Upper Nile', 33), ('Arabia', 33), ('Iran', 33), ('Khorasan', 33), ('Mawarannahr', 33), ('Yettishar', 33),
+     ('Punjab', 33), ('Gurjaratra', 33), ('Konkan', 33), ('Deccan Plateau', 33), ('Tamilakam', 33), ('Kalinga', 33), ('Delhi', 33), ('Bihar', 33), ('Bengal', 33), ('Himalayan Plateau', 33), ('Ayeyarwady', 33), ('Chao Phraya', 33), ('Malacca Strait', 33), ('Mekong', 33), ('Moluccas', 33),
+     ('Champa Sea', 33), ('Australia', 33), ('Liangguang', 33), ('Szechwan', 33), ('Huazhong', 33), ('Jiangnan', 33), ('Huabei', 33), ('Xibei', 33), ('Zhongyuan', 33), ('Eastern Siberia', 33), ('Nippon', 33),
+     ('Far East', 33), ('Andes', 29), ('Southern Cone', 16), ('Guiana', 25), ('Amazonia', 29), ('Panama', 33), ('Caribbean', 25), ('Mexico', 16), ('Rio Grande', 16), ('Mississippi', 16), ('Plains', 16), ('Eastern Seaboard', 16), ('Canada', 27),
+     ('American West Coast', 30), ('Pacific', 33)])
 # Guyana
-expeditions_list.append(Expedition('guyana', 'Guyana', 200, 'Colonial Node', [43]))
+expeditions_list.append(Expedition('guyana', 'Guyana', 300, 'Colonial Node', [43]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 20), ('East Atlantis Node', 20), ('South Atlantis Node', 20), ('North Atlantis Node', 20), ('Iberia', 20), ('Strait of Gibraltar', 20), ('Sahara', 20), ('West Mediterranean', 20), ('France', 20), ('Channel', 20), ('North Sea', 20), ('Barbary Coast', 20), ('Tyrrenean Sea', 20), ('Rhineland', 20), ('Lower Nile', 20), ('Po Valley', 20), ('Adriatic Sea', 20), ('Levant', 20),
-     ('Aegean Sea', 20), ('Danube', 20), ('Elbe', 20), ('Baltic Sea', 20),
-     ('Vistula', 20), ('Crimea', 20), ('Western Siberia', 20), ('Dnieper', 20), ('Caspian Sea', 20), ('Zalesye', 20), ('Anatolia', 20), ('Senegambia', 20), ('Niger River', 20), ('Guinea Coast',
-                                                                                                                                                                                  20), ('Lake Tchad', 20), ('Kongo', 20), ('South Africa', 21), ('Monomotapa', 21), ('Zanj', 21), ('Red Sea', 23),
-     ('Upper Nile', 23), ('Arabia', 23), ('Iran', 23), ('Khorasan', 23), ('Mawarannahr', 23), ('Yettishar', 23),
-     ('Punjab', 23), ('Gurjaratra', 23), ('Konkan', 23), ('Deccan Plateau', 23), ('Tamilakam', 23), ('Kalinga', 23), ('Delhi', 23), ('Bihar', 23), ('Bengal', 23), ('Himalayan Plateau', 23), ('Ayeyarwady', 23), ('Chao Phraya', 23), ('Malacca Strait', 23), ('Mekong', 23), ('Moluccas', 23),
-     ('Champa Sea', 23), ('Australia', 23), ('Liangguang', 23), ('Szechwan', 23), ('Huazhong', 23), ('Jiangnan', 23), ('Huabei', 23), ('Xibei', 23), ('Zhongyuan', 23), ('Eastern Siberia', 23), ('Nippon', 23),
-     ('Far East', 23), ('Andes', 19), ('Southern Cone', 16), ('Guiana', 15), ('Amazonia', 19), ('Panama', 13), ('Caribbean', 15), ('Mexico', 16), ('Rio Grande', 16), ('Mississippi', 16), ('Plains', 16), ('Eastern Seaboard', 16), ('Canada', 17),
-     ('American West Coast', 20), ('Pacific', 33)])
+    [('West Atlantis Node', 30), ('East Atlantis Node', 30), ('South Atlantis Node', 30), ('North Atlantis Node', 30), ('Iberia', 30), ('Strait of Gibraltar', 30), ('Sahara', 30), ('West Mediterranean', 30), ('France', 30), ('Channel', 30), ('North Sea', 30), ('Barbary Coast', 30), ('Tyrrenean Sea', 30), ('Rhineland', 30), ('Lower Nile', 30), ('Po Valley', 30), ('Adriatic Sea', 30), ('Levant', 30),
+     ('Aegean Sea', 30), ('Danube', 30), ('Elbe', 30), ('Baltic Sea', 30),
+     ('Vistula', 30), ('Crimea', 30), ('Western Siberia', 30), ('Dnieper', 30), ('Caspian Sea', 30), ('Zalesye', 30), ('Anatolia', 30), ('Senegambia', 30), ('Niger River', 30), ('Guinea Coast',
+                                                                                                                                                                                  30), ('Lake Tchad', 30), ('Kongo', 30), ('South Africa', 31), ('Monomotapa', 31), ('Zanj', 31), ('Red Sea', 33),
+     ('Upper Nile', 33), ('Arabia', 33), ('Iran', 33), ('Khorasan', 33), ('Mawarannahr', 33), ('Yettishar', 33),
+     ('Punjab', 33), ('Gurjaratra', 33), ('Konkan', 33), ('Deccan Plateau', 33), ('Tamilakam', 33), ('Kalinga', 33), ('Delhi', 33), ('Bihar', 33), ('Bengal', 33), ('Himalayan Plateau', 33), ('Ayeyarwady', 33), ('Chao Phraya', 33), ('Malacca Strait', 33), ('Mekong', 33), ('Moluccas', 33),
+     ('Champa Sea', 33), ('Australia', 33), ('Liangguang', 33), ('Szechwan', 33), ('Huazhong', 33), ('Jiangnan', 33), ('Huabei', 33), ('Xibei', 33), ('Zhongyuan', 33), ('Eastern Siberia', 33), ('Nippon', 33),
+     ('Far East', 33), ('Andes', 29), ('Southern Cone', 16), ('Guiana', 25), ('Amazonia', 29), ('Panama', 33), ('Caribbean', 25), ('Mexico', 16), ('Rio Grande', 16), ('Mississippi', 16), ('Plains', 16), ('Eastern Seaboard', 16), ('Canada', 27),
+     ('American West Coast', 30), ('Pacific', 33)])
 # Atlantic Mexico
 expeditions_list.append(Expedition('atlantic_mexico', 'Atlantic Mexico', 1600, 'Colonial Node', [42, 9]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 21), ('East Atlantis Node', 21), ('South Atlantis Node', 21), ('North Atlantis Node', 21), ('Iberia', 21), ('Strait of Gibraltar', 21), ('Sahara', 21), ('West Mediterranean', 21), ('France', 21), ('Channel', 21), ('North Sea', 21), ('Barbary Coast', 21), ('Tyrrenean Sea', 21), ('Rhineland', 21), ('Lower Nile', 21), ('Po Valley', 21), ('Adriatic Sea', 21), ('Levant', 21),
-     ('Aegean Sea', 21), ('Danube', 21), ('Elbe', 21), ('Baltic Sea', 21),
-     ('Vistula', 21), ('Crimea', 21), ('Western Siberia', 21), ('Dnieper', 21), ('Caspian Sea', 21), ('Zalesye', 21), ('Anatolia', 21), ('Senegambia', 21), ('Niger River', 21), ('Guinea Coast',
-                                                                                                                                                                                  21), ('Lake Tchad', 21), ('Kongo', 21), ('South Africa', 21), ('Monomotapa', 21), ('Zanj', 21), ('Red Sea', 23),
-     ('Upper Nile', 23), ('Arabia', 23), ('Iran', 23), ('Khorasan', 23), ('Mawarannahr', 23), ('Yettishar', 23),
-     ('Punjab', 23), ('Gurjaratra', 23), ('Konkan', 23), ('Deccan Plateau', 23), ('Tamilakam', 23), ('Kalinga', 23), ('Delhi', 23), ('Bihar', 23), ('Bengal', 23), ('Himalayan Plateau', 23), ('Ayeyarwady', 23), ('Chao Phraya', 23), ('Malacca Strait', 23), ('Mekong', 23), ('Moluccas', 23),
-     ('Champa Sea', 23), ('Australia', 23), ('Liangguang', 23), ('Szechwan', 23), ('Huazhong', 23), ('Jiangnan', 23), ('Huabei', 23), ('Xibei', 23), ('Zhongyuan', 23), ('Eastern Siberia', 23), ('Nippon', 23),
-     ('Far East', 23), ('Andes', 19), ('Southern Cone', 17), ('Guiana', 16), ('Amazonia', 19), ('Panama', 13), ('Caribbean', 15), ('Mexico', 13), ('Rio Grande', 13), ('Mississippi', 15), ('Plains', 15), ('Eastern Seaboard', 16), ('Canada', 17),
-     ('American West Coast', 20), ('Pacific', 33)])
+    [('West Atlantis Node', 31), ('East Atlantis Node', 31), ('South Atlantis Node', 31), ('North Atlantis Node', 31), ('Iberia', 31), ('Strait of Gibraltar', 31), ('Sahara', 31), ('West Mediterranean', 31), ('France', 31), ('Channel', 31), ('North Sea', 31), ('Barbary Coast', 31), ('Tyrrenean Sea', 31), ('Rhineland', 31), ('Lower Nile', 31), ('Po Valley', 31), ('Adriatic Sea', 31), ('Levant', 31),
+     ('Aegean Sea', 31), ('Danube', 31), ('Elbe', 31), ('Baltic Sea', 31),
+     ('Vistula', 31), ('Crimea', 31), ('Western Siberia', 31), ('Dnieper', 31), ('Caspian Sea', 31), ('Zalesye', 31), ('Anatolia', 31), ('Senegambia', 31), ('Niger River', 31), ('Guinea Coast',
+                                                                                                                                                                                  31), ('Lake Tchad', 31), ('Kongo', 31), ('South Africa', 31), ('Monomotapa', 31), ('Zanj', 31), ('Red Sea', 33),
+     ('Upper Nile', 33), ('Arabia', 33), ('Iran', 33), ('Khorasan', 33), ('Mawarannahr', 33), ('Yettishar', 33),
+     ('Punjab', 33), ('Gurjaratra', 33), ('Konkan', 33), ('Deccan Plateau', 33), ('Tamilakam', 33), ('Kalinga', 33), ('Delhi', 33), ('Bihar', 33), ('Bengal', 33), ('Himalayan Plateau', 33), ('Ayeyarwady', 33), ('Chao Phraya', 33), ('Malacca Strait', 33), ('Mekong', 33), ('Moluccas', 33),
+     ('Champa Sea', 33), ('Australia', 33), ('Liangguang', 33), ('Szechwan', 33), ('Huazhong', 33), ('Jiangnan', 33), ('Huabei', 33), ('Xibei', 33), ('Zhongyuan', 33), ('Eastern Siberia', 33), ('Nippon', 33),
+     ('Far East', 33), ('Andes', 29), ('Southern Cone', 27), ('Guiana', 16), ('Amazonia', 29), ('Panama', 33), ('Caribbean', 25), ('Mexico', 33), ('Rio Grande', 33), ('Mississippi', 25), ('Plains', 25), ('Eastern Seaboard', 16), ('Canada', 27),
+     ('American West Coast', 30), ('Pacific', 33)])
 # Northern Brazil
 expeditions_list.append(Expedition('north_brazil', 'Northern Brazil', 600, 'Colonial Node', [43]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 20), ('East Atlantis Node', 20), ('South Atlantis Node', 20), ('North Atlantis Node', 20), ('Iberia', 20), ('Strait of Gibraltar', 20), ('Sahara', 20), ('West Mediterranean', 20), ('France', 20), ('Channel', 20), ('North Sea', 20), ('Barbary Coast', 20), ('Tyrrenean Sea', 20), ('Rhineland', 20), ('Lower Nile', 20), ('Po Valley', 20), ('Adriatic Sea', 20), ('Levant', 20),
-     ('Aegean Sea', 20), ('Danube', 20), ('Elbe', 20), ('Baltic Sea', 20),
-     ('Vistula', 20), ('Crimea', 20), ('Western Siberia', 20), ('Dnieper', 20), ('Caspian Sea', 20), ('Zalesye', 20), ('Anatolia', 20), ('Senegambia', 17), ('Niger River', 17), ('Guinea Coast',
-                                                                                                                                                                                  17), ('Lake Tchad', 17), ('Kongo', 18), ('South Africa', 19), ('Monomotapa', 20), ('Zanj', 20), ('Red Sea', 20),
-     ('Upper Nile', 20), ('Arabia', 21), ('Iran', 21), ('Khorasan', 21), ('Mawarannahr', 21), ('Yettishar', 21),
-     ('Punjab', 21), ('Gurjaratra', 21), ('Konkan', 21), ('Deccan Plateau', 21), ('Tamilakam', 21), ('Kalinga', 21), ('Delhi', 21), ('Bihar', 21), ('Bengal', 21), ('Himalayan Plateau', 21), ('Ayeyarwady', 21), ('Chao Phraya', 21), ('Malacca Strait', 21), ('Mekong', 21), ('Moluccas', 21),
-     ('Champa Sea', 21), ('Australia', 22), ('Liangguang', 22), ('Szechwan', 22), ('Huazhong', 22), ('Jiangnan', 22), ('Huabei', 22), ('Xibei', 22), ('Zhongyuan', 22), ('Eastern Siberia', 22), ('Nippon', 22),
-     ('Far East', 22), ('Andes', 17), ('Southern Cone', 13), ('Guiana', 13), ('Amazonia', 17), ('Panama', 16), ('Caribbean', 15), ('Mexico', 16), ('Rio Grande', 16), ('Mississippi', 16), ('Plains', 16), ('Eastern Seaboard', 16), ('Canada', 17),
-     ('American West Coast', 19), ('Pacific', 33)])
+    [('West Atlantis Node', 30), ('East Atlantis Node', 30), ('South Atlantis Node', 30), ('North Atlantis Node', 30), ('Iberia', 30), ('Strait of Gibraltar', 30), ('Sahara', 30), ('West Mediterranean', 30), ('France', 30), ('Channel', 30), ('North Sea', 30), ('Barbary Coast', 30), ('Tyrrenean Sea', 30), ('Rhineland', 30), ('Lower Nile', 30), ('Po Valley', 30), ('Adriatic Sea', 30), ('Levant', 30),
+     ('Aegean Sea', 30), ('Danube', 30), ('Elbe', 30), ('Baltic Sea', 30),
+     ('Vistula', 30), ('Crimea', 30), ('Western Siberia', 30), ('Dnieper', 30), ('Caspian Sea', 30), ('Zalesye', 30), ('Anatolia', 30), ('Senegambia', 27), ('Niger River', 27), ('Guinea Coast',
+                                                                                                                                                                                  27), ('Lake Tchad', 27), ('Kongo', 28), ('South Africa', 29), ('Monomotapa', 30), ('Zanj', 30), ('Red Sea', 30),
+     ('Upper Nile', 30), ('Arabia', 31), ('Iran', 31), ('Khorasan', 31), ('Mawarannahr', 31), ('Yettishar', 31),
+     ('Punjab', 31), ('Gurjaratra', 31), ('Konkan', 31), ('Deccan Plateau', 31), ('Tamilakam', 31), ('Kalinga', 31), ('Delhi', 31), ('Bihar', 31), ('Bengal', 31), ('Himalayan Plateau', 31), ('Ayeyarwady', 31), ('Chao Phraya', 31), ('Malacca Strait', 31), ('Mekong', 31), ('Moluccas', 31),
+     ('Champa Sea', 31), ('Australia', 32), ('Liangguang', 32), ('Szechwan', 32), ('Huazhong', 32), ('Jiangnan', 32), ('Huabei', 32), ('Xibei', 32), ('Zhongyuan', 32), ('Eastern Siberia', 32), ('Nippon', 32),
+     ('Far East', 32), ('Andes', 27), ('Southern Cone', 33), ('Guiana', 33), ('Amazonia', 27), ('Panama', 16), ('Caribbean', 25), ('Mexico', 16), ('Rio Grande', 16), ('Mississippi', 16), ('Plains', 16), ('Eastern Seaboard', 16), ('Canada', 27),
+     ('American West Coast', 29), ('Pacific', 33)])
 # Southern Brazil
 expeditions_list.append(Expedition('south_brazil', 'Southern Brazil', 600, 'Colonial Node', [16]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 20), ('East Atlantis Node', 20), ('South Atlantis Node', 20), ('North Atlantis Node', 20), ('Iberia', 20), ('Strait of Gibraltar', 20), ('Sahara', 20), ('West Mediterranean', 20), ('France', 20), ('Channel', 20), ('North Sea', 20), ('Barbary Coast', 20), ('Tyrrenean Sea', 20), ('Rhineland', 20), ('Lower Nile', 20), ('Po Valley', 20), ('Adriatic Sea', 20), ('Levant', 20),
-     ('Aegean Sea', 20), ('Danube', 20), ('Elbe', 20), ('Baltic Sea', 20),
-     ('Vistula', 20), ('Crimea', 20), ('Western Siberia', 20), ('Dnieper', 20), ('Caspian Sea', 20), ('Zalesye', 20), ('Anatolia', 20), ('Senegambia', 17), ('Niger River', 17), ('Guinea Coast',
-                                                                                                                                                                                  17), ('Lake Tchad', 17), ('Kongo', 18), ('South Africa', 19), ('Monomotapa', 20), ('Zanj', 20), ('Red Sea', 20),
-     ('Upper Nile', 20), ('Arabia', 21), ('Iran', 21), ('Khorasan', 21), ('Mawarannahr', 21), ('Yettishar', 21),
-     ('Punjab', 21), ('Gurjaratra', 21), ('Konkan', 21), ('Deccan Plateau', 21), ('Tamilakam', 21), ('Kalinga', 21), ('Delhi', 21), ('Bihar', 21), ('Bengal', 21), ('Himalayan Plateau', 21), ('Ayeyarwady', 21), ('Chao Phraya', 21), ('Malacca Strait', 21), ('Mekong', 21), ('Moluccas', 21),
-     ('Champa Sea', 21), ('Australia', 22), ('Liangguang', 22), ('Szechwan', 22), ('Huazhong', 22), ('Jiangnan', 22), ('Huabei', 22), ('Xibei', 22), ('Zhongyuan', 22), ('Eastern Siberia', 22), ('Nippon', 22),
-     ('Far East', 22), ('Andes', 17), ('Southern Cone', 13), ('Guiana', 13), ('Amazonia', 17), ('Panama', 16), ('Caribbean', 15), ('Mexico', 16), ('Rio Grande', 16), ('Mississippi', 16), ('Plains', 16), ('Eastern Seaboard', 16), ('Canada', 17),
-     ('American West Coast', 19), ('Pacific', 33)])
+    [('West Atlantis Node', 30), ('East Atlantis Node', 30), ('South Atlantis Node', 30), ('North Atlantis Node', 30), ('Iberia', 30), ('Strait of Gibraltar', 30), ('Sahara', 30), ('West Mediterranean', 30), ('France', 30), ('Channel', 30), ('North Sea', 30), ('Barbary Coast', 30), ('Tyrrenean Sea', 30), ('Rhineland', 30), ('Lower Nile', 30), ('Po Valley', 30), ('Adriatic Sea', 30), ('Levant', 30),
+     ('Aegean Sea', 30), ('Danube', 30), ('Elbe', 30), ('Baltic Sea', 30),
+     ('Vistula', 30), ('Crimea', 30), ('Western Siberia', 30), ('Dnieper', 30), ('Caspian Sea', 30), ('Zalesye', 30), ('Anatolia', 30), ('Senegambia', 27), ('Niger River', 27), ('Guinea Coast',
+                                                                                                                                                                                  27), ('Lake Tchad', 27), ('Kongo', 28), ('South Africa', 29), ('Monomotapa', 30), ('Zanj', 30), ('Red Sea', 30),
+     ('Upper Nile', 30), ('Arabia', 31), ('Iran', 31), ('Khorasan', 31), ('Mawarannahr', 31), ('Yettishar', 31),
+     ('Punjab', 31), ('Gurjaratra', 31), ('Konkan', 31), ('Deccan Plateau', 31), ('Tamilakam', 31), ('Kalinga', 31), ('Delhi', 31), ('Bihar', 31), ('Bengal', 31), ('Himalayan Plateau', 31), ('Ayeyarwady', 31), ('Chao Phraya', 31), ('Malacca Strait', 31), ('Mekong', 31), ('Moluccas', 31),
+     ('Champa Sea', 31), ('Australia', 32), ('Liangguang', 32), ('Szechwan', 32), ('Huazhong', 32), ('Jiangnan', 32), ('Huabei', 32), ('Xibei', 32), ('Zhongyuan', 32), ('Eastern Siberia', 32), ('Nippon', 32),
+     ('Far East', 32), ('Andes', 27), ('Southern Cone', 33), ('Guiana', 33), ('Amazonia', 27), ('Panama', 16), ('Caribbean', 25), ('Mexico', 16), ('Rio Grande', 16), ('Mississippi', 16), ('Plains', 16), ('Eastern Seaboard', 16), ('Canada', 27),
+     ('American West Coast', 29), ('Pacific', 33)])
 # the Gulf of Mexico
-expeditions_list.append(Expedition('gulf_of_mexico', 'the Gulf of Mexico', 200, 'Colonial Node', [62, 63]))
+expeditions_list.append(Expedition('gulf_of_mexico', 'the Gulf of Mexico', 300, 'Colonial Node', [62, 63]))
 expeditions_list[-1].set_node_tech_reqs(
     [('West Atlantis Node', 25), ('East Atlantis Node', 25), ('South Atlantis Node', 25), ('North Atlantis Node', 25), ('Iberia', 25), ('Strait of Gibraltar', 25), ('Sahara', 25), ('West Mediterranean', 25), ('France', 25), ('Channel', 25), ('North Sea', 25), ('Barbary Coast', 25), ('Tyrrenean Sea', 25), ('Rhineland', 25), ('Lower Nile', 25), ('Po Valley', 25), ('Adriatic Sea', 25), ('Levant', 25),
      ('Aegean Sea', 25), ('Danube', 25), ('Elbe', 25), ('Baltic Sea', 25),
@@ -460,20 +460,20 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Upper Nile', 25), ('Arabia', 25), ('Iran', 25), ('Khorasan', 25), ('Mawarannahr', 25), ('Yettishar', 25),
      ('Punjab', 25), ('Gurjaratra', 25), ('Konkan', 25), ('Deccan Plateau', 25), ('Tamilakam', 25), ('Kalinga', 25), ('Delhi', 25), ('Bihar', 25), ('Bengal', 25), ('Himalayan Plateau', 25), ('Ayeyarwady', 25), ('Chao Phraya', 25), ('Malacca Strait', 25), ('Mekong', 25), ('Moluccas', 25),
      ('Champa Sea', 25), ('Australia', 25), ('Liangguang', 25), ('Szechwan', 25), ('Huazhong', 25), ('Jiangnan', 25), ('Huabei', 25), ('Xibei', 25), ('Zhongyuan', 25), ('Eastern Siberia', 25), ('Nippon', 25),
-     ('Far East', 25), ('Andes', 19), ('Southern Cone', 17), ('Guiana', 16), ('Amazonia', 19), ('Panama', 15), ('Caribbean', 15), ('Mexico', 15), ('Rio Grande', 13), ('Mississippi', 13), ('Plains', 13), ('Eastern Seaboard', 15), ('Canada', 17),
-     ('American West Coast', 20), ('Pacific', 33)])
+     ('Far East', 25), ('Andes', 29), ('Southern Cone', 27), ('Guiana', 16), ('Amazonia', 29), ('Panama', 25), ('Caribbean', 25), ('Mexico', 25), ('Rio Grande', 33), ('Mississippi', 33), ('Plains', 33), ('Eastern Seaboard', 25), ('Canada', 27),
+     ('American West Coast', 30), ('Pacific', 33)])
 # Southeastern America
 expeditions_list.append(Expedition('southeastern_america', 'Southeastern America', 400, 'Colonial Node', [66, 63]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 23), ('East Atlantis Node', 23), ('South Atlantis Node', 23), ('North Atlantis Node', 23), ('Iberia', 23), ('Strait of Gibraltar', 23), ('Sahara', 23), ('West Mediterranean', 23), ('France', 23), ('Channel', 23), ('North Sea', 23), ('Barbary Coast', 23), ('Tyrrenean Sea', 23), ('Rhineland', 23), ('Lower Nile', 23), ('Po Valley', 23), ('Adriatic Sea', 23), ('Levant', 23),
-     ('Aegean Sea', 23), ('Danube', 23), ('Elbe', 23), ('Baltic Sea', 23),
-     ('Vistula', 23), ('Crimea', 23), ('Western Siberia', 23), ('Dnieper', 23), ('Caspian Sea', 23), ('Zalesye', 23), ('Anatolia', 23), ('Senegambia', 23), ('Niger River', 23), ('Guinea Coast',
-                                                                                                                                                                                  23), ('Lake Tchad', 23), ('Kongo', 23), ('South Africa', 23), ('Monomotapa', 23), ('Zanj', 23), ('Red Sea', 23),
-     ('Upper Nile', 23), ('Arabia', 23), ('Iran', 23), ('Khorasan', 23), ('Mawarannahr', 23), ('Yettishar', 23),
-     ('Punjab', 23), ('Gurjaratra', 23), ('Konkan', 23), ('Deccan Plateau', 23), ('Tamilakam', 23), ('Kalinga', 23), ('Delhi', 23), ('Bihar', 23), ('Bengal', 23), ('Himalayan Plateau', 23), ('Ayeyarwady', 23), ('Chao Phraya', 23), ('Malacca Strait', 23), ('Mekong', 23), ('Moluccas', 23),
-     ('Champa Sea', 23), ('Australia', 23), ('Liangguang', 23), ('Szechwan', 23), ('Huazhong', 23), ('Jiangnan', 23), ('Huabei', 23), ('Xibei', 23), ('Zhongyuan', 23), ('Eastern Siberia', 23), ('Nippon', 23),
-     ('Far East', 23), ('Andes', 19), ('Southern Cone', 17), ('Guiana', 16), ('Amazonia', 19), ('Panama', 16), ('Caribbean', 15), ('Mexico', 15), ('Rio Grande', 15), ('Mississippi', 13), ('Plains', 13), ('Eastern Seaboard', 13), ('Canada', 15),
-     ('American West Coast', 20), ('Pacific', 33)])
+    [('West Atlantis Node', 33), ('East Atlantis Node', 33), ('South Atlantis Node', 33), ('North Atlantis Node', 33), ('Iberia', 33), ('Strait of Gibraltar', 33), ('Sahara', 33), ('West Mediterranean', 33), ('France', 33), ('Channel', 33), ('North Sea', 33), ('Barbary Coast', 33), ('Tyrrenean Sea', 33), ('Rhineland', 33), ('Lower Nile', 33), ('Po Valley', 33), ('Adriatic Sea', 33), ('Levant', 33),
+     ('Aegean Sea', 33), ('Danube', 33), ('Elbe', 33), ('Baltic Sea', 33),
+     ('Vistula', 33), ('Crimea', 33), ('Western Siberia', 33), ('Dnieper', 33), ('Caspian Sea', 33), ('Zalesye', 33), ('Anatolia', 33), ('Senegambia', 33), ('Niger River', 33), ('Guinea Coast',
+                                                                                                                                                                                  33), ('Lake Tchad', 33), ('Kongo', 33), ('South Africa', 33), ('Monomotapa', 33), ('Zanj', 33), ('Red Sea', 33),
+     ('Upper Nile', 33), ('Arabia', 33), ('Iran', 33), ('Khorasan', 33), ('Mawarannahr', 33), ('Yettishar', 33),
+     ('Punjab', 33), ('Gurjaratra', 33), ('Konkan', 33), ('Deccan Plateau', 33), ('Tamilakam', 33), ('Kalinga', 33), ('Delhi', 33), ('Bihar', 33), ('Bengal', 33), ('Himalayan Plateau', 33), ('Ayeyarwady', 33), ('Chao Phraya', 33), ('Malacca Strait', 33), ('Mekong', 33), ('Moluccas', 33),
+     ('Champa Sea', 33), ('Australia', 33), ('Liangguang', 33), ('Szechwan', 33), ('Huazhong', 33), ('Jiangnan', 33), ('Huabei', 33), ('Xibei', 33), ('Zhongyuan', 33), ('Eastern Siberia', 33), ('Nippon', 33),
+     ('Far East', 33), ('Andes', 29), ('Southern Cone', 27), ('Guiana', 16), ('Amazonia', 29), ('Panama', 16), ('Caribbean', 25), ('Mexico', 25), ('Rio Grande', 25), ('Mississippi', 33), ('Plains', 33), ('Eastern Seaboard', 33), ('Canada', 25),
+     ('American West Coast', 30), ('Pacific', 33)])
 # Eastern America
 expeditions_list.append(Expedition('eastern_america', 'Eastern America', 400, 'Colonial Node', [66]))
 expeditions_list[-1].set_node_tech_reqs(
@@ -484,10 +484,10 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Upper Nile', 25), ('Arabia', 25), ('Iran', 25), ('Khorasan', 25), ('Mawarannahr', 25), ('Yettishar', 25),
      ('Punjab', 25), ('Gurjaratra', 25), ('Konkan', 25), ('Deccan Plateau', 25), ('Tamilakam', 25), ('Kalinga', 25), ('Delhi', 25), ('Bihar', 25), ('Bengal', 25), ('Himalayan Plateau', 25), ('Ayeyarwady', 25), ('Chao Phraya', 25), ('Malacca Strait', 25), ('Mekong', 25), ('Moluccas', 25),
      ('Champa Sea', 25), ('Australia', 25), ('Liangguang', 25), ('Szechwan', 25), ('Huazhong', 25), ('Jiangnan', 25), ('Huabei', 25), ('Xibei', 25), ('Zhongyuan', 25), ('Eastern Siberia', 25), ('Nippon', 25),
-     ('Far East', 25), ('Andes', 20), ('Southern Cone', 19), ('Guiana', 19), ('Amazonia', 20), ('Panama', 16), ('Caribbean', 16), ('Mexico', 16), ('Rio Grande', 16), ('Mississippi', 16), ('Plains', 16), ('Eastern Seaboard', 13), ('Canada', 15),
-     ('American West Coast', 21), ('Pacific', 33)])
+     ('Far East', 25), ('Andes', 30), ('Southern Cone', 29), ('Guiana', 29), ('Amazonia', 30), ('Panama', 16), ('Caribbean', 16), ('Mexico', 16), ('Rio Grande', 16), ('Mississippi', 16), ('Plains', 16), ('Eastern Seaboard', 33), ('Canada', 25),
+     ('American West Coast', 31), ('Pacific', 33)])
 # Canada
-expeditions_list.append(Expedition('canada', 'Canada', 200, 'Colonial Node', [64]))
+expeditions_list.append(Expedition('canada', 'Canada', 300, 'Colonial Node', [64]))
 expeditions_list[-1].set_node_tech_reqs(
     [('West Atlantis Node', 25), ('East Atlantis Node', 25), ('South Atlantis Node', 25), ('North Atlantis Node', 25), ('Iberia', 25), ('Strait of Gibraltar', 25), ('Sahara', 25), ('West Mediterranean', 25), ('France', 25), ('Channel', 25), ('North Sea', 25), ('Barbary Coast', 25), ('Tyrrenean Sea', 25), ('Rhineland', 25), ('Lower Nile', 25), ('Po Valley', 25), ('Adriatic Sea', 25), ('Levant', 25),
      ('Aegean Sea', 25), ('Danube', 25), ('Elbe', 25), ('Baltic Sea', 25),
@@ -496,7 +496,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Upper Nile', 25), ('Arabia', 25), ('Iran', 25), ('Khorasan', 25), ('Mawarannahr', 25), ('Yettishar', 25),
      ('Punjab', 25), ('Gurjaratra', 25), ('Konkan', 25), ('Deccan Plateau', 25), ('Tamilakam', 25), ('Kalinga', 25), ('Delhi', 25), ('Bihar', 25), ('Bengal', 25), ('Himalayan Plateau', 25), ('Ayeyarwady', 25), ('Chao Phraya', 25), ('Malacca Strait', 25), ('Mekong', 25), ('Moluccas', 25),
      ('Champa Sea', 25), ('Australia', 25), ('Liangguang', 25), ('Szechwan', 25), ('Huazhong', 25), ('Jiangnan', 25), ('Huabei', 25), ('Xibei', 25), ('Zhongyuan', 25), ('Eastern Siberia', 25), ('Nippon', 25),
-     ('Far East', 25), ('Andes', 25), ('Southern Cone', 25), ('Guiana', 25), ('Amazonia', 25), ('Panama', 25), ('Caribbean', 25), ('Mexico', 25), ('Rio Grande', 25), ('Mississippi', 25), ('Plains', 25), ('Eastern Seaboard', 15), ('Canada', 13),
+     ('Far East', 25), ('Andes', 25), ('Southern Cone', 25), ('Guiana', 25), ('Amazonia', 25), ('Panama', 25), ('Caribbean', 25), ('Mexico', 25), ('Rio Grande', 25), ('Mississippi', 25), ('Plains', 25), ('Eastern Seaboard', 25), ('Canada', 33),
      ('American West Coast', 25), ('Pacific', 33)])
 # the North Atlantic
 expeditions_list.append(Expedition('north_atlantic', 'the North Atlantic', 50, 'Jumping Node', [81]))
@@ -520,20 +520,20 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Upper Nile', 35), ('Arabia', 35), ('Iran', 35), ('Khorasan', 35), ('Mawarannahr', 35), ('Yettishar', 35),
      ('Punjab', 35), ('Gurjaratra', 35), ('Konkan', 35), ('Deccan Plateau', 35), ('Tamilakam', 35), ('Kalinga', 35), ('Delhi', 35), ('Bihar', 35), ('Bengal', 35), ('Himalayan Plateau', 35), ('Ayeyarwady', 35), ('Chao Phraya', 35), ('Malacca Strait', 35), ('Mekong', 35), ('Moluccas', 35),
      ('Champa Sea', 35), ('Australia', 35), ('Liangguang', 35), ('Szechwan', 35), ('Huazhong', 35), ('Jiangnan', 35), ('Huabei', 35), ('Xibei', 35), ('Zhongyuan', 35), ('Eastern Siberia', 35), ('Nippon', 35),
-     ('Far East', 35), ('Andes', 35), ('Southern Cone', 35), ('Guiana', 35), ('Amazonia', 35), ('Panama', 35), ('Caribbean', 35), ('Mexico', 35), ('Rio Grande', 35), ('Mississippi', 35), ('Plains', 35), ('Eastern Seaboard', 35), ('Canada', 13),
+     ('Far East', 35), ('Andes', 35), ('Southern Cone', 35), ('Guiana', 35), ('Amazonia', 35), ('Panama', 35), ('Caribbean', 35), ('Mexico', 35), ('Rio Grande', 35), ('Mississippi', 35), ('Plains', 35), ('Eastern Seaboard', 35), ('Canada', 33),
      ('American West Coast', 35), ('Pacific', 35)])
 # Southern Cone
 expeditions_list.append(Expedition('la_plata', 'Southern Cone', 100, 'Colonial Node', [16]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 23), ('East Atlantis Node', 23), ('South Atlantis Node', 23), ('North Atlantis Node', 23), ('Iberia', 23), ('Strait of Gibraltar', 23), ('Sahara', 23), ('West Mediterranean', 23), ('France', 23), ('Channel', 23), ('North Sea', 23), ('Barbary Coast', 23), ('Tyrrenean Sea', 23), ('Rhineland', 23), ('Lower Nile', 23), ('Po Valley', 23), ('Adriatic Sea', 23), ('Levant', 23),
-     ('Aegean Sea', 23), ('Danube', 23), ('Elbe', 23), ('Baltic Sea', 23),
-     ('Vistula', 23), ('Crimea', 23), ('Western Siberia', 23), ('Dnieper', 23), ('Caspian Sea', 23), ('Zalesye', 23), ('Anatolia', 23), ('Senegambia', 20), ('Niger River', 20), ('Guinea Coast',
-                                                                                                                                                                                  20), ('Lake Tchad', 20), ('Kongo', 21), ('South Africa', 23), ('Monomotapa', 23), ('Zanj', 23), ('Red Sea', 23),
-     ('Upper Nile', 23), ('Arabia', 23), ('Iran', 23), ('Khorasan', 23), ('Mawarannahr', 23), ('Yettishar', 23),
-     ('Punjab', 23), ('Gurjaratra', 23), ('Konkan', 23), ('Deccan Plateau', 23), ('Tamilakam', 23), ('Kalinga', 23), ('Delhi', 23), ('Bihar', 23), ('Bengal', 23), ('Himalayan Plateau', 23), ('Ayeyarwady', 23), ('Chao Phraya', 23), ('Malacca Strait', 23), ('Mekong', 23), ('Moluccas', 23),
-     ('Champa Sea', 23), ('Australia', 23), ('Liangguang', 23), ('Szechwan', 23), ('Huazhong', 23), ('Jiangnan', 23), ('Huabei', 23), ('Xibei', 23), ('Zhongyuan', 23), ('Eastern Siberia', 23), ('Nippon', 23),
-     ('Far East', 23), ('Andes', 16), ('Southern Cone', 13), ('Guiana', 15), ('Amazonia', 16), ('Panama', 17), ('Caribbean', 17), ('Mexico', 17), ('Rio Grande', 17), ('Mississippi', 17), ('Plains', 17), ('Eastern Seaboard', 17), ('Canada', 19),
-     ('American West Coast', 19), ('Pacific', 33)])
+    [('West Atlantis Node', 33), ('East Atlantis Node', 33), ('South Atlantis Node', 33), ('North Atlantis Node', 33), ('Iberia', 33), ('Strait of Gibraltar', 33), ('Sahara', 33), ('West Mediterranean', 33), ('France', 33), ('Channel', 33), ('North Sea', 33), ('Barbary Coast', 33), ('Tyrrenean Sea', 33), ('Rhineland', 33), ('Lower Nile', 33), ('Po Valley', 33), ('Adriatic Sea', 33), ('Levant', 33),
+     ('Aegean Sea', 33), ('Danube', 33), ('Elbe', 33), ('Baltic Sea', 33),
+     ('Vistula', 33), ('Crimea', 33), ('Western Siberia', 33), ('Dnieper', 33), ('Caspian Sea', 33), ('Zalesye', 33), ('Anatolia', 33), ('Senegambia', 30), ('Niger River', 30), ('Guinea Coast',
+                                                                                                                                                                                  30), ('Lake Tchad', 30), ('Kongo', 31), ('South Africa', 33), ('Monomotapa', 33), ('Zanj', 33), ('Red Sea', 33),
+     ('Upper Nile', 33), ('Arabia', 33), ('Iran', 33), ('Khorasan', 33), ('Mawarannahr', 33), ('Yettishar', 33),
+     ('Punjab', 33), ('Gurjaratra', 33), ('Konkan', 33), ('Deccan Plateau', 33), ('Tamilakam', 33), ('Kalinga', 33), ('Delhi', 33), ('Bihar', 33), ('Bengal', 33), ('Himalayan Plateau', 33), ('Ayeyarwady', 33), ('Chao Phraya', 33), ('Malacca Strait', 33), ('Mekong', 33), ('Moluccas', 33),
+     ('Champa Sea', 33), ('Australia', 33), ('Liangguang', 33), ('Szechwan', 33), ('Huazhong', 33), ('Jiangnan', 33), ('Huabei', 33), ('Xibei', 33), ('Zhongyuan', 33), ('Eastern Siberia', 33), ('Nippon', 33),
+     ('Far East', 33), ('Andes', 16), ('Southern Cone', 33), ('Guiana', 25), ('Amazonia', 16), ('Panama', 27), ('Caribbean', 27), ('Mexico', 27), ('Rio Grande', 27), ('Mississippi', 27), ('Plains', 27), ('Eastern Seaboard', 27), ('Canada', 29),
+     ('American West Coast', 29), ('Pacific', 33)])
 # California
 expeditions_list.append(Expedition('california', 'California', 100, 'Colonial Node', [8]))
 expeditions_list[-1].set_node_tech_reqs(
@@ -542,10 +542,10 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Vistula', 30), ('Crimea', 30), ('Western Siberia', 30), ('Dnieper', 30), ('Caspian Sea', 30), ('Zalesye', 30), ('Anatolia', 30), ('Senegambia', 30), ('Niger River', 30), ('Guinea Coast',
                                                                                                                                                                                   30), ('Lake Tchad', 30), ('Kongo', 30), ('South Africa', 30), ('Monomotapa', 30), ('Zanj', 30), ('Red Sea', 25),
      ('Upper Nile', 25), ('Arabia', 25), ('Iran', 25), ('Khorasan', 25), ('Mawarannahr', 25), ('Yettishar', 25),
-     ('Punjab', 25), ('Gurjaratra', 25), ('Konkan', 25), ('Deccan Plateau', 25), ('Tamilakam', 25), ('Kalinga', 25), ('Delhi', 25), ('Bihar', 25), ('Bengal', 25), ('Himalayan Plateau', 25), ('Ayeyarwady', 25), ('Chao Phraya', 23), ('Malacca Strait', 23), ('Mekong', 23), ('Moluccas', 23),
-     ('Champa Sea', 23), ('Australia', 23), ('Liangguang', 21), ('Szechwan', 21), ('Huazhong', 21), ('Jiangnan', 21), ('Huabei', 21), ('Xibei', 21), ('Zhongyuan', 20), ('Eastern Siberia', 20), ('Nippon', 20),
-     ('Far East', 20), ('Andes', 17), ('Southern Cone', 19), ('Guiana', 19), ('Amazonia', 17), ('Panama', 16), ('Caribbean', 19), ('Mexico', 15), ('Rio Grande', 15), ('Mississippi', 19), ('Plains', 19), ('Eastern Seaboard', 19), ('Canada', 20),
-     ('American West Coast', 13), ('Pacific', 33)])
+     ('Punjab', 25), ('Gurjaratra', 25), ('Konkan', 25), ('Deccan Plateau', 25), ('Tamilakam', 25), ('Kalinga', 25), ('Delhi', 25), ('Bihar', 25), ('Bengal', 25), ('Himalayan Plateau', 25), ('Ayeyarwady', 25), ('Chao Phraya', 33), ('Malacca Strait', 33), ('Mekong', 33), ('Moluccas', 33),
+     ('Champa Sea', 33), ('Australia', 33), ('Liangguang', 31), ('Szechwan', 31), ('Huazhong', 31), ('Jiangnan', 31), ('Huabei', 31), ('Xibei', 31), ('Zhongyuan', 30), ('Eastern Siberia', 30), ('Nippon', 30),
+     ('Far East', 30), ('Andes', 27), ('Southern Cone', 29), ('Guiana', 29), ('Amazonia', 27), ('Panama', 16), ('Caribbean', 29), ('Mexico', 25), ('Rio Grande', 25), ('Mississippi', 29), ('Plains', 29), ('Eastern Seaboard', 29), ('Canada', 30),
+     ('American West Coast', 33), ('Pacific', 33)])
 # Alaska
 expeditions_list.append(Expedition('alaska', 'Alaska', 100, 'Colonial Node', [8]))
 expeditions_list[-1].set_node_tech_reqs(
@@ -557,98 +557,98 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Punjab', 37), ('Gurjaratra', 37), ('Konkan', 37), ('Deccan Plateau', 37), ('Tamilakam', 37), ('Kalinga', 37), ('Delhi', 37), ('Bihar', 37), ('Bengal', 37), ('Himalayan Plateau', 37), ('Ayeyarwady', 37), ('Chao Phraya', 37), ('Malacca Strait', 37), ('Mekong', 37), ('Moluccas', 37),
      ('Champa Sea', 37), ('Australia', 37), ('Liangguang', 37), ('Szechwan', 37), ('Huazhong', 37), ('Jiangnan', 37), ('Huabei', 37), ('Xibei', 37), ('Zhongyuan', 37), ('Eastern Siberia', 30), ('Nippon', 30),
      ('Far East', 30), ('Andes', 30), ('Southern Cone', 30), ('Guiana', 30), ('Amazonia', 30), ('Panama', 30), ('Caribbean', 30), ('Mexico', 30), ('Rio Grande', 30), ('Mississippi', 30), ('Plains', 30), ('Eastern Seaboard', 30), ('Canada', 25),
-     ('American West Coast', 13), ('Pacific', 33)])
+     ('American West Coast', 33), ('Pacific', 33)])
 # Pacific Mexico
 expeditions_list.append(Expedition('pacific_mexico', 'Pacific Mexico', 800, 'Colonial Node', [9, 62]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 23), ('East Atlantis Node', 23), ('South Atlantis Node', 23), ('North Atlantis Node', 23), ('Iberia', 23), ('Strait of Gibraltar', 23), ('Sahara', 23), ('West Mediterranean', 23), ('France', 23), ('Channel', 23), ('North Sea', 23), ('Barbary Coast', 23), ('Tyrrenean Sea', 23), ('Rhineland', 23), ('Lower Nile', 23), ('Po Valley', 23), ('Adriatic Sea', 23), ('Levant', 23),
-     ('Aegean Sea', 23), ('Danube', 23), ('Elbe', 23), ('Baltic Sea', 23), ('Vistula', 23), ('Crimea', 23), ('Western Siberia', 23), ('Dnieper', 23), ('Caspian Sea', 23), ('Zalesye', 23), ('Anatolia', 23), ('Senegambia', 23), ('Niger River', 23), ('Guinea Coast',
-                                                                                                                                                                                                                                                        23), ('Lake Tchad', 23), ('Kongo', 23),
-     ('South Africa', 23), ('Monomotapa', 23), ('Zanj', 23), ('Red Sea', 23), ('Upper Nile', 23), ('Arabia', 23), ('Iran', 23), ('Khorasan', 23), ('Mawarannahr', 23), ('Yettishar', 23),
-     ('Punjab', 23), ('Gurjaratra', 23), ('Konkan', 23), ('Deccan Plateau', 23), ('Tamilakam', 23), ('Kalinga', 23), ('Delhi', 23), ('Bihar', 23), ('Bengal', 23), ('Himalayan Plateau', 23), ('Ayeyarwady', 23), ('Chao Phraya', 23), ('Malacca Strait', 23), ('Mekong', 23), ('Moluccas', 23),
-     ('Champa Sea', 23), ('Australia', 23), ('Liangguang', 22), ('Szechwan', 22), ('Huazhong', 22), ('Jiangnan', 22), ('Huabei', 22), ('Xibei', 22), ('Zhongyuan', 21), ('Eastern Siberia', 21), ('Nippon', 21),
-     ('Far East', 21), ('Andes', 16), ('Southern Cone', 17), ('Guiana', 17), ('Amazonia', 16), ('Panama', 15), ('Caribbean', 19), ('Mexico', 15), ('Rio Grande', 13), ('Mississippi', 19), ('Plains', 19), ('Eastern Seaboard', 19), ('Canada', 20),
-     ('American West Coast', 15), ('Pacific', 33)])
+    [('West Atlantis Node', 33), ('East Atlantis Node', 33), ('South Atlantis Node', 33), ('North Atlantis Node', 33), ('Iberia', 33), ('Strait of Gibraltar', 33), ('Sahara', 33), ('West Mediterranean', 33), ('France', 33), ('Channel', 33), ('North Sea', 33), ('Barbary Coast', 33), ('Tyrrenean Sea', 33), ('Rhineland', 33), ('Lower Nile', 33), ('Po Valley', 33), ('Adriatic Sea', 33), ('Levant', 33),
+     ('Aegean Sea', 33), ('Danube', 33), ('Elbe', 33), ('Baltic Sea', 33), ('Vistula', 33), ('Crimea', 33), ('Western Siberia', 33), ('Dnieper', 33), ('Caspian Sea', 33), ('Zalesye', 33), ('Anatolia', 33), ('Senegambia', 33), ('Niger River', 33), ('Guinea Coast',
+                                                                                                                                                                                                                                                        33), ('Lake Tchad', 33), ('Kongo', 33),
+     ('South Africa', 33), ('Monomotapa', 33), ('Zanj', 33), ('Red Sea', 33), ('Upper Nile', 33), ('Arabia', 33), ('Iran', 33), ('Khorasan', 33), ('Mawarannahr', 33), ('Yettishar', 33),
+     ('Punjab', 33), ('Gurjaratra', 33), ('Konkan', 33), ('Deccan Plateau', 33), ('Tamilakam', 33), ('Kalinga', 33), ('Delhi', 33), ('Bihar', 33), ('Bengal', 33), ('Himalayan Plateau', 33), ('Ayeyarwady', 33), ('Chao Phraya', 33), ('Malacca Strait', 33), ('Mekong', 33), ('Moluccas', 33),
+     ('Champa Sea', 33), ('Australia', 33), ('Liangguang', 32), ('Szechwan', 32), ('Huazhong', 32), ('Jiangnan', 32), ('Huabei', 32), ('Xibei', 32), ('Zhongyuan', 31), ('Eastern Siberia', 31), ('Nippon', 31),
+     ('Far East', 31), ('Andes', 16), ('Southern Cone', 27), ('Guiana', 27), ('Amazonia', 16), ('Panama', 25), ('Caribbean', 29), ('Mexico', 25), ('Rio Grande', 33), ('Mississippi', 29), ('Plains', 29), ('Eastern Seaboard', 29), ('Canada', 30),
+     ('American West Coast', 25), ('Pacific', 33)])
 # Pacific Central America
-expeditions_list.append(Expedition('pacific_central_america', 'Pacific Central America', 1200, 'Colonial Node', [42]))
+expeditions_list.append(Expedition('pacific_central_america', 'Pacific Central America', 1300, 'Colonial Node', [42]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 23), ('East Atlantis Node', 23), ('South Atlantis Node', 23), ('North Atlantis Node', 23), ('Iberia', 23), ('Strait of Gibraltar', 23), ('Sahara', 23), ('West Mediterranean', 23), ('France', 23), ('Channel', 23), ('North Sea', 23), ('Barbary Coast', 23), ('Tyrrenean Sea', 23), ('Rhineland', 23), ('Lower Nile', 23), ('Po Valley', 23), ('Adriatic Sea', 23), ('Levant', 23),
-     ('Aegean Sea', 23), ('Danube', 23), ('Elbe', 23), ('Baltic Sea', 23),
-     ('Vistula', 23), ('Crimea', 23), ('Western Siberia', 23), ('Dnieper', 23), ('Caspian Sea', 23), ('Zalesye', 23), ('Anatolia', 23), ('Senegambia', 23), ('Niger River', 23), ('Guinea Coast',
-                                                                                                                                                                                  23), ('Lake Tchad', 23), ('Kongo', 23), ('South Africa', 23), ('Monomotapa', 23), ('Zanj', 23), ('Red Sea', 23),
-     ('Upper Nile', 23), ('Arabia', 23), ('Iran', 23), ('Khorasan', 23), ('Mawarannahr', 23), ('Yettishar', 23),
-     ('Punjab', 23), ('Gurjaratra', 23), ('Konkan', 23), ('Deccan Plateau', 23), ('Tamilakam', 23), ('Kalinga', 23), ('Delhi', 23), ('Bihar', 23), ('Bengal', 23), ('Himalayan Plateau', 23), ('Ayeyarwady', 23), ('Chao Phraya', 23), ('Malacca Strait', 23), ('Mekong', 23), ('Moluccas', 23),
-     ('Champa Sea', 23), ('Australia', 23), ('Liangguang', 23), ('Szechwan', 23), ('Huazhong', 23), ('Jiangnan', 23), ('Huabei', 23), ('Xibei', 23), ('Zhongyuan', 22), ('Eastern Siberia', 22), ('Nippon', 22),
-     ('Far East', 22), ('Andes', 15), ('Southern Cone', 17), ('Guiana', 17), ('Amazonia', 15), ('Panama', 13), ('Caribbean', 19), ('Mexico', 15), ('Rio Grande', 15), ('Mississippi', 19), ('Plains', 19), ('Eastern Seaboard', 19), ('Canada', 20),
+    [('West Atlantis Node', 33), ('East Atlantis Node', 33), ('South Atlantis Node', 33), ('North Atlantis Node', 33), ('Iberia', 33), ('Strait of Gibraltar', 33), ('Sahara', 33), ('West Mediterranean', 33), ('France', 33), ('Channel', 33), ('North Sea', 33), ('Barbary Coast', 33), ('Tyrrenean Sea', 33), ('Rhineland', 33), ('Lower Nile', 33), ('Po Valley', 33), ('Adriatic Sea', 33), ('Levant', 33),
+     ('Aegean Sea', 33), ('Danube', 33), ('Elbe', 33), ('Baltic Sea', 33),
+     ('Vistula', 33), ('Crimea', 33), ('Western Siberia', 33), ('Dnieper', 33), ('Caspian Sea', 33), ('Zalesye', 33), ('Anatolia', 33), ('Senegambia', 33), ('Niger River', 33), ('Guinea Coast',
+                                                                                                                                                                                  33), ('Lake Tchad', 33), ('Kongo', 33), ('South Africa', 33), ('Monomotapa', 33), ('Zanj', 33), ('Red Sea', 33),
+     ('Upper Nile', 33), ('Arabia', 33), ('Iran', 33), ('Khorasan', 33), ('Mawarannahr', 33), ('Yettishar', 33),
+     ('Punjab', 33), ('Gurjaratra', 33), ('Konkan', 33), ('Deccan Plateau', 33), ('Tamilakam', 33), ('Kalinga', 33), ('Delhi', 33), ('Bihar', 33), ('Bengal', 33), ('Himalayan Plateau', 33), ('Ayeyarwady', 33), ('Chao Phraya', 33), ('Malacca Strait', 33), ('Mekong', 33), ('Moluccas', 33),
+     ('Champa Sea', 33), ('Australia', 33), ('Liangguang', 33), ('Szechwan', 33), ('Huazhong', 33), ('Jiangnan', 33), ('Huabei', 33), ('Xibei', 33), ('Zhongyuan', 32), ('Eastern Siberia', 32), ('Nippon', 32),
+     ('Far East', 32), ('Andes', 25), ('Southern Cone', 27), ('Guiana', 27), ('Amazonia', 25), ('Panama', 33), ('Caribbean', 29), ('Mexico', 25), ('Rio Grande', 25), ('Mississippi', 29), ('Plains', 29), ('Eastern Seaboard', 29), ('Canada', 30),
      ('American West Coast', 16), ('Pacific', 33)])
 # Peru
-expeditions_list.append(Expedition('peru', 'Peru', 2400, 'Colonial Node', [15]))
+expeditions_list.append(Expedition('peru', 'Peru', 2400, 'Colonial Node', [25]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 23), ('East Atlantis Node', 23), ('South Atlantis Node', 23), ('North Atlantis Node', 23), ('Iberia', 23), ('Strait of Gibraltar', 23), ('Sahara', 23), ('West Mediterranean', 23), ('France', 23), ('Channel', 23), ('North Sea', 23), ('Barbary Coast', 23), ('Tyrrenean Sea', 23), ('Rhineland', 23), ('Lower Nile', 23), ('Po Valley', 23), ('Adriatic Sea', 23), ('Levant', 23),
-     ('Aegean Sea', 23), ('Danube', 23), ('Elbe', 23), ('Baltic Sea', 23),
-     ('Vistula', 23), ('Crimea', 23), ('Western Siberia', 23), ('Dnieper', 23), ('Caspian Sea', 23), ('Zalesye', 23), ('Anatolia', 23), ('Senegambia', 23), ('Niger River', 23), ('Guinea Coast',
-                                                                                                                                                                                  23), ('Lake Tchad', 23), ('Kongo', 23), ('South Africa', 23), ('Monomotapa', 23), ('Zanj', 23), ('Red Sea', 23),
-     ('Upper Nile', 23), ('Arabia', 23), ('Iran', 23), ('Khorasan', 23), ('Mawarannahr', 23), ('Yettishar', 23),
-     ('Punjab', 23), ('Gurjaratra', 23), ('Konkan', 23), ('Deccan Plateau', 23), ('Tamilakam', 23), ('Kalinga', 23), ('Delhi', 23), ('Bihar', 23), ('Bengal', 23), ('Himalayan Plateau', 23), ('Ayeyarwady', 23), ('Chao Phraya', 23), ('Malacca Strait', 23), ('Mekong', 23), ('Moluccas', 23),
-     ('Champa Sea', 23), ('Australia', 23), ('Liangguang', 23), ('Szechwan', 23), ('Huazhong', 23), ('Jiangnan', 23), ('Huabei', 23), ('Xibei', 23), ('Zhongyuan', 23), ('Eastern Siberia', 23), ('Nippon', 23),
-     ('Far East', 23), ('Andes', 13), ('Southern Cone', 16), ('Guiana', 17), ('Amazonia', 13), ('Panama', 16), ('Caribbean', 19), ('Mexico', 16), ('Rio Grande', 17), ('Mississippi', 19), ('Plains', 19), ('Eastern Seaboard', 19), ('Canada', 20),
-     ('American West Coast', 17), ('Pacific', 33)])
+    [('West Atlantis Node', 33), ('East Atlantis Node', 33), ('South Atlantis Node', 33), ('North Atlantis Node', 33), ('Iberia', 33), ('Strait of Gibraltar', 33), ('Sahara', 33), ('West Mediterranean', 33), ('France', 33), ('Channel', 33), ('North Sea', 33), ('Barbary Coast', 33), ('Tyrrenean Sea', 33), ('Rhineland', 33), ('Lower Nile', 33), ('Po Valley', 33), ('Adriatic Sea', 33), ('Levant', 33),
+     ('Aegean Sea', 33), ('Danube', 33), ('Elbe', 33), ('Baltic Sea', 33),
+     ('Vistula', 33), ('Crimea', 33), ('Western Siberia', 33), ('Dnieper', 33), ('Caspian Sea', 33), ('Zalesye', 33), ('Anatolia', 33), ('Senegambia', 33), ('Niger River', 33), ('Guinea Coast',
+                                                                                                                                                                                  33), ('Lake Tchad', 33), ('Kongo', 33), ('South Africa', 33), ('Monomotapa', 33), ('Zanj', 33), ('Red Sea', 33),
+     ('Upper Nile', 33), ('Arabia', 33), ('Iran', 33), ('Khorasan', 33), ('Mawarannahr', 33), ('Yettishar', 33),
+     ('Punjab', 33), ('Gurjaratra', 33), ('Konkan', 33), ('Deccan Plateau', 33), ('Tamilakam', 33), ('Kalinga', 33), ('Delhi', 33), ('Bihar', 33), ('Bengal', 33), ('Himalayan Plateau', 33), ('Ayeyarwady', 33), ('Chao Phraya', 33), ('Malacca Strait', 33), ('Mekong', 33), ('Moluccas', 33),
+     ('Champa Sea', 33), ('Australia', 33), ('Liangguang', 33), ('Szechwan', 33), ('Huazhong', 33), ('Jiangnan', 33), ('Huabei', 33), ('Xibei', 33), ('Zhongyuan', 33), ('Eastern Siberia', 33), ('Nippon', 33),
+     ('Far East', 33), ('Andes', 33), ('Southern Cone', 16), ('Guiana', 27), ('Amazonia', 33), ('Panama', 16), ('Caribbean', 29), ('Mexico', 16), ('Rio Grande', 27), ('Mississippi', 29), ('Plains', 29), ('Eastern Seaboard', 29), ('Canada', 30),
+     ('American West Coast', 27), ('Pacific', 33)])
 # Chile
-expeditions_list.append(Expedition('chile', 'Chile', 400, 'Colonial Node', [15]))
+expeditions_list.append(Expedition('chile', 'Chile', 400, 'Colonial Node', [25]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 23), ('East Atlantis Node', 23), ('South Atlantis Node', 23), ('North Atlantis Node', 23), ('Iberia', 23), ('Strait of Gibraltar', 23), ('Sahara', 23), ('West Mediterranean', 23), ('France', 23), ('Channel', 23), ('North Sea', 23), ('Barbary Coast', 23), ('Tyrrenean Sea', 23), ('Rhineland', 23), ('Lower Nile', 23), ('Po Valley', 23), ('Adriatic Sea', 23), ('Levant', 23),
-     ('Aegean Sea', 23), ('Danube', 23), ('Elbe', 23), ('Baltic Sea', 23),
-     ('Vistula', 23), ('Crimea', 23), ('Western Siberia', 23), ('Dnieper', 23), ('Caspian Sea', 23), ('Zalesye', 23), ('Anatolia', 23), ('Senegambia', 23), ('Niger River', 23), ('Guinea Coast',
-                                                                                                                                                                                  23), ('Lake Tchad', 23), ('Kongo', 23), ('South Africa', 23), ('Monomotapa', 23), ('Zanj', 23), ('Red Sea', 23),
-     ('Upper Nile', 23), ('Arabia', 23), ('Iran', 23), ('Khorasan', 23), ('Mawarannahr', 23), ('Yettishar', 23),
-     ('Punjab', 23), ('Gurjaratra', 23), ('Konkan', 23), ('Deccan Plateau', 23), ('Tamilakam', 23), ('Kalinga', 23), ('Delhi', 23), ('Bihar', 23), ('Bengal', 23), ('Himalayan Plateau', 23), ('Ayeyarwady', 23), ('Chao Phraya', 23), ('Malacca Strait', 23), ('Mekong', 23), ('Moluccas', 23),
-     ('Champa Sea', 23), ('Australia', 23), ('Liangguang', 23), ('Szechwan', 23), ('Huazhong', 23), ('Jiangnan', 23), ('Huabei', 23), ('Xibei', 23), ('Zhongyuan', 23), ('Eastern Siberia', 23), ('Nippon', 23),
-     ('Far East', 23), ('Andes', 13), ('Southern Cone', 16), ('Guiana', 17), ('Amazonia', 13), ('Panama', 16), ('Caribbean', 19), ('Mexico', 16), ('Rio Grande', 17), ('Mississippi', 19), ('Plains', 19), ('Eastern Seaboard', 19), ('Canada', 20),
-     ('American West Coast', 17), ('Pacific', 33)])
+    [('West Atlantis Node', 33), ('East Atlantis Node', 33), ('South Atlantis Node', 33), ('North Atlantis Node', 33), ('Iberia', 33), ('Strait of Gibraltar', 33), ('Sahara', 33), ('West Mediterranean', 33), ('France', 33), ('Channel', 33), ('North Sea', 33), ('Barbary Coast', 33), ('Tyrrenean Sea', 33), ('Rhineland', 33), ('Lower Nile', 33), ('Po Valley', 33), ('Adriatic Sea', 33), ('Levant', 33),
+     ('Aegean Sea', 33), ('Danube', 33), ('Elbe', 33), ('Baltic Sea', 33),
+     ('Vistula', 33), ('Crimea', 33), ('Western Siberia', 33), ('Dnieper', 33), ('Caspian Sea', 33), ('Zalesye', 33), ('Anatolia', 33), ('Senegambia', 33), ('Niger River', 33), ('Guinea Coast',
+                                                                                                                                                                                  33), ('Lake Tchad', 33), ('Kongo', 33), ('South Africa', 33), ('Monomotapa', 33), ('Zanj', 33), ('Red Sea', 33),
+     ('Upper Nile', 33), ('Arabia', 33), ('Iran', 33), ('Khorasan', 33), ('Mawarannahr', 33), ('Yettishar', 33),
+     ('Punjab', 33), ('Gurjaratra', 33), ('Konkan', 33), ('Deccan Plateau', 33), ('Tamilakam', 33), ('Kalinga', 33), ('Delhi', 33), ('Bihar', 33), ('Bengal', 33), ('Himalayan Plateau', 33), ('Ayeyarwady', 33), ('Chao Phraya', 33), ('Malacca Strait', 33), ('Mekong', 33), ('Moluccas', 33),
+     ('Champa Sea', 33), ('Australia', 33), ('Liangguang', 33), ('Szechwan', 33), ('Huazhong', 33), ('Jiangnan', 33), ('Huabei', 33), ('Xibei', 33), ('Zhongyuan', 33), ('Eastern Siberia', 33), ('Nippon', 33),
+     ('Far East', 33), ('Andes', 33), ('Southern Cone', 16), ('Guiana', 27), ('Amazonia', 33), ('Panama', 16), ('Caribbean', 29), ('Mexico', 16), ('Rio Grande', 27), ('Mississippi', 29), ('Plains', 29), ('Eastern Seaboard', 29), ('Canada', 30),
+     ('American West Coast', 27), ('Pacific', 33)])
 #South Atlantis Node
 expeditions_list.append(Expedition('south_atlantis_node', 'South Atlantis Node', 0, 'Jumping Node', [82]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('South Atlantis Node', 13), ('East Atlantis Node', 15), ('West Atlantis Node', 15), ('North Atlantis Node', 15), ('Iberia', 15), ('Strait of Gibraltar', 15), ('West Mediterranean', 15), ('France', 15), ('Channel', 15), ('North Sea', 15), ('Barbary Coast', 15), ('Tyrrenean Sea', 15), ('Rhineland', 13), ('Lower Nile', 15), ('Po Valley', 15), ('Adriatic Sea', 15), ('Levant', 15), ('Aegean Sea', 15),
-     ('Danube', 15), ('Elbe', 13), ('Baltic Sea', 15), ('Vistula', 15), ('Crimea', 15), ('Western Siberia', 15), ('Dnieper', 15), ('Caspian Sea', 15), ('Zalesye', 15), ('Anatolia', 15), ('Sahara', 15), ('Senegambia', 17), ('Niger River', 17), ('Guinea Coast',
-                                                                                                                                                                                                                                                    18), ('Lake Tchad', 18), ('Kongo', 18),
-     ('South Africa', 20), ('Monomotapa', 20), ('Zanj', 20), ('Red Sea', 22), ('Upper Nile', 22), ('Arabia', 22), ('Iran', 22), ('Khorasan', 22), ('Mawarannahr', 22), ('Yettishar', 22),
-     ('Punjab', 22), ('Gurjaratra', 22), ('Konkan', 22), ('Deccan Plateau', 22), ('Tamilakam', 22), ('Kalinga', 22), ('Delhi', 22), ('Bihar', 22), ('Bengal', 22), ('Himalayan Plateau', 22), ('Ayeyarwady', 22), ('Chao Phraya', 23), ('Malacca Strait', 23), ('Mekong', 23), ('Moluccas', 23),
-     ('Champa Sea', 23), ('Australia', 23), ('Liangguang', 23), ('Szechwan', 23), ('Huazhong', 23), ('Jiangnan', 23), ('Huabei', 23), ('Xibei', 23), ('Zhongyuan', 23), ('Eastern Siberia', 23), ('Nippon', 23),
-     ('Far East', 23), ('Andes', 22), ('Southern Cone', 21), ('Guiana', 20), ('Amazonia', 22), ('Panama', 21), ('Caribbean', 20), ('Mexico', 21), ('Rio Grande', 21), ('Mississippi', 21), ('Plains', 21), ('Eastern Seaboard', 19), ('Canada', 19),
-     ('American West Coast', 23), ('Pacific', 33)])
+    [('South Atlantis Node', 33), ('East Atlantis Node', 25), ('West Atlantis Node', 25), ('North Atlantis Node', 25), ('Iberia', 25), ('Strait of Gibraltar', 25), ('West Mediterranean', 25), ('France', 25), ('Channel', 25), ('North Sea', 25), ('Barbary Coast', 25), ('Tyrrenean Sea', 25), ('Rhineland', 33), ('Lower Nile', 25), ('Po Valley', 25), ('Adriatic Sea', 25), ('Levant', 25), ('Aegean Sea', 25),
+     ('Danube', 25), ('Elbe', 33), ('Baltic Sea', 25), ('Vistula', 25), ('Crimea', 25), ('Western Siberia', 25), ('Dnieper', 25), ('Caspian Sea', 25), ('Zalesye', 25), ('Anatolia', 25), ('Sahara', 25), ('Senegambia', 27), ('Niger River', 27), ('Guinea Coast',
+                                                                                                                                                                                                                                                    28), ('Lake Tchad', 28), ('Kongo', 28),
+     ('South Africa', 30), ('Monomotapa', 30), ('Zanj', 30), ('Red Sea', 32), ('Upper Nile', 32), ('Arabia', 32), ('Iran', 32), ('Khorasan', 32), ('Mawarannahr', 32), ('Yettishar', 32),
+     ('Punjab', 32), ('Gurjaratra', 32), ('Konkan', 32), ('Deccan Plateau', 32), ('Tamilakam', 32), ('Kalinga', 32), ('Delhi', 32), ('Bihar', 32), ('Bengal', 32), ('Himalayan Plateau', 32), ('Ayeyarwady', 32), ('Chao Phraya', 33), ('Malacca Strait', 33), ('Mekong', 33), ('Moluccas', 33),
+     ('Champa Sea', 33), ('Australia', 33), ('Liangguang', 33), ('Szechwan', 33), ('Huazhong', 33), ('Jiangnan', 33), ('Huabei', 33), ('Xibei', 33), ('Zhongyuan', 33), ('Eastern Siberia', 33), ('Nippon', 33),
+     ('Far East', 33), ('Andes', 32), ('Southern Cone', 31), ('Guiana', 30), ('Amazonia', 32), ('Panama', 31), ('Caribbean', 30), ('Mexico', 31), ('Rio Grande', 31), ('Mississippi', 31), ('Plains', 31), ('Eastern Seaboard', 29), ('Canada', 29),
+     ('American West Coast', 33), ('Pacific', 33)])
 #North Atlantis Node
 expeditions_list.append(Expedition('north_atlantis_node', 'North Atlantis Node', 0, 'Jumping Node', [83]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('North Atlantis Node', 13), ('East Atlantis Node', 15), ('West Atlantis Node', 15), ('South Atlantis Node', 15), ('Iberia', 15), ('Strait of Gibraltar', 15), ('West Mediterranean', 15), ('France', 15), ('Channel', 15), ('North Sea', 15), ('Barbary Coast', 15), ('Tyrrenean Sea', 15), ('Rhineland', 13), ('Lower Nile', 15), ('Po Valley', 15), ('Adriatic Sea', 15), ('Levant', 15), ('Aegean Sea', 15),
-     ('Danube', 15), ('Elbe', 13), ('Baltic Sea', 15), ('Vistula', 15), ('Crimea', 15), ('Western Siberia', 15), ('Dnieper', 15), ('Caspian Sea', 15), ('Zalesye', 15), ('Anatolia', 15), ('Sahara', 15), ('Senegambia', 17), ('Niger River', 17), ('Guinea Coast',
-                                                                                                                                                                                                                                                    18), ('Lake Tchad', 18), ('Kongo', 18),
-     ('South Africa', 20), ('Monomotapa', 20), ('Zanj', 20), ('Red Sea', 22), ('Upper Nile', 22), ('Arabia', 22), ('Iran', 22), ('Khorasan', 22), ('Mawarannahr', 22), ('Yettishar', 22),
-     ('Punjab', 22), ('Gurjaratra', 22), ('Konkan', 22), ('Deccan Plateau', 22), ('Tamilakam', 22), ('Kalinga', 22), ('Delhi', 22), ('Bihar', 22), ('Bengal', 22), ('Himalayan Plateau', 22), ('Ayeyarwady', 22), ('Chao Phraya', 23), ('Malacca Strait', 23), ('Mekong', 23), ('Moluccas', 23),
-     ('Champa Sea', 23), ('Australia', 23), ('Liangguang', 23), ('Szechwan', 23), ('Huazhong', 23), ('Jiangnan', 23), ('Huabei', 23), ('Xibei', 23), ('Zhongyuan', 23), ('Eastern Siberia', 23), ('Nippon', 23),
-     ('Far East', 23), ('Andes', 22), ('Southern Cone', 21), ('Guiana', 20), ('Amazonia', 22), ('Panama', 21), ('Caribbean', 20), ('Mexico', 21), ('Rio Grande', 21), ('Mississippi', 21), ('Plains', 21), ('Eastern Seaboard', 19), ('Canada', 19),
-     ('American West Coast', 23), ('Pacific', 33)])
+    [('North Atlantis Node', 33), ('East Atlantis Node', 25), ('West Atlantis Node', 25), ('South Atlantis Node', 25), ('Iberia', 25), ('Strait of Gibraltar', 25), ('West Mediterranean', 25), ('France', 25), ('Channel', 25), ('North Sea', 25), ('Barbary Coast', 25), ('Tyrrenean Sea', 25), ('Rhineland', 33), ('Lower Nile', 25), ('Po Valley', 25), ('Adriatic Sea', 25), ('Levant', 25), ('Aegean Sea', 25),
+     ('Danube', 25), ('Elbe', 33), ('Baltic Sea', 25), ('Vistula', 25), ('Crimea', 25), ('Western Siberia', 25), ('Dnieper', 25), ('Caspian Sea', 25), ('Zalesye', 25), ('Anatolia', 25), ('Sahara', 25), ('Senegambia', 27), ('Niger River', 27), ('Guinea Coast',
+                                                                                                                                                                                                                                                    28), ('Lake Tchad', 28), ('Kongo', 28),
+     ('South Africa', 30), ('Monomotapa', 30), ('Zanj', 30), ('Red Sea', 32), ('Upper Nile', 32), ('Arabia', 32), ('Iran', 32), ('Khorasan', 32), ('Mawarannahr', 32), ('Yettishar', 32),
+     ('Punjab', 32), ('Gurjaratra', 32), ('Konkan', 32), ('Deccan Plateau', 32), ('Tamilakam', 32), ('Kalinga', 32), ('Delhi', 32), ('Bihar', 32), ('Bengal', 32), ('Himalayan Plateau', 32), ('Ayeyarwady', 32), ('Chao Phraya', 33), ('Malacca Strait', 33), ('Mekong', 33), ('Moluccas', 33),
+     ('Champa Sea', 33), ('Australia', 33), ('Liangguang', 33), ('Szechwan', 33), ('Huazhong', 33), ('Jiangnan', 33), ('Huabei', 33), ('Xibei', 33), ('Zhongyuan', 33), ('Eastern Siberia', 33), ('Nippon', 33),
+     ('Far East', 33), ('Andes', 32), ('Southern Cone', 31), ('Guiana', 30), ('Amazonia', 32), ('Panama', 31), ('Caribbean', 30), ('Mexico', 31), ('Rio Grande', 31), ('Mississippi', 31), ('Plains', 31), ('Eastern Seaboard', 29), ('Canada', 29),
+     ('American West Coast', 33), ('Pacific', 33)])
 #East Atlantis Node
 expeditions_list.append(Expedition('east_atlantis_node', 'East Atlantis Node', 0, 'Jumping Node', [84]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('East Atlantis Node', 13), ('South Atlantis Node', 15), ('West Atlantis Node', 15), ('North Atlantis Node', 15), ('Iberia', 15), ('Strait of Gibraltar', 15), ('West Mediterranean', 15), ('France', 15), ('Channel', 15), ('North Sea', 15), ('Barbary Coast', 15), ('Tyrrenean Sea', 15), ('Rhineland', 13), ('Lower Nile', 15), ('Po Valley', 15), ('Adriatic Sea', 15), ('Levant', 15), ('Aegean Sea', 15),
-     ('Danube', 15), ('Elbe', 13), ('Baltic Sea', 15), ('Vistula', 15), ('Crimea', 15), ('Western Siberia', 15), ('Dnieper', 15), ('Caspian Sea', 15), ('Zalesye', 15), ('Anatolia', 15), ('Sahara', 15), ('Senegambia', 17), ('Niger River', 17), ('Guinea Coast',
-                                                                                                                                                                                                                                                    18), ('Lake Tchad', 18), ('Kongo', 18),
-     ('South Africa', 20), ('Monomotapa', 20), ('Zanj', 20), ('Red Sea', 22), ('Upper Nile', 22), ('Arabia', 22), ('Iran', 22), ('Khorasan', 22), ('Mawarannahr', 22), ('Yettishar', 22),
-     ('Punjab', 22), ('Gurjaratra', 22), ('Konkan', 22), ('Deccan Plateau', 22), ('Tamilakam', 22), ('Kalinga', 22), ('Delhi', 22), ('Bihar', 22), ('Bengal', 22), ('Himalayan Plateau', 22), ('Ayeyarwady', 22), ('Chao Phraya', 23), ('Malacca Strait', 23), ('Mekong', 23), ('Moluccas', 23),
-     ('Champa Sea', 23), ('Australia', 23), ('Liangguang', 23), ('Szechwan', 23), ('Huazhong', 23), ('Jiangnan', 23), ('Huabei', 23), ('Xibei', 23), ('Zhongyuan', 23), ('Eastern Siberia', 23), ('Nippon', 23),
-     ('Far East', 23), ('Andes', 22), ('Southern Cone', 21), ('Guiana', 20), ('Amazonia', 22), ('Panama', 21), ('Caribbean', 20), ('Mexico', 21), ('Rio Grande', 21), ('Mississippi', 21), ('Plains', 21), ('Eastern Seaboard', 19), ('Canada', 19),
-     ('American West Coast', 23), ('Pacific', 33)])
+    [('East Atlantis Node', 33), ('South Atlantis Node', 25), ('West Atlantis Node', 25), ('North Atlantis Node', 25), ('Iberia', 25), ('Strait of Gibraltar', 25), ('West Mediterranean', 25), ('France', 25), ('Channel', 25), ('North Sea', 25), ('Barbary Coast', 25), ('Tyrrenean Sea', 25), ('Rhineland', 33), ('Lower Nile', 25), ('Po Valley', 25), ('Adriatic Sea', 25), ('Levant', 25), ('Aegean Sea', 25),
+     ('Danube', 25), ('Elbe', 33), ('Baltic Sea', 25), ('Vistula', 25), ('Crimea', 25), ('Western Siberia', 25), ('Dnieper', 25), ('Caspian Sea', 25), ('Zalesye', 25), ('Anatolia', 25), ('Sahara', 25), ('Senegambia', 27), ('Niger River', 27), ('Guinea Coast',
+                                                                                                                                                                                                                                                    28), ('Lake Tchad', 28), ('Kongo', 28),
+     ('South Africa', 30), ('Monomotapa', 30), ('Zanj', 30), ('Red Sea', 32), ('Upper Nile', 32), ('Arabia', 32), ('Iran', 32), ('Khorasan', 32), ('Mawarannahr', 32), ('Yettishar', 32),
+     ('Punjab', 32), ('Gurjaratra', 32), ('Konkan', 32), ('Deccan Plateau', 32), ('Tamilakam', 32), ('Kalinga', 32), ('Delhi', 32), ('Bihar', 32), ('Bengal', 32), ('Himalayan Plateau', 32), ('Ayeyarwady', 32), ('Chao Phraya', 33), ('Malacca Strait', 33), ('Mekong', 33), ('Moluccas', 33),
+     ('Champa Sea', 33), ('Australia', 33), ('Liangguang', 33), ('Szechwan', 33), ('Huazhong', 33), ('Jiangnan', 33), ('Huabei', 33), ('Xibei', 33), ('Zhongyuan', 33), ('Eastern Siberia', 33), ('Nippon', 33),
+     ('Far East', 33), ('Andes', 32), ('Southern Cone', 31), ('Guiana', 30), ('Amazonia', 32), ('Panama', 31), ('Caribbean', 30), ('Mexico', 31), ('Rio Grande', 31), ('Mississippi', 31), ('Plains', 31), ('Eastern Seaboard', 29), ('Canada', 29),
+     ('American West Coast', 33), ('Pacific', 33)])
 #West Atlantis Node
 expeditions_list.append(Expedition('west_atlantis_node', 'West Atlantis Node', 0, 'Jumping Node', [85]))
 expeditions_list[-1].set_node_tech_reqs(
-    [('West Atlantis Node', 13), ('East Atlantis Node', 15), ('South Atlantis Node', 15), ('North Atlantis Node', 15), ('Iberia', 15), ('Strait of Gibraltar', 15), ('West Mediterranean', 15), ('France', 15), ('Channel', 15), ('North Sea', 15), ('Barbary Coast', 15), ('Tyrrenean Sea', 15), ('Rhineland', 13), ('Lower Nile', 15), ('Po Valley', 15), ('Adriatic Sea', 15), ('Levant', 15), ('Aegean Sea', 15),
-     ('Danube', 15), ('Elbe', 13), ('Baltic Sea', 15), ('Vistula', 15), ('Crimea', 15), ('Western Siberia', 15), ('Dnieper', 15), ('Caspian Sea', 15), ('Zalesye', 15), ('Anatolia', 15), ('Sahara', 15), ('Senegambia', 17), ('Niger River', 17), ('Guinea Coast',
-                                                                                                                                                                                                                                                    18), ('Lake Tchad', 18), ('Kongo', 18),
-     ('South Africa', 20), ('Monomotapa', 20), ('Zanj', 20), ('Red Sea', 22), ('Upper Nile', 22), ('Arabia', 22), ('Iran', 22), ('Khorasan', 22), ('Mawarannahr', 22), ('Yettishar', 22),
-     ('Punjab', 22), ('Gurjaratra', 22), ('Konkan', 22), ('Deccan Plateau', 22), ('Tamilakam', 22), ('Kalinga', 22), ('Delhi', 22), ('Bihar', 22), ('Bengal', 22), ('Himalayan Plateau', 22), ('Ayeyarwady', 22), ('Chao Phraya', 23), ('Malacca Strait', 23), ('Mekong', 23), ('Moluccas', 23),
-     ('Champa Sea', 23), ('Australia', 23), ('Liangguang', 23), ('Szechwan', 23), ('Huazhong', 23), ('Jiangnan', 23), ('Huabei', 23), ('Xibei', 23), ('Zhongyuan', 23), ('Eastern Siberia', 23), ('Nippon', 23),
-     ('Far East', 23), ('Andes', 22), ('Southern Cone', 21), ('Guiana', 20), ('Amazonia', 22), ('Panama', 21), ('Caribbean', 20), ('Mexico', 21), ('Rio Grande', 21), ('Mississippi', 21), ('Plains', 21), ('Eastern Seaboard', 19), ('Canada', 19),
-     ('American West Coast', 23), ('Pacific', 33)])
+    [('West Atlantis Node', 33), ('East Atlantis Node', 25), ('South Atlantis Node', 25), ('North Atlantis Node', 25), ('Iberia', 25), ('Strait of Gibraltar', 25), ('West Mediterranean', 25), ('France', 25), ('Channel', 25), ('North Sea', 25), ('Barbary Coast', 25), ('Tyrrenean Sea', 25), ('Rhineland', 33), ('Lower Nile', 25), ('Po Valley', 25), ('Adriatic Sea', 25), ('Levant', 25), ('Aegean Sea', 25),
+     ('Danube', 25), ('Elbe', 33), ('Baltic Sea', 25), ('Vistula', 25), ('Crimea', 25), ('Western Siberia', 25), ('Dnieper', 25), ('Caspian Sea', 25), ('Zalesye', 25), ('Anatolia', 25), ('Sahara', 25), ('Senegambia', 27), ('Niger River', 27), ('Guinea Coast',
+                                                                                                                                                                                                                                                    28), ('Lake Tchad', 28), ('Kongo', 28),
+     ('South Africa', 30), ('Monomotapa', 30), ('Zanj', 30), ('Red Sea', 32), ('Upper Nile', 32), ('Arabia', 32), ('Iran', 32), ('Khorasan', 32), ('Mawarannahr', 32), ('Yettishar', 32),
+     ('Punjab', 32), ('Gurjaratra', 32), ('Konkan', 32), ('Deccan Plateau', 32), ('Tamilakam', 32), ('Kalinga', 32), ('Delhi', 32), ('Bihar', 32), ('Bengal', 32), ('Himalayan Plateau', 32), ('Ayeyarwady', 32), ('Chao Phraya', 33), ('Malacca Strait', 33), ('Mekong', 33), ('Moluccas', 33),
+     ('Champa Sea', 33), ('Australia', 33), ('Liangguang', 33), ('Szechwan', 33), ('Huazhong', 33), ('Jiangnan', 33), ('Huabei', 33), ('Xibei', 33), ('Zhongyuan', 33), ('Eastern Siberia', 33), ('Nippon', 33),
+     ('Far East', 33), ('Andes', 32), ('Southern Cone', 31), ('Guiana', 30), ('Amazonia', 32), ('Panama', 31), ('Caribbean', 30), ('Mexico', 31), ('Rio Grande', 31), ('Mississippi', 31), ('Plains', 31), ('Eastern Seaboard', 29), ('Canada', 29),
+     ('American West Coast', 33), ('Pacific', 33)])
 #
 trade_nodes = {'Pacific': 1, 'Australia': 2, 'Jiangnan': 3, 'Far East': 4, 'Eastern Siberia': 5, 'Huabei': 6, 'Nippon': 7,
                'American West Coast': 8, 'Mexico': 9, 'Huazhong': 10, 'Zhongyuan': 11, 'Szechwan': 12,

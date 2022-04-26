@@ -47,14 +47,11 @@ MEC_Expeditions_available_british_isles_trigger = { # the British Isles Expediti
 				dip_tech = 33
 				capital_scope = {
 					OR = {
-						province_group = tradenode_1 # Pacific
-					}
-				}
-			}
-			AND = {
-				dip_tech = 23
-				capital_scope = {
-					OR = {
+						province_group = tradenode_74 # France
+						province_group = tradenode_77 # Channel
+						province_group = tradenode_81 # North Sea
+						province_group = tradenode_72 # Rhineland
+						province_group = tradenode_78 # Elbe
 						province_group = tradenode_24 # Chao Phraya
 						province_group = tradenode_23 # Malacca Strait
 						province_group = tradenode_18 # Mekong
@@ -72,11 +69,12 @@ MEC_Expeditions_available_british_isles_trigger = { # the British Isles Expediti
 						province_group = tradenode_7 # Nippon
 						province_group = tradenode_4 # Far East
 						province_group = tradenode_8 # American West Coast
+						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 22
+				dip_tech = 32
 				capital_scope = {
 					OR = {
 						province_group = tradenode_38 # Red Sea
@@ -103,7 +101,7 @@ MEC_Expeditions_available_british_isles_trigger = { # the British Isles Expediti
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_16 # Southern Cone
@@ -116,7 +114,7 @@ MEC_Expeditions_available_british_isles_trigger = { # the British Isles Expediti
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_41 # South Africa
@@ -128,7 +126,7 @@ MEC_Expeditions_available_british_isles_trigger = { # the British Isles Expediti
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_66 # Eastern Seaboard
@@ -137,7 +135,7 @@ MEC_Expeditions_available_british_isles_trigger = { # the British Isles Expediti
 				}
 			}
 			AND = {
-				dip_tech = 18
+				dip_tech = 28
 				capital_scope = {
 					OR = {
 						province_group = tradenode_45 # Guinea Coast
@@ -147,7 +145,7 @@ MEC_Expeditions_available_british_isles_trigger = { # the British Isles Expediti
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_48 # Senegambia
@@ -156,7 +154,7 @@ MEC_Expeditions_available_british_isles_trigger = { # the British Isles Expediti
 				}
 			}
 			AND = {
-				dip_tech = 15
+				dip_tech = 25
 				capital_scope = {
 					OR = {
 						province_group = tradenode_85 # West Atlantis Node
@@ -183,18 +181,6 @@ MEC_Expeditions_available_british_isles_trigger = { # the British Isles Expediti
 						province_group = tradenode_59 # Zalesye
 						province_group = tradenode_58 # Anatolia
 						province_group = tradenode_80 # Sahara
-					}
-				}
-			}
-			AND = {
-				dip_tech = 13
-				capital_scope = {
-					OR = {
-						province_group = tradenode_74 # France
-						province_group = tradenode_77 # Channel
-						province_group = tradenode_81 # North Sea
-						province_group = tradenode_72 # Rhineland
-						province_group = tradenode_78 # Elbe
 					}
 				}
 			}
@@ -212,14 +198,12 @@ MEC_Expeditions_available_northern_europe_trigger = { # Northern Europe Expediti
 				dip_tech = 33
 				capital_scope = {
 					OR = {
-						province_group = tradenode_1 # Pacific
-					}
-				}
-			}
-			AND = {
-				dip_tech = 23
-				capital_scope = {
-					OR = {
+						province_group = tradenode_74 # France
+						province_group = tradenode_77 # Channel
+						province_group = tradenode_81 # North Sea
+						province_group = tradenode_72 # Rhineland
+						province_group = tradenode_78 # Elbe
+						province_group = tradenode_75 # Baltic Sea
 						province_group = tradenode_24 # Chao Phraya
 						province_group = tradenode_23 # Malacca Strait
 						province_group = tradenode_18 # Mekong
@@ -237,11 +221,12 @@ MEC_Expeditions_available_northern_europe_trigger = { # Northern Europe Expediti
 						province_group = tradenode_7 # Nippon
 						province_group = tradenode_4 # Far East
 						province_group = tradenode_8 # American West Coast
+						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 22
+				dip_tech = 32
 				capital_scope = {
 					OR = {
 						province_group = tradenode_38 # Red Sea
@@ -268,7 +253,7 @@ MEC_Expeditions_available_northern_europe_trigger = { # Northern Europe Expediti
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_16 # Southern Cone
@@ -281,7 +266,7 @@ MEC_Expeditions_available_northern_europe_trigger = { # Northern Europe Expediti
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_41 # South Africa
@@ -293,7 +278,7 @@ MEC_Expeditions_available_northern_europe_trigger = { # Northern Europe Expediti
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_66 # Eastern Seaboard
@@ -302,7 +287,7 @@ MEC_Expeditions_available_northern_europe_trigger = { # Northern Europe Expediti
 				}
 			}
 			AND = {
-				dip_tech = 18
+				dip_tech = 28
 				capital_scope = {
 					OR = {
 						province_group = tradenode_45 # Guinea Coast
@@ -312,7 +297,7 @@ MEC_Expeditions_available_northern_europe_trigger = { # Northern Europe Expediti
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_48 # Senegambia
@@ -321,7 +306,7 @@ MEC_Expeditions_available_northern_europe_trigger = { # Northern Europe Expediti
 				}
 			}
 			AND = {
-				dip_tech = 15
+				dip_tech = 25
 				capital_scope = {
 					OR = {
 						province_group = tradenode_85 # West Atlantis Node
@@ -347,19 +332,6 @@ MEC_Expeditions_available_northern_europe_trigger = { # Northern Europe Expediti
 						province_group = tradenode_59 # Zalesye
 						province_group = tradenode_58 # Anatolia
 						province_group = tradenode_80 # Sahara
-					}
-				}
-			}
-			AND = {
-				dip_tech = 13
-				capital_scope = {
-					OR = {
-						province_group = tradenode_74 # France
-						province_group = tradenode_77 # Channel
-						province_group = tradenode_81 # North Sea
-						province_group = tradenode_72 # Rhineland
-						province_group = tradenode_78 # Elbe
-						province_group = tradenode_75 # Baltic Sea
 					}
 				}
 			}
@@ -377,14 +349,12 @@ MEC_Expeditions_available_france_trigger = { # France Expedition Availability Co
 				dip_tech = 33
 				capital_scope = {
 					OR = {
-						province_group = tradenode_1 # Pacific
-					}
-				}
-			}
-			AND = {
-				dip_tech = 23
-				capital_scope = {
-					OR = {
+						province_group = tradenode_70 # Iberia
+						province_group = tradenode_74 # France
+						province_group = tradenode_77 # Channel
+						province_group = tradenode_81 # North Sea
+						province_group = tradenode_72 # Rhineland
+						province_group = tradenode_78 # Elbe
 						province_group = tradenode_24 # Chao Phraya
 						province_group = tradenode_23 # Malacca Strait
 						province_group = tradenode_18 # Mekong
@@ -402,11 +372,12 @@ MEC_Expeditions_available_france_trigger = { # France Expedition Availability Co
 						province_group = tradenode_7 # Nippon
 						province_group = tradenode_4 # Far East
 						province_group = tradenode_8 # American West Coast
+						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 22
+				dip_tech = 32
 				capital_scope = {
 					OR = {
 						province_group = tradenode_38 # Red Sea
@@ -433,7 +404,7 @@ MEC_Expeditions_available_france_trigger = { # France Expedition Availability Co
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_16 # Southern Cone
@@ -446,7 +417,7 @@ MEC_Expeditions_available_france_trigger = { # France Expedition Availability Co
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_41 # South Africa
@@ -458,7 +429,7 @@ MEC_Expeditions_available_france_trigger = { # France Expedition Availability Co
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_66 # Eastern Seaboard
@@ -467,7 +438,7 @@ MEC_Expeditions_available_france_trigger = { # France Expedition Availability Co
 				}
 			}
 			AND = {
-				dip_tech = 18
+				dip_tech = 28
 				capital_scope = {
 					OR = {
 						province_group = tradenode_45 # Guinea Coast
@@ -477,7 +448,7 @@ MEC_Expeditions_available_france_trigger = { # France Expedition Availability Co
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_48 # Senegambia
@@ -486,7 +457,7 @@ MEC_Expeditions_available_france_trigger = { # France Expedition Availability Co
 				}
 			}
 			AND = {
-				dip_tech = 15
+				dip_tech = 25
 				capital_scope = {
 					OR = {
 						province_group = tradenode_85 # West Atlantis Node
@@ -512,19 +483,6 @@ MEC_Expeditions_available_france_trigger = { # France Expedition Availability Co
 						province_group = tradenode_59 # Zalesye
 						province_group = tradenode_58 # Anatolia
 						province_group = tradenode_80 # Sahara
-					}
-				}
-			}
-			AND = {
-				dip_tech = 13
-				capital_scope = {
-					OR = {
-						province_group = tradenode_70 # Iberia
-						province_group = tradenode_74 # France
-						province_group = tradenode_77 # Channel
-						province_group = tradenode_81 # North Sea
-						province_group = tradenode_72 # Rhineland
-						province_group = tradenode_78 # Elbe
 					}
 				}
 			}
@@ -542,14 +500,8 @@ MEC_Expeditions_available_iberia_trigger = { # Iberia Expedition Availability Co
 				dip_tech = 33
 				capital_scope = {
 					OR = {
-						province_group = tradenode_1 # Pacific
-					}
-				}
-			}
-			AND = {
-				dip_tech = 23
-				capital_scope = {
-					OR = {
+						province_group = tradenode_70 # Iberia
+						province_group = tradenode_67 # Strait of Gibraltar
 						province_group = tradenode_24 # Chao Phraya
 						province_group = tradenode_23 # Malacca Strait
 						province_group = tradenode_18 # Mekong
@@ -567,11 +519,12 @@ MEC_Expeditions_available_iberia_trigger = { # Iberia Expedition Availability Co
 						province_group = tradenode_7 # Nippon
 						province_group = tradenode_4 # Far East
 						province_group = tradenode_8 # American West Coast
+						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 22
+				dip_tech = 32
 				capital_scope = {
 					OR = {
 						province_group = tradenode_38 # Red Sea
@@ -598,7 +551,7 @@ MEC_Expeditions_available_iberia_trigger = { # Iberia Expedition Availability Co
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_16 # Southern Cone
@@ -611,7 +564,7 @@ MEC_Expeditions_available_iberia_trigger = { # Iberia Expedition Availability Co
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_41 # South Africa
@@ -622,7 +575,7 @@ MEC_Expeditions_available_iberia_trigger = { # Iberia Expedition Availability Co
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_65 # Caribbean
@@ -632,7 +585,7 @@ MEC_Expeditions_available_iberia_trigger = { # Iberia Expedition Availability Co
 				}
 			}
 			AND = {
-				dip_tech = 18
+				dip_tech = 28
 				capital_scope = {
 					OR = {
 						province_group = tradenode_44 # Kongo
@@ -640,7 +593,7 @@ MEC_Expeditions_available_iberia_trigger = { # Iberia Expedition Availability Co
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_45 # Guinea Coast
@@ -649,16 +602,7 @@ MEC_Expeditions_available_iberia_trigger = { # Iberia Expedition Availability Co
 				}
 			}
 			AND = {
-				dip_tech = 16
-				capital_scope = {
-					OR = {
-						province_group = tradenode_48 # Senegambia
-						province_group = tradenode_47 # Niger River
-					}
-				}
-			}
-			AND = {
-				dip_tech = 15
+				dip_tech = 25
 				capital_scope = {
 					OR = {
 						province_group = tradenode_85 # West Atlantis Node
@@ -692,11 +636,11 @@ MEC_Expeditions_available_iberia_trigger = { # Iberia Expedition Availability Co
 				}
 			}
 			AND = {
-				dip_tech = 13
+				dip_tech = 16
 				capital_scope = {
 					OR = {
-						province_group = tradenode_70 # Iberia
-						province_group = tradenode_67 # Strait of Gibraltar
+						province_group = tradenode_48 # Senegambia
+						province_group = tradenode_47 # Niger River
 					}
 				}
 			}
@@ -714,14 +658,8 @@ MEC_Expeditions_available_iberian_islands_trigger = { # the Iberian Islands Expe
 				dip_tech = 33
 				capital_scope = {
 					OR = {
-						province_group = tradenode_1 # Pacific
-					}
-				}
-			}
-			AND = {
-				dip_tech = 23
-				capital_scope = {
-					OR = {
+						province_group = tradenode_70 # Iberia
+						province_group = tradenode_67 # Strait of Gibraltar
 						province_group = tradenode_2 # Australia
 						province_group = tradenode_17 # Liangguang
 						province_group = tradenode_12 # Szechwan
@@ -734,11 +672,12 @@ MEC_Expeditions_available_iberian_islands_trigger = { # the Iberian Islands Expe
 						province_group = tradenode_7 # Nippon
 						province_group = tradenode_4 # Far East
 						province_group = tradenode_8 # American West Coast
+						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 22
+				dip_tech = 32
 				capital_scope = {
 					OR = {
 						province_group = tradenode_38 # Red Sea
@@ -769,7 +708,7 @@ MEC_Expeditions_available_iberian_islands_trigger = { # the Iberian Islands Expe
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_16 # Southern Cone
@@ -782,7 +721,7 @@ MEC_Expeditions_available_iberian_islands_trigger = { # the Iberian Islands Expe
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_41 # South Africa
@@ -794,7 +733,7 @@ MEC_Expeditions_available_iberian_islands_trigger = { # the Iberian Islands Expe
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_65 # Caribbean
@@ -804,7 +743,7 @@ MEC_Expeditions_available_iberian_islands_trigger = { # the Iberian Islands Expe
 				}
 			}
 			AND = {
-				dip_tech = 18
+				dip_tech = 28
 				capital_scope = {
 					OR = {
 						province_group = tradenode_44 # Kongo
@@ -812,7 +751,7 @@ MEC_Expeditions_available_iberian_islands_trigger = { # the Iberian Islands Expe
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_45 # Guinea Coast
@@ -821,16 +760,7 @@ MEC_Expeditions_available_iberian_islands_trigger = { # the Iberian Islands Expe
 				}
 			}
 			AND = {
-				dip_tech = 16
-				capital_scope = {
-					OR = {
-						province_group = tradenode_48 # Senegambia
-						province_group = tradenode_47 # Niger River
-					}
-				}
-			}
-			AND = {
-				dip_tech = 15
+				dip_tech = 25
 				capital_scope = {
 					OR = {
 						province_group = tradenode_85 # West Atlantis Node
@@ -864,11 +794,11 @@ MEC_Expeditions_available_iberian_islands_trigger = { # the Iberian Islands Expe
 				}
 			}
 			AND = {
-				dip_tech = 13
+				dip_tech = 16
 				capital_scope = {
 					OR = {
-						province_group = tradenode_70 # Iberia
-						province_group = tradenode_67 # Strait of Gibraltar
+						province_group = tradenode_48 # Senegambia
+						province_group = tradenode_47 # Niger River
 					}
 				}
 			}
@@ -886,14 +816,8 @@ MEC_Expeditions_available_northwest_africa_trigger = { # Northwest Africa Expedi
 				dip_tech = 33
 				capital_scope = {
 					OR = {
-						province_group = tradenode_1 # Pacific
-					}
-				}
-			}
-			AND = {
-				dip_tech = 23
-				capital_scope = {
-					OR = {
+						province_group = tradenode_70 # Iberia
+						province_group = tradenode_67 # Strait of Gibraltar
 						province_group = tradenode_2 # Australia
 						province_group = tradenode_17 # Liangguang
 						province_group = tradenode_12 # Szechwan
@@ -906,11 +830,12 @@ MEC_Expeditions_available_northwest_africa_trigger = { # Northwest Africa Expedi
 						province_group = tradenode_7 # Nippon
 						province_group = tradenode_4 # Far East
 						province_group = tradenode_8 # American West Coast
+						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 22
+				dip_tech = 32
 				capital_scope = {
 					OR = {
 						province_group = tradenode_38 # Red Sea
@@ -942,7 +867,7 @@ MEC_Expeditions_available_northwest_africa_trigger = { # Northwest Africa Expedi
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_16 # Southern Cone
@@ -955,7 +880,7 @@ MEC_Expeditions_available_northwest_africa_trigger = { # Northwest Africa Expedi
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_41 # South Africa
@@ -966,7 +891,7 @@ MEC_Expeditions_available_northwest_africa_trigger = { # Northwest Africa Expedi
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_65 # Caribbean
@@ -976,7 +901,7 @@ MEC_Expeditions_available_northwest_africa_trigger = { # Northwest Africa Expedi
 				}
 			}
 			AND = {
-				dip_tech = 18
+				dip_tech = 28
 				capital_scope = {
 					OR = {
 						province_group = tradenode_44 # Kongo
@@ -984,7 +909,7 @@ MEC_Expeditions_available_northwest_africa_trigger = { # Northwest Africa Expedi
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_45 # Guinea Coast
@@ -993,16 +918,7 @@ MEC_Expeditions_available_northwest_africa_trigger = { # Northwest Africa Expedi
 				}
 			}
 			AND = {
-				dip_tech = 16
-				capital_scope = {
-					OR = {
-						province_group = tradenode_48 # Senegambia
-						province_group = tradenode_47 # Niger River
-					}
-				}
-			}
-			AND = {
-				dip_tech = 15
+				dip_tech = 25
 				capital_scope = {
 					OR = {
 						province_group = tradenode_85 # West Atlantis Node
@@ -1036,11 +952,11 @@ MEC_Expeditions_available_northwest_africa_trigger = { # Northwest Africa Expedi
 				}
 			}
 			AND = {
-				dip_tech = 13
+				dip_tech = 16
 				capital_scope = {
 					OR = {
-						province_group = tradenode_70 # Iberia
-						province_group = tradenode_67 # Strait of Gibraltar
+						province_group = tradenode_48 # Senegambia
+						province_group = tradenode_47 # Niger River
 					}
 				}
 			}
@@ -1058,12 +974,16 @@ MEC_Expeditions_available_west_africa_trigger = { # West Africa Expedition Avail
 				dip_tech = 33
 				capital_scope = {
 					OR = {
+						province_group = tradenode_48 # Senegambia
+						province_group = tradenode_47 # Niger River
+						province_group = tradenode_45 # Guinea Coast
+						province_group = tradenode_46 # Lake Tchad
 						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 22
+				dip_tech = 32
 				capital_scope = {
 					OR = {
 						province_group = tradenode_25 # Bihar
@@ -1083,7 +1003,7 @@ MEC_Expeditions_available_west_africa_trigger = { # West Africa Expedition Avail
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_24 # Chao Phraya
@@ -1104,7 +1024,7 @@ MEC_Expeditions_available_west_africa_trigger = { # West Africa Expedition Avail
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_38 # Red Sea
@@ -1129,7 +1049,7 @@ MEC_Expeditions_available_west_africa_trigger = { # West Africa Expedition Avail
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_65 # Caribbean
@@ -1137,7 +1057,7 @@ MEC_Expeditions_available_west_africa_trigger = { # West Africa Expedition Avail
 				}
 			}
 			AND = {
-				dip_tech = 18
+				dip_tech = 28
 				capital_scope = {
 					OR = {
 						province_group = tradenode_39 # Monomotapa
@@ -1146,7 +1066,7 @@ MEC_Expeditions_available_west_africa_trigger = { # West Africa Expedition Avail
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_73 # West Mediterranean
@@ -1177,6 +1097,14 @@ MEC_Expeditions_available_west_africa_trigger = { # West Africa Expedition Avail
 				}
 			}
 			AND = {
+				dip_tech = 25
+				capital_scope = {
+					OR = {
+						province_group = tradenode_44 # Kongo
+					}
+				}
+			}
+			AND = {
 				dip_tech = 16
 				capital_scope = {
 					OR = {
@@ -1187,25 +1115,6 @@ MEC_Expeditions_available_west_africa_trigger = { # West Africa Expedition Avail
 						province_group = tradenode_70 # Iberia
 						province_group = tradenode_67 # Strait of Gibraltar
 						province_group = tradenode_80 # Sahara
-					}
-				}
-			}
-			AND = {
-				dip_tech = 15
-				capital_scope = {
-					OR = {
-						province_group = tradenode_44 # Kongo
-					}
-				}
-			}
-			AND = {
-				dip_tech = 13
-				capital_scope = {
-					OR = {
-						province_group = tradenode_48 # Senegambia
-						province_group = tradenode_47 # Niger River
-						province_group = tradenode_45 # Guinea Coast
-						province_group = tradenode_46 # Lake Tchad
 					}
 				}
 			}
@@ -1223,12 +1132,17 @@ MEC_Expeditions_available_gulf_of_guinea_trigger = { # the Gulf of Guinea Expedi
 				dip_tech = 33
 				capital_scope = {
 					OR = {
+						province_group = tradenode_48 # Senegambia
+						province_group = tradenode_47 # Niger River
+						province_group = tradenode_45 # Guinea Coast
+						province_group = tradenode_46 # Lake Tchad
+						province_group = tradenode_44 # Kongo
 						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 22
+				dip_tech = 32
 				capital_scope = {
 					OR = {
 						province_group = tradenode_2 # Australia
@@ -1247,7 +1161,7 @@ MEC_Expeditions_available_gulf_of_guinea_trigger = { # the Gulf of Guinea Expedi
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_51 # Arabia
@@ -1284,7 +1198,7 @@ MEC_Expeditions_available_gulf_of_guinea_trigger = { # the Gulf of Guinea Expedi
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_38 # Red Sea
@@ -1294,7 +1208,7 @@ MEC_Expeditions_available_gulf_of_guinea_trigger = { # the Gulf of Guinea Expedi
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_65 # Caribbean
@@ -1302,7 +1216,7 @@ MEC_Expeditions_available_gulf_of_guinea_trigger = { # the Gulf of Guinea Expedi
 				}
 			}
 			AND = {
-				dip_tech = 18
+				dip_tech = 28
 				capital_scope = {
 					OR = {
 						province_group = tradenode_73 # West Mediterranean
@@ -1331,7 +1245,7 @@ MEC_Expeditions_available_gulf_of_guinea_trigger = { # the Gulf of Guinea Expedi
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_85 # West Atlantis Node
@@ -1352,18 +1266,6 @@ MEC_Expeditions_available_gulf_of_guinea_trigger = { # the Gulf of Guinea Expedi
 				capital_scope = {
 					OR = {
 						province_group = tradenode_80 # Sahara
-					}
-				}
-			}
-			AND = {
-				dip_tech = 13
-				capital_scope = {
-					OR = {
-						province_group = tradenode_48 # Senegambia
-						province_group = tradenode_47 # Niger River
-						province_group = tradenode_45 # Guinea Coast
-						province_group = tradenode_46 # Lake Tchad
-						province_group = tradenode_44 # Kongo
 					}
 				}
 			}
@@ -1381,12 +1283,16 @@ MEC_Expeditions_available_central_africa_trigger = { # Central Africa Expedition
 				dip_tech = 33
 				capital_scope = {
 					OR = {
+						province_group = tradenode_47 # Niger River
+						province_group = tradenode_45 # Guinea Coast
+						province_group = tradenode_46 # Lake Tchad
+						province_group = tradenode_44 # Kongo
 						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 22
+				dip_tech = 32
 				capital_scope = {
 					OR = {
 						province_group = tradenode_8 # American West Coast
@@ -1394,7 +1300,7 @@ MEC_Expeditions_available_central_africa_trigger = { # Central Africa Expedition
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_2 # Australia
@@ -1421,7 +1327,7 @@ MEC_Expeditions_available_central_africa_trigger = { # Central Africa Expedition
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_51 # Arabia
@@ -1450,7 +1356,7 @@ MEC_Expeditions_available_central_africa_trigger = { # Central Africa Expedition
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_73 # West Mediterranean
@@ -1482,7 +1388,7 @@ MEC_Expeditions_available_central_africa_trigger = { # Central Africa Expedition
 				}
 			}
 			AND = {
-				dip_tech = 18
+				dip_tech = 28
 				capital_scope = {
 					OR = {
 						province_group = tradenode_85 # West Atlantis Node
@@ -1496,7 +1402,7 @@ MEC_Expeditions_available_central_africa_trigger = { # Central Africa Expedition
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_80 # Sahara
@@ -1506,22 +1412,11 @@ MEC_Expeditions_available_central_africa_trigger = { # Central Africa Expedition
 				}
 			}
 			AND = {
-				dip_tech = 15
+				dip_tech = 25
 				capital_scope = {
 					OR = {
 						province_group = tradenode_48 # Senegambia
 						province_group = tradenode_41 # South Africa
-					}
-				}
-			}
-			AND = {
-				dip_tech = 13
-				capital_scope = {
-					OR = {
-						province_group = tradenode_47 # Niger River
-						province_group = tradenode_45 # Guinea Coast
-						province_group = tradenode_46 # Lake Tchad
-						province_group = tradenode_44 # Kongo
 					}
 				}
 			}
@@ -1539,12 +1434,13 @@ MEC_Expeditions_available_south_africa_trigger = { # South Africa Expedition Ava
 				dip_tech = 33
 				capital_scope = {
 					OR = {
+						province_group = tradenode_41 # South Africa
 						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 22
+				dip_tech = 32
 				capital_scope = {
 					OR = {
 						province_group = tradenode_8 # American West Coast
@@ -1552,7 +1448,7 @@ MEC_Expeditions_available_south_africa_trigger = { # South Africa Expedition Ava
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_2 # Australia
@@ -1573,7 +1469,7 @@ MEC_Expeditions_available_south_africa_trigger = { # South Africa Expedition Ava
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_85 # West Atlantis Node
@@ -1621,7 +1517,7 @@ MEC_Expeditions_available_south_africa_trigger = { # South Africa Expedition Ava
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_43 # Guiana
@@ -1629,7 +1525,7 @@ MEC_Expeditions_available_south_africa_trigger = { # South Africa Expedition Ava
 				}
 			}
 			AND = {
-				dip_tech = 18
+				dip_tech = 28
 				capital_scope = {
 					OR = {
 						province_group = tradenode_80 # Sahara
@@ -1647,7 +1543,7 @@ MEC_Expeditions_available_south_africa_trigger = { # South Africa Expedition Ava
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_48 # Senegambia
@@ -1664,16 +1560,7 @@ MEC_Expeditions_available_south_africa_trigger = { # South Africa Expedition Ava
 				}
 			}
 			AND = {
-				dip_tech = 16
-				capital_scope = {
-					OR = {
-						province_group = tradenode_38 # Red Sea
-						province_group = tradenode_37 # Upper Nile
-					}
-				}
-			}
-			AND = {
-				dip_tech = 15
+				dip_tech = 25
 				capital_scope = {
 					OR = {
 						province_group = tradenode_44 # Kongo
@@ -1683,10 +1570,11 @@ MEC_Expeditions_available_south_africa_trigger = { # South Africa Expedition Ava
 				}
 			}
 			AND = {
-				dip_tech = 13
+				dip_tech = 16
 				capital_scope = {
 					OR = {
-						province_group = tradenode_41 # South Africa
+						province_group = tradenode_38 # Red Sea
+						province_group = tradenode_37 # Upper Nile
 					}
 				}
 			}
@@ -1704,20 +1592,17 @@ MEC_Expeditions_available_east_africa_trigger = { # East Africa Expedition Avail
 				dip_tech = 33
 				capital_scope = {
 					OR = {
+						province_group = tradenode_39 # Monomotapa
+						province_group = tradenode_40 # Zanj
+						province_group = tradenode_38 # Red Sea
+						province_group = tradenode_37 # Upper Nile
+						province_group = tradenode_8 # American West Coast
 						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 23
-				capital_scope = {
-					OR = {
-						province_group = tradenode_8 # American West Coast
-					}
-				}
-			}
-			AND = {
-				dip_tech = 22
+				dip_tech = 32
 				capital_scope = {
 					OR = {
 						province_group = tradenode_15 # Andes
@@ -1733,7 +1618,7 @@ MEC_Expeditions_available_east_africa_trigger = { # East Africa Expedition Avail
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_2 # Australia
@@ -1747,7 +1632,7 @@ MEC_Expeditions_available_east_africa_trigger = { # East Africa Expedition Avail
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_85 # West Atlantis Node
@@ -1792,7 +1677,7 @@ MEC_Expeditions_available_east_africa_trigger = { # East Africa Expedition Avail
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_24 # Chao Phraya
@@ -1801,7 +1686,7 @@ MEC_Expeditions_available_east_africa_trigger = { # East Africa Expedition Avail
 				}
 			}
 			AND = {
-				dip_tech = 18
+				dip_tech = 28
 				capital_scope = {
 					OR = {
 						province_group = tradenode_55 # Lower Nile
@@ -1812,7 +1697,7 @@ MEC_Expeditions_available_east_africa_trigger = { # East Africa Expedition Avail
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_45 # Guinea Coast
@@ -1831,19 +1716,7 @@ MEC_Expeditions_available_east_africa_trigger = { # East Africa Expedition Avail
 				}
 			}
 			AND = {
-				dip_tech = 16
-				capital_scope = {
-					OR = {
-						province_group = tradenode_50 # Iran
-						province_group = tradenode_30 # Khorasan
-						province_group = tradenode_29 # Mawarannahr
-						province_group = tradenode_27 # Yettishar
-						province_group = tradenode_28 # Punjab
-					}
-				}
-			}
-			AND = {
-				dip_tech = 15
+				dip_tech = 25
 				capital_scope = {
 					OR = {
 						province_group = tradenode_41 # South Africa
@@ -1852,13 +1725,14 @@ MEC_Expeditions_available_east_africa_trigger = { # East Africa Expedition Avail
 				}
 			}
 			AND = {
-				dip_tech = 13
+				dip_tech = 16
 				capital_scope = {
 					OR = {
-						province_group = tradenode_39 # Monomotapa
-						province_group = tradenode_40 # Zanj
-						province_group = tradenode_38 # Red Sea
-						province_group = tradenode_37 # Upper Nile
+						province_group = tradenode_50 # Iran
+						province_group = tradenode_30 # Khorasan
+						province_group = tradenode_29 # Mawarannahr
+						province_group = tradenode_27 # Yettishar
+						province_group = tradenode_28 # Punjab
 					}
 				}
 			}
@@ -1876,20 +1750,15 @@ MEC_Expeditions_available_indian_ocean_trigger = { # the Indian Ocean Expedition
 				dip_tech = 33
 				capital_scope = {
 					OR = {
+						province_group = tradenode_39 # Monomotapa
+						province_group = tradenode_40 # Zanj
+						province_group = tradenode_8 # American West Coast
 						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 23
-				capital_scope = {
-					OR = {
-						province_group = tradenode_8 # American West Coast
-					}
-				}
-			}
-			AND = {
-				dip_tech = 22
+				dip_tech = 32
 				capital_scope = {
 					OR = {
 						province_group = tradenode_15 # Andes
@@ -1905,7 +1774,7 @@ MEC_Expeditions_available_indian_ocean_trigger = { # the Indian Ocean Expedition
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_2 # Australia
@@ -1919,7 +1788,7 @@ MEC_Expeditions_available_indian_ocean_trigger = { # the Indian Ocean Expedition
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_85 # West Atlantis Node
@@ -1964,7 +1833,7 @@ MEC_Expeditions_available_indian_ocean_trigger = { # the Indian Ocean Expedition
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_24 # Chao Phraya
@@ -1973,7 +1842,7 @@ MEC_Expeditions_available_indian_ocean_trigger = { # the Indian Ocean Expedition
 				}
 			}
 			AND = {
-				dip_tech = 18
+				dip_tech = 28
 				capital_scope = {
 					OR = {
 						province_group = tradenode_55 # Lower Nile
@@ -1984,7 +1853,7 @@ MEC_Expeditions_available_indian_ocean_trigger = { # the Indian Ocean Expedition
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_45 # Guinea Coast
@@ -2009,21 +1878,12 @@ MEC_Expeditions_available_indian_ocean_trigger = { # the Indian Ocean Expedition
 				}
 			}
 			AND = {
-				dip_tech = 15
+				dip_tech = 25
 				capital_scope = {
 					OR = {
 						province_group = tradenode_41 # South Africa
 						province_group = tradenode_38 # Red Sea
 						province_group = tradenode_37 # Upper Nile
-					}
-				}
-			}
-			AND = {
-				dip_tech = 13
-				capital_scope = {
-					OR = {
-						province_group = tradenode_39 # Monomotapa
-						province_group = tradenode_40 # Zanj
 					}
 				}
 			}
@@ -2041,20 +1901,21 @@ MEC_Expeditions_available_arabia_trigger = { # Arabia Expedition Availability Co
 				dip_tech = 33
 				capital_scope = {
 					OR = {
+						province_group = tradenode_38 # Red Sea
+						province_group = tradenode_37 # Upper Nile
+						province_group = tradenode_51 # Arabia
+						province_group = tradenode_50 # Iran
+						province_group = tradenode_30 # Khorasan
+						province_group = tradenode_29 # Mawarannahr
+						province_group = tradenode_27 # Yettishar
+						province_group = tradenode_28 # Punjab
+						province_group = tradenode_8 # American West Coast
 						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 23
-				capital_scope = {
-					OR = {
-						province_group = tradenode_8 # American West Coast
-					}
-				}
-			}
-			AND = {
-				dip_tech = 22
+				dip_tech = 32
 				capital_scope = {
 					OR = {
 						province_group = tradenode_15 # Andes
@@ -2070,7 +1931,7 @@ MEC_Expeditions_available_arabia_trigger = { # Arabia Expedition Availability Co
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_16 # Southern Cone
@@ -2079,7 +1940,7 @@ MEC_Expeditions_available_arabia_trigger = { # Arabia Expedition Availability Co
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_85 # West Atlantis Node
@@ -2124,7 +1985,7 @@ MEC_Expeditions_available_arabia_trigger = { # Arabia Expedition Availability Co
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_2 # Australia
@@ -2138,7 +1999,7 @@ MEC_Expeditions_available_arabia_trigger = { # Arabia Expedition Availability Co
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_41 # South Africa
@@ -2151,16 +2012,7 @@ MEC_Expeditions_available_arabia_trigger = { # Arabia Expedition Availability Co
 				}
 			}
 			AND = {
-				dip_tech = 16
-				capital_scope = {
-					OR = {
-						province_group = tradenode_55 # Lower Nile
-						province_group = tradenode_39 # Monomotapa
-					}
-				}
-			}
-			AND = {
-				dip_tech = 15
+				dip_tech = 25
 				capital_scope = {
 					OR = {
 						province_group = tradenode_40 # Zanj
@@ -2178,17 +2030,11 @@ MEC_Expeditions_available_arabia_trigger = { # Arabia Expedition Availability Co
 				}
 			}
 			AND = {
-				dip_tech = 13
+				dip_tech = 16
 				capital_scope = {
 					OR = {
-						province_group = tradenode_38 # Red Sea
-						province_group = tradenode_37 # Upper Nile
-						province_group = tradenode_51 # Arabia
-						province_group = tradenode_50 # Iran
-						province_group = tradenode_30 # Khorasan
-						province_group = tradenode_29 # Mawarannahr
-						province_group = tradenode_27 # Yettishar
-						province_group = tradenode_28 # Punjab
+						province_group = tradenode_55 # Lower Nile
+						province_group = tradenode_39 # Monomotapa
 					}
 				}
 			}
@@ -2206,14 +2052,16 @@ MEC_Expeditions_available_western_india_trigger = { # Western India Expedition A
 				dip_tech = 33
 				capital_scope = {
 					OR = {
-						province_group = tradenode_1 # Pacific
-					}
-				}
-			}
-			AND = {
-				dip_tech = 23
-				capital_scope = {
-					OR = {
+						province_group = tradenode_51 # Arabia
+						province_group = tradenode_29 # Mawarannahr
+						province_group = tradenode_27 # Yettishar
+						province_group = tradenode_28 # Punjab
+						province_group = tradenode_36 # Gurjaratra
+						province_group = tradenode_35 # Konkan
+						province_group = tradenode_32 # Deccan Plateau
+						province_group = tradenode_34 # Tamilakam
+						province_group = tradenode_26 # Delhi
+						province_group = tradenode_25 # Bihar
 						province_group = tradenode_15 # Andes
 						province_group = tradenode_14 # Amazonia
 						province_group = tradenode_42 # Panama
@@ -2224,11 +2072,12 @@ MEC_Expeditions_available_western_india_trigger = { # Western India Expedition A
 						province_group = tradenode_66 # Eastern Seaboard
 						province_group = tradenode_64 # Canada
 						province_group = tradenode_8 # American West Coast
+						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 22
+				dip_tech = 32
 				capital_scope = {
 					OR = {
 						province_group = tradenode_16 # Southern Cone
@@ -2237,7 +2086,7 @@ MEC_Expeditions_available_western_india_trigger = { # Western India Expedition A
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_43 # Guiana
@@ -2245,7 +2094,7 @@ MEC_Expeditions_available_western_india_trigger = { # Western India Expedition A
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_85 # West Atlantis Node
@@ -2285,7 +2134,7 @@ MEC_Expeditions_available_western_india_trigger = { # Western India Expedition A
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_11 # Zhongyuan
@@ -2296,7 +2145,7 @@ MEC_Expeditions_available_western_india_trigger = { # Western India Expedition A
 				}
 			}
 			AND = {
-				dip_tech = 18
+				dip_tech = 28
 				capital_scope = {
 					OR = {
 						province_group = tradenode_55 # Lower Nile
@@ -2312,7 +2161,7 @@ MEC_Expeditions_available_western_india_trigger = { # Western India Expedition A
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_39 # Monomotapa
@@ -2326,7 +2175,7 @@ MEC_Expeditions_available_western_india_trigger = { # Western India Expedition A
 				}
 			}
 			AND = {
-				dip_tech = 15
+				dip_tech = 25
 				capital_scope = {
 					OR = {
 						province_group = tradenode_38 # Red Sea
@@ -2337,23 +2186,6 @@ MEC_Expeditions_available_western_india_trigger = { # Western India Expedition A
 						province_group = tradenode_31 # Bengal
 						province_group = tradenode_21 # Himalayan Plateau
 						province_group = tradenode_20 # Ayeyarwady
-					}
-				}
-			}
-			AND = {
-				dip_tech = 13
-				capital_scope = {
-					OR = {
-						province_group = tradenode_51 # Arabia
-						province_group = tradenode_29 # Mawarannahr
-						province_group = tradenode_27 # Yettishar
-						province_group = tradenode_28 # Punjab
-						province_group = tradenode_36 # Gurjaratra
-						province_group = tradenode_35 # Konkan
-						province_group = tradenode_32 # Deccan Plateau
-						province_group = tradenode_34 # Tamilakam
-						province_group = tradenode_26 # Delhi
-						province_group = tradenode_25 # Bihar
 					}
 				}
 			}
@@ -2371,14 +2203,13 @@ MEC_Expeditions_available_southern_india_trigger = { # Southern India Expedition
 				dip_tech = 33
 				capital_scope = {
 					OR = {
-						province_group = tradenode_1 # Pacific
-					}
-				}
-			}
-			AND = {
-				dip_tech = 23
-				capital_scope = {
-					OR = {
+						province_group = tradenode_36 # Gurjaratra
+						province_group = tradenode_35 # Konkan
+						province_group = tradenode_32 # Deccan Plateau
+						province_group = tradenode_34 # Tamilakam
+						province_group = tradenode_33 # Kalinga
+						province_group = tradenode_26 # Delhi
+						province_group = tradenode_25 # Bihar
 						province_group = tradenode_15 # Andes
 						province_group = tradenode_14 # Amazonia
 						province_group = tradenode_42 # Panama
@@ -2389,11 +2220,12 @@ MEC_Expeditions_available_southern_india_trigger = { # Southern India Expedition
 						province_group = tradenode_66 # Eastern Seaboard
 						province_group = tradenode_64 # Canada
 						province_group = tradenode_8 # American West Coast
+						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 22
+				dip_tech = 32
 				capital_scope = {
 					OR = {
 						province_group = tradenode_16 # Southern Cone
@@ -2402,7 +2234,7 @@ MEC_Expeditions_available_southern_india_trigger = { # Southern India Expedition
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_43 # Guiana
@@ -2410,7 +2242,7 @@ MEC_Expeditions_available_southern_india_trigger = { # Southern India Expedition
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_85 # West Atlantis Node
@@ -2450,7 +2282,7 @@ MEC_Expeditions_available_southern_india_trigger = { # Southern India Expedition
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_11 # Zhongyuan
@@ -2461,7 +2293,7 @@ MEC_Expeditions_available_southern_india_trigger = { # Southern India Expedition
 				}
 			}
 			AND = {
-				dip_tech = 18
+				dip_tech = 28
 				capital_scope = {
 					OR = {
 						province_group = tradenode_55 # Lower Nile
@@ -2477,7 +2309,7 @@ MEC_Expeditions_available_southern_india_trigger = { # Southern India Expedition
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_39 # Monomotapa
@@ -2486,18 +2318,7 @@ MEC_Expeditions_available_southern_india_trigger = { # Southern India Expedition
 				}
 			}
 			AND = {
-				dip_tech = 16
-				capital_scope = {
-					OR = {
-						province_group = tradenode_23 # Malacca Strait
-						province_group = tradenode_18 # Mekong
-						province_group = tradenode_22 # Moluccas
-						province_group = tradenode_19 # Champa Sea
-					}
-				}
-			}
-			AND = {
-				dip_tech = 15
+				dip_tech = 25
 				capital_scope = {
 					OR = {
 						province_group = tradenode_38 # Red Sea
@@ -2516,16 +2337,13 @@ MEC_Expeditions_available_southern_india_trigger = { # Southern India Expedition
 				}
 			}
 			AND = {
-				dip_tech = 13
+				dip_tech = 16
 				capital_scope = {
 					OR = {
-						province_group = tradenode_36 # Gurjaratra
-						province_group = tradenode_35 # Konkan
-						province_group = tradenode_32 # Deccan Plateau
-						province_group = tradenode_34 # Tamilakam
-						province_group = tradenode_33 # Kalinga
-						province_group = tradenode_26 # Delhi
-						province_group = tradenode_25 # Bihar
+						province_group = tradenode_23 # Malacca Strait
+						province_group = tradenode_18 # Mekong
+						province_group = tradenode_22 # Moluccas
+						province_group = tradenode_19 # Champa Sea
 					}
 				}
 			}
@@ -2543,14 +2361,13 @@ MEC_Expeditions_available_eastern_india_trigger = { # Eastern India Expedition A
 				dip_tech = 33
 				capital_scope = {
 					OR = {
-						province_group = tradenode_1 # Pacific
-					}
-				}
-			}
-			AND = {
-				dip_tech = 23
-				capital_scope = {
-					OR = {
+						province_group = tradenode_34 # Tamilakam
+						province_group = tradenode_33 # Kalinga
+						province_group = tradenode_26 # Delhi
+						province_group = tradenode_25 # Bihar
+						province_group = tradenode_31 # Bengal
+						province_group = tradenode_21 # Himalayan Plateau
+						province_group = tradenode_20 # Ayeyarwady
 						province_group = tradenode_15 # Andes
 						province_group = tradenode_14 # Amazonia
 						province_group = tradenode_42 # Panama
@@ -2561,11 +2378,12 @@ MEC_Expeditions_available_eastern_india_trigger = { # Eastern India Expedition A
 						province_group = tradenode_66 # Eastern Seaboard
 						province_group = tradenode_64 # Canada
 						province_group = tradenode_8 # American West Coast
+						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 22
+				dip_tech = 32
 				capital_scope = {
 					OR = {
 						province_group = tradenode_16 # Southern Cone
@@ -2574,7 +2392,7 @@ MEC_Expeditions_available_eastern_india_trigger = { # Eastern India Expedition A
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_43 # Guiana
@@ -2582,7 +2400,7 @@ MEC_Expeditions_available_eastern_india_trigger = { # Eastern India Expedition A
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_85 # West Atlantis Node
@@ -2622,7 +2440,7 @@ MEC_Expeditions_available_eastern_india_trigger = { # Eastern India Expedition A
 				}
 			}
 			AND = {
-				dip_tech = 18
+				dip_tech = 28
 				capital_scope = {
 					OR = {
 						province_group = tradenode_55 # Lower Nile
@@ -2634,7 +2452,7 @@ MEC_Expeditions_available_eastern_india_trigger = { # Eastern India Expedition A
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_39 # Monomotapa
@@ -2649,22 +2467,7 @@ MEC_Expeditions_available_eastern_india_trigger = { # Eastern India Expedition A
 				}
 			}
 			AND = {
-				dip_tech = 16
-				capital_scope = {
-					OR = {
-						province_group = tradenode_38 # Red Sea
-						province_group = tradenode_37 # Upper Nile
-						province_group = tradenode_23 # Malacca Strait
-						province_group = tradenode_18 # Mekong
-						province_group = tradenode_22 # Moluccas
-						province_group = tradenode_19 # Champa Sea
-						province_group = tradenode_17 # Liangguang
-						province_group = tradenode_12 # Szechwan
-					}
-				}
-			}
-			AND = {
-				dip_tech = 15
+				dip_tech = 25
 				capital_scope = {
 					OR = {
 						province_group = tradenode_51 # Arabia
@@ -2681,16 +2484,17 @@ MEC_Expeditions_available_eastern_india_trigger = { # Eastern India Expedition A
 				}
 			}
 			AND = {
-				dip_tech = 13
+				dip_tech = 16
 				capital_scope = {
 					OR = {
-						province_group = tradenode_34 # Tamilakam
-						province_group = tradenode_33 # Kalinga
-						province_group = tradenode_26 # Delhi
-						province_group = tradenode_25 # Bihar
-						province_group = tradenode_31 # Bengal
-						province_group = tradenode_21 # Himalayan Plateau
-						province_group = tradenode_20 # Ayeyarwady
+						province_group = tradenode_38 # Red Sea
+						province_group = tradenode_37 # Upper Nile
+						province_group = tradenode_23 # Malacca Strait
+						province_group = tradenode_18 # Mekong
+						province_group = tradenode_22 # Moluccas
+						province_group = tradenode_19 # Champa Sea
+						province_group = tradenode_17 # Liangguang
+						province_group = tradenode_12 # Szechwan
 					}
 				}
 			}
@@ -2708,14 +2512,9 @@ MEC_Expeditions_available_malacca_trigger = { # Malacca Expedition Availability 
 				dip_tech = 33
 				capital_scope = {
 					OR = {
-						province_group = tradenode_1 # Pacific
-					}
-				}
-			}
-			AND = {
-				dip_tech = 23
-				capital_scope = {
-					OR = {
+						province_group = tradenode_24 # Chao Phraya
+						province_group = tradenode_23 # Malacca Strait
+						province_group = tradenode_22 # Moluccas
 						province_group = tradenode_15 # Andes
 						province_group = tradenode_14 # Amazonia
 						province_group = tradenode_42 # Panama
@@ -2726,11 +2525,12 @@ MEC_Expeditions_available_malacca_trigger = { # Malacca Expedition Availability 
 						province_group = tradenode_66 # Eastern Seaboard
 						province_group = tradenode_64 # Canada
 						province_group = tradenode_8 # American West Coast
+						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 22
+				dip_tech = 32
 				capital_scope = {
 					OR = {
 						province_group = tradenode_16 # Southern Cone
@@ -2739,7 +2539,7 @@ MEC_Expeditions_available_malacca_trigger = { # Malacca Expedition Availability 
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_85 # West Atlantis Node
@@ -2780,7 +2580,7 @@ MEC_Expeditions_available_malacca_trigger = { # Malacca Expedition Availability 
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_41 # South Africa
@@ -2790,7 +2590,7 @@ MEC_Expeditions_available_malacca_trigger = { # Malacca Expedition Availability 
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_55 # Lower Nile
@@ -2798,7 +2598,7 @@ MEC_Expeditions_available_malacca_trigger = { # Malacca Expedition Availability 
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_38 # Red Sea
@@ -2820,19 +2620,7 @@ MEC_Expeditions_available_malacca_trigger = { # Malacca Expedition Availability 
 				}
 			}
 			AND = {
-				dip_tech = 16
-				capital_scope = {
-					OR = {
-						province_group = tradenode_34 # Tamilakam
-						province_group = tradenode_3 # Jiangnan
-						province_group = tradenode_6 # Huabei
-						province_group = tradenode_13 # Xibei
-						province_group = tradenode_11 # Zhongyuan
-					}
-				}
-			}
-			AND = {
-				dip_tech = 15
+				dip_tech = 25
 				capital_scope = {
 					OR = {
 						province_group = tradenode_33 # Kalinga
@@ -2850,12 +2638,14 @@ MEC_Expeditions_available_malacca_trigger = { # Malacca Expedition Availability 
 				}
 			}
 			AND = {
-				dip_tech = 13
+				dip_tech = 16
 				capital_scope = {
 					OR = {
-						province_group = tradenode_24 # Chao Phraya
-						province_group = tradenode_23 # Malacca Strait
-						province_group = tradenode_22 # Moluccas
+						province_group = tradenode_34 # Tamilakam
+						province_group = tradenode_3 # Jiangnan
+						province_group = tradenode_6 # Huabei
+						province_group = tradenode_13 # Xibei
+						province_group = tradenode_11 # Zhongyuan
 					}
 				}
 			}
@@ -2873,14 +2663,9 @@ MEC_Expeditions_available_southeast_asia_trigger = { # Southeast Asia Expedition
 				dip_tech = 33
 				capital_scope = {
 					OR = {
-						province_group = tradenode_1 # Pacific
-					}
-				}
-			}
-			AND = {
-				dip_tech = 23
-				capital_scope = {
-					OR = {
+						province_group = tradenode_24 # Chao Phraya
+						province_group = tradenode_23 # Malacca Strait
+						province_group = tradenode_18 # Mekong
 						province_group = tradenode_15 # Andes
 						province_group = tradenode_14 # Amazonia
 						province_group = tradenode_42 # Panama
@@ -2891,11 +2676,12 @@ MEC_Expeditions_available_southeast_asia_trigger = { # Southeast Asia Expedition
 						province_group = tradenode_66 # Eastern Seaboard
 						province_group = tradenode_64 # Canada
 						province_group = tradenode_8 # American West Coast
+						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 22
+				dip_tech = 32
 				capital_scope = {
 					OR = {
 						province_group = tradenode_16 # Southern Cone
@@ -2904,7 +2690,7 @@ MEC_Expeditions_available_southeast_asia_trigger = { # Southeast Asia Expedition
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_85 # West Atlantis Node
@@ -2945,7 +2731,7 @@ MEC_Expeditions_available_southeast_asia_trigger = { # Southeast Asia Expedition
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_41 # South Africa
@@ -2955,7 +2741,7 @@ MEC_Expeditions_available_southeast_asia_trigger = { # Southeast Asia Expedition
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_55 # Lower Nile
@@ -2963,7 +2749,7 @@ MEC_Expeditions_available_southeast_asia_trigger = { # Southeast Asia Expedition
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_38 # Red Sea
@@ -2985,19 +2771,7 @@ MEC_Expeditions_available_southeast_asia_trigger = { # Southeast Asia Expedition
 				}
 			}
 			AND = {
-				dip_tech = 16
-				capital_scope = {
-					OR = {
-						province_group = tradenode_34 # Tamilakam
-						province_group = tradenode_3 # Jiangnan
-						province_group = tradenode_6 # Huabei
-						province_group = tradenode_13 # Xibei
-						province_group = tradenode_11 # Zhongyuan
-					}
-				}
-			}
-			AND = {
-				dip_tech = 15
+				dip_tech = 25
 				capital_scope = {
 					OR = {
 						province_group = tradenode_33 # Kalinga
@@ -3015,12 +2789,14 @@ MEC_Expeditions_available_southeast_asia_trigger = { # Southeast Asia Expedition
 				}
 			}
 			AND = {
-				dip_tech = 13
+				dip_tech = 16
 				capital_scope = {
 					OR = {
-						province_group = tradenode_24 # Chao Phraya
-						province_group = tradenode_23 # Malacca Strait
-						province_group = tradenode_18 # Mekong
+						province_group = tradenode_34 # Tamilakam
+						province_group = tradenode_3 # Jiangnan
+						province_group = tradenode_6 # Huabei
+						province_group = tradenode_13 # Xibei
+						province_group = tradenode_11 # Zhongyuan
 					}
 				}
 			}
@@ -3038,14 +2814,8 @@ MEC_Expeditions_available_indonesia_trigger = { # Indonesia Expedition Availabil
 				dip_tech = 33
 				capital_scope = {
 					OR = {
-						province_group = tradenode_1 # Pacific
-					}
-				}
-			}
-			AND = {
-				dip_tech = 23
-				capital_scope = {
-					OR = {
+						province_group = tradenode_23 # Malacca Strait
+						province_group = tradenode_22 # Moluccas
 						province_group = tradenode_15 # Andes
 						province_group = tradenode_14 # Amazonia
 						province_group = tradenode_42 # Panama
@@ -3056,11 +2826,12 @@ MEC_Expeditions_available_indonesia_trigger = { # Indonesia Expedition Availabil
 						province_group = tradenode_66 # Eastern Seaboard
 						province_group = tradenode_64 # Canada
 						province_group = tradenode_8 # American West Coast
+						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 22
+				dip_tech = 32
 				capital_scope = {
 					OR = {
 						province_group = tradenode_16 # Southern Cone
@@ -3069,7 +2840,7 @@ MEC_Expeditions_available_indonesia_trigger = { # Indonesia Expedition Availabil
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_85 # West Atlantis Node
@@ -3110,7 +2881,7 @@ MEC_Expeditions_available_indonesia_trigger = { # Indonesia Expedition Availabil
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_41 # South Africa
@@ -3120,7 +2891,7 @@ MEC_Expeditions_available_indonesia_trigger = { # Indonesia Expedition Availabil
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_55 # Lower Nile
@@ -3128,7 +2899,7 @@ MEC_Expeditions_available_indonesia_trigger = { # Indonesia Expedition Availabil
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_38 # Red Sea
@@ -3150,6 +2921,19 @@ MEC_Expeditions_available_indonesia_trigger = { # Indonesia Expedition Availabil
 				}
 			}
 			AND = {
+				dip_tech = 25
+				capital_scope = {
+					OR = {
+						province_group = tradenode_24 # Chao Phraya
+						province_group = tradenode_18 # Mekong
+						province_group = tradenode_19 # Champa Sea
+						province_group = tradenode_17 # Liangguang
+						province_group = tradenode_12 # Szechwan
+						province_group = tradenode_10 # Huazhong
+					}
+				}
+			}
+			AND = {
 				dip_tech = 16
 				capital_scope = {
 					OR = {
@@ -3164,28 +2948,6 @@ MEC_Expeditions_available_indonesia_trigger = { # Indonesia Expedition Availabil
 						province_group = tradenode_6 # Huabei
 						province_group = tradenode_13 # Xibei
 						province_group = tradenode_11 # Zhongyuan
-					}
-				}
-			}
-			AND = {
-				dip_tech = 15
-				capital_scope = {
-					OR = {
-						province_group = tradenode_24 # Chao Phraya
-						province_group = tradenode_18 # Mekong
-						province_group = tradenode_19 # Champa Sea
-						province_group = tradenode_17 # Liangguang
-						province_group = tradenode_12 # Szechwan
-						province_group = tradenode_10 # Huazhong
-					}
-				}
-			}
-			AND = {
-				dip_tech = 13
-				capital_scope = {
-					OR = {
-						province_group = tradenode_23 # Malacca Strait
-						province_group = tradenode_22 # Moluccas
 					}
 				}
 			}
@@ -3203,14 +2965,7 @@ MEC_Expeditions_available_philippines_trigger = { # the Philippines Expedition A
 				dip_tech = 33
 				capital_scope = {
 					OR = {
-						province_group = tradenode_1 # Pacific
-					}
-				}
-			}
-			AND = {
-				dip_tech = 23
-				capital_scope = {
-					OR = {
+						province_group = tradenode_19 # Champa Sea
 						province_group = tradenode_15 # Andes
 						province_group = tradenode_14 # Amazonia
 						province_group = tradenode_42 # Panama
@@ -3221,11 +2976,12 @@ MEC_Expeditions_available_philippines_trigger = { # the Philippines Expedition A
 						province_group = tradenode_66 # Eastern Seaboard
 						province_group = tradenode_64 # Canada
 						province_group = tradenode_8 # American West Coast
+						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 22
+				dip_tech = 32
 				capital_scope = {
 					OR = {
 						province_group = tradenode_16 # Southern Cone
@@ -3234,7 +2990,7 @@ MEC_Expeditions_available_philippines_trigger = { # the Philippines Expedition A
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_85 # West Atlantis Node
@@ -3275,7 +3031,7 @@ MEC_Expeditions_available_philippines_trigger = { # the Philippines Expedition A
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_41 # South Africa
@@ -3285,7 +3041,7 @@ MEC_Expeditions_available_philippines_trigger = { # the Philippines Expedition A
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_55 # Lower Nile
@@ -3293,7 +3049,7 @@ MEC_Expeditions_available_philippines_trigger = { # the Philippines Expedition A
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_38 # Red Sea
@@ -3315,6 +3071,20 @@ MEC_Expeditions_available_philippines_trigger = { # the Philippines Expedition A
 				}
 			}
 			AND = {
+				dip_tech = 25
+				capital_scope = {
+					OR = {
+						province_group = tradenode_24 # Chao Phraya
+						province_group = tradenode_23 # Malacca Strait
+						province_group = tradenode_18 # Mekong
+						province_group = tradenode_22 # Moluccas
+						province_group = tradenode_17 # Liangguang
+						province_group = tradenode_12 # Szechwan
+						province_group = tradenode_10 # Huazhong
+					}
+				}
+			}
+			AND = {
 				dip_tech = 16
 				capital_scope = {
 					OR = {
@@ -3329,28 +3099,6 @@ MEC_Expeditions_available_philippines_trigger = { # the Philippines Expedition A
 						province_group = tradenode_6 # Huabei
 						province_group = tradenode_13 # Xibei
 						province_group = tradenode_11 # Zhongyuan
-					}
-				}
-			}
-			AND = {
-				dip_tech = 15
-				capital_scope = {
-					OR = {
-						province_group = tradenode_24 # Chao Phraya
-						province_group = tradenode_23 # Malacca Strait
-						province_group = tradenode_18 # Mekong
-						province_group = tradenode_22 # Moluccas
-						province_group = tradenode_17 # Liangguang
-						province_group = tradenode_12 # Szechwan
-						province_group = tradenode_10 # Huazhong
-					}
-				}
-			}
-			AND = {
-				dip_tech = 13
-				capital_scope = {
-					OR = {
-						province_group = tradenode_19 # Champa Sea
 					}
 				}
 			}
@@ -3565,7 +3313,7 @@ MEC_Expeditions_available_australia_trigger = { # Australia Expedition Availabil
 				}
 			}
 			AND = {
-				dip_tech = 15
+				dip_tech = 25
 				capital_scope = {
 					OR = {
 						province_group = tradenode_2 # Australia
@@ -3688,14 +3436,11 @@ MEC_Expeditions_available_southern_china_trigger = { # Southern China Expedition
 				dip_tech = 33
 				capital_scope = {
 					OR = {
-						province_group = tradenode_1 # Pacific
-					}
-				}
-			}
-			AND = {
-				dip_tech = 23
-				capital_scope = {
-					OR = {
+						province_group = tradenode_17 # Liangguang
+						province_group = tradenode_12 # Szechwan
+						province_group = tradenode_10 # Huazhong
+						province_group = tradenode_3 # Jiangnan
+						province_group = tradenode_6 # Huabei
 						province_group = tradenode_15 # Andes
 						province_group = tradenode_16 # Southern Cone
 						province_group = tradenode_14 # Amazonia
@@ -3708,11 +3453,12 @@ MEC_Expeditions_available_southern_china_trigger = { # Southern China Expedition
 						province_group = tradenode_66 # Eastern Seaboard
 						province_group = tradenode_64 # Canada
 						province_group = tradenode_8 # American West Coast
+						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 22
+				dip_tech = 32
 				capital_scope = {
 					OR = {
 						province_group = tradenode_85 # West Atlantis Node
@@ -3753,7 +3499,7 @@ MEC_Expeditions_available_southern_china_trigger = { # Southern China Expedition
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_41 # South Africa
@@ -3763,7 +3509,7 @@ MEC_Expeditions_available_southern_china_trigger = { # Southern China Expedition
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_55 # Lower Nile
@@ -3771,7 +3517,7 @@ MEC_Expeditions_available_southern_china_trigger = { # Southern China Expedition
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_38 # Red Sea
@@ -3785,7 +3531,7 @@ MEC_Expeditions_available_southern_china_trigger = { # Southern China Expedition
 				}
 			}
 			AND = {
-				dip_tech = 18
+				dip_tech = 28
 				capital_scope = {
 					OR = {
 						province_group = tradenode_28 # Punjab
@@ -3803,10 +3549,22 @@ MEC_Expeditions_available_southern_china_trigger = { # Southern China Expedition
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_2 # Australia
+					}
+				}
+			}
+			AND = {
+				dip_tech = 25
+				capital_scope = {
+					OR = {
+						province_group = tradenode_19 # Champa Sea
+						province_group = tradenode_13 # Xibei
+						province_group = tradenode_11 # Zhongyuan
+						province_group = tradenode_5 # Eastern Siberia
+						province_group = tradenode_7 # Nippon
 					}
 				}
 			}
@@ -3819,30 +3577,6 @@ MEC_Expeditions_available_southern_china_trigger = { # Southern China Expedition
 						province_group = tradenode_18 # Mekong
 						province_group = tradenode_22 # Moluccas
 						province_group = tradenode_4 # Far East
-					}
-				}
-			}
-			AND = {
-				dip_tech = 15
-				capital_scope = {
-					OR = {
-						province_group = tradenode_19 # Champa Sea
-						province_group = tradenode_13 # Xibei
-						province_group = tradenode_11 # Zhongyuan
-						province_group = tradenode_5 # Eastern Siberia
-						province_group = tradenode_7 # Nippon
-					}
-				}
-			}
-			AND = {
-				dip_tech = 13
-				capital_scope = {
-					OR = {
-						province_group = tradenode_17 # Liangguang
-						province_group = tradenode_12 # Szechwan
-						province_group = tradenode_10 # Huazhong
-						province_group = tradenode_3 # Jiangnan
-						province_group = tradenode_6 # Huabei
 					}
 				}
 			}
@@ -3860,14 +3594,11 @@ MEC_Expeditions_available_northern_china_trigger = { # Northern China Expedition
 				dip_tech = 33
 				capital_scope = {
 					OR = {
-						province_group = tradenode_1 # Pacific
-					}
-				}
-			}
-			AND = {
-				dip_tech = 23
-				capital_scope = {
-					OR = {
+						province_group = tradenode_10 # Huazhong
+						province_group = tradenode_3 # Jiangnan
+						province_group = tradenode_6 # Huabei
+						province_group = tradenode_13 # Xibei
+						province_group = tradenode_5 # Eastern Siberia
 						province_group = tradenode_15 # Andes
 						province_group = tradenode_16 # Southern Cone
 						province_group = tradenode_14 # Amazonia
@@ -3880,11 +3611,12 @@ MEC_Expeditions_available_northern_china_trigger = { # Northern China Expedition
 						province_group = tradenode_66 # Eastern Seaboard
 						province_group = tradenode_64 # Canada
 						province_group = tradenode_8 # American West Coast
+						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 22
+				dip_tech = 32
 				capital_scope = {
 					OR = {
 						province_group = tradenode_85 # West Atlantis Node
@@ -3925,7 +3657,7 @@ MEC_Expeditions_available_northern_china_trigger = { # Northern China Expedition
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_41 # South Africa
@@ -3935,7 +3667,7 @@ MEC_Expeditions_available_northern_china_trigger = { # Northern China Expedition
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_55 # Lower Nile
@@ -3943,7 +3675,7 @@ MEC_Expeditions_available_northern_china_trigger = { # Northern China Expedition
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_38 # Red Sea
@@ -3957,7 +3689,7 @@ MEC_Expeditions_available_northern_china_trigger = { # Northern China Expedition
 				}
 			}
 			AND = {
-				dip_tech = 18
+				dip_tech = 28
 				capital_scope = {
 					OR = {
 						province_group = tradenode_28 # Punjab
@@ -3969,7 +3701,7 @@ MEC_Expeditions_available_northern_china_trigger = { # Northern China Expedition
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_33 # Kalinga
@@ -3983,19 +3715,7 @@ MEC_Expeditions_available_northern_china_trigger = { # Northern China Expedition
 				}
 			}
 			AND = {
-				dip_tech = 16
-				capital_scope = {
-					OR = {
-						province_group = tradenode_24 # Chao Phraya
-						province_group = tradenode_23 # Malacca Strait
-						province_group = tradenode_18 # Mekong
-						province_group = tradenode_22 # Moluccas
-						province_group = tradenode_4 # Far East
-					}
-				}
-			}
-			AND = {
-				dip_tech = 15
+				dip_tech = 25
 				capital_scope = {
 					OR = {
 						province_group = tradenode_19 # Champa Sea
@@ -4007,14 +3727,14 @@ MEC_Expeditions_available_northern_china_trigger = { # Northern China Expedition
 				}
 			}
 			AND = {
-				dip_tech = 13
+				dip_tech = 16
 				capital_scope = {
 					OR = {
-						province_group = tradenode_10 # Huazhong
-						province_group = tradenode_3 # Jiangnan
-						province_group = tradenode_6 # Huabei
-						province_group = tradenode_13 # Xibei
-						province_group = tradenode_5 # Eastern Siberia
+						province_group = tradenode_24 # Chao Phraya
+						province_group = tradenode_23 # Malacca Strait
+						province_group = tradenode_18 # Mekong
+						province_group = tradenode_22 # Moluccas
+						province_group = tradenode_4 # Far East
 					}
 				}
 			}
@@ -4032,14 +3752,7 @@ MEC_Expeditions_available_korea_trigger = { # Korea Expedition Availability Cond
 				dip_tech = 33
 				capital_scope = {
 					OR = {
-						province_group = tradenode_1 # Pacific
-					}
-				}
-			}
-			AND = {
-				dip_tech = 23
-				capital_scope = {
-					OR = {
+						province_group = tradenode_11 # Zhongyuan
 						province_group = tradenode_15 # Andes
 						province_group = tradenode_16 # Southern Cone
 						province_group = tradenode_14 # Amazonia
@@ -4052,11 +3765,12 @@ MEC_Expeditions_available_korea_trigger = { # Korea Expedition Availability Cond
 						province_group = tradenode_66 # Eastern Seaboard
 						province_group = tradenode_64 # Canada
 						province_group = tradenode_8 # American West Coast
+						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 22
+				dip_tech = 32
 				capital_scope = {
 					OR = {
 						province_group = tradenode_85 # West Atlantis Node
@@ -4097,7 +3811,7 @@ MEC_Expeditions_available_korea_trigger = { # Korea Expedition Availability Cond
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_41 # South Africa
@@ -4107,7 +3821,7 @@ MEC_Expeditions_available_korea_trigger = { # Korea Expedition Availability Cond
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_55 # Lower Nile
@@ -4122,7 +3836,7 @@ MEC_Expeditions_available_korea_trigger = { # Korea Expedition Availability Cond
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_28 # Punjab
@@ -4140,7 +3854,7 @@ MEC_Expeditions_available_korea_trigger = { # Korea Expedition Availability Cond
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_2 # Australia
@@ -4148,18 +3862,7 @@ MEC_Expeditions_available_korea_trigger = { # Korea Expedition Availability Cond
 				}
 			}
 			AND = {
-				dip_tech = 16
-				capital_scope = {
-					OR = {
-						province_group = tradenode_24 # Chao Phraya
-						province_group = tradenode_23 # Malacca Strait
-						province_group = tradenode_18 # Mekong
-						province_group = tradenode_22 # Moluccas
-					}
-				}
-			}
-			AND = {
-				dip_tech = 15
+				dip_tech = 25
 				capital_scope = {
 					OR = {
 						province_group = tradenode_19 # Champa Sea
@@ -4176,10 +3879,13 @@ MEC_Expeditions_available_korea_trigger = { # Korea Expedition Availability Cond
 				}
 			}
 			AND = {
-				dip_tech = 13
+				dip_tech = 16
 				capital_scope = {
 					OR = {
-						province_group = tradenode_11 # Zhongyuan
+						province_group = tradenode_24 # Chao Phraya
+						province_group = tradenode_23 # Malacca Strait
+						province_group = tradenode_18 # Mekong
+						province_group = tradenode_22 # Moluccas
 					}
 				}
 			}
@@ -4197,14 +3903,7 @@ MEC_Expeditions_available_japan_trigger = { # Japan Expedition Availability Cond
 				dip_tech = 33
 				capital_scope = {
 					OR = {
-						province_group = tradenode_1 # Pacific
-					}
-				}
-			}
-			AND = {
-				dip_tech = 23
-				capital_scope = {
-					OR = {
+						province_group = tradenode_7 # Nippon
 						province_group = tradenode_15 # Andes
 						province_group = tradenode_16 # Southern Cone
 						province_group = tradenode_14 # Amazonia
@@ -4217,11 +3916,12 @@ MEC_Expeditions_available_japan_trigger = { # Japan Expedition Availability Cond
 						province_group = tradenode_66 # Eastern Seaboard
 						province_group = tradenode_64 # Canada
 						province_group = tradenode_8 # American West Coast
+						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 22
+				dip_tech = 32
 				capital_scope = {
 					OR = {
 						province_group = tradenode_85 # West Atlantis Node
@@ -4262,7 +3962,7 @@ MEC_Expeditions_available_japan_trigger = { # Japan Expedition Availability Cond
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_41 # South Africa
@@ -4272,7 +3972,7 @@ MEC_Expeditions_available_japan_trigger = { # Japan Expedition Availability Cond
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_55 # Lower Nile
@@ -4287,7 +3987,7 @@ MEC_Expeditions_available_japan_trigger = { # Japan Expedition Availability Cond
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_28 # Punjab
@@ -4305,7 +4005,7 @@ MEC_Expeditions_available_japan_trigger = { # Japan Expedition Availability Cond
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_2 # Australia
@@ -4313,18 +4013,7 @@ MEC_Expeditions_available_japan_trigger = { # Japan Expedition Availability Cond
 				}
 			}
 			AND = {
-				dip_tech = 16
-				capital_scope = {
-					OR = {
-						province_group = tradenode_24 # Chao Phraya
-						province_group = tradenode_23 # Malacca Strait
-						province_group = tradenode_18 # Mekong
-						province_group = tradenode_22 # Moluccas
-					}
-				}
-			}
-			AND = {
-				dip_tech = 15
+				dip_tech = 25
 				capital_scope = {
 					OR = {
 						province_group = tradenode_19 # Champa Sea
@@ -4341,10 +4030,13 @@ MEC_Expeditions_available_japan_trigger = { # Japan Expedition Availability Cond
 				}
 			}
 			AND = {
-				dip_tech = 13
+				dip_tech = 16
 				capital_scope = {
 					OR = {
-						province_group = tradenode_7 # Nippon
+						province_group = tradenode_24 # Chao Phraya
+						province_group = tradenode_23 # Malacca Strait
+						province_group = tradenode_18 # Mekong
+						province_group = tradenode_22 # Moluccas
 					}
 				}
 			}
@@ -4362,12 +4054,13 @@ MEC_Expeditions_available_cuba_trigger = { # Cuba Expedition Availability Condit
 				dip_tech = 33
 				capital_scope = {
 					OR = {
+						province_group = tradenode_65 # Caribbean
 						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 22
+				dip_tech = 32
 				capital_scope = {
 					OR = {
 						province_group = tradenode_52 # Caspian Sea
@@ -4407,7 +4100,7 @@ MEC_Expeditions_available_cuba_trigger = { # Cuba Expedition Availability Condit
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_38 # Red Sea
@@ -4416,7 +4109,7 @@ MEC_Expeditions_available_cuba_trigger = { # Cuba Expedition Availability Condit
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_54 # Barbary Coast
@@ -4444,7 +4137,7 @@ MEC_Expeditions_available_cuba_trigger = { # Cuba Expedition Availability Condit
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_85 # West Atlantis Node
@@ -4469,7 +4162,7 @@ MEC_Expeditions_available_cuba_trigger = { # Cuba Expedition Availability Condit
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_16 # Southern Cone
@@ -4478,15 +4171,7 @@ MEC_Expeditions_available_cuba_trigger = { # Cuba Expedition Availability Condit
 				}
 			}
 			AND = {
-				dip_tech = 16
-				capital_scope = {
-					OR = {
-						province_group = tradenode_43 # Guiana
-					}
-				}
-			}
-			AND = {
-				dip_tech = 15
+				dip_tech = 25
 				capital_scope = {
 					OR = {
 						province_group = tradenode_42 # Panama
@@ -4499,10 +4184,10 @@ MEC_Expeditions_available_cuba_trigger = { # Cuba Expedition Availability Condit
 				}
 			}
 			AND = {
-				dip_tech = 13
+				dip_tech = 16
 				capital_scope = {
 					OR = {
-						province_group = tradenode_65 # Caribbean
+						province_group = tradenode_43 # Guiana
 					}
 				}
 			}
@@ -4520,12 +4205,13 @@ MEC_Expeditions_available_hispaniola_trigger = { # Hispaniola Expedition Availab
 				dip_tech = 33
 				capital_scope = {
 					OR = {
+						province_group = tradenode_65 # Caribbean
 						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 22
+				dip_tech = 32
 				capital_scope = {
 					OR = {
 						province_group = tradenode_51 # Arabia
@@ -4564,7 +4250,7 @@ MEC_Expeditions_available_hispaniola_trigger = { # Hispaniola Expedition Availab
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_38 # Red Sea
@@ -4573,7 +4259,7 @@ MEC_Expeditions_available_hispaniola_trigger = { # Hispaniola Expedition Availab
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_54 # Barbary Coast
@@ -4602,7 +4288,7 @@ MEC_Expeditions_available_hispaniola_trigger = { # Hispaniola Expedition Availab
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_85 # West Atlantis Node
@@ -4627,7 +4313,7 @@ MEC_Expeditions_available_hispaniola_trigger = { # Hispaniola Expedition Availab
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_16 # Southern Cone
@@ -4636,15 +4322,7 @@ MEC_Expeditions_available_hispaniola_trigger = { # Hispaniola Expedition Availab
 				}
 			}
 			AND = {
-				dip_tech = 16
-				capital_scope = {
-					OR = {
-						province_group = tradenode_43 # Guiana
-					}
-				}
-			}
-			AND = {
-				dip_tech = 15
+				dip_tech = 25
 				capital_scope = {
 					OR = {
 						province_group = tradenode_42 # Panama
@@ -4657,10 +4335,10 @@ MEC_Expeditions_available_hispaniola_trigger = { # Hispaniola Expedition Availab
 				}
 			}
 			AND = {
-				dip_tech = 13
+				dip_tech = 16
 				capital_scope = {
 					OR = {
-						province_group = tradenode_65 # Caribbean
+						province_group = tradenode_43 # Guiana
 					}
 				}
 			}
@@ -4678,12 +4356,13 @@ MEC_Expeditions_available_caribbean_trigger = { # Caribbean Expedition Availabil
 				dip_tech = 33
 				capital_scope = {
 					OR = {
+						province_group = tradenode_65 # Caribbean
 						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 22
+				dip_tech = 32
 				capital_scope = {
 					OR = {
 						province_group = tradenode_51 # Arabia
@@ -4722,7 +4401,7 @@ MEC_Expeditions_available_caribbean_trigger = { # Caribbean Expedition Availabil
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_38 # Red Sea
@@ -4731,7 +4410,7 @@ MEC_Expeditions_available_caribbean_trigger = { # Caribbean Expedition Availabil
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_54 # Barbary Coast
@@ -4760,7 +4439,7 @@ MEC_Expeditions_available_caribbean_trigger = { # Caribbean Expedition Availabil
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_85 # West Atlantis Node
@@ -4784,7 +4463,7 @@ MEC_Expeditions_available_caribbean_trigger = { # Caribbean Expedition Availabil
 				}
 			}
 			AND = {
-				dip_tech = 18
+				dip_tech = 28
 				capital_scope = {
 					OR = {
 						province_group = tradenode_14 # Amazonia
@@ -4792,7 +4471,7 @@ MEC_Expeditions_available_caribbean_trigger = { # Caribbean Expedition Availabil
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_16 # Southern Cone
@@ -4801,15 +4480,7 @@ MEC_Expeditions_available_caribbean_trigger = { # Caribbean Expedition Availabil
 				}
 			}
 			AND = {
-				dip_tech = 16
-				capital_scope = {
-					OR = {
-						province_group = tradenode_43 # Guiana
-					}
-				}
-			}
-			AND = {
-				dip_tech = 15
+				dip_tech = 25
 				capital_scope = {
 					OR = {
 						province_group = tradenode_42 # Panama
@@ -4822,10 +4493,10 @@ MEC_Expeditions_available_caribbean_trigger = { # Caribbean Expedition Availabil
 				}
 			}
 			AND = {
-				dip_tech = 13
+				dip_tech = 16
 				capital_scope = {
 					OR = {
-						province_group = tradenode_65 # Caribbean
+						province_group = tradenode_43 # Guiana
 					}
 				}
 			}
@@ -4843,14 +4514,6 @@ MEC_Expeditions_available_atlantic_colombia_trigger = { # Atlantic Colombia Expe
 				dip_tech = 33
 				capital_scope = {
 					OR = {
-						province_group = tradenode_1 # Pacific
-					}
-				}
-			}
-			AND = {
-				dip_tech = 23
-				capital_scope = {
-					OR = {
 						province_group = tradenode_38 # Red Sea
 						province_group = tradenode_37 # Upper Nile
 						province_group = tradenode_51 # Arabia
@@ -4885,11 +4548,13 @@ MEC_Expeditions_available_atlantic_colombia_trigger = { # Atlantic Colombia Expe
 						province_group = tradenode_5 # Eastern Siberia
 						province_group = tradenode_7 # Nippon
 						province_group = tradenode_4 # Far East
+						province_group = tradenode_42 # Panama
+						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_41 # South Africa
@@ -4899,7 +4564,7 @@ MEC_Expeditions_available_atlantic_colombia_trigger = { # Atlantic Colombia Expe
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_85 # West Atlantis Node
@@ -4941,7 +4606,7 @@ MEC_Expeditions_available_atlantic_colombia_trigger = { # Atlantic Colombia Expe
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_15 # Andes
@@ -4950,10 +4615,19 @@ MEC_Expeditions_available_atlantic_colombia_trigger = { # Atlantic Colombia Expe
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_64 # Canada
+					}
+				}
+			}
+			AND = {
+				dip_tech = 25
+				capital_scope = {
+					OR = {
+						province_group = tradenode_43 # Guiana
+						province_group = tradenode_65 # Caribbean
 					}
 				}
 			}
@@ -4967,23 +4641,6 @@ MEC_Expeditions_available_atlantic_colombia_trigger = { # Atlantic Colombia Expe
 						province_group = tradenode_63 # Mississippi
 						province_group = tradenode_61 # Plains
 						province_group = tradenode_66 # Eastern Seaboard
-					}
-				}
-			}
-			AND = {
-				dip_tech = 15
-				capital_scope = {
-					OR = {
-						province_group = tradenode_43 # Guiana
-						province_group = tradenode_65 # Caribbean
-					}
-				}
-			}
-			AND = {
-				dip_tech = 13
-				capital_scope = {
-					OR = {
-						province_group = tradenode_42 # Panama
 					}
 				}
 			}
@@ -5001,14 +4658,6 @@ MEC_Expeditions_available_guyana_trigger = { # Guyana Expedition Availability Co
 				dip_tech = 33
 				capital_scope = {
 					OR = {
-						province_group = tradenode_1 # Pacific
-					}
-				}
-			}
-			AND = {
-				dip_tech = 23
-				capital_scope = {
-					OR = {
 						province_group = tradenode_38 # Red Sea
 						province_group = tradenode_37 # Upper Nile
 						province_group = tradenode_51 # Arabia
@@ -5043,11 +4692,13 @@ MEC_Expeditions_available_guyana_trigger = { # Guyana Expedition Availability Co
 						province_group = tradenode_5 # Eastern Siberia
 						province_group = tradenode_7 # Nippon
 						province_group = tradenode_4 # Far East
+						province_group = tradenode_42 # Panama
+						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_41 # South Africa
@@ -5057,7 +4708,7 @@ MEC_Expeditions_available_guyana_trigger = { # Guyana Expedition Availability Co
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_85 # West Atlantis Node
@@ -5099,7 +4750,7 @@ MEC_Expeditions_available_guyana_trigger = { # Guyana Expedition Availability Co
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_15 # Andes
@@ -5108,10 +4759,19 @@ MEC_Expeditions_available_guyana_trigger = { # Guyana Expedition Availability Co
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_64 # Canada
+					}
+				}
+			}
+			AND = {
+				dip_tech = 25
+				capital_scope = {
+					OR = {
+						province_group = tradenode_43 # Guiana
+						province_group = tradenode_65 # Caribbean
 					}
 				}
 			}
@@ -5125,23 +4785,6 @@ MEC_Expeditions_available_guyana_trigger = { # Guyana Expedition Availability Co
 						province_group = tradenode_63 # Mississippi
 						province_group = tradenode_61 # Plains
 						province_group = tradenode_66 # Eastern Seaboard
-					}
-				}
-			}
-			AND = {
-				dip_tech = 15
-				capital_scope = {
-					OR = {
-						province_group = tradenode_43 # Guiana
-						province_group = tradenode_65 # Caribbean
-					}
-				}
-			}
-			AND = {
-				dip_tech = 13
-				capital_scope = {
-					OR = {
-						province_group = tradenode_42 # Panama
 					}
 				}
 			}
@@ -5159,14 +4802,6 @@ MEC_Expeditions_available_atlantic_mexico_trigger = { # Atlantic Mexico Expediti
 				dip_tech = 33
 				capital_scope = {
 					OR = {
-						province_group = tradenode_1 # Pacific
-					}
-				}
-			}
-			AND = {
-				dip_tech = 23
-				capital_scope = {
-					OR = {
 						province_group = tradenode_38 # Red Sea
 						province_group = tradenode_37 # Upper Nile
 						province_group = tradenode_51 # Arabia
@@ -5201,11 +4836,15 @@ MEC_Expeditions_available_atlantic_mexico_trigger = { # Atlantic Mexico Expediti
 						province_group = tradenode_5 # Eastern Siberia
 						province_group = tradenode_7 # Nippon
 						province_group = tradenode_4 # Far East
+						province_group = tradenode_42 # Panama
+						province_group = tradenode_9 # Mexico
+						province_group = tradenode_62 # Rio Grande
+						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_85 # West Atlantis Node
@@ -5249,7 +4888,7 @@ MEC_Expeditions_available_atlantic_mexico_trigger = { # Atlantic Mexico Expediti
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_8 # American West Coast
@@ -5257,7 +4896,7 @@ MEC_Expeditions_available_atlantic_mexico_trigger = { # Atlantic Mexico Expediti
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_15 # Andes
@@ -5266,7 +4905,7 @@ MEC_Expeditions_available_atlantic_mexico_trigger = { # Atlantic Mexico Expediti
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_16 # Southern Cone
@@ -5275,16 +4914,7 @@ MEC_Expeditions_available_atlantic_mexico_trigger = { # Atlantic Mexico Expediti
 				}
 			}
 			AND = {
-				dip_tech = 16
-				capital_scope = {
-					OR = {
-						province_group = tradenode_43 # Guiana
-						province_group = tradenode_66 # Eastern Seaboard
-					}
-				}
-			}
-			AND = {
-				dip_tech = 15
+				dip_tech = 25
 				capital_scope = {
 					OR = {
 						province_group = tradenode_65 # Caribbean
@@ -5294,12 +4924,11 @@ MEC_Expeditions_available_atlantic_mexico_trigger = { # Atlantic Mexico Expediti
 				}
 			}
 			AND = {
-				dip_tech = 13
+				dip_tech = 16
 				capital_scope = {
 					OR = {
-						province_group = tradenode_42 # Panama
-						province_group = tradenode_9 # Mexico
-						province_group = tradenode_62 # Rio Grande
+						province_group = tradenode_43 # Guiana
+						province_group = tradenode_66 # Eastern Seaboard
 					}
 				}
 			}
@@ -5317,12 +4946,14 @@ MEC_Expeditions_available_north_brazil_trigger = { # Northern Brazil Expedition 
 				dip_tech = 33
 				capital_scope = {
 					OR = {
+						province_group = tradenode_16 # Southern Cone
+						province_group = tradenode_43 # Guiana
 						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 22
+				dip_tech = 32
 				capital_scope = {
 					OR = {
 						province_group = tradenode_2 # Australia
@@ -5340,7 +4971,7 @@ MEC_Expeditions_available_north_brazil_trigger = { # Northern Brazil Expedition 
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_51 # Arabia
@@ -5368,7 +4999,7 @@ MEC_Expeditions_available_north_brazil_trigger = { # Northern Brazil Expedition 
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_85 # West Atlantis Node
@@ -5408,7 +5039,7 @@ MEC_Expeditions_available_north_brazil_trigger = { # Northern Brazil Expedition 
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_41 # South Africa
@@ -5417,7 +5048,7 @@ MEC_Expeditions_available_north_brazil_trigger = { # Northern Brazil Expedition 
 				}
 			}
 			AND = {
-				dip_tech = 18
+				dip_tech = 28
 				capital_scope = {
 					OR = {
 						province_group = tradenode_44 # Kongo
@@ -5425,7 +5056,7 @@ MEC_Expeditions_available_north_brazil_trigger = { # Northern Brazil Expedition 
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_48 # Senegambia
@@ -5439,6 +5070,14 @@ MEC_Expeditions_available_north_brazil_trigger = { # Northern Brazil Expedition 
 				}
 			}
 			AND = {
+				dip_tech = 25
+				capital_scope = {
+					OR = {
+						province_group = tradenode_65 # Caribbean
+					}
+				}
+			}
+			AND = {
 				dip_tech = 16
 				capital_scope = {
 					OR = {
@@ -5448,23 +5087,6 @@ MEC_Expeditions_available_north_brazil_trigger = { # Northern Brazil Expedition 
 						province_group = tradenode_63 # Mississippi
 						province_group = tradenode_61 # Plains
 						province_group = tradenode_66 # Eastern Seaboard
-					}
-				}
-			}
-			AND = {
-				dip_tech = 15
-				capital_scope = {
-					OR = {
-						province_group = tradenode_65 # Caribbean
-					}
-				}
-			}
-			AND = {
-				dip_tech = 13
-				capital_scope = {
-					OR = {
-						province_group = tradenode_16 # Southern Cone
-						province_group = tradenode_43 # Guiana
 					}
 				}
 			}
@@ -5482,12 +5104,14 @@ MEC_Expeditions_available_south_brazil_trigger = { # Southern Brazil Expedition 
 				dip_tech = 33
 				capital_scope = {
 					OR = {
+						province_group = tradenode_16 # Southern Cone
+						province_group = tradenode_43 # Guiana
 						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 22
+				dip_tech = 32
 				capital_scope = {
 					OR = {
 						province_group = tradenode_2 # Australia
@@ -5505,7 +5129,7 @@ MEC_Expeditions_available_south_brazil_trigger = { # Southern Brazil Expedition 
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_51 # Arabia
@@ -5533,7 +5157,7 @@ MEC_Expeditions_available_south_brazil_trigger = { # Southern Brazil Expedition 
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_85 # West Atlantis Node
@@ -5573,7 +5197,7 @@ MEC_Expeditions_available_south_brazil_trigger = { # Southern Brazil Expedition 
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_41 # South Africa
@@ -5582,7 +5206,7 @@ MEC_Expeditions_available_south_brazil_trigger = { # Southern Brazil Expedition 
 				}
 			}
 			AND = {
-				dip_tech = 18
+				dip_tech = 28
 				capital_scope = {
 					OR = {
 						province_group = tradenode_44 # Kongo
@@ -5590,7 +5214,7 @@ MEC_Expeditions_available_south_brazil_trigger = { # Southern Brazil Expedition 
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_48 # Senegambia
@@ -5604,6 +5228,14 @@ MEC_Expeditions_available_south_brazil_trigger = { # Southern Brazil Expedition 
 				}
 			}
 			AND = {
+				dip_tech = 25
+				capital_scope = {
+					OR = {
+						province_group = tradenode_65 # Caribbean
+					}
+				}
+			}
+			AND = {
 				dip_tech = 16
 				capital_scope = {
 					OR = {
@@ -5613,23 +5245,6 @@ MEC_Expeditions_available_south_brazil_trigger = { # Southern Brazil Expedition 
 						province_group = tradenode_63 # Mississippi
 						province_group = tradenode_61 # Plains
 						province_group = tradenode_66 # Eastern Seaboard
-					}
-				}
-			}
-			AND = {
-				dip_tech = 15
-				capital_scope = {
-					OR = {
-						province_group = tradenode_65 # Caribbean
-					}
-				}
-			}
-			AND = {
-				dip_tech = 13
-				capital_scope = {
-					OR = {
-						province_group = tradenode_16 # Southern Cone
-						province_group = tradenode_43 # Guiana
 					}
 				}
 			}
@@ -5647,7 +5262,36 @@ MEC_Expeditions_available_gulf_of_mexico_trigger = { # the Gulf of Mexico Expedi
 				dip_tech = 33
 				capital_scope = {
 					OR = {
+						province_group = tradenode_62 # Rio Grande
+						province_group = tradenode_63 # Mississippi
+						province_group = tradenode_61 # Plains
 						province_group = tradenode_1 # Pacific
+					}
+				}
+			}
+			AND = {
+				dip_tech = 30
+				capital_scope = {
+					OR = {
+						province_group = tradenode_8 # American West Coast
+					}
+				}
+			}
+			AND = {
+				dip_tech = 29
+				capital_scope = {
+					OR = {
+						province_group = tradenode_15 # Andes
+						province_group = tradenode_14 # Amazonia
+					}
+				}
+			}
+			AND = {
+				dip_tech = 27
+				capital_scope = {
+					OR = {
+						province_group = tradenode_16 # Southern Cone
+						province_group = tradenode_64 # Canada
 					}
 				}
 			}
@@ -5726,47 +5370,6 @@ MEC_Expeditions_available_gulf_of_mexico_trigger = { # the Gulf of Mexico Expedi
 						province_group = tradenode_5 # Eastern Siberia
 						province_group = tradenode_7 # Nippon
 						province_group = tradenode_4 # Far East
-					}
-				}
-			}
-			AND = {
-				dip_tech = 20
-				capital_scope = {
-					OR = {
-						province_group = tradenode_8 # American West Coast
-					}
-				}
-			}
-			AND = {
-				dip_tech = 19
-				capital_scope = {
-					OR = {
-						province_group = tradenode_15 # Andes
-						province_group = tradenode_14 # Amazonia
-					}
-				}
-			}
-			AND = {
-				dip_tech = 17
-				capital_scope = {
-					OR = {
-						province_group = tradenode_16 # Southern Cone
-						province_group = tradenode_64 # Canada
-					}
-				}
-			}
-			AND = {
-				dip_tech = 16
-				capital_scope = {
-					OR = {
-						province_group = tradenode_43 # Guiana
-					}
-				}
-			}
-			AND = {
-				dip_tech = 15
-				capital_scope = {
-					OR = {
 						province_group = tradenode_42 # Panama
 						province_group = tradenode_65 # Caribbean
 						province_group = tradenode_9 # Mexico
@@ -5775,12 +5378,10 @@ MEC_Expeditions_available_gulf_of_mexico_trigger = { # the Gulf of Mexico Expedi
 				}
 			}
 			AND = {
-				dip_tech = 13
+				dip_tech = 16
 				capital_scope = {
 					OR = {
-						province_group = tradenode_62 # Rio Grande
-						province_group = tradenode_63 # Mississippi
-						province_group = tradenode_61 # Plains
+						province_group = tradenode_43 # Guiana
 					}
 				}
 			}
@@ -5798,14 +5399,6 @@ MEC_Expeditions_available_southeastern_america_trigger = { # Southeastern Americ
 				dip_tech = 33
 				capital_scope = {
 					OR = {
-						province_group = tradenode_1 # Pacific
-					}
-				}
-			}
-			AND = {
-				dip_tech = 23
-				capital_scope = {
-					OR = {
 						province_group = tradenode_85 # West Atlantis Node
 						province_group = tradenode_84 # East Atlantis Node
 						province_group = tradenode_82 # South Atlantis Node
@@ -5877,11 +5470,15 @@ MEC_Expeditions_available_southeastern_america_trigger = { # Southeastern Americ
 						province_group = tradenode_5 # Eastern Siberia
 						province_group = tradenode_7 # Nippon
 						province_group = tradenode_4 # Far East
+						province_group = tradenode_63 # Mississippi
+						province_group = tradenode_61 # Plains
+						province_group = tradenode_66 # Eastern Seaboard
+						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_8 # American West Coast
@@ -5889,7 +5486,7 @@ MEC_Expeditions_available_southeastern_america_trigger = { # Southeastern Americ
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_15 # Andes
@@ -5898,7 +5495,7 @@ MEC_Expeditions_available_southeastern_america_trigger = { # Southeastern Americ
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_16 # Southern Cone
@@ -5906,16 +5503,7 @@ MEC_Expeditions_available_southeastern_america_trigger = { # Southeastern Americ
 				}
 			}
 			AND = {
-				dip_tech = 16
-				capital_scope = {
-					OR = {
-						province_group = tradenode_43 # Guiana
-						province_group = tradenode_42 # Panama
-					}
-				}
-			}
-			AND = {
-				dip_tech = 15
+				dip_tech = 25
 				capital_scope = {
 					OR = {
 						province_group = tradenode_65 # Caribbean
@@ -5926,12 +5514,11 @@ MEC_Expeditions_available_southeastern_america_trigger = { # Southeastern Americ
 				}
 			}
 			AND = {
-				dip_tech = 13
+				dip_tech = 16
 				capital_scope = {
 					OR = {
-						province_group = tradenode_63 # Mississippi
-						province_group = tradenode_61 # Plains
-						province_group = tradenode_66 # Eastern Seaboard
+						province_group = tradenode_43 # Guiana
+						province_group = tradenode_42 # Panama
 					}
 				}
 			}
@@ -5949,7 +5536,34 @@ MEC_Expeditions_available_eastern_america_trigger = { # Eastern America Expediti
 				dip_tech = 33
 				capital_scope = {
 					OR = {
+						province_group = tradenode_66 # Eastern Seaboard
 						province_group = tradenode_1 # Pacific
+					}
+				}
+			}
+			AND = {
+				dip_tech = 31
+				capital_scope = {
+					OR = {
+						province_group = tradenode_8 # American West Coast
+					}
+				}
+			}
+			AND = {
+				dip_tech = 30
+				capital_scope = {
+					OR = {
+						province_group = tradenode_15 # Andes
+						province_group = tradenode_14 # Amazonia
+					}
+				}
+			}
+			AND = {
+				dip_tech = 29
+				capital_scope = {
+					OR = {
+						province_group = tradenode_16 # Southern Cone
+						province_group = tradenode_43 # Guiana
 					}
 				}
 			}
@@ -6028,32 +5642,7 @@ MEC_Expeditions_available_eastern_america_trigger = { # Eastern America Expediti
 						province_group = tradenode_5 # Eastern Siberia
 						province_group = tradenode_7 # Nippon
 						province_group = tradenode_4 # Far East
-					}
-				}
-			}
-			AND = {
-				dip_tech = 21
-				capital_scope = {
-					OR = {
-						province_group = tradenode_8 # American West Coast
-					}
-				}
-			}
-			AND = {
-				dip_tech = 20
-				capital_scope = {
-					OR = {
-						province_group = tradenode_15 # Andes
-						province_group = tradenode_14 # Amazonia
-					}
-				}
-			}
-			AND = {
-				dip_tech = 19
-				capital_scope = {
-					OR = {
-						province_group = tradenode_16 # Southern Cone
-						province_group = tradenode_43 # Guiana
+						province_group = tradenode_64 # Canada
 					}
 				}
 			}
@@ -6067,22 +5656,6 @@ MEC_Expeditions_available_eastern_america_trigger = { # Eastern America Expediti
 						province_group = tradenode_62 # Rio Grande
 						province_group = tradenode_63 # Mississippi
 						province_group = tradenode_61 # Plains
-					}
-				}
-			}
-			AND = {
-				dip_tech = 15
-				capital_scope = {
-					OR = {
-						province_group = tradenode_64 # Canada
-					}
-				}
-			}
-			AND = {
-				dip_tech = 13
-				capital_scope = {
-					OR = {
-						province_group = tradenode_66 # Eastern Seaboard
 					}
 				}
 			}
@@ -6100,6 +5673,7 @@ MEC_Expeditions_available_canada_trigger = { # Canada Expedition Availability Co
 				dip_tech = 33
 				capital_scope = {
 					OR = {
+						province_group = tradenode_64 # Canada
 						province_group = tradenode_1 # Pacific
 					}
 				}
@@ -6189,23 +5763,8 @@ MEC_Expeditions_available_canada_trigger = { # Canada Expedition Availability Co
 						province_group = tradenode_62 # Rio Grande
 						province_group = tradenode_63 # Mississippi
 						province_group = tradenode_61 # Plains
-						province_group = tradenode_8 # American West Coast
-					}
-				}
-			}
-			AND = {
-				dip_tech = 15
-				capital_scope = {
-					OR = {
 						province_group = tradenode_66 # Eastern Seaboard
-					}
-				}
-			}
-			AND = {
-				dip_tech = 13
-				capital_scope = {
-					OR = {
-						province_group = tradenode_64 # Canada
+						province_group = tradenode_8 # American West Coast
 					}
 				}
 			}
@@ -6420,7 +5979,7 @@ MEC_Expeditions_available_hudson_bay_trigger = { # Hudson Bay Expedition Availab
 				}
 			}
 			AND = {
-				dip_tech = 13
+				dip_tech = 33
 				capital_scope = {
 					OR = {
 						province_group = tradenode_64 # Canada
@@ -6439,14 +5998,6 @@ MEC_Expeditions_available_la_plata_trigger = { # Southern Cone Expedition Availa
 		OR = { # Dip tech requirements based on capital location in trade node
 			AND = {
 				dip_tech = 33
-				capital_scope = {
-					OR = {
-						province_group = tradenode_1 # Pacific
-					}
-				}
-			}
-			AND = {
-				dip_tech = 23
 				capital_scope = {
 					OR = {
 						province_group = tradenode_85 # West Atlantis Node
@@ -6515,11 +6066,13 @@ MEC_Expeditions_available_la_plata_trigger = { # Southern Cone Expedition Availa
 						province_group = tradenode_5 # Eastern Siberia
 						province_group = tradenode_7 # Nippon
 						province_group = tradenode_4 # Far East
+						province_group = tradenode_16 # Southern Cone
+						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_44 # Kongo
@@ -6527,7 +6080,7 @@ MEC_Expeditions_available_la_plata_trigger = { # Southern Cone Expedition Availa
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_48 # Senegambia
@@ -6538,7 +6091,7 @@ MEC_Expeditions_available_la_plata_trigger = { # Southern Cone Expedition Availa
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_64 # Canada
@@ -6547,7 +6100,7 @@ MEC_Expeditions_available_la_plata_trigger = { # Southern Cone Expedition Availa
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_42 # Panama
@@ -6561,16 +6114,7 @@ MEC_Expeditions_available_la_plata_trigger = { # Southern Cone Expedition Availa
 				}
 			}
 			AND = {
-				dip_tech = 16
-				capital_scope = {
-					OR = {
-						province_group = tradenode_15 # Andes
-						province_group = tradenode_14 # Amazonia
-					}
-				}
-			}
-			AND = {
-				dip_tech = 15
+				dip_tech = 25
 				capital_scope = {
 					OR = {
 						province_group = tradenode_43 # Guiana
@@ -6578,10 +6122,11 @@ MEC_Expeditions_available_la_plata_trigger = { # Southern Cone Expedition Availa
 				}
 			}
 			AND = {
-				dip_tech = 13
+				dip_tech = 16
 				capital_scope = {
 					OR = {
-						province_group = tradenode_16 # Southern Cone
+						province_group = tradenode_15 # Andes
+						province_group = tradenode_14 # Amazonia
 					}
 				}
 			}
@@ -6599,7 +6144,27 @@ MEC_Expeditions_available_california_trigger = { # California Expedition Availab
 				dip_tech = 33
 				capital_scope = {
 					OR = {
+						province_group = tradenode_24 # Chao Phraya
+						province_group = tradenode_23 # Malacca Strait
+						province_group = tradenode_18 # Mekong
+						province_group = tradenode_22 # Moluccas
+						province_group = tradenode_19 # Champa Sea
+						province_group = tradenode_2 # Australia
+						province_group = tradenode_8 # American West Coast
 						province_group = tradenode_1 # Pacific
+					}
+				}
+			}
+			AND = {
+				dip_tech = 31
+				capital_scope = {
+					OR = {
+						province_group = tradenode_17 # Liangguang
+						province_group = tradenode_12 # Szechwan
+						province_group = tradenode_10 # Huazhong
+						province_group = tradenode_3 # Jiangnan
+						province_group = tradenode_6 # Huabei
+						province_group = tradenode_13 # Xibei
 					}
 				}
 			}
@@ -6644,6 +6209,33 @@ MEC_Expeditions_available_california_trigger = { # California Expedition Availab
 						province_group = tradenode_41 # South Africa
 						province_group = tradenode_39 # Monomotapa
 						province_group = tradenode_40 # Zanj
+						province_group = tradenode_11 # Zhongyuan
+						province_group = tradenode_5 # Eastern Siberia
+						province_group = tradenode_7 # Nippon
+						province_group = tradenode_4 # Far East
+						province_group = tradenode_64 # Canada
+					}
+				}
+			}
+			AND = {
+				dip_tech = 29
+				capital_scope = {
+					OR = {
+						province_group = tradenode_16 # Southern Cone
+						province_group = tradenode_43 # Guiana
+						province_group = tradenode_65 # Caribbean
+						province_group = tradenode_63 # Mississippi
+						province_group = tradenode_61 # Plains
+						province_group = tradenode_66 # Eastern Seaboard
+					}
+				}
+			}
+			AND = {
+				dip_tech = 27
+				capital_scope = {
+					OR = {
+						province_group = tradenode_15 # Andes
+						province_group = tradenode_14 # Amazonia
 					}
 				}
 			}
@@ -6669,66 +6261,8 @@ MEC_Expeditions_available_california_trigger = { # California Expedition Availab
 						province_group = tradenode_31 # Bengal
 						province_group = tradenode_21 # Himalayan Plateau
 						province_group = tradenode_20 # Ayeyarwady
-					}
-				}
-			}
-			AND = {
-				dip_tech = 23
-				capital_scope = {
-					OR = {
-						province_group = tradenode_24 # Chao Phraya
-						province_group = tradenode_23 # Malacca Strait
-						province_group = tradenode_18 # Mekong
-						province_group = tradenode_22 # Moluccas
-						province_group = tradenode_19 # Champa Sea
-						province_group = tradenode_2 # Australia
-					}
-				}
-			}
-			AND = {
-				dip_tech = 21
-				capital_scope = {
-					OR = {
-						province_group = tradenode_17 # Liangguang
-						province_group = tradenode_12 # Szechwan
-						province_group = tradenode_10 # Huazhong
-						province_group = tradenode_3 # Jiangnan
-						province_group = tradenode_6 # Huabei
-						province_group = tradenode_13 # Xibei
-					}
-				}
-			}
-			AND = {
-				dip_tech = 20
-				capital_scope = {
-					OR = {
-						province_group = tradenode_11 # Zhongyuan
-						province_group = tradenode_5 # Eastern Siberia
-						province_group = tradenode_7 # Nippon
-						province_group = tradenode_4 # Far East
-						province_group = tradenode_64 # Canada
-					}
-				}
-			}
-			AND = {
-				dip_tech = 19
-				capital_scope = {
-					OR = {
-						province_group = tradenode_16 # Southern Cone
-						province_group = tradenode_43 # Guiana
-						province_group = tradenode_65 # Caribbean
-						province_group = tradenode_63 # Mississippi
-						province_group = tradenode_61 # Plains
-						province_group = tradenode_66 # Eastern Seaboard
-					}
-				}
-			}
-			AND = {
-				dip_tech = 17
-				capital_scope = {
-					OR = {
-						province_group = tradenode_15 # Andes
-						province_group = tradenode_14 # Amazonia
+						province_group = tradenode_9 # Mexico
+						province_group = tradenode_62 # Rio Grande
 					}
 				}
 			}
@@ -6737,23 +6271,6 @@ MEC_Expeditions_available_california_trigger = { # California Expedition Availab
 				capital_scope = {
 					OR = {
 						province_group = tradenode_42 # Panama
-					}
-				}
-			}
-			AND = {
-				dip_tech = 15
-				capital_scope = {
-					OR = {
-						province_group = tradenode_9 # Mexico
-						province_group = tradenode_62 # Rio Grande
-					}
-				}
-			}
-			AND = {
-				dip_tech = 13
-				capital_scope = {
-					OR = {
-						province_group = tradenode_8 # American West Coast
 					}
 				}
 			}
@@ -6846,6 +6363,7 @@ MEC_Expeditions_available_alaska_trigger = { # Alaska Expedition Availability Co
 				dip_tech = 33
 				capital_scope = {
 					OR = {
+						province_group = tradenode_8 # American West Coast
 						province_group = tradenode_1 # Pacific
 					}
 				}
@@ -6879,14 +6397,6 @@ MEC_Expeditions_available_alaska_trigger = { # Alaska Expedition Availability Co
 					}
 				}
 			}
-			AND = {
-				dip_tech = 13
-				capital_scope = {
-					OR = {
-						province_group = tradenode_8 # American West Coast
-					}
-				}
-			}
 		}
 	}
 }
@@ -6899,14 +6409,6 @@ MEC_Expeditions_available_pacific_mexico_trigger = { # Pacific Mexico Expedition
 		OR = { # Dip tech requirements based on capital location in trade node
 			AND = {
 				dip_tech = 33
-				capital_scope = {
-					OR = {
-						province_group = tradenode_1 # Pacific
-					}
-				}
-			}
-			AND = {
-				dip_tech = 23
 				capital_scope = {
 					OR = {
 						province_group = tradenode_85 # West Atlantis Node
@@ -6970,11 +6472,13 @@ MEC_Expeditions_available_pacific_mexico_trigger = { # Pacific Mexico Expedition
 						province_group = tradenode_22 # Moluccas
 						province_group = tradenode_19 # Champa Sea
 						province_group = tradenode_2 # Australia
+						province_group = tradenode_62 # Rio Grande
+						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 22
+				dip_tech = 32
 				capital_scope = {
 					OR = {
 						province_group = tradenode_17 # Liangguang
@@ -6987,7 +6491,7 @@ MEC_Expeditions_available_pacific_mexico_trigger = { # Pacific Mexico Expedition
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_11 # Zhongyuan
@@ -6998,7 +6502,7 @@ MEC_Expeditions_available_pacific_mexico_trigger = { # Pacific Mexico Expedition
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_64 # Canada
@@ -7006,7 +6510,7 @@ MEC_Expeditions_available_pacific_mexico_trigger = { # Pacific Mexico Expedition
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_65 # Caribbean
@@ -7017,7 +6521,7 @@ MEC_Expeditions_available_pacific_mexico_trigger = { # Pacific Mexico Expedition
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_16 # Southern Cone
@@ -7026,16 +6530,7 @@ MEC_Expeditions_available_pacific_mexico_trigger = { # Pacific Mexico Expedition
 				}
 			}
 			AND = {
-				dip_tech = 16
-				capital_scope = {
-					OR = {
-						province_group = tradenode_15 # Andes
-						province_group = tradenode_14 # Amazonia
-					}
-				}
-			}
-			AND = {
-				dip_tech = 15
+				dip_tech = 25
 				capital_scope = {
 					OR = {
 						province_group = tradenode_42 # Panama
@@ -7045,10 +6540,11 @@ MEC_Expeditions_available_pacific_mexico_trigger = { # Pacific Mexico Expedition
 				}
 			}
 			AND = {
-				dip_tech = 13
+				dip_tech = 16
 				capital_scope = {
 					OR = {
-						province_group = tradenode_62 # Rio Grande
+						province_group = tradenode_15 # Andes
+						province_group = tradenode_14 # Amazonia
 					}
 				}
 			}
@@ -7066,14 +6562,6 @@ MEC_Expeditions_available_pacific_central_america_trigger = { # Pacific Central 
 				dip_tech = 33
 				capital_scope = {
 					OR = {
-						province_group = tradenode_1 # Pacific
-					}
-				}
-			}
-			AND = {
-				dip_tech = 23
-				capital_scope = {
-					OR = {
 						province_group = tradenode_85 # West Atlantis Node
 						province_group = tradenode_84 # East Atlantis Node
 						province_group = tradenode_82 # South Atlantis Node
@@ -7141,11 +6629,13 @@ MEC_Expeditions_available_pacific_central_america_trigger = { # Pacific Central 
 						province_group = tradenode_3 # Jiangnan
 						province_group = tradenode_6 # Huabei
 						province_group = tradenode_13 # Xibei
+						province_group = tradenode_42 # Panama
+						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 22
+				dip_tech = 32
 				capital_scope = {
 					OR = {
 						province_group = tradenode_11 # Zhongyuan
@@ -7156,7 +6646,7 @@ MEC_Expeditions_available_pacific_central_america_trigger = { # Pacific Central 
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_64 # Canada
@@ -7164,7 +6654,7 @@ MEC_Expeditions_available_pacific_central_america_trigger = { # Pacific Central 
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_65 # Caribbean
@@ -7175,7 +6665,7 @@ MEC_Expeditions_available_pacific_central_america_trigger = { # Pacific Central 
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_16 # Southern Cone
@@ -7184,15 +6674,7 @@ MEC_Expeditions_available_pacific_central_america_trigger = { # Pacific Central 
 				}
 			}
 			AND = {
-				dip_tech = 16
-				capital_scope = {
-					OR = {
-						province_group = tradenode_8 # American West Coast
-					}
-				}
-			}
-			AND = {
-				dip_tech = 15
+				dip_tech = 25
 				capital_scope = {
 					OR = {
 						province_group = tradenode_15 # Andes
@@ -7203,10 +6685,10 @@ MEC_Expeditions_available_pacific_central_america_trigger = { # Pacific Central 
 				}
 			}
 			AND = {
-				dip_tech = 13
+				dip_tech = 16
 				capital_scope = {
 					OR = {
-						province_group = tradenode_42 # Panama
+						province_group = tradenode_8 # American West Coast
 					}
 				}
 			}
@@ -7224,14 +6706,6 @@ MEC_Expeditions_available_peru_trigger = { # Peru Expedition Availability Condit
 				dip_tech = 33
 				capital_scope = {
 					OR = {
-						province_group = tradenode_1 # Pacific
-					}
-				}
-			}
-			AND = {
-				dip_tech = 23
-				capital_scope = {
-					OR = {
 						province_group = tradenode_85 # West Atlantis Node
 						province_group = tradenode_84 # East Atlantis Node
 						province_group = tradenode_82 # South Atlantis Node
@@ -7303,11 +6777,14 @@ MEC_Expeditions_available_peru_trigger = { # Peru Expedition Availability Condit
 						province_group = tradenode_5 # Eastern Siberia
 						province_group = tradenode_7 # Nippon
 						province_group = tradenode_4 # Far East
+						province_group = tradenode_15 # Andes
+						province_group = tradenode_14 # Amazonia
+						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_64 # Canada
@@ -7315,7 +6792,7 @@ MEC_Expeditions_available_peru_trigger = { # Peru Expedition Availability Condit
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_65 # Caribbean
@@ -7326,7 +6803,7 @@ MEC_Expeditions_available_peru_trigger = { # Peru Expedition Availability Condit
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_43 # Guiana
@@ -7342,15 +6819,6 @@ MEC_Expeditions_available_peru_trigger = { # Peru Expedition Availability Condit
 						province_group = tradenode_16 # Southern Cone
 						province_group = tradenode_42 # Panama
 						province_group = tradenode_9 # Mexico
-					}
-				}
-			}
-			AND = {
-				dip_tech = 13
-				capital_scope = {
-					OR = {
-						province_group = tradenode_15 # Andes
-						province_group = tradenode_14 # Amazonia
 					}
 				}
 			}
@@ -7368,14 +6836,6 @@ MEC_Expeditions_available_chile_trigger = { # Chile Expedition Availability Cond
 				dip_tech = 33
 				capital_scope = {
 					OR = {
-						province_group = tradenode_1 # Pacific
-					}
-				}
-			}
-			AND = {
-				dip_tech = 23
-				capital_scope = {
-					OR = {
 						province_group = tradenode_85 # West Atlantis Node
 						province_group = tradenode_84 # East Atlantis Node
 						province_group = tradenode_82 # South Atlantis Node
@@ -7447,11 +6907,14 @@ MEC_Expeditions_available_chile_trigger = { # Chile Expedition Availability Cond
 						province_group = tradenode_5 # Eastern Siberia
 						province_group = tradenode_7 # Nippon
 						province_group = tradenode_4 # Far East
+						province_group = tradenode_15 # Andes
+						province_group = tradenode_14 # Amazonia
+						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_64 # Canada
@@ -7459,7 +6922,7 @@ MEC_Expeditions_available_chile_trigger = { # Chile Expedition Availability Cond
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_65 # Caribbean
@@ -7470,7 +6933,7 @@ MEC_Expeditions_available_chile_trigger = { # Chile Expedition Availability Cond
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_43 # Guiana
@@ -7489,15 +6952,6 @@ MEC_Expeditions_available_chile_trigger = { # Chile Expedition Availability Cond
 					}
 				}
 			}
-			AND = {
-				dip_tech = 13
-				capital_scope = {
-					OR = {
-						province_group = tradenode_15 # Andes
-						province_group = tradenode_14 # Amazonia
-					}
-				}
-			}
 		}
 	}
 }
@@ -7512,14 +6966,9 @@ MEC_Expeditions_available_south_atlantis_node_trigger = { # South Atlantis Node 
 				dip_tech = 33
 				capital_scope = {
 					OR = {
-						province_group = tradenode_1 # Pacific
-					}
-				}
-			}
-			AND = {
-				dip_tech = 23
-				capital_scope = {
-					OR = {
+						province_group = tradenode_82 # South Atlantis Node
+						province_group = tradenode_72 # Rhineland
+						province_group = tradenode_78 # Elbe
 						province_group = tradenode_24 # Chao Phraya
 						province_group = tradenode_23 # Malacca Strait
 						province_group = tradenode_18 # Mekong
@@ -7537,11 +6986,12 @@ MEC_Expeditions_available_south_atlantis_node_trigger = { # South Atlantis Node 
 						province_group = tradenode_7 # Nippon
 						province_group = tradenode_4 # Far East
 						province_group = tradenode_8 # American West Coast
+						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 22
+				dip_tech = 32
 				capital_scope = {
 					OR = {
 						province_group = tradenode_38 # Red Sea
@@ -7568,7 +7018,7 @@ MEC_Expeditions_available_south_atlantis_node_trigger = { # South Atlantis Node 
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_16 # Southern Cone
@@ -7581,7 +7031,7 @@ MEC_Expeditions_available_south_atlantis_node_trigger = { # South Atlantis Node 
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_41 # South Africa
@@ -7593,7 +7043,7 @@ MEC_Expeditions_available_south_atlantis_node_trigger = { # South Atlantis Node 
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_66 # Eastern Seaboard
@@ -7602,7 +7052,7 @@ MEC_Expeditions_available_south_atlantis_node_trigger = { # South Atlantis Node 
 				}
 			}
 			AND = {
-				dip_tech = 18
+				dip_tech = 28
 				capital_scope = {
 					OR = {
 						province_group = tradenode_45 # Guinea Coast
@@ -7612,7 +7062,7 @@ MEC_Expeditions_available_south_atlantis_node_trigger = { # South Atlantis Node 
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_48 # Senegambia
@@ -7621,7 +7071,7 @@ MEC_Expeditions_available_south_atlantis_node_trigger = { # South Atlantis Node 
 				}
 			}
 			AND = {
-				dip_tech = 15
+				dip_tech = 25
 				capital_scope = {
 					OR = {
 						province_group = tradenode_84 # East Atlantis Node
@@ -7650,16 +7100,6 @@ MEC_Expeditions_available_south_atlantis_node_trigger = { # South Atlantis Node 
 						province_group = tradenode_59 # Zalesye
 						province_group = tradenode_58 # Anatolia
 						province_group = tradenode_80 # Sahara
-					}
-				}
-			}
-			AND = {
-				dip_tech = 13
-				capital_scope = {
-					OR = {
-						province_group = tradenode_82 # South Atlantis Node
-						province_group = tradenode_72 # Rhineland
-						province_group = tradenode_78 # Elbe
 					}
 				}
 			}
@@ -7677,14 +7117,9 @@ MEC_Expeditions_available_north_atlantis_node_trigger = { # North Atlantis Node 
 				dip_tech = 33
 				capital_scope = {
 					OR = {
-						province_group = tradenode_1 # Pacific
-					}
-				}
-			}
-			AND = {
-				dip_tech = 23
-				capital_scope = {
-					OR = {
+						province_group = tradenode_83 # North Atlantis Node
+						province_group = tradenode_72 # Rhineland
+						province_group = tradenode_78 # Elbe
 						province_group = tradenode_24 # Chao Phraya
 						province_group = tradenode_23 # Malacca Strait
 						province_group = tradenode_18 # Mekong
@@ -7702,11 +7137,12 @@ MEC_Expeditions_available_north_atlantis_node_trigger = { # North Atlantis Node 
 						province_group = tradenode_7 # Nippon
 						province_group = tradenode_4 # Far East
 						province_group = tradenode_8 # American West Coast
+						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 22
+				dip_tech = 32
 				capital_scope = {
 					OR = {
 						province_group = tradenode_38 # Red Sea
@@ -7733,7 +7169,7 @@ MEC_Expeditions_available_north_atlantis_node_trigger = { # North Atlantis Node 
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_16 # Southern Cone
@@ -7746,7 +7182,7 @@ MEC_Expeditions_available_north_atlantis_node_trigger = { # North Atlantis Node 
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_41 # South Africa
@@ -7758,7 +7194,7 @@ MEC_Expeditions_available_north_atlantis_node_trigger = { # North Atlantis Node 
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_66 # Eastern Seaboard
@@ -7767,7 +7203,7 @@ MEC_Expeditions_available_north_atlantis_node_trigger = { # North Atlantis Node 
 				}
 			}
 			AND = {
-				dip_tech = 18
+				dip_tech = 28
 				capital_scope = {
 					OR = {
 						province_group = tradenode_45 # Guinea Coast
@@ -7777,7 +7213,7 @@ MEC_Expeditions_available_north_atlantis_node_trigger = { # North Atlantis Node 
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_48 # Senegambia
@@ -7786,7 +7222,7 @@ MEC_Expeditions_available_north_atlantis_node_trigger = { # North Atlantis Node 
 				}
 			}
 			AND = {
-				dip_tech = 15
+				dip_tech = 25
 				capital_scope = {
 					OR = {
 						province_group = tradenode_84 # East Atlantis Node
@@ -7815,16 +7251,6 @@ MEC_Expeditions_available_north_atlantis_node_trigger = { # North Atlantis Node 
 						province_group = tradenode_59 # Zalesye
 						province_group = tradenode_58 # Anatolia
 						province_group = tradenode_80 # Sahara
-					}
-				}
-			}
-			AND = {
-				dip_tech = 13
-				capital_scope = {
-					OR = {
-						province_group = tradenode_83 # North Atlantis Node
-						province_group = tradenode_72 # Rhineland
-						province_group = tradenode_78 # Elbe
 					}
 				}
 			}
@@ -7842,14 +7268,9 @@ MEC_Expeditions_available_east_atlantis_node_trigger = { # East Atlantis Node Ex
 				dip_tech = 33
 				capital_scope = {
 					OR = {
-						province_group = tradenode_1 # Pacific
-					}
-				}
-			}
-			AND = {
-				dip_tech = 23
-				capital_scope = {
-					OR = {
+						province_group = tradenode_84 # East Atlantis Node
+						province_group = tradenode_72 # Rhineland
+						province_group = tradenode_78 # Elbe
 						province_group = tradenode_24 # Chao Phraya
 						province_group = tradenode_23 # Malacca Strait
 						province_group = tradenode_18 # Mekong
@@ -7867,11 +7288,12 @@ MEC_Expeditions_available_east_atlantis_node_trigger = { # East Atlantis Node Ex
 						province_group = tradenode_7 # Nippon
 						province_group = tradenode_4 # Far East
 						province_group = tradenode_8 # American West Coast
+						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 22
+				dip_tech = 32
 				capital_scope = {
 					OR = {
 						province_group = tradenode_38 # Red Sea
@@ -7898,7 +7320,7 @@ MEC_Expeditions_available_east_atlantis_node_trigger = { # East Atlantis Node Ex
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_16 # Southern Cone
@@ -7911,7 +7333,7 @@ MEC_Expeditions_available_east_atlantis_node_trigger = { # East Atlantis Node Ex
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_41 # South Africa
@@ -7923,7 +7345,7 @@ MEC_Expeditions_available_east_atlantis_node_trigger = { # East Atlantis Node Ex
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_66 # Eastern Seaboard
@@ -7932,7 +7354,7 @@ MEC_Expeditions_available_east_atlantis_node_trigger = { # East Atlantis Node Ex
 				}
 			}
 			AND = {
-				dip_tech = 18
+				dip_tech = 28
 				capital_scope = {
 					OR = {
 						province_group = tradenode_45 # Guinea Coast
@@ -7942,7 +7364,7 @@ MEC_Expeditions_available_east_atlantis_node_trigger = { # East Atlantis Node Ex
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_48 # Senegambia
@@ -7951,7 +7373,7 @@ MEC_Expeditions_available_east_atlantis_node_trigger = { # East Atlantis Node Ex
 				}
 			}
 			AND = {
-				dip_tech = 15
+				dip_tech = 25
 				capital_scope = {
 					OR = {
 						province_group = tradenode_82 # South Atlantis Node
@@ -7980,16 +7402,6 @@ MEC_Expeditions_available_east_atlantis_node_trigger = { # East Atlantis Node Ex
 						province_group = tradenode_59 # Zalesye
 						province_group = tradenode_58 # Anatolia
 						province_group = tradenode_80 # Sahara
-					}
-				}
-			}
-			AND = {
-				dip_tech = 13
-				capital_scope = {
-					OR = {
-						province_group = tradenode_84 # East Atlantis Node
-						province_group = tradenode_72 # Rhineland
-						province_group = tradenode_78 # Elbe
 					}
 				}
 			}
@@ -8007,14 +7419,9 @@ MEC_Expeditions_available_west_atlantis_node_trigger = { # West Atlantis Node Ex
 				dip_tech = 33
 				capital_scope = {
 					OR = {
-						province_group = tradenode_1 # Pacific
-					}
-				}
-			}
-			AND = {
-				dip_tech = 23
-				capital_scope = {
-					OR = {
+						province_group = tradenode_85 # West Atlantis Node
+						province_group = tradenode_72 # Rhineland
+						province_group = tradenode_78 # Elbe
 						province_group = tradenode_24 # Chao Phraya
 						province_group = tradenode_23 # Malacca Strait
 						province_group = tradenode_18 # Mekong
@@ -8032,11 +7439,12 @@ MEC_Expeditions_available_west_atlantis_node_trigger = { # West Atlantis Node Ex
 						province_group = tradenode_7 # Nippon
 						province_group = tradenode_4 # Far East
 						province_group = tradenode_8 # American West Coast
+						province_group = tradenode_1 # Pacific
 					}
 				}
 			}
 			AND = {
-				dip_tech = 22
+				dip_tech = 32
 				capital_scope = {
 					OR = {
 						province_group = tradenode_38 # Red Sea
@@ -8063,7 +7471,7 @@ MEC_Expeditions_available_west_atlantis_node_trigger = { # West Atlantis Node Ex
 				}
 			}
 			AND = {
-				dip_tech = 21
+				dip_tech = 31
 				capital_scope = {
 					OR = {
 						province_group = tradenode_16 # Southern Cone
@@ -8076,7 +7484,7 @@ MEC_Expeditions_available_west_atlantis_node_trigger = { # West Atlantis Node Ex
 				}
 			}
 			AND = {
-				dip_tech = 20
+				dip_tech = 30
 				capital_scope = {
 					OR = {
 						province_group = tradenode_41 # South Africa
@@ -8088,7 +7496,7 @@ MEC_Expeditions_available_west_atlantis_node_trigger = { # West Atlantis Node Ex
 				}
 			}
 			AND = {
-				dip_tech = 19
+				dip_tech = 29
 				capital_scope = {
 					OR = {
 						province_group = tradenode_66 # Eastern Seaboard
@@ -8097,7 +7505,7 @@ MEC_Expeditions_available_west_atlantis_node_trigger = { # West Atlantis Node Ex
 				}
 			}
 			AND = {
-				dip_tech = 18
+				dip_tech = 28
 				capital_scope = {
 					OR = {
 						province_group = tradenode_45 # Guinea Coast
@@ -8107,7 +7515,7 @@ MEC_Expeditions_available_west_atlantis_node_trigger = { # West Atlantis Node Ex
 				}
 			}
 			AND = {
-				dip_tech = 17
+				dip_tech = 27
 				capital_scope = {
 					OR = {
 						province_group = tradenode_48 # Senegambia
@@ -8116,7 +7524,7 @@ MEC_Expeditions_available_west_atlantis_node_trigger = { # West Atlantis Node Ex
 				}
 			}
 			AND = {
-				dip_tech = 15
+				dip_tech = 25
 				capital_scope = {
 					OR = {
 						province_group = tradenode_84 # East Atlantis Node
@@ -8145,16 +7553,6 @@ MEC_Expeditions_available_west_atlantis_node_trigger = { # West Atlantis Node Ex
 						province_group = tradenode_59 # Zalesye
 						province_group = tradenode_58 # Anatolia
 						province_group = tradenode_80 # Sahara
-					}
-				}
-			}
-			AND = {
-				dip_tech = 13
-				capital_scope = {
-					OR = {
-						province_group = tradenode_85 # West Atlantis Node
-						province_group = tradenode_72 # Rhineland
-						province_group = tradenode_78 # Elbe
 					}
 				}
 			}

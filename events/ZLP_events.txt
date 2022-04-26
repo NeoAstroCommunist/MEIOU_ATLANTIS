@@ -13,6 +13,7 @@ country_event = { #Sell of Neumark ripoff
 	
 	trigger = {
 		tag = ZLP
+		NOT = { num_of_loans = 4 }
 			5834 = {
 				owned_by = LN1
 				controlled_by = LN1
@@ -166,7 +167,7 @@ country_event = {
 		name = "flavor_ZLP.6.a"
 		limit = { NOT = { ZLP = { owns = 5834 } } }
         random_list = {
-		50 = { LN1 = { country_event = { id = flavor_ZLP.8 } } set_global_flag = treasures_stolen } #Pirates are traitors
+		50 = { ZLP = { country_event = { id = flavor_ZLP.8 } } set_global_flag = treasures_stolen } #Pirates are traitors
 		50 = { ZLP = { country_event = { id = flavor_ZLP.7 } } } #Pirates are not traitors
 		}
 	}
@@ -273,7 +274,6 @@ country_event = {
 		name = "flavor_ZLP.11.a"
 		limit = { NOT = { mil = 6 } }
         kill_ruler = yes
-		zealandia1_area = { limit = { owned_by = ZLP } add_core = ZHO spawn_rebels = { type = nationalist_rebels size = 2 } }
 		zealandia3_area = { limit = { owned_by = ZLP } add_core = ZLD spawn_rebels = { type = nationalist_rebels size = 2 } }
 		southeast_australia_area = { limit = { owned_by = ZLP } add_core = ZHO spawn_rebels = { type = nationalist_rebels size = 2 } }
 		
