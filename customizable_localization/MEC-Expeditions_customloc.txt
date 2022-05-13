@@ -19,10 +19,34 @@ defined_text = {
 		}
 	}
 	text = {
+		localisation_key = MEC_Expeditions_Decision_Pacific
+		trigger = {
+			capital_scope = {
+				province_group = tradenode_2 # Pacific
+			}
+		}
+	}
+	text = {
+		localisation_key = MEC_Expeditions_Decision_Pacific
+		trigger = {
+			capital_scope = {
+				province_group = tradenode_3 # Pacific
+			}
+		}
+	}
+	text = {
+		localisation_key = MEC_Expeditions_Decision_Pacific
+		trigger = {
+			capital_scope = {
+				province_group = tradenode_4 # Pacific
+			}
+		}
+	}
+	text = {
 		localisation_key = MEC_Expeditions_Decision_Australia
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_2 # Australia
+				province_group = tradenode_5 # Australia
 			}
 		}
 	}
@@ -30,7 +54,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Jiangnan
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_3 # Jiangnan
+				province_group = tradenode_6 # Jiangnan
 			}
 		}
 	}
@@ -38,7 +62,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Far_East
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_4 # Far East
+				province_group = tradenode_7 # Far East
 			}
 		}
 	}
@@ -46,7 +70,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Eastern_Siberia
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_5 # Eastern Siberia
+				province_group = tradenode_8 # Eastern Siberia
 			}
 		}
 	}
@@ -54,7 +78,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Huabei
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_6 # Huabei
+				province_group = tradenode_9 # Huabei
 			}
 		}
 	}
@@ -62,7 +86,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Nippon
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_7 # Nippon
+				province_group = tradenode_10 # Nippon
 			}
 		}
 	}
@@ -70,7 +94,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_American_West_Coast
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_8 # American West Coast
+				province_group = tradenode_11 # American West Coast
 			}
 		}
 	}
@@ -78,7 +102,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Mexico
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_9 # Mexico
+				province_group = tradenode_12 # Mexico
 			}
 		}
 	}
@@ -86,7 +110,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Huazhong
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_10 # Huazhong
+				province_group = tradenode_13 # Huazhong
 			}
 		}
 	}
@@ -94,7 +118,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Zhongyuan
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_11 # Zhongyuan
+				province_group = tradenode_14 # Zhongyuan
 			}
 		}
 	}
@@ -102,7 +126,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Szechwan
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_12 # Szechwan
+				province_group = tradenode_15 # Szechwan
 			}
 		}
 	}
@@ -110,7 +134,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Xibei
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_13 # Xibei
+				province_group = tradenode_16 # Xibei
 			}
 		}
 	}
@@ -118,7 +142,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Amazonia
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_14 # Amazonia
+				province_group = tradenode_17 # Amazonia
 			}
 		}
 	}
@@ -126,7 +150,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Andes
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_15 # Andes
+				province_group = tradenode_18 # Andes
 			}
 		}
 	}
@@ -134,7 +158,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Southern_Cone
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_16 # Southern Cone
+				province_group = tradenode_19 # Southern Cone
 			}
 		}
 	}
@@ -142,7 +166,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Liangguang
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_17 # Liangguang
+				province_group = tradenode_20 # Liangguang
 			}
 		}
 	}
@@ -150,7 +174,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Mekong
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_18 # Mekong
+				province_group = tradenode_21 # Mekong
 			}
 		}
 	}
@@ -158,7 +182,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Champa_Sea
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_19 # Champa Sea
+				province_group = tradenode_22 # Champa Sea
 			}
 		}
 	}
@@ -166,7 +190,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Ayeyarwady
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_20 # Ayeyarwady
+				province_group = tradenode_23 # Ayeyarwady
 			}
 		}
 	}
@@ -174,7 +198,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Himalayan_Plateau
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_21 # Himalayan Plateau
+				province_group = tradenode_24 # Himalayan Plateau
 			}
 		}
 	}
@@ -182,7 +206,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Moluccas
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_22 # Moluccas
+				province_group = tradenode_25 # Moluccas
 			}
 		}
 	}
@@ -190,7 +214,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Malacca_Strait
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_23 # Malacca Strait
+				province_group = tradenode_26 # Malacca Strait
 			}
 		}
 	}
@@ -198,7 +222,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Chao_Phraya
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_24 # Chao Phraya
+				province_group = tradenode_27 # Chao Phraya
 			}
 		}
 	}
@@ -206,7 +230,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Bihar
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_25 # Bihar
+				province_group = tradenode_28 # Bihar
 			}
 		}
 	}
@@ -214,7 +238,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Delhi
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_26 # Delhi
+				province_group = tradenode_29 # Delhi
 			}
 		}
 	}
@@ -222,7 +246,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Yettishar
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_27 # Yettishar
+				province_group = tradenode_30 # Yettishar
 			}
 		}
 	}
@@ -230,7 +254,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Punjab
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_28 # Punjab
+				province_group = tradenode_31 # Punjab
 			}
 		}
 	}
@@ -238,7 +262,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Mawarannahr
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_29 # Mawarannahr
+				province_group = tradenode_32 # Mawarannahr
 			}
 		}
 	}
@@ -246,7 +270,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Khorasan
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_30 # Khorasan
+				province_group = tradenode_33 # Khorasan
 			}
 		}
 	}
@@ -254,7 +278,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Bengal
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_31 # Bengal
+				province_group = tradenode_34 # Bengal
 			}
 		}
 	}
@@ -262,7 +286,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Deccan_Plateau
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_32 # Deccan Plateau
+				province_group = tradenode_35 # Deccan Plateau
 			}
 		}
 	}
@@ -270,7 +294,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Kalinga
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_33 # Kalinga
+				province_group = tradenode_36 # Kalinga
 			}
 		}
 	}
@@ -278,7 +302,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Tamilakam
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_34 # Tamilakam
+				province_group = tradenode_37 # Tamilakam
 			}
 		}
 	}
@@ -286,7 +310,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Konkan
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_35 # Konkan
+				province_group = tradenode_38 # Konkan
 			}
 		}
 	}
@@ -294,7 +318,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Gurjaratra
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_36 # Gurjaratra
+				province_group = tradenode_39 # Gurjaratra
 			}
 		}
 	}
@@ -302,7 +326,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Upper_Nile
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_37 # Upper Nile
+				province_group = tradenode_40 # Upper Nile
 			}
 		}
 	}
@@ -310,7 +334,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Red_Sea
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_38 # Red Sea
+				province_group = tradenode_41 # Red Sea
 			}
 		}
 	}
@@ -318,7 +342,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Monomotapa
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_39 # Monomotapa
+				province_group = tradenode_42 # Monomotapa
 			}
 		}
 	}
@@ -326,7 +350,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Zanj
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_40 # Zanj
+				province_group = tradenode_43 # Zanj
 			}
 		}
 	}
@@ -334,7 +358,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_South_Africa
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_41 # South Africa
+				province_group = tradenode_44 # South Africa
 			}
 		}
 	}
@@ -342,7 +366,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Panama
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_42 # Panama
+				province_group = tradenode_45 # Panama
 			}
 		}
 	}
@@ -350,7 +374,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Guiana
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_43 # Guiana
+				province_group = tradenode_46 # Guiana
 			}
 		}
 	}
@@ -358,7 +382,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Kongo
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_44 # Kongo
+				province_group = tradenode_47 # Kongo
 			}
 		}
 	}
@@ -366,7 +390,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Guinea_Coast
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_45 # Guinea Coast
+				province_group = tradenode_48 # Guinea Coast
 			}
 		}
 	}
@@ -374,7 +398,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Lake_Tchad
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_46 # Lake Tchad
+				province_group = tradenode_49 # Lake Tchad
 			}
 		}
 	}
@@ -382,7 +406,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Niger_River
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_47 # Niger River
+				province_group = tradenode_50 # Niger River
 			}
 		}
 	}
@@ -390,7 +414,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Senegambia
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_48 # Senegambia
+				province_group = tradenode_51 # Senegambia
 			}
 		}
 	}
@@ -398,7 +422,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Western_Siberia
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_49 # Western Siberia
+				province_group = tradenode_52 # Western Siberia
 			}
 		}
 	}
@@ -406,7 +430,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Iran
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_50 # Iran
+				province_group = tradenode_53 # Iran
 			}
 		}
 	}
@@ -414,7 +438,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Arabia
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_51 # Arabia
+				province_group = tradenode_54 # Arabia
 			}
 		}
 	}
@@ -422,7 +446,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Caspian_Sea
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_52 # Caspian Sea
+				province_group = tradenode_55 # Caspian Sea
 			}
 		}
 	}
@@ -430,7 +454,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Levant
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_53 # Levant
+				province_group = tradenode_56 # Levant
 			}
 		}
 	}
@@ -438,7 +462,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Barbary_Coast
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_54 # Barbary Coast
+				province_group = tradenode_57 # Barbary Coast
 			}
 		}
 	}
@@ -446,7 +470,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Lower_Nile
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_55 # Lower Nile
+				province_group = tradenode_58 # Lower Nile
 			}
 		}
 	}
@@ -454,7 +478,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Dnieper
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_56 # Dnieper
+				province_group = tradenode_59 # Dnieper
 			}
 		}
 	}
@@ -462,7 +486,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Crimea
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_57 # Crimea
+				province_group = tradenode_60 # Crimea
 			}
 		}
 	}
@@ -470,7 +494,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Anatolia
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_58 # Anatolia
+				province_group = tradenode_61 # Anatolia
 			}
 		}
 	}
@@ -478,7 +502,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Zalesye
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_59 # Zalesye
+				province_group = tradenode_62 # Zalesye
 			}
 		}
 	}
@@ -486,7 +510,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Vistula
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_60 # Vistula
+				province_group = tradenode_63 # Vistula
 			}
 		}
 	}
@@ -494,7 +518,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Plains
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_61 # Plains
+				province_group = tradenode_64 # Plains
 			}
 		}
 	}
@@ -502,7 +526,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Rio_Grande
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_62 # Rio Grande
+				province_group = tradenode_65 # Rio Grande
 			}
 		}
 	}
@@ -510,7 +534,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Mississippi
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_63 # Mississippi
+				province_group = tradenode_66 # Mississippi
 			}
 		}
 	}
@@ -518,7 +542,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Canada
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_64 # Canada
+				province_group = tradenode_67 # Canada
 			}
 		}
 	}
@@ -526,7 +550,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Caribbean
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_65 # Caribbean
+				province_group = tradenode_68 # Caribbean
 			}
 		}
 	}
@@ -534,127 +558,7 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_Eastern_Seaboard
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_66 # Eastern Seaboard
-			}
-		}
-	}
-	text = {
-		localisation_key = MEC_Expeditions_Decision_Strait_of_Gibraltar
-		trigger = {
-			capital_scope = {
-				province_group = tradenode_67 # Strait of Gibraltar
-			}
-		}
-	}
-	text = {
-		localisation_key = MEC_Expeditions_Decision_Danube
-		trigger = {
-			capital_scope = {
-				province_group = tradenode_68 # Danube
-			}
-		}
-	}
-	text = {
-		localisation_key = MEC_Expeditions_Decision_Aegean_Sea
-		trigger = {
-			capital_scope = {
-				province_group = tradenode_69 # Aegean Sea
-			}
-		}
-	}
-	text = {
-		localisation_key = MEC_Expeditions_Decision_Iberia
-		trigger = {
-			capital_scope = {
-				province_group = tradenode_70 # Iberia
-			}
-		}
-	}
-	text = {
-		localisation_key = MEC_Expeditions_Decision_Po_Valley
-		trigger = {
-			capital_scope = {
-				province_group = tradenode_71 # Po Valley
-			}
-		}
-	}
-	text = {
-		localisation_key = MEC_Expeditions_Decision_Rhineland
-		trigger = {
-			capital_scope = {
-				province_group = tradenode_72 # Rhineland
-			}
-		}
-	}
-	text = {
-		localisation_key = MEC_Expeditions_Decision_West_Mediterranean
-		trigger = {
-			capital_scope = {
-				province_group = tradenode_73 # West Mediterranean
-			}
-		}
-	}
-	text = {
-		localisation_key = MEC_Expeditions_Decision_France
-		trigger = {
-			capital_scope = {
-				province_group = tradenode_74 # France
-			}
-		}
-	}
-	text = {
-		localisation_key = MEC_Expeditions_Decision_Baltic_Sea
-		trigger = {
-			capital_scope = {
-				province_group = tradenode_75 # Baltic Sea
-			}
-		}
-	}
-	text = {
-		localisation_key = MEC_Expeditions_Decision_Adriatic_Sea
-		trigger = {
-			capital_scope = {
-				province_group = tradenode_76 # Adriatic Sea
-			}
-		}
-	}
-	text = {
-		localisation_key = MEC_Expeditions_Decision_Channel
-		trigger = {
-			capital_scope = {
-				province_group = tradenode_77 # Channel
-			}
-		}
-	}
-	text = {
-		localisation_key = MEC_Expeditions_Decision_Elbe
-		trigger = {
-			capital_scope = {
-				province_group = tradenode_78 # Elbe
-			}
-		}
-	}
-	text = {
-		localisation_key = MEC_Expeditions_Decision_Tyrrenean_Sea
-		trigger = {
-			capital_scope = {
-				province_group = tradenode_79 # Tyrrenean Sea
-			}
-		}
-	}
-	text = {
-		localisation_key = MEC_Expeditions_Decision_Sahara
-		trigger = {
-			capital_scope = {
-				province_group = tradenode_80 # Sahara
-			}
-		}
-	}
-	text = {
-		localisation_key = MEC_Expeditions_Decision_North_Sea
-		trigger = {
-			capital_scope = {
-				province_group = tradenode_81 # North Sea
+				province_group = tradenode_69 # Eastern Seaboard
 			}
 		}
 	}
@@ -662,23 +566,79 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_South_Atlantis_Node
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_82 # South Atlantis Node
+				province_group = tradenode_70 # South Atlantis Node
 			}
 		}
 	}
 	text = {
-		localisation_key = MEC_Expeditions_Decision_North_Atlantis_Node
+		localisation_key = MEC_Expeditions_Decision_Strait_of_Gibraltar
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_83 # North Atlantis Node
+				province_group = tradenode_71 # Strait of Gibraltar
 			}
 		}
 	}
 	text = {
-		localisation_key = MEC_Expeditions_Decision_East_Atlantis_Node
+		localisation_key = MEC_Expeditions_Decision_Danube
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_84 # East Atlantis Node
+				province_group = tradenode_72 # Danube
+			}
+		}
+	}
+	text = {
+		localisation_key = MEC_Expeditions_Decision_Aegean_Sea
+		trigger = {
+			capital_scope = {
+				province_group = tradenode_73 # Aegean Sea
+			}
+		}
+	}
+	text = {
+		localisation_key = MEC_Expeditions_Decision_Iberia
+		trigger = {
+			capital_scope = {
+				province_group = tradenode_74 # Iberia
+			}
+		}
+	}
+	text = {
+		localisation_key = MEC_Expeditions_Decision_Po_Valley
+		trigger = {
+			capital_scope = {
+				province_group = tradenode_75 # Po Valley
+			}
+		}
+	}
+	text = {
+		localisation_key = MEC_Expeditions_Decision_Rhineland
+		trigger = {
+			capital_scope = {
+				province_group = tradenode_76 # Rhineland
+			}
+		}
+	}
+	text = {
+		localisation_key = MEC_Expeditions_Decision_West_Mediterranean
+		trigger = {
+			capital_scope = {
+				province_group = tradenode_77 # West Mediterranean
+			}
+		}
+	}
+	text = {
+		localisation_key = MEC_Expeditions_Decision_France
+		trigger = {
+			capital_scope = {
+				province_group = tradenode_78 # France
+			}
+		}
+	}
+	text = {
+		localisation_key = MEC_Expeditions_Decision_Baltic_Sea
+		trigger = {
+			capital_scope = {
+				province_group = tradenode_79 # Baltic Sea
 			}
 		}
 	}
@@ -686,7 +646,71 @@ defined_text = {
 		localisation_key = MEC_Expeditions_Decision_West_Atlantis_Node
 		trigger = {
 			capital_scope = {
-				province_group = tradenode_85 # West Atlantis Node
+				province_group = tradenode_80 # West Atlantis Node
+			}
+		}
+	}
+	text = {
+		localisation_key = MEC_Expeditions_Decision_North_Atlantis_Node
+		trigger = {
+			capital_scope = {
+				province_group = tradenode_81 # North Atlantis Node
+			}
+		}
+	}
+	text = {
+		localisation_key = MEC_Expeditions_Decision_East_Atlantis_Node
+		trigger = {
+			capital_scope = {
+				province_group = tradenode_82 # East Atlantis Node
+			}
+		}
+	}
+	text = {
+		localisation_key = MEC_Expeditions_Decision_Adriatic_Sea
+		trigger = {
+			capital_scope = {
+				province_group = tradenode_83 # Adriatic Sea
+			}
+		}
+	}
+	text = {
+		localisation_key = MEC_Expeditions_Decision_Channel
+		trigger = {
+			capital_scope = {
+				province_group = tradenode_84 # Channel
+			}
+		}
+	}
+	text = {
+		localisation_key = MEC_Expeditions_Decision_Elbe
+		trigger = {
+			capital_scope = {
+				province_group = tradenode_85 # Elbe
+			}
+		}
+	}
+	text = {
+		localisation_key = MEC_Expeditions_Decision_Tyrrenean_Sea
+		trigger = {
+			capital_scope = {
+				province_group = tradenode_86 # Tyrrenean Sea
+			}
+		}
+	}
+	text = {
+		localisation_key = MEC_Expeditions_Decision_Sahara
+		trigger = {
+			capital_scope = {
+				province_group = tradenode_87 # Sahara
+			}
+		}
+	}
+	text = {
+		localisation_key = MEC_Expeditions_Decision_North_Sea
+		trigger = {
+			capital_scope = {
+				province_group = tradenode_88 # North Sea
 			}
 		}
 	}
