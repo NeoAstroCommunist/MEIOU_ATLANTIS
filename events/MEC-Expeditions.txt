@@ -163,6 +163,9 @@ country_event = {
 			MEC_Expeditions_available_north_atlantis_node_trigger = yes
 			MEC_Expeditions_available_east_atlantis_node_trigger = yes
 			MEC_Expeditions_available_west_atlantis_node_trigger = yes
+			MEC_Expeditions_available_zealandia_trigger = yes
+			MEC_Expeditions_available_eastzealandia_trigger = yes
+			MEC_Expeditions_available_southzealandia_trigger = yes
 		}
 	}
 
@@ -6154,6 +6157,351 @@ country_event = {
 			clr_province_flag = MEC_Expeditions_owned_by_sender_or_subjects
 		}
 	}
+	# Option for repeating sending Expedition to Zealandia Node
+	option = {
+		name = MEC_Expeditions.003.zealandia_repeat
+		#log = "MEC_Expeditions:[GetYear]:[Root.GetName]:selected expedition to:zealandia:repeated"
+		trigger = {
+			MEC_Expeditions_available_zealandia_trigger = yes
+			has_country_flag = MEC_Expeditions_sent_zealandia
+		}
+		ai_chance = {
+			factor = 100
+			modifier = { # Less likely to send expeditions to places you already have a province
+				factor = 0.1
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					province_group = expedition_provs.zealandia
+					OR = {
+						has_province_modifier = trading_post_province
+						has_province_flag = TN_Natural
+						}
+					value = 1
+				}
+			}
+			modifier = { # Less likely to send expeditions to places you have no trade node connection with
+				factor = 0 
+				NOT = {is_year = 1650}
+				NOT = {
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 1
+						province_group = tradenode_comb_86
+					}
+				}
+			}
+			modifier = { # Far less likely to send expeditions to places you failed a takeover attempt at
+				factor = 0.1
+				has_country_modifier = MEC_Modifier_Expedition_Failed_zealandia
+			}
+			modifier = { # Stop AI from loosing expeditions of provinces owned by comparable nations
+				factor = 0.05
+				expedition_provs.zealandia = {
+					type = all 
+					is_empty = no
+					owner = { check_key = { lhs = tech_mil which = ROOT } }
+				}
+			}
+		}
+		hidden_effect = {
+			add_country_modifier = {
+				name = MEC_Modifier_Expedition_zealandia
+				duration = 262
+			}
+
+			set_country_flag = MEC_Expeditions_sent_zealandia
+		}
+		if = {
+			limit = {
+				has_idea = colonialism_ideas_1
+			}
+			random_list = {
+				80 = {
+					country_event = {
+						id = MEC_Expeditions.152
+						days = 262
+					}
+				}
+				10 = {
+					country_event = {
+						id = MEC_Expeditions.652
+						days = 262
+					}
+				}
+				5 = {
+					country_event = {
+						id = MEC_Expeditions.552
+						days = 262
+					}
+				}
+				5 = {
+					country_event = {
+						id = MEC_Expeditions.452
+						days = 262
+					}
+				}
+			}
+		}
+		else = {
+			random_list = {
+				40 = {
+					country_event = {
+						id = MEC_Expeditions.152
+						days = 262
+					}
+				}
+				15 = {
+					country_event = {
+						id = MEC_Expeditions.652
+						days = 262
+					}
+				}
+				15 = {
+					country_event = {
+						id = MEC_Expeditions.552
+						days = 262
+					}
+				}
+				30 = {
+					country_event = {
+						id = MEC_Expeditions.452
+						days = 262
+					}
+				}
+			}
+		}
+		expedition_provs.zealandia = {
+			clr_province_flag = MEC_Expeditions_owned_by_sender_or_subjects
+		}
+	}
+	# Option for repeating sending Expedition to East Zealandia Node
+	option = {
+		name = MEC_Expeditions.003.eastzealandia_repeat
+		#log = "MEC_Expeditions:[GetYear]:[Root.GetName]:selected expedition to:eastzealandia:repeated"
+		trigger = {
+			MEC_Expeditions_available_eastzealandia_trigger = yes
+			has_country_flag = MEC_Expeditions_sent_eastzealandia
+		}
+		ai_chance = {
+			factor = 100
+			modifier = { # Less likely to send expeditions to places you already have a province
+				factor = 0.1
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					province_group = expedition_provs.eastzealandia
+					OR = {
+						has_province_modifier = trading_post_province
+						has_province_flag = TN_Natural
+						}
+					value = 1
+				}
+			}
+			modifier = { # Less likely to send expeditions to places you have no trade node connection with
+				factor = 0 
+				NOT = {is_year = 1650}
+				NOT = {
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 1
+						province_group = tradenode_comb_87
+					}
+				}
+			}
+			modifier = { # Far less likely to send expeditions to places you failed a takeover attempt at
+				factor = 0.1
+				has_country_modifier = MEC_Modifier_Expedition_Failed_eastzealandia
+			}
+			modifier = { # Stop AI from loosing expeditions of provinces owned by comparable nations
+				factor = 0.05
+				expedition_provs.eastzealandia = {
+					type = all 
+					is_empty = no
+					owner = { check_key = { lhs = tech_mil which = ROOT } }
+				}
+			}
+		}
+		hidden_effect = {
+			add_country_modifier = {
+				name = MEC_Modifier_Expedition_eastzealandia
+				duration = 262
+			}
+
+			set_country_flag = MEC_Expeditions_sent_eastzealandia
+		}
+		if = {
+			limit = {
+				has_idea = colonialism_ideas_1
+			}
+			random_list = {
+				80 = {
+					country_event = {
+						id = MEC_Expeditions.153
+						days = 262
+					}
+				}
+				10 = {
+					country_event = {
+						id = MEC_Expeditions.653
+						days = 262
+					}
+				}
+				5 = {
+					country_event = {
+						id = MEC_Expeditions.553
+						days = 262
+					}
+				}
+				5 = {
+					country_event = {
+						id = MEC_Expeditions.453
+						days = 262
+					}
+				}
+			}
+		}
+		else = {
+			random_list = {
+				40 = {
+					country_event = {
+						id = MEC_Expeditions.153
+						days = 262
+					}
+				}
+				15 = {
+					country_event = {
+						id = MEC_Expeditions.653
+						days = 262
+					}
+				}
+				15 = {
+					country_event = {
+						id = MEC_Expeditions.553
+						days = 262
+					}
+				}
+				30 = {
+					country_event = {
+						id = MEC_Expeditions.453
+						days = 262
+					}
+				}
+			}
+		}
+		expedition_provs.eastzealandia = {
+			clr_province_flag = MEC_Expeditions_owned_by_sender_or_subjects
+		}
+	}
+	# Option for repeating sending Expedition to South Zealandia Node
+	option = {
+		name = MEC_Expeditions.003.southzealandia_repeat
+		#log = "MEC_Expeditions:[GetYear]:[Root.GetName]:selected expedition to:southzealandia:repeated"
+		trigger = {
+			MEC_Expeditions_available_southzealandia_trigger = yes
+			has_country_flag = MEC_Expeditions_sent_southzealandia
+		}
+		ai_chance = {
+			factor = 100
+			modifier = { # Less likely to send expeditions to places you already have a province
+				factor = 0.1
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					province_group = expedition_provs.southzealandia
+					OR = {
+						has_province_modifier = trading_post_province
+						has_province_flag = TN_Natural
+						}
+					value = 1
+				}
+			}
+			modifier = { # Less likely to send expeditions to places you have no trade node connection with
+				factor = 0 
+				NOT = {is_year = 1650}
+				NOT = {
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 1
+						province_group = tradenode_comb_88
+					}
+				}
+			}
+			modifier = { # Far less likely to send expeditions to places you failed a takeover attempt at
+				factor = 0.1
+				has_country_modifier = MEC_Modifier_Expedition_Failed_southzealandia
+			}
+			modifier = { # Stop AI from loosing expeditions of provinces owned by comparable nations
+				factor = 0.05
+				expedition_provs.southzealandia = {
+					type = all 
+					is_empty = no
+					owner = { check_key = { lhs = tech_mil which = ROOT } }
+				}
+			}
+		}
+		hidden_effect = {
+			add_country_modifier = {
+				name = MEC_Modifier_Expedition_southzealandia
+				duration = 262
+			}
+
+			set_country_flag = MEC_Expeditions_sent_southzealandia
+		}
+		if = {
+			limit = {
+				has_idea = colonialism_ideas_1
+			}
+			random_list = {
+				80 = {
+					country_event = {
+						id = MEC_Expeditions.154
+						days = 262
+					}
+				}
+				10 = {
+					country_event = {
+						id = MEC_Expeditions.654
+						days = 262
+					}
+				}
+				5 = {
+					country_event = {
+						id = MEC_Expeditions.554
+						days = 262
+					}
+				}
+				5 = {
+					country_event = {
+						id = MEC_Expeditions.454
+						days = 262
+					}
+				}
+			}
+		}
+		else = {
+			random_list = {
+				40 = {
+					country_event = {
+						id = MEC_Expeditions.154
+						days = 262
+					}
+				}
+				15 = {
+					country_event = {
+						id = MEC_Expeditions.654
+						days = 262
+					}
+				}
+				15 = {
+					country_event = {
+						id = MEC_Expeditions.554
+						days = 262
+					}
+				}
+				30 = {
+					country_event = {
+						id = MEC_Expeditions.454
+						days = 262
+					}
+				}
+			}
+		}
+		expedition_provs.southzealandia = {
+			clr_province_flag = MEC_Expeditions_owned_by_sender_or_subjects
+		}
+	}
 	# Option for sending Expedition to the British Isles
 	option = {
 		name = MEC_Expeditions.003.british_isles
@@ -6255,6 +6603,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_british_isles
 		}
@@ -6422,6 +6773,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_northern_europe
 		}
@@ -6589,6 +6943,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_france
 		}
@@ -6762,6 +7119,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_iberia
 		}
@@ -6935,6 +7295,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_iberian_islands
 		}
@@ -7102,6 +7465,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_northwest_africa
 		}
@@ -7269,6 +7635,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_west_africa
 		}
@@ -7436,6 +7805,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_gulf_of_guinea
 		}
@@ -7603,6 +7975,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_central_africa
 		}
@@ -7789,6 +8164,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_south_africa
 		}
@@ -7956,6 +8334,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_east_africa
 		}
@@ -8123,6 +8504,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_indian_ocean
 		}
@@ -8296,6 +8680,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_arabia
 		}
@@ -8469,6 +8856,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_western_india
 		}
@@ -8642,6 +9032,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_southern_india
 		}
@@ -8815,6 +9208,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_eastern_india
 		}
@@ -8971,6 +9367,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_malacca
 		}
@@ -9139,6 +9538,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_southeast_asia
 		}
@@ -9295,6 +9697,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_indonesia
 		}
@@ -9451,6 +9856,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_philippines
 		}
@@ -9607,6 +10015,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_papua
 		}
@@ -9793,6 +10204,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_australia
 		}
@@ -9960,6 +10374,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_pacific_islands
 		}
@@ -10145,6 +10562,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_southern_china
 		}
@@ -10342,6 +10762,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_northern_china
 		}
@@ -10521,6 +10944,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_korea
 		}
@@ -10688,6 +11114,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_japan
 		}
@@ -10874,6 +11303,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_cuba
 		}
@@ -11060,6 +11492,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_hispaniola
 		}
@@ -11227,6 +11662,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_caribbean
 		}
@@ -11413,6 +11851,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_atlantic_colombia
 		}
@@ -11599,6 +12040,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_guyana
 		}
@@ -11791,6 +12235,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_atlantic_mexico
 		}
@@ -11977,6 +12424,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_north_brazil
 		}
@@ -12163,6 +12613,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_south_brazil
 		}
@@ -12355,6 +12808,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_gulf_of_mexico
 		}
@@ -12547,6 +13003,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_southeastern_america
 		}
@@ -12733,6 +13192,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_eastern_america
 		}
@@ -12919,6 +13381,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_canada
 		}
@@ -13086,6 +13551,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_north_atlantic
 		}
@@ -13272,6 +13740,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_hudson_bay
 		}
@@ -13458,6 +13929,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_la_plata
 		}
@@ -13644,6 +14118,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_california
 		}
@@ -13830,6 +14307,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_alaska
 		}
@@ -14022,6 +14502,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_pacific_mexico
 		}
@@ -14208,6 +14691,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_pacific_central_america
 		}
@@ -14394,6 +14880,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_peru
 		}
@@ -14580,6 +15069,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_chile
 		}
@@ -14747,6 +15239,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_south_atlantis_node
 		}
@@ -14914,6 +15409,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_north_atlantis_node
 		}
@@ -15081,6 +15579,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_east_atlantis_node
 		}
@@ -15248,6 +15749,9 @@ country_event = {
 			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
 			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
 
 			set_country_flag = MEC_Expeditions_sent_west_atlantis_node
 		}
@@ -15311,6 +15815,516 @@ country_event = {
 			}
 		}
 		expedition_provs.west_atlantis_node = {
+			clr_province_flag = MEC_Expeditions_owned_by_sender_or_subjects
+		}
+	}
+	# Option for sending Expedition to Zealandia Node
+	option = {
+		name = MEC_Expeditions.003.zealandia
+		#log = "MEC_Expeditions:[GetYear]:[Root.GetName]:selected expedition to:zealandia"
+		trigger = {
+			MEC_Expeditions_available_zealandia_trigger = yes
+			NOT = { has_country_flag = MEC_Expeditions_sent_zealandia }
+		}
+		ai_chance = {
+			factor = 100
+			modifier = { # Less likely to send expeditions to places you already have a province
+				factor = 0.1
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					province_group = expedition_provs.zealandia
+					OR = {
+						has_province_modifier = trading_post_province
+						has_province_flag = TN_Natural
+						}
+					value = 1
+				}
+			}
+			modifier = { # Less likely to send expeditions to places you have no trade node connection with
+				factor = 0 
+				NOT = {is_year = 1650}
+				NOT = {
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 1
+						province_group = tradenode_comb_86
+					}
+				}
+			}
+			modifier = { # Far less likely to send expeditions to places you failed a takeover attempt at
+				factor = 0.1
+				has_country_modifier = MEC_Modifier_Expedition_Failed_zealandia
+			}
+			modifier = { # Stop AI from loosing expeditions of provinces owned by comparable nations
+				factor = 0.05
+				expedition_provs.zealandia = {
+					type = all 
+					is_empty = no
+					owner = { check_key = { lhs = tech_mil which = ROOT } }
+				}
+			}
+		}
+		hidden_effect = {
+			add_country_modifier = {
+				name = MEC_Modifier_Expedition_zealandia
+				duration = 262
+			}
+			clr_country_flag = MEC_Expeditions_sent_british_isles
+			clr_country_flag = MEC_Expeditions_sent_northern_europe
+			clr_country_flag = MEC_Expeditions_sent_france
+			clr_country_flag = MEC_Expeditions_sent_iberia
+			clr_country_flag = MEC_Expeditions_sent_iberian_islands
+			clr_country_flag = MEC_Expeditions_sent_northwest_africa
+			clr_country_flag = MEC_Expeditions_sent_west_africa
+			clr_country_flag = MEC_Expeditions_sent_gulf_of_guinea
+			clr_country_flag = MEC_Expeditions_sent_central_africa
+			clr_country_flag = MEC_Expeditions_sent_south_africa
+			clr_country_flag = MEC_Expeditions_sent_east_africa
+			clr_country_flag = MEC_Expeditions_sent_indian_ocean
+			clr_country_flag = MEC_Expeditions_sent_arabia
+			clr_country_flag = MEC_Expeditions_sent_western_india
+			clr_country_flag = MEC_Expeditions_sent_southern_india
+			clr_country_flag = MEC_Expeditions_sent_eastern_india
+			clr_country_flag = MEC_Expeditions_sent_malacca
+			clr_country_flag = MEC_Expeditions_sent_southeast_asia
+			clr_country_flag = MEC_Expeditions_sent_indonesia
+			clr_country_flag = MEC_Expeditions_sent_philippines
+			clr_country_flag = MEC_Expeditions_sent_papua
+			clr_country_flag = MEC_Expeditions_sent_australia
+			clr_country_flag = MEC_Expeditions_sent_pacific_islands
+			clr_country_flag = MEC_Expeditions_sent_southern_china
+			clr_country_flag = MEC_Expeditions_sent_northern_china
+			clr_country_flag = MEC_Expeditions_sent_korea
+			clr_country_flag = MEC_Expeditions_sent_japan
+			clr_country_flag = MEC_Expeditions_sent_cuba
+			clr_country_flag = MEC_Expeditions_sent_hispaniola
+			clr_country_flag = MEC_Expeditions_sent_caribbean
+			clr_country_flag = MEC_Expeditions_sent_atlantic_colombia
+			clr_country_flag = MEC_Expeditions_sent_guyana
+			clr_country_flag = MEC_Expeditions_sent_atlantic_mexico
+			clr_country_flag = MEC_Expeditions_sent_north_brazil
+			clr_country_flag = MEC_Expeditions_sent_south_brazil
+			clr_country_flag = MEC_Expeditions_sent_gulf_of_mexico
+			clr_country_flag = MEC_Expeditions_sent_southeastern_america
+			clr_country_flag = MEC_Expeditions_sent_eastern_america
+			clr_country_flag = MEC_Expeditions_sent_canada
+			clr_country_flag = MEC_Expeditions_sent_north_atlantic
+			clr_country_flag = MEC_Expeditions_sent_hudson_bay
+			clr_country_flag = MEC_Expeditions_sent_la_plata
+			clr_country_flag = MEC_Expeditions_sent_california
+			clr_country_flag = MEC_Expeditions_sent_alaska
+			clr_country_flag = MEC_Expeditions_sent_pacific_mexico
+			clr_country_flag = MEC_Expeditions_sent_pacific_central_america
+			clr_country_flag = MEC_Expeditions_sent_peru
+			clr_country_flag = MEC_Expeditions_sent_chile
+			clr_country_flag = MEC_Expeditions_sent_south_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
+
+			set_country_flag = MEC_Expeditions_sent_zealandia
+		}
+		if = {
+			limit = {
+				has_idea = colonialism_ideas_1
+			}
+			random_list = {
+				80 = {
+					country_event = {
+						id = MEC_Expeditions.152
+						days = 262
+					}
+				}
+				10 = {
+					country_event = {
+						id = MEC_Expeditions.652
+						days = 262
+					}
+				}
+				5 = {
+					country_event = {
+						id = MEC_Expeditions.552
+						days = 262
+					}
+				}
+				5 = {
+					country_event = {
+						id = MEC_Expeditions.452
+						days = 262
+					}
+				}
+			}
+		}
+		else = {
+			random_list = {
+				40 = {
+					country_event = {
+						id = MEC_Expeditions.152
+						days = 262
+					}
+				}
+				15 = {
+					country_event = {
+						id = MEC_Expeditions.652
+						days = 262
+					}
+				}
+				15 = {
+					country_event = {
+						id = MEC_Expeditions.552
+						days = 262
+					}
+				}
+				30 = {
+					country_event = {
+						id = MEC_Expeditions.452
+						days = 262
+					}
+				}
+			}
+		}
+		expedition_provs.zealandia = {
+			clr_province_flag = MEC_Expeditions_owned_by_sender_or_subjects
+		}
+	}
+	# Option for sending Expedition to East Zealandia Node
+	option = {
+		name = MEC_Expeditions.003.eastzealandia
+		#log = "MEC_Expeditions:[GetYear]:[Root.GetName]:selected expedition to:eastzealandia"
+		trigger = {
+			MEC_Expeditions_available_eastzealandia_trigger = yes
+			NOT = { has_country_flag = MEC_Expeditions_sent_eastzealandia }
+		}
+		ai_chance = {
+			factor = 100
+			modifier = { # Less likely to send expeditions to places you already have a province
+				factor = 0.1
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					province_group = expedition_provs.eastzealandia
+					OR = {
+						has_province_modifier = trading_post_province
+						has_province_flag = TN_Natural
+						}
+					value = 1
+				}
+			}
+			modifier = { # Less likely to send expeditions to places you have no trade node connection with
+				factor = 0 
+				NOT = {is_year = 1650}
+				NOT = {
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 1
+						province_group = tradenode_comb_87
+					}
+				}
+			}
+			modifier = { # Far less likely to send expeditions to places you failed a takeover attempt at
+				factor = 0.1
+				has_country_modifier = MEC_Modifier_Expedition_Failed_eastzealandia
+			}
+			modifier = { # Stop AI from loosing expeditions of provinces owned by comparable nations
+				factor = 0.05
+				expedition_provs.eastzealandia = {
+					type = all 
+					is_empty = no
+					owner = { check_key = { lhs = tech_mil which = ROOT } }
+				}
+			}
+		}
+		hidden_effect = {
+			add_country_modifier = {
+				name = MEC_Modifier_Expedition_eastzealandia
+				duration = 262
+			}
+			clr_country_flag = MEC_Expeditions_sent_british_isles
+			clr_country_flag = MEC_Expeditions_sent_northern_europe
+			clr_country_flag = MEC_Expeditions_sent_france
+			clr_country_flag = MEC_Expeditions_sent_iberia
+			clr_country_flag = MEC_Expeditions_sent_iberian_islands
+			clr_country_flag = MEC_Expeditions_sent_northwest_africa
+			clr_country_flag = MEC_Expeditions_sent_west_africa
+			clr_country_flag = MEC_Expeditions_sent_gulf_of_guinea
+			clr_country_flag = MEC_Expeditions_sent_central_africa
+			clr_country_flag = MEC_Expeditions_sent_south_africa
+			clr_country_flag = MEC_Expeditions_sent_east_africa
+			clr_country_flag = MEC_Expeditions_sent_indian_ocean
+			clr_country_flag = MEC_Expeditions_sent_arabia
+			clr_country_flag = MEC_Expeditions_sent_western_india
+			clr_country_flag = MEC_Expeditions_sent_southern_india
+			clr_country_flag = MEC_Expeditions_sent_eastern_india
+			clr_country_flag = MEC_Expeditions_sent_malacca
+			clr_country_flag = MEC_Expeditions_sent_southeast_asia
+			clr_country_flag = MEC_Expeditions_sent_indonesia
+			clr_country_flag = MEC_Expeditions_sent_philippines
+			clr_country_flag = MEC_Expeditions_sent_papua
+			clr_country_flag = MEC_Expeditions_sent_australia
+			clr_country_flag = MEC_Expeditions_sent_pacific_islands
+			clr_country_flag = MEC_Expeditions_sent_southern_china
+			clr_country_flag = MEC_Expeditions_sent_northern_china
+			clr_country_flag = MEC_Expeditions_sent_korea
+			clr_country_flag = MEC_Expeditions_sent_japan
+			clr_country_flag = MEC_Expeditions_sent_cuba
+			clr_country_flag = MEC_Expeditions_sent_hispaniola
+			clr_country_flag = MEC_Expeditions_sent_caribbean
+			clr_country_flag = MEC_Expeditions_sent_atlantic_colombia
+			clr_country_flag = MEC_Expeditions_sent_guyana
+			clr_country_flag = MEC_Expeditions_sent_atlantic_mexico
+			clr_country_flag = MEC_Expeditions_sent_north_brazil
+			clr_country_flag = MEC_Expeditions_sent_south_brazil
+			clr_country_flag = MEC_Expeditions_sent_gulf_of_mexico
+			clr_country_flag = MEC_Expeditions_sent_southeastern_america
+			clr_country_flag = MEC_Expeditions_sent_eastern_america
+			clr_country_flag = MEC_Expeditions_sent_canada
+			clr_country_flag = MEC_Expeditions_sent_north_atlantic
+			clr_country_flag = MEC_Expeditions_sent_hudson_bay
+			clr_country_flag = MEC_Expeditions_sent_la_plata
+			clr_country_flag = MEC_Expeditions_sent_california
+			clr_country_flag = MEC_Expeditions_sent_alaska
+			clr_country_flag = MEC_Expeditions_sent_pacific_mexico
+			clr_country_flag = MEC_Expeditions_sent_pacific_central_america
+			clr_country_flag = MEC_Expeditions_sent_peru
+			clr_country_flag = MEC_Expeditions_sent_chile
+			clr_country_flag = MEC_Expeditions_sent_south_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
+
+			set_country_flag = MEC_Expeditions_sent_eastzealandia
+		}
+		if = {
+			limit = {
+				has_idea = colonialism_ideas_1
+			}
+			random_list = {
+				80 = {
+					country_event = {
+						id = MEC_Expeditions.153
+						days = 262
+					}
+				}
+				10 = {
+					country_event = {
+						id = MEC_Expeditions.653
+						days = 262
+					}
+				}
+				5 = {
+					country_event = {
+						id = MEC_Expeditions.553
+						days = 262
+					}
+				}
+				5 = {
+					country_event = {
+						id = MEC_Expeditions.453
+						days = 262
+					}
+				}
+			}
+		}
+		else = {
+			random_list = {
+				40 = {
+					country_event = {
+						id = MEC_Expeditions.153
+						days = 262
+					}
+				}
+				15 = {
+					country_event = {
+						id = MEC_Expeditions.653
+						days = 262
+					}
+				}
+				15 = {
+					country_event = {
+						id = MEC_Expeditions.553
+						days = 262
+					}
+				}
+				30 = {
+					country_event = {
+						id = MEC_Expeditions.453
+						days = 262
+					}
+				}
+			}
+		}
+		expedition_provs.eastzealandia = {
+			clr_province_flag = MEC_Expeditions_owned_by_sender_or_subjects
+		}
+	}
+	# Option for sending Expedition to South Zealandia Node
+	option = {
+		name = MEC_Expeditions.003.southzealandia
+		#log = "MEC_Expeditions:[GetYear]:[Root.GetName]:selected expedition to:southzealandia"
+		trigger = {
+			MEC_Expeditions_available_southzealandia_trigger = yes
+			NOT = { has_country_flag = MEC_Expeditions_sent_southzealandia }
+		}
+		ai_chance = {
+			factor = 100
+			modifier = { # Less likely to send expeditions to places you already have a province
+				factor = 0.1
+				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+					province_group = expedition_provs.southzealandia
+					OR = {
+						has_province_modifier = trading_post_province
+						has_province_flag = TN_Natural
+						}
+					value = 1
+				}
+			}
+			modifier = { # Less likely to send expeditions to places you have no trade node connection with
+				factor = 0 
+				NOT = {is_year = 1650}
+				NOT = {
+					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+						value = 1
+						province_group = tradenode_comb_88
+					}
+				}
+			}
+			modifier = { # Far less likely to send expeditions to places you failed a takeover attempt at
+				factor = 0.1
+				has_country_modifier = MEC_Modifier_Expedition_Failed_southzealandia
+			}
+			modifier = { # Stop AI from loosing expeditions of provinces owned by comparable nations
+				factor = 0.05
+				expedition_provs.southzealandia = {
+					type = all 
+					is_empty = no
+					owner = { check_key = { lhs = tech_mil which = ROOT } }
+				}
+			}
+		}
+		hidden_effect = {
+			add_country_modifier = {
+				name = MEC_Modifier_Expedition_southzealandia
+				duration = 262
+			}
+			clr_country_flag = MEC_Expeditions_sent_british_isles
+			clr_country_flag = MEC_Expeditions_sent_northern_europe
+			clr_country_flag = MEC_Expeditions_sent_france
+			clr_country_flag = MEC_Expeditions_sent_iberia
+			clr_country_flag = MEC_Expeditions_sent_iberian_islands
+			clr_country_flag = MEC_Expeditions_sent_northwest_africa
+			clr_country_flag = MEC_Expeditions_sent_west_africa
+			clr_country_flag = MEC_Expeditions_sent_gulf_of_guinea
+			clr_country_flag = MEC_Expeditions_sent_central_africa
+			clr_country_flag = MEC_Expeditions_sent_south_africa
+			clr_country_flag = MEC_Expeditions_sent_east_africa
+			clr_country_flag = MEC_Expeditions_sent_indian_ocean
+			clr_country_flag = MEC_Expeditions_sent_arabia
+			clr_country_flag = MEC_Expeditions_sent_western_india
+			clr_country_flag = MEC_Expeditions_sent_southern_india
+			clr_country_flag = MEC_Expeditions_sent_eastern_india
+			clr_country_flag = MEC_Expeditions_sent_malacca
+			clr_country_flag = MEC_Expeditions_sent_southeast_asia
+			clr_country_flag = MEC_Expeditions_sent_indonesia
+			clr_country_flag = MEC_Expeditions_sent_philippines
+			clr_country_flag = MEC_Expeditions_sent_papua
+			clr_country_flag = MEC_Expeditions_sent_australia
+			clr_country_flag = MEC_Expeditions_sent_pacific_islands
+			clr_country_flag = MEC_Expeditions_sent_southern_china
+			clr_country_flag = MEC_Expeditions_sent_northern_china
+			clr_country_flag = MEC_Expeditions_sent_korea
+			clr_country_flag = MEC_Expeditions_sent_japan
+			clr_country_flag = MEC_Expeditions_sent_cuba
+			clr_country_flag = MEC_Expeditions_sent_hispaniola
+			clr_country_flag = MEC_Expeditions_sent_caribbean
+			clr_country_flag = MEC_Expeditions_sent_atlantic_colombia
+			clr_country_flag = MEC_Expeditions_sent_guyana
+			clr_country_flag = MEC_Expeditions_sent_atlantic_mexico
+			clr_country_flag = MEC_Expeditions_sent_north_brazil
+			clr_country_flag = MEC_Expeditions_sent_south_brazil
+			clr_country_flag = MEC_Expeditions_sent_gulf_of_mexico
+			clr_country_flag = MEC_Expeditions_sent_southeastern_america
+			clr_country_flag = MEC_Expeditions_sent_eastern_america
+			clr_country_flag = MEC_Expeditions_sent_canada
+			clr_country_flag = MEC_Expeditions_sent_north_atlantic
+			clr_country_flag = MEC_Expeditions_sent_hudson_bay
+			clr_country_flag = MEC_Expeditions_sent_la_plata
+			clr_country_flag = MEC_Expeditions_sent_california
+			clr_country_flag = MEC_Expeditions_sent_alaska
+			clr_country_flag = MEC_Expeditions_sent_pacific_mexico
+			clr_country_flag = MEC_Expeditions_sent_pacific_central_america
+			clr_country_flag = MEC_Expeditions_sent_peru
+			clr_country_flag = MEC_Expeditions_sent_chile
+			clr_country_flag = MEC_Expeditions_sent_south_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_north_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_east_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_west_atlantis_node
+			clr_country_flag = MEC_Expeditions_sent_zealandia
+			clr_country_flag = MEC_Expeditions_sent_eastzealandia
+			clr_country_flag = MEC_Expeditions_sent_southzealandia
+
+			set_country_flag = MEC_Expeditions_sent_southzealandia
+		}
+		if = {
+			limit = {
+				has_idea = colonialism_ideas_1
+			}
+			random_list = {
+				80 = {
+					country_event = {
+						id = MEC_Expeditions.154
+						days = 262
+					}
+				}
+				10 = {
+					country_event = {
+						id = MEC_Expeditions.654
+						days = 262
+					}
+				}
+				5 = {
+					country_event = {
+						id = MEC_Expeditions.554
+						days = 262
+					}
+				}
+				5 = {
+					country_event = {
+						id = MEC_Expeditions.454
+						days = 262
+					}
+				}
+			}
+		}
+		else = {
+			random_list = {
+				40 = {
+					country_event = {
+						id = MEC_Expeditions.154
+						days = 262
+					}
+				}
+				15 = {
+					country_event = {
+						id = MEC_Expeditions.654
+						days = 262
+					}
+				}
+				15 = {
+					country_event = {
+						id = MEC_Expeditions.554
+						days = 262
+					}
+				}
+				30 = {
+					country_event = {
+						id = MEC_Expeditions.454
+						days = 262
+					}
+				}
+			}
+		}
+		expedition_provs.southzealandia = {
 			clr_province_flag = MEC_Expeditions_owned_by_sender_or_subjects
 		}
 	}
@@ -35762,6 +36776,1185 @@ country_event = {
 			}
 		}
 		expedition_provs.west_atlantis_node = {
+			clr_province_flag = MEC_Expeditions_owned_by_sender_or_subjects
+		}
+	}
+}
+# Arrivals of Expedition to Zealandia Node
+country_event = {
+	id = MEC_Expeditions.152
+	title = MEC_Expeditions.152.title
+	desc = MEC_Expeditions.152.desc
+	picture = TRADEGOODS_eventPicture
+	is_triggered_only = yes
+	hidden = yes
+	
+	option = {
+		name = MEC_Expeditions.arrival
+		if = { # Have to check again in case of change while expedition was in progress
+			limit = { 
+				expedition_provs.zealandia = {
+					MEC_Expeditions_eligible_province_trigger = yes
+				}
+			}
+			set_key = { # Counter for loop
+				lhs = Tmp_7
+				value = 20
+			}
+			set_key = { # High initial value to guarantee first province will be lower
+				lhs = Tmp_8
+				value = 1000
+			}
+			while = {
+				limit = { # Exit loop when counter is below 1
+					check_key = {
+						lhs = Tmp_7
+						value = 1
+					}
+				}
+			    if = { # if best value is negative (aka empty with feature)
+			        limit = {
+			            NOT = {
+                            check_key = {
+                                lhs = Tmp_8
+                                value = 0
+                            }
+                        }
+			        }
+			        # Multiply best value by 5 and then add (it's negative) to loop counter
+			        set_key = {
+			            lhs = Tmp_6
+			            which = Tmp_8
+			        }
+			        multiply_key = { 
+			            lhs = Tmp_6
+			            value = 5
+			        }
+			        change_key = { 
+			            lhs = Tmp_7
+			            which = Tmp_6
+			        }
+			    }
+			    else = {
+                    subtract_key = { # Reduce loop counter
+                        lhs = Tmp_7
+                        value = 1
+                    }
+				}
+				random_province = {  # In province group, not owned by sender or their subjects, and doesn't have truce with owner
+					limit = { 
+						province_group = expedition_provs.zealandia
+						MEC_Expeditions_eligible_province_trigger = yes
+					}
+					MEC_Expeditions_defence_calc_effect = yes # Sets Tmp 0-4, 9
+                    set_key = { # Copy current best number from country into this scope
+                        lhs = Tmp_8
+                        which = ROOT
+                    }
+                    if = { # If the current province number is better target (lower number) then set it as the new target
+                        limit = { # 8 < 2
+                            NOT = { 
+                                check_key = { 
+                                    lhs = Tmp_9
+                                    which = Tmp_8
+                                }
+                            }
+                        }
+                        save_event_target_as = MEC_Expedition_Target_Province
+                        set_key = { # Overwrite the number in this scope
+                            lhs = Tmp_8
+                            which = Tmp_9
+                        }
+                        ROOT = { # Copy the overwrite to the country scope
+                            set_key = {
+                                lhs = Tmp_8
+                                which = PREV
+                            }
+                        }
+					}
+				}
+			} 
+			event_target:MEC_Expedition_Target_Province = { # Call the landing event on the province that was found to be best
+			    if = { # If player has selected to always fight, skip landing event
+			        limit = {
+			            is_empty = no
+			            owner = {
+			                has_country_flag = MEC_Expeditions_always_fight
+			            }
+			        }
+			        export_to_key = { # Expedition sender mil tech
+                        lhs = MEC_Expeditions_Comparison
+                        value = mil_tech
+                        who = FROM
+                    }
+                    MEC_Expeditions_defence_calc_effect = yes # Sets Tmp 0-4, 9
+                    subtract_key = {
+                        lhs = MEC_Expeditions_Comparison
+                        which = Tmp_9
+                    }
+		            if = { # Use MEC_Expeditions_Comparison as success chance
+					    limit = {
+					        check_key = {
+					            lhs = MEC_Expeditions_Comparison
+					            value = 10
+					        }
+					    }
+					    FROM = { # 100%
+					        country_event = { # Success
+					            id = MEC_Expeditions.352
+					            days = 0
+					        }
+					    } 
+					}
+					else_if = {
+					    limit = {
+					        check_key = {
+					            lhs = MEC_Expeditions_Comparison
+					            value = 9
+					        }
+					    }
+					    random_list = {
+					        90 = {
+					            FROM = {
+					                country_event = { # Success
+					                    id = MEC_Expeditions.352
+					                    days = 0
+					                }
+					            } 
+					        }
+					        10 = {
+					            FROM = {
+					                country_event = { # Failure
+					                    id = MEC_Expeditions.452
+					                    days = 0
+					                }
+					                hidden_effect = {
+					                    add_country_modifier = {
+					                        name = MEC_Modifier_Expedition_Failed_zealandia
+					                        duration = 7300 # 20 years
+					                        hidden = yes
+					                    }
+					                }
+					            }
+					        }
+					    }
+					}
+					else_if = {
+					    limit = {
+					        check_key = {
+					            lhs = MEC_Expeditions_Comparison
+					            value = 8
+					        }
+					    }
+					    random_list = {
+					        80 = {
+					            FROM = {
+					                country_event = { # Success
+					                    id = MEC_Expeditions.352
+					                    days = 0
+					                }
+					            } 
+					        }
+					        20 = {
+					            FROM = {
+					                country_event = { # Failure
+					                    id = MEC_Expeditions.452
+					                    days = 0
+					                }
+					                hidden_effect = {
+					                    add_country_modifier = {
+					                        name = MEC_Modifier_Expedition_Failed_zealandia
+					                        duration = 3650
+					                        hidden = yes
+					                    }
+					                }
+					            }
+					        }
+					    }
+					}
+					else_if = {
+					    limit = {
+					        check_key = {
+					            lhs = MEC_Expeditions_Comparison
+					            value = 7
+					        }
+					    }
+					    random_list = {
+					        70 = {
+					            FROM = {
+					                country_event = { # Success
+					                    id = MEC_Expeditions.352
+					                    days = 0
+					                }
+					            } 
+					        }
+					        30 = {
+					            FROM = {
+					                country_event = { # Failure
+					                    id = MEC_Expeditions.452
+					                    days = 0
+					                }
+					                hidden_effect = {
+					                    add_country_modifier = {
+					                        name = MEC_Modifier_Expedition_Failed_zealandia
+					                        duration = 3650
+					                        hidden = yes
+					                    }
+					                }
+					            }
+					        }
+					    }
+					}
+					else_if = {
+					    limit = {
+					        check_key = {
+					            lhs = MEC_Expeditions_Comparison
+					            value = 6
+					        }
+					    }
+					    random_list = {
+					        60 = {
+					            FROM = {
+					                country_event = { # Success
+					                    id = MEC_Expeditions.352
+					                    days = 0
+					                }
+					            } 
+					        }
+					        40 = {
+					            FROM = {
+					                country_event = { # Failure
+					                    id = MEC_Expeditions.452
+					                    days = 0
+					                }
+					                hidden_effect = {
+					                    add_country_modifier = {
+					                        name = MEC_Modifier_Expedition_Failed_zealandia
+					                        duration = 3650
+					                        hidden = yes
+					                    }
+					                }
+					            }
+					        }
+					    }
+					}
+					else_if = {
+					    limit = {
+					        check_key = {
+					            lhs = MEC_Expeditions_Comparison
+					            value = 5
+					        }
+					    }
+					    random_list = {
+					        50 = {
+					            FROM = {
+					                country_event = { # Success
+					                    id = MEC_Expeditions.352
+					                    days = 0
+					                }
+					            } 
+					        }
+					        50 = {
+					            FROM = {
+					                country_event = { # Failure
+					                    id = MEC_Expeditions.452
+					                    days = 0
+					                }
+					                hidden_effect = {
+					                    add_country_modifier = {
+					                        name = MEC_Modifier_Expedition_Failed_zealandia
+					                        duration = 3650
+					                        hidden = yes
+					                    }
+					                }
+					            }
+					        }
+					    }
+					}
+					else_if = {
+					    limit = {
+					        check_key = {
+					            lhs = MEC_Expeditions_Comparison
+					            value = 4
+					        }
+					    }
+					    random_list = {
+					        40 = {
+					            FROM = {
+					                country_event = { # Success
+					                    id = MEC_Expeditions.352
+					                    days = 0
+					                }
+					            } 
+					        }
+					        60 = {
+					            FROM = {
+					                country_event = { # Failure
+					                    id = MEC_Expeditions.452
+					                    days = 0
+					                }
+					                hidden_effect = {
+					                    add_country_modifier = {
+					                        name = MEC_Modifier_Expedition_Failed_zealandia
+					                        duration = 3650
+					                        hidden = yes
+					                    }
+					                }
+					            }
+					        }
+					    }
+					}
+					else_if = {
+					    limit = {
+					        check_key = {
+					            lhs = MEC_Expeditions_Comparison
+					            value = 3
+					        }
+					    }
+					    random_list = {
+					        30 = {
+					            FROM = {
+					                country_event = { # Success
+					                    id = MEC_Expeditions.352
+					                    days = 0
+					                }
+					            } 
+					        }
+					        70 = {
+					            FROM = {
+					                country_event = { # Failure
+					                    id = MEC_Expeditions.452
+					                    days = 0
+					                }
+					                hidden_effect = {
+					                    add_country_modifier = {
+					                        name = MEC_Modifier_Expedition_Failed_zealandia
+					                        duration = 3650
+					                        hidden = yes
+					                    }
+					                }
+					            }
+					        }
+					    }
+					}
+					else = {
+					    FROM = {
+					        country_event = { # Failure
+					            id = MEC_Expeditions.752
+					            days = 0
+					        }
+					        hidden_effect = {
+					            add_country_modifier = {
+					                name = MEC_Modifier_Expedition_Failed_zealandia
+					                duration = 3650
+					                hidden = yes
+					            }
+					        }
+					    }
+					}
+  
+			    }
+			    else = {
+                    province_event = { # Call landing event
+                        id = MEC_Expeditions.252
+                        days = 0
+                    }
+				}
+			}
+		} 
+		else = {
+			country_event = { # Call failure event
+				id = MEC_Expeditions.452
+				days = 0
+			}
+		}
+		expedition_provs.zealandia = {
+			clr_province_flag = MEC_Expeditions_owned_by_sender_or_subjects
+		}
+	}
+}
+# Arrivals of Expedition to East Zealandia Node
+country_event = {
+	id = MEC_Expeditions.153
+	title = MEC_Expeditions.153.title
+	desc = MEC_Expeditions.153.desc
+	picture = TRADEGOODS_eventPicture
+	is_triggered_only = yes
+	hidden = yes
+	
+	option = {
+		name = MEC_Expeditions.arrival
+		if = { # Have to check again in case of change while expedition was in progress
+			limit = { 
+				expedition_provs.eastzealandia = {
+					MEC_Expeditions_eligible_province_trigger = yes
+				}
+			}
+			set_key = { # Counter for loop
+				lhs = Tmp_7
+				value = 20
+			}
+			set_key = { # High initial value to guarantee first province will be lower
+				lhs = Tmp_8
+				value = 1000
+			}
+			while = {
+				limit = { # Exit loop when counter is below 1
+					check_key = {
+						lhs = Tmp_7
+						value = 1
+					}
+				}
+			    if = { # if best value is negative (aka empty with feature)
+			        limit = {
+			            NOT = {
+                            check_key = {
+                                lhs = Tmp_8
+                                value = 0
+                            }
+                        }
+			        }
+			        # Multiply best value by 5 and then add (it's negative) to loop counter
+			        set_key = {
+			            lhs = Tmp_6
+			            which = Tmp_8
+			        }
+			        multiply_key = { 
+			            lhs = Tmp_6
+			            value = 5
+			        }
+			        change_key = { 
+			            lhs = Tmp_7
+			            which = Tmp_6
+			        }
+			    }
+			    else = {
+                    subtract_key = { # Reduce loop counter
+                        lhs = Tmp_7
+                        value = 1
+                    }
+				}
+				random_province = {  # In province group, not owned by sender or their subjects, and doesn't have truce with owner
+					limit = { 
+						province_group = expedition_provs.eastzealandia
+						MEC_Expeditions_eligible_province_trigger = yes
+					}
+					MEC_Expeditions_defence_calc_effect = yes # Sets Tmp 0-4, 9
+                    set_key = { # Copy current best number from country into this scope
+                        lhs = Tmp_8
+                        which = ROOT
+                    }
+                    if = { # If the current province number is better target (lower number) then set it as the new target
+                        limit = { # 8 < 2
+                            NOT = { 
+                                check_key = { 
+                                    lhs = Tmp_9
+                                    which = Tmp_8
+                                }
+                            }
+                        }
+                        save_event_target_as = MEC_Expedition_Target_Province
+                        set_key = { # Overwrite the number in this scope
+                            lhs = Tmp_8
+                            which = Tmp_9
+                        }
+                        ROOT = { # Copy the overwrite to the country scope
+                            set_key = {
+                                lhs = Tmp_8
+                                which = PREV
+                            }
+                        }
+					}
+				}
+			} 
+			event_target:MEC_Expedition_Target_Province = { # Call the landing event on the province that was found to be best
+			    if = { # If player has selected to always fight, skip landing event
+			        limit = {
+			            is_empty = no
+			            owner = {
+			                has_country_flag = MEC_Expeditions_always_fight
+			            }
+			        }
+			        export_to_key = { # Expedition sender mil tech
+                        lhs = MEC_Expeditions_Comparison
+                        value = mil_tech
+                        who = FROM
+                    }
+                    MEC_Expeditions_defence_calc_effect = yes # Sets Tmp 0-4, 9
+                    subtract_key = {
+                        lhs = MEC_Expeditions_Comparison
+                        which = Tmp_9
+                    }
+		            if = { # Use MEC_Expeditions_Comparison as success chance
+					    limit = {
+					        check_key = {
+					            lhs = MEC_Expeditions_Comparison
+					            value = 10
+					        }
+					    }
+					    FROM = { # 100%
+					        country_event = { # Success
+					            id = MEC_Expeditions.353
+					            days = 0
+					        }
+					    } 
+					}
+					else_if = {
+					    limit = {
+					        check_key = {
+					            lhs = MEC_Expeditions_Comparison
+					            value = 9
+					        }
+					    }
+					    random_list = {
+					        90 = {
+					            FROM = {
+					                country_event = { # Success
+					                    id = MEC_Expeditions.353
+					                    days = 0
+					                }
+					            } 
+					        }
+					        10 = {
+					            FROM = {
+					                country_event = { # Failure
+					                    id = MEC_Expeditions.453
+					                    days = 0
+					                }
+					                hidden_effect = {
+					                    add_country_modifier = {
+					                        name = MEC_Modifier_Expedition_Failed_eastzealandia
+					                        duration = 7300 # 20 years
+					                        hidden = yes
+					                    }
+					                }
+					            }
+					        }
+					    }
+					}
+					else_if = {
+					    limit = {
+					        check_key = {
+					            lhs = MEC_Expeditions_Comparison
+					            value = 8
+					        }
+					    }
+					    random_list = {
+					        80 = {
+					            FROM = {
+					                country_event = { # Success
+					                    id = MEC_Expeditions.353
+					                    days = 0
+					                }
+					            } 
+					        }
+					        20 = {
+					            FROM = {
+					                country_event = { # Failure
+					                    id = MEC_Expeditions.453
+					                    days = 0
+					                }
+					                hidden_effect = {
+					                    add_country_modifier = {
+					                        name = MEC_Modifier_Expedition_Failed_eastzealandia
+					                        duration = 3650
+					                        hidden = yes
+					                    }
+					                }
+					            }
+					        }
+					    }
+					}
+					else_if = {
+					    limit = {
+					        check_key = {
+					            lhs = MEC_Expeditions_Comparison
+					            value = 7
+					        }
+					    }
+					    random_list = {
+					        70 = {
+					            FROM = {
+					                country_event = { # Success
+					                    id = MEC_Expeditions.353
+					                    days = 0
+					                }
+					            } 
+					        }
+					        30 = {
+					            FROM = {
+					                country_event = { # Failure
+					                    id = MEC_Expeditions.453
+					                    days = 0
+					                }
+					                hidden_effect = {
+					                    add_country_modifier = {
+					                        name = MEC_Modifier_Expedition_Failed_eastzealandia
+					                        duration = 3650
+					                        hidden = yes
+					                    }
+					                }
+					            }
+					        }
+					    }
+					}
+					else_if = {
+					    limit = {
+					        check_key = {
+					            lhs = MEC_Expeditions_Comparison
+					            value = 6
+					        }
+					    }
+					    random_list = {
+					        60 = {
+					            FROM = {
+					                country_event = { # Success
+					                    id = MEC_Expeditions.353
+					                    days = 0
+					                }
+					            } 
+					        }
+					        40 = {
+					            FROM = {
+					                country_event = { # Failure
+					                    id = MEC_Expeditions.453
+					                    days = 0
+					                }
+					                hidden_effect = {
+					                    add_country_modifier = {
+					                        name = MEC_Modifier_Expedition_Failed_eastzealandia
+					                        duration = 3650
+					                        hidden = yes
+					                    }
+					                }
+					            }
+					        }
+					    }
+					}
+					else_if = {
+					    limit = {
+					        check_key = {
+					            lhs = MEC_Expeditions_Comparison
+					            value = 5
+					        }
+					    }
+					    random_list = {
+					        50 = {
+					            FROM = {
+					                country_event = { # Success
+					                    id = MEC_Expeditions.353
+					                    days = 0
+					                }
+					            } 
+					        }
+					        50 = {
+					            FROM = {
+					                country_event = { # Failure
+					                    id = MEC_Expeditions.453
+					                    days = 0
+					                }
+					                hidden_effect = {
+					                    add_country_modifier = {
+					                        name = MEC_Modifier_Expedition_Failed_eastzealandia
+					                        duration = 3650
+					                        hidden = yes
+					                    }
+					                }
+					            }
+					        }
+					    }
+					}
+					else_if = {
+					    limit = {
+					        check_key = {
+					            lhs = MEC_Expeditions_Comparison
+					            value = 4
+					        }
+					    }
+					    random_list = {
+					        40 = {
+					            FROM = {
+					                country_event = { # Success
+					                    id = MEC_Expeditions.353
+					                    days = 0
+					                }
+					            } 
+					        }
+					        60 = {
+					            FROM = {
+					                country_event = { # Failure
+					                    id = MEC_Expeditions.453
+					                    days = 0
+					                }
+					                hidden_effect = {
+					                    add_country_modifier = {
+					                        name = MEC_Modifier_Expedition_Failed_eastzealandia
+					                        duration = 3650
+					                        hidden = yes
+					                    }
+					                }
+					            }
+					        }
+					    }
+					}
+					else_if = {
+					    limit = {
+					        check_key = {
+					            lhs = MEC_Expeditions_Comparison
+					            value = 3
+					        }
+					    }
+					    random_list = {
+					        30 = {
+					            FROM = {
+					                country_event = { # Success
+					                    id = MEC_Expeditions.353
+					                    days = 0
+					                }
+					            } 
+					        }
+					        70 = {
+					            FROM = {
+					                country_event = { # Failure
+					                    id = MEC_Expeditions.453
+					                    days = 0
+					                }
+					                hidden_effect = {
+					                    add_country_modifier = {
+					                        name = MEC_Modifier_Expedition_Failed_eastzealandia
+					                        duration = 3650
+					                        hidden = yes
+					                    }
+					                }
+					            }
+					        }
+					    }
+					}
+					else = {
+					    FROM = {
+					        country_event = { # Failure
+					            id = MEC_Expeditions.753
+					            days = 0
+					        }
+					        hidden_effect = {
+					            add_country_modifier = {
+					                name = MEC_Modifier_Expedition_Failed_eastzealandia
+					                duration = 3650
+					                hidden = yes
+					            }
+					        }
+					    }
+					}
+  
+			    }
+			    else = {
+                    province_event = { # Call landing event
+                        id = MEC_Expeditions.253
+                        days = 0
+                    }
+				}
+			}
+		} 
+		else = {
+			country_event = { # Call failure event
+				id = MEC_Expeditions.453
+				days = 0
+			}
+		}
+		expedition_provs.eastzealandia = {
+			clr_province_flag = MEC_Expeditions_owned_by_sender_or_subjects
+		}
+	}
+}
+# Arrivals of Expedition to South Zealandia Node
+country_event = {
+	id = MEC_Expeditions.154
+	title = MEC_Expeditions.154.title
+	desc = MEC_Expeditions.154.desc
+	picture = TRADEGOODS_eventPicture
+	is_triggered_only = yes
+	hidden = yes
+	
+	option = {
+		name = MEC_Expeditions.arrival
+		if = { # Have to check again in case of change while expedition was in progress
+			limit = { 
+				expedition_provs.southzealandia = {
+					MEC_Expeditions_eligible_province_trigger = yes
+				}
+			}
+			set_key = { # Counter for loop
+				lhs = Tmp_7
+				value = 20
+			}
+			set_key = { # High initial value to guarantee first province will be lower
+				lhs = Tmp_8
+				value = 1000
+			}
+			while = {
+				limit = { # Exit loop when counter is below 1
+					check_key = {
+						lhs = Tmp_7
+						value = 1
+					}
+				}
+			    if = { # if best value is negative (aka empty with feature)
+			        limit = {
+			            NOT = {
+                            check_key = {
+                                lhs = Tmp_8
+                                value = 0
+                            }
+                        }
+			        }
+			        # Multiply best value by 5 and then add (it's negative) to loop counter
+			        set_key = {
+			            lhs = Tmp_6
+			            which = Tmp_8
+			        }
+			        multiply_key = { 
+			            lhs = Tmp_6
+			            value = 5
+			        }
+			        change_key = { 
+			            lhs = Tmp_7
+			            which = Tmp_6
+			        }
+			    }
+			    else = {
+                    subtract_key = { # Reduce loop counter
+                        lhs = Tmp_7
+                        value = 1
+                    }
+				}
+				random_province = {  # In province group, not owned by sender or their subjects, and doesn't have truce with owner
+					limit = { 
+						province_group = expedition_provs.southzealandia
+						MEC_Expeditions_eligible_province_trigger = yes
+					}
+					MEC_Expeditions_defence_calc_effect = yes # Sets Tmp 0-4, 9
+                    set_key = { # Copy current best number from country into this scope
+                        lhs = Tmp_8
+                        which = ROOT
+                    }
+                    if = { # If the current province number is better target (lower number) then set it as the new target
+                        limit = { # 8 < 2
+                            NOT = { 
+                                check_key = { 
+                                    lhs = Tmp_9
+                                    which = Tmp_8
+                                }
+                            }
+                        }
+                        save_event_target_as = MEC_Expedition_Target_Province
+                        set_key = { # Overwrite the number in this scope
+                            lhs = Tmp_8
+                            which = Tmp_9
+                        }
+                        ROOT = { # Copy the overwrite to the country scope
+                            set_key = {
+                                lhs = Tmp_8
+                                which = PREV
+                            }
+                        }
+					}
+				}
+			} 
+			event_target:MEC_Expedition_Target_Province = { # Call the landing event on the province that was found to be best
+			    if = { # If player has selected to always fight, skip landing event
+			        limit = {
+			            is_empty = no
+			            owner = {
+			                has_country_flag = MEC_Expeditions_always_fight
+			            }
+			        }
+			        export_to_key = { # Expedition sender mil tech
+                        lhs = MEC_Expeditions_Comparison
+                        value = mil_tech
+                        who = FROM
+                    }
+                    MEC_Expeditions_defence_calc_effect = yes # Sets Tmp 0-4, 9
+                    subtract_key = {
+                        lhs = MEC_Expeditions_Comparison
+                        which = Tmp_9
+                    }
+		            if = { # Use MEC_Expeditions_Comparison as success chance
+					    limit = {
+					        check_key = {
+					            lhs = MEC_Expeditions_Comparison
+					            value = 10
+					        }
+					    }
+					    FROM = { # 100%
+					        country_event = { # Success
+					            id = MEC_Expeditions.354
+					            days = 0
+					        }
+					    } 
+					}
+					else_if = {
+					    limit = {
+					        check_key = {
+					            lhs = MEC_Expeditions_Comparison
+					            value = 9
+					        }
+					    }
+					    random_list = {
+					        90 = {
+					            FROM = {
+					                country_event = { # Success
+					                    id = MEC_Expeditions.354
+					                    days = 0
+					                }
+					            } 
+					        }
+					        10 = {
+					            FROM = {
+					                country_event = { # Failure
+					                    id = MEC_Expeditions.454
+					                    days = 0
+					                }
+					                hidden_effect = {
+					                    add_country_modifier = {
+					                        name = MEC_Modifier_Expedition_Failed_southzealandia
+					                        duration = 7300 # 20 years
+					                        hidden = yes
+					                    }
+					                }
+					            }
+					        }
+					    }
+					}
+					else_if = {
+					    limit = {
+					        check_key = {
+					            lhs = MEC_Expeditions_Comparison
+					            value = 8
+					        }
+					    }
+					    random_list = {
+					        80 = {
+					            FROM = {
+					                country_event = { # Success
+					                    id = MEC_Expeditions.354
+					                    days = 0
+					                }
+					            } 
+					        }
+					        20 = {
+					            FROM = {
+					                country_event = { # Failure
+					                    id = MEC_Expeditions.454
+					                    days = 0
+					                }
+					                hidden_effect = {
+					                    add_country_modifier = {
+					                        name = MEC_Modifier_Expedition_Failed_southzealandia
+					                        duration = 3650
+					                        hidden = yes
+					                    }
+					                }
+					            }
+					        }
+					    }
+					}
+					else_if = {
+					    limit = {
+					        check_key = {
+					            lhs = MEC_Expeditions_Comparison
+					            value = 7
+					        }
+					    }
+					    random_list = {
+					        70 = {
+					            FROM = {
+					                country_event = { # Success
+					                    id = MEC_Expeditions.354
+					                    days = 0
+					                }
+					            } 
+					        }
+					        30 = {
+					            FROM = {
+					                country_event = { # Failure
+					                    id = MEC_Expeditions.454
+					                    days = 0
+					                }
+					                hidden_effect = {
+					                    add_country_modifier = {
+					                        name = MEC_Modifier_Expedition_Failed_southzealandia
+					                        duration = 3650
+					                        hidden = yes
+					                    }
+					                }
+					            }
+					        }
+					    }
+					}
+					else_if = {
+					    limit = {
+					        check_key = {
+					            lhs = MEC_Expeditions_Comparison
+					            value = 6
+					        }
+					    }
+					    random_list = {
+					        60 = {
+					            FROM = {
+					                country_event = { # Success
+					                    id = MEC_Expeditions.354
+					                    days = 0
+					                }
+					            } 
+					        }
+					        40 = {
+					            FROM = {
+					                country_event = { # Failure
+					                    id = MEC_Expeditions.454
+					                    days = 0
+					                }
+					                hidden_effect = {
+					                    add_country_modifier = {
+					                        name = MEC_Modifier_Expedition_Failed_southzealandia
+					                        duration = 3650
+					                        hidden = yes
+					                    }
+					                }
+					            }
+					        }
+					    }
+					}
+					else_if = {
+					    limit = {
+					        check_key = {
+					            lhs = MEC_Expeditions_Comparison
+					            value = 5
+					        }
+					    }
+					    random_list = {
+					        50 = {
+					            FROM = {
+					                country_event = { # Success
+					                    id = MEC_Expeditions.354
+					                    days = 0
+					                }
+					            } 
+					        }
+					        50 = {
+					            FROM = {
+					                country_event = { # Failure
+					                    id = MEC_Expeditions.454
+					                    days = 0
+					                }
+					                hidden_effect = {
+					                    add_country_modifier = {
+					                        name = MEC_Modifier_Expedition_Failed_southzealandia
+					                        duration = 3650
+					                        hidden = yes
+					                    }
+					                }
+					            }
+					        }
+					    }
+					}
+					else_if = {
+					    limit = {
+					        check_key = {
+					            lhs = MEC_Expeditions_Comparison
+					            value = 4
+					        }
+					    }
+					    random_list = {
+					        40 = {
+					            FROM = {
+					                country_event = { # Success
+					                    id = MEC_Expeditions.354
+					                    days = 0
+					                }
+					            } 
+					        }
+					        60 = {
+					            FROM = {
+					                country_event = { # Failure
+					                    id = MEC_Expeditions.454
+					                    days = 0
+					                }
+					                hidden_effect = {
+					                    add_country_modifier = {
+					                        name = MEC_Modifier_Expedition_Failed_southzealandia
+					                        duration = 3650
+					                        hidden = yes
+					                    }
+					                }
+					            }
+					        }
+					    }
+					}
+					else_if = {
+					    limit = {
+					        check_key = {
+					            lhs = MEC_Expeditions_Comparison
+					            value = 3
+					        }
+					    }
+					    random_list = {
+					        30 = {
+					            FROM = {
+					                country_event = { # Success
+					                    id = MEC_Expeditions.354
+					                    days = 0
+					                }
+					            } 
+					        }
+					        70 = {
+					            FROM = {
+					                country_event = { # Failure
+					                    id = MEC_Expeditions.454
+					                    days = 0
+					                }
+					                hidden_effect = {
+					                    add_country_modifier = {
+					                        name = MEC_Modifier_Expedition_Failed_southzealandia
+					                        duration = 3650
+					                        hidden = yes
+					                    }
+					                }
+					            }
+					        }
+					    }
+					}
+					else = {
+					    FROM = {
+					        country_event = { # Failure
+					            id = MEC_Expeditions.754
+					            days = 0
+					        }
+					        hidden_effect = {
+					            add_country_modifier = {
+					                name = MEC_Modifier_Expedition_Failed_southzealandia
+					                duration = 3650
+					                hidden = yes
+					            }
+					        }
+					    }
+					}
+  
+			    }
+			    else = {
+                    province_event = { # Call landing event
+                        id = MEC_Expeditions.254
+                        days = 0
+                    }
+				}
+			}
+		} 
+		else = {
+			country_event = { # Call failure event
+				id = MEC_Expeditions.454
+				days = 0
+			}
+		}
+		expedition_provs.southzealandia = {
 			clr_province_flag = MEC_Expeditions_owned_by_sender_or_subjects
 		}
 	}
@@ -72274,6 +74467,2112 @@ province_event = { # Called on province being colonized
 		}
 	}
 }
+# Landings of Expedition to Zealandia Node
+province_event = { # Called on province being colonized
+	id = MEC_Expeditions.252
+	title = MEC_Expeditions.252.title
+	desc = MEC_Expeditions.252.desc
+	picture = TRADEGOODS_eventPicture
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = {
+					is_empty = no
+				} # Note if make changes here also have to make changes to the similar section in the previous event
+				export_to_key = { # Expedition sender mil tech
+					lhs = MEC_Expeditions_Comparison
+					value = mil_tech
+					who = FROM
+				}
+				MEC_Expeditions_defence_calc_effect = yes # Sets Tmp 0-4, 9
+				subtract_key = {
+					lhs = MEC_Expeditions_Comparison
+					which = Tmp_9
+				}
+				# Cap value between 0-10 for display purpose
+                if = { # if >= 10 set to 10
+                    limit = {
+                        check_key = {
+                            lhs = MEC_Expeditions_Comparison
+                            value = 10
+                        }
+                    }
+                    set_key = {
+                        lhs = MEC_Expeditions_Comparison
+                        value = 10
+                    }
+                }
+                else_if = { # if < 0 set to 0
+                    limit = {
+                        NOT = {
+                            check_key = {
+                                lhs = MEC_Expeditions_Comparison
+                                value = 0
+                            }
+                        }
+                    }
+                    set_key = {
+                        lhs = MEC_Expeditions_Comparison
+                        value = 0
+                    }
+                }
+			}
+		}
+	}
+
+	option = {
+		name = MEC_Expeditions.colony
+		trigger = {
+			is_empty = yes
+		}
+		FROM = {
+			country_event = { 
+				id = MEC_Expeditions.352
+				days = 0
+			}
+		} 
+	}
+	option = {
+		name = MEC_Expeditions.reject_trade_fort
+		trigger = {
+			is_empty = no
+		}
+		ai_chance = { # Higher ai chance when more likely to fight off colonizers
+			factor = 1
+			modifier = {
+				factor = 2
+				check_key = {
+					lhs = MEC_Expeditions_Comparison
+					value = 6
+				}
+			}
+			modifier = {
+				factor = 4
+				check_key = {
+					lhs = MEC_Expeditions_Comparison
+					value = 5
+				}
+			}
+			modifier = {
+				factor = 6
+				check_key = {
+					lhs = MEC_Expeditions_Comparison
+					value = 4
+				}
+			}
+			modifier = {
+				factor = 10
+				check_key = {
+					lhs = MEC_Expeditions_Comparison
+					value = 3
+				}
+			}
+			modifier = {
+				factor = 16
+				check_key = {
+					lhs = MEC_Expeditions_Comparison
+					value = 2
+				}
+			}
+			modifier = {
+				factor = 20
+				check_key = {
+					lhs = MEC_Expeditions_Comparison
+					value = 1
+				}
+			}
+			modifier = {
+				factor = 100
+				NOT = {
+					check_key = {
+						lhs = MEC_Expeditions_Comparison
+						value = 1
+					}
+				}
+			}
+		}
+		if = { # Use MEC_Expeditions_Comparison as success chance
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 10
+		        }
+		    }
+		    FROM = { # 100%
+		        country_event = { # Success
+		            id = MEC_Expeditions.352
+		            days = 0
+		        }
+		    } 
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 9
+		        }
+		    }
+		    random_list = {
+		        90 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.352
+		                    days = 0
+		                }
+		            } 
+		        }
+		        10 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.452
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_zealandia
+		                        duration = 7300 # 20 years
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 8
+		        }
+		    }
+		    random_list = {
+		        80 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.352
+		                    days = 0
+		                }
+		            } 
+		        }
+		        20 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.452
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_zealandia
+		                        duration = 3650
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 7
+		        }
+		    }
+		    random_list = {
+		        70 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.352
+		                    days = 0
+		                }
+		            } 
+		        }
+		        30 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.452
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_zealandia
+		                        duration = 3650
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 6
+		        }
+		    }
+		    random_list = {
+		        60 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.352
+		                    days = 0
+		                }
+		            } 
+		        }
+		        40 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.452
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_zealandia
+		                        duration = 3650
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 5
+		        }
+		    }
+		    random_list = {
+		        50 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.352
+		                    days = 0
+		                }
+		            } 
+		        }
+		        50 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.452
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_zealandia
+		                        duration = 3650
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 4
+		        }
+		    }
+		    random_list = {
+		        40 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.352
+		                    days = 0
+		                }
+		            } 
+		        }
+		        60 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.452
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_zealandia
+		                        duration = 3650
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 3
+		        }
+		    }
+		    random_list = {
+		        30 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.352
+		                    days = 0
+		                }
+		            } 
+		        }
+		        70 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.452
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_zealandia
+		                        duration = 3650
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else = {
+		    FROM = {
+		        country_event = { # Failure
+		            id = MEC_Expeditions.752
+		            days = 0
+		        }
+		        hidden_effect = {
+		            add_country_modifier = {
+		                name = MEC_Modifier_Expedition_Failed_zealandia
+		                duration = 3650
+		                hidden = yes
+		            }
+		        }
+		    }
+		}
+
+	}
+	option = {
+		name = MEC_Expeditions.always_reject_trade_fort
+		trigger = {
+			is_empty = no
+		}
+		ai_chance = {
+		    factor = 0
+		}
+		owner = {
+		    set_country_flag = MEC_Expeditions_always_fight
+		}
+        if = { # Use MEC_Expeditions_Comparison as success chance
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 10
+		        }
+		    }
+		    FROM = { # 100%
+		        country_event = { # Success
+		            id = MEC_Expeditions.352
+		            days = 0
+		        }
+		    } 
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 9
+		        }
+		    }
+		    random_list = {
+		        90 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.352
+		                    days = 0
+		                }
+		            } 
+		        }
+		        10 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.452
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_zealandia
+		                        duration = 7300 # 20 years
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 8
+		        }
+		    }
+		    random_list = {
+		        80 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.352
+		                    days = 0
+		                }
+		            } 
+		        }
+		        20 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.452
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_zealandia
+		                        duration = 3650
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 7
+		        }
+		    }
+		    random_list = {
+		        70 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.352
+		                    days = 0
+		                }
+		            } 
+		        }
+		        30 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.452
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_zealandia
+		                        duration = 3650
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 6
+		        }
+		    }
+		    random_list = {
+		        60 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.352
+		                    days = 0
+		                }
+		            } 
+		        }
+		        40 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.452
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_zealandia
+		                        duration = 3650
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 5
+		        }
+		    }
+		    random_list = {
+		        50 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.352
+		                    days = 0
+		                }
+		            } 
+		        }
+		        50 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.452
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_zealandia
+		                        duration = 3650
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 4
+		        }
+		    }
+		    random_list = {
+		        40 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.352
+		                    days = 0
+		                }
+		            } 
+		        }
+		        60 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.452
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_zealandia
+		                        duration = 3650
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 3
+		        }
+		    }
+		    random_list = {
+		        30 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.352
+		                    days = 0
+		                }
+		            } 
+		        }
+		        70 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.452
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_zealandia
+		                        duration = 3650
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else = {
+		    FROM = {
+		        country_event = { # Failure
+		            id = MEC_Expeditions.752
+		            days = 0
+		        }
+		        hidden_effect = {
+		            add_country_modifier = {
+		                name = MEC_Modifier_Expedition_Failed_zealandia
+		                duration = 3650
+		                hidden = yes
+		            }
+		        }
+		    }
+		}
+
+	}
+	option = {
+		name = MEC_Expeditions.accept_trade_fort
+		trigger = {
+			is_empty = no
+		}
+		ai_chance = { # Higher ai chance when less likely to fight off colonizers
+			factor = 1
+			modifier = {
+				factor = 9
+				check_key = {
+					lhs = MEC_Expeditions_Comparison
+					value = 9
+				}
+			}
+			modifier = {
+				factor = 4
+				check_key = {
+					lhs = MEC_Expeditions_Comparison
+					value = 8
+				}
+			}
+			modifier = {
+				factor = 2
+				check_key = {
+					lhs = MEC_Expeditions_Comparison
+					value = 7
+				}
+			}
+		}
+		owner = {
+			add_treasury = 100
+			add_truce_with = FROM
+		}
+		FROM = {
+			country_event = { 
+				id = MEC_Expeditions.352
+				days = 0
+			}
+		}
+	}
+}
+# Landings of Expedition to East Zealandia Node
+province_event = { # Called on province being colonized
+	id = MEC_Expeditions.253
+	title = MEC_Expeditions.253.title
+	desc = MEC_Expeditions.253.desc
+	picture = TRADEGOODS_eventPicture
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = {
+					is_empty = no
+				} # Note if make changes here also have to make changes to the similar section in the previous event
+				export_to_key = { # Expedition sender mil tech
+					lhs = MEC_Expeditions_Comparison
+					value = mil_tech
+					who = FROM
+				}
+				MEC_Expeditions_defence_calc_effect = yes # Sets Tmp 0-4, 9
+				subtract_key = {
+					lhs = MEC_Expeditions_Comparison
+					which = Tmp_9
+				}
+				# Cap value between 0-10 for display purpose
+                if = { # if >= 10 set to 10
+                    limit = {
+                        check_key = {
+                            lhs = MEC_Expeditions_Comparison
+                            value = 10
+                        }
+                    }
+                    set_key = {
+                        lhs = MEC_Expeditions_Comparison
+                        value = 10
+                    }
+                }
+                else_if = { # if < 0 set to 0
+                    limit = {
+                        NOT = {
+                            check_key = {
+                                lhs = MEC_Expeditions_Comparison
+                                value = 0
+                            }
+                        }
+                    }
+                    set_key = {
+                        lhs = MEC_Expeditions_Comparison
+                        value = 0
+                    }
+                }
+			}
+		}
+	}
+
+	option = {
+		name = MEC_Expeditions.colony
+		trigger = {
+			is_empty = yes
+		}
+		FROM = {
+			country_event = { 
+				id = MEC_Expeditions.353
+				days = 0
+			}
+		} 
+	}
+	option = {
+		name = MEC_Expeditions.reject_trade_fort
+		trigger = {
+			is_empty = no
+		}
+		ai_chance = { # Higher ai chance when more likely to fight off colonizers
+			factor = 1
+			modifier = {
+				factor = 2
+				check_key = {
+					lhs = MEC_Expeditions_Comparison
+					value = 6
+				}
+			}
+			modifier = {
+				factor = 4
+				check_key = {
+					lhs = MEC_Expeditions_Comparison
+					value = 5
+				}
+			}
+			modifier = {
+				factor = 6
+				check_key = {
+					lhs = MEC_Expeditions_Comparison
+					value = 4
+				}
+			}
+			modifier = {
+				factor = 10
+				check_key = {
+					lhs = MEC_Expeditions_Comparison
+					value = 3
+				}
+			}
+			modifier = {
+				factor = 16
+				check_key = {
+					lhs = MEC_Expeditions_Comparison
+					value = 2
+				}
+			}
+			modifier = {
+				factor = 20
+				check_key = {
+					lhs = MEC_Expeditions_Comparison
+					value = 1
+				}
+			}
+			modifier = {
+				factor = 100
+				NOT = {
+					check_key = {
+						lhs = MEC_Expeditions_Comparison
+						value = 1
+					}
+				}
+			}
+		}
+		if = { # Use MEC_Expeditions_Comparison as success chance
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 10
+		        }
+		    }
+		    FROM = { # 100%
+		        country_event = { # Success
+		            id = MEC_Expeditions.353
+		            days = 0
+		        }
+		    } 
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 9
+		        }
+		    }
+		    random_list = {
+		        90 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.353
+		                    days = 0
+		                }
+		            } 
+		        }
+		        10 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.453
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_eastzealandia
+		                        duration = 7300 # 20 years
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 8
+		        }
+		    }
+		    random_list = {
+		        80 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.353
+		                    days = 0
+		                }
+		            } 
+		        }
+		        20 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.453
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_eastzealandia
+		                        duration = 3650
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 7
+		        }
+		    }
+		    random_list = {
+		        70 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.353
+		                    days = 0
+		                }
+		            } 
+		        }
+		        30 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.453
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_eastzealandia
+		                        duration = 3650
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 6
+		        }
+		    }
+		    random_list = {
+		        60 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.353
+		                    days = 0
+		                }
+		            } 
+		        }
+		        40 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.453
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_eastzealandia
+		                        duration = 3650
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 5
+		        }
+		    }
+		    random_list = {
+		        50 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.353
+		                    days = 0
+		                }
+		            } 
+		        }
+		        50 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.453
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_eastzealandia
+		                        duration = 3650
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 4
+		        }
+		    }
+		    random_list = {
+		        40 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.353
+		                    days = 0
+		                }
+		            } 
+		        }
+		        60 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.453
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_eastzealandia
+		                        duration = 3650
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 3
+		        }
+		    }
+		    random_list = {
+		        30 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.353
+		                    days = 0
+		                }
+		            } 
+		        }
+		        70 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.453
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_eastzealandia
+		                        duration = 3650
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else = {
+		    FROM = {
+		        country_event = { # Failure
+		            id = MEC_Expeditions.753
+		            days = 0
+		        }
+		        hidden_effect = {
+		            add_country_modifier = {
+		                name = MEC_Modifier_Expedition_Failed_eastzealandia
+		                duration = 3650
+		                hidden = yes
+		            }
+		        }
+		    }
+		}
+
+	}
+	option = {
+		name = MEC_Expeditions.always_reject_trade_fort
+		trigger = {
+			is_empty = no
+		}
+		ai_chance = {
+		    factor = 0
+		}
+		owner = {
+		    set_country_flag = MEC_Expeditions_always_fight
+		}
+        if = { # Use MEC_Expeditions_Comparison as success chance
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 10
+		        }
+		    }
+		    FROM = { # 100%
+		        country_event = { # Success
+		            id = MEC_Expeditions.353
+		            days = 0
+		        }
+		    } 
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 9
+		        }
+		    }
+		    random_list = {
+		        90 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.353
+		                    days = 0
+		                }
+		            } 
+		        }
+		        10 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.453
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_eastzealandia
+		                        duration = 7300 # 20 years
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 8
+		        }
+		    }
+		    random_list = {
+		        80 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.353
+		                    days = 0
+		                }
+		            } 
+		        }
+		        20 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.453
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_eastzealandia
+		                        duration = 3650
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 7
+		        }
+		    }
+		    random_list = {
+		        70 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.353
+		                    days = 0
+		                }
+		            } 
+		        }
+		        30 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.453
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_eastzealandia
+		                        duration = 3650
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 6
+		        }
+		    }
+		    random_list = {
+		        60 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.353
+		                    days = 0
+		                }
+		            } 
+		        }
+		        40 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.453
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_eastzealandia
+		                        duration = 3650
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 5
+		        }
+		    }
+		    random_list = {
+		        50 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.353
+		                    days = 0
+		                }
+		            } 
+		        }
+		        50 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.453
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_eastzealandia
+		                        duration = 3650
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 4
+		        }
+		    }
+		    random_list = {
+		        40 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.353
+		                    days = 0
+		                }
+		            } 
+		        }
+		        60 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.453
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_eastzealandia
+		                        duration = 3650
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 3
+		        }
+		    }
+		    random_list = {
+		        30 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.353
+		                    days = 0
+		                }
+		            } 
+		        }
+		        70 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.453
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_eastzealandia
+		                        duration = 3650
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else = {
+		    FROM = {
+		        country_event = { # Failure
+		            id = MEC_Expeditions.753
+		            days = 0
+		        }
+		        hidden_effect = {
+		            add_country_modifier = {
+		                name = MEC_Modifier_Expedition_Failed_eastzealandia
+		                duration = 3650
+		                hidden = yes
+		            }
+		        }
+		    }
+		}
+
+	}
+	option = {
+		name = MEC_Expeditions.accept_trade_fort
+		trigger = {
+			is_empty = no
+		}
+		ai_chance = { # Higher ai chance when less likely to fight off colonizers
+			factor = 1
+			modifier = {
+				factor = 9
+				check_key = {
+					lhs = MEC_Expeditions_Comparison
+					value = 9
+				}
+			}
+			modifier = {
+				factor = 4
+				check_key = {
+					lhs = MEC_Expeditions_Comparison
+					value = 8
+				}
+			}
+			modifier = {
+				factor = 2
+				check_key = {
+					lhs = MEC_Expeditions_Comparison
+					value = 7
+				}
+			}
+		}
+		owner = {
+			add_treasury = 100
+			add_truce_with = FROM
+		}
+		FROM = {
+			country_event = { 
+				id = MEC_Expeditions.353
+				days = 0
+			}
+		}
+	}
+}
+# Landings of Expedition to South Zealandia Node
+province_event = { # Called on province being colonized
+	id = MEC_Expeditions.254
+	title = MEC_Expeditions.254.title
+	desc = MEC_Expeditions.254.desc
+	picture = TRADEGOODS_eventPicture
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			if = {
+				limit = {
+					is_empty = no
+				} # Note if make changes here also have to make changes to the similar section in the previous event
+				export_to_key = { # Expedition sender mil tech
+					lhs = MEC_Expeditions_Comparison
+					value = mil_tech
+					who = FROM
+				}
+				MEC_Expeditions_defence_calc_effect = yes # Sets Tmp 0-4, 9
+				subtract_key = {
+					lhs = MEC_Expeditions_Comparison
+					which = Tmp_9
+				}
+				# Cap value between 0-10 for display purpose
+                if = { # if >= 10 set to 10
+                    limit = {
+                        check_key = {
+                            lhs = MEC_Expeditions_Comparison
+                            value = 10
+                        }
+                    }
+                    set_key = {
+                        lhs = MEC_Expeditions_Comparison
+                        value = 10
+                    }
+                }
+                else_if = { # if < 0 set to 0
+                    limit = {
+                        NOT = {
+                            check_key = {
+                                lhs = MEC_Expeditions_Comparison
+                                value = 0
+                            }
+                        }
+                    }
+                    set_key = {
+                        lhs = MEC_Expeditions_Comparison
+                        value = 0
+                    }
+                }
+			}
+		}
+	}
+
+	option = {
+		name = MEC_Expeditions.colony
+		trigger = {
+			is_empty = yes
+		}
+		FROM = {
+			country_event = { 
+				id = MEC_Expeditions.354
+				days = 0
+			}
+		} 
+	}
+	option = {
+		name = MEC_Expeditions.reject_trade_fort
+		trigger = {
+			is_empty = no
+		}
+		ai_chance = { # Higher ai chance when more likely to fight off colonizers
+			factor = 1
+			modifier = {
+				factor = 2
+				check_key = {
+					lhs = MEC_Expeditions_Comparison
+					value = 6
+				}
+			}
+			modifier = {
+				factor = 4
+				check_key = {
+					lhs = MEC_Expeditions_Comparison
+					value = 5
+				}
+			}
+			modifier = {
+				factor = 6
+				check_key = {
+					lhs = MEC_Expeditions_Comparison
+					value = 4
+				}
+			}
+			modifier = {
+				factor = 10
+				check_key = {
+					lhs = MEC_Expeditions_Comparison
+					value = 3
+				}
+			}
+			modifier = {
+				factor = 16
+				check_key = {
+					lhs = MEC_Expeditions_Comparison
+					value = 2
+				}
+			}
+			modifier = {
+				factor = 20
+				check_key = {
+					lhs = MEC_Expeditions_Comparison
+					value = 1
+				}
+			}
+			modifier = {
+				factor = 100
+				NOT = {
+					check_key = {
+						lhs = MEC_Expeditions_Comparison
+						value = 1
+					}
+				}
+			}
+		}
+		if = { # Use MEC_Expeditions_Comparison as success chance
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 10
+		        }
+		    }
+		    FROM = { # 100%
+		        country_event = { # Success
+		            id = MEC_Expeditions.354
+		            days = 0
+		        }
+		    } 
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 9
+		        }
+		    }
+		    random_list = {
+		        90 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.354
+		                    days = 0
+		                }
+		            } 
+		        }
+		        10 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.454
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_southzealandia
+		                        duration = 7300 # 20 years
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 8
+		        }
+		    }
+		    random_list = {
+		        80 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.354
+		                    days = 0
+		                }
+		            } 
+		        }
+		        20 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.454
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_southzealandia
+		                        duration = 3650
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 7
+		        }
+		    }
+		    random_list = {
+		        70 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.354
+		                    days = 0
+		                }
+		            } 
+		        }
+		        30 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.454
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_southzealandia
+		                        duration = 3650
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 6
+		        }
+		    }
+		    random_list = {
+		        60 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.354
+		                    days = 0
+		                }
+		            } 
+		        }
+		        40 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.454
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_southzealandia
+		                        duration = 3650
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 5
+		        }
+		    }
+		    random_list = {
+		        50 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.354
+		                    days = 0
+		                }
+		            } 
+		        }
+		        50 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.454
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_southzealandia
+		                        duration = 3650
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 4
+		        }
+		    }
+		    random_list = {
+		        40 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.354
+		                    days = 0
+		                }
+		            } 
+		        }
+		        60 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.454
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_southzealandia
+		                        duration = 3650
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 3
+		        }
+		    }
+		    random_list = {
+		        30 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.354
+		                    days = 0
+		                }
+		            } 
+		        }
+		        70 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.454
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_southzealandia
+		                        duration = 3650
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else = {
+		    FROM = {
+		        country_event = { # Failure
+		            id = MEC_Expeditions.754
+		            days = 0
+		        }
+		        hidden_effect = {
+		            add_country_modifier = {
+		                name = MEC_Modifier_Expedition_Failed_southzealandia
+		                duration = 3650
+		                hidden = yes
+		            }
+		        }
+		    }
+		}
+
+	}
+	option = {
+		name = MEC_Expeditions.always_reject_trade_fort
+		trigger = {
+			is_empty = no
+		}
+		ai_chance = {
+		    factor = 0
+		}
+		owner = {
+		    set_country_flag = MEC_Expeditions_always_fight
+		}
+        if = { # Use MEC_Expeditions_Comparison as success chance
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 10
+		        }
+		    }
+		    FROM = { # 100%
+		        country_event = { # Success
+		            id = MEC_Expeditions.354
+		            days = 0
+		        }
+		    } 
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 9
+		        }
+		    }
+		    random_list = {
+		        90 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.354
+		                    days = 0
+		                }
+		            } 
+		        }
+		        10 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.454
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_southzealandia
+		                        duration = 7300 # 20 years
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 8
+		        }
+		    }
+		    random_list = {
+		        80 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.354
+		                    days = 0
+		                }
+		            } 
+		        }
+		        20 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.454
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_southzealandia
+		                        duration = 3650
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 7
+		        }
+		    }
+		    random_list = {
+		        70 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.354
+		                    days = 0
+		                }
+		            } 
+		        }
+		        30 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.454
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_southzealandia
+		                        duration = 3650
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 6
+		        }
+		    }
+		    random_list = {
+		        60 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.354
+		                    days = 0
+		                }
+		            } 
+		        }
+		        40 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.454
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_southzealandia
+		                        duration = 3650
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 5
+		        }
+		    }
+		    random_list = {
+		        50 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.354
+		                    days = 0
+		                }
+		            } 
+		        }
+		        50 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.454
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_southzealandia
+		                        duration = 3650
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 4
+		        }
+		    }
+		    random_list = {
+		        40 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.354
+		                    days = 0
+		                }
+		            } 
+		        }
+		        60 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.454
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_southzealandia
+		                        duration = 3650
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else_if = {
+		    limit = {
+		        check_key = {
+		            lhs = MEC_Expeditions_Comparison
+		            value = 3
+		        }
+		    }
+		    random_list = {
+		        30 = {
+		            FROM = {
+		                country_event = { # Success
+		                    id = MEC_Expeditions.354
+		                    days = 0
+		                }
+		            } 
+		        }
+		        70 = {
+		            FROM = {
+		                country_event = { # Failure
+		                    id = MEC_Expeditions.454
+		                    days = 0
+		                }
+		                hidden_effect = {
+		                    add_country_modifier = {
+		                        name = MEC_Modifier_Expedition_Failed_southzealandia
+		                        duration = 3650
+		                        hidden = yes
+		                    }
+		                }
+		            }
+		        }
+		    }
+		}
+		else = {
+		    FROM = {
+		        country_event = { # Failure
+		            id = MEC_Expeditions.754
+		            days = 0
+		        }
+		        hidden_effect = {
+		            add_country_modifier = {
+		                name = MEC_Modifier_Expedition_Failed_southzealandia
+		                duration = 3650
+		                hidden = yes
+		            }
+		        }
+		    }
+		}
+
+	}
+	option = {
+		name = MEC_Expeditions.accept_trade_fort
+		trigger = {
+			is_empty = no
+		}
+		ai_chance = { # Higher ai chance when less likely to fight off colonizers
+			factor = 1
+			modifier = {
+				factor = 9
+				check_key = {
+					lhs = MEC_Expeditions_Comparison
+					value = 9
+				}
+			}
+			modifier = {
+				factor = 4
+				check_key = {
+					lhs = MEC_Expeditions_Comparison
+					value = 8
+				}
+			}
+			modifier = {
+				factor = 2
+				check_key = {
+					lhs = MEC_Expeditions_Comparison
+					value = 7
+				}
+			}
+		}
+		owner = {
+			add_treasury = 100
+			add_truce_with = FROM
+		}
+		FROM = {
+			country_event = { 
+				id = MEC_Expeditions.354
+				days = 0
+			}
+		}
+	}
+}
 ############################################################################################################
 ##################################        Expedition Success       #########################################
 ############################################################################################################
@@ -81539,6 +85838,540 @@ country_event = {
 		add_prestige = 3
 	}
 }
+# Success of Expedition to Zealandia Node
+country_event = {
+	id = MEC_Expeditions.352
+	title = MEC_Expeditions.352.title
+	desc = MEC_Expeditions.352.desc
+	picture = TRADEGOODS_eventPicture
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			expedition_provs.zealandia_vision = { # Note this can cause crashes if the prov group has invalid province numbers
+				discover_country = ROOT
+			}
+			event_target:MEC_Expedition_Target_Province = { # FROM is the province, ROOT is the expedition sender
+				if = { # if it is a colony then they get a claim on the province they're losing
+					limit = { # Non-colonies will have cores so don't need anything added
+						is_colony = yes
+					}
+					add_claim = owner
+				}
+				add_territorial_core = ROOT 
+				
+				if = { # Change religion and culture if empty province not in trade company or in trade company with no population
+					limit = {
+						is_empty = yes
+						has_province_flag = ColonyBecomesOwner
+					} 
+					change_religion = ROOT # Re-evaluate and probably change after religion rework is complete
+					change_culture = ROOT
+					ROOT = {
+						capital_scope = {
+							event_target:MEC_Expedition_Target_Province = { set_key = { lhs = Plague_Resistance1 which = PREV } }
+							event_target:MEC_Expedition_Target_Province = { set_key = { lhs = Plague_Resistance2 which = PREV } }
+							event_target:MEC_Expedition_Target_Province = { set_key = { lhs = Plague_Resistance4 which = PREV } }
+						    
+						    event_target:MEC_Expedition_Target_Province = { divide_key = { lhs = Plague_Resistance1 value = 3 } }
+						    event_target:MEC_Expedition_Target_Province = { divide_key = { lhs = Plague_Resistance2 value = 3 } }
+						    event_target:MEC_Expedition_Target_Province = { divide_key = { lhs = Plague_Resistance4 value = 3 } }
+						}
+						
+                        if = {
+                            limit = {
+                                any_owned_province = {
+                                    check_key = { lhs = Plague_SpawnChance4 value = 0.1 }
+                                }
+                            }                        
+                            event_target:MEC_Expedition_Target_Province = {
+                                if = {
+                                    limit = {
+                                        has_province_flag = possible_malaria
+                                    }
+                                    America_Malaria_Calculator = yes
+                                }
+                                every_neighbor_province = {
+                                    limit = {
+                                        has_province_flag = possible_malaria
+                                    }
+                                    America_Malaria_Calculator = yes
+                                }
+                            }
+                        }
+                    }
+                }
+                # System for 'waking' up smallpox in America. 
+                random_list = { 
+                    1 = {
+                        event_target:MEC_Expedition_Target_Province = {
+                            if = {
+                                limit = {
+                                    continent = north_america                                                                 
+                                }
+                                if = {
+                                    limit = {
+                                        has_global_flag = not_namerica_smallpox
+                                        superregion = east_america_superregion
+                                    }
+                                    every_neighbor_province = {
+                                        limit = {
+                                            NOT = {
+                                                check_key = { lhs = Plague_SpawnChance2 value = 0.1 }
+                                                check_key = { lhs = Plague_Resistance2 value = 0.1 }
+                                            }
+                                            owner = {
+                                                OR = {
+                                                    technology_group = Andes
+                                                    technology_group = mesoamerican
+                                                    technology_group = south_american
+                                                    technology_group = high_american
+                                                }
+                                            }
+                                        }
+                                        #log = "MEC_Expeditions:[GetYear]:North America Smallpox Triggered from Expedition"
+                                        province_event = { id = Plague_Spawner.221 days = 2555 random = 365 }
+                                    }
+                                }
+                                else_if = {
+                                    limit = {
+                                        has_global_flag = not_camerica_smallpox
+                                        superregion = central_america_superregion
+                                    }
+                                    every_neighbor_province = {
+                                        limit = {
+                                            NOT = {
+                                                check_key = { lhs = Plague_SpawnChance2 value = 0.1 }
+                                                check_key = { lhs = Plague_Resistance2 value = 0.1 }
+                                            }
+                                            owner = {
+                                                OR = {
+                                                    technology_group = Andes
+                                                    technology_group = mesoamerican
+                                                    technology_group = south_american
+                                                    technology_group = high_american
+                                                }
+                                            }
+                                        }
+                                        #log = "MEC_Expeditions:[GetYear]:Central America Smallpox Triggered from Expedition"
+                                        province_event = { id = Plague_Spawner.222 days = 2555 random = 365 }
+                                    }
+                                }
+                            }
+                            else_if = {
+                                limit = {
+                                    continent = south_america
+                                    has_global_flag = not_samerica_smallpox
+                                }
+                                every_neighbor_province = {
+                                    limit = {
+                                        NOT = {
+                                            check_key = { lhs = Plague_SpawnChance2 value = 0.1 }
+                                            check_key = { lhs = Plague_Resistance2 value = 0.1 }
+                                        }
+                                        owner = {
+                                            OR = {
+                                                technology_group = Andes
+                                                technology_group = mesoamerican
+                                                technology_group = south_american
+                                                technology_group = high_american
+                                            }
+                                        }
+                                    }
+                                    #log = "MEC_Expeditions:[GetYear]:South America Smallpox Triggered from Expedition"
+                                    province_event = { id = Plague_Spawner.2 days = 2555 random = 365 }
+                                }
+                            }
+                        }
+                    }                      
+                    2 = { 
+                    }
+                }                  
+				if = { # If not empty add negative opinion for owner against expedition sender
+					limit = {
+						is_empty = no
+					}
+					#log = "MEC_Expeditions:[GetYear]:[Root.GetName]:received negative opinion modifier from::[MEC_Expedition_Target_Province.Owner.GetName]"
+					owner = {
+						add_opinion = {
+							who = ROOT
+							modifier = MEC_Expeditions_taken_province
+						}
+					}
+				}
+				cede_province = ROOT
+				if = { # if it is a colony then instantly finish it
+					limit = {
+						is_colony = yes
+					}
+					add_colonysize = 1000
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = MEC_Expeditions.expedition_success
+		#log = "MEC_Expeditions:[GetYear]:[Root.GetName]:successful expedition to:zealandia:[MEC_Expedition_Target_Province.GetName]"
+		add_prestige = 3
+	}
+}
+# Success of Expedition to East Zealandia Node
+country_event = {
+	id = MEC_Expeditions.353
+	title = MEC_Expeditions.353.title
+	desc = MEC_Expeditions.353.desc
+	picture = TRADEGOODS_eventPicture
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			expedition_provs.eastzealandia_vision = { # Note this can cause crashes if the prov group has invalid province numbers
+				discover_country = ROOT
+			}
+			event_target:MEC_Expedition_Target_Province = { # FROM is the province, ROOT is the expedition sender
+				if = { # if it is a colony then they get a claim on the province they're losing
+					limit = { # Non-colonies will have cores so don't need anything added
+						is_colony = yes
+					}
+					add_claim = owner
+				}
+				add_territorial_core = ROOT 
+				
+				if = { # Change religion and culture if empty province not in trade company or in trade company with no population
+					limit = {
+						is_empty = yes
+						has_province_flag = ColonyBecomesOwner
+					} 
+					change_religion = ROOT # Re-evaluate and probably change after religion rework is complete
+					change_culture = ROOT
+					ROOT = {
+						capital_scope = {
+							event_target:MEC_Expedition_Target_Province = { set_key = { lhs = Plague_Resistance1 which = PREV } }
+							event_target:MEC_Expedition_Target_Province = { set_key = { lhs = Plague_Resistance2 which = PREV } }
+							event_target:MEC_Expedition_Target_Province = { set_key = { lhs = Plague_Resistance4 which = PREV } }
+						    
+						    event_target:MEC_Expedition_Target_Province = { divide_key = { lhs = Plague_Resistance1 value = 3 } }
+						    event_target:MEC_Expedition_Target_Province = { divide_key = { lhs = Plague_Resistance2 value = 3 } }
+						    event_target:MEC_Expedition_Target_Province = { divide_key = { lhs = Plague_Resistance4 value = 3 } }
+						}
+						
+                        if = {
+                            limit = {
+                                any_owned_province = {
+                                    check_key = { lhs = Plague_SpawnChance4 value = 0.1 }
+                                }
+                            }                        
+                            event_target:MEC_Expedition_Target_Province = {
+                                if = {
+                                    limit = {
+                                        has_province_flag = possible_malaria
+                                    }
+                                    America_Malaria_Calculator = yes
+                                }
+                                every_neighbor_province = {
+                                    limit = {
+                                        has_province_flag = possible_malaria
+                                    }
+                                    America_Malaria_Calculator = yes
+                                }
+                            }
+                        }
+                    }
+                }
+                # System for 'waking' up smallpox in America. 
+                random_list = { 
+                    1 = {
+                        event_target:MEC_Expedition_Target_Province = {
+                            if = {
+                                limit = {
+                                    continent = north_america                                                                 
+                                }
+                                if = {
+                                    limit = {
+                                        has_global_flag = not_namerica_smallpox
+                                        superregion = east_america_superregion
+                                    }
+                                    every_neighbor_province = {
+                                        limit = {
+                                            NOT = {
+                                                check_key = { lhs = Plague_SpawnChance2 value = 0.1 }
+                                                check_key = { lhs = Plague_Resistance2 value = 0.1 }
+                                            }
+                                            owner = {
+                                                OR = {
+                                                    technology_group = Andes
+                                                    technology_group = mesoamerican
+                                                    technology_group = south_american
+                                                    technology_group = high_american
+                                                }
+                                            }
+                                        }
+                                        #log = "MEC_Expeditions:[GetYear]:North America Smallpox Triggered from Expedition"
+                                        province_event = { id = Plague_Spawner.221 days = 2555 random = 365 }
+                                    }
+                                }
+                                else_if = {
+                                    limit = {
+                                        has_global_flag = not_camerica_smallpox
+                                        superregion = central_america_superregion
+                                    }
+                                    every_neighbor_province = {
+                                        limit = {
+                                            NOT = {
+                                                check_key = { lhs = Plague_SpawnChance2 value = 0.1 }
+                                                check_key = { lhs = Plague_Resistance2 value = 0.1 }
+                                            }
+                                            owner = {
+                                                OR = {
+                                                    technology_group = Andes
+                                                    technology_group = mesoamerican
+                                                    technology_group = south_american
+                                                    technology_group = high_american
+                                                }
+                                            }
+                                        }
+                                        #log = "MEC_Expeditions:[GetYear]:Central America Smallpox Triggered from Expedition"
+                                        province_event = { id = Plague_Spawner.222 days = 2555 random = 365 }
+                                    }
+                                }
+                            }
+                            else_if = {
+                                limit = {
+                                    continent = south_america
+                                    has_global_flag = not_samerica_smallpox
+                                }
+                                every_neighbor_province = {
+                                    limit = {
+                                        NOT = {
+                                            check_key = { lhs = Plague_SpawnChance2 value = 0.1 }
+                                            check_key = { lhs = Plague_Resistance2 value = 0.1 }
+                                        }
+                                        owner = {
+                                            OR = {
+                                                technology_group = Andes
+                                                technology_group = mesoamerican
+                                                technology_group = south_american
+                                                technology_group = high_american
+                                            }
+                                        }
+                                    }
+                                    #log = "MEC_Expeditions:[GetYear]:South America Smallpox Triggered from Expedition"
+                                    province_event = { id = Plague_Spawner.2 days = 2555 random = 365 }
+                                }
+                            }
+                        }
+                    }                      
+                    2 = { 
+                    }
+                }                  
+				if = { # If not empty add negative opinion for owner against expedition sender
+					limit = {
+						is_empty = no
+					}
+					#log = "MEC_Expeditions:[GetYear]:[Root.GetName]:received negative opinion modifier from::[MEC_Expedition_Target_Province.Owner.GetName]"
+					owner = {
+						add_opinion = {
+							who = ROOT
+							modifier = MEC_Expeditions_taken_province
+						}
+					}
+				}
+				cede_province = ROOT
+				if = { # if it is a colony then instantly finish it
+					limit = {
+						is_colony = yes
+					}
+					add_colonysize = 1000
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = MEC_Expeditions.expedition_success
+		#log = "MEC_Expeditions:[GetYear]:[Root.GetName]:successful expedition to:eastzealandia:[MEC_Expedition_Target_Province.GetName]"
+		add_prestige = 3
+	}
+}
+# Success of Expedition to South Zealandia Node
+country_event = {
+	id = MEC_Expeditions.354
+	title = MEC_Expeditions.354.title
+	desc = MEC_Expeditions.354.desc
+	picture = TRADEGOODS_eventPicture
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			expedition_provs.southzealandia_vision = { # Note this can cause crashes if the prov group has invalid province numbers
+				discover_country = ROOT
+			}
+			event_target:MEC_Expedition_Target_Province = { # FROM is the province, ROOT is the expedition sender
+				if = { # if it is a colony then they get a claim on the province they're losing
+					limit = { # Non-colonies will have cores so don't need anything added
+						is_colony = yes
+					}
+					add_claim = owner
+				}
+				add_territorial_core = ROOT 
+				
+				if = { # Change religion and culture if empty province not in trade company or in trade company with no population
+					limit = {
+						is_empty = yes
+						has_province_flag = ColonyBecomesOwner
+					} 
+					change_religion = ROOT # Re-evaluate and probably change after religion rework is complete
+					change_culture = ROOT
+					ROOT = {
+						capital_scope = {
+							event_target:MEC_Expedition_Target_Province = { set_key = { lhs = Plague_Resistance1 which = PREV } }
+							event_target:MEC_Expedition_Target_Province = { set_key = { lhs = Plague_Resistance2 which = PREV } }
+							event_target:MEC_Expedition_Target_Province = { set_key = { lhs = Plague_Resistance4 which = PREV } }
+						    
+						    event_target:MEC_Expedition_Target_Province = { divide_key = { lhs = Plague_Resistance1 value = 3 } }
+						    event_target:MEC_Expedition_Target_Province = { divide_key = { lhs = Plague_Resistance2 value = 3 } }
+						    event_target:MEC_Expedition_Target_Province = { divide_key = { lhs = Plague_Resistance4 value = 3 } }
+						}
+						
+                        if = {
+                            limit = {
+                                any_owned_province = {
+                                    check_key = { lhs = Plague_SpawnChance4 value = 0.1 }
+                                }
+                            }                        
+                            event_target:MEC_Expedition_Target_Province = {
+                                if = {
+                                    limit = {
+                                        has_province_flag = possible_malaria
+                                    }
+                                    America_Malaria_Calculator = yes
+                                }
+                                every_neighbor_province = {
+                                    limit = {
+                                        has_province_flag = possible_malaria
+                                    }
+                                    America_Malaria_Calculator = yes
+                                }
+                            }
+                        }
+                    }
+                }
+                # System for 'waking' up smallpox in America. 
+                random_list = { 
+                    1 = {
+                        event_target:MEC_Expedition_Target_Province = {
+                            if = {
+                                limit = {
+                                    continent = north_america                                                                 
+                                }
+                                if = {
+                                    limit = {
+                                        has_global_flag = not_namerica_smallpox
+                                        superregion = east_america_superregion
+                                    }
+                                    every_neighbor_province = {
+                                        limit = {
+                                            NOT = {
+                                                check_key = { lhs = Plague_SpawnChance2 value = 0.1 }
+                                                check_key = { lhs = Plague_Resistance2 value = 0.1 }
+                                            }
+                                            owner = {
+                                                OR = {
+                                                    technology_group = Andes
+                                                    technology_group = mesoamerican
+                                                    technology_group = south_american
+                                                    technology_group = high_american
+                                                }
+                                            }
+                                        }
+                                        #log = "MEC_Expeditions:[GetYear]:North America Smallpox Triggered from Expedition"
+                                        province_event = { id = Plague_Spawner.221 days = 2555 random = 365 }
+                                    }
+                                }
+                                else_if = {
+                                    limit = {
+                                        has_global_flag = not_camerica_smallpox
+                                        superregion = central_america_superregion
+                                    }
+                                    every_neighbor_province = {
+                                        limit = {
+                                            NOT = {
+                                                check_key = { lhs = Plague_SpawnChance2 value = 0.1 }
+                                                check_key = { lhs = Plague_Resistance2 value = 0.1 }
+                                            }
+                                            owner = {
+                                                OR = {
+                                                    technology_group = Andes
+                                                    technology_group = mesoamerican
+                                                    technology_group = south_american
+                                                    technology_group = high_american
+                                                }
+                                            }
+                                        }
+                                        #log = "MEC_Expeditions:[GetYear]:Central America Smallpox Triggered from Expedition"
+                                        province_event = { id = Plague_Spawner.222 days = 2555 random = 365 }
+                                    }
+                                }
+                            }
+                            else_if = {
+                                limit = {
+                                    continent = south_america
+                                    has_global_flag = not_samerica_smallpox
+                                }
+                                every_neighbor_province = {
+                                    limit = {
+                                        NOT = {
+                                            check_key = { lhs = Plague_SpawnChance2 value = 0.1 }
+                                            check_key = { lhs = Plague_Resistance2 value = 0.1 }
+                                        }
+                                        owner = {
+                                            OR = {
+                                                technology_group = Andes
+                                                technology_group = mesoamerican
+                                                technology_group = south_american
+                                                technology_group = high_american
+                                            }
+                                        }
+                                    }
+                                    #log = "MEC_Expeditions:[GetYear]:South America Smallpox Triggered from Expedition"
+                                    province_event = { id = Plague_Spawner.2 days = 2555 random = 365 }
+                                }
+                            }
+                        }
+                    }                      
+                    2 = { 
+                    }
+                }                  
+				if = { # If not empty add negative opinion for owner against expedition sender
+					limit = {
+						is_empty = no
+					}
+					#log = "MEC_Expeditions:[GetYear]:[Root.GetName]:received negative opinion modifier from::[MEC_Expedition_Target_Province.Owner.GetName]"
+					owner = {
+						add_opinion = {
+							who = ROOT
+							modifier = MEC_Expeditions_taken_province
+						}
+					}
+				}
+				cede_province = ROOT
+				if = { # if it is a colony then instantly finish it
+					limit = {
+						is_colony = yes
+					}
+					add_colonysize = 1000
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = MEC_Expeditions.expedition_success
+		#log = "MEC_Expeditions:[GetYear]:[Root.GetName]:successful expedition to:southzealandia:[MEC_Expedition_Target_Province.GetName]"
+		add_prestige = 3
+	}
+}
 ############################################################################################################
 ################################        Expedition Total Failure       #######################################
 ############################################################################################################
@@ -82421,6 +87254,57 @@ country_event = {
 	option = {
 		name = MEC_Expeditions.total_failure
 		#log = "MEC_Expeditions:[GetYear]:[Root.GetName]:expedition totally failed:west_atlantis_node"
+		ai_chance = {
+			factor = 1
+		}
+		add_prestige = -3
+	}
+}
+# Failure of Expedition to Zealandia Node
+country_event = {
+	id = MEC_Expeditions.452
+	title = MEC_Expeditions.452.title
+	desc = MEC_Expeditions.452.desc
+	picture = TRADEGOODS_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = MEC_Expeditions.total_failure
+		#log = "MEC_Expeditions:[GetYear]:[Root.GetName]:expedition totally failed:zealandia"
+		ai_chance = {
+			factor = 1
+		}
+		add_prestige = -3
+	}
+}
+# Failure of Expedition to East Zealandia Node
+country_event = {
+	id = MEC_Expeditions.453
+	title = MEC_Expeditions.453.title
+	desc = MEC_Expeditions.453.desc
+	picture = TRADEGOODS_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = MEC_Expeditions.total_failure
+		#log = "MEC_Expeditions:[GetYear]:[Root.GetName]:expedition totally failed:eastzealandia"
+		ai_chance = {
+			factor = 1
+		}
+		add_prestige = -3
+	}
+}
+# Failure of Expedition to South Zealandia Node
+country_event = {
+	id = MEC_Expeditions.454
+	title = MEC_Expeditions.454.title
+	desc = MEC_Expeditions.454.desc
+	picture = TRADEGOODS_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = MEC_Expeditions.total_failure
+		#log = "MEC_Expeditions:[GetYear]:[Root.GetName]:expedition totally failed:southzealandia"
 		ai_chance = {
 			factor = 1
 		}
@@ -83575,6 +88459,72 @@ country_event = {
 		}
 	}
 }
+# Failure of Expedition to Zealandia Node
+country_event = {
+	id = MEC_Expeditions.552
+	title = MEC_Expeditions.552.title
+	desc = MEC_Expeditions.552.desc
+	picture = TRADEGOODS_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = MEC_Expeditions.map_failure
+		#log = "MEC_Expeditions:[GetYear]:[Root.GetName]:expedition map failed:zealandia"
+		ai_chance = {
+			factor = 1
+		}
+		add_prestige = -1
+		hidden_effect = {
+			expedition_provs.zealandia_vision = { # Note this can cause crashes if the prov group has invalid province numbers
+				discover_country = ROOT
+			}
+		}
+	}
+}
+# Failure of Expedition to East Zealandia Node
+country_event = {
+	id = MEC_Expeditions.553
+	title = MEC_Expeditions.553.title
+	desc = MEC_Expeditions.553.desc
+	picture = TRADEGOODS_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = MEC_Expeditions.map_failure
+		#log = "MEC_Expeditions:[GetYear]:[Root.GetName]:expedition map failed:eastzealandia"
+		ai_chance = {
+			factor = 1
+		}
+		add_prestige = -1
+		hidden_effect = {
+			expedition_provs.eastzealandia_vision = { # Note this can cause crashes if the prov group has invalid province numbers
+				discover_country = ROOT
+			}
+		}
+	}
+}
+# Failure of Expedition to South Zealandia Node
+country_event = {
+	id = MEC_Expeditions.554
+	title = MEC_Expeditions.554.title
+	desc = MEC_Expeditions.554.desc
+	picture = TRADEGOODS_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = MEC_Expeditions.map_failure
+		#log = "MEC_Expeditions:[GetYear]:[Root.GetName]:expedition map failed:southzealandia"
+		ai_chance = {
+			factor = 1
+		}
+		add_prestige = -1
+		hidden_effect = {
+			expedition_provs.southzealandia_vision = { # Note this can cause crashes if the prov group has invalid province numbers
+				discover_country = ROOT
+			}
+		}
+	}
+}
 ############################################################################################################
 ################################        Expedition Trade Failure       #######################################
 ############################################################################################################
@@ -84718,6 +89668,72 @@ country_event = {
 		add_treasury = 20
 		hidden_effect = {
 			expedition_provs.west_atlantis_node_vision = { # Note this can cause crashes if the prov group has invalid province numbers
+				discover_country = ROOT
+			}
+		}
+	}
+}
+# Failure of Expedition to Zealandia Node
+country_event = {
+	id = MEC_Expeditions.652
+	title = MEC_Expeditions.652.title
+	desc = MEC_Expeditions.652.desc
+	picture = TRADEGOODS_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = MEC_Expeditions.trade_failure
+		#log = "MEC_Expeditions:[GetYear]:[Root.GetName]:expedition trade failed:zealandia"
+		ai_chance = {
+			factor = 1
+		}
+		add_treasury = 20
+		hidden_effect = {
+			expedition_provs.zealandia_vision = { # Note this can cause crashes if the prov group has invalid province numbers
+				discover_country = ROOT
+			}
+		}
+	}
+}
+# Failure of Expedition to East Zealandia Node
+country_event = {
+	id = MEC_Expeditions.653
+	title = MEC_Expeditions.653.title
+	desc = MEC_Expeditions.653.desc
+	picture = TRADEGOODS_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = MEC_Expeditions.trade_failure
+		#log = "MEC_Expeditions:[GetYear]:[Root.GetName]:expedition trade failed:eastzealandia"
+		ai_chance = {
+			factor = 1
+		}
+		add_treasury = 20
+		hidden_effect = {
+			expedition_provs.eastzealandia_vision = { # Note this can cause crashes if the prov group has invalid province numbers
+				discover_country = ROOT
+			}
+		}
+	}
+}
+# Failure of Expedition to South Zealandia Node
+country_event = {
+	id = MEC_Expeditions.654
+	title = MEC_Expeditions.654.title
+	desc = MEC_Expeditions.654.desc
+	picture = TRADEGOODS_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = MEC_Expeditions.trade_failure
+		#log = "MEC_Expeditions:[GetYear]:[Root.GetName]:expedition trade failed:southzealandia"
+		ai_chance = {
+			factor = 1
+		}
+		add_treasury = 20
+		hidden_effect = {
+			expedition_provs.southzealandia_vision = { # Note this can cause crashes if the prov group has invalid province numbers
 				discover_country = ROOT
 			}
 		}
@@ -85871,6 +90887,72 @@ country_event = {
 		}
 	}
 }
+# Failure of Expedition to Zealandia Node
+country_event = {
+	id = MEC_Expeditions.752
+	title = MEC_Expeditions.752.title
+	desc = MEC_Expeditions.752.desc
+	picture = TRADEGOODS_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = MEC_Expeditions.no_attack_failure
+		#log = "MEC_Expeditions:[GetYear]:[Root.GetName]:expedition no attack failed:zealandia"
+		ai_chance = {
+			factor = 1
+		}
+		add_prestige = -1
+		hidden_effect = {
+			expedition_provs.zealandia_vision = { # Note this can cause crashes if the prov group has invalid province numbers
+				discover_country = ROOT
+			}
+		}
+	}
+}
+# Failure of Expedition to East Zealandia Node
+country_event = {
+	id = MEC_Expeditions.753
+	title = MEC_Expeditions.753.title
+	desc = MEC_Expeditions.753.desc
+	picture = TRADEGOODS_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = MEC_Expeditions.no_attack_failure
+		#log = "MEC_Expeditions:[GetYear]:[Root.GetName]:expedition no attack failed:eastzealandia"
+		ai_chance = {
+			factor = 1
+		}
+		add_prestige = -1
+		hidden_effect = {
+			expedition_provs.eastzealandia_vision = { # Note this can cause crashes if the prov group has invalid province numbers
+				discover_country = ROOT
+			}
+		}
+	}
+}
+# Failure of Expedition to South Zealandia Node
+country_event = {
+	id = MEC_Expeditions.754
+	title = MEC_Expeditions.754.title
+	desc = MEC_Expeditions.754.desc
+	picture = TRADEGOODS_eventPicture
+	is_triggered_only = yes
+
+	option = {
+		name = MEC_Expeditions.no_attack_failure
+		#log = "MEC_Expeditions:[GetYear]:[Root.GetName]:expedition no attack failed:southzealandia"
+		ai_chance = {
+			factor = 1
+		}
+		add_prestige = -1
+		hidden_effect = {
+			expedition_provs.southzealandia_vision = { # Note this can cause crashes if the prov group has invalid province numbers
+				discover_country = ROOT
+			}
+		}
+	}
+}
 ############################################################################################################
 ################################        Expedition Decision Events      #######################################
 ############################################################################################################
@@ -85896,7 +90978,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_800
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -85931,7 +91013,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_801
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -85966,7 +91048,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_802
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -86001,7 +91083,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_803
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -86036,7 +91118,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_804
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -86071,7 +91153,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_805
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -86106,7 +91188,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_806
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -86141,7 +91223,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_807
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -86176,7 +91258,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_808
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -86211,7 +91293,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_809
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -86246,7 +91328,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_810
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -86281,7 +91363,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_811
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -86316,7 +91398,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_812
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -86351,7 +91433,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_813
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -86386,7 +91468,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_814
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -86421,7 +91503,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_815
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -86456,7 +91538,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_816
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -86491,7 +91573,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_817
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -86526,7 +91608,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_818
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -86561,7 +91643,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_819
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -86596,7 +91678,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_820
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -86631,7 +91713,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_821
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -86666,7 +91748,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_822
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -86701,7 +91783,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_823
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -86736,7 +91818,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_824
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -86771,7 +91853,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_825
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -86806,7 +91888,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_826
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -86841,7 +91923,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_827
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -86876,7 +91958,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_828
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -86911,7 +91993,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_829
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -86946,7 +92028,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_830
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -86981,7 +92063,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_831
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -87016,7 +92098,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_832
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -87051,7 +92133,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_833
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -87086,7 +92168,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_834
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -87121,7 +92203,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_835
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -87156,7 +92238,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_836
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -87191,7 +92273,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_837
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -87226,7 +92308,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_838
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -87261,7 +92343,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_839
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -87296,7 +92378,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_840
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -87331,7 +92413,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_841
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -87366,7 +92448,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_842
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -87401,7 +92483,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_843
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -87436,7 +92518,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_844
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -87471,7 +92553,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_845
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -87506,7 +92588,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_846
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -87541,7 +92623,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_847
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -87576,7 +92658,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_848
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -87611,7 +92693,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_849
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -87646,7 +92728,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_850
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -87681,7 +92763,7 @@ country_event = {
 		highlight = yes
 		set_country_flag = MEC_Expeditions_decision_event_851
 		country_event = {
-			id = MEC_Expeditions.852
+			id = MEC_Expeditions.855
 		}
 		ai_chance = {
 			factor = 0
@@ -87695,10 +92777,115 @@ country_event = {
 		}
 	}
 }
+# Info on Expeditions to Zealandia Node
 country_event = {
 	id = MEC_Expeditions.852
 	title = MEC_Expeditions.852.title
 	desc = MEC_Expeditions.852.desc
+	picture = TRADEGOODS_eventPicture
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			expedition_provs.zealandia = {
+				MEC_Expeditions_defence_calc_effect = yes
+			}
+		}
+	}
+	
+	option = {
+		name = MEC_Expeditions.more_info
+		highlight = yes
+		set_country_flag = MEC_Expeditions_decision_event_852
+		country_event = {
+			id = MEC_Expeditions.855
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+	option = {
+		name = MEC_Expeditions.report
+		#log = "MEC_Expeditions:[GetYear]:[Root.GetName]:picked decision event for:zealandia:If that is an AI it is a bug."		
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+# Info on Expeditions to East Zealandia Node
+country_event = {
+	id = MEC_Expeditions.853
+	title = MEC_Expeditions.853.title
+	desc = MEC_Expeditions.853.desc
+	picture = TRADEGOODS_eventPicture
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			expedition_provs.eastzealandia = {
+				MEC_Expeditions_defence_calc_effect = yes
+			}
+		}
+	}
+	
+	option = {
+		name = MEC_Expeditions.more_info
+		highlight = yes
+		set_country_flag = MEC_Expeditions_decision_event_853
+		country_event = {
+			id = MEC_Expeditions.855
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+	option = {
+		name = MEC_Expeditions.report
+		#log = "MEC_Expeditions:[GetYear]:[Root.GetName]:picked decision event for:eastzealandia:If that is an AI it is a bug."		
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+# Info on Expeditions to South Zealandia Node
+country_event = {
+	id = MEC_Expeditions.854
+	title = MEC_Expeditions.854.title
+	desc = MEC_Expeditions.854.desc
+	picture = TRADEGOODS_eventPicture
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			expedition_provs.southzealandia = {
+				MEC_Expeditions_defence_calc_effect = yes
+			}
+		}
+	}
+	
+	option = {
+		name = MEC_Expeditions.more_info
+		highlight = yes
+		set_country_flag = MEC_Expeditions_decision_event_854
+		country_event = {
+			id = MEC_Expeditions.855
+		}
+		ai_chance = {
+			factor = 0
+		}
+	}
+	option = {
+		name = MEC_Expeditions.report
+		#log = "MEC_Expeditions:[GetYear]:[Root.GetName]:picked decision event for:southzealandia:If that is an AI it is a bug."		
+		ai_chance = {
+			factor = 1
+		}
+	}
+}
+country_event = {
+	id = MEC_Expeditions.855
+	title = MEC_Expeditions.855.title
+	desc = MEC_Expeditions.855.desc
 	picture = TRADEGOODS_eventPicture
 	is_triggered_only = yes
 
@@ -88021,6 +93208,24 @@ country_event = {
 					id = MEC_Expeditions.851
 				}
 			}
+			MEC_Expeditions_decision_event_852 = {
+				clr_country_flag = MEC_Expeditions_decision_event_852
+				country_event = {
+					id = MEC_Expeditions.852
+				}
+			}
+			MEC_Expeditions_decision_event_853 = {
+				clr_country_flag = MEC_Expeditions_decision_event_853
+				country_event = {
+					id = MEC_Expeditions.853
+				}
+			}
+			MEC_Expeditions_decision_event_854 = {
+				clr_country_flag = MEC_Expeditions_decision_event_854
+				country_event = {
+					id = MEC_Expeditions.854
+				}
+			}
 		}
 	}
 	option = {
@@ -88080,6 +93285,9 @@ country_event = {
 		clr_country_flag = MEC_Expeditions_decision_event_849
 		clr_country_flag = MEC_Expeditions_decision_event_850
 		clr_country_flag = MEC_Expeditions_decision_event_851
+		clr_country_flag = MEC_Expeditions_decision_event_852
+		clr_country_flag = MEC_Expeditions_decision_event_853
+		clr_country_flag = MEC_Expeditions_decision_event_854
 	}
 }
 

@@ -68,6 +68,9 @@ country_decisions = {
 				province_group = expedition_provs.north_atlantis_node
 				province_group = expedition_provs.east_atlantis_node
 				province_group = expedition_provs.west_atlantis_node
+				province_group = expedition_provs.zealandia
+				province_group = expedition_provs.eastzealandia
+				province_group = expedition_provs.southzealandia
 			}
 		}
 		allow = { # Always allow
@@ -1183,6 +1186,66 @@ country_decisions = {
 		effect = {
 			country_event = {
 				id = MEC_Expeditions.851
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	MEC_Expeditions_Decision_zealandia = {
+		major = no
+		potential = {
+			has_country_flag = MEC_Expeditions_Show_Decisions
+		}
+		provinces_to_highlight = {
+			province_group = expedition_provs.zealandia
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			country_event = {
+				id = MEC_Expeditions.852
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	MEC_Expeditions_Decision_eastzealandia = {
+		major = no
+		potential = {
+			has_country_flag = MEC_Expeditions_Show_Decisions
+		}
+		provinces_to_highlight = {
+			province_group = expedition_provs.eastzealandia
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			country_event = {
+				id = MEC_Expeditions.853
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	MEC_Expeditions_Decision_southzealandia = {
+		major = no
+		potential = {
+			has_country_flag = MEC_Expeditions_Show_Decisions
+		}
+		provinces_to_highlight = {
+			province_group = expedition_provs.southzealandia
+		}
+		allow = {
+			always = yes
+		}
+		effect = {
+			country_event = {
+				id = MEC_Expeditions.854
 			}
 		}
 		ai_will_do = {
