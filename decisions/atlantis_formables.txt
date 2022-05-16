@@ -164,7 +164,7 @@ country_decisions = {
 				clr_country_flag = title_4
 			}
 			add_absolutism = 10
-			override_country_name = "Hy Brasil"
+			override_country_name = HY_BRASIL
 		}
 		ai_will_do = { 
 			factor = 1
@@ -228,7 +228,7 @@ country_decisions = {
 				clr_country_flag = title_5
 			}
 			add_absolutism = 10
-			override_country_name = "Great Zhourao"
+			override_country_name = GREAT_ZHOURAO
 		}
 		ai_will_do = { 
 			factor = 1
@@ -305,7 +305,7 @@ country_decisions = {
 				clr_country_flag = title_5
 			}
 			add_absolutism = 10
-			override_country_name = "Great Penglai"
+			override_country_name = GREAT_PENGLAI
 		}
 		ai_will_do = { 
 			factor = 1
@@ -370,7 +370,7 @@ country_decisions = {
 				clr_country_flag = title_4
 			}
 			add_absolutism = 10
-			override_country_name = "Thule"
+			override_country_name = THULE
 		}
 		ai_will_do = { 
 			factor = 1
@@ -432,7 +432,7 @@ country_decisions = {
 				clr_country_flag = title_4
 			}
 			add_absolutism = 10
-			override_country_name = "Xiangba La"
+			override_country_name = XIANGBALA
 		}
 		ai_will_do = { 
 			factor = 1
@@ -451,7 +451,7 @@ country_decisions = {
 		}
 		effect = { 
 		    set_country_flag = maoliren_namechange
-			override_country_name = "Xinxilan"
+			override_country_name = XINXILAN
 		}
 		ai_will_do = { 
 			factor = 1

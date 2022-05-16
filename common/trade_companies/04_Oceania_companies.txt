@@ -1,0 +1,73 @@
+
+trade_company_polynesia = {
+	color = { 161 49 65 }
+	
+	provinces = {
+		506 513 1097 1240 1243 1244 1341 1835 2151 2527 2608 4012 4013 4014 5236 5237 5238 5239    
+	}
+	
+	# Specific
+	names = {
+		name = "TRADE_COMPANY_POLYNESIA_Root_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_POLYNESIA_Oceania_Trade_Company"
+	}
+}
+
+trade_company_oceania = {
+	color = { 142 181 205 }
+	
+	provinces = {
+		799 810 817 1084 1085 1086 1087 1088 1090 1091
+		1092 1093 1094 1342 2123 2126 2127 2128
+		2129 2130 2131 2132 2133 2134 2135 2136 2138 2139 2140 2143
+		2146 2516 2517
+	}
+	
+	names = {
+		name = "TRADE_COMPANY_OCEANIA_Root_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_OCEANIA_Oceania_Trade_Company"
+	}
+	
+}
+
+trade_company_pacific = {
+	color = { 115 237 74 }
+	
+	provinces = {
+	650 822 1106 1107 1108 1109 1230 1231 1232 1233 1235 1236 1238 1239
+	1241 1242 1246 1249 2587 2588 2590 2610 5234 5760 5761 5762 5763 5764 5765 5766 5767 5768 5769 5770 5771 5772 5773 5774
+	5775 5776 5777 5780 5781 5782 5783 5784 5785 5786 5787 5790 5791 5792 5793
+	5794 5795 5796 5797 5798 5799 5800 5801 5802 5803 5804 5811 5812 5813 5814 5815 5816 5817 5818 5819 
+	5820 5821 5822 5823 5824 5825 5826 5827 5828 5829 5830 5831 5832 5833 5834 5835 5836 5837 5838 5839
+	5840 5841 5842 5843 5844 5845 5846 5847 5848 5849 5850 5851 5852 5853 5857 5858 5859 2610 5864 5865
+	}
+	
+	names = {
+		name = "TRADE_COMPANY_PACIFIC_Root_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_PACIFIC_Oceania_Trade_Company"
+	}
+	
+}
+
+trade_company_papua = {
+	color = { 205 142 181 }
+	
+	provinces = {
+		1245 2088 714 1234 2585 1237 3344 3343 3450 3448 773 
+		3446 777 2589 3345 
+	}
+	
+	# Specific
+	names = {
+		name = "TRADE_COMPANY_PAPUA_Root_GetName"
+	}
+	names = {
+		name = "TRADE_COMPANY_PAPUA_Oceania_Trade_Company"
+	}
+}

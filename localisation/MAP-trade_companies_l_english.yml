@@ -107,3 +107,8 @@
  trade_company_papua:1 "Papua Charter"
  TRADE_COMPANY_PAPUA_Root_GetName:1 "[Root.GetAdjective] Papua Company"
  TRADE_COMPANY_PAPUA_Oceania_Trade_Company:1 "Papua Trade Company"
+ TRADE_COMPANY_PACIFIC_Root_GetName:1 "[Root.GetAdjective] Pacific Company"
+ TRADE_COMPANY_PACIFIC_Oceania_Trade_Company:1 "Pacific Trade Company"
+ TRADE_COMPANY_OCEANIA_Root_GetName:1 "[Root.GetAdjective] Oceania Company"
+ TRADE_COMPANY_OCEANIA_Oceania_Trade_Company:1 "Oceania Trade Company"
+ 

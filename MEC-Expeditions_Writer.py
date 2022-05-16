@@ -39,7 +39,7 @@ class Expedition:
 # Balancing notes: 13 for your own area, 15 for directly next to, 16 for if have coast to go along, 17 if need north/south accuracy
 expeditions_list = []  # Expeditions must have appropriately named province groups in in map/provincegroup.txt
 # the British Isles
-expeditions_list.append(Expedition('british_isles', 'the British Isles', 0, 'Jumping Node', [77]))
+expeditions_list.append(Expedition('british_isles', 'the British Isles', 0, 'Jumping Node', [84]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 25), ('East Atlantis Node', 25), ('South Atlantis Node', 25), ('North Atlantis Node', 25), ('Iberia', 25), ('Strait of Gibraltar', 25), ('West Mediterranean', 25), ('France', 33), ('Channel', 33), ('North Sea', 33), ('Barbary Coast', 25), ('Tyrrenean Sea', 25), ('Rhineland', 33), ('Lower Nile', 25), ('Po Valley', 25), ('Adriatic Sea', 25), ('Levant', 25), ('Aegean Sea', 25),
      ('Danube', 25), ('Elbe', 33), ('Baltic Sea', 25), ('Vistula', 25), ('Crimea', 25), ('Western Siberia', 25), ('Dnieper', 25), ('Caspian Sea', 25), ('Zalesye', 25), ('Anatolia', 25), ('Sahara', 25), ('Senegambia', 27), ('Niger River', 27), ('Guinea Coast',
@@ -50,7 +50,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 33), ('Andes', 32), ('Southern Cone', 31), ('Guiana', 30), ('Amazonia', 32), ('Panama', 31), ('Caribbean', 30), ('Mexico', 31), ('Rio Grande', 31), ('Mississippi', 31), ('Plains', 31), ('Eastern Seaboard', 29), ('Canada', 29),
      ('American West Coast', 33), ('Pacific', 33)])
 # Northern Europe
-expeditions_list.append(Expedition('northern_europe', 'Northern Europe', 0, 'Jumping Node', [81]))
+expeditions_list.append(Expedition('northern_europe', 'Northern Europe', 0, 'Jumping Node', [88]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 25), ('East Atlantis Node', 25), ('South Atlantis Node', 25), ('North Atlantis Node', 25), ('Iberia', 25), ('Strait of Gibraltar', 25), ('West Mediterranean', 25), ('France', 33), ('Channel', 33), ('North Sea', 33), ('Barbary Coast', 25), ('Tyrrenean Sea', 25), ('Rhineland', 33), ('Lower Nile', 25), ('Po Valley', 25), ('Adriatic Sea', 25), ('Levant', 25), ('Aegean Sea', 25),
      ('Danube', 25), ('Elbe', 33), ('Baltic Sea', 33), ('Vistula', 25), ('Crimea', 25), ('Western Siberia', 25), ('Dnieper', 25), ('Caspian Sea', 25), ('Zalesye', 25), ('Anatolia', 25), ('Sahara', 25), ('Senegambia', 27), ('Niger River', 27), ('Guinea Coast',
@@ -61,7 +61,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 33), ('Andes', 32), ('Southern Cone', 31), ('Guiana', 30), ('Amazonia', 32), ('Panama', 31), ('Caribbean', 30), ('Mexico', 31), ('Rio Grande', 31), ('Mississippi', 31), ('Plains', 31), ('Eastern Seaboard', 29), ('Canada', 29),
      ('American West Coast', 33), ('Pacific', 33)])
 # France
-expeditions_list.append(Expedition('france', 'France', 0, 'Jumping Node', [77]))
+expeditions_list.append(Expedition('france', 'France', 0, 'Jumping Node', [84]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 25), ('East Atlantis Node', 25), ('South Atlantis Node', 25), ('North Atlantis Node', 25), ('Iberia', 33), ('Strait of Gibraltar', 25), ('West Mediterranean', 25), ('France', 33), ('Channel', 33), ('North Sea', 33), ('Barbary Coast', 25), ('Tyrrenean Sea', 25), ('Rhineland', 33), ('Lower Nile', 25), ('Po Valley', 25), ('Adriatic Sea', 25), ('Levant', 25), ('Aegean Sea', 25),
      ('Danube', 25), ('Elbe', 33), ('Baltic Sea', 25), ('Vistula', 25), ('Crimea', 25), ('Western Siberia', 25), ('Dnieper', 25), ('Caspian Sea', 25), ('Zalesye', 25), ('Anatolia', 25), ('Sahara', 25), ('Senegambia', 27), ('Niger River', 27), ('Guinea Coast',
@@ -72,7 +72,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 33), ('Andes', 32), ('Southern Cone', 31), ('Guiana', 30), ('Amazonia', 32), ('Panama', 31), ('Caribbean', 30), ('Mexico', 31), ('Rio Grande', 31), ('Mississippi', 31), ('Plains', 31), ('Eastern Seaboard', 29), ('Canada', 29),
      ('American West Coast', 33), ('Pacific', 33)])
 # Iberia
-expeditions_list.append(Expedition('iberia', 'Iberia', 0, 'Jumping Node', [67, 70]))
+expeditions_list.append(Expedition('iberia', 'Iberia', 0, 'Jumping Node', [74, 78]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33),('West Atlantis Node', 25), ('East Atlantis Node', 25), ('South Atlantis Node', 25), ('North Atlantis Node', 25), ('Iberia', 33), ('Strait of Gibraltar', 33), ('West Mediterranean', 25), ('France', 25), ('Channel', 25), ('North Sea', 25), ('Barbary Coast', 25), ('Tyrrenean Sea', 25), ('Rhineland', 25), ('Lower Nile', 25), ('Po Valley', 25), ('Adriatic Sea', 25), ('Levant', 25), ('Aegean Sea', 25),
      ('Danube', 25), ('Elbe', 25), ('Baltic Sea', 25), ('Vistula', 25), ('Crimea', 25), ('Western Siberia', 25), ('Dnieper', 25), ('Caspian Sea', 25), ('Zalesye', 25), ('Anatolia', 25), ('Sahara', 25), ('Senegambia', 16), ('Niger River', 16),
@@ -82,7 +82,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 33), ('Andes', 32), ('Southern Cone', 31), ('Guiana', 30), ('Amazonia', 32), ('Panama', 31), ('Caribbean', 29), ('Mexico', 31), ('Rio Grande', 31), ('Mississippi', 31), ('Plains', 31), ('Eastern Seaboard', 29), ('Canada', 29),
      ('American West Coast', 33), ('Pacific', 33)])
 # the Iberian Islands
-expeditions_list.append(Expedition('iberian_islands', 'the Iberian Islands', 300, 'Jumping Node', [67, 70]))
+expeditions_list.append(Expedition('iberian_islands', 'the Iberian Islands', 300, 'Jumping Node', [74, 78]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 25), ('East Atlantis Node', 25), ('South Atlantis Node', 25), ('North Atlantis Node', 25), ('Iberia', 33), ('Strait of Gibraltar', 33), ('West Mediterranean', 25), ('France', 25), ('Channel', 25), ('North Sea', 25), ('Barbary Coast', 25), ('Tyrrenean Sea', 25), ('Rhineland', 25), ('Lower Nile', 25), ('Po Valley', 25), ('Adriatic Sea', 25), ('Levant', 25), ('Aegean Sea', 25),
      ('Danube', 25), ('Elbe', 25), ('Baltic Sea', 25), ('Vistula', 25), ('Crimea', 25), ('Western Siberia', 25), ('Dnieper', 25), ('Caspian Sea', 25), ('Zalesye', 25), ('Anatolia', 25), ('Sahara', 25), ('Senegambia', 16), ('Niger River', 16),
@@ -92,7 +92,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 33), ('Andes', 32), ('Southern Cone', 31), ('Guiana', 30), ('Amazonia', 30), ('Panama', 31), ('Caribbean', 29), ('Mexico', 31), ('Rio Grande', 31), ('Mississippi', 31), ('Plains', 31), ('Eastern Seaboard', 29), ('Canada', 29),
      ('American West Coast', 33), ('Pacific', 33)])
 # Northwest Africa
-expeditions_list.append(Expedition('northwest_africa', 'Northwest Africa', 100, 'Jumping Node', [52]))
+expeditions_list.append(Expedition('northwest_africa', 'Northwest Africa', 100, 'Jumping Node', [55]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 25), ('East Atlantis Node', 25), ('South Atlantis Node', 25), ('North Atlantis Node', 25), ('Iberia', 33), ('Strait of Gibraltar', 33), ('West Mediterranean', 25), ('France', 25), ('Channel', 25), ('North Sea', 25), ('Barbary Coast', 25), ('Tyrrenean Sea', 25), ('Rhineland', 25), ('Lower Nile', 25), ('Po Valley', 25), ('Adriatic Sea', 25), ('Levant', 25), ('Aegean Sea', 25),
      ('Danube', 25), ('Elbe', 25), ('Baltic Sea', 25), ('Vistula', 25), ('Crimea', 25), ('Western Siberia', 25), ('Dnieper', 25), ('Caspian Sea', 25), ('Zalesye', 25), ('Anatolia', 25), ('Sahara', 25), ('Senegambia', 16), ('Niger River', 16), ('Guinea Coast',
@@ -103,7 +103,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 33), ('Andes', 32), ('Southern Cone', 31), ('Guiana', 30), ('Amazonia', 32), ('Panama', 31), ('Caribbean', 29), ('Mexico', 31), ('Rio Grande', 31), ('Mississippi', 31), ('Plains', 31), ('Eastern Seaboard', 29), ('Canada', 29),
      ('American West Coast', 33), ('Pacific', 33)])
 # West Africa
-expeditions_list.append(Expedition('west_africa', 'West Africa', 800, 'Jumping Node', [48]))
+expeditions_list.append(Expedition('west_africa', 'West Africa', 800, 'Jumping Node', [51]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 16), ('East Atlantis Node', 16), ('South Atlantis Node', 16), ('North Atlantis Node', 16), ('Iberia', 16), ('Strait of Gibraltar', 16), ('Sahara', 16), ('West Mediterranean', 27), ('France', 27), ('Channel', 27), ('North Sea', 27), ('Barbary Coast', 27), ('Tyrrenean Sea', 27), ('Rhineland', 27), ('Lower Nile', 27), ('Po Valley', 27), ('Adriatic Sea', 27), ('Levant', 27),
      ('Aegean Sea', 27), ('Danube', 27), ('Elbe', 27), ('Baltic Sea', 27), ('Vistula', 27), ('Crimea', 27), ('Western Siberia', 27), ('Dnieper', 27), ('Caspian Sea', 27), ('Zalesye', 27), ('Anatolia', 27), ('Senegambia', 33), ('Niger River', 33), ('Guinea Coast',
@@ -114,7 +114,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 32), ('Andes', 31), ('Southern Cone', 30), ('Guiana', 27), ('Amazonia', 31), ('Panama', 31), ('Caribbean', 29), ('Mexico', 31), ('Rio Grande', 31), ('Mississippi', 31), ('Plains', 31), ('Eastern Seaboard', 31), ('Canada', 31),
      ('American West Coast', 32), ('Pacific', 33)])
 # the Gulf of Guinea
-expeditions_list.append(Expedition('gulf_of_guinea', 'the Gulf of Guinea', 800, 'Jumping Node', [45]))
+expeditions_list.append(Expedition('gulf_of_guinea', 'the Gulf of Guinea', 800, 'Jumping Node', [48]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 27), ('East Atlantis Node', 27), ('South Atlantis Node', 27), ('North Atlantis Node', 27), ('Iberia', 27), ('Strait of Gibraltar', 27), ('Sahara', 16), ('West Mediterranean', 28), ('France', 28), ('Channel', 28), ('North Sea', 28), ('Barbary Coast', 28), ('Tyrrenean Sea', 28), ('Rhineland', 28), ('Lower Nile', 28), ('Po Valley', 28), ('Adriatic Sea', 28), ('Levant', 28),
      ('Aegean Sea', 28), ('Danube', 28), ('Elbe', 28), ('Baltic Sea', 28), ('Vistula', 28), ('Crimea', 28), ('Western Siberia', 28), ('Dnieper', 28), ('Caspian Sea', 28), ('Zalesye', 28), ('Anatolia', 28), ('Senegambia', 33), ('Niger River', 33), ('Guinea Coast',
@@ -126,7 +126,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('American West Coast', 32), ('Pacific', 33)])
 
 # Central Africa
-expeditions_list.append(Expedition('central_africa', 'Central Africa', 800, 'Jumping Node', [44]))
+expeditions_list.append(Expedition('central_africa', 'Central Africa', 800, 'Jumping Node', [47]))
 expeditions_list[-1].set_node_tech_reqs([('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 28), ('East Atlantis Node', 28), ('South Atlantis Node', 28), ('North Atlantis Node', 28), ('Iberia', 28), ('Strait of Gibraltar', 28), ('Sahara', 27), ('West Mediterranean', 29), ('France', 29),
                                          ('Channel', 29), ('North Sea', 29), ('Barbary Coast', 29), ('Tyrrenean Sea', 29), ('Rhineland', 29), ('Lower Nile', 29), ('Po Valley', 29), ('Adriatic Sea', 29), ('Levant', 29), ('Aegean Sea', 29), ('Danube', 29), ('Elbe', 29), ('Baltic Sea', 29),
                                          ('Vistula', 29), ('Crimea', 29), ('Western Siberia', 29), ('Dnieper', 29), ('Caspian Sea', 29), ('Zalesye', 29), ('Anatolia', 29), ('Senegambia', 25), ('Niger River', 33), ('Guinea Coast',
@@ -138,7 +138,7 @@ expeditions_list[-1].set_node_tech_reqs([('Zealandia Node', 33), ('East Zealandi
                                          ('Far East', 31), ('Andes', 31), ('Southern Cone', 30), ('Guiana', 28), ('Amazonia', 31), ('Panama', 31), ('Caribbean', 29), ('Mexico', 31), ('Rio Grande', 31), ('Mississippi', 31), ('Plains', 31), ('Eastern Seaboard', 31), ('Canada', 31),
                                          ('American West Coast', 32), ('Pacific', 33)])
 # South Africa
-expeditions_list.append(Expedition('south_africa', 'South Africa', 1300, 'Colonial Node', [41]))
+expeditions_list.append(Expedition('south_africa', 'South Africa', 1300, 'Colonial Node', [44]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 30), ('East Atlantis Node', 30), ('South Atlantis Node', 30), ('North Atlantis Node', 30), ('Iberia', 30), ('Strait of Gibraltar', 30), ('Sahara', 28), ('West Mediterranean', 30), ('France', 30), ('Channel', 30), ('North Sea', 30), ('Barbary Coast', 30), ('Tyrrenean Sea', 30), ('Rhineland', 30), ('Lower Nile', 30), ('Po Valley', 30), ('Adriatic Sea', 30), ('Levant', 30),
      ('Aegean Sea', 30), ('Danube', 30), ('Elbe', 30), ('Baltic Sea', 30),
@@ -150,7 +150,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 31), ('Andes', 31), ('Southern Cone', 30), ('Guiana', 29), ('Amazonia', 31), ('Panama', 31), ('Caribbean', 30), ('Mexico', 31), ('Rio Grande', 31), ('Mississippi', 31), ('Plains', 31), ('Eastern Seaboard', 31), ('Canada', 31),
      ('American West Coast', 32), ('Pacific', 33)])
 # East Africa
-expeditions_list.append(Expedition('east_africa', 'East Africa', 800, 'Jumping Node', [40]))
+expeditions_list.append(Expedition('east_africa', 'East Africa', 800, 'Jumping Node', [43]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 30), ('East Atlantis Node', 30), ('South Atlantis Node', 30), ('North Atlantis Node', 30), ('Iberia', 30), ('Strait of Gibraltar', 30), ('Sahara', 30), ('West Mediterranean', 30), ('France', 30), ('Channel', 30), ('North Sea', 30), ('Barbary Coast', 30), ('Tyrrenean Sea', 30), ('Rhineland', 30), ('Lower Nile', 28), ('Po Valley', 30), ('Adriatic Sea', 30), ('Levant', 30),
      ('Aegean Sea', 30), ('Danube', 30), ('Elbe', 30), ('Baltic Sea', 30),
@@ -162,7 +162,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 31), ('Andes', 32), ('Southern Cone', 31), ('Guiana', 30), ('Amazonia', 32), ('Panama', 32), ('Caribbean', 31), ('Mexico', 32), ('Rio Grande', 32), ('Mississippi', 32), ('Plains', 32), ('Eastern Seaboard', 32), ('Canada', 32),
      ('American West Coast', 33), ('Pacific', 33)])
 # the Indian Ocean
-expeditions_list.append(Expedition('indian_ocean', 'the Indian Ocean', 800, 'Jumping Node', [40]))
+expeditions_list.append(Expedition('indian_ocean', 'the Indian Ocean', 800, 'Jumping Node', [43]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 30), ('East Atlantis Node', 30), ('South Atlantis Node', 30), ('North Atlantis Node', 30), ('Iberia', 30), ('Strait of Gibraltar', 30), ('Sahara', 30), ('West Mediterranean', 30), ('France', 30), ('Channel', 30), ('North Sea', 30), ('Barbary Coast', 30), ('Tyrrenean Sea', 30), ('Rhineland', 30), ('Lower Nile', 28), ('Po Valley', 30), ('Adriatic Sea', 30), ('Levant', 30),
      ('Aegean Sea', 30), ('Danube', 30), ('Elbe', 30), ('Baltic Sea', 30),
@@ -174,7 +174,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 31), ('Andes', 32), ('Southern Cone', 31), ('Guiana', 30), ('Amazonia', 32), ('Panama', 32), ('Caribbean', 31), ('Mexico', 32), ('Rio Grande', 32), ('Mississippi', 32), ('Plains', 32), ('Eastern Seaboard', 32), ('Canada', 32),
      ('American West Coast', 33), ('Pacific', 33)])
 # Arabia
-expeditions_list.append(Expedition('arabia', 'Arabia', 400, 'Jumping Node', [38, 51]))
+expeditions_list.append(Expedition('arabia', 'Arabia', 400, 'Jumping Node', [41, 54]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 30), ('East Atlantis Node', 30), ('South Atlantis Node', 30), ('North Atlantis Node', 30), ('Iberia', 30), ('Strait of Gibraltar', 30), ('Sahara', 30), ('West Mediterranean', 30), ('France', 30), ('Channel', 30), ('North Sea', 30), ('Barbary Coast', 30), ('Tyrrenean Sea', 30), ('Rhineland', 30), ('Lower Nile', 16), ('Po Valley', 30), ('Adriatic Sea', 30), ('Levant', 30),
      ('Aegean Sea', 30), ('Danube', 30), ('Elbe', 30), ('Baltic Sea', 30),
@@ -186,7 +186,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 30), ('Andes', 32), ('Southern Cone', 31), ('Guiana', 30), ('Amazonia', 32), ('Panama', 32), ('Caribbean', 31), ('Mexico', 32), ('Rio Grande', 32), ('Mississippi', 32), ('Plains', 32), ('Eastern Seaboard', 32), ('Canada', 32),
      ('American West Coast', 33), ('Pacific', 33)])
 # Western India
-expeditions_list.append(Expedition('western_india', 'Western India', 1300, 'Jumping Node', [35, 36]))
+expeditions_list.append(Expedition('western_india', 'Western India', 1300, 'Jumping Node', [38, 39]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 30), ('East Atlantis Node', 30), ('South Atlantis Node', 30), ('North Atlantis Node', 30), ('Iberia', 30), ('Strait of Gibraltar', 30), ('Sahara', 30), ('West Mediterranean', 30), ('France', 30), ('Channel', 30), ('North Sea', 30), ('Barbary Coast', 30), ('Tyrrenean Sea', 30), ('Rhineland', 30), ('Lower Nile', 28), ('Po Valley', 30), ('Adriatic Sea', 30), ('Levant', 30),
      ('Aegean Sea', 30), ('Danube', 30), ('Elbe', 30), ('Baltic Sea', 30),
@@ -198,7 +198,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 29), ('Andes', 33), ('Southern Cone', 32), ('Guiana', 31), ('Amazonia', 33), ('Panama', 33), ('Caribbean', 32), ('Mexico', 33), ('Rio Grande', 33), ('Mississippi', 33), ('Plains', 33), ('Eastern Seaboard', 33), ('Canada', 33),
      ('American West Coast', 33), ('Pacific', 33)])
 # Southern India
-expeditions_list.append(Expedition('southern_india', 'Southern India', 1300, 'Jumping Node', [34, 35]))
+expeditions_list.append(Expedition('southern_india', 'Southern India', 1300, 'Jumping Node', [37, 38]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 30), ('East Atlantis Node', 30), ('South Atlantis Node', 30), ('North Atlantis Node', 30), ('Iberia', 30), ('Strait of Gibraltar', 30), ('Sahara', 30), ('West Mediterranean', 30), ('France', 30), ('Channel', 30), ('North Sea', 30), ('Barbary Coast', 30), ('Tyrrenean Sea', 30), ('Rhineland', 30), ('Lower Nile', 28), ('Po Valley', 30), ('Adriatic Sea', 30), ('Levant', 30),
      ('Aegean Sea', 30), ('Danube', 30), ('Elbe', 30), ('Baltic Sea', 30),
@@ -210,7 +210,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 29), ('Andes', 33), ('Southern Cone', 32), ('Guiana', 31), ('Amazonia', 33), ('Panama', 33), ('Caribbean', 32), ('Mexico', 33), ('Rio Grande', 33), ('Mississippi', 33), ('Plains', 33), ('Eastern Seaboard', 33), ('Canada', 33),
      ('American West Coast', 33), ('Pacific', 33)])
 # Eastern India
-expeditions_list.append(Expedition('eastern_india', 'Eastern India', 1300, 'Jumping Node', [33, 34]))
+expeditions_list.append(Expedition('eastern_india', 'Eastern India', 1300, 'Jumping Node', [36, 37]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 30), ('East Atlantis Node', 30), ('South Atlantis Node', 30), ('North Atlantis Node', 30), ('Iberia', 30), ('Strait of Gibraltar', 30), ('Sahara', 30), ('West Mediterranean', 30), ('France', 30), ('Channel', 30), ('North Sea', 30), ('Barbary Coast', 30), ('Tyrrenean Sea', 30), ('Rhineland', 30), ('Lower Nile', 28), ('Po Valley', 30), ('Adriatic Sea', 30), ('Levant', 30),
      ('Aegean Sea', 30), ('Danube', 30), ('Elbe', 30), ('Baltic Sea', 30),
@@ -222,7 +222,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 28), ('Andes', 33), ('Southern Cone', 32), ('Guiana', 31), ('Amazonia', 33), ('Panama', 33), ('Caribbean', 32), ('Mexico', 33), ('Rio Grande', 33), ('Mississippi', 33), ('Plains', 33), ('Eastern Seaboard', 33), ('Canada', 33),
      ('American West Coast', 33), ('Pacific', 33)])
 # Malacca
-expeditions_list.append(Expedition('malacca', 'Malacca', 800, 'Regular', [33]))
+expeditions_list.append(Expedition('malacca', 'Malacca', 800, 'Regular', [36]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 31), ('East Atlantis Node', 31), ('South Atlantis Node', 31), ('North Atlantis Node', 31), ('Iberia', 31), ('Strait of Gibraltar', 31), ('Sahara', 31), ('West Mediterranean', 31), ('France', 31), ('Channel', 31), ('North Sea', 31), ('Barbary Coast', 31), ('Tyrrenean Sea', 31), ('Rhineland', 31), ('Lower Nile', 29), ('Po Valley', 31), ('Adriatic Sea', 31), ('Levant', 31),
      ('Aegean Sea', 31), ('Danube', 31), ('Elbe', 31), ('Baltic Sea', 31),
@@ -234,7 +234,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 27), ('Andes', 33), ('Southern Cone', 32), ('Guiana', 31), ('Amazonia', 33), ('Panama', 33), ('Caribbean', 32), ('Mexico', 33), ('Rio Grande', 33), ('Mississippi', 33), ('Plains', 33), ('Eastern Seaboard', 33), ('Canada', 33),
      ('American West Coast', 33), ('Pacific', 33)])
 # Southeast Asia
-expeditions_list.append(Expedition('southeast_asia', 'Southeast Asia', 600, 'Regular', [24, 29, 28]))
+expeditions_list.append(Expedition('southeast_asia', 'Southeast Asia', 600, 'Regular', [27, 32, 31]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 31), ('East Atlantis Node', 31), ('South Atlantis Node', 31), ('North Atlantis Node', 31), ('Iberia', 31), ('Strait of Gibraltar', 31), ('Sahara', 31), ('West Mediterranean', 31), ('France', 31), ('Channel', 31), ('North Sea', 31), ('Barbary Coast', 31), ('Tyrrenean Sea', 31), ('Rhineland', 31), ('Lower Nile', 29), ('Po Valley', 31), ('Adriatic Sea', 31), ('Levant', 31),
      ('Aegean Sea', 31), ('Danube', 31), ('Elbe', 31), ('Baltic Sea', 31),
@@ -246,7 +246,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 27), ('Andes', 33), ('Southern Cone', 32), ('Guiana', 31), ('Amazonia', 33), ('Panama', 33), ('Caribbean', 32), ('Mexico', 33), ('Rio Grande', 33), ('Mississippi', 33), ('Plains', 33), ('Eastern Seaboard', 33), ('Canada', 33),
      ('American West Coast', 33), ('Pacific', 33)])
 # Indonesia
-expeditions_list.append(Expedition('indonesia', 'Indonesia', 1300, 'Regular', [32]))
+expeditions_list.append(Expedition('indonesia', 'Indonesia', 1300, 'Regular', [35]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 31), ('East Atlantis Node', 31), ('South Atlantis Node', 31), ('North Atlantis Node', 31), ('Iberia', 31), ('Strait of Gibraltar', 31), ('Sahara', 31), ('West Mediterranean', 31), ('France', 31), ('Channel', 31), ('North Sea', 31), ('Barbary Coast', 31), ('Tyrrenean Sea', 31), ('Rhineland', 31), ('Lower Nile', 29), ('Po Valley', 31), ('Adriatic Sea', 31), ('Levant', 31),
      ('Aegean Sea', 31), ('Danube', 31), ('Elbe', 31), ('Baltic Sea', 31),
@@ -258,7 +258,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 27), ('Andes', 33), ('Southern Cone', 32), ('Guiana', 31), ('Amazonia', 33), ('Panama', 33), ('Caribbean', 32), ('Mexico', 33), ('Rio Grande', 33), ('Mississippi', 33), ('Plains', 33), ('Eastern Seaboard', 33), ('Canada', 33),
      ('American West Coast', 33), ('Pacific', 33)])
 # the Philippines
-expeditions_list.append(Expedition('philippines', 'the Philippines', 800, 'Regular', [29]))
+expeditions_list.append(Expedition('philippines', 'the Philippines', 800, 'Regular', [32]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 31), ('East Atlantis Node', 31), ('South Atlantis Node', 31), ('North Atlantis Node', 31), ('Iberia', 31), ('Strait of Gibraltar', 31), ('Sahara', 31), ('West Mediterranean', 31), ('France', 31), ('Channel', 31), ('North Sea', 31), ('Barbary Coast', 31), ('Tyrrenean Sea', 31), ('Rhineland', 31), ('Lower Nile', 29), ('Po Valley', 31), ('Adriatic Sea', 31), ('Levant', 31),
      ('Aegean Sea', 31), ('Danube', 31), ('Elbe', 31), ('Baltic Sea', 31),
@@ -270,7 +270,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 27), ('Andes', 33), ('Southern Cone', 32), ('Guiana', 31), ('Amazonia', 33), ('Panama', 33), ('Caribbean', 32), ('Mexico', 33), ('Rio Grande', 33), ('Mississippi', 33), ('Plains', 33), ('Eastern Seaboard', 33), ('Canada', 33),
      ('American West Coast', 33), ('Pacific', 33)])
 # Papua New Guinea
-expeditions_list.append(Expedition('papua', 'Papua New Guinea', 100, 'Regular', [2]))
+expeditions_list.append(Expedition('papua', 'Papua New Guinea', 100, 'Regular', [5]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 49), ('East Atlantis Node', 49), ('South Atlantis Node', 49), ('North Atlantis Node', 49), ('Iberia', 49), ('Strait of Gibraltar', 49), ('Sahara', 49), ('West Mediterranean', 49), ('France', 49), ('Channel', 49), ('North Sea', 49), ('Barbary Coast', 49), ('Tyrrenean Sea', 49), ('Rhineland', 49), ('Lower Nile', 49), ('Po Valley', 49), ('Adriatic Sea', 49), ('Levant', 49),
      ('Aegean Sea', 49), ('Danube', 49), ('Elbe', 49), ('Baltic Sea', 49),
@@ -282,7 +282,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 49), ('Andes', 49), ('Southern Cone', 49), ('Guiana', 49), ('Amazonia', 49), ('Panama', 49), ('Caribbean', 49), ('Mexico', 49), ('Rio Grande', 49), ('Mississippi', 49), ('Plains', 49), ('Eastern Seaboard', 49), ('Canada', 49),
      ('American West Coast', 49), ('Pacific', 49)])
 # Australia
-expeditions_list.append(Expedition('australia', 'Australia', 100, 'Colonial Node', [2]))
+expeditions_list.append(Expedition('australia', 'Australia', 100, 'Colonial Node', [5]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 48), ('East Atlantis Node', 48), ('South Atlantis Node', 48), ('North Atlantis Node', 48), ('Iberia', 48), ('Strait of Gibraltar', 48), ('Sahara', 48), ('West Mediterranean', 48), ('France', 48), ('Channel', 48), ('North Sea', 48), ('Barbary Coast', 48), ('Tyrrenean Sea', 48), ('Rhineland', 48), ('Lower Nile', 48), ('Po Valley', 48), ('Adriatic Sea', 48), ('Levant', 48),
      ('Aegean Sea', 48), ('Danube', 48), ('Elbe', 48), ('Baltic Sea', 48),
@@ -306,7 +306,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 33), ('Andes', 33), ('Southern Cone', 33), ('Guiana', 33), ('Amazonia', 33), ('Panama', 33), ('Caribbean', 33), ('Mexico', 33), ('Rio Grande', 33), ('Mississippi', 33), ('Plains', 33), ('Eastern Seaboard', 33), ('Canada', 33),
      ('American West Coast', 33), ('Pacific', 33)])
 # Southern China
-expeditions_list.append(Expedition('southern_china', 'Southern China', 800, 'Chinese Mainland', [3, 27]))
+expeditions_list.append(Expedition('southern_china', 'Southern China', 800, 'Chinese Mainland', [6, 30]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 32), ('East Atlantis Node', 32), ('South Atlantis Node', 32), ('North Atlantis Node', 32), ('Iberia', 32), ('Strait of Gibraltar', 32), ('Sahara', 32), ('West Mediterranean', 32), ('France', 32), ('Channel', 32), ('North Sea', 32), ('Barbary Coast', 32), ('Tyrrenean Sea', 32), ('Rhineland', 32), ('Lower Nile', 30), ('Po Valley', 32), ('Adriatic Sea', 32), ('Levant', 32),
      ('Aegean Sea', 32), ('Danube', 32), ('Elbe', 32), ('Baltic Sea', 32),
@@ -318,7 +318,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 16), ('Andes', 33), ('Southern Cone', 33), ('Guiana', 32), ('Amazonia', 33), ('Panama', 33), ('Caribbean', 33), ('Mexico', 33), ('Rio Grande', 33), ('Mississippi', 33), ('Plains', 33), ('Eastern Seaboard', 33), ('Canada', 33),
      ('American West Coast', 33), ('Pacific', 33)])
 # Northern China
-expeditions_list.append(Expedition('northern_china', 'Northern China', 800, 'Chinese Mainland', [3, 6, 4, 11]))
+expeditions_list.append(Expedition('northern_china', 'Northern China', 800, 'Chinese Mainland', [6, 9, 7, 14]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 32), ('East Atlantis Node', 32), ('South Atlantis Node', 32), ('North Atlantis Node', 32), ('Iberia', 32), ('Strait of Gibraltar', 32), ('Sahara', 32), ('West Mediterranean', 32), ('France', 32), ('Channel', 32), ('North Sea', 32), ('Barbary Coast', 32), ('Tyrrenean Sea', 32), ('Rhineland', 32), ('Lower Nile', 30), ('Po Valley', 32), ('Adriatic Sea', 32), ('Levant', 32),
      ('Aegean Sea', 32), ('Danube', 32), ('Elbe', 32), ('Baltic Sea', 32),
@@ -330,7 +330,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 16), ('Andes', 33), ('Southern Cone', 33), ('Guiana', 32), ('Amazonia', 33), ('Panama', 33), ('Caribbean', 33), ('Mexico', 33), ('Rio Grande', 33), ('Mississippi', 33), ('Plains', 33), ('Eastern Seaboard', 33), ('Canada', 33),
      ('American West Coast', 33), ('Pacific', 33)])
 # Korea
-expeditions_list.append(Expedition('korea', 'Korea', 400, 'Chinese Mainland', [4]))
+expeditions_list.append(Expedition('korea', 'Korea', 400, 'Chinese Mainland', [7]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 32), ('East Atlantis Node', 32), ('South Atlantis Node', 32), ('North Atlantis Node', 32), ('Iberia', 32), ('Strait of Gibraltar', 32), ('Sahara', 32), ('West Mediterranean', 32), ('France', 32), ('Channel', 32), ('North Sea', 32), ('Barbary Coast', 32), ('Tyrrenean Sea', 32), ('Rhineland', 32), ('Lower Nile', 30), ('Po Valley', 32), ('Adriatic Sea', 32), ('Levant', 32),
      ('Aegean Sea', 32), ('Danube', 32), ('Elbe', 32), ('Baltic Sea', 32),
@@ -342,7 +342,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 25), ('Andes', 33), ('Southern Cone', 33), ('Guiana', 32), ('Amazonia', 33), ('Panama', 33), ('Caribbean', 33), ('Mexico', 33), ('Rio Grande', 33), ('Mississippi', 33), ('Plains', 33), ('Eastern Seaboard', 33), ('Canada', 33),
      ('American West Coast', 33), ('Pacific', 33)])
 # Japan
-expeditions_list.append(Expedition('japan', 'Japan', 400, 'Jumping Node', [7]))
+expeditions_list.append(Expedition('japan', 'Japan', 400, 'Jumping Node', [10]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 32), ('East Atlantis Node', 32), ('South Atlantis Node', 32), ('North Atlantis Node', 32), ('Iberia', 32), ('Strait of Gibraltar', 32), ('Sahara', 32), ('West Mediterranean', 32), ('France', 32), ('Channel', 32), ('North Sea', 32), ('Barbary Coast', 32), ('Tyrrenean Sea', 32), ('Rhineland', 32), ('Lower Nile', 30), ('Po Valley', 32), ('Adriatic Sea', 32), ('Levant', 32),
      ('Aegean Sea', 32), ('Danube', 32), ('Elbe', 32), ('Baltic Sea', 32),
@@ -355,7 +355,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('American West Coast', 33), ('Pacific', 33)])
 
 # Cuba
-expeditions_list.append(Expedition('cuba', 'Cuba', 800, 'Colonial Node', [65]))
+expeditions_list.append(Expedition('cuba', 'Cuba', 800, 'Colonial Node', [68]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 29), ('East Atlantis Node', 29), ('South Atlantis Node', 29), ('North Atlantis Node', 29), ('Iberia', 29), ('Strait of Gibraltar', 29), ('Sahara', 29), ('West Mediterranean', 29), ('France', 29), ('Channel', 29), ('North Sea', 29), ('Barbary Coast', 30), ('Tyrrenean Sea', 30), ('Rhineland', 30), ('Lower Nile', 30), ('Po Valley', 30), ('Adriatic Sea', 30), ('Levant', 30),
      ('Aegean Sea', 30), ('Danube', 30), ('Elbe', 30), ('Baltic Sea', 30),
@@ -367,7 +367,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 32), ('Andes', 29), ('Southern Cone', 27), ('Guiana', 16), ('Amazonia', 29), ('Panama', 25), ('Caribbean', 33), ('Mexico', 25), ('Rio Grande', 25), ('Mississippi', 25), ('Plains', 25), ('Eastern Seaboard', 25), ('Canada', 27),
      ('American West Coast', 30), ('Pacific', 33)])
 # Hispaniola
-expeditions_list.append(Expedition('hispaniola', 'Hispaniola', 800, 'Colonial Node', [65]))
+expeditions_list.append(Expedition('hispaniola', 'Hispaniola', 800, 'Colonial Node', [68]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 29), ('East Atlantis Node', 29), ('South Atlantis Node', 29), ('North Atlantis Node', 29), ('Iberia', 29), ('Strait of Gibraltar', 29), ('Sahara', 29), ('West Mediterranean', 29), ('France', 29), ('Channel', 29), ('North Sea', 29), ('Barbary Coast', 30), ('Tyrrenean Sea', 30), ('Rhineland', 30), ('Lower Nile', 30), ('Po Valley', 30), ('Adriatic Sea', 30), ('Levant', 30),
      ('Aegean Sea', 30), ('Danube', 30), ('Elbe', 30), ('Baltic Sea', 30),
@@ -379,7 +379,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 32), ('Andes', 29), ('Southern Cone', 27), ('Guiana', 16), ('Amazonia', 29), ('Panama', 25), ('Caribbean', 33), ('Mexico', 25), ('Rio Grande', 25), ('Mississippi', 25), ('Plains', 25), ('Eastern Seaboard', 25), ('Canada', 27),
      ('American West Coast', 30), ('Pacific', 33)])
 # Caribbean
-expeditions_list.append(Expedition('caribbean', 'Caribbean', 800, 'Jumping Node', [65]))
+expeditions_list.append(Expedition('caribbean', 'Caribbean', 800, 'Jumping Node', [68]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 29), ('East Atlantis Node', 29), ('South Atlantis Node', 29), ('North Atlantis Node', 29), ('Iberia', 29), ('Strait of Gibraltar', 29), ('Sahara', 29), ('West Mediterranean', 29), ('France', 29), ('Channel', 29), ('North Sea', 29), ('Barbary Coast', 30), ('Tyrrenean Sea', 30), ('Rhineland', 30), ('Lower Nile', 30), ('Po Valley', 30), ('Adriatic Sea', 30), ('Levant', 30),
      ('Aegean Sea', 30), ('Danube', 30), ('Elbe', 30), ('Baltic Sea', 30),
@@ -391,7 +391,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 32), ('Andes', 29), ('Southern Cone', 27), ('Guiana', 16), ('Amazonia', 28), ('Panama', 25), ('Caribbean', 33), ('Mexico', 25), ('Rio Grande', 25), ('Mississippi', 25), ('Plains', 25), ('Eastern Seaboard', 25), ('Canada', 27),
      ('American West Coast', 30), ('Pacific', 33)])
 # Atlantic Colombia
-expeditions_list.append(Expedition('atlantic_colombia', 'Atlantic Colombia', 300, 'Colonial Node', [43]))
+expeditions_list.append(Expedition('atlantic_colombia', 'Atlantic Colombia', 300, 'Colonial Node', [46]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 30), ('East Atlantis Node', 30), ('South Atlantis Node', 30), ('North Atlantis Node', 30), ('Iberia', 30), ('Strait of Gibraltar', 30), ('Sahara', 30), ('West Mediterranean', 30), ('France', 30), ('Channel', 30), ('North Sea', 30), ('Barbary Coast', 30), ('Tyrrenean Sea', 30), ('Rhineland', 30), ('Lower Nile', 30), ('Po Valley', 30), ('Adriatic Sea', 30), ('Levant', 30),
      ('Aegean Sea', 30), ('Danube', 30), ('Elbe', 30), ('Baltic Sea', 30),
@@ -403,7 +403,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 33), ('Andes', 29), ('Southern Cone', 16), ('Guiana', 25), ('Amazonia', 29), ('Panama', 33), ('Caribbean', 25), ('Mexico', 16), ('Rio Grande', 16), ('Mississippi', 16), ('Plains', 16), ('Eastern Seaboard', 16), ('Canada', 27),
      ('American West Coast', 30), ('Pacific', 33)])
 # Guyana
-expeditions_list.append(Expedition('guyana', 'Guyana', 300, 'Colonial Node', [43]))
+expeditions_list.append(Expedition('guyana', 'Guyana', 300, 'Colonial Node', [46]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 30), ('East Atlantis Node', 30), ('South Atlantis Node', 30), ('North Atlantis Node', 30), ('Iberia', 30), ('Strait of Gibraltar', 30), ('Sahara', 30), ('West Mediterranean', 30), ('France', 30), ('Channel', 30), ('North Sea', 30), ('Barbary Coast', 30), ('Tyrrenean Sea', 30), ('Rhineland', 30), ('Lower Nile', 30), ('Po Valley', 30), ('Adriatic Sea', 30), ('Levant', 30),
      ('Aegean Sea', 30), ('Danube', 30), ('Elbe', 30), ('Baltic Sea', 30),
@@ -415,7 +415,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 33), ('Andes', 29), ('Southern Cone', 16), ('Guiana', 25), ('Amazonia', 29), ('Panama', 33), ('Caribbean', 25), ('Mexico', 16), ('Rio Grande', 16), ('Mississippi', 16), ('Plains', 16), ('Eastern Seaboard', 16), ('Canada', 27),
      ('American West Coast', 30), ('Pacific', 33)])
 # Atlantic Mexico
-expeditions_list.append(Expedition('atlantic_mexico', 'Atlantic Mexico', 1600, 'Colonial Node', [42, 9]))
+expeditions_list.append(Expedition('atlantic_mexico', 'Atlantic Mexico', 1600, 'Colonial Node', [45, 12]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 31), ('East Atlantis Node', 31), ('South Atlantis Node', 31), ('North Atlantis Node', 31), ('Iberia', 31), ('Strait of Gibraltar', 31), ('Sahara', 31), ('West Mediterranean', 31), ('France', 31), ('Channel', 31), ('North Sea', 31), ('Barbary Coast', 31), ('Tyrrenean Sea', 31), ('Rhineland', 31), ('Lower Nile', 31), ('Po Valley', 31), ('Adriatic Sea', 31), ('Levant', 31),
      ('Aegean Sea', 31), ('Danube', 31), ('Elbe', 31), ('Baltic Sea', 31),
@@ -427,7 +427,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 33), ('Andes', 29), ('Southern Cone', 27), ('Guiana', 16), ('Amazonia', 29), ('Panama', 33), ('Caribbean', 25), ('Mexico', 33), ('Rio Grande', 33), ('Mississippi', 25), ('Plains', 25), ('Eastern Seaboard', 16), ('Canada', 27),
      ('American West Coast', 30), ('Pacific', 33)])
 # Northern Brazil
-expeditions_list.append(Expedition('north_brazil', 'Northern Brazil', 600, 'Colonial Node', [43]))
+expeditions_list.append(Expedition('north_brazil', 'Northern Brazil', 600, 'Colonial Node', [46]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 30), ('East Atlantis Node', 30), ('South Atlantis Node', 30), ('North Atlantis Node', 30), ('Iberia', 30), ('Strait of Gibraltar', 30), ('Sahara', 30), ('West Mediterranean', 30), ('France', 30), ('Channel', 30), ('North Sea', 30), ('Barbary Coast', 30), ('Tyrrenean Sea', 30), ('Rhineland', 30), ('Lower Nile', 30), ('Po Valley', 30), ('Adriatic Sea', 30), ('Levant', 30),
      ('Aegean Sea', 30), ('Danube', 30), ('Elbe', 30), ('Baltic Sea', 30),
@@ -439,7 +439,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 32), ('Andes', 27), ('Southern Cone', 33), ('Guiana', 33), ('Amazonia', 27), ('Panama', 16), ('Caribbean', 25), ('Mexico', 16), ('Rio Grande', 16), ('Mississippi', 16), ('Plains', 16), ('Eastern Seaboard', 16), ('Canada', 27),
      ('American West Coast', 29), ('Pacific', 33)])
 # Southern Brazil
-expeditions_list.append(Expedition('south_brazil', 'Southern Brazil', 600, 'Colonial Node', [16]))
+expeditions_list.append(Expedition('south_brazil', 'Southern Brazil', 600, 'Colonial Node', [19]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 30), ('East Atlantis Node', 30), ('South Atlantis Node', 30), ('North Atlantis Node', 30), ('Iberia', 30), ('Strait of Gibraltar', 30), ('Sahara', 30), ('West Mediterranean', 30), ('France', 30), ('Channel', 30), ('North Sea', 30), ('Barbary Coast', 30), ('Tyrrenean Sea', 30), ('Rhineland', 30), ('Lower Nile', 30), ('Po Valley', 30), ('Adriatic Sea', 30), ('Levant', 30),
      ('Aegean Sea', 30), ('Danube', 30), ('Elbe', 30), ('Baltic Sea', 30),
@@ -451,7 +451,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 32), ('Andes', 27), ('Southern Cone', 33), ('Guiana', 33), ('Amazonia', 27), ('Panama', 16), ('Caribbean', 25), ('Mexico', 16), ('Rio Grande', 16), ('Mississippi', 16), ('Plains', 16), ('Eastern Seaboard', 16), ('Canada', 27),
      ('American West Coast', 29), ('Pacific', 33)])
 # the Gulf of Mexico
-expeditions_list.append(Expedition('gulf_of_mexico', 'the Gulf of Mexico', 300, 'Colonial Node', [62, 63]))
+expeditions_list.append(Expedition('gulf_of_mexico', 'the Gulf of Mexico', 300, 'Colonial Node', [65, 66]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 25), ('East Atlantis Node', 25), ('South Atlantis Node', 25), ('North Atlantis Node', 25), ('Iberia', 25), ('Strait of Gibraltar', 25), ('Sahara', 25), ('West Mediterranean', 25), ('France', 25), ('Channel', 25), ('North Sea', 25), ('Barbary Coast', 25), ('Tyrrenean Sea', 25), ('Rhineland', 25), ('Lower Nile', 25), ('Po Valley', 25), ('Adriatic Sea', 25), ('Levant', 25),
      ('Aegean Sea', 25), ('Danube', 25), ('Elbe', 25), ('Baltic Sea', 25),
@@ -463,7 +463,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 25), ('Andes', 29), ('Southern Cone', 27), ('Guiana', 16), ('Amazonia', 29), ('Panama', 25), ('Caribbean', 25), ('Mexico', 25), ('Rio Grande', 33), ('Mississippi', 33), ('Plains', 33), ('Eastern Seaboard', 25), ('Canada', 27),
      ('American West Coast', 30), ('Pacific', 33)])
 # Southeastern America
-expeditions_list.append(Expedition('southeastern_america', 'Southeastern America', 400, 'Colonial Node', [66, 63]))
+expeditions_list.append(Expedition('southeastern_america', 'Southeastern America', 400, 'Colonial Node', [69, 66]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 33), ('East Atlantis Node', 33), ('South Atlantis Node', 33), ('North Atlantis Node', 33), ('Iberia', 33), ('Strait of Gibraltar', 33), ('Sahara', 33), ('West Mediterranean', 33), ('France', 33), ('Channel', 33), ('North Sea', 33), ('Barbary Coast', 33), ('Tyrrenean Sea', 33), ('Rhineland', 33), ('Lower Nile', 33), ('Po Valley', 33), ('Adriatic Sea', 33), ('Levant', 33),
      ('Aegean Sea', 33), ('Danube', 33), ('Elbe', 33), ('Baltic Sea', 33),
@@ -475,7 +475,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 33), ('Andes', 29), ('Southern Cone', 27), ('Guiana', 16), ('Amazonia', 29), ('Panama', 16), ('Caribbean', 25), ('Mexico', 25), ('Rio Grande', 25), ('Mississippi', 33), ('Plains', 33), ('Eastern Seaboard', 33), ('Canada', 25),
      ('American West Coast', 30), ('Pacific', 33)])
 # Eastern America
-expeditions_list.append(Expedition('eastern_america', 'Eastern America', 400, 'Colonial Node', [66]))
+expeditions_list.append(Expedition('eastern_america', 'Eastern America', 400, 'Colonial Node', [69]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 25), ('East Atlantis Node', 25), ('South Atlantis Node', 25), ('North Atlantis Node', 25), ('Iberia', 25), ('Strait of Gibraltar', 25), ('Sahara', 25), ('West Mediterranean', 25), ('France', 25), ('Channel', 25), ('North Sea', 25), ('Barbary Coast', 25), ('Tyrrenean Sea', 25), ('Rhineland', 25), ('Lower Nile', 25), ('Po Valley', 25), ('Adriatic Sea', 25), ('Levant', 25),
      ('Aegean Sea', 25), ('Danube', 25), ('Elbe', 25), ('Baltic Sea', 25),
@@ -487,7 +487,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 25), ('Andes', 30), ('Southern Cone', 29), ('Guiana', 29), ('Amazonia', 30), ('Panama', 16), ('Caribbean', 16), ('Mexico', 16), ('Rio Grande', 16), ('Mississippi', 16), ('Plains', 16), ('Eastern Seaboard', 33), ('Canada', 25),
      ('American West Coast', 31), ('Pacific', 33)])
 # Canada
-expeditions_list.append(Expedition('canada', 'Canada', 300, 'Colonial Node', [64]))
+expeditions_list.append(Expedition('canada', 'Canada', 300, 'Colonial Node', [67]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 25), ('East Atlantis Node', 25), ('South Atlantis Node', 25), ('North Atlantis Node', 25), ('Iberia', 25), ('Strait of Gibraltar', 25), ('Sahara', 25), ('West Mediterranean', 25), ('France', 25), ('Channel', 25), ('North Sea', 25), ('Barbary Coast', 25), ('Tyrrenean Sea', 25), ('Rhineland', 25), ('Lower Nile', 25), ('Po Valley', 25), ('Adriatic Sea', 25), ('Levant', 25),
      ('Aegean Sea', 25), ('Danube', 25), ('Elbe', 25), ('Baltic Sea', 25),
@@ -499,7 +499,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 25), ('Andes', 25), ('Southern Cone', 25), ('Guiana', 25), ('Amazonia', 25), ('Panama', 25), ('Caribbean', 25), ('Mexico', 25), ('Rio Grande', 25), ('Mississippi', 25), ('Plains', 25), ('Eastern Seaboard', 25), ('Canada', 33),
      ('American West Coast', 25), ('Pacific', 33)])
 # the North Atlantic
-expeditions_list.append(Expedition('north_atlantic', 'the North Atlantic', 50, 'Jumping Node', [81]))
+expeditions_list.append(Expedition('north_atlantic', 'the North Atlantic', 50, 'Jumping Node', [88]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 30), ('East Atlantis Node', 30), ('South Atlantis Node', 30), ('North Atlantis Node', 30), ('Iberia', 30), ('Strait of Gibraltar', 30), ('Sahara', 30), ('West Mediterranean', 30), ('France', 30), ('Channel', 30), ('North Sea', 30), ('Barbary Coast', 30), ('Tyrrenean Sea', 30), ('Rhineland', 30), ('Lower Nile', 30), ('Po Valley', 30), ('Adriatic Sea', 30), ('Levant', 30),
      ('Aegean Sea', 30), ('Danube', 30), ('Elbe', 30), ('Baltic Sea', 30),
@@ -511,7 +511,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 30), ('Andes', 30), ('Southern Cone', 30), ('Guiana', 30), ('Amazonia', 30), ('Panama', 30), ('Caribbean', 30), ('Mexico', 30), ('Rio Grande', 30), ('Mississippi', 30), ('Plains', 30), ('Eastern Seaboard', 30), ('Canada', 30),
      ('American West Coast', 30), ('Pacific', 33)])
 # Hudson Bay
-expeditions_list.append(Expedition('hudson_bay', 'Hudson Bay', 100, 'Colonial Node', [64]))
+expeditions_list.append(Expedition('hudson_bay', 'Hudson Bay', 100, 'Colonial Node', [67]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 35), ('East Atlantis Node', 35), ('South Atlantis Node', 35), ('North Atlantis Node', 35), ('Iberia', 35), ('Strait of Gibraltar', 35), ('Sahara', 35), ('West Mediterranean', 35), ('France', 35), ('Channel', 35), ('North Sea', 35), ('Barbary Coast', 35), ('Tyrrenean Sea', 35), ('Rhineland', 35), ('Lower Nile', 35), ('Po Valley', 35), ('Adriatic Sea', 35), ('Levant', 35),
      ('Aegean Sea', 35), ('Danube', 35), ('Elbe', 35), ('Baltic Sea', 35),
@@ -523,7 +523,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 35), ('Andes', 35), ('Southern Cone', 35), ('Guiana', 35), ('Amazonia', 35), ('Panama', 35), ('Caribbean', 35), ('Mexico', 35), ('Rio Grande', 35), ('Mississippi', 35), ('Plains', 35), ('Eastern Seaboard', 35), ('Canada', 33),
      ('American West Coast', 35), ('Pacific', 35)])
 # Southern Cone
-expeditions_list.append(Expedition('la_plata', 'Southern Cone', 100, 'Colonial Node', [16]))
+expeditions_list.append(Expedition('la_plata', 'Southern Cone', 100, 'Colonial Node', [19]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 33), ('East Atlantis Node', 33), ('South Atlantis Node', 33), ('North Atlantis Node', 33), ('Iberia', 33), ('Strait of Gibraltar', 33), ('Sahara', 33), ('West Mediterranean', 33), ('France', 33), ('Channel', 33), ('North Sea', 33), ('Barbary Coast', 33), ('Tyrrenean Sea', 33), ('Rhineland', 33), ('Lower Nile', 33), ('Po Valley', 33), ('Adriatic Sea', 33), ('Levant', 33),
      ('Aegean Sea', 33), ('Danube', 33), ('Elbe', 33), ('Baltic Sea', 33),
@@ -535,7 +535,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 33), ('Andes', 16), ('Southern Cone', 33), ('Guiana', 25), ('Amazonia', 16), ('Panama', 27), ('Caribbean', 27), ('Mexico', 27), ('Rio Grande', 27), ('Mississippi', 27), ('Plains', 27), ('Eastern Seaboard', 27), ('Canada', 29),
      ('American West Coast', 29), ('Pacific', 33)])
 # California
-expeditions_list.append(Expedition('california', 'California', 100, 'Colonial Node', [8]))
+expeditions_list.append(Expedition('california', 'California', 100, 'Colonial Node', [11]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 30), ('East Atlantis Node', 30), ('South Atlantis Node', 30), ('North Atlantis Node', 30), ('Iberia', 30), ('Strait of Gibraltar', 30), ('Sahara', 30), ('West Mediterranean', 30), ('France', 30), ('Channel', 30), ('North Sea', 30), ('Barbary Coast', 30), ('Tyrrenean Sea', 30), ('Rhineland', 30), ('Lower Nile', 30), ('Po Valley', 30), ('Adriatic Sea', 30), ('Levant', 30),
      ('Aegean Sea', 30), ('Danube', 30), ('Elbe', 30), ('Baltic Sea', 30),
@@ -547,7 +547,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 30), ('Andes', 27), ('Southern Cone', 29), ('Guiana', 29), ('Amazonia', 27), ('Panama', 16), ('Caribbean', 29), ('Mexico', 25), ('Rio Grande', 25), ('Mississippi', 29), ('Plains', 29), ('Eastern Seaboard', 29), ('Canada', 30),
      ('American West Coast', 33), ('Pacific', 33)])
 # Alaska
-expeditions_list.append(Expedition('alaska', 'Alaska', 100, 'Colonial Node', [8]))
+expeditions_list.append(Expedition('alaska', 'Alaska', 100, 'Colonial Node', [11]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 37), ('East Atlantis Node', 37), ('South Atlantis Node', 37), ('North Atlantis Node', 37), ('Iberia', 37), ('Strait of Gibraltar', 37), ('Sahara', 37), ('West Mediterranean', 37), ('France', 37), ('Channel', 37), ('North Sea', 37), ('Barbary Coast', 37), ('Tyrrenean Sea', 37), ('Rhineland', 37), ('Lower Nile', 37), ('Po Valley', 37), ('Adriatic Sea', 37), ('Levant', 37),
      ('Aegean Sea', 37), ('Danube', 37), ('Elbe', 37), ('Baltic Sea', 37),
@@ -559,7 +559,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 30), ('Andes', 30), ('Southern Cone', 30), ('Guiana', 30), ('Amazonia', 30), ('Panama', 30), ('Caribbean', 30), ('Mexico', 30), ('Rio Grande', 30), ('Mississippi', 30), ('Plains', 30), ('Eastern Seaboard', 30), ('Canada', 25),
      ('American West Coast', 33), ('Pacific', 33)])
 # Pacific Mexico
-expeditions_list.append(Expedition('pacific_mexico', 'Pacific Mexico', 800, 'Colonial Node', [9, 62]))
+expeditions_list.append(Expedition('pacific_mexico', 'Pacific Mexico', 800, 'Colonial Node', [12, 65]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 33), ('East Atlantis Node', 33), ('South Atlantis Node', 33), ('North Atlantis Node', 33), ('Iberia', 33), ('Strait of Gibraltar', 33), ('Sahara', 33), ('West Mediterranean', 33), ('France', 33), ('Channel', 33), ('North Sea', 33), ('Barbary Coast', 33), ('Tyrrenean Sea', 33), ('Rhineland', 33), ('Lower Nile', 33), ('Po Valley', 33), ('Adriatic Sea', 33), ('Levant', 33),
      ('Aegean Sea', 33), ('Danube', 33), ('Elbe', 33), ('Baltic Sea', 33), ('Vistula', 33), ('Crimea', 33), ('Western Siberia', 33), ('Dnieper', 33), ('Caspian Sea', 33), ('Zalesye', 33), ('Anatolia', 33), ('Senegambia', 33), ('Niger River', 33), ('Guinea Coast',
@@ -570,7 +570,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 31), ('Andes', 16), ('Southern Cone', 27), ('Guiana', 27), ('Amazonia', 16), ('Panama', 25), ('Caribbean', 29), ('Mexico', 25), ('Rio Grande', 33), ('Mississippi', 29), ('Plains', 29), ('Eastern Seaboard', 29), ('Canada', 30),
      ('American West Coast', 25), ('Pacific', 33)])
 # Pacific Central America
-expeditions_list.append(Expedition('pacific_central_america', 'Pacific Central America', 1300, 'Colonial Node', [42]))
+expeditions_list.append(Expedition('pacific_central_america', 'Pacific Central America', 1300, 'Colonial Node', [45]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 33), ('East Atlantis Node', 33), ('South Atlantis Node', 33), ('North Atlantis Node', 33), ('Iberia', 33), ('Strait of Gibraltar', 33), ('Sahara', 33), ('West Mediterranean', 33), ('France', 33), ('Channel', 33), ('North Sea', 33), ('Barbary Coast', 33), ('Tyrrenean Sea', 33), ('Rhineland', 33), ('Lower Nile', 33), ('Po Valley', 33), ('Adriatic Sea', 33), ('Levant', 33),
      ('Aegean Sea', 33), ('Danube', 33), ('Elbe', 33), ('Baltic Sea', 33),
@@ -582,7 +582,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 32), ('Andes', 25), ('Southern Cone', 27), ('Guiana', 27), ('Amazonia', 25), ('Panama', 33), ('Caribbean', 29), ('Mexico', 25), ('Rio Grande', 25), ('Mississippi', 29), ('Plains', 29), ('Eastern Seaboard', 29), ('Canada', 30),
      ('American West Coast', 16), ('Pacific', 33)])
 # Peru
-expeditions_list.append(Expedition('peru', 'Peru', 2400, 'Colonial Node', [25]))
+expeditions_list.append(Expedition('peru', 'Peru', 2400, 'Colonial Node', [18]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 33), ('East Atlantis Node', 33), ('South Atlantis Node', 33), ('North Atlantis Node', 33), ('Iberia', 33), ('Strait of Gibraltar', 33), ('Sahara', 33), ('West Mediterranean', 33), ('France', 33), ('Channel', 33), ('North Sea', 33), ('Barbary Coast', 33), ('Tyrrenean Sea', 33), ('Rhineland', 33), ('Lower Nile', 33), ('Po Valley', 33), ('Adriatic Sea', 33), ('Levant', 33),
      ('Aegean Sea', 33), ('Danube', 33), ('Elbe', 33), ('Baltic Sea', 33),
@@ -594,7 +594,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 33), ('Andes', 33), ('Southern Cone', 16), ('Guiana', 27), ('Amazonia', 33), ('Panama', 16), ('Caribbean', 29), ('Mexico', 16), ('Rio Grande', 27), ('Mississippi', 29), ('Plains', 29), ('Eastern Seaboard', 29), ('Canada', 30),
      ('American West Coast', 27), ('Pacific', 33)])
 # Chile
-expeditions_list.append(Expedition('chile', 'Chile', 400, 'Colonial Node', [25]))
+expeditions_list.append(Expedition('chile', 'Chile', 400, 'Colonial Node', [18]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 33), ('East Atlantis Node', 33), ('South Atlantis Node', 33), ('North Atlantis Node', 33), ('Iberia', 33), ('Strait of Gibraltar', 33), ('Sahara', 33), ('West Mediterranean', 33), ('France', 33), ('Channel', 33), ('North Sea', 33), ('Barbary Coast', 33), ('Tyrrenean Sea', 33), ('Rhineland', 33), ('Lower Nile', 33), ('Po Valley', 33), ('Adriatic Sea', 33), ('Levant', 33),
      ('Aegean Sea', 33), ('Danube', 33), ('Elbe', 33), ('Baltic Sea', 33),
@@ -606,7 +606,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 33), ('Andes', 33), ('Southern Cone', 16), ('Guiana', 27), ('Amazonia', 33), ('Panama', 16), ('Caribbean', 29), ('Mexico', 16), ('Rio Grande', 27), ('Mississippi', 29), ('Plains', 29), ('Eastern Seaboard', 29), ('Canada', 30),
      ('American West Coast', 27), ('Pacific', 33)])
 #South Atlantis Node
-expeditions_list.append(Expedition('south_atlantis_node', 'South Atlantis Node', 0, 'Jumping Node', [82]))
+expeditions_list.append(Expedition('south_atlantis_node', 'South Atlantis Node', 0, 'Jumping Node', [70]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('South Atlantis Node', 33), ('East Atlantis Node', 25), ('West Atlantis Node', 25), ('North Atlantis Node', 25), ('Iberia', 25), ('Strait of Gibraltar', 25), ('West Mediterranean', 25), ('France', 25), ('Channel', 25), ('North Sea', 25), ('Barbary Coast', 25), ('Tyrrenean Sea', 25), ('Rhineland', 33), ('Lower Nile', 25), ('Po Valley', 25), ('Adriatic Sea', 25), ('Levant', 25), ('Aegean Sea', 25),
      ('Danube', 25), ('Elbe', 33), ('Baltic Sea', 25), ('Vistula', 25), ('Crimea', 25), ('Western Siberia', 25), ('Dnieper', 25), ('Caspian Sea', 25), ('Zalesye', 25), ('Anatolia', 25), ('Sahara', 25), ('Senegambia', 27), ('Niger River', 27), ('Guinea Coast',
@@ -617,7 +617,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 33), ('Andes', 32), ('Southern Cone', 31), ('Guiana', 30), ('Amazonia', 32), ('Panama', 31), ('Caribbean', 30), ('Mexico', 31), ('Rio Grande', 31), ('Mississippi', 31), ('Plains', 31), ('Eastern Seaboard', 29), ('Canada', 29),
      ('American West Coast', 33), ('Pacific', 33)])
 #North Atlantis Node
-expeditions_list.append(Expedition('north_atlantis_node', 'North Atlantis Node', 0, 'Jumping Node', [83]))
+expeditions_list.append(Expedition('north_atlantis_node', 'North Atlantis Node', 0, 'Jumping Node', [82]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('North Atlantis Node', 33), ('East Atlantis Node', 25), ('West Atlantis Node', 25), ('South Atlantis Node', 25), ('Iberia', 25), ('Strait of Gibraltar', 25), ('West Mediterranean', 25), ('France', 25), ('Channel', 25), ('North Sea', 25), ('Barbary Coast', 25), ('Tyrrenean Sea', 25), ('Rhineland', 33), ('Lower Nile', 25), ('Po Valley', 25), ('Adriatic Sea', 25), ('Levant', 25), ('Aegean Sea', 25),
      ('Danube', 25), ('Elbe', 33), ('Baltic Sea', 25), ('Vistula', 25), ('Crimea', 25), ('Western Siberia', 25), ('Dnieper', 25), ('Caspian Sea', 25), ('Zalesye', 25), ('Anatolia', 25), ('Sahara', 25), ('Senegambia', 27), ('Niger River', 27), ('Guinea Coast',
@@ -628,7 +628,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 33), ('Andes', 32), ('Southern Cone', 31), ('Guiana', 30), ('Amazonia', 32), ('Panama', 31), ('Caribbean', 30), ('Mexico', 31), ('Rio Grande', 31), ('Mississippi', 31), ('Plains', 31), ('Eastern Seaboard', 29), ('Canada', 29),
      ('American West Coast', 33), ('Pacific', 33)])
 #East Atlantis Node
-expeditions_list.append(Expedition('east_atlantis_node', 'East Atlantis Node', 0, 'Jumping Node', [84]))
+expeditions_list.append(Expedition('east_atlantis_node', 'East Atlantis Node', 0, 'Jumping Node', [83]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('East Atlantis Node', 33), ('South Atlantis Node', 25), ('West Atlantis Node', 25), ('North Atlantis Node', 25), ('Iberia', 25), ('Strait of Gibraltar', 25), ('West Mediterranean', 25), ('France', 25), ('Channel', 25), ('North Sea', 25), ('Barbary Coast', 25), ('Tyrrenean Sea', 25), ('Rhineland', 33), ('Lower Nile', 25), ('Po Valley', 25), ('Adriatic Sea', 25), ('Levant', 25), ('Aegean Sea', 25),
      ('Danube', 25), ('Elbe', 33), ('Baltic Sea', 25), ('Vistula', 25), ('Crimea', 25), ('Western Siberia', 25), ('Dnieper', 25), ('Caspian Sea', 25), ('Zalesye', 25), ('Anatolia', 25), ('Sahara', 25), ('Senegambia', 27), ('Niger River', 27), ('Guinea Coast',
@@ -639,7 +639,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 33), ('Andes', 32), ('Southern Cone', 31), ('Guiana', 30), ('Amazonia', 32), ('Panama', 31), ('Caribbean', 30), ('Mexico', 31), ('Rio Grande', 31), ('Mississippi', 31), ('Plains', 31), ('Eastern Seaboard', 29), ('Canada', 29),
      ('American West Coast', 33), ('Pacific', 33)])
 #West Atlantis Node
-expeditions_list.append(Expedition('west_atlantis_node', 'West Atlantis Node', 0, 'Jumping Node', [85]))
+expeditions_list.append(Expedition('west_atlantis_node', 'West Atlantis Node', 0, 'Jumping Node', [81]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 33), ('East Zealandia Node', 33), ('South Zealandia Node', 33), ('West Atlantis Node', 33), ('East Atlantis Node', 25), ('South Atlantis Node', 25), ('North Atlantis Node', 25), ('Iberia', 25), ('Strait of Gibraltar', 25), ('West Mediterranean', 25), ('France', 25), ('Channel', 25), ('North Sea', 25), ('Barbary Coast', 25), ('Tyrrenean Sea', 25), ('Rhineland', 33), ('Lower Nile', 25), ('Po Valley', 25), ('Adriatic Sea', 25), ('Levant', 25), ('Aegean Sea', 25),
      ('Danube', 25), ('Elbe', 33), ('Baltic Sea', 25), ('Vistula', 25), ('Crimea', 25), ('Western Siberia', 25), ('Dnieper', 25), ('Caspian Sea', 25), ('Zalesye', 25), ('Anatolia', 25), ('Sahara', 25), ('Senegambia', 27), ('Niger River', 27), ('Guinea Coast',
@@ -650,7 +650,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 33), ('Andes', 32), ('Southern Cone', 31), ('Guiana', 30), ('Amazonia', 32), ('Panama', 31), ('Caribbean', 30), ('Mexico', 31), ('Rio Grande', 31), ('Mississippi', 31), ('Plains', 31), ('Eastern Seaboard', 29), ('Canada', 29),
      ('American West Coast', 33), ('Pacific', 33)])
 #Zealandia
-expeditions_list.append(Expedition('zealandia', 'Zealandia Node', 100, 'Jumping Node', [86]))
+expeditions_list.append(Expedition('zealandia', 'Zealandia Node', 100, 'Jumping Node', [4]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 25), ('East Zealandia Node', 25), ('South Zealandia Node', 25), ('West Atlantis Node', 48), ('East Atlantis Node', 48), ('South Atlantis Node', 48), ('North Atlantis Node', 48), ('Iberia', 48), ('Strait of Gibraltar', 48), ('Sahara', 48), ('West Mediterranean', 48), ('France', 48), ('Channel', 48), ('North Sea', 48), ('Barbary Coast', 48), ('Tyrrenean Sea', 48), ('Rhineland', 48), ('Lower Nile', 48), ('Po Valley', 48), ('Adriatic Sea', 48), ('Levant', 48),
      ('Aegean Sea', 48), ('Danube', 48), ('Elbe', 48), ('Baltic Sea', 48),
@@ -662,7 +662,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 48), ('Andes', 48), ('Southern Cone', 48), ('Guiana', 48), ('Amazonia', 48), ('Panama', 48), ('Caribbean', 48), ('Mexico', 48), ('Rio Grande', 48), ('Mississippi', 48), ('Plains', 48), ('Eastern Seaboard', 48), ('Canada', 48),
      ('American West Coast', 48), ('Pacific', 33)])
 #East Zealandia Node
-expeditions_list.append(Expedition('eastzealandia', 'East Zealandia Node', 100, 'Jumping Node', [87]))
+expeditions_list.append(Expedition('eastzealandia', 'East Zealandia Node', 100, 'Jumping Node', [2]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 25), ('East Zealandia Node', 25), ('South Zealandia Node', 25), ('West Atlantis Node', 48), ('East Atlantis Node', 48), ('South Atlantis Node', 48), ('North Atlantis Node', 48), ('Iberia', 48), ('Strait of Gibraltar', 48), ('Sahara', 48), ('West Mediterranean', 48), ('France', 48), ('Channel', 48), ('North Sea', 48), ('Barbary Coast', 48), ('Tyrrenean Sea', 48), ('Rhineland', 48), ('Lower Nile', 48), ('Po Valley', 48), ('Adriatic Sea', 48), ('Levant', 48),
      ('Aegean Sea', 48), ('Danube', 48), ('Elbe', 48), ('Baltic Sea', 48),
@@ -674,7 +674,7 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Far East', 48), ('Andes', 48), ('Southern Cone', 48), ('Guiana', 48), ('Amazonia', 48), ('Panama', 48), ('Caribbean', 48), ('Mexico', 48), ('Rio Grande', 48), ('Mississippi', 48), ('Plains', 48), ('Eastern Seaboard', 48), ('Canada', 48),
      ('American West Coast', 48), ('Pacific', 33)])
 #South Zealandia
-expeditions_list.append(Expedition('southzealandia', 'South Zealandia Node', 100, 'Jumping Node', [88]))
+expeditions_list.append(Expedition('southzealandia', 'South Zealandia Node', 100, 'Jumping Node', [3]))
 expeditions_list[-1].set_node_tech_reqs(
     [('Zealandia Node', 25), ('East Zealandia Node', 25), ('South Zealandia Node', 25), ('West Atlantis Node', 48), ('East Atlantis Node', 48), ('South Atlantis Node', 48), ('North Atlantis Node', 48), ('Iberia', 48), ('Strait of Gibraltar', 48), ('Sahara', 48), ('West Mediterranean', 48), ('France', 48), ('Channel', 48), ('North Sea', 48), ('Barbary Coast', 48), ('Tyrrenean Sea', 48), ('Rhineland', 48), ('Lower Nile', 48), ('Po Valley', 48), ('Adriatic Sea', 48), ('Levant', 48),
      ('Aegean Sea', 48), ('Danube', 48), ('Elbe', 48), ('Baltic Sea', 48),
@@ -685,20 +685,20 @@ expeditions_list[-1].set_node_tech_reqs(
      ('Champa Sea', 48), ('Australia', 25), ('Liangguang', 48), ('Szechwan', 48), ('Huazhong', 48), ('Jiangnan', 48), ('Huabei', 48), ('Xibei', 48), ('Eastern Siberia', 48), ('Zhongyuan', 48), ('Nippon', 48),
      ('Far East', 48), ('Andes', 48), ('Southern Cone', 48), ('Guiana', 48), ('Amazonia', 48), ('Panama', 48), ('Caribbean', 48), ('Mexico', 48), ('Rio Grande', 48), ('Mississippi', 48), ('Plains', 48), ('Eastern Seaboard', 48), ('Canada', 48),
      ('American West Coast', 48), ('Pacific', 33)])
-trade_nodes = {'Pacific': 1, 'Australia': 2, 'Jiangnan': 3, 'Far East': 4, 'Eastern Siberia': 5, 'Huabei': 6, 'Nippon': 7,
-               'American West Coast': 8, 'Mexico': 9, 'Huazhong': 10, 'Zhongyuan': 11, 'Szechwan': 12,
-               'Xibei': 13, 'Amazonia': 14, 'Andes': 15, 'Southern Cone': 16, 'Liangguang': 17, 'Mekong': 18,
-               'Champa Sea': 19, 'Ayeyarwady': 20, 'Himalayan Plateau': 21, 'Moluccas': 22, 'Malacca Strait': 23,
-               'Chao Phraya': 24, 'Bihar': 25, 'Delhi': 26, 'Yettishar': 27, 'Punjab': 28, 'Mawarannahr': 29,
-               'Khorasan': 30, 'Bengal': 31, 'Deccan Plateau': 32, 'Kalinga': 33, 'Tamilakam': 34, 'Konkan': 35, 'Gurjaratra': 36,
-               'Upper Nile': 37, 'Red Sea': 38, 'Monomotapa': 39, 'Zanj': 40, 'South Africa': 41, 'Panama': 42,
-               'Guiana': 43, 'Kongo': 44, 'Guinea Coast': 45, 'Lake Tchad': 46, 'Niger River': 47, 'Senegambia': 48,
-               'Western Siberia': 49, 'Iran': 50, 'Arabia': 51, 'Caspian Sea': 52, 'Levant': 53, 'Barbary Coast': 54,
-               'Lower Nile': 55, 'Dnieper': 56, 'Crimea': 57, 'Anatolia': 58, 'Zalesye': 59, 'Vistula': 60, 'Plains': 61,
-               'Rio Grande': 62, 'Mississippi': 63, 'Canada': 64, 'Caribbean': 65, 'Eastern Seaboard': 66,
-               'Strait of Gibraltar': 67, 'Danube': 68, 'Aegean Sea': 69, 'Iberia': 70, 'Po Valley': 71, 'Rhineland': 72,
-               'West Mediterranean': 73, 'France': 74, 'Baltic Sea': 75, 'Adriatic Sea': 76, 'Channel': 77,
-               'Elbe': 78, 'Tyrrenean Sea': 79, 'Sahara': 80, 'North Sea': 81, 'South Atlantis Node': 82, 'North Atlantis Node': 83, 'East Atlantis Node': 84, 'West Atlantis Node': 85, 'South Zealandia Node': 86, 'East Zealandia Node': 87, 'Zealandia Node': 88}
+trade_nodes = {'Pacific': 1, 'East Zealandia Node': 2, 'South Zealandia Node': 3, 'Zealandia Node': 4, 'Australia': 5, 'Jiangnan': 6, 'Far East': 7, 'Eastern Siberia': 8, 'Huabei': 9, 'Nippon': 10,
+               'American West Coast': 11, 'Mexico': 12, 'Huazhong': 13, 'Zhongyuan': 14, 'Szechwan': 15,
+               'Xibei': 16, 'Amazonia': 17, 'Andes': 18, 'Southern Cone': 19, 'Liangguang': 20, 'Mekong': 21,
+               'Champa Sea': 22, 'Ayeyarwady': 23, 'Himalayan Plateau': 24, 'Moluccas': 25, 'Malacca Strait': 26,
+               'Chao Phraya': 27, 'Bihar': 28, 'Delhi': 29, 'Yettishar': 30, 'Punjab': 31, 'Mawarannahr': 32,
+               'Khorasan': 33, 'Bengal': 34, 'Deccan Plateau': 35, 'Kalinga': 36, 'Tamilakam': 37, 'Konkan': 38, 'Gurjaratra': 39,
+               'Upper Nile': 40, 'Red Sea': 41, 'Monomotapa': 42, 'Zanj': 43, 'South Africa': 44, 'Panama': 45,
+               'Guiana': 46, 'Kongo': 47, 'Guinea Coast': 48, 'Lake Tchad': 49, 'Niger River': 50, 'Senegambia': 51,
+               'Western Siberia': 52, 'Iran': 53, 'Arabia': 54, 'Caspian Sea': 55, 'Levant': 56, 'Barbary Coast': 57,
+               'Lower Nile': 58, 'Dnieper': 59, 'Crimea': 60, 'Anatolia': 61, 'Zalesye': 62, 'Vistula': 63, 'Plains': 64,
+               'Rio Grande': 65, 'Mississippi': 66, 'Canada': 67, 'Caribbean': 68, 'Eastern Seaboard': 69, 'South Atlantis Node': 70,
+               'Strait of Gibraltar': 71, 'Danube': 72, 'Aegean Sea': 73, 'Iberia': 74, 'Po Valley': 75, 'Rhineland': 76,
+               'West Mediterranean': 77, 'France': 78, 'Baltic Sea': 79, 'Adriatic Sea': 80, 'West Atlantis Node': 81, 'North Atlantis Node': 82, 'East Atlantis Node': 83, 'Channel': 84,
+               'Elbe': 85, 'Tyrrenean Sea': 86, 'Sahara': 87, 'North Sea': 88}
 #
 can_trigger_MAM_event_15 = ['east_africa', 'arabia', 'indian_ocean', 'western_india', 'southern_india']
 
