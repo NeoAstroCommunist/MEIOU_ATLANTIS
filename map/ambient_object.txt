@@ -38326,5 +38326,11 @@ object = {
 	position = { 4883.000 2.000 473.000 }
 	rotation = { 0.000 0.000 0.000 }
 }
+object = {
+	name = "pin_5889"
+	hidden_on_start = yes
+	position = { 2733.000 2.000 1792.000 }
+	rotation = { 0.000 0.000 0.000 }
+}
 }
 

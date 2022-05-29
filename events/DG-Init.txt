@@ -11,7 +11,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	immediate = {
-		set_global_flag = living_rome_pope
+		set_global_flag = DG_Live_Pope_in_Rome
 		regiongroup = {
 			region = {
 				limit = {
@@ -54,7 +54,7 @@ country_event = {
 						}
 						#Balkans
 						else_if = {
-							limit = { superregion = balkan_superregion }
+							limit = { superregion = balkan_superregion NOT = { area = aegean_area } }
 							if = {
 								limit = { culture = croatian }
 								if = {
@@ -270,6 +270,15 @@ country_event = {
 										religion2 = 38 rural2 = 0.04 urban2 = 0.20 notables2 = 0.10
 									}
 								}
+								else_if = { 
+									limit = { OR = { province_id = 258 province_id = 260 province_id = 3792 } }
+									MN_StartUpProv = {
+														rural0 = 0.62 urban0 = 0.15 notables0 = 0.15
+										religion1 = 1  rural1 = 0.35 urban1 = 0.60 notables1 = 0.72
+										religion2 = 38 rural2 = 0.03 urban2 = 0.15 notables2 = 0.10
+										religion3 = 11 rural3 = 0.00 urban3 = 0.10 notables3 = 0.03
+									}
+								}
 								else = {
 									MN_StartUpProv = {
 														rural0 = 0.62 urban0 = 0.20 notables0 = 0.15
@@ -320,7 +329,7 @@ country_event = {
 									limit = { OR = { province_id = 306 province_id = 1292 province_id = 1291 } }
 									MN_StartUpProv = {
 														rural0 = 0.94 urban0 = 0.80 notables0 = 0.90
-										religion1 = 72 rural1 = 0.15 urban1 = 0.10 notables1 = 0.00
+										religion1 = 60 rural1 = 0.15 urban1 = 0.10 notables1 = 0.00
 										religion2 = 18 rural2 = 0.05 urban2 = 0.05 notables2 = 0.00
 										religion3 = 38 rural3 = 0.01 urban3 = 0.05 notables3 = 0.10
 									}
@@ -366,10 +375,18 @@ country_event = {
 									}
 								}
 								else_if = {
-									limit = { culture = ruthenian }
+									limit = { culture = ruthenian NOT = { province_id = 1429 province_id = 1433 }}
 									MN_StartUpProv = {
 														rural0 = 0.98 urban0 = 0.90 notables0 = 0.90
 										religion1 = 38 rural1 = 0.02 urban1 = 0.10 notables1 = 0.10
+									}
+								}
+								else_if = {
+									limit = { culture = ruthenian OR = { province_id = 1429 province_id = 1433 } }
+									MN_StartUpProv = {
+														rural0 = 0.98 urban0 = 0.85 notables0 = 0.87
+										religion1 = 38 rural1 = 0.02 urban1 = 0.10 notables1 = 0.10
+										religion2 = 11 rural2 = 0.00 urban2 = 0.05 notables2 = 0.03
 									}
 								}
 							}
@@ -437,12 +454,24 @@ country_event = {
 							limit = { OR = { region = south_caucasus_region region = north_caucasus_region region = crimea_region } }
 							if = {
 								limit = { owner = { religion = sunni } }
-								MN_StartUpProv = {
-													rural0 = 0.55 urban0 = 0.20 notables0 = 0.25
-									religion1 = 18 rural1 = 0.30 urban1 = 0.65 notables1 = 0.70
-									religion2 = 11 rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
-									religion3 = 56 rural3 = 0.10 urban3 = 0.05 notables3 = 0.00
-									religion4 = 38 rural4 = 0.05 urban4 = 0.10 notables4 = 0.05
+								if = {
+									limit = { religion = orthodox }
+									MN_StartUpProv = {
+														rural0 = 0.55 urban0 = 0.20 notables0 = 0.25
+										religion1 = 18 rural1 = 0.30 urban1 = 0.65 notables1 = 0.70
+										religion2 = 11 rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
+										religion3 = 56 rural3 = 0.10 urban3 = 0.05 notables3 = 0.00
+										religion4 = 38 rural4 = 0.05 urban4 = 0.10 notables4 = 0.05
+									}
+								}
+								else = {
+									MN_StartUpProv = {
+														rural0 = 0.55 urban0 = 0.20 notables0 = 0.25
+										religion1 = 18 rural1 = 0.30 urban1 = 0.65 notables1 = 0.70
+										religion2 =  9 rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
+										religion3 = 56 rural3 = 0.10 urban3 = 0.05 notables3 = 0.00
+										religion4 = 38 rural4 = 0.05 urban4 = 0.10 notables4 = 0.05
+									}
 								}
 							}
 							else_if = {
@@ -455,13 +484,47 @@ country_event = {
 									religion4 = 56 rural4 = 0.10 urban4 = 0.05 notables4 = 0.00
 								}
 							}
+							else_if = {
+								limit = { owner = { religion = coptic } }
+								if = {
+									limit = { religion = orthodox }
+									MN_StartUpProv = {
+														rural0 = 0.65 urban0 = 0.30 notables0 = 0.25
+										religion1 = 11  rural1 = 0.05 urban1 = 0.45 notables1 = 0.70
+										religion2 = 18 rural2 = 0.15 urban2 = 0.10 notables2 = 0.00
+										religion3 = 38 rural3 = 0.05 urban3 = 0.10 notables3 = 0.05
+										religion4 = 56 rural4 = 0.10 urban4 = 0.05 notables4 = 0.00
+									}
+								}
+								else = {
+									MN_StartUpProv = {
+														rural0 = 0.65 urban0 = 0.30 notables0 = 0.25
+										religion1 =  9  rural1 = 0.05 urban1 = 0.45 notables1 = 0.70
+										religion2 = 18 rural2 = 0.15 urban2 = 0.10 notables2 = 0.00
+										religion3 = 38 rural3 = 0.05 urban3 = 0.10 notables3 = 0.05
+										religion4 = 56 rural4 = 0.10 urban4 = 0.05 notables4 = 0.00
+									}
+								}
+							}
 							else = {
-								MN_StartUpProv = {
-													rural0 = 0.70 urban0 = 0.75 notables0 = 0.90
-									religion1 = 11 rural1 = 0.15 urban1 = 0.10 notables1 = 0.02
-									religion2 = 18 rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
-									religion3 = 56 rural3 = 0.10 urban3 = 0.05 notables3 = 0.00
-									religion4 = 38 rural4 = 0.05 urban4 = 0.10 notables4 = 0.08
+								if = {
+									limit = { religion = orthodox }
+									MN_StartUpProv = {
+														rural0 = 0.70 urban0 = 0.75 notables0 = 0.90
+										religion1 = 11 rural1 = 0.15 urban1 = 0.10 notables1 = 0.02
+										religion2 = 18 rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
+										religion3 = 56 rural3 = 0.10 urban3 = 0.05 notables3 = 0.00
+										religion4 = 38 rural4 = 0.05 urban4 = 0.10 notables4 = 0.08
+									}
+								}
+								else = {
+									MN_StartUpProv = {
+														rural0 = 0.70 urban0 = 0.75 notables0 = 0.90
+										religion1 =  9 rural1 = 0.15 urban1 = 0.10 notables1 = 0.02
+										religion2 = 18 rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
+										religion3 = 56 rural3 = 0.10 urban3 = 0.05 notables3 = 0.00
+										religion4 = 38 rural4 = 0.05 urban4 = 0.10 notables4 = 0.08
+									}
 								}
 							}
 						}
@@ -711,7 +774,12 @@ country_event = {
 							}
 						}
 						else_if = {
-							limit = { superregion = anatolia_superregion }
+							limit = { 
+								OR = { 
+									superregion = anatolia_superregion 
+									area = aegean_area
+								}
+							}
 							if = {
 								limit = { owner = { religion = catholic } }
 								MN_StartUpProv = {
@@ -1169,35 +1237,35 @@ country_event = {
 								limit = { owned_by = BLU }
 								MN_StartUpProv = {
 													rural0 = 0.50 urban0 = 0.70 notables0 = 0.70
-									religion1 = 77 rural1 = 0.50 urban1 = 0.50 notables1 = 0.30
+									religion1 = 60 rural1 = 0.50 urban1 = 0.50 notables1 = 0.30
 								}
 							}
 							else_if = {
 								limit = { OR = { province_id = 1293 province_id = 1310 } }
 								MN_StartUpProv = {
 													rural0 = 0.95 urban0 = 0.95 notables0 = 0.98
-									religion1 = 77 rural1 = 0.05 urban1 = 0.05 notables1 = 0.02
+									religion1 = 60 rural1 = 0.05 urban1 = 0.05 notables1 = 0.02
 								}
 							}
 							else_if = {
 								limit = { OR = { province_id = 1307 province_id = 1311 province_id = 4016 } }
 								MN_StartUpProv = {
 													rural0 = 0.95 urban0 = 0.95 notables0 = 0.98
-									religion1 = 77 rural1 = 0.05 urban1 = 0.05 notables1 = 0.02
+									religion1 = 60 rural1 = 0.05 urban1 = 0.05 notables1 = 0.02
 								}
 							}
 							if = {
 								limit = { owned_by = WHI }
 								MN_StartUpProv = {
 													rural0 = 0.75 urban0 = 0.75 notables0 = 0.90
-									religion1 = 77 rural1 = 0.25 urban1 = 0.25 notables1 = 0.10
+									religion1 = 60 rural1 = 0.25 urban1 = 0.25 notables1 = 0.10
 								}
 							}
 							else_if = {
-								limit = { any_neighbor_province = { religion = tengri_pagan } }
+								limit = { any_neighbor_province = { religion = finnish_pagan } }
 								MN_StartUpProv = {
 													rural0 = 0.85 urban0 = 0.90 notables0 = 1.00
-									religion1 = 77 rural1 = 0.15 urban1 = 0.10 notables1 = 0.00
+									religion1 = 60 rural1 = 0.15 urban1 = 0.10 notables1 = 0.00
 								}
 							}
 							else_if = {
@@ -1205,6 +1273,17 @@ country_event = {
 								MN_StartUpProv = {
 													rural0 = 0.98 urban0 = 0.90 notables0 = 0.90
 									religion1 = 38 rural1 = 0.02 urban1 = 0.10 notables1 = 0.10
+								}
+							}
+							#Caucasus
+							else_if = {
+								limit = { region = north_caucasus_region }
+								MN_StartUpProv = {
+													rural0 = 0.55 urban0 = 0.70 notables0 = 0.88
+									religion1 = 9  rural1 = 0.20 urban1 = 0.10 notables1 = 0.02
+									religion2 = 11 rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
+									religion3 = 38 rural3 = 0.05 urban3 = 0.10 notables3 = 0.10
+									religion4 = 56 rural4 = 0.10 urban4 = 0.05 notables4 = 0.00
 								}
 							}
 							else_if = {
@@ -1272,13 +1351,13 @@ country_event = {
 							}
 							#Caucasus
 							else_if = {
-								limit = { OR = { region = south_caucasus_region region = north_caucasus_region region = crimea_region } }
+								limit = { OR = { region = south_caucasus_region region = crimea_region } }
 								MN_StartUpProv = {
 													rural0 = 0.55 urban0 = 0.70 notables0 = 0.88
 									religion1 = 9  rural1 = 0.20 urban1 = 0.10 notables1 = 0.02
 									religion2 = 11 rural2 = 0.10 urban2 = 0.05 notables2 = 0.00
 									religion3 = 38 rural3 = 0.05 urban3 = 0.10 notables3 = 0.10
-									religion4 = 47 rural4 = 0.10 urban4 = 0.05 notables4 = 0.00
+									religion4 = 56 rural4 = 0.10 urban4 = 0.05 notables4 = 0.00
 								}
 							}
 							#Anatolian Greeks
@@ -1465,15 +1544,17 @@ country_event = {
 							else_if = {
 								limit = { region = somalia_region }
 								MN_StartUpProv = {
-													rural0 = 0.90 urban0 = 0.95 notables0 = 0.99
+													rural0 = 0.65 urban0 = 0.80 notables0 = 0.95
 									religion1 = 11 rural1 = 0.10 urban1 = 0.05 notables1 = 0.01
+									religion2 = 62 rural2 = 0.25 urban2 = 0.15 notables2 = 0.04
 								}
 							}
 							else_if = {
-								limit = { region = ogo_region }
+								limit = { region = horn_region }
 								MN_StartUpProv = {
-													rural0 = 0.90 urban0 = 0.95 notables0 = 0.99
+													rural0 = 0.80 urban0 = 0.90 notables0 = 0.98
 									religion1 = 11 rural1 = 0.10 urban1 = 0.05 notables1 = 0.01
+									religion2 = 62 rural2 = 0.10 urban2 = 0.05 notables2 = 0.01
 								}
 							}
 							else_if = {
@@ -1504,7 +1585,7 @@ country_event = {
 								}
 							}
 							else_if = {
-								limit = { OR = { region = chad_region region = niber_benue_region } }
+								limit = { OR = { region = chad_region region = niger_benue_region } }
 								MN_StartUpProv = {
 													rural0 = 0.50 urban0 = 0.75 notables0 = 0.90
 									religion1 = 61 rural1 = 0.50 urban1 = 0.25 notables1 = 0.10
@@ -1600,7 +1681,7 @@ country_event = {
 						}
 						#the rest	
 					}
-					taoic = {
+					buddhism = {
 						if = {
 							limit = { religion = vajrayana }
 							if = {
@@ -2524,7 +2605,7 @@ country_event = {
 							}
 						}
 						else_if = {
-							limit = { religion = bukongo }
+							limit = { religion = waaq }
 							MN_StartUpProv = {
 												rural0 = 1.00 urban0 = 1.00 notables0 = 1.00
 							}
@@ -2937,15 +3018,25 @@ country_event = {
 						limit = { tag = NIC }
 						PAP = {
 							ReformingAspect = { typea = 14 valuea = -1 }
-							set_country_flag = french_curia
+							set_country_flag = French_Curia
 							set_country_flag = first_pope
-							Calc_Pap_Auth = yes
+							set_country_flag = Conclave_Underway
+							Calc_Pap_Auth = { scope = PAP }
+							define_ruler = {
+								regency = yes
+								name = "(Papal Conclave)"
+								#fixed = yes
+								ADM = 2
+								DIP = 2
+								MIL = 1
+							}
+							override_country_name = PAP_Start
+							country_event = { id = DG_Papacy.120 days = 45 }
 							#log = "PapAuth: [This.nto.GetValue]"
 						}
 						FRA = {
-							add_papal_influence = 150
+							add_papal_influence = 400
 							set_country_flag = papal_captor
-							#country_event = { id = DG_Papacy.165 days = 45 }
 						}
 					}
 					every_owned_province = {
@@ -3080,7 +3171,7 @@ province_event = {
 	
 	trigger = {
 		religion_group = christian
-		owner = { adm_tech = 13 religion_group = christian }
+		owner = { adm_tech = 25 religion_group = christian }
 		Banking = 100 
 		NOT = { has_global_flag = printing_press_g }
 		check_key = { lhs = Infra_Amenities value = 2 }
@@ -3095,6 +3186,7 @@ province_event = {
 		owner = {
 			set_global_flag = printing_press_g
 			set_country_flag = printing_press_c
+			add_reform_desire = 0.0005
 		}
 		set_province_flag = printing_press_p
 		if = {
@@ -3169,9 +3261,9 @@ province_event = {
 	option = {
 		name = "POP_DG.101.opta"
 		#add_years_of_income = -0.1
-		add_adm_power = 50
-		add_dip_power = 50
-		add_mil_power = 50
+		owner = { add_adm_power = 50 }
+		owner = { add_dip_power = 50 }
+		owner = { add_mil_power = 50 }
 	}
 	
 	option = {
@@ -3340,14 +3432,205 @@ country_event = {
 	
 	option = {
 		name = "POP_DG.101.opta"
-		#add_years_of_income = 0.1
-		add_adm_power = 50
-		add_dip_power = 50
-		add_mil_power = 50
+		ai_chance = {
+			factor = 30
+			modifier = {
+				owner = { capital_distance = { who = PAP distance = 260 } }
+				factor = 2
+			}
+			modifier = {
+				owner = { capital_distance = { who = PAP distance = 390 } }
+				factor = 2
+			}
+			modifier = {
+				owner = { NOT = { capital_distance = { who = PAP distance = 130 } } }
+				factor = 0.5
+			}
+			modifier = {
+				owner = { 
+					OR = {
+						is_emperor = yes
+						any_known_country = { is_elector = yes preferred_emperor = ROOT }
+					}
+					NOT = { any_known_country = { is_elector = yes religion = protestant } }
+				}
+				factor = 0.2
+			}
+			modifier = {
+				owner = { is_papal_controller = yes}
+				factor = 0.5
+			}
+			modifier = {
+				owner = { num_of_loans = 1 }
+				factor = 1.4
+			}
+			modifier = {
+				owner = { num_of_loans = 2 }
+				factor = 1.4
+			}
+			modifier = {
+				owner = { any_neighbor_country = { NOT = { religion_group = christian } } }
+				factor = 0.5
+			}
+			modifier = {
+				owner = { any_neighbor_country = { NOT = { religion = catholic religion = protestant religion = reformed } } }
+				factor = 0.5
+			}
+			modifier = {
+				owner = { any_known_country = { OR = { religion = hussite religion = gnostic religion = protestant religion = reformed } } }
+				factor = 1.4
+			}
+			modifier = {
+				owner = { dominant_religion = protestant }
+				factor = 2
+			}
+			modifier = {
+				owner = { government = republic }
+				factor = 0.5
+			}
+			modifier = {
+				factor = 0.1
+				owner = { capital_scope = { superregion = france_superregion } }
+			}
+			modifier = {
+				factor = 0
+				owner = { capital_scope = { superregion = italy_superregion } }
+			}
+			modifier = {
+				factor = 0
+				owner = { capital_scope = { superregion = iberia_superregion } }
+			}
+			modifier = {
+				factor = 2.75
+				owner = { capital_scope = { superregion = germany_superregion } }
+			}
+			modifier = {
+				factor = 0
+				owner = { capital_scope = { superregion = greater_austrian_circle_superregion } }
+			}
+			modifier = {
+				factor = 1.1
+				owner = { capital_scope = { superregion = balkan_superregion } }
+			}
+			modifier = {
+				factor = 3.00
+				owner = { government = theocracy capital_scope = { superregion = commonwealth_superregion } }
+			}
+			modifier = {
+				factor = 0.5
+				owner = { NOT = { government = theocracy  } capital_scope = { superregion = commonwealth_superregion } }
+			}
+			modifier = {
+				factor = 2.75
+				owner = { capital_scope = { superregion = scandinavian_superregion } }
+			}
+		}
+		Public_ChangePowerbrokerLoyaltyTooltipProv = { Powerbroker = CL Amount = -10 }
+		Public_ChangePowerbrokerLoyaltyTooltipProv = { Powerbroker = BG Amount = 10 }
+		add_reform_desire = 0.00001
 	}
 	
 	option = {
 		name = "POP_DG.101.optb"
-		Stab_Add50Percent = yes
+		ai_chance = {
+			factor = 30
+			modifier = {
+				owner = { has_global_flag = reformation_luther_martyred }
+				factor = 1.4
+			}
+			modifier = {
+				owner = { government = republic }
+				factor = 2
+			}
+			modifier = {
+				owner = { capital_distance = { who = PAP distance = 260 } }
+				factor = 0.7
+			}
+			modifier = {
+				owner = { capital_distance = { who = PAP distance = 390 } }
+				factor = 0.7
+			}
+			modifier = {
+				owner = { NOT = { capital_distance = { who = PAP distance = 130 } } }
+				factor = 1.4
+			}
+			modifier = {
+				owner = { 
+					exists = AVI
+					AVI = { papal_trigger = yes }
+				}
+				factor = 0.5
+			}
+			modifier = {
+				owner = { is_papal_controller = yes }
+				factor = 2
+			}
+			modifier = {
+				owner = { any_neighbor_country = { NOT = { religion_group = christian } } }
+				factor = 2
+			}
+			modifier = {
+				owner = { 
+					any_neighbor_country = {
+						NOT = {
+							OR = {
+								religion = catholic
+								religion = reformed
+								religion = protestant
+							}
+						}
+					}
+				}
+				factor = 2
+			}
+			modifier = {
+				owner = { 
+					OR = {
+						is_elector = yes
+						is_emperor = yes
+					}
+				}
+				factor = 2
+			}
+			modifier = {
+				factor = 2.00
+				owner = { capital_scope = { superregion = france_superregion } }
+			}
+			modifier = {
+				factor = 5.00
+				owner = { capital_scope = { superregion = italy_superregion } }
+			}
+			modifier = {
+				factor = 4.00
+				owner = { capital_scope = { superregion = iberia_superregion } }
+			}
+			modifier = {
+				factor = 0.75
+				owner = { capital_scope = { superregion = germany_superregion } }
+			}
+			modifier = {
+				factor = 2.00
+				owner = { capital_scope = { superregion = greater_austrian_circle_superregion } }
+			}
+			modifier = {
+				factor = 2.00
+				owner = { capital_scope = { superregion = balkan_superregion } }
+			}
+			modifier = {
+				factor = 0.50
+				owner = { government = theocracy capital_scope = { superregion = commonwealth_superregion } }
+			}
+			modifier = {
+				factor = 3.00
+				owner = { NOT = { government = theocracy  } capital_scope = { superregion = commonwealth_superregion } }
+			}
+			modifier = {
+				factor = 0.75
+				owner = { capital_scope = { superregion = scandinavian_superregion } }
+			}
+		}
+		Public_ChangePowerbrokerLoyaltyTooltipProv = { Powerbroker = CL Amount = 10 }
+		Public_ChangePowerbrokerLoyaltyTooltipProv = { Powerbroker = BG Amount = -10 }
+		add_reform_desire = -0.00001
 	}
 }

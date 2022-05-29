@@ -442,7 +442,7 @@ bourgogne_area = {
 }
 
 franc_comte_area = {
-	193 2366 4228 
+	193 2366 4228 5889
 }
 
 saintonge_area = {

@@ -859,6 +859,47 @@ high_germanic = {
 			Saga Sara Sibyl
 		}
 	}
+	german_bohemian = {
+		primary = BOH
+		
+		male_names = {
+			Adolf Albrecht Alfred Alvydas Anton Arelis Auctune August
+			Bajoras Beidras Benedikt Benjamin Budo
+			Dagonis Denis Diederick
+			Eckbert Ekkelis Emil Erwin
+			Ferdinand Florian Franz Friedrich
+			Galindas Galindo Gauronas Gebhard Gerdautas Glande Golding Gottfried
+			Hartmann Heinrich Helmut Horst
+			Jauguttis Joachim
+			Karatas Karl Kaspar Klukis Kugis Kurt
+			Leo Ludwig Lukas
+			Manfred Michael Milzas
+			Nikolaus Nomedas Oskar Otto
+			Philipp Prusas
+			Reiner Rudolf Rupprecht
+			Sergonis Siegfried Siegmund
+			Thomas
+			Ulinniks Ulitis Urs
+			Viktor
+			Werner Wilhelm
+		}
+		female_names = {
+			Betten
+			Dagas
+			Gelennis Gerkus Grasus Gulbis
+			Mila
+			Milyuns
+			Raphaela
+			Sabine
+			Vera
+			Weslikan
+			Ziedas
+		}
+		dynasty_names = {
+			"von Ballenstedt" "von Bernau"
+			"von Luxemburg"
+		}
+	}
 	alemanisch_colonial = {
 		
 	}
@@ -5029,47 +5070,39 @@ langue_d_oil = {
 	}
 	normand = {
 		primary = NRM
-		
 	}
 	picard = {
 		primary = ARS
-		
 	}
 	lorrain = {
 		primary = LOR
+	}
+	frainc-comtou = {
 		
 	}
 	bourguignon = {
 		primary = BUR
-		
 	}
 	poitevin = {
-		
 	}
-	normanbreasil = {
-		
+	angevin = {
+		primary = ANJ
 	}
-	
+	galo = {
+	}
 	frankish = {
 		primary = CYP
-		
 	}
 	french_colonial = {
-		
 	}
 	canadian = {
 		primary = QUE
-		
 	}
-	
-	angevin = {
-		primary = ANJ
-		
-	}
-	
 	anglois = {
 		primary = UEF
-		
+	}
+	normanbreasil = {
+	    
 	}
 	dynasty_names = {
 		Capet
@@ -6520,6 +6553,50 @@ greek_group = {
 			"von Winterthur"
 		}
 	}
+	laz = {
+		male_names = {
+			Aineias Alexandros Alexios Ambrosios Andronikos Aristoteles
+			Bartholomaios Basileios
+			Caesar Chrysanthos Constans Constantine Constantius Cosmas Cyril
+			David Diogenes Dionysos
+			Eirenaios Elpidios
+			Georgios Gregorios
+			Hektor Herakles Hermes Hippolytos Hypatios
+			Iakobos Iason Ignatios Ignatius Innokentios Ioannes Ioannikios Iordanes Ioseph Iosephos Ioulianos Ioustinianos Ioustinos Isaakios Isaias Isidoros
+			Jacob John Joseph Julian Justin Justinian
+			Kaisarios Kallinikos Kallistos Kastor Komitas Konstantinos Konstantios Konstas Kosmas Kreon Kyriakos Kyrillos Kyros
+			Laurence Laurentios Lazaros Leo Leon Leontios Leontius Loukas
+			Magnus Makarios Manuel Marcus Markos Matthaios Matthew Maurikios Maximos Maximus Megistos Meletios Methodios Michael
+			Narses Neophytos Nestor Nicholas Nikephoros Niketas Nikodemos Nikolaos Nikomedes Niphon
+			Orestes
+			Palaemon Pamphilios Pankratios Pantoleon Paschalis Paul Pavlos Pelagios Pelagius Peter Petros Philaretos Philemon Philip Philippos Philotheos Phokas Photios Polykarpos Porphyrios Procopius Prokopios Pyrros
+			Raphail Roman Romanos
+			Sabas Samuel Sebastian Sebastianos Serapion Sergios Sergius Simon Skantarios Staurakios Stefanos Stephanos Stephen Symeon Symmachos Symmachus
+			Theocharistos Theodat Theodore Theodoros Theodosios Theodotos Theodoulos Theoktistos Theophanes Theophilos Theophylaktos Thomas Tiberios Tiberius Timotheos Traianos Trajan Tryphon
+			Valerios Valerius
+			Zacharias Zenobios Zenon
+		}
+		female_names = {
+			Agape
+			Leontia
+			Marcia Margaret Margarita Maria Markia Martha Melisende Melissa
+			Nikarete Nikoletta Nonna
+			Parthena Paulina Pavlina Pelagia Petronia Philippa Photine Phyllis Pulcheria
+			Rhodanthe Romane Romylia
+			Sergia Sibylla Simonis Sophia Sotiria Stephania
+			Thekla Theochariste Theodora Theodosia Theognosia Theoktiste Theophano Thomais
+			Valeria Viviana
+			Xene
+			Zenobia
+		}
+		dynasty_names = {
+			Angelos
+			Doukas
+			Kantakouzenos Komnenos
+			Laskaris
+			Palaiologos
+		}
+	}
 	pontic = {
 		primary = TRE
 		male_names = {
@@ -6860,13 +6937,10 @@ georgian_group = {
 	}
 	zan = {
 	}
-	laz = {
-	}
 	mingrelian = {
 		primary = IME
 	}
-	abkhaz = {
-		primary = ABK
+	abkhazi = {
 	}
 	colonial_georgian = {
 	}
@@ -6935,7 +7009,7 @@ georgian_group = {
 }
 # culture count: 8
 caucasus_group = {
-	graphical_culture = easterngfx
+	graphical_culture = muslimgfx
 	dagestani = {
 		primary = GAZ
 		
@@ -6965,161 +7039,6 @@ caucasus_group = {
 			Gulandash
 			Havaa
 			Kamiila Kamiisa Kariina
-		}
-	}
-	circassian = {
-		primary = CIR
-		
-		male_names = {
-			Ademir Anzarouk Atsymtchouk
-			Baachik Belzebuk Bitemriouk Boudatcheis Bougatchik Boulgairouk
-			Chimgalei Cholokh Chopchouk
-			Damaniouk Daniel Domaniouk
-			Ezgbold
-			Iansokh Ildar Inarmas Isbouldoug
-			Kaitouk Kanboulat Kanchov Kanglytchev Kanoukov Kavklytch Kazanalp Kazy Khotokiouki Khoudenet Klytch Koudadik Koudenet Kounmourza
-			Machik Mait Moudar
-			Namstriouk Nartchov Nastriouk
-			Okhlov Olegouk Oslonbek Otchikan
-			Papchouk Parsabok Pchimakha Petrezok
-			Saltankoul Saouslan Sataltanmagnout Sibok Slanbek Smbat Sountchelei Stepanos Stephen
-			Tachat Tachbsaroukov Tanachouk Taniel Tatoul Tazriout Tazryt Tchapolov Tchiourak Temriouk Theodore Thomas Thoros Tigran Tornik Toutaryk Tovmas Trdat
-			Vachagan Vache Vagharshak Vahag Vahan Vahram Vakhtank Varazdat Vartan Vassak Verzacht Vesd Vrtanes
-			Zakare Zarmihr
-		}
-		female_names = {
-			Adrine
-			Babishe
-			Elsapet
-			Khazbiika Kheeda Kurbiika
-			Laila Laliita Lamaara Liiza Looli Lulii
-			Maali Maaret Madiina Makka Maliika Malkan Marjam Marzhan Milaana
-			Nurbiika Nurishat Nuura
-			Peet'mat
-			Qoqa
-			Sarine Susane
-			Zmroukhd Zuliyzhan
-		}
-		dynasty_names = {
-			Abzakh Adamiy
-			Beslenei
-			Cöbein
-			Guaye
-			Hatuqwai
-			Khegaik Khetuk
-			Mamkhegh Mokhosh
-			Natukhai
-			Okhlov
-			Shapsug
-			Tazryt Temirgoy
-			Ubykh
-			Zhaney
-		}
-	}
-	abazin = {
-		primary = ABZ
-		
-		male_names = {
-			Ademir Anzarouk Atsymtchouk
-			Baachik Belzebuk Bitemriouk Boudatcheis Bougatchik Boulgairouk
-			Chimgalei Cholokh Chopchouk
-			Damaniouk Daniel Domaniouk
-			Ezgbold
-			Iansokh Ildar Inarmas Isbouldoug
-			Kaitouk Kanboulat Kanchov Kanglytchev Kanoukov Kavklytch Kazanalp Kazy Khotokiouki Khoudenet Klytch Koudadik Koudenet Kounmourza
-			Machik Mait Moudar
-			Namstriouk Nartchov Nastriouk
-			Okhlov Olegouk Oslonbek Otchikan
-			Papchouk Parsabok Pchimakha Petrezok
-			Saltankoul Saouslan Sataltanmagnout Sibok Slanbek Smbat Sountchelei Stepanos Stephen
-			Tachat Tachbsaroukov Tanachouk Taniel Tatoul Tazriout Tazryt Tchapolov Tchiourak Temriouk Theodore Thomas Thoros Tigran Tornik Toutaryk Tovmas Trdat
-			Vachagan Vache Vagharshak Vahag Vahan Vahram Vakhtank Varazdat Vartan Vassak Verzacht Vesd Vrtanes
-			Zakare Zarmihr
-		}
-		female_names = {
-			Adrine
-			Babishe
-			Elsapet
-			Khazbiika Kheeda Kurbiika
-			Laila Laliita Lamaara Liiza Looli Lulii
-			Maali Maaret Madiina Makka Maliika Malkan Marjam Marzhan Milaana
-			Nurbiika Nurishat Nuura
-			Peet'mat
-			Qoqa
-			Sarine Susane
-			Zmroukhd Zuliyzhan
-		}
-		dynasty_names = {
-			Abzakh Adamiy
-			Beslenei
-			Cöbein
-			Guaye
-			Hatuqwai
-			Khegaik Khetuk
-			Mamkhegh Mokhosh
-			Natukhai
-			Okhlov
-			Shapsug
-			Tazryt Temirgoy
-			Ubykh
-			Zhaney
-		}
-	}
-	ossetian = {
-		primary = OSS
-		
-		# male and female names courtesy of Aasamul of the SWMH team on the HIP mod
-		male_names = {
-			Aghsartan Akhsar Alatey Anbal Anbazuk Aravat Arsen Ashot_Ashot Askhkadar Aslan Aspar Athom
-			Ælbeg Æmbalan
-			Balambar Balsag Barlah Basil_Basil Bazuk Beler Ber Biræg Boz-Uruz Buriberdi Burikhan Buürgur Bæqætar
-			Candak Chelakhsartag
-			Davit_David Djadaron Durgulel Dzæræs
-			Georgy_George Girgon Gokhar Gubaz Guram_Guaram Gætæg
-			Hasqar Huddan
-			Istor Itaz Iveri
-			Kandak Kandz Kaur Kavtia Khankhusy Khætag Konstantin_Constantine Kubal Kuddana Kul Kuluk
-			Lak Levan_Leo
-			Pulad
-			Respendial Rosmag
-			Safrak Sakhir Sangipan Saros Sathis Savkudz Soslan Suarn Syrdon
-			Taus Taymuraz_Teimuraz Totraz
-			Urdure Uruzma Uturku
-			Yasynya
-			Zaur
-		}
-		female_names = {
-			Adadza Alda_Alduara Altun Ana_Anna Atsyrukhs
-			Baia Bedisa Borena Btsenon Burudukan
-			Duda
-			Elene_Helen Eliso
-			Gergana Gulchara Guranduht_Gorandukht
-			Kera Keratsa Ketevan_Catherine Koser
-			Lamara Lashin Lela
-			Mariami_Mariam
-			Natia Nino
-			Rusudan
-			Sanatha Satinik_Satinik Shatana Shorena Shukhia
-			Tamari_Tamar Tinatini Tsiala
-			Vardo Vedokha
-			Yeran
-		}
-		dynasty_names = {
-			# CKII - Alan
-			Aelbeg Alauni Ardasen
-			Bekkuyzar Burtasid
-			Djerdji Djykkaj Dzarehoh Dzeby
-			Ephraimid
-			Faerniat
-			Geber Godjysa Guyrdzybe
-			Haedarca Halani Hetaegkat
-			Kaerkuys
-			Maerzoj Magket
-			Ovseti
-			Paerraesta
-			Sathisi Senty Shoana Sozana
-			Tandelat Totrazi Tsaerasantae Tsaeykostae Tuallaeg
-			Zaendji Zmbalani
 		}
 	}
 	chechen = {
@@ -7236,6 +7155,57 @@ caucasus_group = {
 			Tindi Tokita
 		}
 	}
+	tsez = {
+		primary = AVR
+		
+		male_names = {
+			Abukhisro Akhsar Akhsuvar Alatey Alp Anbal Anbazuk Aravat Arsen Ashot_Ashot Askhkadar Aslan Aspar Athom Avaz Awach'i
+			Badr Balambar Balsag Barlah Basil_Basil Bazuk Beler Ber Biræg Boz-Uruz Bukht-Yisho Buriberdi Burikhan Buürgur Bæqætar
+			Candak Chelakhsartag
+			Davit_David Djadaron Durgulel Dzæræs
+			Firudzha
+			Georgy_George Girgon Gokhar Gubaz Guram_Guaram Gætæg
+			Hasqar Huddan
+			Istor Itaz Iveri
+			Kandak Kandz Kaur Kavtia Khankhusy Khætag Konstantin_Constantine Kubal Kuddana Kul Kuluk
+			Lak Levan_Leo
+			Piruz Pulad
+			Respendial Rosmag
+			Safrak Sakban Sakhir Sangipan Saros Sathis Savkudz Soslan Suarn Syrdon
+			Takho Taus Taymuraz_Teimuraz Totraz
+			Urdure Uruzma Uturku
+			Yasynya
+			Zaur
+		}
+		female_names = {
+			Adadza Alda Altun Ana_Anna Atsyrukhs
+			Baia Bedisa Borena Btsenon Burudukan
+			Duda
+			Elene_Helen Eliso
+			Gergana Gulchara Guranduht_Gorandukht
+			Kera Keratsa Ketevan_Catherine Koser
+			Lamara Lashin Lela
+			Mariami_Mariam
+			Natia Nino
+			Rusudan
+			Sanatha Sarah Satinik_Satinik Shatana Shorena Shukhia
+			Tamari_Tamar Tinatini Tsiala
+			Vardo Vedokha
+			Yeran
+		}
+		dynasty_names = {
+			#Ethnic subgroups of Avars. If you find something better, please replace
+			Akhvakh Anchikh Andis Archin
+			Bagulal Bezhta Botlikh
+			Chamalal
+			Didoi
+			Godoberi
+			Hinukhs Hunzib
+			Karata Khvarshi
+			Rachabalda Ratsitl
+			Tindi Tokita
+		}
+	}
 	lezgian = {
 		
 		male_names = {
@@ -7260,7 +7230,7 @@ caucasus_group = {
 			Hatuqwai Khegaik Khetuk Cöbein Shapsug Beslenei Ubykh Tazryt Okhlov
 		}
 	}
-	udi = {
+	dargin = {
 		
 		male_names = {
 			Petrezok Verzacht Belzebuk Parsabok Smbat Stepanos Stephen Tachat Taniel Daniel Tatoul Tigran 
@@ -7284,8 +7254,7 @@ caucasus_group = {
 			Hatuqwai Khegaik Khetuk Cöbein Shapsug Beslenei Ubykh Tazryt Okhlov
 		}
 	}
-	kabardian = {
-		primary = KBR
+	udi = {
 		
 		male_names = {
 			Petrezok Verzacht Belzebuk Parsabok Smbat Stepanos Stephen Tachat Taniel Daniel Tatoul Tigran 
@@ -7547,6 +7516,89 @@ magyar = {
 			"von Salza" "von Schönberg" "von Schönburg" "von Scheidingen" "von Schleinitzstrasse" "von Schlotheim" "von Schwarzburg" "von Sternberg" "von Stolberg"
 			"von Taube" "von Tettau" "von Thüna" "von Thüringen" "von Trützschler"
 			"von Wackerbarth" "von Werthern" "von Westernhagen" "von Wettin" "von Wiehe" "von Wolffersdorff"
+		}
+	}
+	cuman_m = {
+		male_names = {
+			Abagha Achigh Aguchu Ajai Ajinai Akhutai Alagh Alchi Alchidai Altan Ambaghai Arkhai Arasen 
+			Babur Badai Bagaridai Bala Barghujin Bartan Batu Bedugun Begter Belgutei Belgunutei Bilge Berke 
+			Bodonchar Bogen Bogorchu Bolkhadar Borjigidai Boroghul Bughu Bugidai Bugunutei Bujeg Bukha 
+			Bulughan Buri Burkhan Burundai Chagatai Chaghagan Chanai Chigu Chidukhul Chilagun Chiledu 
+			Chormakhan Chulgetei Dagun Daritai Dayir Dodai Duua Eljigedei Ghazan Ghunan Guchu Gughlug Guyug 
+			Harghasun Horkhudagh Hulegu Husun Inalchi Inancha Iturgen Jajiradai Jamugha Jebe Jochi 
+			Jurchedei Khabichi Khachi Khachigun Khadagh Khagatai Khaidu Khal Khorchi Khorilartai Khubilai 
+			Khudu Khutula Khuyildar Kogsegu Kokochu Megetu Megujin Menggei Mongke Morokha Munglig Nakhu 
+			Narin Nayaga Nogai Odchigin Ogodei Okhotur Oljaitu Oronartai Shiraghul Shirgugetu Subetei 
+			Suyiketu Taghai Tamachi Targhutai Temuge Temujin Temur Todogen Toghoril Toghtoga Tokhtamis 
+			Tolui Torolchi Tumen Uighurtai Ukhuna Usun Yedi Yegu Yeke Yesugei Yesunge Yokhunan Kadan Godan
+			# PECHENEG
+			Çelgil Aba Baitzas Balgor Batan Batas Bator Bayça Biçkili Bizel Boru Bula Giazis Ildey Ipa Ipaos 
+			Kabuksin Karaca Kaydum Kegen Konel
+			Korkutan Kortan Kostas Kourkoutai Kuerçi Kugel Kure Sol Suru Tatus Teber Temir Tyrach Yavdi Yazi 
+			# CUMAN / KARLUK / KIRGHIZ
+			Çilbu Aepak Asalup Asep Atrak Bönek Bachman Begluk Blush Bonyak Borç Eldeçyuk Etrek Girgen Gzi 
+			Itlar Ituk Könçek Kobyak Kopti Kotyan Koza Kozel Kubasar Kuntuvdi Kutan Pulad Saru Sevenç Sirçan 
+			Sokal Sotan Sugr Törtogul Togli Tolun Tugor Uzluk Uzur
+			# AVAR
+			Almish Alp Alzek Anzi Apskhih Araslan Arslan Asparukh Bagha Baghatur Balambär Balambar Barjik 
+			Bars Barsbek Bashtwa Bastu Bataul Batbayan Batoya Batulia Bayan Belkermak Bezmer Bihor Boyan Bugha 
+			Bughra Bulan Bulger Bulçan Busir Buzan Buzer Bälgiçi Böri 
+			Chepa Chinialush Dengizikh Dizeng Dometa Dristar Drong Dukum Elemag Ellak Ernakh Eskhakh Goleda 
+			Gostun Guar Hudbad Iani Ilik Iltäbär Irnek Isbul Islivan Isperikh Ispor Itakh Kamaj Kano Karadakh 
+			Karan Karaton Kardam Kayghalagh Kharaton Khatir Khinialon 
+			Khudbard Khuterkin Kibar Kisa Kordil Kormesiy Kormisosh Kotrag Krovat Krum Kuber Kubrat Kundaç 
+			Kundaçiq Kurt Kutrigur Kälaç Labertam Magotin Malamir Mugel Mänär Mänäs Mënümarót Odolgan Okhsi 
+			Okhsun Okors Omurtag Onegavon Organ Organa Ornag 
+			Oshi Ostro Pagan Pakhtiyar Bakhtiar Papaçyz Paväl Praksa Rassate Rugila Sabin Samsam Sandil 
+			Sandilkh Sarkhan Sartäç Savin Sevar Shilki Simsam Sondoke Tabghaç Tarasiy Taridin Tarkhan Tarmaç 
+			Tatra Telec Telerig Tervel Timër Timur Timëreç Timërpälat 
+			Tingiz Tiradin Toghan Toghrïl Toghrul Tokhtaman Toktu Tsog Tsul Tuk Tuzniq Täbär Teber Tähtaman 
+			Umor Uturgur Vakrim Venda Vetam Vinekh Yabghu Yani Yavantey Yençepi Yerneslu Yeçtirek Yilig 
+			Zabergan Zenti Çat Çat'n Çorpan Ötemis
+		}
+		female_names = {
+			Al-Alta Alan Altani Borte Botokhui Bulughan Chabi Chagur Chakha Checheyigen Chotan Doregene 
+			Doquz Ebegei Gurbesu Hogelun Holuikhan Ibakha Khadagan Khogaghchin Khojin Khorijin Khugurchin 
+			Khulan Mandukhai Mongoljin Nomolun Oghul Orbei Sokhatai Sorkhaghatani Tekine Temulun Töregene 
+			Yesugun Yesui Hoelun
+			# PECHENEG
+			Çiçek Çilen Çiltanesi Özgul Özlem Akgul Asli Ayasun Ayten Bozçin Dilek Esin Gulçiçek Gulay 
+			Gunduz Gundes Gunes Ilkay Ipek Ipekel Irge Karacik Mala Mutlu Peksen Samur Sarica Sati Sevilay 
+			Sevindik Sibel Sirin Sirma Songul Tekçe Tura Umay Usunbike Yasar Yeldem Yildiz
+			# CUMAN
+			Çiçek Çilen Çiltanesi Özgul Özlem Akgul Asli Ayasun Ayten Bozçin Dilek Esin Gulçiçek Gulay Gunduz 
+			Gundes Gunes Ilkay Ipek Ipekel Irge Karacik Mala Mutlu Peksen Samur Sarica Sati Sevilay Sevindik 
+			Sibel Sirin Sirma Songul Tekçe Tura Umay Usunbike Yasar Yeldem Yildiz
+			# KHAZAR / BOLGHAR
+			Çiçäk Çiçek Çeçeppi Çeçki Çeçtilet Çilen Çiltanesi Özgul Özlem Akgul Asli Ayasun Ayten Bozçin Dilek 
+			Esin Gulçiçäk Gulçiçek Gulay Gunduz Gundes Gunes Ikalay Ilkay Ipek Ipekel Irge 
+			Karacik Kätyarikka Këlnissa Këlyamal Khatun Lärkka Lyukha Mala Maturkka Mutlu Naça Parsbit Patiyer 
+			Paykëlti Peksen Puyantay Samur Sarantay Sarä Sarica Sarikel 
+			Sati Savaçka Savkëlti Savtilek Savilay Sevilay Savintik Sevindik Shurkka Sibel Sirin Sirma Songul 
+			Tähtani Tekçe Tura Umay Usunbike Yasar Yeldem Yildiz Yartilek
+			# AVAR
+			Akgul Asli Ayasun Ayten Bozçin Dilek Esin Gulay Gulçiçäk Gulçiçek Gundes Gunduz Gunes Ikalay Ilkay 
+			Ipek Ipekel Irge Karacik Khatun Kätyarikka Këlnissa Këlyamal Lyukha Lärkka Mala Maturkka Mutlu Naça 
+			Parsbit Patiyer Paykëlti Peksen Puyantay Samur Sarantay Sarica Sarikel Sarä Sati Savaçka Savilay 
+			Sevilay Savintik Sevindik Savkëlti Savtilek Shurkka Sibel Sirin Sirma Songul Tekçe Tura Tähtani 
+			Umay Usunbike Yartilek Yasar Yeldem Yildiz Çeçeppi Çeçki Çeçtilet Çilen Çiltanesi Çiçäk Çiçek Özgul 
+			Özlem
+		}
+		dynasty_names = {
+			Almásy Andrássy
+			Báthory Batthyány Bethlen Bocskai
+			Csáky
+			Dessewffy
+			Erdody Eszterházy
+			Festetics
+			Hajdú Hunyadi
+			Károlyi Kun
+			Magyary
+			Perényi
+			Rákóczy Rónai
+			Széchenyi Szapolyai Szepessy
+			Teleki Thököly Tisza
+			Zrínyi
 		}
 	}
 	magyar_colonial = {

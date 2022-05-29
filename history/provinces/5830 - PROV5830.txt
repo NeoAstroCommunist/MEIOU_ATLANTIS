@@ -1,6 +1,6 @@
-owner = BGG
-controller = BGG
-add_core = BGG
+owner = BG1
+controller = BG1
+add_core = BG1
 
 capital = "Calool"
 trade_goods = lumber 
